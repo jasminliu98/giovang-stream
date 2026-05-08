@@ -499,14 +499,6 @@ def get_stream_url(match_id: str) -> str | None:
     return STREAM_TPL.format(id=match_id)
 
 
-def verify_stream(url: str) -> bool:
-    """HEAD request kiểm tra stream còn sống không."""
-    try:
-        r = requests.head(url, headers=HEADERS, timeout=6, allow_redirects=True)
-        return r.status_code in (200, 206)
-    except Exception:
-        return False
-
 
 # ─────────────────────────────────────────────────────────────────────────────
 # BUILD CHANNEL JSON — giống cakhia
