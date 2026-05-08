@@ -21,12 +21,6 @@ def now_vn() -> datetime:
 
 
 def parse_kickoff(time_str: str, date_str: str = ""):
-    """
-    Parse giờ + ngày từ API giovang.
-    time_str: "22:00"
-    date_str: "09/05" hoặc "09/05/2026"
-    Trả về datetime aware (VN tz) hoặc None.
-    """
     if not time_str or not time_str.strip():
         return None
 
@@ -41,14 +35,12 @@ def parse_kickoff(time_str: str, date_str: str = ""):
         return None
 
     if d:
-        # "09/05/2026"
         m3 = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4})", d)
         if m3:
             try:
                 return datetime(int(m3.group(3)), int(m3.group(2)), int(m3.group(1)), hh, mm, tzinfo=VN_TZ)
             except ValueError:
                 pass
-        # "09/05"
         m2 = re.match(r"(\d{1,2})/(\d{1,2})$", d)
         if m2:
             try:
@@ -56,7 +48,6 @@ def parse_kickoff(time_str: str, date_str: str = ""):
             except ValueError:
                 pass
 
-    # Chỉ có giờ → dùng ngày hôm nay
     try:
         return datetime(today.year, today.month, today.day, hh, mm, tzinfo=VN_TZ)
     except ValueError:
@@ -64,7 +55,6 @@ def parse_kickoff(time_str: str, date_str: str = ""):
 
 
 def calc_is_live(status_code: str, time_str: str, date_str: str) -> bool:
-    """True nếu status_code là đang thi đấu, HOẶC còn trong 15p trước KO."""
     live_codes = {"1H", "2H", "HT", "PEN", "LIVE", "ET"}
     if status_code in live_codes:
         return True
@@ -93,7 +83,6 @@ THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
 THUMB_VERSION = "v1"
 
-# Môn thể thao — type từ API
 CATE_MAP = {
     "football":   "⚽ Bóng Đá",
     "basketball": "🏀 Bóng Rổ",
@@ -105,11 +94,9 @@ CATE_MAP = {
     "bongchay":   "⚾ Bóng Chày",
 }
 
-# Thứ tự group trong output
 CATE_ORDER = ["football", "basketball", "tennis", "bongchuyen",
               "esport", "caulong", "vothuat", "bongchay"]
 
-# Lọc giải châu Mỹ (bóng đá)
 EXCLUDE_LEAGUES_AMERICA = [
     "mls", "major league soccer",
     "liga mx", "liga de expansion",
@@ -154,7 +141,6 @@ def parse_time_sort(time_str: str, date_str: str) -> int:
 
 
 def is_within_24h(time_str: str, date_str: str, cate_type: str = "football") -> bool:
-    """Bóng đá: chỉ hiển thị trận trong 24h tới và tối đa 6h đã qua. Môn khác: True luôn."""
     if cate_type != "football":
         return True
     kickoff = parse_kickoff(time_str, date_str)
@@ -167,7 +153,7 @@ def is_within_24h(time_str: str, date_str: str, cate_type: str = "football") -> 
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# THUMBNAIL — giữ nguyên logic cakhia
+# THUMBNAIL
 # ─────────────────────────────────────────────────────────────────────────────
 
 def make_thumbnail(match, channel_id):
@@ -263,10 +249,15 @@ def make_thumbnail(match, channel_id):
     if match.get("team_b"):
         draw_team_name(match["team_b"], W * 3 // 4)
 
-    if match.get("time"):
-        draw.text((W // 2 + 4, time_y + 4), match["time"],
+    # Cắt giờ từ "01:30:00" thành "01:30"
+    time_display = match.get("time", "")
+    if time_display and len(time_display.split(":")) == 3:
+        time_display = ":".join(time_display.split(":")[:2])
+
+    if time_display:
+        draw.text((W // 2 + 4, time_y + 4), time_display,
                   fill=ACCENT, font=font_time, anchor="mm")
-        draw.text((W // 2, time_y), match["time"],
+        draw.text((W // 2, time_y), time_display,
                   fill=(15, 15, 15), font=font_time, anchor="mm")
 
     if match.get("league"):
@@ -343,7 +334,6 @@ def cleanup_old_thumbs(days: int = 3):
 # ─────────────────────────────────────────────────────────────────────────────
 
 def fetch_json(url: str) -> list:
-    """Fetch API giovang, trả về list response[]."""
     try:
         t   = int(time.time() * 1000)
         res = requests.get(f"{url}?t={t}", headers=HEADERS, timeout=15)
@@ -359,8 +349,6 @@ def fetch_json(url: str) -> list:
 # ─────────────────────────────────────────────────────────────────────────────
 
 def get_blv_names(blv_list: list) -> str:
-    """Lấy tên BLV từ danh sách key, bỏ 'nha-dai'."""
-    # BLV name map — lấy từ commentatorsList trong HTML
     BLV_NAME_MAP = {
         "blv-perry":         "BLV Perry",
         "blv-1":             "BLV Ngỗng",
@@ -394,19 +382,9 @@ def get_blv_names(blv_list: list) -> str:
 
 
 def get_matches() -> list:
-    """
-    Merge live.json + all.json, lọc và chuẩn hóa thành list match.
-    Logic lọc giống cakhia:
-      - Bỏ trận có blv chứa 'nha-dai'
-      - Bỏ trận không có BLV thực
-      - Bỏ giải châu Mỹ (bóng đá)
-      - Bỏ trận ngoài cửa sổ 24h (bóng đá)
-      - Bỏ trận đã kết thúc (FT)
-    """
     live_items = fetch_json(API_LIVE)
     all_items  = fetch_json(API_ALL)
 
-    # Dedup theo id: live ưu tiên hơn all
     seen = {}
     for item in live_items:
         seen[item.get("id")] = item
@@ -421,7 +399,7 @@ def get_matches() -> list:
         status_code = item.get("status_code", "NS")
         blv_list    = item.get("blv") or []
         time_str    = item.get("time", "")
-        date_str    = item.get("day_month", "")    # "09/05"
+        date_str    = item.get("day_month", "")
         league_obj  = item.get("league") or {}
         league_name = league_obj.get("title", "")
         league_icon = league_obj.get("icon", "")
@@ -436,24 +414,19 @@ def get_matches() -> list:
         if not match_id:
             continue
 
-        # Bỏ trận đã kết thúc
         if status_code == "FT":
             continue
 
-        # Bỏ nếu có nhà đài trong BLV
         if "nha-dai" in blv_list:
             continue
 
-        # Bỏ nếu không có BLV thực
         real_blv = [b for b in blv_list if b != "nha-dai"]
         if not real_blv:
             continue
 
-        # Bỏ giải châu Mỹ (chỉ bóng đá)
         if cate_type == "football" and is_america_league(league_name):
             continue
 
-        # Lọc cửa sổ 24h (chỉ bóng đá)
         if not is_within_24h(time_str, date_str, cate_type):
             continue
 
@@ -483,7 +456,6 @@ def get_matches() -> list:
             "is_hot_top": item.get("is_hot_top", 0),
         })
 
-    # LIVE lên đầu → sort theo giờ tăng dần
     matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
     return matches
 
@@ -493,15 +465,40 @@ def get_matches() -> list:
 # ─────────────────────────────────────────────────────────────────────────────
 
 def get_stream_url(match_id: str) -> str | None:
-    """Ghép stream URL từ match_id. Trả None nếu không build được."""
     if not match_id:
         return None
     return STREAM_TPL.format(id=match_id)
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# VERIFY STREAM
+# ─────────────────────────────────────────────────────────────────────────────
+
+def verify_stream(url: str, timeout: int = 10) -> bool:
+    try:
+        res = requests.head(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
+        if res.status_code == 200:
+            return True
+        res = requests.get(url, headers=HEADERS, timeout=timeout, stream=True, allow_redirects=True)
+        if res.status_code != 200:
+            res.close()
+            return False
+        ct = res.headers.get("Content-Type", "")
+        if "mpegurl" in ct.lower() or "m3u8" in ct.lower():
+            res.close()
+            return True
+        chunk = next(res.iter_content(chunk_size=1024), b"")
+        res.close()
+        if b"#EXTM3U" in chunk or b"#EXT-X-" in chunk:
+            return True
+        return False
+    except Exception as e:
+        print(f"    verify error: {e}")
+        return False
+
 
 # ─────────────────────────────────────────────────────────────────────────────
-# BUILD CHANNEL JSON — giống cakhia
+# BUILD CHANNEL JSON
 # ─────────────────────────────────────────────────────────────────────────────
 
 def build_channel(match: dict, stream_url: str, thumb_url: str = "") -> dict:
@@ -593,7 +590,6 @@ def main():
     live_count = sum(1 for m in matches if m["is_live"])
     print(f"Tong: {len(matches)} | LIVE: {live_count} | Sap: {len(matches) - live_count}\n")
 
-    # Khởi tạo sẵn tất cả môn để cố định thứ tự group
     cate_channels = {cate: [] for cate in CATE_ORDER}
 
     for i, match in enumerate(matches):
@@ -607,15 +603,13 @@ def main():
             raw_url = get_stream_url(match["match_id"])
             print(f"    stream URL: {raw_url}")
 
-            # Kiểm tra stream còn sống không
             if raw_url and verify_stream(raw_url):
                 stream_url = raw_url
                 print(f"    stream: OK")
             else:
-                print(f"    stream: DEAD → bo qua")
+                print(f"    stream: DEAD -> bo qua")
                 continue
 
-        # Thumbnail
         uid       = make_id(match["match_id"], "gv")
         cache_key = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
         logo_hash = hashlib.md5(cache_key.encode()).hexdigest()[:8]
@@ -632,7 +626,6 @@ def main():
 
         time.sleep(0.1)
 
-    # Build groups
     groups = []
     for cate_type in CATE_ORDER:
         channels = cate_channels.get(cate_type, [])
@@ -653,7 +646,6 @@ def main():
             "channels":      channels,
         })
 
-    # Xử lý type lạ chưa có trong CATE_ORDER
     for cate_type, channels in cate_channels.items():
         if cate_type not in CATE_ORDER and channels:
             live_cnt  = sum(1 for ch in channels
@@ -678,7 +670,6 @@ def main():
         "groups":      groups,
     }
 
-    # Ghi staging rồi so sánh
     staging = "output_staging.json"
     with open(staging, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
