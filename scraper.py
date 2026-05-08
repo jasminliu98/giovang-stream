@@ -461,7 +461,7 @@ def get_matches() -> list:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# GET LIVE URL (API CHI TIẾT)
+# GET LIVE URL (API CHI TIẾT) - ĐÃ SỬA LỖI BỌC "RESPONSE"
 # ─────────────────────────────────────────────────────────────────────────────
 
 def get_live_url(match_id: str) -> str | None:
@@ -473,7 +473,16 @@ def get_live_url(match_id: str) -> str | None:
         res = requests.get(url, headers=HEADERS, timeout=10)
         data = res.json()
         
-        blv_list = data.get("blv", [])
+        # Xử lý trường hợp API bọc dữ liệu trong key "response"
+        fixture_data = data
+        if isinstance(data, dict) and "response" in data:
+            fixture_data = data["response"]
+            # Nếu response là list thì lấy object đầu tiên
+            if isinstance(fixture_data, list) and len(fixture_data) > 0:
+                fixture_data = fixture_data[0]
+                
+        blv_list = fixture_data.get("blv", []) if isinstance(fixture_data, dict) else []
+        
         if isinstance(blv_list, list):
             for blv in blv_list:
                 if isinstance(blv, dict):
