@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fa89619743",
-          "name": "Levante vs Osasuna | 02:00:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fa89619743",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fa89619743",
-                  "name": "Levante vs Osasuna",
-                  "streams": [
-                    {
-                      "id": "st-fa89619743",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-05bc71e6c7",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778223154_hd/1778223154_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Levante",
-            "team_b": "Osasuna",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb1MjWoiMdvJfSDau8Sr0oLyraHgsLok924w&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/53/Ca_osasuna.png",
-            "time": "02:00:00",
-            "date": "09/05",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fa89619743_684b0000_20260509.png?v=684b0000",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cfddc517de",
           "name": "Jeju United FC vs FC Seoul | 12:00:00 09/05",
