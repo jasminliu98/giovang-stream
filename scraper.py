@@ -77,11 +77,11 @@ HEADERS = {
 BASE_URL      = "https://giovang.fun"
 API_LIVE      = "https://live-api.keovip88.net/storage/livestream/live.json"
 API_ALL       = "https://live-api.keovip88.net/storage/livestream/all.json"
-STREAM_TPL    = "https://sgtdrxtdjeliv.vcdn.cloud/{id}_hd/{id}_hd@720p.m3u8"
+API_DETAIL    = "https://live-api.keovip88.net/api/fixtures/"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v2"
+THUMB_VERSION = "v1"
 
 CATE_MAP = {
     "football":   "⚽ Bóng Đá",
@@ -461,13 +461,29 @@ def get_matches() -> list:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# STREAM URL
+# GET LIVE URL (API CHI TIẾT)
 # ─────────────────────────────────────────────────────────────────────────────
 
-def get_stream_url(match_id: str) -> str | None:
+def get_live_url(match_id: str) -> str | None:
+    """Gọi API chi tiết để lấy link_stream_hd thực tế."""
     if not match_id:
         return None
-    return STREAM_TPL.format(id=match_id)
+    try:
+        url = f"{API_DETAIL}{match_id}"
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        data = res.json()
+        
+        blv_list = data.get("blv", [])
+        if isinstance(blv_list, list):
+            for blv in blv_list:
+                if isinstance(blv, dict):
+                    hd_link = blv.get("link_stream_hd")
+                    if hd_link:
+                        return hd_link
+        return None
+    except Exception as e:
+        print(f"    Loi lay link chi tiet: {e}")
+        return None
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -600,15 +616,22 @@ def main():
         stream_url = None
 
         if match["is_live"]:
-            raw_url = get_stream_url(match["match_id"])
-            print(f"    stream URL: {raw_url}")
-
+            # TRẬN LIVE: Lấy link chi tiết và Verify
+            raw_url = get_live_url(match["match_id"])
             if raw_url and verify_stream(raw_url):
                 stream_url = raw_url
                 print(f"    stream: OK")
             else:
                 print(f"    stream: DEAD -> bo qua")
                 continue
+        else:
+            # TRẬN SẮP: Lấy link chi tiết nhưng BỎ QUA Verify (để lưu sẵn vào JSON)
+            raw_url = get_live_url(match["match_id"])
+            if raw_url:
+                stream_url = raw_url
+                print(f"    stream: DA LUU (sap dien ra)")
+            else:
+                print(f"    stream: Chua co link")
 
         uid       = make_id(match["match_id"], "gv")
         cache_key = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
@@ -624,7 +647,8 @@ def main():
             cate_channels[cate_type] = []
         cate_channels[cate_type].append(channel)
 
-        time.sleep(0.1)
+        # Nghỉ 0.2s để không bị server chặn do gọi API chi tiết liên tục
+        time.sleep(0.2)
 
     groups = []
     for cate_type in CATE_ORDER:
