@@ -487,33 +487,6 @@ def get_live_url(match_id: str) -> str | None:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# VERIFY STREAM
-# ─────────────────────────────────────────────────────────────────────────────
-
-def verify_stream(url: str, timeout: int = 10) -> bool:
-    try:
-        res = requests.head(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
-        if res.status_code == 200:
-            return True
-        res = requests.get(url, headers=HEADERS, timeout=timeout, stream=True, allow_redirects=True)
-        if res.status_code != 200:
-            res.close()
-            return False
-        ct = res.headers.get("Content-Type", "")
-        if "mpegurl" in ct.lower() or "m3u8" in ct.lower():
-            res.close()
-            return True
-        chunk = next(res.iter_content(chunk_size=1024), b"")
-        res.close()
-        if b"#EXTM3U" in chunk or b"#EXT-X-" in chunk:
-            return True
-        return False
-    except Exception as e:
-        print(f"    verify error: {e}")
-        return False
-
-
-# ─────────────────────────────────────────────────────────────────────────────
 # BUILD CHANNEL JSON
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -614,24 +587,21 @@ def main():
         print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({match['time']} {match['date']}) | BLV: {match['blv']}")
 
         stream_url = None
+        
+        # Lấy link từ API chi tiết (Áp dụng chung cho cả Live và Sắp)
+        raw_url = get_live_url(match["match_id"])
 
-        if match["is_live"]:
-            # TRẬN LIVE: Lấy link chi tiết và Verify
-            raw_url = get_live_url(match["match_id"])
-            if raw_url and verify_stream(raw_url):
-                stream_url = raw_url
-                print(f"    stream: OK")
+        if raw_url:
+            stream_url = raw_url
+            if match["is_live"]:
+                print(f"    stream: DA LUU (LIVE)")
             else:
-                print(f"    stream: DEAD -> bo qua")
-                continue
+                print(f"    stream: DA LUU (SAP)")
         else:
-            # TRẬN SẮP: Lấy link chi tiết nhưng BỎ QUA Verify (để lưu sẵn vào JSON)
-            raw_url = get_live_url(match["match_id"])
-            if raw_url:
-                stream_url = raw_url
-                print(f"    stream: DA LUU (sap dien ra)")
+            if match["is_live"]:
+                print(f"    stream: LOI API CHI TIET (de trong)")
             else:
-                print(f"    stream: Chua co link")
+                print(f"    stream: Chua co link (de trong)")
 
         uid       = make_id(match["match_id"], "gv")
         cache_key = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
