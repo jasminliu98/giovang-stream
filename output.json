@@ -11,11 +11,227 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-745257b19e",
+          "name": "Borussia Dortmund vs Eintracht Frankfurt | 01:30:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-745257b19e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-745257b19e",
+                  "name": "Borussia Dortmund vs Eintracht Frankfurt",
+                  "streams": [
+                    {
+                      "id": "st-745257b19e",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Borussia Dortmund",
+            "team_b": "Eintracht Frankfurt",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/1280px-Borussia_Dortmund_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/7/7e/Eintracht_Frankfurt_crest.svg",
+            "time": "01:30:00",
+            "date": "09/05",
+            "blv": "BLV Ngỗng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-745257b19e_7f72e9f6_20260509.png?v=7f72e9f6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8d0ff9c899",
+          "name": "Lens vs Nantes | 01:45:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8d0ff9c899",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8d0ff9c899",
+                  "name": "Lens vs Nantes",
+                  "streams": [
+                    {
+                      "id": "st-8d0ff9c899",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Lens",
+            "team_b": "Nantes",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/RC_Lens_logo.svg/250px-RC_Lens_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Logo_FC_Nantes_%28avec_fond%29_-_2019.svg/500px-Logo_FC_Nantes_%28avec_fond%29_-_2019.svg.png",
+            "time": "01:45:00",
+            "date": "09/05",
+            "blv": "BLV Hợi",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8d0ff9c899_3ffd0da4_20260509.png?v=3ffd0da4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6c04acc5f5",
+          "name": "Torino vs Sassuolo | 01:45:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c04acc5f5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6c04acc5f5",
+                  "name": "Torino vs Sassuolo",
+                  "streams": [
+                    {
+                      "id": "st-6c04acc5f5",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Torino",
+            "team_b": "Sassuolo",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjMFcsnbi0W9T38__QcAu2PZRYvouexKckTg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb4i0qz3m6lSOoN6Lc0L2omzZQtT596u0O5Q&s",
+            "time": "01:45:00",
+            "date": "09/05",
+            "blv": "BLV Băng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6c04acc5f5_f46b91ef_20260509.png?v=f46b91ef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fa89619743",
+          "name": "Levante vs Osasuna | 02:00:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa89619743",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fa89619743",
+                  "name": "Levante vs Osasuna",
+                  "streams": [
+                    {
+                      "id": "st-fa89619743",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Levante",
+            "team_b": "Osasuna",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb1MjWoiMdvJfSDau8Sr0oLyraHgsLok924w&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/5/53/Ca_osasuna.png",
+            "time": "02:00:00",
+            "date": "09/05",
+            "blv": "BLV Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fa89619743_684b0000_20260509.png?v=684b0000",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-cfddc517de",
           "name": "Jeju United FC vs FC Seoul | 12:00:00 09/05",
