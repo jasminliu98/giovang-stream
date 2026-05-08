@@ -81,7 +81,7 @@ API_DETAIL    = "https://live-api.keovip88.net/api/fixtures/"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v1"
+THUMB_VERSION = "v2"
 
 CATE_MAP = {
     "football":   "⚽ Bóng Đá",
@@ -274,22 +274,6 @@ def make_thumbnail(match, channel_id):
                 break
             font_size -= 3
         draw.text((W // 2, HEADER_H // 2), league_text,
-                  fill=(255, 255, 255), font=f, anchor="mm")
-
-    if match.get("blv"):
-        blv_text  = f"BLV: {match['blv']}"
-        font_size = 58
-        f         = None
-        while font_size >= 28:
-            try:
-                f = ImageFont.truetype(FONT_BOLD, font_size)
-            except Exception:
-                f = ImageFont.load_default()
-            bbox = draw.textbbox((0, 0), blv_text, font=f)
-            if (bbox[2] - bbox[0]) <= W - 60:
-                break
-            font_size -= 3
-        draw.text((W // 2, H - FOOTER_H // 2), blv_text,
                   fill=(255, 255, 255), font=f, anchor="mm")
 
     draw.rectangle([(0, 0), (W - 1, H - 1)], outline=(180, 180, 180), width=3)
