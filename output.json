@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-745257b19e",
-          "name": "Borussia Dortmund vs Eintracht Frankfurt | 01:30:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-745257b19e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-745257b19e",
-                  "name": "Borussia Dortmund vs Eintracht Frankfurt",
-                  "streams": [
-                    {
-                      "id": "st-745257b19e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-673bd7026c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778263373_hd/1778263373_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Borussia Dortmund",
-            "team_b": "Eintracht Frankfurt",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/1280px-Borussia_Dortmund_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/7/7e/Eintracht_Frankfurt_crest.svg",
-            "time": "01:30:00",
-            "date": "09/05",
-            "blv": "BLV Ngỗng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-745257b19e_7f72e9f6_20260509.png?v=7f72e9f6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8d0ff9c899",
           "name": "Lens vs Nantes | 01:45:00 09/05",
