@@ -81,7 +81,7 @@ STREAM_TPL    = "https://sgtdrxtdjeliv.vcdn.cloud/{id}_hd/{id}_hd@720p.m3u8"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v1"
+THUMB_VERSION = "v2"
 
 CATE_MAP = {
     "football":   "⚽ Bóng Đá",
