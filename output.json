@@ -1901,83 +1901,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-e0e353764a",
-          "name": "Milwaukee Brewers vs New York Yankees | 06:40:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e0e353764a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e0e353764a",
-                  "name": "Milwaukee Brewers vs New York Yankees",
-                  "streams": [
-                    {
-                      "id": "st-e0e353764a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b6c1a8605",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778205085_hd/1778205085_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Milwaukee Brewers",
-            "team_b": "New York Yankees",
-            "logo_a": "https://i.redd.it/gnnuf9tjwe191.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/New_York_Yankees_logo.svg/1920px-New_York_Yankees_logo.svg.png",
-            "time": "06:40:00",
-            "date": "09/05",
-            "blv": "BLV Chanh",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e0e353764a_2b86161b_20260509.png?v=2b86161b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cf9064187d",
           "name": "Los Angeles Dodgers  vs Atlanta Braves | 09:10:00 09/05",
