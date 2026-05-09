@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -332,11 +332,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-0571f72f1c",
+                          "id": "lnk-4d30fcb8d2",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778341403_hd/1778341403_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778232277_hd/1778232277_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -363,7 +363,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/brentford.png",
             "time": "23:30:00",
             "date": "09/05",
-            "blv": "fan-ars-ngong-nen, BLV Ben",
+            "blv": "BLV Ben, fan-ars-ngong-nen",
             "is_live": true,
             "cate_type": "football"
           },
@@ -372,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-82cdb01e32_831b740f_20260509.png?v=831b740f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0897d07f7f",
+          "name": "Atletico Madrid vs Celta Vigo | 23:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0897d07f7f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0897d07f7f",
+                  "name": "Atletico Madrid vs Celta Vigo",
+                  "streams": [
+                    {
+                      "id": "st-0897d07f7f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d927c8d26b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778232458_hd/1778232458_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Atletico Madrid",
+            "team_b": "Celta Vigo",
+            "logo_a": "https://images.keovip88.net/images/teams/atletico-madrid.png",
+            "logo_b": "https://images.keovip88.net/images/teams/celta-vigo.png",
+            "time": "23:30:00",
+            "date": "09/05",
+            "blv": "BLV Câm",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0897d07f7f_22391a25_20260509.png?v=22391a25",
             "width": 1600,
             "height": 1200
           }
@@ -444,78 +516,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d747edd64d_73380e24_20260509.png?v=73380e24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0897d07f7f",
-          "name": "Atletico Madrid vs Celta Vigo | 23:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0897d07f7f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0897d07f7f",
-                  "name": "Atletico Madrid vs Celta Vigo",
-                  "streams": [
-                    {
-                      "id": "st-0897d07f7f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d927c8d26b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778232458_hd/1778232458_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Atletico Madrid",
-            "team_b": "Celta Vigo",
-            "logo_a": "https://images.keovip88.net/images/teams/atletico-madrid.png",
-            "logo_b": "https://images.keovip88.net/images/teams/celta-vigo.png",
-            "time": "23:30:00",
-            "date": "09/05",
-            "blv": "BLV Câm",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0897d07f7f_22391a25_20260509.png?v=22391a25",
             "width": 1600,
             "height": 1200
           }
