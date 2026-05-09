@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -233,6 +233,78 @@
           }
         },
         {
+          "id": "gv-eb1f6f453d",
+          "name": "Sunderland vs Manchester United | 21:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eb1f6f453d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-eb1f6f453d",
+                  "name": "Sunderland vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-eb1f6f453d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-221c220681",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778216573_hd/1778216573_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Sunderland",
+            "team_b": "Manchester United",
+            "logo_a": "https://images.keovip88.net/images/teams/sunderland-afc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
+            "time": "21:00:00",
+            "date": "09/05",
+            "blv": "BLV Dory, Fan MU: Perry vs Câm",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-eb1f6f453d_b8862165_20260509.png?v=b8862165",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-0bf0788839",
           "name": "VfB Stuttgart vs Bayer Leverkusen | 20:30 09/05",
           "type": "single",
@@ -300,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0bf0788839_eb0b15b2_20260509.png?v=eb0b15b2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-eb1f6f453d",
-          "name": "Sunderland vs Manchester United | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb1f6f453d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-eb1f6f453d",
-                  "name": "Sunderland vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-eb1f6f453d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4115454799",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778217312_hd/1778217312_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Sunderland",
-            "team_b": "Manchester United",
-            "logo_a": "https://images.keovip88.net/images/teams/sunderland-afc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
-            "time": "21:00:00",
-            "date": "09/05",
-            "blv": "Fan MU: Perry vs Câm, BLV Dory",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-eb1f6f453d_b8862165_20260509.png?v=b8862165",
             "width": 1600,
             "height": 1200
           }
