@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0555ec2421_f394bdcb_20260509.png?v=f394bdcb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-df0211308a",
-          "name": "Al-Najma(KSA) vs Al-Hazm | 23:15 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-df0211308a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-df0211308a",
-                  "name": "Al-Najma(KSA) vs Al-Hazm",
-                  "streams": [
-                    {
-                      "id": "st-df0211308a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7bccf2fbb5",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778333567_hd/1778333567_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Al-Najma(KSA)",
-            "team_b": "Al-Hazm",
-            "logo_a": "https://images.keovip88.net/images/teams/al-najmaksa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-hazm.png",
-            "time": "23:15:00",
-            "date": "09/05",
-            "blv": "BLV Thìn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-df0211308a_74f4c32f_20260509.png?v=74f4c32f",
             "width": 1600,
             "height": 1200
           }
