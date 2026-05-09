@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-cfddc517de",
-          "name": "Jeju United FC vs FC Seoul | 12:00:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cfddc517de",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cfddc517de",
-                  "name": "Jeju United FC vs FC Seoul",
-                  "streams": [
-                    {
-                      "id": "st-cfddc517de",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0a8fb0f8c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778232055_hd/1778232055_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K-League Hàn Quốc",
-            "team_a": "Jeju United FC",
-            "team_b": "FC Seoul",
-            "logo_a": "https://images.keovip88.net/images/teams/jeju-sk-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fc-seoul.png",
-            "time": "12:00:00",
-            "date": "09/05",
-            "blv": "BLV Tỵ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cfddc517de_23630570_20260509.png?v=23630570",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b764b1400d",
-          "name": "Mito Hollyhock vs Urawa Red Diamonds | 12:00:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b764b1400d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b764b1400d",
-                  "name": "Mito Hollyhock vs Urawa Red Diamonds",
-                  "streams": [
-                    {
-                      "id": "st-b764b1400d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-606184cea7",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778232633_hd/1778232633_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Mito Hollyhock",
-            "team_b": "Urawa Red Diamonds",
-            "logo_a": "https://images.keovip88.net/images/teams/mito-hollyhock.png",
-            "logo_b": "https://images.keovip88.net/images/teams/urawa-red-diamonds.png",
-            "time": "12:00:00",
-            "date": "09/05",
-            "blv": "BLV Băng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b764b1400d_7209b741_20260509.png?v=7209b741",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-57ff3eca8c",
           "name": "Auckland FC vs Adelaide United FC | 13:00:00 09/05",
@@ -312,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +220,7 @@
             "time": "14:30:00",
             "date": "09/05",
             "blv": "BLV Tỵ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
