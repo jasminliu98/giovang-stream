@@ -81,7 +81,7 @@ API_DETAIL    = "https://live-api.keovip88.net/api/fixtures/"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v2"
+THUMB_VERSION = "v3"
 
 CATE_MAP = {
     "football":   "⚽ Bóng Đá",
@@ -150,6 +150,32 @@ def is_within_24h(time_str: str, date_str: str, cate_type: str = "football") -> 
     lower = now - timedelta(hours=6)
     upper = now + timedelta(hours=24)
     return lower <= kickoff <= upper
+
+
+def format_time_hhmm(time_str: str) -> str:
+    """Cắt thời gian về HH:MM (bỏ giây)."""
+    if not time_str:
+        return ""
+    parts = time_str.strip().split(":")
+    if len(parts) >= 2:
+        return f"{parts[0].zfill(2)}:{parts[1].zfill(2)}"
+    return time_str.strip()
+
+
+def format_date_ddmm(date_str: str) -> str:
+    """Cắt ngày về DD/MM (bỏ năm)."""
+    if not date_str:
+        return ""
+    d = date_str.strip()
+    # DD/MM/YYYY -> DD/MM
+    m3 = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4})", d)
+    if m3:
+        return f"{m3.group(1).zfill(2)}/{m3.group(2).zfill(2)}"
+    # DD/MM -> DD/MM
+    m2 = re.match(r"(\d{1,2})/(\d{1,2})$", d)
+    if m2:
+        return f"{m2.group(1).zfill(2)}/{m2.group(2).zfill(2)}"
+    return d
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -445,7 +471,7 @@ def get_matches() -> list:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# GET LIVE URL (API CHI TIẾT) - ĐÃ SỬA LỖI BỌC "RESPONSE"
+# GET LIVE URL (API CHI TIẾT)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def get_live_url(match_id: str) -> str | None:
@@ -507,11 +533,15 @@ def build_channel(match: dict, stream_url: str, thumb_url: str = "") -> dict:
     label_text  = "● LIVE" if match["is_live"] else "🕐 Sắp"
     label_color = "#ff4444" if match["is_live"] else "#aaaaaa"
 
+    # Định dạng lại thời gian và ngày tháng cho tên kênh
+    time_fmt = format_time_hhmm(match["time"])
+    date_fmt = format_date_ddmm(match["date"])
+    
     display_name = match["name"]
-    if match["time"] and match["date"]:
-        display_name = f"{match['name']} | {match['time']} {match['date']}"
-    elif match["time"]:
-        display_name = f"{match['name']} | {match['time']}"
+    if time_fmt and date_fmt:
+        display_name = f"{match['name']} | {time_fmt} {date_fmt}"
+    elif time_fmt:
+        display_name = f"{match['name']} | {time_fmt}"
 
     channel = {
         "id":            uid,
