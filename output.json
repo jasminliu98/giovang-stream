@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-eb1f6f453d_b8862165_20260509.png?v=b8862165",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9f377b3edd",
-          "name": "Sevilla vs Espanyol | 21:15 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f377b3edd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9f377b3edd",
-                  "name": "Sevilla vs Espanyol",
-                  "streams": [
-                    {
-                      "id": "st-9f377b3edd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6ed7e2c7e0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778216715_hd/1778216715_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Sevilla",
-            "team_b": "Espanyol",
-            "logo_a": "https://images.keovip88.net/images/teams/sevilla.png",
-            "logo_b": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
-            "time": "21:15:00",
-            "date": "09/05",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9f377b3edd_eb1235bd_20260509.png?v=eb1235bd",
             "width": 1600,
             "height": 1200
           }
@@ -305,78 +233,6 @@
           }
         },
         {
-          "id": "gv-0897d07f7f",
-          "name": "Atletico Madrid vs Celta Vigo | 23:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0897d07f7f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0897d07f7f",
-                  "name": "Atletico Madrid vs Celta Vigo",
-                  "streams": [
-                    {
-                      "id": "st-0897d07f7f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d927c8d26b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778232458_hd/1778232458_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Atletico Madrid",
-            "team_b": "Celta Vigo",
-            "logo_a": "https://images.keovip88.net/images/teams/atletico-madrid.png",
-            "logo_b": "https://images.keovip88.net/images/teams/celta-vigo.png",
-            "time": "23:30:00",
-            "date": "09/05",
-            "blv": "BLV Câm",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0897d07f7f_22391a25_20260509.png?v=22391a25",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-d747edd64d",
           "name": "Wolfsburg vs Bayern Munich | 23:30 09/05",
           "type": "single",
@@ -444,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d747edd64d_73380e24_20260509.png?v=73380e24",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0897d07f7f",
+          "name": "Atletico Madrid vs Celta Vigo | 23:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0897d07f7f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0897d07f7f",
+                  "name": "Atletico Madrid vs Celta Vigo",
+                  "streams": [
+                    {
+                      "id": "st-0897d07f7f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d927c8d26b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778232458_hd/1778232458_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Atletico Madrid",
+            "team_b": "Celta Vigo",
+            "logo_a": "https://images.keovip88.net/images/teams/atletico-madrid.png",
+            "logo_b": "https://images.keovip88.net/images/teams/celta-vigo.png",
+            "time": "23:30:00",
+            "date": "09/05",
+            "blv": "BLV Câm",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0897d07f7f_22391a25_20260509.png?v=22391a25",
             "width": 1600,
             "height": 1200
           }
@@ -1389,87 +1317,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4466377dc2_22d46090_20260509.png?v=22d46090",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-5e9b277011",
-          "name": "Bàn Văn Hoàng  vs Châu La | 20:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5e9b277011",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5e9b277011",
-                  "name": "Bàn Văn Hoàng  vs Châu La",
-                  "streams": [
-                    {
-                      "id": "st-5e9b277011",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-07a29e4d2d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778310559_hd/1778310559_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Lion Championship",
-            "team_a": "Bàn Văn Hoàng ",
-            "team_b": "Châu La",
-            "logo_a": "https://cdn.bongdaplus.vn/Assets/Media/2026/04/22/18/chaula-vanhoang.jpg",
-            "logo_b": "https://cdn.bongdaplus.vn/Assets/Media/2026/04/22/18/chaula-vanhoang.jpg",
-            "time": "20:00:00",
-            "date": "09/05",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5e9b277011_c29abbf7_20260509.png?v=c29abbf7",
             "width": 1600,
             "height": 1200
           }
