@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "12:00:00",
             "date": "09/05",
             "blv": "BLV Băng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1532,83 +1532,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4bc430c959",
-          "name": "Timberwolves  vs Spurs | 08:30:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4bc430c959",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4bc430c959",
-                  "name": "Timberwolves  vs Spurs",
-                  "streams": [
-                    {
-                      "id": "st-4bc430c959",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a48060ba9e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778231775_hd/1778231775_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "Timberwolves ",
-            "team_b": "Spurs",
-            "logo_a": "https://static.flashscore.com/res/image/data/hv2nHleM-KbXk58wB.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8f2WVCFG-SrHHDGUm.png",
-            "time": "08:30:00",
-            "date": "09/05",
-            "blv": "BLV Cầy, BLV Perry",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4bc430c959_56d8a97c_20260509.png?v=56d8a97c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d9963824c8",
           "name": "Bay Hawks vs Otago Nuggets | 11:30:00 09/05",
