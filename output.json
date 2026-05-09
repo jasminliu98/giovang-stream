@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0555ec2421",
-          "name": "Lazio vs Inter Milan | 23:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0555ec2421",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0555ec2421",
-                  "name": "Lazio vs Inter Milan",
-                  "streams": [
-                    {
-                      "id": "st-0555ec2421",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0bbafefe3c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778342007_hd/1778342007_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Lazio",
-            "team_b": "Inter Milan",
-            "logo_a": "https://images.keovip88.net/images/teams/lazio.png",
-            "logo_b": "https://images.keovip88.net/images/teams/inter-milan.png",
-            "time": "23:00:00",
-            "date": "09/05",
-            "blv": "BLV Băng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0555ec2421_f394bdcb_20260510.png?v=f394bdcb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-82cdb01e32",
           "name": "Manchester City vs Brentford | 23:30 09/05",
