@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-2baa718ed4",
-          "name": "Fulham vs AFC Bournemouth | 21:00 09/05",
+          "id": "gv-eb1f6f453d",
+          "name": "Sunderland vs Manchester United | 21:00 09/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-2baa718ed4",
+              "id": "src-eb1f6f453d",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-2baa718ed4",
-                  "name": "Fulham vs AFC Bournemouth",
+                  "id": "ct-eb1f6f453d",
+                  "name": "Sunderland vs Manchester United",
                   "streams": [
                     {
-                      "id": "st-2baa718ed4",
+                      "id": "st-eb1f6f453d",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-338c6a5b3d",
+                          "id": "lnk-221c220681",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778216694_hd/1778216694_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778216573_hd/1778216573_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -69,13 +69,13 @@
           ],
           "org_metadata": {
             "league": "Ngoại hạng Anh",
-            "team_a": "Fulham",
-            "team_b": "AFC Bournemouth",
-            "logo_a": "https://images.keovip88.net/images/teams/fulham.png",
-            "logo_b": "https://images.keovip88.net/images/teams/afc-bournemouth.png",
+            "team_a": "Sunderland",
+            "team_b": "Manchester United",
+            "logo_a": "https://images.keovip88.net/images/teams/sunderland-afc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
             "time": "21:00:00",
             "date": "09/05",
-            "blv": "BLV Thìn",
+            "blv": "BLV Dory, Fan MU: Perry vs Câm",
             "is_live": true,
             "cate_type": "football"
           },
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2baa718ed4_10dde5bf_20260509.png?v=10dde5bf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-eb1f6f453d_b8862165_20260509.png?v=b8862165",
             "width": 1600,
             "height": 1200
           }
@@ -312,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +364,7 @@
             "time": "23:30:00",
             "date": "09/05",
             "blv": "fan-ars-ngong-nen, BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -876,6 +876,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-347c6d1b42_e096bdba_20260509.png?v=e096bdba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c434b5f408",
+          "name": "Al Riyadh vs Al Fateh | 23:05 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c434b5f408",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c434b5f408",
+                  "name": "Al Riyadh vs Al Fateh",
+                  "streams": [
+                    {
+                      "id": "st-c434b5f408",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e65dd4217f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778294098_hd/1778294098_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al Riyadh",
+            "team_b": "Al Fateh",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaULGEnZeRcFVOX0hhpcQvpHEFnJ0HyHBZqQ&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYwkGEXdADJiz5VxOx-jTWxRm7ettURUPFyQ&s",
+            "time": "23:05:00",
+            "date": "10/05",
+            "blv": "BLV Thìn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c434b5f408_ecc5b390_20260509.png?v=ecc5b390",
             "width": 1600,
             "height": 1200
           }
