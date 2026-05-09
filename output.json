@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -233,6 +233,78 @@
           }
         },
         {
+          "id": "gv-0bf0788839",
+          "name": "VfB Stuttgart vs Bayer Leverkusen | 20:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0bf0788839",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0bf0788839",
+                  "name": "VfB Stuttgart vs Bayer Leverkusen",
+                  "streams": [
+                    {
+                      "id": "st-0bf0788839",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2ff3d8f196",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778216460_hd/1778216460_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "VfB Stuttgart",
+            "team_b": "Bayer Leverkusen",
+            "logo_a": "https://images.keovip88.net/images/teams/vfb-stuttgart.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bayer-leverkusen.png",
+            "time": "20:30:00",
+            "date": "09/05",
+            "blv": "BLV Băng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0bf0788839_eb0b15b2_20260509.png?v=eb0b15b2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-eb1f6f453d",
           "name": "Sunderland vs Manchester United | 21:00 09/05",
           "type": "single",
@@ -300,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-eb1f6f453d_b8862165_20260509.png?v=b8862165",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0bf0788839",
-          "name": "VfB Stuttgart vs Bayer Leverkusen | 20:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0bf0788839",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0bf0788839",
-                  "name": "VfB Stuttgart vs Bayer Leverkusen",
-                  "streams": [
-                    {
-                      "id": "st-0bf0788839",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2ff3d8f196",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778216460_hd/1778216460_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "VfB Stuttgart",
-            "team_b": "Bayer Leverkusen",
-            "logo_a": "https://images.keovip88.net/images/teams/vfb-stuttgart.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bayer-leverkusen.png",
-            "time": "20:30:00",
-            "date": "09/05",
-            "blv": "BLV Băng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0bf0788839_eb0b15b2_20260509.png?v=eb0b15b2",
             "width": 1600,
             "height": 1200
           }
@@ -665,78 +665,6 @@
           }
         },
         {
-          "id": "gv-d747edd64d",
-          "name": "Wolfsburg vs Bayern Munich | 23:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d747edd64d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d747edd64d",
-                  "name": "Wolfsburg vs Bayern Munich",
-                  "streams": [
-                    {
-                      "id": "st-d747edd64d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-085ca490b6",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778232423_hd/1778232423_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Wolfsburg",
-            "team_b": "Bayern Munich",
-            "logo_a": "https://images.keovip88.net/images/teams/vfl-wolfsburg.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bayern-munchen.png",
-            "time": "23:30:00",
-            "date": "09/05",
-            "blv": "BLV Chanh",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d747edd64d_73380e24_20260509.png?v=73380e24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-0897d07f7f",
           "name": "Atletico Madrid vs Celta Vigo | 23:30 09/05",
           "type": "single",
@@ -804,6 +732,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0897d07f7f_22391a25_20260509.png?v=22391a25",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d747edd64d",
+          "name": "Wolfsburg vs Bayern Munich | 23:30 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d747edd64d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d747edd64d",
+                  "name": "Wolfsburg vs Bayern Munich",
+                  "streams": [
+                    {
+                      "id": "st-d747edd64d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-085ca490b6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778232423_hd/1778232423_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Wolfsburg",
+            "team_b": "Bayern Munich",
+            "logo_a": "https://images.keovip88.net/images/teams/vfl-wolfsburg.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bayern-munchen.png",
+            "time": "23:30:00",
+            "date": "09/05",
+            "blv": "BLV Chanh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d747edd64d_73380e24_20260509.png?v=73380e24",
             "width": 1600,
             "height": 1200
           }
