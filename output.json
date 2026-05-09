@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "gv-56d135f4a6",
-          "name": "Brighton   Hove Albion vs Wolves | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-56d135f4a6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-56d135f4a6",
-                  "name": "Brighton   Hove Albion vs Wolves",
-                  "streams": [
-                    {
-                      "id": "st-56d135f4a6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9c21fd0123",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778216651_hd/1778216651_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Brighton   Hove Albion",
-            "team_b": "Wolves",
-            "logo_a": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
-            "logo_b": "https://images.keovip88.net/images/teams/wolves.png",
-            "time": "21:00:00",
-            "date": "09/05",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-56d135f4a6_ac10f654_20260509.png?v=ac10f654",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-2baa718ed4",
           "name": "Fulham vs AFC Bournemouth | 21:00 09/05",
           "type": "single",
@@ -300,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9f377b3edd_eb1235bd_20260509.png?v=eb1235bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0555ec2421",
+          "name": "Lazio vs Inter Milan | 23:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0555ec2421",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0555ec2421",
+                  "name": "Lazio vs Inter Milan",
+                  "streams": [
+                    {
+                      "id": "st-0555ec2421",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0bbafefe3c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778342007_hd/1778342007_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Lazio",
+            "team_b": "Inter Milan",
+            "logo_a": "https://images.keovip88.net/images/teams/lazio.png",
+            "logo_b": "https://images.keovip88.net/images/teams/inter-milan.png",
+            "time": "23:00:00",
+            "date": "09/05",
+            "blv": "BLV Băng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0555ec2421_f394bdcb_20260509.png?v=f394bdcb",
             "width": 1600,
             "height": 1200
           }
