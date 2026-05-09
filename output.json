@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "21:00:00",
             "date": "09/05",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -444,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9f377b3edd_eb1235bd_20260509.png?v=eb1235bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-df0211308a",
+          "name": "Al-Najma(KSA) vs Al-Hazm | 23:15 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-df0211308a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-df0211308a",
+                  "name": "Al-Najma(KSA) vs Al-Hazm",
+                  "streams": [
+                    {
+                      "id": "st-df0211308a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7bccf2fbb5",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778333567_hd/1778333567_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Najma(KSA)",
+            "team_b": "Al-Hazm",
+            "logo_a": "https://images.keovip88.net/images/teams/al-najmaksa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-hazm.png",
+            "time": "23:15:00",
+            "date": "09/05",
+            "blv": "BLV Thìn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-df0211308a_74f4c32f_20260509.png?v=74f4c32f",
             "width": 1600,
             "height": 1200
           }
@@ -884,83 +956,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-05e1eb149c",
-          "name": "Phoenix Fuelmasters  vs San Miguel Beermen | 18:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-05e1eb149c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-05e1eb149c",
-                  "name": "Phoenix Fuelmasters  vs San Miguel Beermen",
-                  "streams": [
-                    {
-                      "id": "st-05e1eb149c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8193816a9d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778321825_hd/1778321825_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PBA Commissioner's Cup",
-            "team_a": "Phoenix Fuelmasters ",
-            "team_b": "San Miguel Beermen",
-            "logo_a": "https://static.flashscore.com/res/image/data/ttyYvae5-dfe82GzD.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/jeSijRyS-xrx6DBl6.png",
-            "time": "18:30:00",
-            "date": "09/05",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-05e1eb149c_ff26fd24_20260509.png?v=ff26fd24",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b1a4fdbc56",
           "name": "Guangdong vs Beijing | 18:35 09/05",
