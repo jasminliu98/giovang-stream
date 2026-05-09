@@ -1388,83 +1388,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0bf410852b",
-          "name": "Goyang Sono vs KCC Egis | 12:00:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0bf410852b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0bf410852b",
-                  "name": "Goyang Sono vs KCC Egis",
-                  "streams": [
-                    {
-                      "id": "st-0bf410852b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1a8395af8",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778301873_hd/1778301873_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "KBL",
-            "team_a": "Goyang Sono",
-            "team_b": "KCC Egis",
-            "logo_a": "https://static.flashscore.com/res/image/data/Q7U6ouhl-8M6D6J3r.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/6akehaEa-QVr2kiM7.png",
-            "time": "12:00:00",
-            "date": "09/05",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0bf410852b_dc768e70_20260509.png?v=dc768e70",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6d01ba4456",
           "name": "Manawatu Jets vs Southland Sharks | 14:30:00 09/05",
@@ -1821,6 +1749,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4466377dc2_0127725b_20260509.png?v=0127725b",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-29a040a991",
+          "name": "Tomas Machac  vs Daniil Medvedev | 16:00:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-29a040a991",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-29a040a991",
+                  "name": "Tomas Machac  vs Daniil Medvedev",
+                  "streams": [
+                    {
+                      "id": "st-29a040a991",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e98747a0fc",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778310433_hd/1778310433_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "Tomas Machac ",
+            "team_b": "Daniil Medvedev",
+            "logo_a": "https://static.flashscore.com/res/image/data/bsWIvMjl-jBHR7D3h.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QujxPtf5-6Z1AkBdk.png",
+            "time": "16:00:00",
+            "date": "09/05",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-29a040a991_8a9a3660_20260509.png?v=8a9a3660",
             "width": 1600,
             "height": 1200
           }
