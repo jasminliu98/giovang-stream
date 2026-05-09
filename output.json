@@ -68,7 +68,7 @@
             }
           ],
           "org_metadata": {
-            "league": "K-League Hàn Quốc",
+            "league": "",
             "team_a": "Daejeon Citizen",
             "team_b": "Pohang Steelers",
             "logo_a": "https://images.keovip88.net/images/teams/daejeon-citizen.png",
@@ -140,7 +140,7 @@
             }
           ],
           "org_metadata": {
-            "league": "V-League",
+            "league": "",
             "team_a": "TTBD Phù Đổng",
             "team_b": "Hải Phòng",
             "logo_a": "https://images.keovip88.net/images/teams/ttbd-phu-dong.png",
@@ -212,7 +212,7 @@
             }
           ],
           "org_metadata": {
-            "league": "V-League",
+            "league": "",
             "team_a": "Thanh Hóa",
             "team_b": "Hà Nội",
             "logo_a": "https://images.keovip88.net/images/teams/thanh-hoa.png",
@@ -1172,83 +1172,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (4 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-99d77c1ef7",
-          "name": "Blackwater Bossing  vs Converge FiberXers | 16:15 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-99d77c1ef7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-99d77c1ef7",
-                  "name": "Blackwater Bossing  vs Converge FiberXers",
-                  "streams": [
-                    {
-                      "id": "st-99d77c1ef7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15d8ecc3e1",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778312638_hd/1778312638_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PBA Commissioner's Cup",
-            "team_a": "Blackwater Bossing ",
-            "team_b": "Converge FiberXers",
-            "logo_a": "https://static.flashscore.com/res/image/data/EVvVj6ZA-YJ4KHuBj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/UPlTdQHG-vBbzdfpd.png",
-            "time": "16:15:00",
-            "date": "09/05",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-99d77c1ef7_5b0310c8_20260509.png?v=5b0310c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-05e1eb149c",
           "name": "Phoenix Fuelmasters  vs San Miguel Beermen | 18:30 09/05",
