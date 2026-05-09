@@ -1532,7 +1532,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1605,6 +1605,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d9963824c8_1d4a70b3_20260509.png?v=1d4a70b3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0bf410852b",
+          "name": "Goyang Sono vs KCC Egis | 12:00:00 09/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0bf410852b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0bf410852b",
+                  "name": "Goyang Sono vs KCC Egis",
+                  "streams": [
+                    {
+                      "id": "st-0bf410852b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1a8395af8",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778301873_hd/1778301873_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "KBL",
+            "team_a": "Goyang Sono",
+            "team_b": "KCC Egis",
+            "logo_a": "https://static.flashscore.com/res/image/data/Q7U6ouhl-8M6D6J3r.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/6akehaEa-QVr2kiM7.png",
+            "time": "12:00:00",
+            "date": "09/05",
+            "blv": "BLV Ben",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0bf410852b_dc768e70_20260509.png?v=dc768e70",
             "width": 1600,
             "height": 1200
           }
@@ -1973,83 +2045,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-cf9064187d",
-          "name": "Los Angeles Dodgers  vs Atlanta Braves | 09:10:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cf9064187d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cf9064187d",
-                  "name": "Los Angeles Dodgers  vs Atlanta Braves",
-                  "streams": [
-                    {
-                      "id": "st-cf9064187d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-df03777d85",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778231941_hd/1778231941_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Los Angeles Dodgers ",
-            "team_b": "Atlanta Braves",
-            "logo_a": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/IPmhSoEa-hvtJM6zJ.png",
-            "time": "09:10:00",
-            "date": "09/05",
-            "blv": "BLV Nến",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cf9064187d_51b02fe6_20260509.png?v=51b02fe6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-621125d511",
           "name": "Kansas City Royals vs Detroit Tigers | 06:20:00 11/05",
