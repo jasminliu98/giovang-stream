@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-82cdb01e32",
-          "name": "Manchester City vs Brentford | 23:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-82cdb01e32",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-82cdb01e32",
-                  "name": "Manchester City vs Brentford",
-                  "streams": [
-                    {
-                      "id": "st-82cdb01e32",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0571f72f1c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778341403_hd/1778341403_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Manchester City",
-            "team_b": "Brentford",
-            "logo_a": "https://images.keovip88.net/images/teams/manchester-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/brentford.png",
-            "time": "23:30:00",
-            "date": "09/05",
-            "blv": "fan-ars-ngong-nen, BLV Ben",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-82cdb01e32_831b740f_20260510.png?v=831b740f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d747edd64d",
           "name": "Wolfsburg vs Bayern Munich | 23:30 09/05",
