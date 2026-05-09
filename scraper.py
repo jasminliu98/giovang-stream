@@ -81,7 +81,7 @@ API_DETAIL    = "https://live-api.keovip88.net/api/fixtures/"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v3"
+THUMB_VERSION = "v4"
 
 CATE_MAP = {
     "football":   "⚽ Bóng Đá",
@@ -275,16 +275,35 @@ def make_thumbnail(match, channel_id):
     if match.get("team_b"):
         draw_team_name(match["team_b"], W * 3 // 4)
 
-    # Cắt giờ từ "01:30:00" thành "01:30"
-    time_display = match.get("time", "")
-    if time_display and len(time_display.split(":")) == 3:
-        time_display = ":".join(time_display.split(":")[:2])
+    # Định dạng thời gian trên thumbnail: HH:MM DD/MM
+    time_fmt = format_time_hhmm(match.get("time", ""))
+    date_fmt = format_date_ddmm(match.get("date", ""))
+    
+    time_display = ""
+    if time_fmt and date_fmt:
+        time_display = f"{time_fmt} {date_fmt}"
+    elif time_fmt:
+        time_display = time_fmt
 
     if time_display:
+        # Tự động thu nhỏ font nếu chuỗi thời gian quá dài
+        font_size = 100
+        f_time = font_time
+        while font_size >= 40:
+            try:
+                f_time = ImageFont.truetype(FONT_BOLD, font_size)
+            except Exception:
+                f_time = ImageFont.load_default()
+            bbox = draw.textbbox((0, 0), time_display, font=f_time)
+            if (bbox[2] - bbox[0]) <= W - 100:
+                break
+            font_size -= 4
+
+        # Hiệu ứng bóng đổ cho chữ thời gian
         draw.text((W // 2 + 4, time_y + 4), time_display,
-                  fill=ACCENT, font=font_time, anchor="mm")
+                  fill=ACCENT, font=f_time, anchor="mm")
         draw.text((W // 2, time_y), time_display,
-                  fill=(15, 15, 15), font=font_time, anchor="mm")
+                  fill=(15, 15, 15), font=f_time, anchor="mm")
 
     if match.get("league"):
         league_text = match["league"].upper()
@@ -607,7 +626,9 @@ def main():
     for i, match in enumerate(matches):
         cate_type = match["cate_type"]
         status    = "LIVE" if match["is_live"] else "SAP"
-        print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({match['time']} {match['date']}) | BLV: {match['blv']}")
+        log_time  = format_time_hhmm(match['time'])
+        log_date  = format_date_ddmm(match['date'])
+        print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({log_time} {log_date}) | BLV: {match['blv']}")
 
         stream_url = None
         
@@ -629,7 +650,6 @@ def main():
         uid       = make_id(match["match_id"], "gv")
         cache_key = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
         logo_hash = hashlib.md5(cache_key.encode()).hexdigest()[:8]
-        date_str  = now_vn().strftime("%Y%m%d")
 
         thumb_path = make_thumbnail(match, uid)
         thumb_url  = f"{REPO_RAW}/{thumb_path}?v={logo_hash}" if REPO_RAW else ""
