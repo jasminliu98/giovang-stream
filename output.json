@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fdc6f6e2d6",
-          "name": "Gwangju FC vs Gangwon FC | 14:30 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fdc6f6e2d6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fdc6f6e2d6",
-                  "name": "Gwangju FC vs Gangwon FC",
-                  "streams": [
-                    {
-                      "id": "st-fdc6f6e2d6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-45a3b10f73",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778232700_hd/1778232700_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K-League Hàn Quốc",
-            "team_a": "Gwangju FC",
-            "team_b": "Gangwon FC",
-            "logo_a": "https://images.keovip88.net/images/teams/gwangju-football-club.png",
-            "logo_b": "https://images.keovip88.net/images/teams/gangwon-fc.png",
-            "time": "14:30:00",
-            "date": "09/05",
-            "blv": "BLV Tỵ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fdc6f6e2d6_deaf18e0_20260509.png?v=deaf18e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5cfa8db8c5",
           "name": "Daejeon Citizen vs Pohang Steelers | 17:00 09/05",
