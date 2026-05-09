@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-eb1f6f453d",
-          "name": "Sunderland vs Manchester United | 21:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb1f6f453d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-eb1f6f453d",
-                  "name": "Sunderland vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-eb1f6f453d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4115454799",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778217312_hd/1778217312_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Sunderland",
-            "team_b": "Manchester United",
-            "logo_a": "https://images.keovip88.net/images/teams/sunderland-afc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
-            "time": "21:00:00",
-            "date": "09/05",
-            "blv": "Fan MU: Perry vs Câm, BLV Dory",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-eb1f6f453d_b8862165_20260509.png?v=b8862165",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-2baa718ed4",
           "name": "Fulham vs AFC Bournemouth | 21:00 09/05",
           "type": "single",
@@ -312,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +292,7 @@
             "time": "23:15:00",
             "date": "09/05",
             "blv": "BLV Thìn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -804,6 +732,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-af74bd6d5d_07a54d67_20260509.png?v=07a54d67",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0cd8e2f27f",
+          "name": "Việt Nam U17 vs Hàn Quốc U17 | 23:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0cd8e2f27f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0cd8e2f27f",
+                  "name": "Việt Nam U17 vs Hàn Quốc U17",
+                  "streams": [
+                    {
+                      "id": "st-0cd8e2f27f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-84331ed484",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778293931_hd/1778293931_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Asian Cup U17",
+            "team_a": "Việt Nam U17",
+            "team_b": "Hàn Quốc U17",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1280px-Flag_of_Vietnam.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
+            "time": "23:00:00",
+            "date": "10/05",
+            "blv": "BLV Hợi",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0cd8e2f27f_3de0cf5b_20260509.png?v=3de0cf5b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-347c6d1b42",
+          "name": "Parma vs Roma | 23:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-347c6d1b42",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-347c6d1b42",
+                  "name": "Parma vs Roma",
+                  "streams": [
+                    {
+                      "id": "st-347c6d1b42",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ffa4352e31",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778294042_hd/1778294042_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Parma",
+            "team_b": "Roma",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_Parma_Calcio_1913_%28adozione_2016%29.svg/1280px-Logo_Parma_Calcio_1913_%28adozione_2016%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg",
+            "time": "23:00:00",
+            "date": "10/05",
+            "blv": "BLV Băng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-347c6d1b42_e096bdba_20260509.png?v=e096bdba",
             "width": 1600,
             "height": 1200
           }
