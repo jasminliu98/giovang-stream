@@ -956,83 +956,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b1a4fdbc56",
-          "name": "Guangdong vs Beijing | 18:35 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b1a4fdbc56",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b1a4fdbc56",
-                  "name": "Guangdong vs Beijing",
-                  "streams": [
-                    {
-                      "id": "st-b1a4fdbc56",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-649353981d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778321910_hd/1778321910_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CBA",
-            "team_a": "Guangdong",
-            "team_b": "Beijing",
-            "logo_a": "https://static.flashscore.com/res/image/data/4xEr75h5-KxtXtRp7.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/GQ104DHG-Mio0Ivqk.png",
-            "time": "18:35:00",
-            "date": "09/05",
-            "blv": "BLV Perry",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b1a4fdbc56_05d8777e_20260509.png?v=05d8777e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e79ee371df",
           "name": "Indiana Fever W  vs Dallas Wings W | 23:59 09/05",
