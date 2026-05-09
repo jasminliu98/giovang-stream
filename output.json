@@ -1622,83 +1622,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a0bf9e7288",
-          "name": "KT Rolster  vs BFX | 15:00 09/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a0bf9e7288",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a0bf9e7288",
-                  "name": "KT Rolster  vs BFX",
-                  "streams": [
-                    {
-                      "id": "st-a0bf9e7288",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b1650204f1",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778310824_hd/1778310824_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "KT Rolster ",
-            "team_b": "BFX",
-            "logo_a": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/t0Ieuvf5-h2pEHB7M.png",
-            "time": "15:00:00",
-            "date": "09/05",
-            "blv": "BLV Perry",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a0bf9e7288_4e5855b5_20260509.png?v=4e5855b5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3060154757",
           "name": "NS  vs BRO | 17:00 09/05",
