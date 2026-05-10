@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -528,10 +528,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -580,7 +580,7 @@
             "time": "21:15:00",
             "date": "10/05",
             "blv": "BLV Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1820,83 +1820,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a1aff8adce",
-          "name": "Shanxi Zhongyu vs Zhejiang Guangsha | 18:35 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a1aff8adce",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a1aff8adce",
-                  "name": "Shanxi Zhongyu vs Zhejiang Guangsha",
-                  "streams": [
-                    {
-                      "id": "st-a1aff8adce",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-765571b59f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778398398_hd/1778398398_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CBA",
-            "team_a": "Shanxi Zhongyu",
-            "team_b": "Zhejiang Guangsha",
-            "logo_a": "https://static.flashscore.com/res/image/data/jueCpIzB-0WRxKA5p.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Qel3gyyB-4hG46oFE.png",
-            "time": "18:35:00",
-            "date": "10/05",
-            "blv": "BLV Perry",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a1aff8adce_f99dc8dc_20260510.png?v=f99dc8dc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d5ed9b61b8",
           "name": "Connecticut Sun W vs Seattle Storm W | 23:59 10/05",
