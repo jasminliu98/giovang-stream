@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ae8c782043",
-          "name": "PSG vs Brest | 02:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae8c782043",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ae8c782043",
-                  "name": "PSG vs Brest",
-                  "streams": [
-                    {
-                      "id": "st-ae8c782043",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0688f749c1",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778294401_hd/1778294401_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "PSG",
-            "team_b": "Brest",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1280px-Paris_Saint-Germain_F.C..svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/0/05/Stade_Brestois_29_logo.svg",
-            "time": "02:00:00",
-            "date": "11/05",
-            "blv": "BLV Ngỗng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ae8c782043_603cb8e1_20260511.png?v=603cb8e1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f4d080ecb2",
           "name": "Corinthians vs São Paulo | 04:30 11/05",
