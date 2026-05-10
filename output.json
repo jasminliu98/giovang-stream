@@ -377,6 +377,78 @@
           }
         },
         {
+          "id": "gv-8db86bf6a6",
+          "name": "Hồng Lĩnh Hà Tĩnh vs Thể Công Viettel | 18:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8db86bf6a6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8db86bf6a6",
+                  "name": "Hồng Lĩnh Hà Tĩnh vs Thể Công Viettel",
+                  "streams": [
+                    {
+                      "id": "st-8db86bf6a6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-63936eb0f7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778396042_hd/1778396042_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Hồng Lĩnh Hà Tĩnh",
+            "team_b": "Thể Công Viettel",
+            "logo_a": "https://images.keovip88.net/images/teams/hong-linh-ha-tinh.png",
+            "logo_b": "https://images.keovip88.net/images/teams/viettel-fc.png",
+            "time": "18:00:00",
+            "date": "10/05",
+            "blv": "BLV Thìn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8db86bf6a6_c402ca8d_20260510.png?v=c402ca8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-0cd8e2f27f",
           "name": "Việt Nam U17 vs Hàn Quốc U17 | 23:00 10/05",
           "type": "single",
