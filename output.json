@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "gv-4249bf1e48",
-          "name": "Monaco vs Lille | 02:00 11/05",
+          "id": "gv-f4d080ecb2",
+          "name": "Corinthians vs São Paulo | 04:30 11/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -100,78 +100,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4249bf1e48",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4249bf1e48",
-                  "name": "Monaco vs Lille",
-                  "streams": [
-                    {
-                      "id": "st-4249bf1e48",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0328562464",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778418160_hd/1778418160_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Monaco",
-            "team_b": "Lille",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/c/cf/LogoASMonacoFC2021.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/6/6f/Lille_OSC_2018_logo.png",
-            "time": "02:00:00",
-            "date": "11/05",
-            "blv": "blv-mat",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4249bf1e48_df58c9c5_20260511.png?v=df58c9c5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f4d080ecb2",
-          "name": "Corinthians vs São Paulo | 04:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -220,7 +148,7 @@
             "time": "04:30:00",
             "date": "11/05",
             "blv": "BLV Dần",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -240,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +220,7 @@
             "time": "04:30:00",
             "date": "11/05",
             "blv": "BLV Ngỗng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
