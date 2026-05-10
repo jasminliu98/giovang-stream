@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-51c9adbfcf",
-          "name": "Real Oviedo vs Getafe | 23:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-51c9adbfcf",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-51c9adbfcf",
-                  "name": "Real Oviedo vs Getafe",
-                  "streams": [
-                    {
-                      "id": "st-51c9adbfcf",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-91fcf692b7",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778294157_hd/1778294157_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Oviedo",
-            "team_b": "Getafe",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Real_Oviedo_logo.svg/960px-Real_Oviedo_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/7/7f/Getafe_logo.png",
-            "time": "23:30:00",
-            "date": "10/05",
-            "blv": "BLV Câm",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-51c9adbfcf_281a0e33_20260511.png?v=281a0e33",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6dcf4ff5fd",
           "name": "Mainz 05 vs Union Berlin | 00:30 11/05",
