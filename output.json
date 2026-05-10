@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-51c9adbfcf_281a0e33_20260511.png?v=281a0e33",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-2fdc86ae12",
-          "name": "AVS vs Porto | 23:59 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2fdc86ae12",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2fdc86ae12",
-                  "name": "AVS vs Porto",
-                  "streams": [
-                    {
-                      "id": "st-2fdc86ae12",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-17615d254e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778417988_hd/1778417988_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Bồ Đào Nha",
-            "team_a": "AVS",
-            "team_b": "Porto",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/AVS_Futebol_SAD_logo.svg/1280px-AVS_Futebol_SAD_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/FC_Porto.svg/250px-FC_Porto.svg.png",
-            "time": "23:59:00",
-            "date": "10/05",
-            "blv": "blv-mat",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2fdc86ae12_3af71c46_20260511.png?v=3af71c46",
             "width": 1600,
             "height": 1200
           }
@@ -1164,6 +1092,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ccef61404f_70d0564f_20260511.png?v=70d0564f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d55910253a",
+          "name": "Tottenham Hotspur vs Leeds United | 02:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d55910253a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d55910253a",
+                  "name": "Tottenham Hotspur vs Leeds United",
+                  "streams": [
+                    {
+                      "id": "st-d55910253a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-83331f0b11",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778427036_hd/1778427036_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Tottenham Hotspur",
+            "team_b": "Leeds United",
+            "logo_a": "https://images.keovip88.net/images/teams/tottenham-hotspur.png",
+            "logo_b": "https://images.keovip88.net/images/teams/leeds-united.png",
+            "time": "02:00:00",
+            "date": "12/05",
+            "blv": "BLV Câm, BLV Dần",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d55910253a_812d2765_20260511.png?v=812d2765",
             "width": 1600,
             "height": 1200
           }
