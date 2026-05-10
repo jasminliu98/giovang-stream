@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2177017f7e",
-          "name": "Công An Hà Nội vs Thép Xanh Nam Định | 19:15 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2177017f7e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2177017f7e",
-                  "name": "Công An Hà Nội vs Thép Xanh Nam Định",
-                  "streams": [
-                    {
-                      "id": "st-2177017f7e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ba0ec996ef",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778396483_hd/1778396483_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Công An Hà Nội",
-            "team_b": "Thép Xanh Nam Định",
-            "logo_a": "https://images.keovip88.net/images/teams/cong-an-ha-noi.png",
-            "logo_b": "https://images.keovip88.net/images/teams/nam-dinh-fc.png",
-            "time": "19:15:00",
-            "date": "10/05",
-            "blv": "BLV Nến",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2177017f7e_dcebce5a_20260510.png?v=dcebce5a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-155698da9a",
           "name": "Nottingham Forest vs Newcastle United | 20:00 10/05",
@@ -2109,87 +2037,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-56c08d5033_51c1ad0f_20260510.png?v=51c1ad0f",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-1ca799a32d",
-          "name": "Alexandra Eala vs Rybakina | 21:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1ca799a32d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1ca799a32d",
-                  "name": "Alexandra Eala vs Rybakina",
-                  "streams": [
-                    {
-                      "id": "st-1ca799a32d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-813dc86296",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778418493_hd/1778418493_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Rome Master 2026",
-            "team_a": "Alexandra Eala",
-            "team_b": "Rybakina",
-            "logo_a": "https://photo-assets.usopen.org/images/pics/large/f_Eala_20250324.jpg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Elena_Rybakina_%282025_DC_Open%29_11_%28cropped%29.jpg",
-            "time": "21:00:00",
-            "date": "10/05",
-            "blv": "BLV Perry",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1ca799a32d_54493308_20260510.png?v=54493308",
             "width": 1600,
             "height": 1200
           }
