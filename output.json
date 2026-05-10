@@ -2409,6 +2409,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-02ae7ceb47",
+          "name": "Alexander Blockx vs Alexander Zverev | 18:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-02ae7ceb47",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-02ae7ceb47",
+                  "name": "Alexander Blockx vs Alexander Zverev",
+                  "streams": [
+                    {
+                      "id": "st-02ae7ceb47",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fb75ece261",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778402023_hd/1778402023_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Rome Master 2026",
+            "team_a": "Alexander Blockx",
+            "team_b": "Alexander Zverev",
+            "logo_a": "https://static.flashscore.com/res/image/data/xbU0gWCr-WESsaYX1.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
+            "time": "18:00:00",
+            "date": "10/05",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-02ae7ceb47_d07b474c_20260510.png?v=d07b474c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
