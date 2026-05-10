@@ -1972,6 +1972,87 @@
       ]
     },
     {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-1ca799a32d",
+          "name": "Alexandra Eala vs Rybakina | 21:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1ca799a32d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1ca799a32d",
+                  "name": "Alexandra Eala vs Rybakina",
+                  "streams": [
+                    {
+                      "id": "st-1ca799a32d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-813dc86296",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778418493_hd/1778418493_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Rome Master 2026",
+            "team_a": "Alexandra Eala",
+            "team_b": "Rybakina",
+            "logo_a": "https://photo-assets.usopen.org/images/pics/large/f_Eala_20250324.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Elena_Rybakina_%282025_DC_Open%29_11_%28cropped%29.jpg",
+            "time": "21:00:00",
+            "date": "10/05",
+            "blv": "BLV Perry",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1ca799a32d_54493308_20260510.png?v=54493308",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchay",
       "name": "⚾ Bóng Chày",
       "display": "vertical",
