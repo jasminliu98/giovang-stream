@@ -1468,6 +1468,87 @@
       ]
     },
     {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-da9c20eaac",
+          "name": "T1 vs Dplus Kia | 15:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da9c20eaac",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-da9c20eaac",
+                  "name": "T1 vs Dplus Kia",
+                  "streams": [
+                    {
+                      "id": "st-da9c20eaac",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-142c7b5e9e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778395063_hd/1778395063_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "T1",
+            "team_b": "Dplus Kia",
+            "logo_a": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/IcRWRrAr-lAg5zKZ6.png",
+            "time": "15:00:00",
+            "date": "10/05",
+            "blv": "BLV Chanh",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-da9c20eaac_c81bd70a_20260510.png?v=c81bd70a",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchay",
       "name": "⚾ Bóng Chày",
       "display": "vertical",
