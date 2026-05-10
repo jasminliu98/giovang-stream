@@ -521,6 +521,78 @@
           }
         },
         {
+          "id": "gv-1702575129",
+          "name": "Cremonese vs Pisa | 20:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1702575129",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1702575129",
+                  "name": "Cremonese vs Pisa",
+                  "streams": [
+                    {
+                      "id": "st-1702575129",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86fd07aaad",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778397202_hd/1778397202_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Cremonese",
+            "team_b": "Pisa",
+            "logo_a": "https://images.keovip88.net/images/teams/cremonese.png",
+            "logo_b": "https://images.keovip88.net/images/teams/pisa.png",
+            "time": "20:00:00",
+            "date": "10/05",
+            "blv": "BLV Băng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1702575129_8d137834_20260510.png?v=8d137834",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-155698da9a",
           "name": "Nottingham Forest vs Newcastle United | 20:00 10/05",
           "type": "single",
@@ -588,6 +660,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-155698da9a_57db9a04_20260510.png?v=57db9a04",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cdd8c6251d",
+          "name": "Burnley vs Aston Villa | 20:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cdd8c6251d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cdd8c6251d",
+                  "name": "Burnley vs Aston Villa",
+                  "streams": [
+                    {
+                      "id": "st-cdd8c6251d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-08b48ecd39",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778397098_hd/1778397098_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Burnley",
+            "team_b": "Aston Villa",
+            "logo_a": "https://images.keovip88.net/images/teams/burnley.png",
+            "logo_b": "https://images.keovip88.net/images/teams/aston-villa.png",
+            "time": "20:00:00",
+            "date": "10/05",
+            "blv": "BLV Chanh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cdd8c6251d_551f8f7b_20260510.png?v=551f8f7b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-70fe096d11",
+          "name": "Crystal Palace vs Everton | 20:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-70fe096d11",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-70fe096d11",
+                  "name": "Crystal Palace vs Everton",
+                  "streams": [
+                    {
+                      "id": "st-70fe096d11",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1aecf417bc",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778397151_hd/1778397151_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Crystal Palace",
+            "team_b": "Everton",
+            "logo_a": "https://images.keovip88.net/images/teams/crystal-palace.png",
+            "logo_b": "https://images.keovip88.net/images/teams/everton.png",
+            "time": "20:00:00",
+            "date": "10/05",
+            "blv": "BLV Thìn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-70fe096d11_1faf94a3_20260510.png?v=1faf94a3",
             "width": 1600,
             "height": 1200
           }
@@ -1388,7 +1604,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1461,6 +1677,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c902beeb9d_82888728_20260510.png?v=82888728",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-bcb59a4b59",
+          "name": "Goyang Sono  vs KCC Egis | 14:30 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bcb59a4b59",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bcb59a4b59",
+                  "name": "Goyang Sono  vs KCC Egis",
+                  "streams": [
+                    {
+                      "id": "st-bcb59a4b59",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-506c94798a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778396767_hd/1778396767_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "KBL",
+            "team_a": "Goyang Sono ",
+            "team_b": "KCC Egis",
+            "logo_a": "https://static.flashscore.com/res/image/data/Q7U6ouhl-8M6D6J3r.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/6akehaEa-QVr2kiM7.png",
+            "time": "14:30:00",
+            "date": "10/05",
+            "blv": "BLV Tôm",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bcb59a4b59_ce20a6ce_20260510.png?v=ce20a6ce",
             "width": 1600,
             "height": 1200
           }
