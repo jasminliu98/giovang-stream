@@ -305,6 +305,78 @@
           }
         },
         {
+          "id": "gv-917e3f9add",
+          "name": "Hoàng Anh Gia Lai vs PVF-CAND | 17:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-917e3f9add",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-917e3f9add",
+                  "name": "Hoàng Anh Gia Lai vs PVF-CAND",
+                  "streams": [
+                    {
+                      "id": "st-917e3f9add",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4debc3b958",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778395540_hd/1778395540_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Hoàng Anh Gia Lai",
+            "team_b": "PVF-CAND",
+            "logo_a": "https://images.keovip88.net/images/teams/hoang-anh-gia-lai.png",
+            "logo_b": "https://images.keovip88.net/images/teams/pvf-cand.png",
+            "time": "17:00:00",
+            "date": "10/05",
+            "blv": "BLV Băng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-917e3f9add_a99f9970_20260510.png?v=a99f9970",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-0cd8e2f27f",
           "name": "Việt Nam U17 vs Hàn Quốc U17 | 23:00 10/05",
           "type": "single",
@@ -1695,6 +1767,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-da9c20eaac_c81bd70a_20260510.png?v=c81bd70a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-71ab7809b1",
+          "name": "KRX vs Hanwha Life | 17:00 10/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-71ab7809b1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-71ab7809b1",
+                  "name": "KRX vs Hanwha Life",
+                  "streams": [
+                    {
+                      "id": "st-71ab7809b1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6341a7b411",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778395694_hd/1778395694_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "KRX",
+            "team_b": "Hanwha Life",
+            "logo_a": "https://static.flashscore.com/res/image/data/bgSWuehl-SxdIjKYi.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/pKkqJ4Wg-bB59SVBr.png",
+            "time": "17:00:00",
+            "date": "10/05",
+            "blv": "BLV Chanh",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-71ab7809b1_a919b946_20260510.png?v=a919b946",
             "width": 1600,
             "height": 1200
           }
