@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-471a96d85d",
-          "name": "FC Anyang vs Jeonbuk Hyundai Motors | 14:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-471a96d85d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-471a96d85d",
-                  "name": "FC Anyang vs Jeonbuk Hyundai Motors",
-                  "streams": [
-                    {
-                      "id": "st-471a96d85d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8d7675307",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778356348_hd/1778356348_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K-League Hàn Quốc",
-            "team_a": "FC Anyang",
-            "team_b": "Jeonbuk Hyundai Motors",
-            "logo_a": "https://images.keovip88.net/images/teams/fc-anyang.png",
-            "logo_b": "https://images.keovip88.net/images/teams/jeonbuk-hyundai-motors.png",
-            "time": "14:30:00",
-            "date": "10/05",
-            "blv": "BLV Tỵ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-471a96d85d_60e864bd_20260510.png?v=60e864bd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-917e3f9add",
           "name": "Hoàng Anh Gia Lai vs PVF-CAND | 17:00 10/05",
