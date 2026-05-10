@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0cd8e2f27f",
-          "name": "Việt Nam U17 vs Hàn Quốc U17 | 23:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0cd8e2f27f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0cd8e2f27f",
-                  "name": "Việt Nam U17 vs Hàn Quốc U17",
-                  "streams": [
-                    {
-                      "id": "st-0cd8e2f27f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-84331ed484",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778293931_hd/1778293931_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Asian Cup U17",
-            "team_a": "Việt Nam U17",
-            "team_b": "Hàn Quốc U17",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1280px-Flag_of_Vietnam.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/1280px-Flag_of_South_Korea.svg.png",
-            "time": "23:00:00",
-            "date": "10/05",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0cd8e2f27f_3de0cf5b_20260511.png?v=3de0cf5b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-347c6d1b42",
           "name": "Parma vs Roma | 23:00 10/05",
