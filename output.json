@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f4d080ecb2_1b99d12e_20260511.png?v=1b99d12e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-7c46a22f66",
-          "name": "Santos vs RB Bragantino | 04:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7c46a22f66",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7c46a22f66",
-                  "name": "Santos vs RB Bragantino",
-                  "streams": [
-                    {
-                      "id": "st-7c46a22f66",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ecc1f8ba9d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778294690_hd/1778294690_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Santos",
-            "team_b": "RB Bragantino",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRODvqksjkqMma8Jt6htFS3uVtM4ouR1BsaKQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Red_Bull_Bragantino_logo.svg/1280px-Red_Bull_Bragantino_logo.svg.png",
-            "time": "04:30:00",
-            "date": "11/05",
-            "blv": "BLV Ngỗng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7c46a22f66_b729650a_20260511.png?v=b729650a",
             "width": 1600,
             "height": 1200
           }
