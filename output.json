@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "17:00:00",
             "date": "10/05",
             "blv": "BLV Băng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1676,83 +1676,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-bcb59a4b59",
-          "name": "Goyang Sono  vs KCC Egis | 14:30 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bcb59a4b59",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bcb59a4b59",
-                  "name": "Goyang Sono  vs KCC Egis",
-                  "streams": [
-                    {
-                      "id": "st-bcb59a4b59",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-506c94798a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778396767_hd/1778396767_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "KBL",
-            "team_a": "Goyang Sono ",
-            "team_b": "KCC Egis",
-            "logo_a": "https://static.flashscore.com/res/image/data/Q7U6ouhl-8M6D6J3r.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/6akehaEa-QVr2kiM7.png",
-            "time": "14:30:00",
-            "date": "10/05",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bcb59a4b59_ce20a6ce_20260510.png?v=ce20a6ce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5e4205fcc0",
           "name": "Meralco Bolts vs Magnolia Hotshots | 16:15 10/05",
@@ -2420,8 +2348,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-da9c20eaac",
-          "name": "T1 vs Dplus Kia | 15:00 10/05",
+          "id": "gv-71ab7809b1",
+          "name": "KRX vs Hanwha Life | 17:00 10/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2431,78 +2359,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da9c20eaac",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-da9c20eaac",
-                  "name": "T1 vs Dplus Kia",
-                  "streams": [
-                    {
-                      "id": "st-da9c20eaac",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-142c7b5e9e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778395063_hd/1778395063_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "T1",
-            "team_b": "Dplus Kia",
-            "logo_a": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/IcRWRrAr-lAg5zKZ6.png",
-            "time": "15:00:00",
-            "date": "10/05",
-            "blv": "BLV Chanh",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-da9c20eaac_c81bd70a_20260510.png?v=c81bd70a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-71ab7809b1",
-          "name": "KRX vs Hanwha Life | 17:00 10/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2551,7 +2407,7 @@
             "time": "17:00:00",
             "date": "10/05",
             "blv": "BLV Chanh",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
