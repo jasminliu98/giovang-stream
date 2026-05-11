@@ -1250,6 +1250,78 @@
           }
         },
         {
+          "id": "gv-7533c04a92",
+          "name": "Lakers  vs Thunder | 09:30 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7533c04a92",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7533c04a92",
+                  "name": "Lakers  vs Thunder",
+                  "streams": [
+                    {
+                      "id": "st-7533c04a92",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cdd979921e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778515185_hd/1778515185_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Lakers ",
+            "team_b": "Thunder",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/250px-Los_Angeles_Lakers_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/5/5d/Oklahoma_City_Thunder.svg",
+            "time": "09:30:00",
+            "date": "12/05",
+            "blv": "BLV Perry, BLV Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7533c04a92_587fa5d4_20260511.png?v=587fa5d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-ac78a63634",
           "name": "Negros Hacienderos vs Marikina Shoemasters | 15:00 12/05",
           "type": "single",
@@ -1839,6 +1911,159 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-60b141de75_0ce796df_20260511.png?v=0ce796df",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-8c096fc71a",
+          "name": "Houston Astros  vs  Seattle Mariners | 07:10 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c096fc71a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8c096fc71a",
+                  "name": "Houston Astros  vs  Seattle Mariners",
+                  "streams": [
+                    {
+                      "id": "st-8c096fc71a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eaa4b414dc",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778515320_hd/1778515320_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Houston Astros ",
+            "team_b": " Seattle Mariners",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Houston-Astros-Logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/6/6d/Seattle_Mariners_logo_%28low_res%29.svg",
+            "time": "07:10:00",
+            "date": "12/05",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8c096fc71a_8fd50589_20260511.png?v=8fd50589",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6a639eb3d2",
+          "name": "Los Angeles Dodgers  vs San Francisco Giants | 09:10 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6a639eb3d2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6a639eb3d2",
+                  "name": "Los Angeles Dodgers  vs San Francisco Giants",
+                  "streams": [
+                    {
+                      "id": "st-6a639eb3d2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f4b288083d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778515402_hd/1778515402_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Los Angeles Dodgers ",
+            "team_b": "San Francisco Giants",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJJIF_NyL7Rl74tmXkGYSW0b-0GNi75fUBkA&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/San_Francisco_Giants_Logo.svg/1280px-San_Francisco_Giants_Logo.svg.png",
+            "time": "09:10:00",
+            "date": "12/05",
+            "blv": "BLV Chanh",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6a639eb3d2_431da14b_20260511.png?v=431da14b",
             "width": 1600,
             "height": 1200
           }
