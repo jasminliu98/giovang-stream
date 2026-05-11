@@ -476,11 +476,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-83331f0b11",
+                          "id": "lnk-b07aee4206",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778427036_hd/1778427036_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778516028_hd/1778516028_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -507,7 +507,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/leeds-united.png",
             "time": "02:00:00",
             "date": "12/05",
-            "blv": "BLV Câm, BLV Dần",
+            "blv": "BLV Dory, BLV Dần",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1613,7 +1613,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1698,10 +1698,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1750,7 +1750,7 @@
             "time": "23:40:00",
             "date": "11/05",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
