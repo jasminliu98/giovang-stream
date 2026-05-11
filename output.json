@@ -1025,6 +1025,87 @@
           }
         }
       ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-3821f3bbab",
+          "name": "BFX vs T1 | 15:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3821f3bbab",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3821f3bbab",
+                  "name": "BFX vs T1",
+                  "streams": [
+                    {
+                      "id": "st-3821f3bbab",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-64b2aca9d9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778484087_hd/1778484087_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EWC",
+            "team_a": "BFX",
+            "team_b": "T1",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKmc3uCmUhNBlcrbsOMkhaibRk_FTxQyer_w&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/T1_esports_logo.svg/960px-T1_esports_logo.svg.png",
+            "time": "15:00:00",
+            "date": "12/05",
+            "blv": "BLV Nến",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3821f3bbab_23063cd8_20260511.png?v=23063cd8",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
