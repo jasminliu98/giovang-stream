@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3ee4a75cde_935a502e_20260511.png?v=935a502e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3ee4a75cde_935a502e_20260512.png?v=935a502e",
             "width": 1600,
             "height": 1200
           }
@@ -155,7 +155,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ccef61404f_70d0564f_20260511.png?v=70d0564f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ccef61404f_70d0564f_20260512.png?v=70d0564f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a182870e6f",
+          "name": "Dinamo Moscow vs Krasnodar FK | 00:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a182870e6f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a182870e6f",
+                  "name": "Dinamo Moscow vs Krasnodar FK",
+                  "streams": [
+                    {
+                      "id": "st-a182870e6f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4b092cb252",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778476417_hd/1778476417_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nga",
+            "team_a": "Dinamo Moscow",
+            "team_b": "Krasnodar FK",
+            "logo_a": "https://images.keovip88.net/images/teams/dynamo-moscow.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-krasnodar.png",
+            "time": "00:00:00",
+            "date": "12/05",
+            "blv": "blv-mat",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a182870e6f_4552a395_20260512.png?v=4552a395",
             "width": 1600,
             "height": 1200
           }
@@ -227,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d772bc0e42_8e023221_20260511.png?v=8e023221",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d772bc0e42_8e023221_20260512.png?v=8e023221",
             "width": 1600,
             "height": 1200
           }
@@ -299,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ff2a10472b_2af58c3c_20260511.png?v=2af58c3c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ff2a10472b_2af58c3c_20260512.png?v=2af58c3c",
             "width": 1600,
             "height": 1200
           }
@@ -371,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d55910253a_812d2765_20260511.png?v=812d2765",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d55910253a_812d2765_20260512.png?v=812d2765",
             "width": 1600,
             "height": 1200
           }
@@ -443,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-22e39d0232_68bdfc6c_20260511.png?v=68bdfc6c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-22e39d0232_68bdfc6c_20260512.png?v=68bdfc6c",
             "width": 1600,
             "height": 1200
           }
@@ -515,7 +587,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9b04e04d29_05366dbb_20260511.png?v=05366dbb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9b04e04d29_05366dbb_20260512.png?v=05366dbb",
             "width": 1600,
             "height": 1200
           }
@@ -587,7 +659,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6f6b51d4ed_cfcf5011_20260511.png?v=cfcf5011",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6f6b51d4ed_cfcf5011_20260512.png?v=cfcf5011",
             "width": 1600,
             "height": 1200
           }
@@ -659,7 +731,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-92c2ed93cd_5f22c2fb_20260511.png?v=5f22c2fb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-92c2ed93cd_5f22c2fb_20260512.png?v=5f22c2fb",
             "width": 1600,
             "height": 1200
           }
@@ -731,7 +803,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-193ff408a8_3240813a_20260511.png?v=3240813a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-193ff408a8_3240813a_20260512.png?v=3240813a",
             "width": 1600,
             "height": 1200
           }
@@ -803,7 +875,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8f0e8dac56_a9fd2ca4_20260511.png?v=a9fd2ca4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8f0e8dac56_a9fd2ca4_20260512.png?v=a9fd2ca4",
             "width": 1600,
             "height": 1200
           }
@@ -875,7 +947,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3d9e946b16_f8a10ef4_20260511.png?v=f8a10ef4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3d9e946b16_f8a10ef4_20260512.png?v=f8a10ef4",
             "width": 1600,
             "height": 1200
           }
@@ -947,7 +1019,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ed373319be_6ceeb47e_20260511.png?v=6ceeb47e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ed373319be_6ceeb47e_20260512.png?v=6ceeb47e",
             "width": 1600,
             "height": 1200
           }
@@ -1019,7 +1091,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d159162939_d8097740_20260511.png?v=d8097740",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d159162939_d8097740_20260512.png?v=d8097740",
             "width": 1600,
             "height": 1200
           }
@@ -1100,7 +1172,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ddfce8e62b_79d2e8b0_20260511.png?v=79d2e8b0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ddfce8e62b_79d2e8b0_20260512.png?v=79d2e8b0",
             "width": 1600,
             "height": 1200
           }
@@ -1172,7 +1244,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7533c04a92_587fa5d4_20260511.png?v=587fa5d4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7533c04a92_587fa5d4_20260512.png?v=587fa5d4",
             "width": 1600,
             "height": 1200
           }
@@ -1244,7 +1316,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ac78a63634_7e31a2f3_20260511.png?v=7e31a2f3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ac78a63634_7e31a2f3_20260512.png?v=7e31a2f3",
             "width": 1600,
             "height": 1200
           }
@@ -1316,7 +1388,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-65c55f2a4b_4937c43e_20260511.png?v=4937c43e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-65c55f2a4b_4937c43e_20260512.png?v=4937c43e",
             "width": 1600,
             "height": 1200
           }
@@ -1388,7 +1460,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-53e528851a_dc884ff5_20260511.png?v=dc884ff5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-53e528851a_dc884ff5_20260512.png?v=dc884ff5",
             "width": 1600,
             "height": 1200
           }
@@ -1460,7 +1532,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ad02aa2aed_e19fd2b9_20260511.png?v=e19fd2b9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ad02aa2aed_e19fd2b9_20260512.png?v=e19fd2b9",
             "width": 1600,
             "height": 1200
           }
@@ -1541,7 +1613,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f23eb755d8_e91a456d_20260511.png?v=e91a456d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f23eb755d8_e91a456d_20260512.png?v=e91a456d",
             "width": 1600,
             "height": 1200
           }
@@ -1613,7 +1685,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-723b71de19_dc3b2888_20260511.png?v=dc3b2888",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-723b71de19_dc3b2888_20260512.png?v=dc3b2888",
             "width": 1600,
             "height": 1200
           }
@@ -1694,7 +1766,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3821f3bbab_23063cd8_20260511.png?v=23063cd8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3821f3bbab_23063cd8_20260512.png?v=23063cd8",
             "width": 1600,
             "height": 1200
           }
@@ -1766,7 +1838,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-60b141de75_0ce796df_20260511.png?v=0ce796df",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-60b141de75_0ce796df_20260512.png?v=0ce796df",
             "width": 1600,
             "height": 1200
           }
@@ -1847,7 +1919,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8c096fc71a_8fd50589_20260511.png?v=8fd50589",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8c096fc71a_8fd50589_20260512.png?v=8fd50589",
             "width": 1600,
             "height": 1200
           }
@@ -1919,7 +1991,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6a639eb3d2_431da14b_20260511.png?v=431da14b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6a639eb3d2_431da14b_20260512.png?v=431da14b",
             "width": 1600,
             "height": 1200
           }
