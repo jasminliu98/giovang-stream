@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1e26b14850",
-          "name": "Trung Quốc U17 Nữ vs Ấn Độ U17 Nữ | 18:30 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1e26b14850",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1e26b14850",
-                  "name": "Trung Quốc U17 Nữ vs Ấn Độ U17 Nữ",
-                  "streams": [
-                    {
-                      "id": "st-1e26b14850",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-119845a3ee",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778420004_hd/1778420004_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Asian Cup Women U17",
-            "team_a": "Trung Quốc U17 Nữ",
-            "team_b": "Ấn Độ U17 Nữ",
-            "logo_a": "https://images.keovip.cc/images/teams/china-u23.png",
-            "logo_b": "https://images.keovip.tech/images/teams/india-w.png",
-            "time": "18:30:00",
-            "date": "11/05",
-            "blv": "BLV Tỵ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1e26b14850_27efab38_20260511.png?v=27efab38",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cd93a30ff1",
           "name": "Bali United vs Borneo | 19:00 11/05",
