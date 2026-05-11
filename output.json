@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-491ab46331",
-          "name": "Việt Nam U17 Nữ  vs Australia U17 Nữ | 14:00 11/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-491ab46331",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-491ab46331",
-                  "name": "Việt Nam U17 Nữ  vs Australia U17 Nữ",
-                  "streams": [
-                    {
-                      "id": "st-491ab46331",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-797d5c8955",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778419912_hd/1778419912_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Asian Cup Women U17",
-            "team_a": "Việt Nam U17 Nữ ",
-            "team_b": "Australia U17 Nữ",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/250px-Flag_of_Vietnam.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
-            "time": "14:00:00",
-            "date": "11/05",
-            "blv": "BLV Nến",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-491ab46331_ba0eb599_20260511.png?v=ba0eb599",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1e26b14850",
           "name": "Trung Quốc U17 Nữ vs Ấn Độ U17 Nữ | 18:30 11/05",
@@ -228,6 +156,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f357ec5a76_88adb417_20260511.png?v=88adb417",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f4b34c2351",
+          "name": "Trung Quốc U17 Nữ vs Ấn Độ U17 Nữ | 18:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f4b34c2351",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f4b34c2351",
+                  "name": "Trung Quốc U17 Nữ vs Ấn Độ U17 Nữ",
+                  "streams": [
+                    {
+                      "id": "st-f4b34c2351",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7ee5352926",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778490117_hd/1778490117_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Asian Cup Women U17",
+            "team_a": "Trung Quốc U17 Nữ",
+            "team_b": "Ấn Độ U17 Nữ",
+            "logo_a": "https://pantravel.vn/wp-content/uploads/2024/08/y-nghia-thuc-su-cua-la-co-nay-la-gi.jpg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/1280px-Flag_of_India.svg.png",
+            "time": "18:30:00",
+            "date": "11/05",
+            "blv": "BLV Tỵ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f4b34c2351_4462d6f2_20260511.png?v=4462d6f2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-07db9f653b",
+          "name": "Triều Tiên U17 Nữ vs Thái Lan U17 Nữ | 18:30 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-07db9f653b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-07db9f653b",
+                  "name": "Triều Tiên U17 Nữ vs Thái Lan U17 Nữ",
+                  "streams": [
+                    {
+                      "id": "st-07db9f653b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1ebd46e772",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778490373_hd/1778490373_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Asian Cup Women U17",
+            "team_a": "Triều Tiên U17 Nữ",
+            "team_b": "Thái Lan U17 Nữ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/1280px-Flag_of_North_Korea.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
+            "time": "18:30:00",
+            "date": "11/05",
+            "blv": "BLV Thìn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-07db9f653b_ac5c974a_20260511.png?v=ac5c974a",
             "width": 1600,
             "height": 1200
           }
