@@ -1545,6 +1545,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-723b71de19",
+          "name": "Osaka  vs Swiatek | 23:40 11/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-723b71de19",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-723b71de19",
+                  "name": "Osaka  vs Swiatek",
+                  "streams": [
+                    {
+                      "id": "st-723b71de19",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b5902b408b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778512573_hd/1778512573_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Rome Master 2026",
+            "team_a": "Osaka ",
+            "team_b": "Swiatek",
+            "logo_a": "https://static.flashscore.com/res/image/data/6NjdR1zB-YgRjYWBf.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/S2NdWdWg-tOt4Rhy2.png",
+            "time": "23:40:00",
+            "date": "11/05",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-723b71de19_dc3b2888_20260511.png?v=dc3b2888",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
