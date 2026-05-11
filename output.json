@@ -1027,6 +1027,159 @@
       ]
     },
     {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-ac78a63634",
+          "name": "Negros Hacienderos vs Marikina Shoemasters | 15:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ac78a63634",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ac78a63634",
+                  "name": "Negros Hacienderos vs Marikina Shoemasters",
+                  "streams": [
+                    {
+                      "id": "st-ac78a63634",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f71c876acc",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778484371_hd/1778484371_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Phillipines",
+            "team_a": "Negros Hacienderos",
+            "team_b": "Marikina Shoemasters",
+            "logo_a": "https://static.flashscore.com/res/image/data/6DfoMaZA-jLQmfqq6.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Marikina_Shoemasters_MPBL_logo.png/250px-Marikina_Shoemasters_MPBL_logo.png",
+            "time": "15:00:00",
+            "date": "12/05",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ac78a63634_7e31a2f3_20260511.png?v=7e31a2f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-65c55f2a4b",
+          "name": "Quezon Huskers vs Bacolod Masskara | 17:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-65c55f2a4b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-65c55f2a4b",
+                  "name": "Quezon Huskers vs Bacolod Masskara",
+                  "streams": [
+                    {
+                      "id": "st-65c55f2a4b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a388a52ba6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778484464_hd/1778484464_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Phillipines",
+            "team_a": "Quezon Huskers",
+            "team_b": "Bacolod Masskara",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/e/e7/Quezon_Huskers_logo.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJRxIQy-6zt9_LOoHbmEA6lyzxMiUuqDgU4A&s",
+            "time": "17:00:00",
+            "date": "12/05",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-65c55f2a4b_4937c43e_20260511.png?v=4937c43e",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_esport",
       "name": "🎮 Esport",
       "display": "vertical",
@@ -1101,6 +1254,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3821f3bbab_23063cd8_20260511.png?v=23063cd8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-60b141de75",
+          "name": "Hanwha Life vs DK | 17:00 12/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60b141de75",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-60b141de75",
+                  "name": "Hanwha Life vs DK",
+                  "streams": [
+                    {
+                      "id": "st-60b141de75",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a2d6451240",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778484282_hd/1778484282_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EWC",
+            "team_a": "Hanwha Life",
+            "team_b": "DK",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/e0/HLE_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Logo_DPlus_KIA.png",
+            "time": "17:00:00",
+            "date": "12/05",
+            "blv": "BLV Nến",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-60b141de75_0ce796df_20260511.png?v=0ce796df",
             "width": 1600,
             "height": 1200
           }
