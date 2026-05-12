@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8f0e8dac56_a9fd2ca4_20260512.png?v=a9fd2ca4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-92c2ed93cd",
-          "name": "Gangwon vs Daejeon Citizen | 17:30 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-92c2ed93cd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-92c2ed93cd",
-                  "name": "Gangwon vs Daejeon Citizen",
-                  "streams": [
-                    {
-                      "id": "st-92c2ed93cd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f2bc95efb0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778484807_hd/1778484807_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K-League Hàn Quốc",
-            "team_a": "Gangwon",
-            "team_b": "Daejeon Citizen",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Gangwon_FC.svg/1280px-Gangwon_FC.svg.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHvBV-90e4Oa9hkb4oRj1qi0VXcUsHibR8Wg&s",
-            "time": "17:30:00",
-            "date": "12/05",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-92c2ed93cd_5f22c2fb_20260512.png?v=5f22c2fb",
             "width": 1600,
             "height": 1200
           }
@@ -1239,49 +1167,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-65c55f2a4b",
-          "name": "Quezon Huskers vs Bacolod Masskara | 17:00 12/05",
+          "id": "gv-d0f75f1493",
+          "name": "FC Anyang vs Gimcheon Sangmu | 17:30 13/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-65c55f2a4b",
+              "id": "src-d0f75f1493",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-65c55f2a4b",
-                  "name": "Quezon Huskers vs Bacolod Masskara",
+                  "id": "ct-d0f75f1493",
+                  "name": "FC Anyang vs Gimcheon Sangmu",
                   "streams": [
                     {
-                      "id": "st-65c55f2a4b",
+                      "id": "st-d0f75f1493",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-0da7a1e4be",
+                          "id": "lnk-7e33ec4ec3",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778578474_hd/1778578474_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778560675_hd/1778560675_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1301,26 +1220,251 @@
             }
           ],
           "org_metadata": {
-            "league": "Phillipines",
-            "team_a": "Quezon Huskers",
-            "team_b": "Bacolod Masskara",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/e/e7/Quezon_Huskers_logo.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJRxIQy-6zt9_LOoHbmEA6lyzxMiUuqDgU4A&s",
-            "time": "17:00:00",
-            "date": "12/05",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
+            "league": "K-League Hàn Quốc",
+            "team_a": "FC Anyang",
+            "team_b": "Gimcheon Sangmu",
+            "logo_a": "https://images.keovip88.net/images/teams/fc-anyang.png",
+            "logo_b": "https://images.keovip88.net/images/teams/gimcheon-sangmu-fc.png",
+            "time": "17:30:00",
+            "date": "13/05",
+            "blv": "BLV Thìn",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-65c55f2a4b_4937c43e_20260512.png?v=4937c43e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d0f75f1493_1f8ce27b_20260512.png?v=1f8ce27b",
             "width": 1600,
             "height": 1200
           }
         },
+        {
+          "id": "gv-02d0bd2144",
+          "name": "Bucheon FC 1995 vs Jeonbuk Hyundai Motors | 17:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-02d0bd2144",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-02d0bd2144",
+                  "name": "Bucheon FC 1995 vs Jeonbuk Hyundai Motors",
+                  "streams": [
+                    {
+                      "id": "st-02d0bd2144",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a10d66947e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778560711_hd/1778560711_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K-League Hàn Quốc",
+            "team_a": "Bucheon FC 1995",
+            "team_b": "Jeonbuk Hyundai Motors",
+            "logo_a": "https://images.keovip88.net/images/teams/bucheon-fc-1995.png",
+            "logo_b": "https://images.keovip88.net/images/teams/jeonbuk-hyundai-motors.png",
+            "time": "17:30:00",
+            "date": "13/05",
+            "blv": "BLV Dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-02d0bd2144_775529d1_20260512.png?v=775529d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-512133d202",
+          "name": "Ulsan Hyundai vs Jeju United FC | 17:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-512133d202",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-512133d202",
+                  "name": "Ulsan Hyundai vs Jeju United FC",
+                  "streams": [
+                    {
+                      "id": "st-512133d202",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-742ceb3fe9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778560925_hd/1778560925_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K-League Hàn Quốc",
+            "team_a": "Ulsan Hyundai",
+            "team_b": "Jeju United FC",
+            "logo_a": "https://images.keovip88.net/images/teams/ulsan-hd-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/jeju-sk-fc.png",
+            "time": "17:30:00",
+            "date": "13/05",
+            "blv": "BLV Tỵ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-512133d202_338934ac_20260512.png?v=338934ac",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-505a1e5f2f",
+          "name": "Thép Xanh Nam Định vs Selangor PB | 17:30 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-505a1e5f2f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-505a1e5f2f",
+                  "name": "Thép Xanh Nam Định vs Selangor PB",
+                  "streams": [
+                    {
+                      "id": "st-505a1e5f2f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aac071709b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778560967_hd/1778560967_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Club Championship",
+            "team_a": "Thép Xanh Nam Định",
+            "team_b": "Selangor PB",
+            "logo_a": "https://images.keovip88.net/images/teams/nam-dinh-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/selangor.png",
+            "time": "17:30:00",
+            "date": "13/05",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-505a1e5f2f_ad99390a_20260512.png?v=ad99390a",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-3c18f6d3d2",
           "name": "Formosa Dreamers vs Hsinchu Jko Lioneers | 18:00 12/05",
