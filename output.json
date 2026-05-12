@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-62d87e477f_01a4d0b6_20260513.png?v=01a4d0b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-4b9393d113",
-          "name": "Osasuna vs Atletico Madrid | 02:30 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4b9393d113",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4b9393d113",
-                  "name": "Osasuna vs Atletico Madrid",
-                  "streams": [
-                    {
-                      "id": "st-4b9393d113",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d4a50f7597",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778568378_hd/1778568378_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Osasuna",
-            "team_b": "Atletico Madrid",
-            "logo_a": "https://images.keovip88.net/images/teams/osasuna.png",
-            "logo_b": "https://images.keovip88.net/images/teams/atletico-madrid.png",
-            "time": "02:30:00",
-            "date": "13/05",
-            "blv": "BLV Dần",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4b9393d113_b816278b_20260513.png?v=b816278b",
             "width": 1600,
             "height": 1200
           }
