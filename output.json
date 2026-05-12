@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d159162939_d8097740_20260512.png?v=d8097740",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3d9e946b16",
-          "name": "El Gounah vs Kahraba | 21:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d9e946b16",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3d9e946b16",
-                  "name": "El Gounah vs Kahraba",
-                  "streams": [
-                    {
-                      "id": "st-3d9e946b16",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0d12c95dd3",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778485032_hd/1778485032_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ai Cập",
-            "team_a": "El Gounah",
-            "team_b": "Kahraba",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/El_Gouna_FC_Logo_2017.png/250px-El_Gouna_FC_Logo_2017.png",
-            "logo_b": "https://r2.thesportsdb.com/images/media/team/badge/1g9fdn1759560731.png",
-            "time": "21:00:00",
-            "date": "12/05",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3d9e946b16_f8a10ef4_20260512.png?v=f8a10ef4",
             "width": 1600,
             "height": 1200
           }
