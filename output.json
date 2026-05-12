@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ed373319be",
-          "name": "Pharco vs Future | 21:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ed373319be",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ed373319be",
-                  "name": "Pharco vs Future",
-                  "streams": [
-                    {
-                      "id": "st-ed373319be",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-903a2b5d30",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778485237_hd/1778485237_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ai Cập",
-            "team_a": "Pharco",
-            "team_b": "Future",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/58/Pharco_FC_logo.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMRWlHiSPUx-1Yhzq9kEvfjCqt5mfUhvMteQ&s",
-            "time": "21:00:00",
-            "date": "12/05",
-            "blv": "BLV Tỵ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ed373319be_6ceeb47e_20260512.png?v=6ceeb47e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d159162939",
-          "name": "FC Inter Turku vs JS Hercules | 21:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d159162939",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d159162939",
-                  "name": "FC Inter Turku vs JS Hercules",
-                  "streams": [
-                    {
-                      "id": "st-d159162939",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf817484ec",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778485410_hd/1778485410_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Suomen Cup - 1/16-finals",
-            "team_a": "FC Inter Turku",
-            "team_b": "JS Hercules",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYjBUL7eqfclQds8UbzpuY0C2ZG4zPgWf2vA&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/JS_HERCULES.png/250px-JS_HERCULES.png",
-            "time": "21:00:00",
-            "date": "12/05",
-            "blv": "blv-mat",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d159162939_d8097740_20260512.png?v=d8097740",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0a6fd22072",
           "name": "Nhật Bản U17 vs Indonesia U17 | 23:00 12/05",
@@ -1460,7 +1316,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1473,10 +1329,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1525,7 +1381,7 @@
             "time": "23:30:00",
             "date": "12/05",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
