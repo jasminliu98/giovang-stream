@@ -452,83 +452,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ddfce8e62b",
-          "name": "Cavaliers  vs Pistons | 07:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ddfce8e62b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ddfce8e62b",
-                  "name": "Cavaliers  vs Pistons",
-                  "streams": [
-                    {
-                      "id": "st-ddfce8e62b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1f87148b76",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778515059_hd/1778515059_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "Cavaliers ",
-            "team_b": "Pistons",
-            "logo_a": "https://imgts.sportpulseapiz.com/basketball/team/gy0or5gtd87qwzv/image/small",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Logo_of_the_Detroit_Pistons.svg/1280px-Logo_of_the_Detroit_Pistons.svg.png",
-            "time": "07:00:00",
-            "date": "12/05",
-            "blv": "BLV Perry, BLV Nến",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ddfce8e62b_79d2e8b0_20260512.png?v=79d2e8b0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7533c04a92",
           "name": "Lakers  vs Thunder | 09:30 12/05",
@@ -1343,83 +1271,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8c096fc71a",
-          "name": "Houston Astros  vs  Seattle Mariners | 07:10 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c096fc71a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8c096fc71a",
-                  "name": "Houston Astros  vs  Seattle Mariners",
-                  "streams": [
-                    {
-                      "id": "st-8c096fc71a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eaa4b414dc",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778515320_hd/1778515320_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Houston Astros ",
-            "team_b": " Seattle Mariners",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Houston-Astros-Logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/6/6d/Seattle_Mariners_logo_%28low_res%29.svg",
-            "time": "07:10:00",
-            "date": "12/05",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8c096fc71a_8fd50589_20260512.png?v=8fd50589",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6a639eb3d2",
           "name": "Los Angeles Dodgers  vs San Francisco Giants | 09:10 12/05",
