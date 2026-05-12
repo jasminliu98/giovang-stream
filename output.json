@@ -2198,83 +2198,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-60b141de75",
-          "name": "Hanwha Life vs DK | 17:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-60b141de75",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-60b141de75",
-                  "name": "Hanwha Life vs DK",
-                  "streams": [
-                    {
-                      "id": "st-60b141de75",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a2d6451240",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778484282_hd/1778484282_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EWC",
-            "team_a": "Hanwha Life",
-            "team_b": "DK",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/e0/HLE_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Logo_DPlus_KIA.png",
-            "time": "17:00:00",
-            "date": "12/05",
-            "blv": "BLV Nến",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-60b141de75_0ce796df_20260512.png?v=0ce796df",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b51cd143d8",
           "name": "T1 vs NS | 15:00 13/05",
