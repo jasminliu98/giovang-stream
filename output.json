@@ -1172,83 +1172,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ac78a63634",
-          "name": "Negros Hacienderos vs Marikina Shoemasters | 15:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ac78a63634",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ac78a63634",
-                  "name": "Negros Hacienderos vs Marikina Shoemasters",
-                  "streams": [
-                    {
-                      "id": "st-ac78a63634",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f71c876acc",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778484371_hd/1778484371_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Phillipines",
-            "team_a": "Negros Hacienderos",
-            "team_b": "Marikina Shoemasters",
-            "logo_a": "https://static.flashscore.com/res/image/data/6DfoMaZA-jLQmfqq6.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/Marikina_Shoemasters_MPBL_logo.png/250px-Marikina_Shoemasters_MPBL_logo.png",
-            "time": "15:00:00",
-            "date": "12/05",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ac78a63634_7e31a2f3_20260512.png?v=7e31a2f3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-65c55f2a4b",
           "name": "Quezon Huskers vs Bacolod Masskara | 17:00 12/05",
@@ -2054,83 +1982,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-3821f3bbab",
-          "name": "BFX vs T1 | 15:00 12/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3821f3bbab",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3821f3bbab",
-                  "name": "BFX vs T1",
-                  "streams": [
-                    {
-                      "id": "st-3821f3bbab",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-64b2aca9d9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778484087_hd/1778484087_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EWC",
-            "team_a": "BFX",
-            "team_b": "T1",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKmc3uCmUhNBlcrbsOMkhaibRk_FTxQyer_w&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/T1_esports_logo.svg/960px-T1_esports_logo.svg.png",
-            "time": "15:00:00",
-            "date": "12/05",
-            "blv": "BLV Nến",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3821f3bbab_23063cd8_20260512.png?v=23063cd8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-60b141de75",
           "name": "Hanwha Life vs DK | 17:00 12/05",
@@ -2271,78 +2127,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b51cd143d8_04d43039_20260512.png?v=04d43039",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9814d7f8cb",
-          "name": "DNS vs DK | 17:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9814d7f8cb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9814d7f8cb",
-                  "name": "DNS vs DK",
-                  "streams": [
-                    {
-                      "id": "st-9814d7f8cb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c2cc8d5609",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778561537_hd/1778561537_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "DNS",
-            "team_b": "DK",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRamout9M-LiEXrzjLZNRq4AKbEKU3B4eJVhg&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Logo_DPlus_KIA.png",
-            "time": "17:00:00",
-            "date": "13/05",
-            "blv": "BLV Tôm",
-            "is_live": false,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9814d7f8cb_a71c2260_20260512.png?v=a71c2260",
             "width": 1600,
             "height": 1200
           }
