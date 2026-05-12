@@ -1455,6 +1455,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-3176df3ef4",
+          "name": "Buriram United vs Johor Darul Takzim | 19:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3176df3ef4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3176df3ef4",
+                  "name": "Buriram United vs Johor Darul Takzim",
+                  "streams": [
+                    {
+                      "id": "st-3176df3ef4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8248575d8",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778561021_hd/1778561021_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Club Championship",
+            "team_a": "Buriram United",
+            "team_b": "Johor Darul Takzim",
+            "logo_a": "https://images.keovip88.net/images/teams/buriram-united.png",
+            "logo_b": "https://images.keovip88.net/images/teams/johor-darul-takzim.png",
+            "time": "19:00:00",
+            "date": "13/05",
+            "blv": "BLV Chanh",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3176df3ef4_d8449690_20260512.png?v=d8449690",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
