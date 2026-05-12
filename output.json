@@ -1050,25 +1050,7 @@
                     {
                       "id": "st-02d0bd2144",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a10d66947e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778560711_hd/1778560711_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1757,7 +1739,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1836,16 +1818,16 @@
         },
         {
           "id": "gv-a69d5bad0e",
-          "name": "Hamad Medjedovic vs Martin Landaluce | 22:00 12/05",
+          "name": "Hamad Medjedovic vs Martin Landaluce | 23:15 12/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1891,10 +1873,10 @@
             "team_b": "Martin Landaluce",
             "logo_a": "https://static.flashscore.com/res/image/data/KrJ7t6Yg-KvyN7w38.png",
             "logo_b": "https://static.flashscore.com/res/image/data/h643yEf5-lUgfnnam.png",
-            "time": "22:00:00",
+            "time": "23:15:00",
             "date": "12/05",
             "blv": "BLV Ben",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "tennis"
           },
           "image": {
