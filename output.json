@@ -447,6 +447,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-bebb4e5c6d",
+          "name": "Celta Vigo vs Levante | 00:00 13/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bebb4e5c6d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bebb4e5c6d",
+                  "name": "Celta Vigo vs Levante",
+                  "streams": [
+                    {
+                      "id": "st-bebb4e5c6d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4b88e0befd",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778567636_hd/1778567636_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Celta Vigo",
+            "team_b": "Levante",
+            "logo_a": "https://images.keovip88.net/images/teams/celta-vigo.png",
+            "logo_b": "https://images.keovip88.net/images/teams/levante.png",
+            "time": "00:00:00",
+            "date": "13/05",
+            "blv": "BLV Câm",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bebb4e5c6d_b1a9035d_20260512.png?v=b1a9035d",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
