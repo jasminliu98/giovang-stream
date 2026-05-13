@@ -402,25 +402,7 @@
                     {
                       "id": "st-512133d202",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-742ceb3fe9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778560925_hd/1778560925_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -546,25 +528,7 @@
                     {
                       "id": "st-3176df3ef4",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8248575d8",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778561021_hd/1778561021_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -812,7 +776,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (4 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -885,78 +849,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d5f0d11322_e6313915_20260513.png?v=e6313915",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6b0955a732",
-          "name": "Dallas Wings W  vs Atlanta Dream W | 07:00 13/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6b0955a732",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6b0955a732",
-                  "name": "Dallas Wings W  vs Atlanta Dream W",
-                  "streams": [
-                    {
-                      "id": "st-6b0955a732",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6ebdbad9cc",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778605754_hd/1778605754_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WNBA",
-            "team_a": "Dallas Wings W ",
-            "team_b": "Atlanta Dream W",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk0nmYNUbdu_irSbIj1ZZVdI5JJsQnb6UGKw&s",
-            "logo_b": "https://b.fssta.com/uploads/application/wnba/team-logos/Dream.png",
-            "time": "07:00:00",
-            "date": "13/05",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6b0955a732_c966ac2b_20260513.png?v=c966ac2b",
             "width": 1600,
             "height": 1200
           }
