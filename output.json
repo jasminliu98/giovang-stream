@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -228,6 +228,294 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4c456a395d_6439cf22_20260514.png?v=6439cf22",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5b98609d24",
+          "name": "Hàn Quốc U17  vs Yemen U17 | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5b98609d24",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5b98609d24",
+                  "name": "Hàn Quốc U17  vs Yemen U17",
+                  "streams": [
+                    {
+                      "id": "st-5b98609d24",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-24dd77cc61",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778646815_hd/1778646815_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Asian Cup U17",
+            "team_a": "Hàn Quốc U17 ",
+            "team_b": "Yemen U17",
+            "logo_a": "https://static.flashscore.com/res/image/data/p4952dHG-4dnMHMVr.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8dzVi2Cr-SnVKMkoL.png",
+            "time": "00:00:00",
+            "date": "14/05",
+            "blv": "BLV Dần",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5b98609d24_3e6d59c4_20260514.png?v=3e6d59c4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c9adec84a2",
+          "name": "Stade Brestois vs Strasbourg | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9adec84a2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c9adec84a2",
+                  "name": "Stade Brestois vs Strasbourg",
+                  "streams": [
+                    {
+                      "id": "st-c9adec84a2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-23a8d60460",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778646835_hd/1778646835_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Stade Brestois",
+            "team_b": "Strasbourg",
+            "logo_a": "https://images.keovip88.net/images/teams/stade-brestois.png",
+            "logo_b": "https://images.keovip88.net/images/teams/strasbourg.png",
+            "time": "00:00:00",
+            "date": "14/05",
+            "blv": "BLV Dory",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c9adec84a2_dd3c1dc4_20260514.png?v=dd3c1dc4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d7a514c076",
+          "name": "Espanyol vs Athletic Bilbao | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d7a514c076",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d7a514c076",
+                  "name": "Espanyol vs Athletic Bilbao",
+                  "streams": [
+                    {
+                      "id": "st-d7a514c076",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-868e33cd3c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778646862_hd/1778646862_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Espanyol",
+            "team_b": "Athletic Bilbao",
+            "logo_a": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
+            "logo_b": "https://images.keovip88.net/images/teams/athletic-bilbao.png",
+            "time": "00:00:00",
+            "date": "14/05",
+            "blv": "BLV Băng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d7a514c076_5f2c51a4_20260514.png?v=5f2c51a4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-175f120131",
+          "name": "Villarreal vs Sevilla | 00:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-175f120131",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-175f120131",
+                  "name": "Villarreal vs Sevilla",
+                  "streams": [
+                    {
+                      "id": "st-175f120131",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3cc49f878",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778646902_hd/1778646902_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Villarreal",
+            "team_b": "Sevilla",
+            "logo_a": "https://images.keovip88.net/images/teams/villarreal.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sevilla.png",
+            "time": "00:00:00",
+            "date": "14/05",
+            "blv": "BLV Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-175f120131_055fc944_20260514.png?v=055fc944",
             "width": 1600,
             "height": 1200
           }
