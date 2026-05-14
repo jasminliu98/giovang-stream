@@ -1124,78 +1124,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-8c9ce46b96",
-          "name": "BFX vs GEN G | 15:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c9ce46b96",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8c9ce46b96",
-                  "name": "BFX vs GEN G",
-                  "streams": [
-                    {
-                      "id": "st-8c9ce46b96",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75835cf51a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778708102_hd/1778708102_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "BFX",
-            "team_b": "GEN G",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAgyOLTKfdcm4CT7wcNP4MlfE1afamu5PRPA&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/77/Gen.G_Logo.svg",
-            "time": "15:00:00",
-            "date": "14/05",
-            "blv": "BLV Perry",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8c9ce46b96_a706592c_20260514.png?v=a706592c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-cb8684661b",
           "name": "LNG Esports vs LGD Gaming | 16:00 14/05",
           "type": "single",
@@ -1275,10 +1203,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1327,7 +1255,7 @@
             "time": "17:00:00",
             "date": "14/05",
             "blv": "BLV Perry",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
