@@ -812,83 +812,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-63903efd46",
-          "name": "Southland Sharks  vs Auckland Tuatara | 14:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-63903efd46",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-63903efd46",
-                  "name": "Southland Sharks  vs Auckland Tuatara",
-                  "streams": [
-                    {
-                      "id": "st-63903efd46",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9d2ddb6a14",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778689979_hd/1778689979_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBL",
-            "team_a": "Southland Sharks ",
-            "team_b": "Auckland Tuatara",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/0/07/Southlandsharkslogo.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF4Kqrdmrmc9eXQC8NWKPPs7BhPAQxcjY_iA&s",
-            "time": "14:00:00",
-            "date": "14/05",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-63903efd46_04c63839_20260514.png?v=04c63839",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3922614842",
           "name": "Formosa Dreamers  vs Hsinchu Jko Lioneers | 18:00 14/05",
