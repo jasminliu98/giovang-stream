@@ -1295,11 +1295,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-4b7651289e",
+                          "id": "lnk-ebc15ba5f9",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778730277_hd/1778730277_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778748657_hd/1778748657_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1326,7 +1326,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/K2DzGSil-IizXy6Yg.png",
             "time": "16:00:00",
             "date": "14/05",
-            "blv": "BLV Chanh",
+            "blv": "BLV Tôm",
             "is_live": true,
             "cate_type": "esport"
           },
@@ -1367,11 +1367,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-7e9cb79294",
+                          "id": "lnk-c9f4ab2c6f",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778708301_hd/1778708301_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778748713_hd/1778748713_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1398,7 +1398,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
             "time": "17:00:00",
             "date": "14/05",
-            "blv": "BLV Tôm",
+            "blv": "BLV Perry",
             "is_live": false,
             "cate_type": "esport"
           },
@@ -1407,6 +1407,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-97bcbf19b3_4bae7334_20260514.png?v=4bae7334",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5af424232b",
+          "name": "WBG  vs JDG | 18:00 14/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5af424232b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5af424232b",
+                  "name": "WBG  vs JDG",
+                  "streams": [
+                    {
+                      "id": "st-5af424232b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ed91b903c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778748734_hd/1778748734_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LPL",
+            "team_a": "WBG ",
+            "team_b": "JDG",
+            "logo_a": "https://static.flashscore.com/res/image/data/by1SS8h5-IaSR9M3Q.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/4Aoo4weM-MLEBzXUg.png",
+            "time": "18:00:00",
+            "date": "14/05",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5af424232b_b955f259_20260514.png?v=b955f259",
             "width": 1600,
             "height": 1200
           }
@@ -1479,6 +1551,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-27283eb459_0ce796df_20260514.png?v=0ce796df",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-457a4450a2",
+          "name": "BRO vs DNS | 17:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-457a4450a2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-457a4450a2",
+                  "name": "BRO vs DNS",
+                  "streams": [
+                    {
+                      "id": "st-457a4450a2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7eca5f612c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778748603_hd/1778748603_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCk",
+            "team_a": "BRO",
+            "team_b": "DNS",
+            "logo_a": "https://cdn.escharts.com/uploads/public/61d/eb4/a02/61deb4a0210a3657917809.png",
+            "logo_b": "https://storage.ensigame.com/logos/teams/e0e6c95c0c63511f3d7ed702ecb53763.png",
+            "time": "17:00:00",
+            "date": "15/05",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-457a4450a2_33582b26_20260514.png?v=33582b26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c227b0ea88",
+          "name": "TES vs BLG | 18:00 15/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c227b0ea88",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c227b0ea88",
+                  "name": "TES vs BLG",
+                  "streams": [
+                    {
+                      "id": "st-c227b0ea88",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2a09eb15e3",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778748682_hd/1778748682_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LPL",
+            "team_a": "TES",
+            "team_b": "BLG",
+            "logo_a": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1592592064571_TopEsportsTES-01-FullonDark.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/6/66/Bilibili_Gaming_logo_%282021%29.png",
+            "time": "18:00:00",
+            "date": "15/05",
+            "blv": "BLV Perry",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c227b0ea88_4fef6919_20260514.png?v=4fef6919",
             "width": 1600,
             "height": 1200
           }
