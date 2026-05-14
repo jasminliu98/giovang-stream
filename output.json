@@ -1190,83 +1190,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (3 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-cb8684661b",
-          "name": "LNG Esports vs LGD Gaming | 16:00 14/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cb8684661b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cb8684661b",
-                  "name": "LNG Esports vs LGD Gaming",
-                  "streams": [
-                    {
-                      "id": "st-cb8684661b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ebc15ba5f9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778748657_hd/1778748657_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LPL",
-            "team_a": "LNG Esports",
-            "team_b": "LGD Gaming",
-            "logo_a": "https://static.flashscore.com/res/image/data/Y9vJAmyB-Mqc5HTbN.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/K2DzGSil-IizXy6Yg.png",
-            "time": "16:00:00",
-            "date": "14/05",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cb8684661b_664ede8f_20260514.png?v=664ede8f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-97bcbf19b3",
           "name": "KRX vs KT | 17:00 14/05",
