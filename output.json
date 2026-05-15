@@ -1196,8 +1196,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-27283eb459",
-          "name": "Hanwha Life vs DK | 15:00 15/05",
+          "id": "gv-457a4450a2",
+          "name": "BRO vs DNS | 17:00 15/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1207,78 +1207,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-27283eb459",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-27283eb459",
-                  "name": "Hanwha Life vs DK",
-                  "streams": [
-                    {
-                      "id": "st-27283eb459",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a146c844c7",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778748299_hd/1778748299_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "Hanwha Life",
-            "team_b": "DK",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/e0/HLE_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Logo_DPlus_KIA.png",
-            "time": "15:00:00",
-            "date": "15/05",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-27283eb459_0ce796df_20260515.png?v=0ce796df",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-457a4450a2",
-          "name": "BRO vs DNS | 17:00 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1327,7 +1255,7 @@
             "time": "17:00:00",
             "date": "15/05",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
