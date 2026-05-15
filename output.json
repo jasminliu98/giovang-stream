@@ -1260,7 +1260,7 @@
       "channels": [
         {
           "id": "gv-af4d85487b",
-          "name": "Sinner vs Medvedev | 23:59 15/05",
+          "name": "Sinner vs Medvedev | 00:30 16/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1315,8 +1315,8 @@
             "team_b": "Medvedev",
             "logo_a": "https://www.atptour.com/-/media/alias/player-gladiator-headshot/s0ag",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBMxBsX9cnWUEQm-_Oi46UwsCt404Cp_5BA&s",
-            "time": "23:59:00",
-            "date": "15/05",
+            "time": "00:30:00",
+            "date": "16/05",
             "blv": "blv-lac",
             "is_live": false,
             "cate_type": "tennis"
@@ -1488,6 +1488,159 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b14bc08366_5f25241d_20260515.png?v=5f25241d",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-85796d5bae",
+          "name": "Los Angeles Dodgers vs  Los Angeles Angels | 08:38 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85796d5bae",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-85796d5bae",
+                  "name": "Los Angeles Dodgers vs  Los Angeles Angels",
+                  "streams": [
+                    {
+                      "id": "st-85796d5bae",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afe4fdec0a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778862282_hd/1778862282_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MBL",
+            "team_a": "Los Angeles Dodgers",
+            "team_b": " Los Angeles Angels",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/LA_Dodgers.svg/960px-LA_Dodgers.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Los_Angeles_Angels_of_Anaheim.svg/960px-Los_Angeles_Angels_of_Anaheim.svg.png",
+            "time": "08:38:00",
+            "date": "16/05",
+            "blv": "blv-can",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-85796d5bae_895e9ac8_20260515.png?v=895e9ac8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2362a035e0",
+          "name": "Seattle Mariners  vs San Diego Padres | 08:40 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2362a035e0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2362a035e0",
+                  "name": "Seattle Mariners  vs San Diego Padres",
+                  "streams": [
+                    {
+                      "id": "st-2362a035e0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1004f287c6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778862366_hd/1778862366_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MBL",
+            "team_a": "Seattle Mariners ",
+            "team_b": "San Diego Padres",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Seattle_Mariners_logo_%28low_res%29.svg/1280px-Seattle_Mariners_logo_%28low_res%29.svg.png",
+            "logo_b": "https://logos-world.net/wp-content/uploads/2020/05/San-Diego-Padres-logo.png",
+            "time": "08:40:00",
+            "date": "16/05",
+            "blv": "blv-ngu",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2362a035e0_98bd83b4_20260515.png?v=98bd83b4",
             "width": 1600,
             "height": 1200
           }
