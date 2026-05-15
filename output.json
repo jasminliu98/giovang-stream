@@ -188,11 +188,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-e83d7b6245",
+                          "id": "lnk-f4494137e8",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778765909_hd/1778765909_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778811128_hd/1778811128_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -219,7 +219,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/chengdu-rongcheng-fc.PNG",
             "time": "18:35:00",
             "date": "15/05",
-            "blv": "BLV Tỵ",
+            "blv": "blv-bon",
             "is_live": false,
             "cate_type": "football"
           },
@@ -260,11 +260,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-ea580b9d99",
+                          "id": "lnk-4d5a1cbf1e",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778765951_hd/1778765951_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778811177_hd/1778811177_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -291,7 +291,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/qingdao-youth-island.png",
             "time": "19:00:00",
             "date": "15/05",
-            "blv": "BLV Thìn",
+            "blv": "blv-tri",
             "is_live": false,
             "cate_type": "football"
           },
@@ -692,11 +692,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-1058a6b7b9",
+                          "id": "lnk-de36a1a147",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778768060_hd/1778768060_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778811235_hd/1778811235_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -723,7 +723,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/liverpool.png",
             "time": "02:00:00",
             "date": "16/05",
-            "blv": "BLV Tỵ, BLV Hợi",
+            "blv": "blv-bon, BLV Hợi",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1712,83 +1712,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f5410520f5",
-          "name": "Chicago White Sox vs Kansas City Royals | 06:40 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f5410520f5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f5410520f5",
-                  "name": "Chicago White Sox vs Kansas City Royals",
-                  "streams": [
-                    {
-                      "id": "st-f5410520f5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ce40eeae8f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778745147_hd/1778745147_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Chicago White Sox",
-            "team_b": "Kansas City Royals",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Chicago_White_Sox.svg/960px-Chicago_White_Sox.svg.png",
-            "logo_b": "https://1000logos.net/wp-content/uploads/2017/12/Kansas-City-Royals-Logo.png",
-            "time": "06:40:00",
-            "date": "15/05",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f5410520f5_f4bfc5d7_20260515.png?v=f4bfc5d7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-dd2598e9fa",
           "name": "Los Angeles Dodgers  vs  San Francisco Giants | 09:10 15/05",
