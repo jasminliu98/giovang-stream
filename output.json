@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-f9068799d0",
-          "name": "Nhật Bản U17 vs Tajikistan U17 | 23:00 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f9068799d0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f9068799d0",
-                  "name": "Nhật Bản U17 vs Tajikistan U17",
-                  "streams": [
-                    {
-                      "id": "st-f9068799d0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e9aac078ea",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778853679_hd/1778853679_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Asian Cup U17",
-            "team_a": "Nhật Bản U17",
-            "team_b": "Tajikistan U17",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/250px-Flag_of_Japan.svg.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1ZOuKHQ5RYYr0sWjUPYgOhdBesLxayJ6Omw&s",
-            "time": "23:00:00",
-            "date": "15/05",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f9068799d0_4025fc6f_20260516.png?v=4025fc6f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-1adbce6c2a",
           "name": "Dhamk vs Al-Feiha | 23:15 15/05",
           "type": "single",
@@ -305,6 +233,78 @@
           }
         },
         {
+          "id": "gv-1f9233c820",
+          "name": "Aston Villa vs Liverpool | 02:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1f9233c820",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1f9233c820",
+                  "name": "Aston Villa vs Liverpool",
+                  "streams": [
+                    {
+                      "id": "st-1f9233c820",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-de36a1a147",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778811235_hd/1778811235_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Aston Villa",
+            "team_b": "Liverpool",
+            "logo_a": "https://images.keovip88.net/images/teams/aston-villa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/liverpool.png",
+            "time": "02:00:00",
+            "date": "16/05",
+            "blv": "blv-bon, BLV Hợi",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1f9233c820_8c3670c3_20260516.png?v=8c3670c3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-326e29bb22",
           "name": "CD Castellon vs Cadiz | 01:30 16/05",
           "type": "single",
@@ -372,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-326e29bb22_9ded50fe_20260516.png?v=9ded50fe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1f9233c820",
-          "name": "Aston Villa vs Liverpool | 02:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1f9233c820",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1f9233c820",
-                  "name": "Aston Villa vs Liverpool",
-                  "streams": [
-                    {
-                      "id": "st-1f9233c820",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-de36a1a147",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778811235_hd/1778811235_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Aston Villa",
-            "team_b": "Liverpool",
-            "logo_a": "https://images.keovip88.net/images/teams/aston-villa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/liverpool.png",
-            "time": "02:00:00",
-            "date": "16/05",
-            "blv": "blv-bon, BLV Hợi",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1f9233c820_8c3670c3_20260516.png?v=8c3670c3",
             "width": 1600,
             "height": 1200
           }
