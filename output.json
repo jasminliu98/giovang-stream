@@ -746,78 +746,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-44bcf0db15",
-          "name": "San Miguel Beermen vs Rain or Shine Elasto | 16:15 15/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-44bcf0db15",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-44bcf0db15",
-                  "name": "San Miguel Beermen vs Rain or Shine Elasto",
-                  "streams": [
-                    {
-                      "id": "st-44bcf0db15",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6fb63375db",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778765140_hd/1778765140_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Phillipines",
-            "team_a": "San Miguel Beermen",
-            "team_b": "Rain or Shine Elasto",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/San_Miguel_Beermen_logo.svg/1280px-San_Miguel_Beermen_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/0/0b/Rain_or_Shine_Elasto_Painters_team_logo.png",
-            "time": "16:15:00",
-            "date": "15/05",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-44bcf0db15_9581af69_20260515.png?v=9581af69",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-6339963783",
           "name": "New Taipei Kings vs Taiwan Beer Leopards | 18:00 15/05",
           "type": "single",
@@ -969,10 +897,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1021,7 +949,7 @@
             "time": "18:35:00",
             "date": "15/05",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
