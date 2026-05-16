@@ -1703,83 +1703,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (3 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b14bc08366",
-          "name": "T1  vs Gen.G | 15:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b14bc08366",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b14bc08366",
-                  "name": "T1  vs Gen.G",
-                  "streams": [
-                    {
-                      "id": "st-b14bc08366",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7f85ea2a32",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778839774_hd/1778839774_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "T1 ",
-            "team_b": "Gen.G",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/T1_esports_logo.svg/1280px-T1_esports_logo.svg.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/rglkqMzB-UJqSxlpo.png",
-            "time": "15:00:00",
-            "date": "16/05",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b14bc08366_5f25241d_20260516.png?v=5f25241d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e8dfcd8312",
           "name": "BFX vs NS | 17:00 16/05",
