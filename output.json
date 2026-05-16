@@ -884,7 +884,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -969,10 +969,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1021,7 +1021,7 @@
             "time": "14:30:00",
             "date": "16/05",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1187,78 +1187,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-cedfc99460",
-          "name": "Suwon (KOR)  vs LP Bank Ninh Bình | 14:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cedfc99460",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cedfc99460",
-                  "name": "Suwon (KOR)  vs LP Bank Ninh Bình",
-                  "streams": [
-                    {
-                      "id": "st-cedfc99460",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-176357d0cc",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778914513_hd/1778914513_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "",
-            "team_a": "Suwon (KOR) ",
-            "team_b": "LP Bank Ninh Bình",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQFh98p8bHaWZ4YOD_aD6fV_aJYXmaINfpwA&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/da/Logo_LP_Bank_Ninh_B%C3%ACnh.png/250px-Logo_LP_Bank_Ninh_B%C3%ACnh.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "time": "14:00:00",
-            "date": "16/05",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cedfc99460_55744be7_20260516.png?v=55744be7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-912b641146",
           "name": "Suntory Sunbirds  vs Osaka Bluteon | 14:05 16/05",
           "type": "single",
@@ -1326,6 +1254,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-912b641146_6382f227_20260516.png?v=6382f227",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cedfc99460",
+          "name": "Suwon (KOR)  vs LP Bank Ninh Bình | 14:10 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cedfc99460",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cedfc99460",
+                  "name": "Suwon (KOR)  vs LP Bank Ninh Bình",
+                  "streams": [
+                    {
+                      "id": "st-cedfc99460",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-176357d0cc",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778914513_hd/1778914513_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "Suwon (KOR) ",
+            "team_b": "LP Bank Ninh Bình",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQFh98p8bHaWZ4YOD_aD6fV_aJYXmaINfpwA&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/da/Logo_LP_Bank_Ninh_B%C3%ACnh.png/250px-Logo_LP_Bank_Ninh_B%C3%ACnh.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "time": "14:10:00",
+            "date": "16/05",
+            "blv": "BLV Điếc",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cedfc99460_55744be7_20260516.png?v=55744be7",
             "width": 1600,
             "height": 1200
           }
