@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-80d9ef429e",
-          "name": "Daejeon Citizen vs FC Seoul | 14:30 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80d9ef429e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-80d9ef429e",
-                  "name": "Daejeon Citizen vs FC Seoul",
-                  "streams": [
-                    {
-                      "id": "st-80d9ef429e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8d7adba172",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778861753_hd/1778861753_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K-League Hàn Quốc",
-            "team_a": "Daejeon Citizen",
-            "team_b": "FC Seoul",
-            "logo_a": "https://images.keovip88.net/images/teams/daejeon-citizen.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fc-seoul.png",
-            "time": "14:30:00",
-            "date": "16/05",
-            "blv": "blv-bon",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-80d9ef429e_dc79014b_20260516.png?v=dc79014b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9df76d0241",
           "name": "Yokohama F Marinos vs Kashiwa Reysol | 15:00 16/05",
@@ -168,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +148,7 @@
             "time": "16:40:00",
             "date": "16/05",
             "blv": "BLV Hợi",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -228,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a08c9fdeab_7269b3a2_20260516.png?v=7269b3a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-614227330f",
+          "name": "Sông Lam Nghệ An vs TTBD Phù Đổng | 18:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-614227330f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-614227330f",
+                  "name": "Sông Lam Nghệ An vs TTBD Phù Đổng",
+                  "streams": [
+                    {
+                      "id": "st-614227330f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8321807934",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778895249_hd/1778895249_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Sông Lam Nghệ An",
+            "team_b": "TTBD Phù Đổng",
+            "logo_a": "https://images.keovip88.net/images/teams/song-lam-nghe-an.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ttbd-phu-dong.png",
+            "time": "18:00:00",
+            "date": "16/05",
+            "blv": "blv-bon",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-614227330f_76f9933f_20260516.png?v=76f9933f",
             "width": 1600,
             "height": 1200
           }
@@ -300,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ed7a5eb5af_2821d153_20260516.png?v=2821d153",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-614227330f",
-          "name": "Sông Lam Nghệ An vs TTBD Phù Đổng | 18:00 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-614227330f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-614227330f",
-                  "name": "Sông Lam Nghệ An vs TTBD Phù Đổng",
-                  "streams": [
-                    {
-                      "id": "st-614227330f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8321807934",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778895249_hd/1778895249_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Sông Lam Nghệ An",
-            "team_b": "TTBD Phù Đổng",
-            "logo_a": "https://images.keovip88.net/images/teams/song-lam-nghe-an.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ttbd-phu-dong.png",
-            "time": "18:00:00",
-            "date": "16/05",
-            "blv": "blv-bon",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-614227330f_76f9933f_20260516.png?v=76f9933f",
             "width": 1600,
             "height": 1200
           }
@@ -1756,8 +1684,89 @@
       ]
     },
     {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-81ea1f1654",
+          "name": "Coco Gauff vs Elina Svitolina | 22:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-81ea1f1654",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-81ea1f1654",
+                  "name": "Coco Gauff vs Elina Svitolina",
+                  "streams": [
+                    {
+                      "id": "st-81ea1f1654",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7b5e72c25b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778920489_hd/1778920489_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Rome Master 2026",
+            "team_a": "Coco Gauff",
+            "team_b": "Elina Svitolina",
+            "logo_a": "https://static.flashscore.com/res/image/data/UDnGEpDr-GWXWkTPf.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/0hCIo7h5-WCqsXbkh.png",
+            "time": "22:00:00",
+            "date": "16/05",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-81ea1f1654_dc3a94c4_20260516.png?v=dc3a94c4",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1830,78 +1839,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-912b641146_6382f227_20260516.png?v=6382f227",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-cedfc99460",
-          "name": "Suwon (KOR)  vs LP Bank Ninh Bình | 14:10 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cedfc99460",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cedfc99460",
-                  "name": "Suwon (KOR)  vs LP Bank Ninh Bình",
-                  "streams": [
-                    {
-                      "id": "st-cedfc99460",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-176357d0cc",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778914513_hd/1778914513_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VTV Cup",
-            "team_a": "Suwon (KOR) ",
-            "team_b": "LP Bank Ninh Bình",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQFh98p8bHaWZ4YOD_aD6fV_aJYXmaINfpwA&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/da/Logo_LP_Bank_Ninh_B%C3%ACnh.png/250px-Logo_LP_Bank_Ninh_B%C3%ACnh.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "time": "14:10:00",
-            "date": "16/05",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cedfc99460_55744be7_20260516.png?v=55744be7",
             "width": 1600,
             "height": 1200
           }
