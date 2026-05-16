@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-bfd1a83d1f",
-          "name": "Mito Hollyhock vs Tokyo Verdy | 12:00 16/05",
+          "id": "gv-80d9ef429e",
+          "name": "Daejeon Citizen vs FC Seoul | 14:30 16/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,78 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bfd1a83d1f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bfd1a83d1f",
-                  "name": "Mito Hollyhock vs Tokyo Verdy",
-                  "streams": [
-                    {
-                      "id": "st-bfd1a83d1f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ec07074b5c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778861719_hd/1778861719_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Mito Hollyhock",
-            "team_b": "Tokyo Verdy",
-            "logo_a": "https://images.keovip88.net/images/teams/mito-hollyhock.png",
-            "logo_b": "https://images.keovip88.net/images/teams/tokyo-verdy.png",
-            "time": "12:00:00",
-            "date": "16/05",
-            "blv": "blv-bon",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bfd1a83d1f_08986d68_20260516.png?v=08986d68",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-80d9ef429e",
-          "name": "Daejeon Citizen vs FC Seoul | 14:30 16/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -148,7 +76,7 @@
             "time": "14:30:00",
             "date": "16/05",
             "blv": "blv-bon",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1253,11 +1181,83 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-cedfc99460",
+          "name": "Suwon (KOR)  vs LP Bank Ninh Bình | 14:00 16/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cedfc99460",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cedfc99460",
+                  "name": "Suwon (KOR)  vs LP Bank Ninh Bình",
+                  "streams": [
+                    {
+                      "id": "st-cedfc99460",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-176357d0cc",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778914513_hd/1778914513_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "Suwon (KOR) ",
+            "team_b": "LP Bank Ninh Bình",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQFh98p8bHaWZ4YOD_aD6fV_aJYXmaINfpwA&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/da/Logo_LP_Bank_Ninh_B%C3%ACnh.png/250px-Logo_LP_Bank_Ninh_B%C3%ACnh.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "time": "14:00:00",
+            "date": "16/05",
+            "blv": "BLV Điếc",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cedfc99460_55744be7_20260516.png?v=55744be7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-912b641146",
           "name": "Suntory Sunbirds  vs Osaka Bluteon | 14:05 16/05",
