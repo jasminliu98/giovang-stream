@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d478765baa",
-          "name": "Paris FC vs Paris Saint Germain | 02:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d478765baa",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d478765baa",
-                  "name": "Paris FC vs Paris Saint Germain",
-                  "streams": [
-                    {
-                      "id": "st-d478765baa",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b0a98275f3",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779029338_hd/1779029338_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Paris FC",
-            "team_b": "Paris Saint Germain",
-            "logo_a": "https://images.keovip88.net/images/teams/paris-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/paris-saint-germain-psg.png",
-            "time": "02:00:00",
-            "date": "18/05",
-            "blv": "BLV Dần",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d478765baa_91647e37_20260518.png?v=91647e37",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d2c44b146b",
           "name": "Marseille vs Stade Rennais FC | 02:00 18/05",
