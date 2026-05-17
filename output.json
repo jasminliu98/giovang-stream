@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -156,6 +156,366 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-501f0ba622_68153dd0_20260518.png?v=68153dd0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-708dbe2bad",
+          "name": "Sevilla vs Real Madrid | 00:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-708dbe2bad",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-708dbe2bad",
+                  "name": "Sevilla vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "st-708dbe2bad",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f87f0bab60",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778996913_hd/1778996913_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Sevilla",
+            "team_b": "Real Madrid",
+            "logo_a": "https://images.keovip88.net/images/teams/sevilla.png",
+            "logo_b": "https://images.keovip88.net/images/teams/real-madrid.png",
+            "time": "00:00:00",
+            "date": "18/05",
+            "blv": "BLV Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-708dbe2bad_a374f7cc_20260518.png?v=a374f7cc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-27e05acd34",
+          "name": "Real Sociedad vs Valencia | 00:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27e05acd34",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-27e05acd34",
+                  "name": "Real Sociedad vs Valencia",
+                  "streams": [
+                    {
+                      "id": "st-27e05acd34",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f4808e30d2",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778996976_hd/1778996976_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Sociedad",
+            "team_b": "Valencia",
+            "logo_a": "https://images.keovip88.net/images/teams/real-sociedad.png",
+            "logo_b": "https://images.keovip88.net/images/teams/valencia.png",
+            "time": "00:00:00",
+            "date": "18/05",
+            "blv": "blv-sun",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-27e05acd34_72262238_20260518.png?v=72262238",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9d07f67736",
+          "name": "Elche vs Getafe | 00:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d07f67736",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9d07f67736",
+                  "name": "Elche vs Getafe",
+                  "streams": [
+                    {
+                      "id": "st-9d07f67736",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d096d40dfd",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779029127_hd/1779029127_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Elche",
+            "team_b": "Getafe",
+            "logo_a": "https://images.keovip88.net/images/teams/elche.png",
+            "logo_b": "https://images.keovip88.net/images/teams/getafe.png",
+            "time": "00:00:00",
+            "date": "18/05",
+            "blv": "blv-mat",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9d07f67736_4ca4bdd4_20260518.png?v=4ca4bdd4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1bc32c3843",
+          "name": "Osasuna vs Espanyol | 00:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1bc32c3843",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1bc32c3843",
+                  "name": "Osasuna vs Espanyol",
+                  "streams": [
+                    {
+                      "id": "st-1bc32c3843",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b56f33d11d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779029195_hd/1779029195_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Osasuna",
+            "team_b": "Espanyol",
+            "logo_a": "https://images.keovip88.net/images/teams/osasuna.png",
+            "logo_b": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
+            "time": "00:00:00",
+            "date": "18/05",
+            "blv": "BLV Hợi",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1bc32c3843_db28c83f_20260518.png?v=db28c83f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f651f3a5ad",
+          "name": "Atletico Madrid vs Girona | 00:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f651f3a5ad",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f651f3a5ad",
+                  "name": "Atletico Madrid vs Girona",
+                  "streams": [
+                    {
+                      "id": "st-f651f3a5ad",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-60c7e97c18",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778996958_hd/1778996958_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Atletico Madrid",
+            "team_b": "Girona",
+            "logo_a": "https://images.keovip88.net/images/teams/atletico-madrid.png",
+            "logo_b": "https://images.keovip88.net/images/teams/girona.png",
+            "time": "00:00:00",
+            "date": "18/05",
+            "blv": "BLV Câm",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f651f3a5ad_9d75d482_20260518.png?v=9d75d482",
             "width": 1600,
             "height": 1200
           }
@@ -668,11 +1028,83 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-9153bb8322",
+          "name": "Atlanta Dream W  vs Las Vegas Aces W | 00:30 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9153bb8322",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9153bb8322",
+                  "name": "Atlanta Dream W  vs Las Vegas Aces W",
+                  "streams": [
+                    {
+                      "id": "st-9153bb8322",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f111df45d7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779036318_hd/1779036318_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Atlanta Dream W ",
+            "team_b": "Las Vegas Aces W",
+            "logo_a": "https://static.flashscore.com/res/image/data/GQbbJxxS-I5Zot0RH.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/6mT2sfg5-6gCoMGdb.png",
+            "time": "00:30:00",
+            "date": "18/05",
+            "blv": "BLV Điếc",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9153bb8322_13cc3af0_20260518.png?v=13cc3af0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-711b22fe09",
           "name": "Tenerife vs Barcelona | 01:00 18/05",
