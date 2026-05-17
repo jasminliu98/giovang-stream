@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-77e006f2e5",
-          "name": "AS Roma vs Lazio | 17:00 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-77e006f2e5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-77e006f2e5",
-                  "name": "AS Roma vs Lazio",
-                  "streams": [
-                    {
-                      "id": "st-77e006f2e5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-99608a2c84",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778994804_hd/1778994804_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "AS Roma",
-            "team_b": "Lazio",
-            "logo_a": "https://images.keovip88.net/images/teams/as-roma.png",
-            "logo_b": "https://images.keovip88.net/images/teams/lazio.png",
-            "time": "17:00:00",
-            "date": "17/05",
-            "blv": "blv-tri",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-77e006f2e5_220bfcc7_20260517.png?v=220bfcc7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-29adf1dd87",
           "name": "Genoa vs AC Milan | 17:00 17/05",
