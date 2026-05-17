@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-708dbe2bad",
-          "name": "Sevilla vs Real Madrid | 00:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-708dbe2bad",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-708dbe2bad",
-                  "name": "Sevilla vs Real Madrid",
-                  "streams": [
-                    {
-                      "id": "st-708dbe2bad",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f87f0bab60",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778996913_hd/1778996913_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Sevilla",
-            "team_b": "Real Madrid",
-            "logo_a": "https://images.keovip88.net/images/teams/sevilla.png",
-            "logo_b": "https://images.keovip88.net/images/teams/real-madrid.png",
-            "time": "00:00:00",
-            "date": "18/05",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-708dbe2bad_a374f7cc_20260518.png?v=a374f7cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f651f3a5ad",
           "name": "Atletico Madrid vs Girona | 00:00 18/05",
@@ -228,150 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-27e05acd34_72262238_20260518.png?v=72262238",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9d07f67736",
-          "name": "Elche vs Getafe | 00:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9d07f67736",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9d07f67736",
-                  "name": "Elche vs Getafe",
-                  "streams": [
-                    {
-                      "id": "st-9d07f67736",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d096d40dfd",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779029127_hd/1779029127_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Elche",
-            "team_b": "Getafe",
-            "logo_a": "https://images.keovip88.net/images/teams/elche.png",
-            "logo_b": "https://images.keovip88.net/images/teams/getafe.png",
-            "time": "00:00:00",
-            "date": "18/05",
-            "blv": "blv-mat",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9d07f67736_4ca4bdd4_20260518.png?v=4ca4bdd4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1bc32c3843",
-          "name": "Osasuna vs Espanyol | 00:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1bc32c3843",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1bc32c3843",
-                  "name": "Osasuna vs Espanyol",
-                  "streams": [
-                    {
-                      "id": "st-1bc32c3843",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b56f33d11d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779029195_hd/1779029195_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Osasuna",
-            "team_b": "Espanyol",
-            "logo_a": "https://images.keovip88.net/images/teams/osasuna.png",
-            "logo_b": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
-            "time": "00:00:00",
-            "date": "18/05",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1bc32c3843_db28c83f_20260518.png?v=db28c83f",
             "width": 1600,
             "height": 1200
           }
@@ -600,10 +384,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -652,7 +436,7 @@
             "time": "02:15:00",
             "date": "18/05",
             "blv": "BLV Hợi",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
