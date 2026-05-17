@@ -1775,83 +1775,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1da8a7e3b8",
-          "name": "Hanwha Life  vs KT Rolster | 15:00 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1da8a7e3b8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1da8a7e3b8",
-                  "name": "Hanwha Life  vs KT Rolster",
-                  "streams": [
-                    {
-                      "id": "st-1da8a7e3b8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9e142d77e2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1778996705_hd/1778996705_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "Hanwha Life ",
-            "team_b": "KT Rolster",
-            "logo_a": "https://static.flashscore.com/res/image/data/pKkqJ4Wg-bB59SVBr.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
-            "time": "15:00:00",
-            "date": "17/05",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1da8a7e3b8_10ed0842_20260517.png?v=10ed0842",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cfcada6c7e",
           "name": "KRX  vs BRO | 17:00 17/05",
