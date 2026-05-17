@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -300,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ac5b129452_05caaa89_20260517.png?v=05caaa89",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-edd9ddd50b",
-          "name": "Inter Milan vs Hellas Verona | 20:00 17/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-edd9ddd50b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-edd9ddd50b",
-                  "name": "Inter Milan vs Hellas Verona",
-                  "streams": [
-                    {
-                      "id": "st-edd9ddd50b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b21919d456",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779019665_hd/1779019665_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Inter Milan",
-            "team_b": "Hellas Verona",
-            "logo_a": "https://images.keovip88.net/images/teams/inter-milan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/verona.png",
-            "time": "20:00:00",
-            "date": "17/05",
-            "blv": "blv-ngong",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-edd9ddd50b_1837160f_20260517.png?v=1837160f",
             "width": 1600,
             "height": 1200
           }
