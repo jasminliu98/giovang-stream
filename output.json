@@ -980,6 +980,87 @@
           }
         }
       ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-76e762008f",
+          "name": "San Diego Padres vs Los Angeles Dodgers | 08:40 19/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-76e762008f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-76e762008f",
+                  "name": "San Diego Padres vs Los Angeles Dodgers",
+                  "streams": [
+                    {
+                      "id": "st-76e762008f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f54f6af68c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779090434_hd/1779090434_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "San Diego Padres",
+            "team_b": "Los Angeles Dodgers",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/SDPadres_logo.svg/1920px-SDPadres_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Los_Angeles_Dodgers_Logo.svg/1280px-Los_Angeles_Dodgers_Logo.svg.png",
+            "time": "08:40:00",
+            "date": "19/05",
+            "blv": "blv-can",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-76e762008f_3c740312_20260518.png?v=3c740312",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
