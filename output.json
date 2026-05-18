@@ -460,6 +460,87 @@
       ]
     },
     {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-7480f1d36b",
+          "name": "Gunma Green Wings  vs Suwon | 16:00 18/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7480f1d36b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7480f1d36b",
+                  "name": "Gunma Green Wings  vs Suwon",
+                  "streams": [
+                    {
+                      "id": "st-7480f1d36b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f5bbc7edf9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779089267_hd/1779089267_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VTV Cup",
+            "team_a": "Gunma Green Wings ",
+            "team_b": "Suwon",
+            "logo_a": "https://static.flashscore.com/res/image/data/fRWvMcg5-AwPrZk8p.png",
+            "logo_b": "https://static.flashscore.com/res/image/empty-logo-team-share.gif",
+            "time": "16:00:00",
+            "date": "18/05",
+            "blv": "blv-mat",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7480f1d36b_ed2c7a41_20260518.png?v=ed2c7a41",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_esport",
       "name": "🎮 Esport",
       "display": "vertical",
