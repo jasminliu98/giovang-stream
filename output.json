@@ -380,83 +380,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-168712dd76",
-          "name": "IIoilo United Royals  vs Quezon Huskers | 15:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-168712dd76",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-168712dd76",
-                  "name": "IIoilo United Royals  vs Quezon Huskers",
-                  "streams": [
-                    {
-                      "id": "st-168712dd76",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4e048927df",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779088441_hd/1779088441_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLBB",
-            "team_a": "IIoilo United Royals ",
-            "team_b": "Quezon Huskers",
-            "logo_a": "https://static.flashscore.com/res/image/data/MewsyCeM-S4C31kj0.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/GMzF9fe5-dvmFFpGo.png",
-            "time": "15:00:00",
-            "date": "18/05",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-168712dd76_9aa0661f_20260518.png?v=9aa0661f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-baa7b24d49",
           "name": "Sarangani Marlins  vs Abra Weavers | 17:00 18/05",
@@ -902,83 +830,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-956dcbbe8e",
-          "name": "KT Rolster  vs BRO | 15:00 18/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-956dcbbe8e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-956dcbbe8e",
-                  "name": "KT Rolster  vs BRO",
-                  "streams": [
-                    {
-                      "id": "st-956dcbbe8e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d6e251f8ec",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779088330_hd/1779088330_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EWC",
-            "team_a": "KT Rolster ",
-            "team_b": "BRO",
-            "logo_a": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/dWdjTlyS-tSnxXc8U.png",
-            "time": "15:00:00",
-            "date": "18/05",
-            "blv": "blv-lac",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-956dcbbe8e_8b19e5e8_20260518.png?v=8b19e5e8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8f5231c9b2",
           "name": "DNS  vs NS | 17:00 18/05",
