@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-27f70fe656",
-          "name": "Naegohyang vs Suwon | 17:00 20/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-27f70fe656",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-27f70fe656",
-                  "name": "Naegohyang vs Suwon",
-                  "streams": [
-                    {
-                      "id": "st-27f70fe656",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-03d65a9da1",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779239318_hd/1779239318_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Women's Champions League",
-            "team_a": "Naegohyang",
-            "team_b": "Suwon",
-            "logo_a": "https://static.flashscore.com/res/image/data/CGxFKwHG-S42X7JMH.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/lQRejag5-f5FvxuZA.png",
-            "time": "17:00:00",
-            "date": "20/05",
-            "blv": "blv-can",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-27f70fe656_e1f72c82_20260520.png?v=e1f72c82",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-6301ab3ae0",
           "name": "Liaoning Tieren vs Qingdao Hainiu | 18:00 20/05",
           "type": "single",
@@ -384,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +364,7 @@
             "time": "20:00:00",
             "date": "20/05",
             "blv": "blv-mat",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1469,7 +1397,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1482,10 +1410,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1534,7 +1462,7 @@
             "time": "20:00:00",
             "date": "20/05",
             "blv": "blv-sun",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
