@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ef0d98b7e9",
-          "name": "Shanghai Shenhua vs Wuhan Three Towns | 18:35 20/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef0d98b7e9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ef0d98b7e9",
-                  "name": "Shanghai Shenhua vs Wuhan Three Towns",
-                  "streams": [
-                    {
-                      "id": "st-ef0d98b7e9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bce9480ced",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779239416_hd/1779239416_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Trung Quốc",
-            "team_a": "Shanghai Shenhua",
-            "team_b": "Wuhan Three Towns",
-            "logo_a": "https://images.keovip88.net/images/teams/shanghai-shenhua.png",
-            "logo_b": "https://images.keovip88.net/images/teams/wuhan-three-towns.png",
-            "time": "18:35:00",
-            "date": "20/05",
-            "blv": "blv-tri",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ef0d98b7e9_6cf76ce8_20260520.png?v=6cf76ce8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0407e019ce",
           "name": "Zhejiang FC vs Shandong Taishan | 19:00 20/05",
