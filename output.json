@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1dd0811218",
-          "name": "Selangor  vs Buriram United | 20:00 20/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1dd0811218",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1dd0811218",
-                  "name": "Selangor  vs Buriram United",
-                  "streams": [
-                    {
-                      "id": "st-1dd0811218",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-881dd94af9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779239511_hd/1779239511_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asia - ASEAN Club Championship",
-            "team_a": "Selangor ",
-            "team_b": "Buriram United",
-            "logo_a": "https://static.flashscore.com/res/image/data/SbrGEshl-M5v0Fw3E.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/KCS8nzyS-AHLMjQO5.png",
-            "time": "20:00:00",
-            "date": "20/05",
-            "blv": "blv-mat",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1dd0811218_1c26c69e_20260520.png?v=1c26c69e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-08b363b250",
           "name": "Chernihiv  vs Dynamo Kyiv | 22:00 20/05",
