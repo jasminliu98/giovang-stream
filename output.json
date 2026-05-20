@@ -1392,6 +1392,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-4fe6ca7994",
+          "name": "Chicago Sky W vs Dallas Wings W | 08:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4fe6ca7994",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4fe6ca7994",
+                  "name": "Chicago Sky W vs Dallas Wings W",
+                  "streams": [
+                    {
+                      "id": "st-4fe6ca7994",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-589a276f79",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779266963_hd/1779266963_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Chicago Sky W",
+            "team_b": "Dallas Wings W",
+            "logo_a": "https://static.flashscore.com/res/image/data/ID1vxUZA-t67FITyc.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/APCDxNCr-rDAmagRK.png",
+            "time": "08:00:00",
+            "date": "21/05",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4fe6ca7994_6f8d20a7_20260520.png?v=6f8d20a7",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1776,6 +1848,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1f97e3bc9b_532bc410_20260520.png?v=532bc410",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-f178679513",
+          "name": "San Diego Padres vs Los Angeles Dodgers | 07:40 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f178679513",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f178679513",
+                  "name": "San Diego Padres vs Los Angeles Dodgers",
+                  "streams": [
+                    {
+                      "id": "st-f178679513",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-adde2d205e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779266815_hd/1779266815_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "San Diego Padres",
+            "team_b": "Los Angeles Dodgers",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/SDPadres_logo.svg/1920px-SDPadres_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Los_Angeles_Dodgers_Logo.svg/1280px-Los_Angeles_Dodgers_Logo.svg.png",
+            "time": "07:40:00",
+            "date": "21/05",
+            "blv": "blv-can",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f178679513_8be3aeef_20260520.png?v=8be3aeef",
             "width": 1600,
             "height": 1200
           }
