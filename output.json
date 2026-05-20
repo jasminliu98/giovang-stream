@@ -1694,83 +1694,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-815e07612f",
-          "name": "T1  vs KRX | 15:00 20/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-815e07612f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-815e07612f",
-                  "name": "T1  vs KRX",
-                  "streams": [
-                    {
-                      "id": "st-815e07612f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-698ddfb3f0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779240569_hd/1779240569_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "T1 ",
-            "team_b": "KRX",
-            "logo_a": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/bgSWuehl-SxdIjKYi.png",
-            "time": "15:00:00",
-            "date": "20/05",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-815e07612f_8912bd49_20260520.png?v=8912bd49",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-40f188d333",
           "name": "NS  vs KT Rolster | 17:00 20/05",
