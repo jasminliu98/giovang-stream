@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-bf8d3231a5",
-          "name": "Al-Nassr FC vs Dhamk | 01:00 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bf8d3231a5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bf8d3231a5",
-                  "name": "Al-Nassr FC vs Dhamk",
-                  "streams": [
-                    {
-                      "id": "st-bf8d3231a5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5b1a7ec52c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779331071_hd/1779331071_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Al-Nassr FC",
-            "team_b": "Dhamk",
-            "logo_a": "https://images.keovip88.net/images/teams/al-nassr.png",
-            "logo_b": "https://images.keovip88.net/images/teams/damac-fc.png",
-            "time": "01:00:00",
-            "date": "22/05",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bf8d3231a5_1af021a8_20260522.png?v=1af021a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1cb6934ca8",
           "name": "Utrecht vs Heerenveen | 02:00 22/05",
