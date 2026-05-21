@@ -965,83 +965,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-719a49a18e",
-          "name": "Gunma Green Wings   vs Vietinbank | 17:00 21/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-719a49a18e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-719a49a18e",
-                  "name": "Gunma Green Wings   vs Vietinbank",
-                  "streams": [
-                    {
-                      "id": "st-719a49a18e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-02f163e095",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779338464_hd/1779338464_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VTV Cup",
-            "team_a": "Gunma Green Wings  ",
-            "team_b": "Vietinbank",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY5tyojQxdUpNh8S1Q3jSuX6NQBEq5JNvwfw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6muBj-D6SaaajmlGdG9NF8jwaLCR5raaHFA&s",
-            "time": "17:00:00",
-            "date": "21/05",
-            "blv": "blv-mat",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-719a49a18e_b9c5b0e9_20260521.png?v=b9c5b0e9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-fc78c78dc4",
           "name": " Hà Nội Tasco Auto  vs VTV Bình Điền Long An | 20:00 21/05",
@@ -1191,6 +1119,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e582b2efb4_eff2aae7_20260521.png?v=eff2aae7",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-1f97e3bc9b",
+          "name": "Huỳnh Văn Tuấn vs Chokpreecha | 18:30 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1f97e3bc9b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1f97e3bc9b",
+                  "name": "Huỳnh Văn Tuấn vs Chokpreecha",
+                  "streams": [
+                    {
+                      "id": "st-1f97e3bc9b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eefd5e910f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779096694_hd/1779096694_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ONE Friday Fights 155 THE INNER CIRCLE",
+            "team_a": "Huỳnh Văn Tuấn",
+            "team_b": "Chokpreecha",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxqJ1omMFHW5KiANkP3LjSp3eUP6dP-4dcmw&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfkINYBM5cy771CPz30Oj90eWe-ZlrRAMbLg&s",
+            "time": "18:30:00",
+            "date": "22/05",
+            "blv": "BLV Dory",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1f97e3bc9b_532bc410_20260521.png?v=532bc410",
             "width": 1600,
             "height": 1200
           }
