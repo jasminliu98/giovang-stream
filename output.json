@@ -1194,6 +1194,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-e582b2efb4",
+          "name": "Dplus Kia  vs BRO | 17:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e582b2efb4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e582b2efb4",
+                  "name": "Dplus Kia  vs BRO",
+                  "streams": [
+                    {
+                      "id": "st-e582b2efb4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9eb77ba075",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779338715_hd/1779338715_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "Dplus Kia ",
+            "team_b": "BRO",
+            "logo_a": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/32/DWG_KIAlogo_square.png/revision/latest/scale-to-width-down/250?cb=20221028045526",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNk8qL6hyQUbzvPenWnsIwi-gaiRYBIy3GXw&s",
+            "time": "17:00:00",
+            "date": "21/05",
+            "blv": "blv-ngu",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e582b2efb4_eff2aae7_20260521.png?v=eff2aae7",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
