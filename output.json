@@ -964,6 +964,240 @@
       ]
     },
     {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-719a49a18e",
+          "name": "Gunma Green Wings   vs Vietinbank | 17:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-719a49a18e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-719a49a18e",
+                  "name": "Gunma Green Wings   vs Vietinbank",
+                  "streams": [
+                    {
+                      "id": "st-719a49a18e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02f163e095",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779338464_hd/1779338464_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VTV Cup",
+            "team_a": "Gunma Green Wings  ",
+            "team_b": "Vietinbank",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY5tyojQxdUpNh8S1Q3jSuX6NQBEq5JNvwfw&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6muBj-D6SaaajmlGdG9NF8jwaLCR5raaHFA&s",
+            "time": "17:00:00",
+            "date": "21/05",
+            "blv": "blv-mat",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-719a49a18e_b9c5b0e9_20260521.png?v=b9c5b0e9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fc78c78dc4",
+          "name": " Hà Nội Tasco Auto  vs VTV Bình Điền Long An | 20:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fc78c78dc4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fc78c78dc4",
+                  "name": " Hà Nội Tasco Auto  vs VTV Bình Điền Long An",
+                  "streams": [
+                    {
+                      "id": "st-fc78c78dc4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e2b3c6edaf",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779338562_hd/1779338562_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VTV Cup",
+            "team_a": " Hà Nội Tasco Auto ",
+            "team_b": "VTV Bình Điền Long An",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/6/6a/Logo_H%C3%A0_N%E1%BB%99i_Tasco_Auto.png?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=original",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzc9fOmXkUXVf-KqZbsR2bSRzsHH1VBglzbA&s",
+            "time": "20:00:00",
+            "date": "21/05",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fc78c78dc4_1294b675_20260521.png?v=1294b675",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-0ea8348a6f",
+          "name": "BFX  vs Hanwha Life | 15:00 21/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0ea8348a6f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0ea8348a6f",
+                  "name": "BFX  vs Hanwha Life",
+                  "streams": [
+                    {
+                      "id": "st-0ea8348a6f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e00bf1644",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779338660_hd/1779338660_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "BFX ",
+            "team_b": "Hanwha Life",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAgyOLTKfdcm4CT7wcNP4MlfE1afamu5PRPA&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/e0/HLE_logo.png",
+            "time": "15:00:00",
+            "date": "21/05",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0ea8348a6f_2c5c1252_20260521.png?v=2c5c1252",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_vothuat",
       "name": "🥊 Võ Thuật",
       "display": "vertical",
