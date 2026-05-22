@@ -1460,83 +1460,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5aea27d0c2",
-          "name": "Olympiacos  vs Fenerbahce | 22:00 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5aea27d0c2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5aea27d0c2",
-                  "name": "Olympiacos  vs Fenerbahce",
-                  "streams": [
-                    {
-                      "id": "st-5aea27d0c2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7bffedcc5a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779414251_hd/1779414251_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Euro League",
-            "team_a": "Olympiacos ",
-            "team_b": "Fenerbahce",
-            "logo_a": "https://static.flashscore.com/res/image/data/fuhlT5Ca-rXhVDRnT.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/zPhuZDil-4O6TfMXl.png",
-            "time": "22:00:00",
-            "date": "22/05",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5aea27d0c2_00e5cdbd_20260523.png?v=00e5cdbd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-be45db2a70",
           "name": "Indiana Fever W vs Golden State Valkyries W | 06:30 23/05",
