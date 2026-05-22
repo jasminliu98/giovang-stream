@@ -233,6 +233,78 @@
           }
         },
         {
+          "id": "gv-eb7840c162",
+          "name": "Everton CD vs Coquimbo Unido | 02:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eb7840c162",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-eb7840c162",
+                  "name": "Everton CD vs Coquimbo Unido",
+                  "streams": [
+                    {
+                      "id": "st-eb7840c162",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6a9c7b1b10",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779467379_hd/1779467379_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Chilê",
+            "team_a": "Everton CD",
+            "team_b": "Coquimbo Unido",
+            "logo_a": "https://images.keovip88.net/images/teams/everton-cd.png",
+            "logo_b": "https://images.keovip88.net/images/teams/coquimbo-unido.png",
+            "time": "02:00:00",
+            "date": "23/05",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-eb7840c162_9bbd2ca2_20260522.png?v=9bbd2ca2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-a9f912e557",
           "name": "Mexico vs Ghana | 09:00 23/05",
           "type": "single",
@@ -1821,6 +1893,159 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f928710df9_6f022e34_20260522.png?v=6f022e34",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-7748c1559a",
+          "name": " Dplus Kia vs BFX | 15:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7748c1559a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7748c1559a",
+                  "name": " Dplus Kia vs BFX",
+                  "streams": [
+                    {
+                      "id": "st-7748c1559a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4c7326a1c6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779467473_hd/1779467473_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": " Dplus Kia",
+            "team_b": "BFX",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Logo_DPlus_KIA.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAgyOLTKfdcm4CT7wcNP4MlfE1afamu5PRPA&s",
+            "time": "15:00:00",
+            "date": "23/05",
+            "blv": "blv-ngu",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7748c1559a_95a886b9_20260522.png?v=95a886b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9f9a2dd6d5",
+          "name": "NS  vs Hanwha Life | 17:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f9a2dd6d5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9f9a2dd6d5",
+                  "name": "NS  vs Hanwha Life",
+                  "streams": [
+                    {
+                      "id": "st-9f9a2dd6d5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a133118459",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779467545_hd/1779467545_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "NS ",
+            "team_b": "Hanwha Life",
+            "logo_a": "https://static.flashscore.com/res/image/data/fsLmL8ZA-K2mdw3oq.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/e0/HLE_logo.png",
+            "time": "17:00:00",
+            "date": "23/05",
+            "blv": "blv-ngu",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9f9a2dd6d5_20734cf7_20260522.png?v=20734cf7",
             "width": 1600,
             "height": 1200
           }
