@@ -1766,83 +1766,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0d35618d8f",
-          "name": "DNS  vs KRX | 15:00 22/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0d35618d8f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0d35618d8f",
-                  "name": "DNS  vs KRX",
-                  "streams": [
-                    {
-                      "id": "st-0d35618d8f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9d11d08867",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779414458_hd/1779414458_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "DNS ",
-            "team_b": "KRX",
-            "logo_a": "https://static.flashscore.com/res/image/data/dMVqE8Yg-6sW7CEHO.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/bgSWuehl-SxdIjKYi.png",
-            "time": "15:00:00",
-            "date": "22/05",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0d35618d8f_1cf0097e_20260522.png?v=1cf0097e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e54f287a41",
           "name": "KT Rolster  vs GEN.G | 17:00 22/05",
