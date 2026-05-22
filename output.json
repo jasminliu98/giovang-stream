@@ -161,6 +161,78 @@
           }
         },
         {
+          "id": "gv-be3538ab3f",
+          "name": "Ho Chi Minh City  vs Truong Tuoi Dong Nai | 16:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-be3538ab3f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-be3538ab3f",
+                  "name": "Ho Chi Minh City  vs Truong Tuoi Dong Nai",
+                  "streams": [
+                    {
+                      "id": "st-be3538ab3f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-096a34feee",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779414086_hd/1779414086_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 2 - Round 20",
+            "team_a": "Ho Chi Minh City ",
+            "team_b": "Truong Tuoi Dong Nai",
+            "logo_a": "https://static.flashscore.com/res/image/data/fPw2LdwS-0QWdQxII.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/bBy2dJxS-CKnsTHLc.png",
+            "time": "16:00:00",
+            "date": "22/05",
+            "blv": "BLV Hợi",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-be3538ab3f_872bb270_20260522.png?v=872bb270",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-bc101e8258",
           "name": "FC Machida Zelvia vs Urawa Red Diamonds | 17:30 22/05",
           "type": "single",
@@ -228,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bc101e8258_6ede8bc5_20260522.png?v=6ede8bc5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-44cc534a07",
+          "name": "Xuan Thien Phu Tho  vs Dong Thap | 18:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-44cc534a07",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-44cc534a07",
+                  "name": "Xuan Thien Phu Tho  vs Dong Thap",
+                  "streams": [
+                    {
+                      "id": "st-44cc534a07",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3019c0a378",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779414199_hd/1779414199_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 2 - Vòng 20",
+            "team_a": "Xuan Thien Phu Tho ",
+            "team_b": "Dong Thap",
+            "logo_a": "https://static.flashscore.com/res/image/data/0jGgUkwS-CCrKV3n9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/IXtdGnFG-COGqeUYd.png",
+            "time": "18:00:00",
+            "date": "22/05",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-44cc534a07_d0af0d38_20260522.png?v=d0af0d38",
             "width": 1600,
             "height": 1200
           }
@@ -668,7 +812,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -753,10 +897,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -805,7 +949,7 @@
             "time": "09:00:00",
             "date": "22/05",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -957,6 +1101,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-40c90f0875_37412523_20260522.png?v=37412523",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5aea27d0c2",
+          "name": "Olympiacos  vs Fenerbahce | 22:00 22/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5aea27d0c2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5aea27d0c2",
+                  "name": "Olympiacos  vs Fenerbahce",
+                  "streams": [
+                    {
+                      "id": "st-5aea27d0c2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7bffedcc5a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779414251_hd/1779414251_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Euro League",
+            "team_a": "Olympiacos ",
+            "team_b": "Fenerbahce",
+            "logo_a": "https://static.flashscore.com/res/image/data/fuhlT5Ca-rXhVDRnT.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/zPhuZDil-4O6TfMXl.png",
+            "time": "22:00:00",
+            "date": "22/05",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5aea27d0c2_00e5cdbd_20260522.png?v=00e5cdbd",
             "width": 1600,
             "height": 1200
           }
