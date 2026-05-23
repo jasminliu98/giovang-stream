@@ -521,78 +521,6 @@
           }
         },
         {
-          "id": "gv-1fe5d495b9",
-          "name": "Bayern Munich vs VfB Stuttgart | 01:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1fe5d495b9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1fe5d495b9",
-                  "name": "Bayern Munich vs VfB Stuttgart",
-                  "streams": [
-                    {
-                      "id": "st-1fe5d495b9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7e3f75324c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779503780_hd/1779503780_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Quốc Gia Đức",
-            "team_a": "Bayern Munich",
-            "team_b": "VfB Stuttgart",
-            "logo_a": "https://images.keovip88.net/images/teams/bayern-munchen.png",
-            "logo_b": "https://images.keovip88.net/images/teams/vfb-stuttgart.png",
-            "time": "01:00:00",
-            "date": "24/05",
-            "blv": "blv-ngu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1fe5d495b9_e0903bc6_20260523.png?v=e0903bc6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-1c2ffa6829",
           "name": "Lazio vs Pisa | 01:45 24/05",
           "type": "single",
@@ -1983,6 +1911,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-47cc68841e_094f1bd3_20260523.png?v=094f1bd3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e5966f62e7",
+          "name": "F1 Canada vs  Formula 1 | 03:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e5966f62e7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e5966f62e7",
+                  "name": "F1 Canada vs  Formula 1",
+                  "streams": [
+                    {
+                      "id": "st-e5966f62e7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5b22bde322",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779542513_hd/1779542513_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "F1 Chặng Canada",
+            "team_a": "F1 Canada",
+            "team_b": " Formula 1",
+            "logo_a": "https://www.myride901.com/wp-content/uploads/2022/06/CGP-1024x1024.jpg",
+            "logo_b": "https://pbs.twimg.com/profile_images/1679203255362936832/R7UXRfSv_400x400.jpg",
+            "time": "03:00:00",
+            "date": "24/05",
+            "blv": "blv-ngu",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e5966f62e7_094f1bd3_20260523.png?v=094f1bd3",
             "width": 1600,
             "height": 1200
           }
