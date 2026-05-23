@@ -1100,83 +1100,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f928710df9",
-          "name": "Hanoi Buffaloes  vs Nhatrang Dolphins | 19:30 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f928710df9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f928710df9",
-                  "name": "Hanoi Buffaloes  vs Nhatrang Dolphins",
-                  "streams": [
-                    {
-                      "id": "st-f928710df9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6023348f2d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779467334_hd/1779467334_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "vba",
-            "team_a": "Hanoi Buffaloes ",
-            "team_b": "Nhatrang Dolphins",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/1/15/Hanoi_Buffaloes_logo.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0A7UyeBxzNrZgStDdVXy-3khN7g4sfNuC_A&s",
-            "time": "19:30:00",
-            "date": "23/05",
-            "blv": "blv-can",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f928710df9_6f022e34_20260523.png?v=6f022e34",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-450e263987",
           "name": "Unicaja vs Breogan | 23:00 23/05",
@@ -1847,7 +1775,7 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1860,10 +1788,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1912,7 +1840,7 @@
             "time": "22:00:00",
             "date": "23/05",
             "blv": "BLV Dory",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "vothuat"
           },
           "image": {
