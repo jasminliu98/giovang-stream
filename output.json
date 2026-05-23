@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5deb235c2e",
-          "name": "Hull city  vs Middlesbrough | 21:30 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5deb235c2e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5deb235c2e",
-                  "name": "Hull city  vs Middlesbrough",
-                  "streams": [
-                    {
-                      "id": "st-5deb235c2e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8b9f1daa8b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779467122_hd/1779467122_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Play off Lên Ngoại hạng Anh",
-            "team_a": "Hull city ",
-            "team_b": "Middlesbrough",
-            "logo_a": "https://static.flashscore.com/res/image/data/QRMyJWWg-bJFnYpTt.png",
-            "logo_b": "https://images.keovip.cc/images/teams/middlesbrough.png",
-            "time": "21:30:00",
-            "date": "23/05",
-            "blv": "BLV Dần",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5deb235c2e_4321f035_20260523.png?v=4321f035",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-aecf65e2d8",
           "name": "Akron Togliatti vs Rotor Volgograd | 22:30 23/05",
@@ -953,6 +881,78 @@
           }
         },
         {
+          "id": "gv-c43f5d6b83",
+          "name": "Brighton   Hove Albion vs Manchester United | 22:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c43f5d6b83",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c43f5d6b83",
+                  "name": "Brighton   Hove Albion vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-c43f5d6b83",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dbdcf31139",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779550914_hd/1779550914_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Brighton   Hove Albion",
+            "team_b": "Manchester United",
+            "logo_a": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
+            "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
+            "time": "22:00:00",
+            "date": "24/05",
+            "blv": "fan-mu, bruno-21",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c43f5d6b83_1d1fd6a2_20260523.png?v=1d1fd6a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-e4449e8f9e",
           "name": "Tottenham Hotspur vs Everton | 22:00 24/05",
           "type": "single",
@@ -1092,6 +1092,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8765618209_c33d23fb_20260523.png?v=c33d23fb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3567d3c49f",
+          "name": "Sunderland vs Chelsea FC | 22:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3567d3c49f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3567d3c49f",
+                  "name": "Sunderland vs Chelsea FC",
+                  "streams": [
+                    {
+                      "id": "st-3567d3c49f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-34a0d8c684",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779554690_hd/1779554690_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Sunderland",
+            "team_b": "Chelsea FC",
+            "logo_a": "https://images.keovip88.net/images/teams/sunderland-afc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/chelsea.png",
+            "time": "22:00:00",
+            "date": "24/05",
+            "blv": "blv-fan-che",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3567d3c49f_f711f19d_20260523.png?v=f711f19d",
             "width": 1600,
             "height": 1200
           }
@@ -1457,78 +1529,6 @@
           }
         },
         {
-          "id": "gv-c43f5d6b83",
-          "name": "Brighton   Hove Albion vs Manchester United | 22:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c43f5d6b83",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c43f5d6b83",
-                  "name": "Brighton   Hove Albion vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-c43f5d6b83",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dbdcf31139",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779550914_hd/1779550914_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Brighton   Hove Albion",
-            "team_b": "Manchester United",
-            "logo_a": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
-            "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
-            "time": "22:00:00",
-            "date": "24/05",
-            "blv": "fan-mu, BLV Dory",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c43f5d6b83_1d1fd6a2_20260523.png?v=1d1fd6a2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-bd3b97bfe1",
           "name": "Manchester City vs Aston Villa | 22:00 24/05",
           "type": "single",
@@ -1604,7 +1604,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1689,10 +1689,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1741,7 +1741,7 @@
             "time": "23:59:00",
             "date": "23/05",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
