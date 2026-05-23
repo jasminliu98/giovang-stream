@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1c2ffa6829",
-          "name": "Lazio vs Pisa | 01:45 24/05",
+          "id": "gv-c21d3a4229",
+          "name": "Espanyol vs Real Sociedad | 02:00 24/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -32,95 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-1c2ffa6829",
+              "id": "src-c21d3a4229",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-1c2ffa6829",
-                  "name": "Lazio vs Pisa",
+                  "id": "ct-c21d3a4229",
+                  "name": "Espanyol vs Real Sociedad",
                   "streams": [
                     {
-                      "id": "st-1c2ffa6829",
+                      "id": "st-c21d3a4229",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-1a02428431",
+                          "id": "lnk-42150d1c0d",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779503851_hd/1779503851_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Lazio",
-            "team_b": "Pisa",
-            "logo_a": "https://images.keovip88.net/images/teams/lazio.png",
-            "logo_b": "https://images.keovip88.net/images/teams/pisa.png",
-            "time": "01:45:00",
-            "date": "24/05",
-            "blv": "BLV Câm",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1c2ffa6829_93cfec07_20260524.png?v=93cfec07",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-848a0afb59",
-          "name": "Real Betis vs Levante | 02:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-848a0afb59",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-848a0afb59",
-                  "name": "Real Betis vs Levante",
-                  "streams": [
-                    {
-                      "id": "st-848a0afb59",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa927fbf57",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779503881_hd/1779503881_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779503907_hd/1779503907_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -141,13 +69,13 @@
           ],
           "org_metadata": {
             "league": "La Liga",
-            "team_a": "Real Betis",
-            "team_b": "Levante",
-            "logo_a": "https://images.keovip88.net/images/teams/real-betis.png",
-            "logo_b": "https://images.keovip88.net/images/teams/levante.png",
+            "team_a": "Espanyol",
+            "team_b": "Real Sociedad",
+            "logo_a": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
+            "logo_b": "https://images.keovip88.net/images/teams/real-sociedad.png",
             "time": "02:00:00",
             "date": "24/05",
-            "blv": "blv-ngong",
+            "blv": "blv-sun",
             "is_live": true,
             "cate_type": "football"
           },
@@ -155,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-848a0afb59_9a21aec4_20260524.png?v=9a21aec4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c21d3a4229_39ebb512_20260524.png?v=39ebb512",
             "width": 1600,
             "height": 1200
           }
@@ -300,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3e5fc95dbb_d4d0550f_20260524.png?v=d4d0550f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c21d3a4229",
-          "name": "Espanyol vs Real Sociedad | 02:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c21d3a4229",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c21d3a4229",
-                  "name": "Espanyol vs Real Sociedad",
-                  "streams": [
-                    {
-                      "id": "st-c21d3a4229",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-42150d1c0d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779503907_hd/1779503907_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Espanyol",
-            "team_b": "Real Sociedad",
-            "logo_a": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
-            "logo_b": "https://images.keovip88.net/images/teams/real-sociedad.png",
-            "time": "02:00:00",
-            "date": "24/05",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c21d3a4229_39ebb512_20260524.png?v=39ebb512",
             "width": 1600,
             "height": 1200
           }
@@ -1797,7 +1653,25 @@
                     {
                       "id": "st-e90ef15695",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-166eca3c72",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779467608_hd/1779467608_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
