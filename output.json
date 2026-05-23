@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-513227ba05",
-          "name": "Auckland FC vs Sydney FC | 15:10 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-513227ba05",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-513227ba05",
-                  "name": "Auckland FC vs Sydney FC",
-                  "streams": [
-                    {
-                      "id": "st-513227ba05",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0f7925d2bc",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779466633_hd/1779466633_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Úc",
-            "team_a": "Auckland FC",
-            "team_b": "Sydney FC",
-            "logo_a": "https://images.keovip88.net/images/teams/auckland-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sydney-fc.png",
-            "time": "15:10:00",
-            "date": "23/05",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-513227ba05_eb2d3f86_20260523.png?v=eb2d3f86",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-49a10cf466",
           "name": "Than Quảng Ninh vs PVF-CAND B | 17:00 23/05",
@@ -2198,83 +2126,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-7748c1559a",
-          "name": " Dplus Kia vs BFX | 15:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7748c1559a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7748c1559a",
-                  "name": " Dplus Kia vs BFX",
-                  "streams": [
-                    {
-                      "id": "st-7748c1559a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4c7326a1c6",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779467473_hd/1779467473_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": " Dplus Kia",
-            "team_b": "BFX",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Logo_DPlus_KIA.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAgyOLTKfdcm4CT7wcNP4MlfE1afamu5PRPA&s",
-            "time": "15:00:00",
-            "date": "23/05",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7748c1559a_95a886b9_20260523.png?v=95a886b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9f9a2dd6d5",
           "name": "NS  vs Hanwha Life | 17:00 23/05",
