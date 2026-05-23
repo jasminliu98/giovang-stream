@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-4feb37fdf0",
-          "name": "FK Makhachkala vs Ural S.r. | 20:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4feb37fdf0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4feb37fdf0",
-                  "name": "FK Makhachkala vs Ural S.r.",
-                  "streams": [
-                    {
-                      "id": "st-4feb37fdf0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e6cf87aad8",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779466922_hd/1779466922_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nga",
-            "team_a": "FK Makhachkala",
-            "team_b": "Ural S.r.",
-            "logo_a": "https://images.keovip88.net/images/teams/fk-makhachkala.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ural-sverdlovsk-oblast.png",
-            "time": "20:00:00",
-            "date": "23/05",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4feb37fdf0_a33ace27_20260523.png?v=a33ace27",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-a7575e895d",
           "name": "Celtic  vs Dunfermline Athletic | 21:00 23/05",
           "type": "single",
@@ -233,6 +161,78 @@
           }
         },
         {
+          "id": "gv-227be67238",
+          "name": "Bologna vs Inter Milan | 23:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-227be67238",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-227be67238",
+                  "name": "Bologna vs Inter Milan",
+                  "streams": [
+                    {
+                      "id": "st-227be67238",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cb72228c77",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779503747_hd/1779503747_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Bologna",
+            "team_b": "Inter Milan",
+            "logo_a": "https://images.keovip88.net/images/teams/bologna.png",
+            "logo_b": "https://images.keovip88.net/images/teams/inter-milan.png",
+            "time": "23:00:00",
+            "date": "23/05",
+            "blv": "blv-bon",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-227be67238_67d33a21_20260523.png?v=67d33a21",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-aecf65e2d8",
           "name": "Akron Togliatti vs Rotor Volgograd | 22:30 23/05",
           "type": "single",
@@ -372,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4d17e13727_e374080f_20260523.png?v=e374080f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-227be67238",
-          "name": "Bologna vs Inter Milan | 23:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-227be67238",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-227be67238",
-                  "name": "Bologna vs Inter Milan",
-                  "streams": [
-                    {
-                      "id": "st-227be67238",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cb72228c77",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779503747_hd/1779503747_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Bologna",
-            "team_b": "Inter Milan",
-            "logo_a": "https://images.keovip88.net/images/teams/bologna.png",
-            "logo_b": "https://images.keovip88.net/images/teams/inter-milan.png",
-            "time": "23:00:00",
-            "date": "23/05",
-            "blv": "blv-bon",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-227be67238_67d33a21_20260523.png?v=67d33a21",
             "width": 1600,
             "height": 1200
           }
