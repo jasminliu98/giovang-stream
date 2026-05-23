@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-318e581af9_240e3ab0_20260523.png?v=240e3ab0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-03467e3c6f",
-          "name": "Thanh Hóa vs Hoàng Anh Gia Lai | 18:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03467e3c6f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-03467e3c6f",
-                  "name": "Thanh Hóa vs Hoàng Anh Gia Lai",
-                  "streams": [
-                    {
-                      "id": "st-03467e3c6f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-76b3eb8203",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779466776_hd/1779466776_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Thanh Hóa",
-            "team_b": "Hoàng Anh Gia Lai",
-            "logo_a": "https://images.keovip88.net/images/teams/thanh-hoa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hoang-anh-gia-lai.png",
-            "time": "18:00:00",
-            "date": "23/05",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-03467e3c6f_3f6d8f1b_20260523.png?v=3f6d8f1b",
             "width": 1600,
             "height": 1200
           }
@@ -305,78 +233,6 @@
           }
         },
         {
-          "id": "gv-5deb235c2e",
-          "name": "Hull city  vs Middlesbrough | 21:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5deb235c2e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5deb235c2e",
-                  "name": "Hull city  vs Middlesbrough",
-                  "streams": [
-                    {
-                      "id": "st-5deb235c2e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8b9f1daa8b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779467122_hd/1779467122_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Play off Lên Ngoại hạng Anh",
-            "team_a": "Hull city ",
-            "team_b": "Middlesbrough",
-            "logo_a": "https://static.flashscore.com/res/image/data/QRMyJWWg-bJFnYpTt.png",
-            "logo_b": "https://images.keovip.cc/images/teams/middlesbrough.png",
-            "time": "21:00:00",
-            "date": "23/05",
-            "blv": "BLV Dần",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5deb235c2e_4321f035_20260523.png?v=4321f035",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-a7575e895d",
           "name": "Celtic  vs Dunfermline Athletic | 21:00 23/05",
           "type": "single",
@@ -444,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a7575e895d_9f7fc30b_20260523.png?v=9f7fc30b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5deb235c2e",
+          "name": "Hull city  vs Middlesbrough | 21:30 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5deb235c2e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5deb235c2e",
+                  "name": "Hull city  vs Middlesbrough",
+                  "streams": [
+                    {
+                      "id": "st-5deb235c2e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8b9f1daa8b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779467122_hd/1779467122_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Play off Lên Ngoại hạng Anh",
+            "team_a": "Hull city ",
+            "team_b": "Middlesbrough",
+            "logo_a": "https://static.flashscore.com/res/image/data/QRMyJWWg-bJFnYpTt.png",
+            "logo_b": "https://images.keovip.cc/images/teams/middlesbrough.png",
+            "time": "21:30:00",
+            "date": "23/05",
+            "blv": "BLV Dần",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5deb235c2e_4321f035_20260523.png?v=4321f035",
             "width": 1600,
             "height": 1200
           }
@@ -2055,6 +1983,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9f9a2dd6d5_20734cf7_20260523.png?v=20734cf7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-47cc68841e",
+          "name": "F1 Canada vs  Formula 1 | 23:00 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-47cc68841e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-47cc68841e",
+                  "name": "F1 Canada vs  Formula 1",
+                  "streams": [
+                    {
+                      "id": "st-47cc68841e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7457a7402a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779541385_hd/1779541385_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "F1 Chặng Canada",
+            "team_a": "F1 Canada",
+            "team_b": " Formula 1",
+            "logo_a": "https://www.myride901.com/wp-content/uploads/2022/06/CGP-1024x1024.jpg",
+            "logo_b": "https://pbs.twimg.com/profile_images/1679203255362936832/R7UXRfSv_400x400.jpg",
+            "time": "23:00:00",
+            "date": "25/05",
+            "blv": "blv-ngu",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-47cc68841e_094f1bd3_20260523.png?v=094f1bd3",
             "width": 1600,
             "height": 1200
           }
