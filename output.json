@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-49a10cf466",
-          "name": "Than Quảng Ninh vs PVF-CAND B | 17:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-49a10cf466",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-49a10cf466",
-                  "name": "Than Quảng Ninh vs PVF-CAND B",
-                  "streams": [
-                    {
-                      "id": "st-49a10cf466",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-69360c80d3",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779466691_hd/1779466691_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng Nhất Việt Nam",
-            "team_a": "Than Quảng Ninh",
-            "team_b": "PVF-CAND B",
-            "logo_a": "https://images.keovip88.net/images/teams/than-quang-ninh.gif",
-            "logo_b": "https://images.keovip88.net/images/teams/pvf-cand-b.png",
-            "time": "17:00:00",
-            "date": "23/05",
-            "blv": "blv-mat",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-49a10cf466_fc8dd2f4_20260523.png?v=fc8dd2f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-38e1636d65",
-          "name": "PFC Oleksandria vs Kryvbas | 17:00 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-38e1636d65",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-38e1636d65",
-                  "name": "PFC Oleksandria vs Kryvbas",
-                  "streams": [
-                    {
-                      "id": "st-38e1636d65",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae0952e48",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779466801_hd/1779466801_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ukraine",
-            "team_a": "PFC Oleksandria",
-            "team_b": "Kryvbas",
-            "logo_a": "https://images.keovip88.net/images/teams/pfc-oleksandria.png",
-            "logo_b": "https://images.keovip88.net/images/teams/kryvbas.png",
-            "time": "17:00:00",
-            "date": "23/05",
-            "blv": "BLV Dần",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-38e1636d65_297376f0_20260523.png?v=297376f0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-318e581af9",
           "name": "SHB Đà Nẵng vs Hải Phòng | 18:00 23/05",
@@ -1532,7 +1388,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1545,10 +1401,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1597,7 +1453,7 @@
             "time": "19:30:00",
             "date": "23/05",
             "blv": "blv-can",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
