@@ -1527,6 +1527,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-459ac8bb1b",
+          "name": "Eastern District vs North District | 14:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-459ac8bb1b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-459ac8bb1b",
+                  "name": "Eastern District vs North District",
+                  "streams": [
+                    {
+                      "id": "st-459ac8bb1b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3e75c6057b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779525948_hd/1779525948_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp FA Hồng Kông",
+            "team_a": "Eastern District",
+            "team_b": "North District",
+            "logo_a": "https://static.flashscore.com/res/image/data/j9bUE3xS-pbGyaFQt.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Ia2oY3Cr-OInYTOoD.png",
+            "time": "14:00:00",
+            "date": "24/05",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-459ac8bb1b_f8fba6ef_20260523.png?v=f8fba6ef",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
