@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c21d3a4229",
-          "name": "Espanyol vs Real Sociedad | 02:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c21d3a4229",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c21d3a4229",
-                  "name": "Espanyol vs Real Sociedad",
-                  "streams": [
-                    {
-                      "id": "st-c21d3a4229",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-42150d1c0d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779503907_hd/1779503907_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Espanyol",
-            "team_b": "Real Sociedad",
-            "logo_a": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
-            "logo_b": "https://images.keovip88.net/images/teams/real-sociedad.png",
-            "time": "02:00:00",
-            "date": "24/05",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c21d3a4229_39ebb512_20260524.png?v=39ebb512",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f49dd60380",
-          "name": "Real Madrid vs Athletic Bilbao | 02:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f49dd60380",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f49dd60380",
-                  "name": "Real Madrid vs Athletic Bilbao",
-                  "streams": [
-                    {
-                      "id": "st-f49dd60380",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3eedd98af5",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779503939_hd/1779503939_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Madrid",
-            "team_b": "Athletic Bilbao",
-            "logo_a": "https://images.keovip88.net/images/teams/real-madrid.png",
-            "logo_b": "https://images.keovip88.net/images/teams/athletic-bilbao.png",
-            "time": "02:00:00",
-            "date": "24/05",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f49dd60380_e859890a_20260524.png?v=e859890a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3e5fc95dbb",
           "name": "Valencia vs Barcelona | 02:00 24/05",
@@ -240,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +148,7 @@
             "time": "05:00:00",
             "date": "24/05",
             "blv": "blv-ngong",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1533,87 +1389,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a1bdef8849_0255a728_20260524.png?v=0255a728",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-e5966f62e7",
-          "name": "F1 Canada vs  Formula 1 | 03:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e5966f62e7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e5966f62e7",
-                  "name": "F1 Canada vs  Formula 1",
-                  "streams": [
-                    {
-                      "id": "st-e5966f62e7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5b22bde322",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779542513_hd/1779542513_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "F1 Chặng Canada",
-            "team_a": "F1 Canada",
-            "team_b": " Formula 1",
-            "logo_a": "https://www.myride901.com/wp-content/uploads/2022/06/CGP-1024x1024.jpg",
-            "logo_b": "https://pbs.twimg.com/profile_images/1679203255362936832/R7UXRfSv_400x400.jpg",
-            "time": "03:00:00",
-            "date": "24/05",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e5966f62e7_094f1bd3_20260524.png?v=094f1bd3",
             "width": 1600,
             "height": 1200
           }
