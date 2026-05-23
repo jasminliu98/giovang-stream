@@ -1028,83 +1028,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-381cac71bb",
-          "name": "Toronto Tempo W vs Portland Fire W | 05:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-381cac71bb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-381cac71bb",
-                  "name": "Toronto Tempo W vs Portland Fire W",
-                  "streams": [
-                    {
-                      "id": "st-381cac71bb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab67f993b0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779503541_hd/1779503541_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WNBA",
-            "team_a": "Toronto Tempo W",
-            "team_b": "Portland Fire W",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/1/1b/Toronto_Tempo_logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/c/cf/Portland_Fire_logo.svg",
-            "time": "05:00:00",
-            "date": "24/05",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-381cac71bb_5503dfd4_20260524.png?v=5503dfd4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-dbf17c056d",
           "name": "Cavaliers vs Knicks | 07:00 24/05",
