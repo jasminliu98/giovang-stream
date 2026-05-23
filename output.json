@@ -1464,6 +1464,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-450e263987",
+          "name": "Unicaja vs Breogan | 23:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-450e263987",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-450e263987",
+                  "name": "Unicaja vs Breogan",
+                  "streams": [
+                    {
+                      "id": "st-450e263987",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-89b17d6f42",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779503351_hd/1779503351_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ACB",
+            "team_a": "Unicaja",
+            "team_b": "Breogan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/4/41/CB_Unicaja_Logo.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzt3J_fkonlBu_qAIheZFYeq5NlV_jcD4ZOQ&s",
+            "time": "23:00:00",
+            "date": "23/05",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-450e263987_6f79ec47_20260523.png?v=6f79ec47",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1703,83 +1775,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1721c1fb71",
-          "name": "Milwaukee Brewers vs Los Angeles Dodgers | 06:40 23/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1721c1fb71",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1721c1fb71",
-                  "name": "Milwaukee Brewers vs Los Angeles Dodgers",
-                  "streams": [
-                    {
-                      "id": "st-1721c1fb71",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c231648197",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779401240_hd/1779401240_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Milwaukee Brewers",
-            "team_b": "Los Angeles Dodgers",
-            "logo_a": "https://static.flashscore.com/res/image/data/nitvFMWg-xIOhFH4B.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
-            "time": "06:40:00",
-            "date": "23/05",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1721c1fb71_73cba564_20260523.png?v=73cba564",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-78ef161aae",
           "name": "San Francisco Giants vs Chicago White Sox | 09:15 23/05",
@@ -1848,6 +1848,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-78ef161aae_08925a67_20260523.png?v=08925a67",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a0e37ce196",
+          "name": "Milwaukee Brewers vs Los Angeles Dodgers | 06:15 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0e37ce196",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a0e37ce196",
+                  "name": "Milwaukee Brewers vs Los Angeles Dodgers",
+                  "streams": [
+                    {
+                      "id": "st-a0e37ce196",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4d15c12cc8",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779503151_hd/1779503151_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Milwaukee Brewers",
+            "team_b": "Los Angeles Dodgers",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Milwaukee_Brewers_logo.svg/1280px-Milwaukee_Brewers_logo.svg.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-UXksA_2bvyjP78msUQRQ0eyAc1mb7J5XOA&s",
+            "time": "06:15:00",
+            "date": "24/05",
+            "blv": "blv-can",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a0e37ce196_374e5518_20260523.png?v=374e5518",
             "width": 1600,
             "height": 1200
           }
