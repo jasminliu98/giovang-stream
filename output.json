@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -168,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +220,7 @@
             "time": "14:30:00",
             "date": "23/05",
             "blv": "blv-can",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1604,7 +1604,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1617,10 +1617,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1669,7 +1669,7 @@
             "time": "14:30:00",
             "date": "23/05",
             "blv": "blv-can",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1965,6 +1965,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-381cac71bb_5503dfd4_20260523.png?v=5503dfd4",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-2e9339863a",
+          "name": "Giang Tô  vs VTV Bình Điền Long An | 20:00 23/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e9339863a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2e9339863a",
+                  "name": "Giang Tô  vs VTV Bình Điền Long An",
+                  "streams": [
+                    {
+                      "id": "st-2e9339863a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a0384cf5c7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779520263_hd/1779520263_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VTV",
+            "team_a": "Giang Tô ",
+            "team_b": "VTV Bình Điền Long An",
+            "logo_a": "https://static.flashscore.com/res/image/data/8fKbdOyS-hzIVxGNk.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzc9fOmXkUXVf-KqZbsR2bSRzsHH1VBglzbA&s",
+            "time": "20:00:00",
+            "date": "23/05",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2e9339863a_30c1ee26_20260523.png?v=30c1ee26",
             "width": 1600,
             "height": 1200
           }
