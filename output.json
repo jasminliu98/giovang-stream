@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -305,6 +305,78 @@
           }
         },
         {
+          "id": "gv-41410401ed",
+          "name": "Shanghai Shenhua vs Shenzhen Xinpengcheng | 19:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41410401ed",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-41410401ed",
+                  "name": "Shanghai Shenhua vs Shenzhen Xinpengcheng",
+                  "streams": [
+                    {
+                      "id": "st-41410401ed",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-073928119e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779603835_hd/1779603835_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Trung Quốc",
+            "team_a": "Shanghai Shenhua",
+            "team_b": "Shenzhen Xinpengcheng",
+            "logo_a": "https://images.keovip88.net/images/teams/shanghai-shenhua.png",
+            "logo_b": "https://images.keovip88.net/images/teams/shenzhen-xinpengcheng.png",
+            "time": "19:00:00",
+            "date": "24/05",
+            "blv": "BLV Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-41410401ed_9053c6b6_20260524.png?v=9053c6b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-8a18453694",
           "name": "Hà Nội vs Thép Xanh Nam Định | 19:15 24/05",
           "type": "single",
@@ -372,78 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8a18453694_bd775af2_20260524.png?v=bd775af2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-41410401ed",
-          "name": "Shanghai Shenhua vs Shenzhen Xinpengcheng | 19:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41410401ed",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-41410401ed",
-                  "name": "Shanghai Shenhua vs Shenzhen Xinpengcheng",
-                  "streams": [
-                    {
-                      "id": "st-41410401ed",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-073928119e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779603835_hd/1779603835_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Trung Quốc",
-            "team_a": "Shanghai Shenhua",
-            "team_b": "Shenzhen Xinpengcheng",
-            "logo_a": "https://images.keovip88.net/images/teams/shanghai-shenhua.png",
-            "logo_b": "https://images.keovip88.net/images/teams/shenzhen-xinpengcheng.png",
-            "time": "19:00:00",
-            "date": "24/05",
-            "blv": "BLV Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-41410401ed_9053c6b6_20260524.png?v=9053c6b6",
             "width": 1600,
             "height": 1200
           }
@@ -1124,11 +1124,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-34a0d8c684",
+                          "id": "lnk-0e19939473",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779554690_hd/1779554690_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779623102_hd/1779623102_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1155,7 +1155,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/chelsea.png",
             "time": "22:00:00",
             "date": "24/05",
-            "blv": "blv-fan-che",
+            "blv": "blv-leo",
             "is_live": false,
             "cate_type": "football"
           },
@@ -2846,83 +2846,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9e4efb83aa",
-          "name": "BRO vs T1 | 17:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9e4efb83aa",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9e4efb83aa",
-                  "name": "BRO vs T1",
-                  "streams": [
-                    {
-                      "id": "st-9e4efb83aa",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cad81931af",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779602993_hd/1779602993_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "BRO",
-            "team_b": "T1",
-            "logo_a": "https://static.flashscore.com/res/image/data/dWdjTlyS-tSnxXc8U.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
-            "time": "17:00:00",
-            "date": "24/05",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9e4efb83aa_95e44fb8_20260524.png?v=95e44fb8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-47cc68841e",
           "name": "F1 Canada vs  Formula 1 | 03:00 25/05",
