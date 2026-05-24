@@ -1748,83 +1748,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-dbf17c056d",
-          "name": "Cavaliers vs Knicks | 07:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dbf17c056d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-dbf17c056d",
-                  "name": "Cavaliers vs Knicks",
-                  "streams": [
-                    {
-                      "id": "st-dbf17c056d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2d1271dcec",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779524166_hd/1779524166_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "Cavaliers",
-            "team_b": "Knicks",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/ro/thumb/6/6a/ClevelandCavaliersMainLogo.svg/250px-ClevelandCavaliersMainLogo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/New_York_Knicks_logo.svg/1280px-New_York_Knicks_logo.svg.png",
-            "time": "07:00:00",
-            "date": "24/05",
-            "blv": "BLV Ben, blv-lac",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-dbf17c056d_f39880c4_20260524.png?v=f39880c4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8ccfc8bec1",
           "name": "Nelson Giants vs Otago Nuggets | 10:00 24/05",
