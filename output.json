@@ -89,6 +89,78 @@
           }
         },
         {
+          "id": "gv-476a3defd7",
+          "name": "AC Milan vs Cagliari | 01:45 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-476a3defd7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-476a3defd7",
+                  "name": "AC Milan vs Cagliari",
+                  "streams": [
+                    {
+                      "id": "st-476a3defd7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-53c4ae59fc",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779588547_hd/1779588547_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "AC Milan",
+            "team_b": "Cagliari",
+            "logo_a": "https://images.keovip88.net/images/teams/ac-milan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/cagliari.png",
+            "time": "01:45:00",
+            "date": "25/05",
+            "blv": "BLV Dần",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-476a3defd7_837c2184_20260525.png?v=837c2184",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-704a4e85cc",
           "name": "Hellas Verona vs AS Roma | 01:45 25/05",
           "type": "single",
@@ -300,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-05c637dc35_93cb071a_20260525.png?v=93cb071a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-476a3defd7",
-          "name": "AC Milan vs Cagliari | 01:45 25/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-476a3defd7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-476a3defd7",
-                  "name": "AC Milan vs Cagliari",
-                  "streams": [
-                    {
-                      "id": "st-476a3defd7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-53c4ae59fc",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779588547_hd/1779588547_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "AC Milan",
-            "team_b": "Cagliari",
-            "logo_a": "https://images.keovip88.net/images/teams/ac-milan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/cagliari.png",
-            "time": "01:45:00",
-            "date": "25/05",
-            "blv": "BLV Dần",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-476a3defd7_837c2184_20260525.png?v=837c2184",
             "width": 1600,
             "height": 1200
           }
@@ -917,11 +917,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-3c7a3e0e4b",
+                          "id": "lnk-2f87eebee2",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779588824_hd/1779588824_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779647468_hd/1779647468_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -948,7 +948,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/v9aM9hWg-zPKhqktm.png",
             "time": "05:00:00",
             "date": "25/05",
-            "blv": "BLV Điếc",
+            "blv": "blv-leo",
             "is_live": false,
             "cate_type": "basketball"
           },
