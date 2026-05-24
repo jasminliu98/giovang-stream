@@ -303,49 +303,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-415700c8ad",
-          "name": "Atlanta Dream W vs Phoenix Mercury W | 02:00 25/05",
+          "id": "gv-e3efb246c5",
+          "name": "South Melbourne vs Avondale FC | 16:30 25/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-415700c8ad",
+              "id": "src-e3efb246c5",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-415700c8ad",
-                  "name": "Atlanta Dream W vs Phoenix Mercury W",
+                  "id": "ct-e3efb246c5",
+                  "name": "South Melbourne vs Avondale FC",
                   "streams": [
                     {
-                      "id": "st-415700c8ad",
+                      "id": "st-e3efb246c5",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-da5bb8c056",
+                          "id": "lnk-021d80ad05",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779647319_hd/1779647319_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779657484_hd/1779657484_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -365,26 +356,35 @@
             }
           ],
           "org_metadata": {
-            "league": "WNBA",
-            "team_a": "Atlanta Dream W",
-            "team_b": "Phoenix Mercury W",
-            "logo_a": "https://static.flashscore.com/res/image/data/GQbbJxxS-I5Zot0RH.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/IZ04YpAr-rPdnEwGr.png",
-            "time": "02:00:00",
+            "league": "NPL Victoria Úc",
+            "team_a": "South Melbourne",
+            "team_b": "Avondale FC",
+            "logo_a": "https://images.keovip88.net/images/teams/south-melbourne.png",
+            "logo_b": "https://images.keovip88.net/images/teams/avondale-fc.png",
+            "time": "16:30:00",
             "date": "25/05",
-            "blv": "blv-leo",
-            "is_live": true,
-            "cate_type": "basketball"
+            "blv": "blv-mat",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-415700c8ad_2fe5001c_20260525.png?v=2fe5001c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e3efb246c5_74495a3d_20260525.png?v=74495a3d",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-dd7abe6ef8",
           "name": "Seattle Storm W vs Washington Mystics W | 05:00 25/05",
@@ -681,6 +681,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-326caefe47",
+          "name": "Alex De Minaur vs Toby Samuel | 16:00 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-326caefe47",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-326caefe47",
+                  "name": "Alex De Minaur vs Toby Samuel",
+                  "streams": [
+                    {
+                      "id": "st-326caefe47",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-92f32aa38c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779657413_hd/1779657413_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "The French Open( Roland Garros)",
+            "team_a": "Alex De Minaur",
+            "team_b": "Toby Samuel",
+            "logo_a": "https://static.flashscore.com/res/image/data/jcP2ujzB-CID30mRm.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/pEG8E8h5-4hIBlAr6.png",
+            "time": "16:00:00",
+            "date": "25/05",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-326caefe47_714acac4_20260525.png?v=714acac4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b895b5c2a5",
+          "name": "Emerson Jones  vs Iga Swiatek | 17:00 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b895b5c2a5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b895b5c2a5",
+                  "name": "Emerson Jones  vs Iga Swiatek",
+                  "streams": [
+                    {
+                      "id": "st-b895b5c2a5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7aa1de15ed",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779657509_hd/1779657509_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Roland Garros",
+            "team_a": "Emerson Jones ",
+            "team_b": "Iga Swiatek",
+            "logo_a": "https://static.flashscore.com/res/image/data/8ndIP6il-zFPRPJwC.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/S2NdWdWg-tOt4Rhy2.png",
+            "time": "17:00:00",
+            "date": "25/05",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b895b5c2a5_7b1968a8_20260525.png?v=7b1968a8",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -831,6 +975,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f2407e8b01_08ae2b83_20260525.png?v=08ae2b83",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2b69bbccc3",
+          "name": "Hanwha Life vs NS | 17:00 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2b69bbccc3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2b69bbccc3",
+                  "name": "Hanwha Life vs NS",
+                  "streams": [
+                    {
+                      "id": "st-2b69bbccc3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3f6d597658",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779657573_hd/1779657573_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EWC",
+            "team_a": "Hanwha Life",
+            "team_b": "NS",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/e0/HLE_logo.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fsLmL8ZA-K2mdw3oq.png",
+            "time": "17:00:00",
+            "date": "25/05",
+            "blv": "blv-ngu",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2b69bbccc3_d3e33ca1_20260525.png?v=d3e33ca1",
             "width": 1600,
             "height": 1200
           }
