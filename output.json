@@ -375,6 +375,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-514cfc852d",
+          "name": "Kolding IF vs Hillerød | 18:00 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-514cfc852d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-514cfc852d",
+                  "name": "Kolding IF vs Hillerød",
+                  "streams": [
+                    {
+                      "id": "st-514cfc852d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fcad1dc87c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779657616_hd/1779657616_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Đan Mạch",
+            "team_a": "Kolding IF",
+            "team_b": "Hillerød",
+            "logo_a": "https://static.flashscore.com/res/image/data/tWv8eeyB-4x8Qtham.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/UD0C50HG-xGLUwWGK.png",
+            "time": "18:00:00",
+            "date": "25/05",
+            "blv": "blv-tri",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-514cfc852d_1cd1075d_20260525.png?v=1cd1075d",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -600,49 +672,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-228e98ba5d",
-          "name": "Giovanni Mpetshi Perricard  vs Novak Djokovic | 01:15 25/05",
+          "id": "gv-15f3ea4f47",
+          "name": "Quezon City vs Bulacan Buyas | 19:00 25/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-228e98ba5d",
+              "id": "src-15f3ea4f47",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-228e98ba5d",
-                  "name": "Giovanni Mpetshi Perricard  vs Novak Djokovic",
+                  "id": "ct-15f3ea4f47",
+                  "name": "Quezon City vs Bulacan Buyas",
                   "streams": [
                     {
-                      "id": "st-228e98ba5d",
+                      "id": "st-15f3ea4f47",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-dad008e81d",
+                          "id": "lnk-f6f1762979",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779642713_hd/1779642713_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779657749_hd/1779657749_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -662,26 +725,35 @@
             }
           ],
           "org_metadata": {
-            "league": "The French Open( Roland Garros)",
-            "team_a": "Giovanni Mpetshi Perricard ",
-            "team_b": "Novak Djokovic",
-            "logo_a": "https://static.flashscore.com/res/image/data/zBVlWog5-IZSfmrba.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tSfwGCdM-MJZajegG.png",
-            "time": "01:15:00",
+            "league": "MBPL",
+            "team_a": "Quezon City",
+            "team_b": "Bulacan Buyas",
+            "logo_a": "https://static.flashscore.com/res/image/data/hU0zfSzB-rXQZEtws.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/SbPWsZfM-KMZzaYLF.png",
+            "time": "19:00:00",
             "date": "25/05",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "tennis"
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-228e98ba5d_431a4fae_20260525.png?v=431a4fae",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-15f3ea4f47_41d092c8_20260525.png?v=41d092c8",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-326caefe47",
           "name": "Alex De Minaur vs Toby Samuel | 16:00 25/05",
@@ -822,6 +894,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b895b5c2a5_7b1968a8_20260525.png?v=7b1968a8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d07c32acb7",
+          "name": "Veronika Erjavec vs Elena Rybakina | 18:30 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d07c32acb7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d07c32acb7",
+                  "name": "Veronika Erjavec vs Elena Rybakina",
+                  "streams": [
+                    {
+                      "id": "st-d07c32acb7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fdd09bc96c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779657689_hd/1779657689_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Roland Garros",
+            "team_a": "Veronika Erjavec",
+            "team_b": "Elena Rybakina",
+            "logo_a": "https://static.flashscore.com/res/image/data/tKSkACZA-E9EWKzOI.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nwc71xXg-2wyL104C.png",
+            "time": "18:30:00",
+            "date": "25/05",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d07c32acb7_19ac0e8e_20260525.png?v=19ac0e8e",
             "width": 1600,
             "height": 1200
           }
