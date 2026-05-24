@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -305,6 +305,222 @@
           }
         },
         {
+          "id": "gv-586a291019",
+          "name": "Burnley vs Wolves | 22:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-586a291019",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-586a291019",
+                  "name": "Burnley vs Wolves",
+                  "streams": [
+                    {
+                      "id": "st-586a291019",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-783105564c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779550879_hd/1779550879_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Burnley",
+            "team_b": "Wolves",
+            "logo_a": "https://images.keovip88.net/images/teams/burnley.png",
+            "logo_b": "https://images.keovip88.net/images/teams/wolves.png",
+            "time": "22:00:00",
+            "date": "24/05",
+            "blv": "blv-sun",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-586a291019_d36db287_20260524.png?v=d36db287",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c43f5d6b83",
+          "name": "Brighton   Hove Albion vs Manchester United | 22:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c43f5d6b83",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c43f5d6b83",
+                  "name": "Brighton   Hove Albion vs Manchester United",
+                  "streams": [
+                    {
+                      "id": "st-c43f5d6b83",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dbdcf31139",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779550914_hd/1779550914_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Brighton   Hove Albion",
+            "team_b": "Manchester United",
+            "logo_a": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
+            "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
+            "time": "22:00:00",
+            "date": "24/05",
+            "blv": "fan-mu, bruno-21",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c43f5d6b83_1d1fd6a2_20260524.png?v=1d1fd6a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-bd3b97bfe1",
+          "name": "Manchester City vs Aston Villa | 22:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd3b97bfe1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bd3b97bfe1",
+                  "name": "Manchester City vs Aston Villa",
+                  "streams": [
+                    {
+                      "id": "st-bd3b97bfe1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1776219ec7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779550941_hd/1779550941_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Manchester City",
+            "team_b": "Aston Villa",
+            "logo_a": "https://images.keovip88.net/images/teams/manchester-city.png",
+            "logo_b": "https://images.keovip88.net/images/teams/aston-villa.png",
+            "time": "22:00:00",
+            "date": "24/05",
+            "blv": "BLV Ben",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bd3b97bfe1_6889fb0f_20260524.png?v=6889fb0f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-8765618209",
           "name": "Crystal Palace vs Arsenal | 22:00 24/05",
           "type": "single",
@@ -372,222 +588,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8765618209_c33d23fb_20260524.png?v=c33d23fb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-586a291019",
-          "name": "Burnley vs Wolves | 22:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-586a291019",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-586a291019",
-                  "name": "Burnley vs Wolves",
-                  "streams": [
-                    {
-                      "id": "st-586a291019",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-783105564c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779550879_hd/1779550879_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Burnley",
-            "team_b": "Wolves",
-            "logo_a": "https://images.keovip88.net/images/teams/burnley.png",
-            "logo_b": "https://images.keovip88.net/images/teams/wolves.png",
-            "time": "22:00:00",
-            "date": "24/05",
-            "blv": "blv-sun",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-586a291019_d36db287_20260524.png?v=d36db287",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c43f5d6b83",
-          "name": "Brighton   Hove Albion vs Manchester United | 22:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c43f5d6b83",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c43f5d6b83",
-                  "name": "Brighton   Hove Albion vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-c43f5d6b83",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dbdcf31139",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779550914_hd/1779550914_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Brighton   Hove Albion",
-            "team_b": "Manchester United",
-            "logo_a": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
-            "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
-            "time": "22:00:00",
-            "date": "24/05",
-            "blv": "fan-mu, bruno-21",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c43f5d6b83_1d1fd6a2_20260524.png?v=1d1fd6a2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bd3b97bfe1",
-          "name": "Manchester City vs Aston Villa | 22:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bd3b97bfe1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bd3b97bfe1",
-                  "name": "Manchester City vs Aston Villa",
-                  "streams": [
-                    {
-                      "id": "st-bd3b97bfe1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1776219ec7",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779550941_hd/1779550941_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Manchester City",
-            "team_b": "Aston Villa",
-            "logo_a": "https://images.keovip88.net/images/teams/manchester-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/aston-villa.png",
-            "time": "22:00:00",
-            "date": "24/05",
-            "blv": "BLV Ben",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bd3b97bfe1_6889fb0f_20260524.png?v=6889fb0f",
             "width": 1600,
             "height": 1200
           }
