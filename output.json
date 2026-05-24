@@ -2405,83 +2405,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4c7e644269",
-          "name": "Benjamin Bonzi  vs Alexander Zverev  | 18:40 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4c7e644269",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4c7e644269",
-                  "name": "Benjamin Bonzi  vs Alexander Zverev ",
-                  "streams": [
-                    {
-                      "id": "st-4c7e644269",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7a38a0b109",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779602867_hd/1779602867_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "The French Open( Roland Garros)",
-            "team_a": "Benjamin Bonzi ",
-            "team_b": "Alexander Zverev ",
-            "logo_a": "https://static.flashscore.com/res/image/data/MX6U7L9r-K21id9SP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
-            "time": "18:40:00",
-            "date": "24/05",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4c7e644269_24298dd0_20260524.png?v=24298dd0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-228e98ba5d",
           "name": "Giovanni Mpetshi Perricard  vs Novak Djokovic | 01:15 25/05",
