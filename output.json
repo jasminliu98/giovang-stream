@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -312,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +364,7 @@
             "time": "01:45:00",
             "date": "25/05",
             "blv": "BLV Dần",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -745,6 +745,78 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-415700c8ad",
+          "name": "Atlanta Dream W vs Phoenix Mercury W | 02:00 25/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-415700c8ad",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-415700c8ad",
+                  "name": "Atlanta Dream W vs Phoenix Mercury W",
+                  "streams": [
+                    {
+                      "id": "st-415700c8ad",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-da5bb8c056",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779647319_hd/1779647319_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Atlanta Dream W",
+            "team_b": "Phoenix Mercury W",
+            "logo_a": "https://static.flashscore.com/res/image/data/GQbbJxxS-I5Zot0RH.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/IZ04YpAr-rPdnEwGr.png",
+            "time": "02:00:00",
+            "date": "25/05",
+            "blv": "blv-leo",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-415700c8ad_2fe5001c_20260525.png?v=2fe5001c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-fcb5e74452",
           "name": "New York Liberty W  vs Dallas Wings W | 02:30 25/05",
