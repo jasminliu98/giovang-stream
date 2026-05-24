@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8a18453694",
-          "name": "Hà Nội vs Thép Xanh Nam Định | 19:15 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a18453694",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8a18453694",
-                  "name": "Hà Nội vs Thép Xanh Nam Định",
-                  "streams": [
-                    {
-                      "id": "st-8a18453694",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5fbf149ba5",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779603908_hd/1779603908_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Hà Nội",
-            "team_b": "Thép Xanh Nam Định",
-            "logo_a": "https://images.keovip88.net/images/teams/hanoi-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/nam-dinh-fc.png",
-            "time": "19:15:00",
-            "date": "24/05",
-            "blv": "blv-can",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8a18453694_bd775af2_20260524.png?v=bd775af2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e667b51c96",
           "name": "Liverpool vs Brentford | 22:00 24/05",
@@ -168,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +148,7 @@
             "time": "22:00:00",
             "date": "24/05",
             "blv": "BLV Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -240,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +220,7 @@
             "time": "22:00:00",
             "date": "24/05",
             "blv": "blv-tri",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -312,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +292,7 @@
             "time": "22:00:00",
             "date": "24/05",
             "blv": "BLV Hợi",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -372,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9569279c12_f9be1450_20260524.png?v=f9be1450",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8765618209",
+          "name": "Crystal Palace vs Arsenal | 22:00 24/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8765618209",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8765618209",
+                  "name": "Crystal Palace vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-8765618209",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f94da367b3",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779551047_hd/1779551047_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Crystal Palace",
+            "team_b": "Arsenal",
+            "logo_a": "https://images.keovip88.net/images/teams/crystal-palace.png",
+            "logo_b": "https://images.keovip88.net/images/teams/arsenal.png",
+            "time": "22:00:00",
+            "date": "24/05",
+            "blv": "fan-ars",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8765618209_c33d23fb_20260524.png?v=c33d23fb",
             "width": 1600,
             "height": 1200
           }
@@ -660,78 +660,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e4449e8f9e_ebebf102_20260524.png?v=ebebf102",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8765618209",
-          "name": "Crystal Palace vs Arsenal | 22:00 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8765618209",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8765618209",
-                  "name": "Crystal Palace vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-8765618209",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f94da367b3",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779551047_hd/1779551047_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Crystal Palace",
-            "team_b": "Arsenal",
-            "logo_a": "https://images.keovip88.net/images/teams/crystal-palace.png",
-            "logo_b": "https://images.keovip88.net/images/teams/arsenal.png",
-            "time": "22:00:00",
-            "date": "24/05",
-            "blv": "fan-ars",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8765618209_c33d23fb_20260524.png?v=c33d23fb",
             "width": 1600,
             "height": 1200
           }
@@ -1748,83 +1676,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4f67ccf4f8",
-          "name": "Saigon Heat  vs Cantho Catfish | 19:30 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4f67ccf4f8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4f67ccf4f8",
-                  "name": "Saigon Heat  vs Cantho Catfish",
-                  "streams": [
-                    {
-                      "id": "st-4f67ccf4f8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b6913b4d28",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779602705_hd/1779602705_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VBA",
-            "team_a": "Saigon Heat ",
-            "team_b": "Cantho Catfish",
-            "logo_a": "https://static.flashscore.com/res/image/data/U3vCf2eM-IHuib93d.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pxwXwLeM-lhzSvQKA.png",
-            "time": "19:30:00",
-            "date": "24/05",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4f67ccf4f8_37412523_20260524.png?v=37412523",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-2112b6cdb2",
           "name": "Joventut Badalona vs San Pablo Burgos | 23:00 24/05",
@@ -2261,83 +2117,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4c7e644269",
-          "name": "Benjamin Bonzi  vs Alexander Zverev  | 18:40 24/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4c7e644269",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4c7e644269",
-                  "name": "Benjamin Bonzi  vs Alexander Zverev ",
-                  "streams": [
-                    {
-                      "id": "st-4c7e644269",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7a38a0b109",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779602867_hd/1779602867_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "The French Open( Roland Garros)",
-            "team_a": "Benjamin Bonzi ",
-            "team_b": "Alexander Zverev ",
-            "logo_a": "https://static.flashscore.com/res/image/data/MX6U7L9r-K21id9SP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
-            "time": "18:40:00",
-            "date": "24/05",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4c7e644269_24298dd0_20260524.png?v=24298dd0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-228e98ba5d",
           "name": "Giovanni Mpetshi Perricard  vs Novak Djokovic | 01:15 25/05",
