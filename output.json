@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-64cf86d66e",
-          "name": "Paderborn  vs Wolfsburg | 01:30 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-64cf86d66e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-64cf86d66e",
-                  "name": "Paderborn  vs Wolfsburg",
-                  "streams": [
-                    {
-                      "id": "st-64cf86d66e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f185a1cc47",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779719084_hd/1779719084_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga Playoff",
-            "team_a": "Paderborn ",
-            "team_b": "Wolfsburg",
-            "logo_a": "https://static.flashscore.com/res/image/data/Yu5IOeyB-Qmnf8wEL.png",
-            "logo_b": "https://images.keovip.cc/images/teams/vfl-wolfsburg.png",
-            "time": "01:30:00",
-            "date": "26/05",
-            "blv": "blv-mat",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-64cf86d66e_7335d242_20260526.png?v=7335d242",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8ee6298215",
           "name": "St. Mirren  vs Partick Thistle | 02:00 26/05",
