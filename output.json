@@ -1046,7 +1046,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1131,10 +1131,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1183,7 +1183,7 @@
             "time": "17:00:00",
             "date": "25/05",
             "blv": "blv-ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
