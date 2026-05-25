@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -384,10 +384,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +436,7 @@
             "time": "02:00:00",
             "date": "26/05",
             "blv": "blv-ngong",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1263,6 +1263,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ae18c39091_fa5e9610_20260526.png?v=fa5e9610",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-c9ec5bad81",
+          "name": "Minh Phát vs Douglas | 18:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9ec5bad81",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c9ec5bad81",
+                  "name": "Minh Phát vs Douglas",
+                  "streams": [
+                    {
+                      "id": "st-c9ec5bad81",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41fc47688b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779730926_hd/1779730926_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Rajadamnern Stadium",
+            "team_a": "Minh Phát",
+            "team_b": "Douglas",
+            "logo_a": "https://file.hstatic.net/200000717719/file/679784465576737_2614010689610199755_n_553336f8a43a44a4ba06d7e33e61c241_1024x1024.jpg",
+            "logo_b": "https://images.tapology.com/letterbox_images/396191/default/dogulas.png?1689944542",
+            "time": "18:00:00",
+            "date": "26/05",
+            "blv": "BLV Dory",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c9ec5bad81_7a808132_20260526.png?v=7a808132",
             "width": 1600,
             "height": 1200
           }
