@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-ae0193c192",
-          "name": "Tromso IL vs Aalesund FK | 22:00 25/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae0193c192",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ae0193c192",
-                  "name": "Tromso IL vs Aalesund FK",
-                  "streams": [
-                    {
-                      "id": "st-ae0193c192",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fc896c406b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779658120_hd/1779658120_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Na Uy",
-            "team_a": "Tromso IL",
-            "team_b": "Aalesund FK",
-            "logo_a": "https://images.keovip88.net/images/teams/tromso-il.png",
-            "logo_b": "https://images.keovip88.net/images/teams/aalesund-fk.png",
-            "time": "22:00:00",
-            "date": "25/05",
-            "blv": "BLV Câm",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ae0193c192_3c860445_20260525.png?v=3c860445",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-0c1ba99149",
           "name": "Lyngby  vs Horsens | 23:00 25/05",
           "type": "single",
@@ -155,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0c1ba99149_071478ae_20260525.png?v=071478ae",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0c1ba99149_071478ae_20260526.png?v=071478ae",
             "width": 1600,
             "height": 1200
           }
@@ -227,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-617aaffd43_821b4997_20260525.png?v=821b4997",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-617aaffd43_821b4997_20260526.png?v=821b4997",
             "width": 1600,
             "height": 1200
           }
@@ -299,7 +227,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d750776a83_7c8cfc22_20260525.png?v=7c8cfc22",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d750776a83_7c8cfc22_20260526.png?v=7c8cfc22",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ef8ec256ec",
+          "name": "Sandefjord vs Fredrikstad | 00:15 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ef8ec256ec",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ef8ec256ec",
+                  "name": "Sandefjord vs Fredrikstad",
+                  "streams": [
+                    {
+                      "id": "st-ef8ec256ec",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ef71da4499",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779718982_hd/1779718982_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Na Uy",
+            "team_a": "Sandefjord",
+            "team_b": "Fredrikstad",
+            "logo_a": "https://images.keovip88.net/images/teams/sandefjord.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fredrikstad.png",
+            "time": "00:15:00",
+            "date": "26/05",
+            "blv": "BLV Câm",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ef8ec256ec_c0e05286_20260526.png?v=c0e05286",
             "width": 1600,
             "height": 1200
           }
@@ -371,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-64cf86d66e_7335d242_20260525.png?v=7335d242",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-64cf86d66e_7335d242_20260526.png?v=7335d242",
             "width": 1600,
             "height": 1200
           }
@@ -443,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8ee6298215_15abf3c0_20260525.png?v=15abf3c0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8ee6298215_15abf3c0_20260526.png?v=15abf3c0",
             "width": 1600,
             "height": 1200
           }
@@ -515,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-363398179e_7d9e7032_20260525.png?v=7d9e7032",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-363398179e_7d9e7032_20260526.png?v=7d9e7032",
             "width": 1600,
             "height": 1200
           }
@@ -596,7 +596,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-91a81d8956_98e0897d_20260525.png?v=98e0897d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-91a81d8956_98e0897d_20260526.png?v=98e0897d",
             "width": 1600,
             "height": 1200
           }
@@ -668,7 +668,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d4480f3390_7b484744_20260525.png?v=7b484744",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d4480f3390_7b484744_20260526.png?v=7b484744",
             "width": 1600,
             "height": 1200
           }
@@ -740,7 +740,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-895e4b044e_9594892a_20260525.png?v=9594892a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-895e4b044e_9594892a_20260526.png?v=9594892a",
             "width": 1600,
             "height": 1200
           }
@@ -821,7 +821,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-319c768320_b7549a68_20260525.png?v=b7549a68",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-319c768320_b7549a68_20260526.png?v=b7549a68",
             "width": 1600,
             "height": 1200
           }
@@ -902,7 +902,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-940054ad84_92078323_20260525.png?v=92078323",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-940054ad84_92078323_20260526.png?v=92078323",
             "width": 1600,
             "height": 1200
           }
