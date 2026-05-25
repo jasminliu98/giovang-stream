@@ -897,6 +897,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-354e71f586",
+          "name": "Adam Walton vs Daniil Medvedev | 16:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-354e71f586",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-354e71f586",
+                  "name": "Adam Walton vs Daniil Medvedev",
+                  "streams": [
+                    {
+                      "id": "st-354e71f586",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-065d6a87f3",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779729190_hd/1779729190_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "The French Open( Roland Garros)",
+            "team_a": "Adam Walton",
+            "team_b": "Daniil Medvedev",
+            "logo_a": "https://static.flashscore.com/res/image/data/23x2KheM-QF4WmU97.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QujxPtf5-6Z1AkBdk.png",
+            "time": "16:00:00",
+            "date": "26/05",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-354e71f586_e3718f49_20260526.png?v=e3718f49",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
