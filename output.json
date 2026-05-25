@@ -1189,6 +1189,87 @@
       ]
     },
     {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-ae18c39091",
+          "name": "Dương Quốc Hoàng vs Mohammed Baabad | 17:00 26/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae18c39091",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ae18c39091",
+                  "name": "Dương Quốc Hoàng vs Mohammed Baabad",
+                  "streams": [
+                    {
+                      "id": "st-ae18c39091",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6a7ce916d8",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779730392_hd/1779730392_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UK Open Pool Championship 2026",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Mohammed Baabad",
+            "logo_a": "https://i.ex-cdn.com/danviet.vn/files/content/2026/02/24/duong-quoc-hoang-1923.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFBMGerc-MI1_PYU9JKiSTu8He3isXy2WeJg&s",
+            "time": "17:00:00",
+            "date": "26/05",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ae18c39091_fa5e9610_20260526.png?v=fa5e9610",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchay",
       "name": "⚾ Bóng Chày",
       "display": "vertical",
