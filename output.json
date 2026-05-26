@@ -519,6 +519,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-8f5365cbb1",
+          "name": "Stallions vs Dynamic Herb Cebu | 14:30 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f5365cbb1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8f5365cbb1",
+                  "name": "Stallions vs Dynamic Herb Cebu",
+                  "streams": [
+                    {
+                      "id": "st-8f5365cbb1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b24274cf66",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779792212_hd/1779792212_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Philippines - PFL",
+            "team_a": "Stallions",
+            "team_b": "Dynamic Herb Cebu",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/5c/Stallion_Laguna_FC_Logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/c/c3/Dynamic_Herb_Cebu_F.C.png",
+            "time": "14:30:00",
+            "date": "27/05",
+            "blv": "blv-tri",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8f5365cbb1_4b790e43_20260526.png?v=4b790e43",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -530,8 +602,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-e1aa4bde53",
-          "name": "Bacolod Masskara vs Batangas City | 17:00 26/05",
+          "id": "gv-7bb4eab689",
+          "name": "Shanghai vs Zhejiang Guangsha | 18:35 26/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -541,150 +613,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1aa4bde53",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e1aa4bde53",
-                  "name": "Bacolod Masskara vs Batangas City",
-                  "streams": [
-                    {
-                      "id": "st-e1aa4bde53",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7a1ac95b41",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779729326_hd/1779729326_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MBPL",
-            "team_a": "Bacolod Masskara",
-            "team_b": "Batangas City",
-            "logo_a": "https://static.flashscore.com/res/image/data/OpyGG0g5-n3r25xjS.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Yyn8F3Br-lzqHzTXq.png",
-            "time": "17:00:00",
-            "date": "26/05",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e1aa4bde53_6e36f47f_20260526.png?v=6e36f47f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e074a03aa2",
-          "name": "Formosa Dreamers vs New Taipei Kings | 18:00 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e074a03aa2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e074a03aa2",
-                  "name": "Formosa Dreamers vs New Taipei Kings",
-                  "streams": [
-                    {
-                      "id": "st-e074a03aa2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0ed33c289",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779729812_hd/1779729812_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TPBL",
-            "team_a": "Formosa Dreamers",
-            "team_b": "New Taipei Kings",
-            "logo_a": "https://static.flashscore.com/res/image/data/hAlpplhl-K6736oKT.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pEI6lAxS-tG8a7R4N.png",
-            "time": "18:00:00",
-            "date": "26/05",
-            "blv": "BLV Ben",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e074a03aa2_dd289933_20260526.png?v=dd289933",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-7bb4eab689",
-          "name": "Shanghai vs Zhejiang Guangsha | 18:35 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -733,7 +661,7 @@
             "time": "18:35:00",
             "date": "26/05",
             "blv": "blv-leo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -741,6 +669,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7bb4eab689_b920c9c9_20260526.png?v=b920c9c9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1f16c57a17",
+          "name": "Thunder vs Spurs | 07:30 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1f16c57a17",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1f16c57a17",
+                  "name": "Thunder vs Spurs",
+                  "streams": [
+                    {
+                      "id": "st-1f16c57a17",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-52abffe14e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779792375_hd/1779792375_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Thunder",
+            "team_b": "Spurs",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Oklahoma_City_Thunder.svg/1280px-Oklahoma_City_Thunder.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a2/San_Antonio_Spurs.svg",
+            "time": "07:30:00",
+            "date": "27/05",
+            "blv": "blv-lac, blv-leo",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1f16c57a17_ab879e6c_20260526.png?v=ab879e6c",
             "width": 1600,
             "height": 1200
           }
@@ -827,8 +827,8 @@
           }
         },
         {
-          "id": "gv-d6edfed512",
-          "name": "Aryna Sabalenka vs Jessica Bouzas Maneiro | 17:00 26/05",
+          "id": "gv-8f7df97fb3",
+          "name": "Stefanos Tsitsipas vs Alexandre Muller | 18:30 26/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -838,78 +838,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d6edfed512",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d6edfed512",
-                  "name": "Aryna Sabalenka vs Jessica Bouzas Maneiro",
-                  "streams": [
-                    {
-                      "id": "st-d6edfed512",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b22d7889ef",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779729477_hd/1779729477_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Roland Garros",
-            "team_a": "Aryna Sabalenka",
-            "team_b": "Jessica Bouzas Maneiro",
-            "logo_a": "https://static.flashscore.com/res/image/data/xhwEtyEa-I9HZAz1R.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/v70Q0oil-b9r7y6DB.png",
-            "time": "17:00:00",
-            "date": "26/05",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d6edfed512_bb1ef488_20260526.png?v=bb1ef488",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8f7df97fb3",
-          "name": "Stefanos Tsitsipas vs Alexandre Muller | 18:30 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -958,7 +886,7 @@
             "time": "18:30:00",
             "date": "26/05",
             "blv": "blv-sun",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -1198,87 +1126,6 @@
       ]
     },
     {
-      "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-c9ec5bad81",
-          "name": "Minh Phát vs Douglas | 18:00 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c9ec5bad81",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c9ec5bad81",
-                  "name": "Minh Phát vs Douglas",
-                  "streams": [
-                    {
-                      "id": "st-c9ec5bad81",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41fc47688b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779730926_hd/1779730926_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Rajadamnern Stadium",
-            "team_a": "Minh Phát",
-            "team_b": "Douglas",
-            "logo_a": "https://file.hstatic.net/200000717719/file/679784465576737_2614010689610199755_n_553336f8a43a44a4ba06d7e33e61c241_1024x1024.jpg",
-            "logo_b": "https://images.tapology.com/letterbox_images/396191/default/dogulas.png?1689944542",
-            "time": "18:00:00",
-            "date": "26/05",
-            "blv": "BLV Dory",
-            "is_live": false,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c9ec5bad81_7a808132_20260526.png?v=7a808132",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_bongchay",
       "name": "⚾ Bóng Chày",
       "display": "vertical",
@@ -1353,6 +1200,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d21ae02025_6b0c69b4_20260526.png?v=6b0c69b4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6cde76eddc",
+          "name": "San Diego Padres vs Philadelphia Phillies | 08:40 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6cde76eddc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6cde76eddc",
+                  "name": "San Diego Padres vs Philadelphia Phillies",
+                  "streams": [
+                    {
+                      "id": "st-6cde76eddc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f44bc0b5e7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779792468_hd/1779792468_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "San Diego Padres",
+            "team_b": "Philadelphia Phillies",
+            "logo_a": "https://i.ebayimg.com/images/g/JXMAAOSw~xVgV3sK/s-l1200.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Philadelphia_Phillies_Insignia.svg",
+            "time": "08:40:00",
+            "date": "27/05",
+            "blv": "blv-ngu",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6cde76eddc_98f5c75b_20260526.png?v=98f5c75b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d18558656a",
+          "name": "Los Angeles Dodgers vs Colorado Rockies | 09:10 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d18558656a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d18558656a",
+                  "name": "Los Angeles Dodgers vs Colorado Rockies",
+                  "streams": [
+                    {
+                      "id": "st-d18558656a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-55f00f6d53",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779792556_hd/1779792556_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Los Angeles Dodgers",
+            "team_b": "Colorado Rockies",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2RSur37-7O5wdaxQd4sktQBex2NuqrUaLg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGtnRp-xR-XLimLYIcII_FUCBHvQC1nLYJtQ&s",
+            "time": "09:10:00",
+            "date": "27/05",
+            "blv": "blv-can",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d18558656a_f34d5d4b_20260526.png?v=f34d5d4b",
             "width": 1600,
             "height": 1200
           }
