@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-c694d274b4",
-          "name": "Inter Turku vs EBK | 22:30 26/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c694d274b4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c694d274b4",
-                  "name": "Inter Turku vs EBK",
-                  "streams": [
-                    {
-                      "id": "st-c694d274b4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0a19f91d8f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779732181_hd/1779732181_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Phần Lan",
-            "team_a": "Inter Turku",
-            "team_b": "EBK",
-            "logo_a": "https://static.flashscore.com/res/image/data/25XF6X9r-xpBmN8u1.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xjdSUIyB-f70xif8j.png",
-            "time": "22:30:00",
-            "date": "26/05",
-            "blv": "blv-leo",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c694d274b4_77e63c36_20260526.png?v=77e63c36",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-aaf2fed65f",
           "name": "BFC Daugavpils  vs Auda | 23:00 26/05",
           "type": "single",
@@ -155,7 +83,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-aaf2fed65f_6cc7d999_20260526.png?v=6cc7d999",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-aaf2fed65f_6cc7d999_20260527.png?v=6cc7d999",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8195235f6f",
+          "name": "FC Badalona W  vs Real Madrid W | 00:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8195235f6f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8195235f6f",
+                  "name": "FC Badalona W  vs Real Madrid W",
+                  "streams": [
+                    {
+                      "id": "st-8195235f6f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a564c2a664",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779787803_hd/1779787803_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spain - Liga F Moeve",
+            "team_a": "FC Badalona W ",
+            "team_b": "Real Madrid W",
+            "logo_a": "https://static.flashscore.com/res/image/data/6uZBgTkl-vVOQ2hDt.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/SAFvjqe5-WpmKUEXD.png",
+            "time": "00:00:00",
+            "date": "27/05",
+            "blv": "blv-ngong",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8195235f6f_8db6eb67_20260527.png?v=8db6eb67",
             "width": 1600,
             "height": 1200
           }
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-470889135b_c7a19fb2_20260526.png?v=c7a19fb2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-470889135b_c7a19fb2_20260527.png?v=c7a19fb2",
             "width": 1600,
             "height": 1200
           }
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7cdfc6bbcc_49542fec_20260526.png?v=49542fec",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7cdfc6bbcc_49542fec_20260527.png?v=49542fec",
             "width": 1600,
             "height": 1200
           }
@@ -371,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8663f31205_b8f1c09c_20260526.png?v=b8f1c09c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8663f31205_b8f1c09c_20260527.png?v=b8f1c09c",
             "width": 1600,
             "height": 1200
           }
@@ -443,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8f5365cbb1_4b790e43_20260526.png?v=4b790e43",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8f5365cbb1_4b790e43_20260527.png?v=4b790e43",
             "width": 1600,
             "height": 1200
           }
@@ -524,7 +524,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1f16c57a17_ab879e6c_20260526.png?v=ab879e6c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1f16c57a17_ab879e6c_20260527.png?v=ab879e6c",
             "width": 1600,
             "height": 1200
           }
@@ -533,11 +533,83 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-7012201e93",
+          "name": "Mkobo V  vs Bartunkova N | 00:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7012201e93",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7012201e93",
+                  "name": "Mkobo V  vs Bartunkova N",
+                  "streams": [
+                    {
+                      "id": "st-7012201e93",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f4331645b2",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779813627_hd/1779813627_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Open, clay - 1/64-finals",
+            "team_a": "Mkobo V ",
+            "team_b": "Bartunkova N",
+            "logo_a": "https://static.flashscore.com/res/image/data/hMQb5nWg-fPXtvMaL.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/U1bZs9e5-SUaUoUDh.png",
+            "time": "00:00:00",
+            "date": "27/05",
+            "blv": "BLV Điếc",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7012201e93_57cdb916_20260527.png?v=57cdb916",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-bbf14630ca",
           "name": "Jannik Sinner  vs Clement Tabur | 01:45 27/05",
@@ -605,7 +677,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bbf14630ca_cf4dfc79_20260526.png?v=cf4dfc79",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bbf14630ca_cf4dfc79_20260527.png?v=cf4dfc79",
             "width": 1600,
             "height": 1200
           }
@@ -686,7 +758,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d21ae02025_6b0c69b4_20260526.png?v=6b0c69b4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d21ae02025_6b0c69b4_20260527.png?v=6b0c69b4",
             "width": 1600,
             "height": 1200
           }
@@ -758,7 +830,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6cde76eddc_98f5c75b_20260526.png?v=98f5c75b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6cde76eddc_98f5c75b_20260527.png?v=98f5c75b",
             "width": 1600,
             "height": 1200
           }
@@ -830,7 +902,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d18558656a_f34d5d4b_20260526.png?v=f34d5d4b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d18558656a_f34d5d4b_20260527.png?v=f34d5d4b",
             "width": 1600,
             "height": 1200
           }
