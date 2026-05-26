@@ -524,7 +524,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -609,10 +609,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -661,7 +661,7 @@
             "time": "17:00:00",
             "date": "26/05",
             "blv": "BLV Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -821,7 +821,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -906,10 +906,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -958,7 +958,7 @@
             "time": "17:00:00",
             "date": "26/05",
             "blv": "blv-sun",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -1113,49 +1113,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-1e292d1de9",
-          "name": "Dplus Kia vs Hanwha Life | 14:00 26/05",
+          "id": "gv-bbf14630ca",
+          "name": "Jannik Sinner  vs Clement Tabur | 01:45 27/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-1e292d1de9",
+              "id": "src-bbf14630ca",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-1e292d1de9",
-                  "name": "Dplus Kia vs Hanwha Life",
+                  "id": "ct-bbf14630ca",
+                  "name": "Jannik Sinner  vs Clement Tabur",
                   "streams": [
                     {
-                      "id": "st-1e292d1de9",
+                      "id": "st-bbf14630ca",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-a45b2d9960",
+                          "id": "lnk-ce01a82a03",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779762263_hd/1779762263_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779788111_hd/1779788111_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1175,26 +1166,35 @@
             }
           ],
           "org_metadata": {
-            "league": "EWC",
-            "team_a": "Dplus Kia",
-            "team_b": "Hanwha Life",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS2cDmw2p-cgNmiyfPtGjelcYJR4vbfABR-A&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/e0/HLE_logo.png",
-            "time": "14:00:00",
-            "date": "26/05",
-            "blv": "blv-can",
-            "is_live": true,
-            "cate_type": "esport"
+            "league": "The French Open( Roland Garros)",
+            "team_a": "Jannik Sinner ",
+            "team_b": "Clement Tabur",
+            "logo_a": "https://static.flashscore.com/res/image/data/zsxlv1jl-QFjXkoKn.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tlOt7UCr-hhmDzIFI.png",
+            "time": "01:45:00",
+            "date": "27/05",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "tennis"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1e292d1de9_21b79988_20260526.png?v=21b79988",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bbf14630ca_cf4dfc79_20260526.png?v=cf4dfc79",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-ae18c39091",
           "name": "Dương Quốc Hoàng vs Mohammed Baabad | 17:00 26/05",
@@ -1203,10 +1203,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1255,7 +1255,7 @@
             "time": "17:00:00",
             "date": "26/05",
             "blv": "BLV Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -1344,6 +1344,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c9ec5bad81_7a808132_20260526.png?v=7a808132",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-d21ae02025",
+          "name": "Kansas City Royals  vs New York Yankees | 06:40 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d21ae02025",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d21ae02025",
+                  "name": "Kansas City Royals  vs New York Yankees",
+                  "streams": [
+                    {
+                      "id": "st-d21ae02025",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a3d1fb8f3",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779788171_hd/1779788171_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Kansas City Royals ",
+            "team_b": "New York Yankees",
+            "logo_a": "https://static.flashscore.com/res/image/data/dWjjpIxS-tfZkBZ4t.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
+            "time": "06:40:00",
+            "date": "27/05",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d21ae02025_6b0c69b4_20260526.png?v=6b0c69b4",
             "width": 1600,
             "height": 1200
           }
