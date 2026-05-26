@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8195235f6f_8db6eb67_20260527.png?v=8db6eb67",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-470889135b",
-          "name": "Nigeria vs Zimbabwe | 01:30 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-470889135b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-470889135b",
-                  "name": "Nigeria vs Zimbabwe",
-                  "streams": [
-                    {
-                      "id": "st-470889135b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4eb680e54d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779787844_hd/1779787844_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Nigeria",
-            "team_b": "Zimbabwe",
-            "logo_a": "https://images.keovip88.net/images/teams/nigeria.png",
-            "logo_b": "https://images.keovip88.net/images/teams/zimbabwe.png",
-            "time": "01:30:00",
-            "date": "27/05",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-470889135b_c7a19fb2_20260527.png?v=c7a19fb2",
             "width": 1600,
             "height": 1200
           }
@@ -606,6 +534,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bbf14630ca_cf4dfc79_20260527.png?v=cf4dfc79",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-5c6418772d",
+          "name": "HOÀNG SAO vs Brabin | 01:45 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5c6418772d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5c6418772d",
+                  "name": "HOÀNG SAO vs Brabin",
+                  "streams": [
+                    {
+                      "id": "st-5c6418772d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6b74496d0c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779821226_hd/1779821226_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UK OPEN 2026",
+            "team_a": "HOÀNG SAO",
+            "team_b": "Brabin",
+            "logo_a": "https://images2.thanhnien.vn/528068263637045248/2024/10/16/4637536409456984975897535921508129631889017n-1729099904130486080454.jpg",
+            "logo_b": "https://matchroompool.com/wp-content/uploads/UK-OPEN-2026_1920x1080-3.jpg",
+            "time": "01:45:00",
+            "date": "27/05",
+            "blv": "BLV Mason",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5c6418772d_5e2179fe_20260527.png?v=5e2179fe",
             "width": 1600,
             "height": 1200
           }
