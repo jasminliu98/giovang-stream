@@ -89,6 +89,78 @@
           }
         },
         {
+          "id": "gv-30f343f97a",
+          "name": "Buriram United vs Selangor PB | 19:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-30f343f97a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-30f343f97a",
+                  "name": "Buriram United vs Selangor PB",
+                  "streams": [
+                    {
+                      "id": "st-30f343f97a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5f5bf44323",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779850697_hd/1779850697_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Club Championship",
+            "team_a": "Buriram United",
+            "team_b": "Selangor PB",
+            "logo_a": "https://images.keovip88.net/images/teams/buriram-united.png",
+            "logo_b": "https://images.keovip88.net/images/teams/selangor.png",
+            "time": "19:00:00",
+            "date": "27/05",
+            "blv": "blv-mat",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-30f343f97a_5179fb37_20260527.png?v=5179fb37",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-0e7fd049e7",
           "name": "Barcelona W  vs Sociedad W | 23:59 27/05",
           "type": "single",
@@ -462,6 +534,159 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-84b3e105e3_8c10766b_20260527.png?v=8c10766b",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-6f8bf75418",
+          "name": "GEN G vs HLE | 15:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f8bf75418",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6f8bf75418",
+                  "name": "GEN G vs HLE",
+                  "streams": [
+                    {
+                      "id": "st-6f8bf75418",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2970577867",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779850528_hd/1779850528_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "GEN G",
+            "team_b": "HLE",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/7/77/Gen.G_Logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/e0/HLE_logo.png",
+            "time": "15:00:00",
+            "date": "27/05",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6f8bf75418_9fc97cea_20260527.png?v=9fc97cea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4634d5836c",
+          "name": "BFX vs DRX | 17:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4634d5836c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4634d5836c",
+                  "name": "BFX vs DRX",
+                  "streams": [
+                    {
+                      "id": "st-4634d5836c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6eff3a54ea",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779850619_hd/1779850619_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "BFX",
+            "team_b": "DRX",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAgyOLTKfdcm4CT7wcNP4MlfE1afamu5PRPA&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOBqCRyFXOlvk3gxgR1JFq6jPWs0n4wghq4IduUduJtw&s",
+            "time": "17:00:00",
+            "date": "27/05",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4634d5836c_57943d86_20260527.png?v=57943d86",
             "width": 1600,
             "height": 1200
           }
