@@ -308,83 +308,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1f16c57a17",
-          "name": "Thunder vs Spurs | 07:30 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1f16c57a17",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1f16c57a17",
-                  "name": "Thunder vs Spurs",
-                  "streams": [
-                    {
-                      "id": "st-1f16c57a17",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5d40ac2a92",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779792381_hd/1779792381_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "Thunder",
-            "team_b": "Spurs",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Oklahoma_City_Thunder.svg/1280px-Oklahoma_City_Thunder.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/a/a2/San_Antonio_Spurs.svg",
-            "time": "07:30:00",
-            "date": "27/05",
-            "blv": "blv-leo, blv-lac",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1f16c57a17_ab879e6c_20260527.png?v=ab879e6c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-76a884f990",
           "name": "New York Liberty W  vs Phoenix Mercury W | 06:00 28/05",
@@ -822,6 +750,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-70289eef27_d6990b5e_20260527.png?v=d6990b5e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-18b9c0554d",
+          "name": "Valentin Royer vs Novak Djokovic | 20:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-18b9c0554d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-18b9c0554d",
+                  "name": "Valentin Royer vs Novak Djokovic",
+                  "streams": [
+                    {
+                      "id": "st-18b9c0554d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e2dc9c047",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779852239_hd/1779852239_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "The French Open",
+            "team_a": "Valentin Royer",
+            "team_b": "Novak Djokovic",
+            "logo_a": "https://static.flashscore.com/res/image/data/Msjgdvil-WtHWEPrD.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tSfwGCdM-MJZajegG.png",
+            "time": "20:00:00",
+            "date": "27/05",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-18b9c0554d_8f211dfa_20260527.png?v=8f211dfa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4a67891709",
+          "name": "Mirra Andreeva vs Marina Bassols | 21:30 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4a67891709",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4a67891709",
+                  "name": "Mirra Andreeva vs Marina Bassols",
+                  "streams": [
+                    {
+                      "id": "st-4a67891709",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c657a253a9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779852379_hd/1779852379_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "The French Open",
+            "team_a": "Mirra Andreeva",
+            "team_b": "Marina Bassols",
+            "logo_a": "https://static.flashscore.com/res/image/data/ncDnFmzB-xE40e4KN.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/CtUv39YA-xGTsWbPu.png",
+            "time": "21:30:00",
+            "date": "27/05",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4a67891709_cd05be97_20260527.png?v=cd05be97",
             "width": 1600,
             "height": 1200
           }
