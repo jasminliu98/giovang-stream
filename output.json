@@ -1406,14 +1406,14 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (3 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-6f8bf75418",
-          "name": "GEN G vs HLE | 15:00 27/05",
+          "id": "gv-4634d5836c",
+          "name": "BFX vs DRX | 17:00 27/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1427,23 +1427,23 @@
           ],
           "sources": [
             {
-              "id": "src-6f8bf75418",
+              "id": "src-4634d5836c",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-6f8bf75418",
-                  "name": "GEN G vs HLE",
+                  "id": "ct-4634d5836c",
+                  "name": "BFX vs DRX",
                   "streams": [
                     {
-                      "id": "st-6f8bf75418",
+                      "id": "st-4634d5836c",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-2970577867",
+                          "id": "lnk-6eff3a54ea",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779850528_hd/1779850528_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779850619_hd/1779850619_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1464,11 +1464,11 @@
           ],
           "org_metadata": {
             "league": "LCK",
-            "team_a": "GEN G",
-            "team_b": "HLE",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/7/77/Gen.G_Logo.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/e0/HLE_logo.png",
-            "time": "15:00:00",
+            "team_a": "BFX",
+            "team_b": "DRX",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAgyOLTKfdcm4CT7wcNP4MlfE1afamu5PRPA&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOBqCRyFXOlvk3gxgR1JFq6jPWs0n4wghq4IduUduJtw&s",
+            "time": "17:00:00",
             "date": "27/05",
             "blv": "BLV Tôm",
             "is_live": true,
@@ -1478,7 +1478,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6f8bf75418_9fc97cea_20260527.png?v=9fc97cea",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4634d5836c_57943d86_20260527.png?v=57943d86",
             "width": 1600,
             "height": 1200
           }
@@ -1551,78 +1551,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7c580dc617_3233057d_20260527.png?v=3233057d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-4634d5836c",
-          "name": "BFX vs DRX | 17:00 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4634d5836c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4634d5836c",
-                  "name": "BFX vs DRX",
-                  "streams": [
-                    {
-                      "id": "st-4634d5836c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6eff3a54ea",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779850619_hd/1779850619_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "BFX",
-            "team_b": "DRX",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAgyOLTKfdcm4CT7wcNP4MlfE1afamu5PRPA&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOBqCRyFXOlvk3gxgR1JFq6jPWs0n4wghq4IduUduJtw&s",
-            "time": "17:00:00",
-            "date": "27/05",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4634d5836c_57943d86_20260527.png?v=57943d86",
             "width": 1600,
             "height": 1200
           }
