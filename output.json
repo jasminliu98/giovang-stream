@@ -1556,78 +1556,6 @@
           }
         },
         {
-          "id": "gv-4634d5836c",
-          "name": "BFX vs DRX | 17:00 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4634d5836c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4634d5836c",
-                  "name": "BFX vs DRX",
-                  "streams": [
-                    {
-                      "id": "st-4634d5836c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6eff3a54ea",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779850619_hd/1779850619_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "BFX",
-            "team_b": "DRX",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAgyOLTKfdcm4CT7wcNP4MlfE1afamu5PRPA&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOBqCRyFXOlvk3gxgR1JFq6jPWs0n4wghq4IduUduJtw&s",
-            "time": "17:00:00",
-            "date": "27/05",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4634d5836c_57943d86_20260527.png?v=57943d86",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-7c580dc617",
           "name": "Jokubas Silantjevas vs Moritz Neuhausen | 17:00 27/05",
           "type": "single",
@@ -1695,6 +1623,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7c580dc617_3233057d_20260527.png?v=3233057d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4634d5836c",
+          "name": "BFX vs DRX | 17:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4634d5836c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4634d5836c",
+                  "name": "BFX vs DRX",
+                  "streams": [
+                    {
+                      "id": "st-4634d5836c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6eff3a54ea",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779850619_hd/1779850619_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "BFX",
+            "team_b": "DRX",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAgyOLTKfdcm4CT7wcNP4MlfE1afamu5PRPA&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOBqCRyFXOlvk3gxgR1JFq6jPWs0n4wghq4IduUduJtw&s",
+            "time": "17:00:00",
+            "date": "27/05",
+            "blv": "BLV Tôm",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4634d5836c_57943d86_20260527.png?v=57943d86",
             "width": 1600,
             "height": 1200
           }
