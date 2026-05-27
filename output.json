@@ -485,11 +485,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-3c764ab211",
+                          "id": "lnk-04ee5c5511",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779867287_hd/1779867287_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779868478_hd/1779868478_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -516,7 +516,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/hWf7PfGG-67i7cfzM.png",
             "time": "16:15:00",
             "date": "27/05",
-            "blv": "BLV Điếc",
+            "blv": "BLV Cầy",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -557,11 +557,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-e5d15c14b1",
+                          "id": "lnk-d645391376",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779867307_hd/1779867307_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779868525_hd/1779868525_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1407,6 +1407,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4634d5836c_57943d86_20260527.png?v=57943d86",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7c580dc617",
+          "name": "Jokubas Silantjevas vs Moritz Neuhausen | 17:00 27/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7c580dc617",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7c580dc617",
+                  "name": "Jokubas Silantjevas vs Moritz Neuhausen",
+                  "streams": [
+                    {
+                      "id": "st-7c580dc617",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9c36f44ae7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779868124_hd/1779868124_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uk Open Pool Championship 2026",
+            "team_a": "Jokubas Silantjevas",
+            "team_b": "Moritz Neuhausen",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuyB14ZsH592KfV6bIyD3e7lJXEX9nhaGNuA&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPemXBUof8NgyhRlOlcwZt-UDU9fjBZIk08A&s",
+            "time": "17:00:00",
+            "date": "27/05",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7c580dc617_3233057d_20260527.png?v=3233057d",
             "width": 1600,
             "height": 1200
           }
