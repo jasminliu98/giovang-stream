@@ -533,7 +533,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -606,78 +606,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-18b9c0554d_8f211dfa_20260527.png?v=8f211dfa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-4a67891709",
-          "name": "Mirra Andreeva vs Marina Bassols | 21:30 27/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4a67891709",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4a67891709",
-                  "name": "Mirra Andreeva vs Marina Bassols",
-                  "streams": [
-                    {
-                      "id": "st-4a67891709",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c657a253a9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779852379_hd/1779852379_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "The French Open",
-            "team_a": "Mirra Andreeva",
-            "team_b": "Marina Bassols",
-            "logo_a": "https://static.flashscore.com/res/image/data/ncDnFmzB-xE40e4KN.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/CtUv39YA-xGTsWbPu.png",
-            "time": "21:30:00",
-            "date": "27/05",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4a67891709_cd05be97_20260527.png?v=cd05be97",
             "width": 1600,
             "height": 1200
           }
