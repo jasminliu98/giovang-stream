@@ -307,45 +307,45 @@
       ]
     },
     {
-      "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-4dc6c5590f",
-          "name": "Aryna Sabalenka  vs Elsa Jacquemot | 23:00 28/05",
+          "id": "gv-5eb95fd125",
+          "name": "Dallas Wings W vs Las Vegas Aces W | 07:00 29/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-4dc6c5590f",
+              "id": "src-5eb95fd125",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-4dc6c5590f",
-                  "name": "Aryna Sabalenka  vs Elsa Jacquemot",
+                  "id": "ct-5eb95fd125",
+                  "name": "Dallas Wings W vs Las Vegas Aces W",
                   "streams": [
                     {
-                      "id": "st-4dc6c5590f",
+                      "id": "st-5eb95fd125",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-0d595a2e5c",
+                          "id": "lnk-74108e42bc",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779983383_hd/1779983383_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779990541_hd/1779990541_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -365,22 +365,22 @@
             }
           ],
           "org_metadata": {
-            "league": "WTA Roland Garros",
-            "team_a": "Aryna Sabalenka ",
-            "team_b": "Elsa Jacquemot",
-            "logo_a": "https://static.flashscore.com/res/image/data/xhwEtyEa-I9HZAz1R.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/fJ0wnnhl-vseebB7S.png",
-            "time": "23:00:00",
-            "date": "28/05",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "tennis"
+            "league": "WNBA",
+            "team_a": "Dallas Wings W",
+            "team_b": "Las Vegas Aces W",
+            "logo_a": "https://static.flashscore.com/res/image/data/APCDxNCr-rDAmagRK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/6mT2sfg5-6gCoMGdb.png",
+            "time": "07:00:00",
+            "date": "29/05",
+            "blv": "blv-leo",
+            "is_live": false,
+            "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4dc6c5590f_8ac89924_20260529.png?v=8ac89924",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5eb95fd125_717c2fb1_20260529.png?v=717c2fb1",
             "width": 1600,
             "height": 1200
           }
