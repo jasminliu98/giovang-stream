@@ -398,83 +398,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f3c518f119",
-          "name": "Kansas City Royals vs  New York Yankees | 06:40 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f3c518f119",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f3c518f119",
-                  "name": "Kansas City Royals vs  New York Yankees",
-                  "streams": [
-                    {
-                      "id": "st-f3c518f119",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fe3a037534",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779845858_hd/1779845858_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MBL",
-            "team_a": "Kansas City Royals",
-            "team_b": " New York Yankees",
-            "logo_a": "https://static.flashscore.com/res/image/data/dWjjpIxS-tfZkBZ4t.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
-            "time": "06:40:00",
-            "date": "28/05",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f3c518f119_6b0c69b4_20260528.png?v=6b0c69b4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-85927746bd",
           "name": "Los Angeles Dodgers vs Colorado Rockies | 09:10 28/05",
