@@ -533,7 +533,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -606,6 +606,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bf23589fd3_4dcd033a_20260528.png?v=4dcd033a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f3fafc9775",
+          "name": "Ann Li vs Diane Parry | 19:00 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f3fafc9775",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f3fafc9775",
+                  "name": "Ann Li vs Diane Parry",
+                  "streams": [
+                    {
+                      "id": "st-f3fafc9775",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e53bab1fdb",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779972428_hd/1779972428_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Roland Garros",
+            "team_a": "Ann Li",
+            "team_b": "Diane Parry",
+            "logo_a": "https://static.flashscore.com/res/image/data/llUgNVZA-f1sNjIYC.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/2gugENZA-QV8fH61E.png",
+            "time": "19:00:00",
+            "date": "28/05",
+            "blv": "blv-sun",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f3fafc9775_cda2e316_20260528.png?v=cda2e316",
             "width": 1600,
             "height": 1200
           }
@@ -686,83 +758,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-355f63f57a",
-          "name": "KT Rolster vs T1 | 17:00 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-355f63f57a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-355f63f57a",
-                  "name": "KT Rolster vs T1",
-                  "streams": [
-                    {
-                      "id": "st-355f63f57a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2280d17393",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779951467_hd/1779951467_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "KT Rolster",
-            "team_b": "T1",
-            "logo_a": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
-            "time": "17:00:00",
-            "date": "28/05",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-355f63f57a_91075b99_20260528.png?v=91075b99",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-01ca7d79ae",
           "name": "Dương Quốc Hoàng vs Salvador Garcia | 18:00 28/05",
