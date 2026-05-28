@@ -533,11 +533,83 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-bf23589fd3",
+          "name": "Jannik Sinner vs Juan Manuel Cerundolo | 17:00 28/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bf23589fd3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bf23589fd3",
+                  "name": "Jannik Sinner vs Juan Manuel Cerundolo",
+                  "streams": [
+                    {
+                      "id": "st-bf23589fd3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e47cc9ee35",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779960837_hd/1779960837_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "The French Open( Roland Garros)",
+            "team_a": "Jannik Sinner",
+            "team_b": "Juan Manuel Cerundolo",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Jannik_Sinner_US_Open_2025_%28cropped%29.jpg/250px-Jannik_Sinner_US_Open_2025_%28cropped%29.jpg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIggZhl9Nnbk6H5VCur_5XkuCuS8vVC9kBcA&s",
+            "time": "17:00:00",
+            "date": "28/05",
+            "blv": "blv-sun",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bf23589fd3_4dcd033a_20260528.png?v=4dcd033a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-5cc20ecceb",
           "name": "Aryna Sabalenka vs Elsa Jacquemot | 20:30 28/05",
