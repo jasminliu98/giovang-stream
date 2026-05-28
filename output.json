@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f4cd71812c",
-          "name": "U17 Estonia vs Croatia U17 | 23:00 28/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f4cd71812c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f4cd71812c",
-                  "name": "U17 Estonia vs Croatia U17",
-                  "streams": [
-                    {
-                      "id": "st-f4cd71812c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11eedee406",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779945068_hd/1779945068_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Euro U17",
-            "team_a": "U17 Estonia",
-            "team_b": "Croatia U17",
-            "logo_a": "https://images.keovip88.net/images/teams/estonia-u17.png",
-            "logo_b": "https://images.keovip88.net/images/teams/croatia-u17.png",
-            "time": "23:00:00",
-            "date": "28/05",
-            "blv": "BLV Dần",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f4cd71812c_b9e17a1e_20260529.png?v=b9e17a1e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-90ebcbd10d",
           "name": "Egypt U17 vs Tanzania U17 | 23:00 28/05",
@@ -381,6 +309,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5eb95fd125_717c2fb1_20260529.png?v=717c2fb1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-28f5c358f7",
+          "name": "Spurs vs Thunder | 07:30 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-28f5c358f7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-28f5c358f7",
+                  "name": "Spurs vs Thunder",
+                  "streams": [
+                    {
+                      "id": "st-28f5c358f7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9b55b87df7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1779990877_hd/1779990877_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "Spurs",
+            "team_b": "Thunder",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/ec/San_Antonio_Spurs_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Oklahoma_City_Thunder.svg/1280px-Oklahoma_City_Thunder.svg.png",
+            "time": "07:30:00",
+            "date": "29/05",
+            "blv": "blv-lac, blv-can",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-28f5c358f7_54673342_20260529.png?v=54673342",
             "width": 1600,
             "height": 1200
           }
