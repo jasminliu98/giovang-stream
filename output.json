@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-7a62c77227",
-          "name": "Liaoning Tieren vs Shanghai Port | 18:35 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7a62c77227",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7a62c77227",
-                  "name": "Liaoning Tieren vs Shanghai Port",
-                  "streams": [
-                    {
-                      "id": "st-7a62c77227",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f7edb85556",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780022692_hd/1780022692_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Trung Quốc",
-            "team_a": "Liaoning Tieren",
-            "team_b": "Shanghai Port",
-            "logo_a": "https://images.keovip88.net/images/teams/liaoning-tieren.png",
-            "logo_b": "https://images.keovip88.net/images/teams/shanghai-port.png",
-            "time": "18:35:00",
-            "date": "29/05",
-            "blv": "blv-bon",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7a62c77227_c0ae7264_20260529.png?v=c0ae7264",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e76f03f9e6",
           "name": "Mexico U17 vs Anh U17 | 22:00 29/05",
