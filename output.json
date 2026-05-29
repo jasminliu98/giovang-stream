@@ -1262,83 +1262,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-7b7ef47c7e",
-          "name": "GEN.G vs BRO | 17:00 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7b7ef47c7e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7b7ef47c7e",
-                  "name": "GEN.G vs BRO",
-                  "streams": [
-                    {
-                      "id": "st-7b7ef47c7e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-003e600735",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780022462_hd/1780022462_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "GEN.G",
-            "team_b": "BRO",
-            "logo_a": "https://static.flashscore.com/res/image/data/rglkqMzB-UJqSxlpo.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/dWdjTlyS-tSnxXc8U.png",
-            "time": "17:00:00",
-            "date": "29/05",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7b7ef47c7e_18b2b90d_20260529.png?v=18b2b90d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8b2e799f45",
           "name": "Maks Bento vs Duong Quoc Hoang | 19:45 29/05",
