@@ -1550,83 +1550,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-cc189c7e99",
-          "name": "Dplus Kia vs DRX | 15:00 29/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cc189c7e99",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cc189c7e99",
-                  "name": "Dplus Kia vs DRX",
-                  "streams": [
-                    {
-                      "id": "st-cc189c7e99",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-43f45cf1b4",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780022053_hd/1780022053_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "Dplus Kia",
-            "team_b": "DRX",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Logo_DPlus_KIA.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOBqCRyFXOlvk3gxgR1JFq6jPWs0n4wghq4IduUduJtw&s",
-            "time": "15:00:00",
-            "date": "29/05",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cc189c7e99_adab95c1_20260529.png?v=adab95c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7b7ef47c7e",
           "name": "GEN.G vs BRO | 17:00 29/05",
