@@ -260,11 +260,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-bf98b12e55",
+                          "id": "lnk-d4d547eb91",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780022718_hd/1780022718_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780023336_hd/1780023336_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -291,7 +291,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/england-u17.png",
             "time": "22:00:00",
             "date": "29/05",
-            "blv": "blv-tri",
+            "blv": "blv-mat",
             "is_live": false,
             "cate_type": "football"
           },
@@ -674,6 +674,78 @@
           }
         },
         {
+          "id": "gv-10ab46f92e",
+          "name": "Barangay Ginebra San Miguel vs Rain or Shine | 18:30 29/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-10ab46f92e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-10ab46f92e",
+                  "name": "Barangay Ginebra San Miguel vs Rain or Shine",
+                  "streams": [
+                    {
+                      "id": "st-10ab46f92e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c9b11bb868",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780023463_hd/1780023463_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Phillipines",
+            "team_a": "Barangay Ginebra San Miguel",
+            "team_b": "Rain or Shine",
+            "logo_a": "https://static.flashscore.com/res/image/data/hWf7PfGG-67i7cfzM.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/WjIooAEG-CvPI3PRl.png",
+            "time": "18:30:00",
+            "date": "29/05",
+            "blv": "blv-leo",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-10ab46f92e_2bb60c55_20260529.png?v=2bb60c55",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-13f8fe7678",
           "name": "Nhatrang Dolphins vs Saigon Heats | 19:30 29/05",
           "type": "single",
@@ -828,7 +900,7 @@
       "channels": [
         {
           "id": "gv-2834ab4bd9",
-          "name": "Magda Linette vs Iga Swiatek | 18:30 29/05",
+          "name": "Magda Linette vs Iga Swiatek | 17:00 29/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -883,7 +955,7 @@
             "team_b": "Iga Swiatek",
             "logo_a": "https://static.flashscore.com/res/image/data/Uypq6eWg-fuUKOYyQ.png",
             "logo_b": "https://static.flashscore.com/res/image/data/S2NdWdWg-tOt4Rhy2.png",
-            "time": "18:30:00",
+            "time": "17:00:00",
             "date": "29/05",
             "blv": "blv-sun",
             "is_live": false,
