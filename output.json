@@ -665,6 +665,78 @@
           }
         },
         {
+          "id": "gv-1247ede4d8",
+          "name": "Nice  vs Saint-Étienne | 01:45 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1247ede4d8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1247ede4d8",
+                  "name": "Nice  vs Saint-Étienne",
+                  "streams": [
+                    {
+                      "id": "st-1247ede4d8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2b54a578a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780068124_hd/1780068124_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Nice ",
+            "team_b": "Saint-Étienne",
+            "logo_a": "https://static.flashscore.com/res/image/data/boyRUvyB-00sqJmg8.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/b7wgpIDa-8Ca53MKO.png",
+            "time": "01:45:00",
+            "date": "30/05",
+            "blv": "BLV Hợi",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1247ede4d8_b8f1c09c_20260529.png?v=b8f1c09c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-2c05e0d537",
           "name": "U.Concepcion vs Union La Calera | 07:30 30/05",
           "type": "single",
