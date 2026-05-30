@@ -308,7 +308,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -393,10 +393,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -445,7 +445,7 @@
             "time": "07:00:00",
             "date": "31/05",
             "blv": "blv-leo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -597,6 +597,159 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-591835be5e_aa0cb1d6_20260531.png?v=aa0cb1d6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8963230f4e",
+          "name": "New Taipei Kings vs Formosa Dreamers | 16:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8963230f4e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8963230f4e",
+                  "name": "New Taipei Kings vs Formosa Dreamers",
+                  "streams": [
+                    {
+                      "id": "st-8963230f4e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d8b8ec880a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780184515_hd/1780184515_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Taiwan",
+            "team_a": "New Taipei Kings",
+            "team_b": "Formosa Dreamers",
+            "logo_a": "https://static.flashscore.com/res/image/data/pEI6lAxS-tG8a7R4N.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hAlpplhl-K6736oKT.png",
+            "time": "16:00:00",
+            "date": "31/05",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8963230f4e_21b2f906_20260531.png?v=21b2f906",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-e7a9e4a243",
+          "name": "BRO  vs Hanwha Life | 15:00 31/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e7a9e4a243",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e7a9e4a243",
+                  "name": "BRO  vs Hanwha Life",
+                  "streams": [
+                    {
+                      "id": "st-e7a9e4a243",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3f5b5129b3",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780184405_hd/1780184405_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "BRO ",
+            "team_b": "Hanwha Life",
+            "logo_a": "https://static.flashscore.com/res/image/data/dWdjTlyS-tSnxXc8U.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/e/e0/HLE_logo.png",
+            "time": "15:00:00",
+            "date": "31/05",
+            "blv": "blv-ngu",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e7a9e4a243_efde67b0_20260531.png?v=efde67b0",
             "width": 1600,
             "height": 1200
           }
