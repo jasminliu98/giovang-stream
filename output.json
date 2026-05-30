@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4192777eba",
-          "name": "Henan FC vs Zhejiang FC | 18:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4192777eba",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4192777eba",
-                  "name": "Henan FC vs Zhejiang FC",
-                  "streams": [
-                    {
-                      "id": "st-4192777eba",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-197694977d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780123269_hd/1780123269_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Trung Quốc",
-            "team_a": "Henan FC",
-            "team_b": "Zhejiang FC",
-            "logo_a": "https://images.keovip88.net/images/teams/henan-football-club.png",
-            "logo_b": "https://images.keovip88.net/images/teams/zhejiang-professional-fc.png",
-            "time": "18:00:00",
-            "date": "30/05",
-            "blv": "blv-bon",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4192777eba_7b8a3986_20260530.png?v=7b8a3986",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-96df2ad520",
           "name": "Chengdu Rongcheng vs Shandong Taishan | 18:35 30/05",
