@@ -11,11 +11,155 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-07e8016bc2",
+          "name": "Vissel Kobe vs Kashima Antlers | 12:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-07e8016bc2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-07e8016bc2",
+                  "name": "Vissel Kobe vs Kashima Antlers",
+                  "streams": [
+                    {
+                      "id": "st-07e8016bc2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1d9de53da",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780042522_hd/1780042522_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Vissel Kobe",
+            "team_b": "Kashima Antlers",
+            "logo_a": "https://images.keovip88.net/images/teams/vissel-kobe.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kashima-antlers.png",
+            "time": "12:00:00",
+            "date": "30/05",
+            "blv": "blv-mat",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-07e8016bc2_9fe2c370_20260530.png?v=9fe2c370",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d9c7df5753",
+          "name": "Sanfrecce Hiroshima vs Kawasaki Frontale | 12:00 30/05",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d9c7df5753",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d9c7df5753",
+                  "name": "Sanfrecce Hiroshima vs Kawasaki Frontale",
+                  "streams": [
+                    {
+                      "id": "st-d9c7df5753",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f42e06e2da",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780042621_hd/1780042621_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Sanfrecce Hiroshima",
+            "team_b": "Kawasaki Frontale",
+            "logo_a": "https://images.keovip88.net/images/teams/hiroshima-sanfrecce.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kawasaki-frontale.png",
+            "time": "12:00:00",
+            "date": "30/05",
+            "blv": "blv-tri",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d9c7df5753_2f734489_20260530.png?v=2f734489",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-9078598e4b",
           "name": "Nagoya Grampus Eight vs FC Machida Zelvia | 12:00 30/05",
@@ -84,150 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9078598e4b_1c91c520_20260530.png?v=1c91c520",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-07e8016bc2",
-          "name": "Vissel Kobe vs Kashima Antlers | 12:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-07e8016bc2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-07e8016bc2",
-                  "name": "Vissel Kobe vs Kashima Antlers",
-                  "streams": [
-                    {
-                      "id": "st-07e8016bc2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1d9de53da",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780042522_hd/1780042522_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Vissel Kobe",
-            "team_b": "Kashima Antlers",
-            "logo_a": "https://images.keovip88.net/images/teams/vissel-kobe.png",
-            "logo_b": "https://images.keovip88.net/images/teams/kashima-antlers.png",
-            "time": "12:00:00",
-            "date": "30/05",
-            "blv": "blv-mat",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-07e8016bc2_9fe2c370_20260530.png?v=9fe2c370",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d9c7df5753",
-          "name": "Sanfrecce Hiroshima vs Kawasaki Frontale | 12:00 30/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d9c7df5753",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d9c7df5753",
-                  "name": "Sanfrecce Hiroshima vs Kawasaki Frontale",
-                  "streams": [
-                    {
-                      "id": "st-d9c7df5753",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f42e06e2da",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780042621_hd/1780042621_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Sanfrecce Hiroshima",
-            "team_b": "Kawasaki Frontale",
-            "logo_a": "https://images.keovip88.net/images/teams/hiroshima-sanfrecce.png",
-            "logo_b": "https://images.keovip88.net/images/teams/kawasaki-frontale.png",
-            "time": "12:00:00",
-            "date": "30/05",
-            "blv": "blv-tri",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d9c7df5753_2f734489_20260530.png?v=2f734489",
             "width": 1600,
             "height": 1200
           }
