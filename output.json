@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d3c81259bb",
-          "name": "Atletico Paranaense vs Mirassol FC | 02:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d3c81259bb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d3c81259bb",
-                  "name": "Atletico Paranaense vs Mirassol FC",
-                  "streams": [
-                    {
-                      "id": "st-d3c81259bb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-90a9511758",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780153064_hd/1780153064_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Brazil",
-            "team_a": "Atletico Paranaense",
-            "team_b": "Mirassol FC",
-            "logo_a": "https://images.keovip88.net/images/teams/atletico-paranaense.png",
-            "logo_b": "https://images.keovip88.net/images/teams/mirassol.png",
-            "time": "02:00:00",
-            "date": "31/05",
-            "blv": "blv-leo",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d3c81259bb_ac8edb31_20260531.png?v=ac8edb31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-82dfb87aed",
           "name": "Bahia(BA) vs Botafogo (RJ) | 03:30 31/05",
@@ -452,7 +380,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -465,10 +393,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -517,7 +445,7 @@
             "time": "05:00:00",
             "date": "31/05",
             "blv": "blv-leo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -741,87 +669,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-591835be5e_aa0cb1d6_20260531.png?v=aa0cb1d6",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-f9069982e6",
-          "name": "Dmitry Bivol  vs Michael Eifert | 02:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f9069982e6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f9069982e6",
-                  "name": "Dmitry Bivol  vs Michael Eifert",
-                  "streams": [
-                    {
-                      "id": "st-f9069982e6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-df96a14541",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780153395_hd/1780153395_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WBA and IBF light heavyweight titles",
-            "team_a": "Dmitry Bivol ",
-            "team_b": "Michael Eifert",
-            "logo_a": "https://static.flashscore.com/res/image/data/SAPRQCDa-WUEcEaQJ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/K0jJUrwS-zmaX5ln8.png",
-            "time": "02:00:00",
-            "date": "31/05",
-            "blv": "BLV Dory",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f9069982e6_3a2e91ba_20260531.png?v=3a2e91ba",
             "width": 1600,
             "height": 1200
           }
