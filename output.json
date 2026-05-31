@@ -330,25 +330,7 @@
                     {
                       "id": "st-124a6d6d2f",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-39502931dc",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780184848_hd/1780184848_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1119,87 +1101,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-19b796a32d_c683f159_20260531.png?v=c683f159",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-85bc2cc185",
-          "name": "Los Angeles Dodgers vs Philadelphia Phillies | 09:10 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85bc2cc185",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-85bc2cc185",
-                  "name": "Los Angeles Dodgers vs Philadelphia Phillies",
-                  "streams": [
-                    {
-                      "id": "st-85bc2cc185",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-42bd58a11f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780135598_hd/1780135598_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Los Angeles Dodgers",
-            "team_b": "Philadelphia Phillies",
-            "logo_a": "https://dejpknyizje2n.cloudfront.net/media/carstickers/versions/los-angeles-dodgers-mlb-logo-sticker-u1dc2-cf4b-x418.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Philadelphia_Phillies_Insignia.svg",
-            "time": "09:10:00",
-            "date": "31/05",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-85bc2cc185_26e04f3b_20260531.png?v=26e04f3b",
             "width": 1600,
             "height": 1200
           }
