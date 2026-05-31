@@ -330,7 +330,25 @@
                     {
                       "id": "st-124a6d6d2f",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-39502931dc",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780184848_hd/1780184848_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -584,8 +602,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-11efcc3881",
-          "name": "Franklin Bulls vs Auckland Tuatara | 10:00 31/05",
+          "id": "gv-591835be5e",
+          "name": "Otago Nuggets vs  Southland Sharks | 13:00 31/05",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -595,78 +613,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-11efcc3881",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-11efcc3881",
-                  "name": "Franklin Bulls vs Auckland Tuatara",
-                  "streams": [
-                    {
-                      "id": "st-11efcc3881",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6dd858a6dd",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780135845_hd/1780135845_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBL",
-            "team_a": "Franklin Bulls",
-            "team_b": "Auckland Tuatara",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/b/b5/Franklin_Bulls_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Auckland_Tuatara_Basketball_logo.png/250px-Auckland_Tuatara_Basketball_logo.png",
-            "time": "10:00:00",
-            "date": "31/05",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-11efcc3881_5d0b5cb4_20260531.png?v=5d0b5cb4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-591835be5e",
-          "name": "Otago Nuggets vs  Southland Sharks | 13:00 31/05",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -715,7 +661,7 @@
             "time": "13:00:00",
             "date": "31/05",
             "blv": "BLV Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
