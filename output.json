@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ea1dc924a1",
-          "name": "Indonesia U19 vs Myanmar U19 | 20:00 01/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ea1dc924a1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ea1dc924a1",
-                  "name": "Indonesia U19 vs Myanmar U19",
-                  "streams": [
-                    {
-                      "id": "st-ea1dc924a1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b27119c2b8",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780232298_hd/1780232298_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship U19",
-            "team_a": "Indonesia U19",
-            "team_b": "Myanmar U19",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/250px-Flag_of_Myanmar.svg.png",
-            "time": "20:00:00",
-            "date": "01/06",
-            "blv": "blv-bon",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ea1dc924a1_d0d1ab04_20260601.png?v=d0d1ab04",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3767a8bb94",
           "name": "Slovakia vs Malta | 23:00 01/06",
