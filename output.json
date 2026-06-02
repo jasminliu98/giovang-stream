@@ -2135,83 +2135,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d98845b4ab",
-          "name": "LGD  vs TT | 16:00 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d98845b4ab",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d98845b4ab",
-                  "name": "LGD  vs TT",
-                  "streams": [
-                    {
-                      "id": "st-d98845b4ab",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee27419a7d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780385863_hd/1780385863_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LPL",
-            "team_a": "LGD ",
-            "team_b": "TT",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnrp09hPEV5EmFRf1htGGJr8cMzt4dkDbxNQ&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjCWQiRXKaB7gRPCVHJ4mNnLZrQYnDZWaRHg&s",
-            "time": "16:00:00",
-            "date": "02/06",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d98845b4ab_088e030b_20260602.png?v=088e030b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a76dc1de31",
           "name": "BLG vs EDG | 16:00 03/06",
