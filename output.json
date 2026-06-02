@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6ceeddf167",
-          "name": "U19 Thái Lan vs U19 Brunei | 16:00 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ceeddf167",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6ceeddf167",
-                  "name": "U19 Thái Lan vs U19 Brunei",
-                  "streams": [
-                    {
-                      "id": "st-6ceeddf167",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fa04a7203e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780385964_hd/1780385964_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFF Championship U19",
-            "team_a": "U19 Thái Lan",
-            "team_b": "U19 Brunei",
-            "logo_a": "https://images.keovip88.net/images/teams/thailand-u19.png",
-            "logo_b": "https://images.keovip88.net/images/teams/brunei-darussalam-u19.png",
-            "time": "16:00:00",
-            "date": "02/06",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6ceeddf167_f1fda787_20260602.png?v=f1fda787",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a1a62e4f48",
           "name": "Brunei  vs Timor-Leste | 19:15 02/06",
@@ -668,7 +596,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -825,10 +753,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -877,7 +805,7 @@
             "time": "18:35:00",
             "date": "02/06",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1613,83 +1541,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0e9761fd1e",
-          "name": "Mirra Andreeva  vs  Sorana Cirstea | 16:00 02/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0e9761fd1e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0e9761fd1e",
-                  "name": "Mirra Andreeva  vs  Sorana Cirstea",
-                  "streams": [
-                    {
-                      "id": "st-0e9761fd1e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-696579e37d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780385546_hd/1780385546_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Roland Garros",
-            "team_a": "Mirra Andreeva ",
-            "team_b": " Sorana Cirstea",
-            "logo_a": "https://photoresources.wtatennis.com/photo-resources/2026/04/08/4b5df872-ea25-4406-81e3-7dea90c07d9a/Andreeva-M-Torso_331809.png?width=790&height=740",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqXOvrqQcL9eo1AbWBk3LbgMWpp5oUtbvAdw&s",
-            "time": "16:00:00",
-            "date": "02/06",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0e9761fd1e_6705fa05_20260602.png?v=6705fa05",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-83432724d2",
           "name": "Elina Svitolina  vs Marta Kostyuk | 17:30 02/06",
