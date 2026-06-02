@@ -452,7 +452,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -465,10 +465,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -517,7 +517,7 @@
             "time": "15:00:00",
             "date": "02/06",
             "blv": "BLV Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1259,6 +1259,150 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-0e9761fd1e",
+          "name": "Mirra Andreeva  vs  Sorana Cirstea | 16:00 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0e9761fd1e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0e9761fd1e",
+                  "name": "Mirra Andreeva  vs  Sorana Cirstea",
+                  "streams": [
+                    {
+                      "id": "st-0e9761fd1e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-696579e37d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780385546_hd/1780385546_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Roland Garros",
+            "team_a": "Mirra Andreeva ",
+            "team_b": " Sorana Cirstea",
+            "logo_a": "https://photoresources.wtatennis.com/photo-resources/2026/04/08/4b5df872-ea25-4406-81e3-7dea90c07d9a/Andreeva-M-Torso_331809.png?width=790&height=740",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqXOvrqQcL9eo1AbWBk3LbgMWpp5oUtbvAdw&s",
+            "time": "16:00:00",
+            "date": "02/06",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0e9761fd1e_6705fa05_20260602.png?v=6705fa05",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-83432724d2",
+          "name": "Elina Svitolina  vs Marta Kostyuk | 17:30 02/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-83432724d2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-83432724d2",
+                  "name": "Elina Svitolina  vs Marta Kostyuk",
+                  "streams": [
+                    {
+                      "id": "st-83432724d2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1c05d2e24d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780385625_hd/1780385625_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Roland Garros",
+            "team_a": "Elina Svitolina ",
+            "team_b": "Marta Kostyuk",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4YOuT692IOsEfhP1SAIGfj3ewlEZyOQv94g&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8zfZSysJqrvXFtlWmn10pZCkYAoxxzbWnuA&s",
+            "time": "17:30:00",
+            "date": "02/06",
+            "blv": "blv-lac",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-83432724d2_b5e3e581_20260602.png?v=b5e3e581",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-33fabafc55",
           "name": "Jakub Mensik vs Joao Fonseca | 01:15 03/06",
           "type": "single",
@@ -1564,6 +1708,78 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-8309fa0c7d",
+          "name": "New York Yankees  vs Cleveland Guardians | 06:05 03/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8309fa0c7d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8309fa0c7d",
+                  "name": "New York Yankees  vs Cleveland Guardians",
+                  "streams": [
+                    {
+                      "id": "st-8309fa0c7d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-355ce00c3e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780385572_hd/1780385572_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "New York Yankees ",
+            "team_b": "Cleveland Guardians",
+            "logo_a": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/CMe9zXzS-QNrz0V5B.png",
+            "time": "06:05:00",
+            "date": "03/06",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8309fa0c7d_35823227_20260602.png?v=35823227",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-fbfd8c988a",
           "name": "Arizona Diamondbacks  vs Los Angeles Dodgers | 08:40 03/06",
