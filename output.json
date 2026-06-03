@@ -332,11 +332,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-35868b2582",
+                          "id": "lnk-e425f39775",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780422424_hd/1780422424_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780510366_hd/1780510366_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -363,7 +363,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/algeria.png",
             "time": "01:45:00",
             "date": "04/06",
-            "blv": "BLV Ben",
+            "blv": "BLV Dory",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1029,6 +1029,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d45160f76e_9e24ceee_20260604.png?v=9e24ceee",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-b5e8902d7d",
+          "name": "Berretini vs Arnaldi | 01:25 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5e8902d7d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b5e8902d7d",
+                  "name": "Berretini vs Arnaldi",
+                  "streams": [
+                    {
+                      "id": "st-b5e8902d7d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8ace99006",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780510417_hd/1780510417_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Berretini",
+            "team_b": "Arnaldi",
+            "logo_a": "https://static.flashscore.com/res/image/data/KvZNhNZA-8rO8nrm4.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Aa61VTcM-Cb5l6dVL.png",
+            "time": "01:25:00",
+            "date": "04/06",
+            "blv": "BLV Ben",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b5e8902d7d_2a51d49a_20260604.png?v=2a51d49a",
             "width": 1600,
             "height": 1200
           }
