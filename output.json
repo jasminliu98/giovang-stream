@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-447a506b1f",
-          "name": "Philippines U19 vs Australia U19 | 20:00 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-447a506b1f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-447a506b1f",
-                  "name": "Philippines U19 vs Australia U19",
-                  "streams": [
-                    {
-                      "id": "st-447a506b1f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f0e02e26f6",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780393019_hd/1780393019_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN U19 Championship",
-            "team_a": "Philippines U19",
-            "team_b": "Australia U19",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/330px-Flag_of_the_Philippines.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/330px-Flag_of_Australia_%28converted%29.svg.png",
-            "time": "20:00:00",
-            "date": "03/06",
-            "blv": "blv-bon",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-447a506b1f_37190960_20260603.png?v=37190960",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f7da362d62",
           "name": "Nhật Bản U20 vs Bồ Đào Nha U20 | 20:00 03/06",
