@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1247f79b10",
-          "name": "Haiti vs New Zealand | 07:00 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1247f79b10",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1247f79b10",
-                  "name": "Haiti vs New Zealand",
-                  "streams": [
-                    {
-                      "id": "st-1247f79b10",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11b7f4815f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780332149_hd/1780332149_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Haiti",
-            "team_b": "New Zealand",
-            "logo_a": "https://images.keovip88.net/images/teams/haiti.png",
-            "logo_b": "https://images.keovip88.net/images/teams/new-zealand.png",
-            "time": "07:00:00",
-            "date": "03/06",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1247f79b10_6db2ea60_20260603.png?v=6db2ea60",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c32b7057bd",
           "name": "Philippines vs Guam | 18:30 03/06",
@@ -2720,83 +2648,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8309fa0c7d",
-          "name": "New York Yankees  vs Cleveland Guardians | 06:05 03/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8309fa0c7d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8309fa0c7d",
-                  "name": "New York Yankees  vs Cleveland Guardians",
-                  "streams": [
-                    {
-                      "id": "st-8309fa0c7d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-355ce00c3e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780385572_hd/1780385572_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "New York Yankees ",
-            "team_b": "Cleveland Guardians",
-            "logo_a": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/CMe9zXzS-QNrz0V5B.png",
-            "time": "06:05:00",
-            "date": "03/06",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8309fa0c7d_35823227_20260603.png?v=35823227",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-fbfd8c988a",
           "name": "Arizona Diamondbacks  vs Los Angeles Dodgers | 08:40 03/06",
