@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "gv-1ff90ed4ba",
-          "name": "Andorra vs Liechtenstein | 00:00 05/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1ff90ed4ba",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1ff90ed4ba",
-                  "name": "Andorra vs Liechtenstein",
-                  "streams": [
-                    {
-                      "id": "st-1ff90ed4ba",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b76faac4c2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780560994_hd/1780560994_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Andorra",
-            "team_b": "Liechtenstein",
-            "logo_a": "https://images.keovip88.net/images/teams/andorra.png",
-            "logo_b": "https://images.keovip88.net/images/teams/liechtenstein.png",
-            "time": "00:00:00",
-            "date": "05/06",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1ff90ed4ba_919c75d1_20260605.png?v=919c75d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-56f05f6d85",
           "name": "Tây Ban Nha vs Iraq | 02:00 05/06",
           "type": "single",
@@ -240,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +220,7 @@
             "time": "02:10:00",
             "date": "05/06",
             "blv": "BLV Hợi",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
