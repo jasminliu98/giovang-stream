@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-525d3dc070",
-          "name": "Campuchia vs Bhutan | 19:00 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-525d3dc070",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-525d3dc070",
-                  "name": "Campuchia vs Bhutan",
-                  "streams": [
-                    {
-                      "id": "st-525d3dc070",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-339748864c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780555824_hd/1780555824_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Campuchia",
-            "team_b": "Bhutan",
-            "logo_a": "https://images.keovip88.net/images/teams/cambodia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bhutan.png",
-            "time": "19:00:00",
-            "date": "04/06",
-            "blv": "blv-mat",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-525d3dc070_2432344e_20260604.png?v=2432344e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-dbd39e8d94",
           "name": "U19 Timor Leste vs U19 Indonesia | 20:00 04/06",
@@ -1334,83 +1262,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-49a477b33b",
-          "name": "China  vs Thailand | 18:30 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-49a477b33b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-49a477b33b",
-                  "name": "China  vs Thailand",
-                  "streams": [
-                    {
-                      "id": "st-49a477b33b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-16f0094c2e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780556152_hd/1780556152_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "China ",
-            "team_b": "Thailand",
-            "logo_a": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
-            "time": "18:30:00",
-            "date": "04/06",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-49a477b33b_fe9f0f0e_20260604.png?v=fe9f0f0e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-2b545e85d1",
           "name": "Türkiye vs Netherlands | 02:30 05/06",
