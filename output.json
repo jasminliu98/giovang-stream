@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c50164ff25",
-          "name": "Afghanistan vs U23 Bangladesh | 23:00 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c50164ff25",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c50164ff25",
-                  "name": "Afghanistan vs U23 Bangladesh",
-                  "streams": [
-                    {
-                      "id": "st-c50164ff25",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cf22290816",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780560558_hd/1780560558_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Afghanistan",
-            "team_b": "U23 Bangladesh",
-            "logo_a": "https://images.keovip88.net/images/teams/afghanistan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bangladesh-u23.png",
-            "time": "23:00:00",
-            "date": "04/06",
-            "blv": "BLV Dory",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c50164ff25_580b9e55_20260605.png?v=580b9e55",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-09b9739154",
           "name": "Slovenia vs Đảo Síp | 23:00 04/06",
@@ -156,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-09b9739154_0f76f9f3_20260605.png?v=0f76f9f3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-720e58ee49",
-          "name": "Bắc Ireland vs Guinea | 23:00 04/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-720e58ee49",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-720e58ee49",
-                  "name": "Bắc Ireland vs Guinea",
-                  "streams": [
-                    {
-                      "id": "st-720e58ee49",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d97e715131",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780560638_hd/1780560638_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Bắc Ireland",
-            "team_b": "Guinea",
-            "logo_a": "https://images.keovip88.net/images/teams/northern-ireland.png",
-            "logo_b": "https://images.keovip88.net/images/teams/guinea.png",
-            "time": "23:00:00",
-            "date": "04/06",
-            "blv": "blv-tri",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-720e58ee49_6986ab52_20260605.png?v=6986ab52",
             "width": 1600,
             "height": 1200
           }
