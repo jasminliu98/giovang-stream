@@ -8,5 +8,771 @@
     "type": "cover",
     "url": "https://giovang.fun/wp-content/uploads/2024/10/GiovangTV_logo-01-1.png"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-cb6e95c2bf",
+          "name": "Panama vs Cộng hòa Dominican | 07:45 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb6e95c2bf",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cb6e95c2bf",
+                  "name": "Panama vs Cộng hòa Dominican",
+                  "streams": [
+                    {
+                      "id": "st-cb6e95c2bf",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf924b4b38",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780334274_hd/1780334274_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Panama",
+            "team_b": "Cộng hòa Dominican",
+            "logo_a": "https://images.keovip88.net/images/teams/panama.png",
+            "logo_b": "https://images.keovip88.net/images/teams/dominican-republic.png",
+            "time": "07:45:00",
+            "date": "04/06",
+            "blv": "BLV Hợi",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cb6e95c2bf_6e7c2a56_20260604.png?v=6e7c2a56",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-683f2117a2",
+          "name": "Hàn Quốc vs El Salvador | 08:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-683f2117a2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-683f2117a2",
+                  "name": "Hàn Quốc vs El Salvador",
+                  "streams": [
+                    {
+                      "id": "st-683f2117a2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d9b69b888b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780334345_hd/1780334345_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Hàn Quốc",
+            "team_b": "El Salvador",
+            "logo_a": "https://images.keovip88.net/images/teams/south-korea.png",
+            "logo_b": "https://images.keovip88.net/images/teams/el-salvador.png",
+            "time": "08:00:00",
+            "date": "04/06",
+            "blv": "blv-ngong",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-683f2117a2_7666a06d_20260604.png?v=7666a06d",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-19d2dcc815",
+          "name": "New York Liberty W vs Toronto Tempo W | 06:30 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-19d2dcc815",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-19d2dcc815",
+                  "name": "New York Liberty W vs Toronto Tempo W",
+                  "streams": [
+                    {
+                      "id": "st-19d2dcc815",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1f591d6f39",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780423845_hd/1780423845_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "New York Liberty W",
+            "team_b": "Toronto Tempo W",
+            "logo_a": "https://static.flashscore.com/res/image/data/GdVsz3il-AqtCAd4f.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Toronto_Tempo_logo.svg/1280px-Toronto_Tempo_logo.svg.png",
+            "time": "06:30:00",
+            "date": "04/06",
+            "blv": "BLV Cầy",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-19d2dcc815_ca95a729_20260604.png?v=ca95a729",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c942c424e3",
+          "name": "New York Knicks  vs San Antonio Spurs | 07:30 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c942c424e3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c942c424e3",
+                  "name": "New York Knicks  vs San Antonio Spurs",
+                  "streams": [
+                    {
+                      "id": "st-c942c424e3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-136f87df28",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780332695_hd/1780332695_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA Final",
+            "team_a": "New York Knicks ",
+            "team_b": "San Antonio Spurs",
+            "logo_a": "https://static.flashscore.com/res/image/data/8f2WVCFG-SrHHDGUm.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/UBTxFpcM-I30Q0K9l.png",
+            "time": "07:30:00",
+            "date": "04/06",
+            "blv": "blv-lac, blv-can, BLV Tôm",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c942c424e3_0c5173d0_20260604.png?v=0c5173d0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-27dd16e28b",
+          "name": "Seattle Storm W  vs Phoenix Mercury W | 09:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27dd16e28b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-27dd16e28b",
+                  "name": "Seattle Storm W  vs Phoenix Mercury W",
+                  "streams": [
+                    {
+                      "id": "st-27dd16e28b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-37df2eedeb",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780332769_hd/1780332769_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Seattle Storm W ",
+            "team_b": "Phoenix Mercury W",
+            "logo_a": "https://static.flashscore.com/res/image/data/WAtvfmDa-tCILA0mK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/IZ04YpAr-rPdnEwGr.png",
+            "time": "09:00:00",
+            "date": "04/06",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-27dd16e28b_dfcd7070_20260604.png?v=dfcd7070",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d45160f76e",
+          "name": "Bay Hawks  vs Nelson Giants | 14:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d45160f76e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d45160f76e",
+                  "name": "Bay Hawks  vs Nelson Giants",
+                  "streams": [
+                    {
+                      "id": "st-d45160f76e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff2049823c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780332905_hd/1780332905_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBL",
+            "team_a": "Bay Hawks ",
+            "team_b": "Nelson Giants",
+            "logo_a": "https://static.flashscore.com/res/image/data/Sx3DVvdM-jyq13zia.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/EF4NkwHG-OfUSnxa4.png",
+            "time": "14:00:00",
+            "date": "04/06",
+            "blv": "blv-lac",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d45160f76e_9e24ceee_20260604.png?v=9e24ceee",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-b5e8902d7d",
+          "name": "Berretini vs Arnaldi | 01:25 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5e8902d7d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b5e8902d7d",
+                  "name": "Berretini vs Arnaldi",
+                  "streams": [
+                    {
+                      "id": "st-b5e8902d7d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8ace99006",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780510417_hd/1780510417_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Roland Garros",
+            "team_a": "Berretini",
+            "team_b": "Arnaldi",
+            "logo_a": "https://static.flashscore.com/res/image/data/KvZNhNZA-8rO8nrm4.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Aa61VTcM-Cb5l6dVL.png",
+            "time": "01:25:00",
+            "date": "04/06",
+            "blv": "BLV Ben",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b5e8902d7d_2a51d49a_20260604.png?v=2a51d49a",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-dba9c7c180",
+          "name": "Brazil vs Hà Lan | 06:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dba9c7c180",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dba9c7c180",
+                  "name": "Brazil vs Hà Lan",
+                  "streams": [
+                    {
+                      "id": "st-dba9c7c180",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-00caf1e78d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780423546_hd/1780423546_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Brazil",
+            "team_b": "Hà Lan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+            "time": "06:00:00",
+            "date": "04/06",
+            "blv": "BLV Điếc",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-dba9c7c180_eaca3a41_20260604.png?v=eaca3a41",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c283efffe4",
+          "name": "Canada  vs Germany | 07:00 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c283efffe4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c283efffe4",
+                  "name": "Canada  vs Germany",
+                  "streams": [
+                    {
+                      "id": "st-c283efffe4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a6d3a3b3bd",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780334556_hd/1780334556_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Canada ",
+            "team_b": "Germany",
+            "logo_a": "https://static.flashscore.com/res/image/data/x8ugZxyS-QBQPB0xP.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hjKM6ZCr-6ys9CWQj.png",
+            "time": "07:00:00",
+            "date": "04/06",
+            "blv": "blv-mat",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c283efffe4_9ed2ad22_20260604.png?v=9ed2ad22",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-88c7cd55f0",
+          "name": "Arizona Diamondbacks  vs Los Angeles Dodgers | 08:40 04/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-88c7cd55f0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-88c7cd55f0",
+                  "name": "Arizona Diamondbacks  vs Los Angeles Dodgers",
+                  "streams": [
+                    {
+                      "id": "st-88c7cd55f0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8339f342b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780333062_hd/1780333062_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Arizona Diamondbacks ",
+            "team_b": "Los Angeles Dodgers",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/bIi8cJW5Av0W-CHNBzkcCQ_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png",
+            "time": "08:40:00",
+            "date": "04/06",
+            "blv": "blv-ngu",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-88c7cd55f0_65fd3826_20260604.png?v=65fd3826",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
