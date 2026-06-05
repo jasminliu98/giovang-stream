@@ -1104,6 +1104,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-b18b608bcd",
+          "name": "Taranaki Airs  vs Auckland Tuatara | 14:30 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b18b608bcd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b18b608bcd",
+                  "name": "Taranaki Airs  vs Auckland Tuatara",
+                  "streams": [
+                    {
+                      "id": "st-b18b608bcd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5ce7cbfe17",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780674313_hd/1780674313_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBL",
+            "team_a": "Taranaki Airs ",
+            "team_b": "Auckland Tuatara",
+            "logo_a": "https://static.flashscore.com/res/image/data/2Zt8d9il-G6Uuq8ZG.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/GjtPxYEa-C2iBeUUN.png",
+            "time": "14:30:00",
+            "date": "06/06",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b18b608bcd_0508a11b_20260605.png?v=0508a11b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
