@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "23:30:00",
             "date": "05/06",
             "blv": "BLV Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -588,6 +588,294 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-19df2c4735_a3a66785_20260605.png?v=a3a66785",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-538ab58051",
+          "name": "JEF United Ichihara vs Avispa Fukuoka | 12:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-538ab58051",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-538ab58051",
+                  "name": "JEF United Ichihara vs Avispa Fukuoka",
+                  "streams": [
+                    {
+                      "id": "st-538ab58051",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c27bd32bd3",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780675733_hd/1780675733_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "JEF United Ichihara",
+            "team_b": "Avispa Fukuoka",
+            "logo_a": "https://images.keovip88.net/images/teams/jef-united-ichihara-chiba.png",
+            "logo_b": "https://images.keovip88.net/images/teams/avispa-fukuoka.png",
+            "time": "12:00:00",
+            "date": "06/06",
+            "blv": "BLV Dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-538ab58051_be7a9450_20260605.png?v=be7a9450",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5c1c6f3608",
+          "name": "Kashima Antlers vs Vissel Kobe | 12:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5c1c6f3608",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5c1c6f3608",
+                  "name": "Kashima Antlers vs Vissel Kobe",
+                  "streams": [
+                    {
+                      "id": "st-5c1c6f3608",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1ad85c1c08",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780675759_hd/1780675759_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Kashima Antlers",
+            "team_b": "Vissel Kobe",
+            "logo_a": "https://images.keovip88.net/images/teams/kashima-antlers.png",
+            "logo_b": "https://images.keovip88.net/images/teams/vissel-kobe.png",
+            "time": "12:00:00",
+            "date": "06/06",
+            "blv": "blv-bon",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5c1c6f3608_cf049141_20260605.png?v=cf049141",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c9ec6ee81e",
+          "name": "FC Tokyo vs Cerezo Osaka | 12:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9ec6ee81e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c9ec6ee81e",
+                  "name": "FC Tokyo vs Cerezo Osaka",
+                  "streams": [
+                    {
+                      "id": "st-c9ec6ee81e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d9d930296a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780675778_hd/1780675778_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "FC Tokyo",
+            "team_b": "Cerezo Osaka",
+            "logo_a": "https://images.keovip88.net/images/teams/fc-tokyo.png",
+            "logo_b": "https://images.keovip88.net/images/teams/cerezo-osaka.png",
+            "time": "12:00:00",
+            "date": "06/06",
+            "blv": "blv-tri",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c9ec6ee81e_af301c98_20260605.png?v=af301c98",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b5867250ec",
+          "name": "Mito Hollyhock vs V-Varen Nagasaki | 13:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5867250ec",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b5867250ec",
+                  "name": "Mito Hollyhock vs V-Varen Nagasaki",
+                  "streams": [
+                    {
+                      "id": "st-b5867250ec",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9fb682e1c9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780675803_hd/1780675803_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Mito Hollyhock",
+            "team_b": "V-Varen Nagasaki",
+            "logo_a": "https://images.keovip88.net/images/teams/mito-hollyhock.png",
+            "logo_b": "https://images.keovip88.net/images/teams/v-varen-nagasaki.png",
+            "time": "13:00:00",
+            "date": "06/06",
+            "blv": "blv-ngong",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b5867250ec_656a3c9a_20260605.png?v=656a3c9a",
             "width": 1600,
             "height": 1200
           }
@@ -1338,6 +1626,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-cad24954d0",
+          "name": "Vietnam W vs Lebanon W | 08:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cad24954d0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cad24954d0",
+                  "name": "Vietnam W vs Lebanon W",
+                  "streams": [
+                    {
+                      "id": "st-cad24954d0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9d570829cd",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780675507_hd/1780675507_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Women's Cup",
+            "team_a": "Vietnam W",
+            "team_b": "Lebanon W",
+            "logo_a": "https://static.flashscore.com/res/image/data/vNL4gRYA-4I3lSGFh.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/I5iR8BBr-SlErQgn0.png",
+            "time": "08:00:00",
+            "date": "06/06",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cad24954d0_9e86b4d4_20260605.png?v=9e86b4d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6a6e0f80e1",
+          "name": "Thailand  vs Belgium | 14:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6a6e0f80e1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6a6e0f80e1",
+                  "name": "Thailand  vs Belgium",
+                  "streams": [
+                    {
+                      "id": "st-6a6e0f80e1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f66b410605",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780675575_hd/1780675575_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Thailand ",
+            "team_b": "Belgium",
+            "logo_a": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QJWQSoYg-CUoVGnpd.png",
+            "time": "14:00:00",
+            "date": "06/06",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6a6e0f80e1_fe0d5793_20260605.png?v=fe0d5793",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1416,6 +1848,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-abb1f0adbe_b7cbdf0a_20260605.png?v=b7cbdf0a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-988b0bba80",
+          "name": "Los Angeles Dodgers  vs Los Angeles Angels | 09:10 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-988b0bba80",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-988b0bba80",
+                  "name": "Los Angeles Dodgers  vs Los Angeles Angels",
+                  "streams": [
+                    {
+                      "id": "st-988b0bba80",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7523d67422",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780675668_hd/1780675668_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Los Angeles Dodgers ",
+            "team_b": "Los Angeles Angels",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/4B7tjX3hwKWl-3pnbs1AKQ_96x96.png",
+            "time": "09:10:00",
+            "date": "06/06",
+            "blv": "blv-can",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-988b0bba80_70642458_20260605.png?v=70642458",
             "width": 1600,
             "height": 1200
           }
