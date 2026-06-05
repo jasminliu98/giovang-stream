@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0a7a08e9c7",
-          "name": "Hungary vs Phần Lan | 00:45 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0a7a08e9c7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0a7a08e9c7",
-                  "name": "Hungary vs Phần Lan",
-                  "streams": [
-                    {
-                      "id": "st-0a7a08e9c7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-51859d94d0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780643106_hd/1780643106_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Hungary",
-            "team_b": "Phần Lan",
-            "logo_a": "https://images.keovip88.net/images/teams/hungary.png",
-            "logo_b": "https://images.keovip88.net/images/teams/finland.png",
-            "time": "00:45:00",
-            "date": "06/06",
-            "blv": "blv-ngong",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0a7a08e9c7_6f9a773b_20260606.png?v=6f9a773b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-94c340a877",
-          "name": "Azerbaijan vs Malta | 01:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-94c340a877",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-94c340a877",
-                  "name": "Azerbaijan vs Malta",
-                  "streams": [
-                    {
-                      "id": "st-94c340a877",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27a4574221",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780643147_hd/1780643147_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Azerbaijan",
-            "team_b": "Malta",
-            "logo_a": "https://images.keovip88.net/images/teams/azerbaijan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/malta.png",
-            "time": "01:00:00",
-            "date": "06/06",
-            "blv": "BLV Dần",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-94c340a877_ee315b45_20260606.png?v=ee315b45",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-69585a4ded",
           "name": "Paraguay vs Nicaragua | 05:15 06/06",
@@ -1181,7 +1037,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1194,10 +1050,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1246,7 +1102,7 @@
             "time": "03:30:00",
             "date": "06/06",
             "blv": "blv-sun",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
