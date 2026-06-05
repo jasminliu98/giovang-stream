@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ea3fe9a679",
-          "name": "Indonesia vs Oman | 20:00 05/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ea3fe9a679",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ea3fe9a679",
-                  "name": "Indonesia vs Oman",
-                  "streams": [
-                    {
-                      "id": "st-ea3fe9a679",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bbda01bec9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780625997_hd/1780625997_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Indonesia",
-            "team_b": "Oman",
-            "logo_a": "https://images.keovip88.net/images/teams/indonesia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/oman.png",
-            "time": "20:00:00",
-            "date": "05/06",
-            "blv": "blv-leo",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ea3fe9a679_7764a807_20260605.png?v=7764a807",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-08b02fbe16",
           "name": "Slovakia Nữ vs Phần Lan Nữ | 21:00 05/06",
