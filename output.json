@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,78 +161,6 @@
           }
         },
         {
-          "id": "gv-f64290049b",
-          "name": "Georgia vs Bahrain | 23:00 05/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f64290049b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f64290049b",
-                  "name": "Georgia vs Bahrain",
-                  "streams": [
-                    {
-                      "id": "st-f64290049b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9e75a51c3b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780642662_hd/1780642662_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Georgia",
-            "team_b": "Bahrain",
-            "logo_a": "https://images.keovip88.net/images/teams/georgia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bahrain.png",
-            "time": "23:00:00",
-            "date": "05/06",
-            "blv": "BLV Dần",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f64290049b_ee1ae1e5_20260605.png?v=ee1ae1e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-50d5b23f72",
           "name": "Ba Lan Nữ vs Pháp Nữ | 23:00 05/06",
           "type": "single",
@@ -240,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +220,7 @@
             "time": "23:00:00",
             "date": "05/06",
             "blv": "blv-mat",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -300,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-50d5b23f72_3d519729_20260605.png?v=3d519729",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f64290049b",
+          "name": "Georgia vs Bahrain | 23:00 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f64290049b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f64290049b",
+                  "name": "Georgia vs Bahrain",
+                  "streams": [
+                    {
+                      "id": "st-f64290049b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9e75a51c3b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780642662_hd/1780642662_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Georgia",
+            "team_b": "Bahrain",
+            "logo_a": "https://images.keovip88.net/images/teams/georgia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bahrain.png",
+            "time": "23:00:00",
+            "date": "05/06",
+            "blv": "BLV Dần",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f64290049b_ee1ae1e5_20260605.png?v=ee1ae1e5",
             "width": 1600,
             "height": 1200
           }
@@ -816,6 +816,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-208114a9dc",
+          "name": "New York Knicks  vs San Antonio Spurs | 07:30 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-208114a9dc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-208114a9dc",
+                  "name": "New York Knicks  vs San Antonio Spurs",
+                  "streams": [
+                    {
+                      "id": "st-208114a9dc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7b4bcef9d3",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780673710_hd/1780673710_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA",
+            "team_a": "New York Knicks ",
+            "team_b": "San Antonio Spurs",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/FKwMB_85FlZ_7PTt1f7hjQ_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/-rf7eY39l_0V7J4ekakuKA_96x96.png",
+            "time": "07:30:00",
+            "date": "06/06",
+            "blv": "blv-lac, blv-leo, BLV Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-208114a9dc_018d1e38_20260605.png?v=018d1e38",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b5ba597e61",
+          "name": "Los Angeles Sparks W  vs Dallas Wings W | 09:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5ba597e61",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b5ba597e61",
+                  "name": "Los Angeles Sparks W  vs Dallas Wings W",
+                  "streams": [
+                    {
+                      "id": "st-b5ba597e61",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0f05904ad3",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780673931_hd/1780673931_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Los Angeles Sparks W ",
+            "team_b": "Dallas Wings W",
+            "logo_a": "https://static.flashscore.com/res/image/data/WAzKCQf5-pj48zN6q.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/APCDxNCr-rDAmagRK.png",
+            "time": "09:00:00",
+            "date": "06/06",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b5ba597e61_72b28fb6_20260605.png?v=72b28fb6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1119,87 +1263,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b9492d3039_e0c972f9_20260605.png?v=e0c972f9",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-fd6be9c601",
-          "name": "ONE Friday Fights 157 vs The Inner Circle | 18:30 05/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd6be9c601",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fd6be9c601",
-                  "name": "ONE Friday Fights 157 vs The Inner Circle",
-                  "streams": [
-                    {
-                      "id": "st-fd6be9c601",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c9d1c4266",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780625056_hd/1780625056_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ONE Friday Fights 157 & The Inner Circle",
-            "team_a": "ONE Friday Fights 157",
-            "team_b": "The Inner Circle",
-            "logo_a": "https://images.tapology.com/poster_images/143144/profile/SnapInsta.to_711985788_18601741102062846_7328190662997062784_n.jpg?1780500407",
-            "logo_b": "https://imgs.aixifan.com/newUpload/74132553_2de750565101432d80b190b93870ae5c.jpg",
-            "time": "18:30:00",
-            "date": "05/06",
-            "blv": "BLV Dory",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fd6be9c601_b42bb20a_20260605.png?v=b42bb20a",
             "width": 1600,
             "height": 1200
           }
