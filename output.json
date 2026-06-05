@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "gv-a2a5542486",
-          "name": "Daegu FC vs Paju Citizen FC | 17:30 05/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a2a5542486",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a2a5542486",
-                  "name": "Daegu FC vs Paju Citizen FC",
-                  "streams": [
-                    {
-                      "id": "st-a2a5542486",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1e738d7b19",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780625860_hd/1780625860_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 2 Hàn Quốc",
-            "team_a": "Daegu FC",
-            "team_b": "Paju Citizen FC",
-            "logo_a": "https://images.keovip88.net/images/teams/daegu-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/paju-citizen-fc.png",
-            "time": "17:30:00",
-            "date": "05/06",
-            "blv": "BLV Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a2a5542486_45111663_20260605.png?v=45111663",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-2f21652805",
           "name": "Seongnam FC vs Gimhae City FC | 17:30 05/06",
           "type": "single",
@@ -1839,6 +1767,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b9492d3039_e0c972f9_20260605.png?v=e0c972f9",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-ab437fe9be",
+          "name": "Dương Quốc Hoàng vs Nguyễn Anh Tuấn  | 17:00 05/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ab437fe9be",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ab437fe9be",
+                  "name": "Dương Quốc Hoàng vs Nguyễn Anh Tuấn ",
+                  "streams": [
+                    {
+                      "id": "st-ab437fe9be",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-31ce49361c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780653823_hd/1780653823_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Taom Challenge - Race to 120",
+            "team_a": "Dương Quốc Hoàng",
+            "team_b": "Nguyễn Anh Tuấn ",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKWfpt_d8a0ZCo_E4VA6CS4zu-5ic-xKJEGA&s",
+            "logo_b": "https://tkonshop.com/wp-content/uploads/2022/08/294193860_1028943641124986_6985479309189247392_n.jpg",
+            "time": "17:00:00",
+            "date": "05/06",
+            "blv": "BLV Mason",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ab437fe9be_0f496697_20260605.png?v=0f496697",
             "width": 1600,
             "height": 1200
           }
