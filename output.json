@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f497b0550a",
-          "name": "Mỹ vs Đức | 01:35 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f497b0550a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f497b0550a",
-                  "name": "Mỹ vs Đức",
-                  "streams": [
-                    {
-                      "id": "st-f497b0550a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-00bccc9561",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780724433_hd/1780724433_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Mỹ",
-            "team_b": "Đức",
-            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/germany.png",
-            "time": "01:35:00",
-            "date": "07/06",
-            "blv": "BLV Dần",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f497b0550a_1838b813_20260607.png?v=1838b813",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e9eb4ff8fe",
           "name": "Anh vs New Zealand | 03:00 07/06",
