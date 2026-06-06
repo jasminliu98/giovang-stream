@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "00:45:00",
             "date": "07/06",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1690,6 +1690,150 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-b9fa1ed23b",
+          "name": "Germany vs Japan | 07:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9fa1ed23b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b9fa1ed23b",
+                  "name": "Germany vs Japan",
+                  "streams": [
+                    {
+                      "id": "st-b9fa1ed23b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2b4813a2b1",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780766207_hd/1780766207_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Germany",
+            "team_b": "Japan",
+            "logo_a": "https://static.flashscore.com/res/image/data/hjKM6ZCr-6ys9CWQj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/f552VMEa-E1YhvyqD.png",
+            "time": "07:00:00",
+            "date": "07/06",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b9fa1ed23b_6ea1413d_20260607.png?v=6ea1413d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-14b3e04339",
+          "name": "Thailand  vs Czechia | 10:30 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14b3e04339",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-14b3e04339",
+                  "name": "Thailand  vs Czechia",
+                  "streams": [
+                    {
+                      "id": "st-14b3e04339",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f07f5e7885",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780766315_hd/1780766315_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Thailand ",
+            "team_b": "Czechia",
+            "logo_a": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hjWOdNcM-xhy3Lep2.png",
+            "time": "10:30:00",
+            "date": "07/06",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-14b3e04339_ed227973_20260607.png?v=ed227973",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-952692e095",
           "name": "China vs Poland | 18:00 07/06",
