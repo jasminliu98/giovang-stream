@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c9ec6ee81e",
-          "name": "FC Tokyo vs Cerezo Osaka | 12:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c9ec6ee81e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c9ec6ee81e",
-                  "name": "FC Tokyo vs Cerezo Osaka",
-                  "streams": [
-                    {
-                      "id": "st-c9ec6ee81e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d9d930296a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780675778_hd/1780675778_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "FC Tokyo",
-            "team_b": "Cerezo Osaka",
-            "logo_a": "https://images.keovip88.net/images/teams/fc-tokyo.png",
-            "logo_b": "https://images.keovip88.net/images/teams/cerezo-osaka.png",
-            "time": "12:00:00",
-            "date": "06/06",
-            "blv": "blv-tri",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c9ec6ee81e_af301c98_20260606.png?v=af301c98",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b5867250ec",
           "name": "Mito Hollyhock vs V-Varen Nagasaki | 13:00 06/06",
