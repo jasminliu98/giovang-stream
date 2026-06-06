@@ -452,83 +452,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-208114a9dc",
-          "name": "New York Knicks  vs San Antonio Spurs | 07:30 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-208114a9dc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-208114a9dc",
-                  "name": "New York Knicks  vs San Antonio Spurs",
-                  "streams": [
-                    {
-                      "id": "st-208114a9dc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7b4bcef9d3",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780673710_hd/1780673710_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "New York Knicks ",
-            "team_b": "San Antonio Spurs",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/FKwMB_85FlZ_7PTt1f7hjQ_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/-rf7eY39l_0V7J4ekakuKA_96x96.png",
-            "time": "07:30:00",
-            "date": "06/06",
-            "blv": "blv-lac, blv-leo, BLV Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-208114a9dc_018d1e38_20260606.png?v=018d1e38",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b5ba597e61",
           "name": "Los Angeles Sparks W  vs Dallas Wings W | 09:00 06/06",
