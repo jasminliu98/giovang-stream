@@ -1766,83 +1766,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d8598e8242",
-          "name": "China  vs Serbia | 18:30 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d8598e8242",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d8598e8242",
-                  "name": "China  vs Serbia",
-                  "streams": [
-                    {
-                      "id": "st-d8598e8242",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4dde4e318e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780727967_hd/1780727967_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "China ",
-            "team_b": "Serbia",
-            "logo_a": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/x4FgDryB-zLx3xGjj.png",
-            "time": "18:30:00",
-            "date": "06/06",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d8598e8242_d1f73a8e_20260606.png?v=d1f73a8e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-952692e095",
           "name": "China vs Poland | 18:00 07/06",
@@ -2063,83 +1991,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-703a0a46b9",
-          "name": "JDG  vs BLG | 16:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-703a0a46b9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-703a0a46b9",
-                  "name": "JDG  vs BLG",
-                  "streams": [
-                    {
-                      "id": "st-703a0a46b9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8a5024596a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780728683_hd/1780728683_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LPL",
-            "team_a": "JDG ",
-            "team_b": "BLG",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/7/7d/JD_Gaming_logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/6/66/Bilibili_Gaming_logo_%282021%29.png",
-            "time": "16:00:00",
-            "date": "06/06",
-            "blv": "blv-lac",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-703a0a46b9_c7486a5f_20260606.png?v=c7486a5f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b5854c4984",
           "name": "Hoàng Sao  vs Tkon Day2 | 17:10 06/06",
