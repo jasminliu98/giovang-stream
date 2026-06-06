@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-872ac16e46",
-          "name": "Yokohama F Marinos vs Shimizu S-Pulse | 15:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-872ac16e46",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-872ac16e46",
-                  "name": "Yokohama F Marinos vs Shimizu S-Pulse",
-                  "streams": [
-                    {
-                      "id": "st-872ac16e46",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-359281b3e7",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780727503_hd/1780727503_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Yokohama F Marinos",
-            "team_b": "Shimizu S-Pulse",
-            "logo_a": "https://images.keovip88.net/images/teams/yokohama-marinos.png",
-            "logo_b": "https://images.keovip88.net/images/teams/shimizu-s-pulse.png",
-            "time": "15:00:00",
-            "date": "06/06",
-            "blv": "blv-bon",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-872ac16e46_44c9294b_20260606.png?v=44c9294b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-82430a838e",
           "name": "Kashiwa Reysol vs Kyoto Sanga | 16:00 06/06",
