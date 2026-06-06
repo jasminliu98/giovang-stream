@@ -1991,83 +1991,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b5854c4984",
-          "name": "Hoàng Sao  vs Tkon Day2 | 17:10 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b5854c4984",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b5854c4984",
-                  "name": "Hoàng Sao  vs Tkon Day2",
-                  "streams": [
-                    {
-                      "id": "st-b5854c4984",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-64a31325f6",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780729020_hd/1780729020_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Taom Challenge - Race to 120.",
-            "team_a": "Hoàng Sao ",
-            "team_b": "Tkon Day2",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/D%C6%B0%C6%A1ng_Qu%E1%BB%91c_Ho%C3%A0ng_in_uniform_of_World_Nineball_Tour.webp/250px-D%C6%B0%C6%A1ng_Qu%E1%BB%91c_Ho%C3%A0ng_in_uniform_of_World_Nineball_Tour.webp.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsoyedoUnmOM4IH5PHvBIRLc95nWv50kge0VaV0DdfqqwLDwuMbjHla9Cx&s=10",
-            "time": "17:10:00",
-            "date": "06/06",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b5854c4984_2cb56dc0_20260606.png?v=2cb56dc0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-24db0597f6",
           "name": "MKOI vs KC | 22:00 06/06",
