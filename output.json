@@ -1763,6 +1763,78 @@
           }
         },
         {
+          "id": "gv-040e8f8608",
+          "name": "Vietnam  vs Hong Kong | 08:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-040e8f8608",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-040e8f8608",
+                  "name": "Vietnam  vs Hong Kong",
+                  "streams": [
+                    {
+                      "id": "st-040e8f8608",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2624b27f9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780766466_hd/1780766466_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Women's Cup",
+            "team_a": "Vietnam ",
+            "team_b": "Hong Kong",
+            "logo_a": "https://static.flashscore.com/res/image/data/vNL4gRYA-4I3lSGFh.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/vNwPljil-Sr5HBKY4.png",
+            "time": "08:00:00",
+            "date": "07/06",
+            "blv": "blv-can",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-040e8f8608_05f734e9_20260607.png?v=05f734e9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-14b3e04339",
           "name": "Thailand  vs Czechia | 10:30 07/06",
           "type": "single",
@@ -2280,6 +2352,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-062f7ed7df_466f6c59_20260607.png?v=466f6c59",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a1a30672ef",
+          "name": "Los Angeles Dodgers  vs Los Angeles Angels | 09:10 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a1a30672ef",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a1a30672ef",
+                  "name": "Los Angeles Dodgers  vs Los Angeles Angels",
+                  "streams": [
+                    {
+                      "id": "st-a1a30672ef",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3383551dba",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780766610_hd/1780766610_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Los Angeles Dodgers ",
+            "team_b": "Los Angeles Angels",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/4B7tjX3hwKWl-3pnbs1AKQ_96x96.png",
+            "time": "09:10:00",
+            "date": "07/06",
+            "blv": "blv-ngu",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a1a30672ef_70642458_20260607.png?v=70642458",
             "width": 1600,
             "height": 1200
           }
