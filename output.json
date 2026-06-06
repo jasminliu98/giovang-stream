@@ -1919,83 +1919,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (3 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-106f75b57f",
-          "name": "Dplus Kia  vs BRO | 15:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-106f75b57f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-106f75b57f",
-                  "name": "Dplus Kia  vs BRO",
-                  "streams": [
-                    {
-                      "id": "st-106f75b57f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-961c727ca2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780728590_hd/1780728590_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "Dplus Kia ",
-            "team_b": "BRO",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Logo_DPlus_KIA.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB2CM4MP-NO8YJiz4R1y_wGJ2_RoVcSb5FyC0xaDLvIw&s=10",
-            "time": "15:00:00",
-            "date": "06/06",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-106f75b57f_54662419_20260606.png?v=54662419",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-703a0a46b9",
           "name": "JDG  vs BLG | 16:00 06/06",
