@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-027c988920",
-          "name": "Kawasaki Frontale vs Sanfrecce Hiroshima | 17:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-027c988920",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-027c988920",
-                  "name": "Kawasaki Frontale vs Sanfrecce Hiroshima",
-                  "streams": [
-                    {
-                      "id": "st-027c988920",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dcda32cbcd",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780727639_hd/1780727639_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Kawasaki Frontale",
-            "team_b": "Sanfrecce Hiroshima",
-            "logo_a": "https://images.keovip88.net/images/teams/kawasaki-frontale.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hiroshima-sanfrecce.png",
-            "time": "17:00:00",
-            "date": "06/06",
-            "blv": "blv-mat",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-027c988920_08118338_20260606.png?v=08118338",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e450f17bc0",
           "name": "Bỉ vs Tunisia | 20:00 06/06",
@@ -1244,7 +1172,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1257,10 +1185,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1309,7 +1237,7 @@
             "time": "19:30:00",
             "date": "06/06",
             "blv": "blv-leo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
