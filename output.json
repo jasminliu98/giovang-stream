@@ -305,78 +305,6 @@
           }
         },
         {
-          "id": "gv-7333dbf516",
-          "name": "Tokyo Verdy vs Gamba Osaka | 14:00 06/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7333dbf516",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7333dbf516",
-                  "name": "Tokyo Verdy vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "st-7333dbf516",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e2b78fe114",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780675911_hd/1780675911_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Tokyo Verdy",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://images.keovip88.net/images/teams/tokyo-verdy.png",
-            "logo_b": "https://images.keovip88.net/images/teams/gamba-osaka.png",
-            "time": "14:00:00",
-            "date": "06/06",
-            "blv": "BLV Dory",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7333dbf516_f87f3239_20260606.png?v=f87f3239",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-872ac16e46",
           "name": "Yokohama F Marinos vs Shimizu S-Pulse | 15:00 06/06",
           "type": "single",
@@ -1972,8 +1900,89 @@
       ]
     },
     {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-a24efd153c",
+          "name": "Chwalinska vs Andreeva | 20:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a24efd153c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a24efd153c",
+                  "name": "Chwalinska vs Andreeva",
+                  "streams": [
+                    {
+                      "id": "st-a24efd153c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-420a5bced1",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780728033_hd/1780728033_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Roland Garros",
+            "team_a": "Chwalinska",
+            "team_b": "Andreeva",
+            "logo_a": "https://photoresources.wtatennis.com/photo-resources/2025/05/08/38799882-1ffd-4469-b008-24f70b7ba557/Chwalinska-Torso_325639.png?width=790&height=740",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Mirra_Andreeva_WMQ23_%28cropped%29.jpg",
+            "time": "20:00:00",
+            "date": "06/06",
+            "blv": "blv-lac",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a24efd153c_972cbac4_20260606.png?v=972cbac4",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1986,10 +1995,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2038,7 +2047,7 @@
             "time": "14:00:00",
             "date": "06/06",
             "blv": "blv-sun",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
