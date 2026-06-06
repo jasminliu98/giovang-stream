@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "13:50:00",
             "date": "06/06",
             "blv": "blv-leo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -372,6 +372,294 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7333dbf516_f87f3239_20260606.png?v=f87f3239",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-872ac16e46",
+          "name": "Yokohama F Marinos vs Shimizu S-Pulse | 15:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-872ac16e46",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-872ac16e46",
+                  "name": "Yokohama F Marinos vs Shimizu S-Pulse",
+                  "streams": [
+                    {
+                      "id": "st-872ac16e46",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-359281b3e7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780727503_hd/1780727503_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Yokohama F Marinos",
+            "team_b": "Shimizu S-Pulse",
+            "logo_a": "https://images.keovip88.net/images/teams/yokohama-marinos.png",
+            "logo_b": "https://images.keovip88.net/images/teams/shimizu-s-pulse.png",
+            "time": "15:00:00",
+            "date": "06/06",
+            "blv": "blv-bon",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-872ac16e46_44c9294b_20260606.png?v=44c9294b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-82430a838e",
+          "name": "Kashiwa Reysol vs Kyoto Sanga | 16:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-82430a838e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-82430a838e",
+                  "name": "Kashiwa Reysol vs Kyoto Sanga",
+                  "streams": [
+                    {
+                      "id": "st-82430a838e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1608f87cc9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780727543_hd/1780727543_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Kashiwa Reysol",
+            "team_b": "Kyoto Sanga",
+            "logo_a": "https://images.keovip88.net/images/teams/kashiwa-reysol.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kyoto-sanga.png",
+            "time": "16:00:00",
+            "date": "06/06",
+            "blv": "blv-tri",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-82430a838e_6d94e996_20260606.png?v=6d94e996",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a2cd5c455d",
+          "name": "Đồng Tâm Long An vs Bình Định | 16:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a2cd5c455d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a2cd5c455d",
+                  "name": "Đồng Tâm Long An vs Bình Định",
+                  "streams": [
+                    {
+                      "id": "st-a2cd5c455d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d52eadd384",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780727574_hd/1780727574_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Việt Nam",
+            "team_a": "Đồng Tâm Long An",
+            "team_b": "Bình Định",
+            "logo_a": "https://images.keovip88.net/images/teams/dong-tam-long-an.png",
+            "logo_b": "https://images.keovip88.net/images/teams/binh-dinh.png",
+            "time": "16:00:00",
+            "date": "06/06",
+            "blv": "BLV Dần",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a2cd5c455d_35a5b59a_20260606.png?v=35a5b59a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-027c988920",
+          "name": "Kawasaki Frontale vs Sanfrecce Hiroshima | 17:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-027c988920",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-027c988920",
+                  "name": "Kawasaki Frontale vs Sanfrecce Hiroshima",
+                  "streams": [
+                    {
+                      "id": "st-027c988920",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dcda32cbcd",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780727639_hd/1780727639_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Kawasaki Frontale",
+            "team_b": "Sanfrecce Hiroshima",
+            "logo_a": "https://images.keovip88.net/images/teams/kawasaki-frontale.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hiroshima-sanfrecce.png",
+            "time": "17:00:00",
+            "date": "06/06",
+            "blv": "blv-mat",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-027c988920_08118338_20260606.png?v=08118338",
             "width": 1600,
             "height": 1200
           }
@@ -690,7 +978,25 @@
                     {
                       "id": "st-e9eb4ff8fe",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4470b22f7e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780724592_hd/1780724592_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
