@@ -2062,6 +2062,87 @@
       ]
     },
     {
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-3e13d3be66",
+          "name": "Muhammad vs Bonfim | 04:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3e13d3be66",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3e13d3be66",
+                  "name": "Muhammad vs Bonfim",
+                  "streams": [
+                    {
+                      "id": "st-3e13d3be66",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7017fa4a86",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780777612_hd/1780777612_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UFC Fight Night",
+            "team_a": "Muhammad",
+            "team_b": "Bonfim",
+            "logo_a": "https://static.flashscore.com/res/image/data/Mg6zb0eM-xQOIhAcl.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Sj1U7Qhl-KrL8gKXj.png",
+            "time": "04:00:00",
+            "date": "07/06",
+            "blv": "BLV Dory",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3e13d3be66_91ab2929_20260607.png?v=91ab2929",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchay",
       "name": "⚾ Bóng Chày",
       "display": "vertical",
