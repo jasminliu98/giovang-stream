@@ -377,6 +377,78 @@
           }
         },
         {
+          "id": "gv-f30e6c582d",
+          "name": "Nhật Bản U20  vs Canada U20 | 20:00 06/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f30e6c582d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f30e6c582d",
+                  "name": "Nhật Bản U20  vs Canada U20",
+                  "streams": [
+                    {
+                      "id": "st-f30e6c582d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dd57730e58",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780738324_hd/1780738324_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Maurice Revello Tournament",
+            "team_a": "Nhật Bản U20 ",
+            "team_b": "Canada U20",
+            "logo_a": "https://images.keovip.cc/images/teams/japan-u20.png",
+            "logo_b": "https://images.keovip88.net/images/teams/canada.png",
+            "time": "20:00:00",
+            "date": "06/06",
+            "blv": "blv-bon",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f30e6c582d_430bf395_20260606.png?v=430bf395",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-b0d7a44cb6",
           "name": "U19 Cambodia vs U19 Philippines | 20:00 06/06",
           "type": "single",
