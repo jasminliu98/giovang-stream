@@ -744,6 +744,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-52ef7390a5",
+          "name": "Zamboanga Sikat vs Imus Braderhood | 17:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52ef7390a5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-52ef7390a5",
+                  "name": "Zamboanga Sikat vs Imus Braderhood",
+                  "streams": [
+                    {
+                      "id": "st-52ef7390a5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-231c804187",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780865305_hd/1780865305_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MPBL",
+            "team_a": "Zamboanga Sikat",
+            "team_b": "Imus Braderhood",
+            "logo_a": "https://static.flashscore.com/res/image/data/INExPCYA-I55D2EoK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/C86HfIYg-foNExybm.png",
+            "time": "17:00:00",
+            "date": "08/06",
+            "blv": "blv-leo",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-52ef7390a5_40dc1d28_20260608.png?v=40dc1d28",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -975,87 +1047,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9126990356_8c5dae6f_20260608.png?v=8c5dae6f",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-c4d587f765",
-          "name": "Chicago Cubs  vs San Francisco Giants | 07:30 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c4d587f765",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c4d587f765",
-                  "name": "Chicago Cubs  vs San Francisco Giants",
-                  "streams": [
-                    {
-                      "id": "st-c4d587f765",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cc27ddf19a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780858796_hd/1780858796_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Chicago Cubs ",
-            "team_b": "San Francisco Giants",
-            "logo_a": "https://1000logos.net/wp-content/uploads/2017/07/Chicago-Cubs-Logo.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/San_Francisco_Giants_Logo.svg/1280px-San_Francisco_Giants_Logo.svg.png",
-            "time": "07:30:00",
-            "date": "08/06",
-            "blv": "blv-can",
-            "is_live": false,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c4d587f765_3f975a45_20260608.png?v=3f975a45",
             "width": 1600,
             "height": 1200
           }
