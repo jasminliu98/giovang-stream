@@ -744,49 +744,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-9b47f7c8e1",
-          "name": "Brazil vs Italy | 00:30 08/06",
+          "id": "gv-f59d3f59b4",
+          "name": "Bacolod Masskara vs Pasig City | 15:00 08/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-9b47f7c8e1",
+              "id": "src-f59d3f59b4",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-9b47f7c8e1",
-                  "name": "Brazil vs Italy",
+                  "id": "ct-f59d3f59b4",
+                  "name": "Bacolod Masskara vs Pasig City",
                   "streams": [
                     {
-                      "id": "st-9b47f7c8e1",
+                      "id": "st-f59d3f59b4",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-7d368505ad",
+                          "id": "lnk-9f48d8c738",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780814235_hd/1780814235_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780864673_hd/1780864673_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -806,26 +797,35 @@
             }
           ],
           "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Brazil",
-            "team_b": "Italy",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flag_of_Brazil_%281968%E2%80%931992%29.svg/250px-Flag_of_Brazil_%281968%E2%80%931992%29.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
-            "time": "00:30:00",
+            "league": "MPBL",
+            "team_a": "Bacolod Masskara",
+            "team_b": "Pasig City",
+            "logo_a": "https://static.flashscore.com/res/image/data/OpyGG0g5-n3r25xjS.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fB6jIHHG-4tCsF9wc.png",
+            "time": "15:00:00",
             "date": "08/06",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "bongchuyen"
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9b47f7c8e1_01540142_20260608.png?v=01540142",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f59d3f59b4_eb9f2565_20260608.png?v=eb9f2565",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-f1015889ea",
           "name": "Bulgaria vs Turkey | 04:00 08/06",
@@ -974,83 +974,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d943beec5b",
-          "name": "New York Yankees vs Boston Red Sox | 00:35 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d943beec5b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d943beec5b",
-                  "name": "New York Yankees vs Boston Red Sox",
-                  "streams": [
-                    {
-                      "id": "st-d943beec5b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aee4603008",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780814351_hd/1780814351_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "New York Yankees",
-            "team_b": "Boston Red Sox",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/New_York_Yankees_Primary_Logo.svg/1280px-New_York_Yankees_Primary_Logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/9/95/Boston_red_sox_logo.png",
-            "time": "00:35:00",
-            "date": "08/06",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d943beec5b_b7cbdf0a_20260608.png?v=b7cbdf0a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c4d587f765",
           "name": "Chicago Cubs  vs San Francisco Giants | 07:30 08/06",
