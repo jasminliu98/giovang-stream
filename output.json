@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "10:00:00",
             "date": "07/06",
             "blv": "blv-leo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -596,7 +596,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -609,10 +609,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -661,7 +661,7 @@
             "time": "10:00:00",
             "date": "07/06",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1421,6 +1421,78 @@
           }
         },
         {
+          "id": "gv-59cd5ee129",
+          "name": "TES vs WE | 16:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-59cd5ee129",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-59cd5ee129",
+                  "name": "TES vs WE",
+                  "streams": [
+                    {
+                      "id": "st-59cd5ee129",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5e5962049a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780800025_hd/1780800025_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LPL",
+            "team_a": "TES",
+            "team_b": "WE",
+            "logo_a": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1592592064571_TopEsportsTES-01-FullonDark.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/7/78/Team_WE_logo.png",
+            "time": "16:00:00",
+            "date": "07/06",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-59cd5ee129_25c5ccb4_20260607.png?v=25c5ccb4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-b526ecb614",
           "name": "Formula 1 vs Monaco Grand Prix | 20:00 07/06",
           "type": "single",
@@ -1488,6 +1560,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b526ecb614_54c5aa87_20260607.png?v=54c5aa87",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cd3f86bf54",
+          "name": "G2 vs KC | 22:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd3f86bf54",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cd3f86bf54",
+                  "name": "G2 vs KC",
+                  "streams": [
+                    {
+                      "id": "st-cd3f86bf54",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e4e46b25",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780800082_hd/1780800082_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LEC Final",
+            "team_a": "G2",
+            "team_b": "KC",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/1/12/Esports_organization_G2_Esports_logo.svg",
+            "logo_b": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1704714951336_KC.png",
+            "time": "22:00:00",
+            "date": "07/06",
+            "blv": "blv-can",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cd3f86bf54_3a2809dc_20260607.png?v=3a2809dc",
             "width": 1600,
             "height": 1200
           }
