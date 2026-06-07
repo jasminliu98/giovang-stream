@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0b09e7796f",
-          "name": "Hy Lạp vs Ý | 02:00 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b09e7796f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0b09e7796f",
-                  "name": "Hy Lạp vs Ý",
-                  "streams": [
-                    {
-                      "id": "st-0b09e7796f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1e20052f98",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780815010_hd/1780815010_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Hy Lạp",
-            "team_b": "Ý",
-            "logo_a": "https://images.keovip88.net/images/teams/greece.png",
-            "logo_b": "https://images.keovip88.net/images/teams/italy.png",
-            "time": "02:00:00",
-            "date": "08/06",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0b09e7796f_7afc1a6e_20260608.png?v=7afc1a6e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-148a776e22",
           "name": "Ma Rốc vs Na Uy | 02:00 08/06",
@@ -813,6 +741,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-52ef7390a5_40dc1d28_20260608.png?v=40dc1d28",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-41f62d48e8",
+          "name": "Marikina Shoemasters vs Binan Tatak Gel | 19:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41f62d48e8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-41f62d48e8",
+                  "name": "Marikina Shoemasters vs Binan Tatak Gel",
+                  "streams": [
+                    {
+                      "id": "st-41f62d48e8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-baedacba44",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780865940_hd/1780865940_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MPBL",
+            "team_a": "Marikina Shoemasters",
+            "team_b": "Binan Tatak Gel",
+            "logo_a": "https://static.flashscore.com/res/image/data/tlCKGiAr-MXG9dGHE.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/UiJBsUXg-UPjtK31f.png",
+            "time": "19:00:00",
+            "date": "08/06",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-41f62d48e8_05da1218_20260608.png?v=05da1218",
             "width": 1600,
             "height": 1200
           }
