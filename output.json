@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-34725723e3",
-          "name": "Thể Công Viettel vs Công An Hà Nội | 18:00 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-34725723e3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-34725723e3",
-                  "name": "Thể Công Viettel vs Công An Hà Nội",
-                  "streams": [
-                    {
-                      "id": "st-34725723e3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cdc2913e78",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780716804_hd/1780716804_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Thể Công Viettel",
-            "team_b": "Công An Hà Nội",
-            "logo_a": "https://images.keovip88.net/images/teams/viettel-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/cong-an-ha-noi.png",
-            "time": "18:00:00",
-            "date": "07/06",
-            "blv": "blv-bon",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-34725723e3_9d56796a_20260607.png?v=9d56796a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1dac9a7c4f",
           "name": "Kosovo vs Andorra | 01:00 08/06",
@@ -974,83 +902,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-952692e095",
-          "name": "China vs Poland | 18:00 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-952692e095",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-952692e095",
-                  "name": "China vs Poland",
-                  "streams": [
-                    {
-                      "id": "st-952692e095",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bfa27d7e66",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780712432_hd/1780712432_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "China",
-            "team_b": "Poland",
-            "logo_a": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WKTUghyB-612vZEE1.png",
-            "time": "18:00:00",
-            "date": "07/06",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-952692e095_2af313a8_20260607.png?v=2af313a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-576b2da03d",
           "name": "Dominican Republic vs Netherlands | 21:00 07/06",
@@ -1487,83 +1343,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b526ecb614",
-          "name": "Formula 1 vs Monaco Grand Prix | 20:00 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b526ecb614",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b526ecb614",
-                  "name": "Formula 1 vs Monaco Grand Prix",
-                  "streams": [
-                    {
-                      "id": "st-b526ecb614",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-943caa6fbe",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780711636_hd/1780711636_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Formula 1 Monaco",
-            "team_a": "Formula 1",
-            "team_b": "Monaco Grand Prix",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/45/F1_logo.svg",
-            "logo_b": "https://i.ytimg.com/vi/8hLmM59FnT8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB7tWWQVOFQfRG48xX06hl8ropS9g",
-            "time": "20:00:00",
-            "date": "07/06",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b526ecb614_54c5aa87_20260607.png?v=54c5aa87",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cd3f86bf54",
           "name": "G2 vs KC | 22:00 07/06",
@@ -1794,6 +1578,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d943beec5b_b7cbdf0a_20260607.png?v=b7cbdf0a",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_duaxe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-b526ecb614",
+          "name": "Formula 1 vs Monaco Grand Prix | 20:00 07/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b526ecb614",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b526ecb614",
+                  "name": "Formula 1 vs Monaco Grand Prix",
+                  "streams": [
+                    {
+                      "id": "st-b526ecb614",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-943caa6fbe",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780711636_hd/1780711636_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Formula 1 Monaco",
+            "team_a": "Formula 1",
+            "team_b": "Monaco Grand Prix",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/45/F1_logo.svg",
+            "logo_b": "https://i.ytimg.com/vi/8hLmM59FnT8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB7tWWQVOFQfRG48xX06hl8ropS9g",
+            "time": "20:00:00",
+            "date": "07/06",
+            "blv": "blv-ngu",
+            "is_live": true,
+            "cate_type": "duaxe"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b526ecb614_54c5aa87_20260607.png?v=54c5aa87",
             "width": 1600,
             "height": 1200
           }
