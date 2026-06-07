@@ -375,6 +375,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-ffdf877238",
+          "name": "Uganda vs Madagascar | 19:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ffdf877238",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ffdf877238",
+                  "name": "Uganda vs Madagascar",
+                  "streams": [
+                    {
+                      "id": "st-ffdf877238",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c094d2795b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780863136_hd/1780863136_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Uganda",
+            "team_b": "Madagascar",
+            "logo_a": "https://images.keovip88.net/images/teams/uganda.png",
+            "logo_b": "https://images.keovip88.net/images/teams/madagascar.png",
+            "time": "19:00:00",
+            "date": "08/06",
+            "blv": "blv-leo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ffdf877238_d87ca8ca_20260608.png?v=d87ca8ca",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
