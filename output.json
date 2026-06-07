@@ -1320,6 +1320,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-6494481258",
+          "name": "Toronto Tempo W vs Chicago Sky W | 02:00 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6494481258",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6494481258",
+                  "name": "Toronto Tempo W vs Chicago Sky W",
+                  "streams": [
+                    {
+                      "id": "st-6494481258",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c90eacfcac",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780815456_hd/1780815456_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Toronto Tempo W",
+            "team_b": "Chicago Sky W",
+            "logo_a": "https://static.flashscore.com/res/image/data/bs4BkvzB-KOUexDHq.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/ID1vxUZA-t67FITyc.png",
+            "time": "02:00:00",
+            "date": "08/06",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6494481258_53409bee_20260607.png?v=53409bee",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
