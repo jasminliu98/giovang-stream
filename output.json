@@ -1847,7 +1847,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1920,78 +1920,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-23ee1828c8_8e061d4a_20260607.png?v=8e061d4a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-59cd5ee129",
-          "name": "TES vs WE | 16:00 07/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-59cd5ee129",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-59cd5ee129",
-                  "name": "TES vs WE",
-                  "streams": [
-                    {
-                      "id": "st-59cd5ee129",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5e5962049a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780800025_hd/1780800025_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LPL",
-            "team_a": "TES",
-            "team_b": "WE",
-            "logo_a": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1592592064571_TopEsportsTES-01-FullonDark.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/7/78/Team_WE_logo.png",
-            "time": "16:00:00",
-            "date": "07/06",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-59cd5ee129_25c5ccb4_20260607.png?v=25c5ccb4",
             "width": 1600,
             "height": 1200
           }
