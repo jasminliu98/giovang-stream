@@ -1059,6 +1059,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-c4d587f765",
+          "name": "Chicago Cubs  vs San Francisco Giants | 07:30 08/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c4d587f765",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c4d587f765",
+                  "name": "Chicago Cubs  vs San Francisco Giants",
+                  "streams": [
+                    {
+                      "id": "st-c4d587f765",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cc27ddf19a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780858796_hd/1780858796_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Chicago Cubs ",
+            "team_b": "San Francisco Giants",
+            "logo_a": "https://1000logos.net/wp-content/uploads/2017/07/Chicago-Cubs-Logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/San_Francisco_Giants_Logo.svg/1280px-San_Francisco_Giants_Logo.svg.png",
+            "time": "07:30:00",
+            "date": "08/06",
+            "blv": "blv-can",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c4d587f765_3f975a45_20260608.png?v=3f975a45",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
