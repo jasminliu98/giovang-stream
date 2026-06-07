@@ -92,10 +92,13 @@ CATE_MAP = {
     "caulong":    "🏸 Cầu Lông",
     "vothuat":    "🥊 Võ Thuật",
     "bongchay":   "⚾ Bóng Chày",
+    "duaxe":      "🏎️ Đua Xe",
 }
 
 CATE_ORDER = ["football", "basketball", "tennis", "bongchuyen",
-              "esport", "caulong", "vothuat", "bongchay"]
+              "esport", "caulong", "vothuat", "bongchay", "duaxe"]
+
+MOTORSPORT_KW = ["formula", "f1", "grand prix", "motogp", "nascar", "indycar", "đua xe"]
 
 EXCLUDE_LEAGUES_AMERICA = [
     "mls", "major league soccer",
@@ -278,7 +281,7 @@ def make_thumbnail(match, channel_id):
     # Định dạng thời gian trên thumbnail: HH:MM DD/MM
     time_fmt = format_time_hhmm(match.get("time", ""))
     date_fmt = format_date_ddmm(match.get("date", ""))
-    
+
     time_display = ""
     if time_fmt and date_fmt:
         time_display = f"{time_fmt} {date_fmt}"
@@ -286,7 +289,6 @@ def make_thumbnail(match, channel_id):
         time_display = time_fmt
 
     if time_display:
-        # Tự động thu nhỏ font nếu chuỗi thời gian quá dài
         font_size = 100
         f_time = font_time
         while font_size >= 40:
@@ -299,7 +301,6 @@ def make_thumbnail(match, channel_id):
                 break
             font_size -= 4
 
-        # Hiệu ứng bóng đổ cho chữ thời gian
         draw.text((W // 2 + 4, time_y + 4), time_display,
                   fill=ACCENT, font=f_time, anchor="mm")
         draw.text((W // 2, time_y), time_display,
@@ -410,6 +411,15 @@ def get_blv_names(blv_list: list) -> str:
     return ", ".join(names)
 
 
+def resolve_cate_type(raw_type: str, league_name: str, team_a: str, team_b: str) -> str:
+    """Override cate_type dựa trên keyword đua xe, dù API trả về type gì."""
+    league_lower = league_name.lower()
+    name_lower   = (team_a + " " + team_b).lower()
+    if any(kw in league_lower or kw in name_lower for kw in MOTORSPORT_KW):
+        return "duaxe"
+    return raw_type
+
+
 def get_matches() -> list:
     live_items = fetch_json(API_LIVE)
     all_items  = fetch_json(API_ALL)
@@ -424,7 +434,7 @@ def get_matches() -> list:
     matches = []
     for item in seen.values():
         match_id    = item.get("id", "")
-        cate_type   = item.get("type", "football")
+        raw_type    = item.get("type", "football")
         status_code = item.get("status_code", "NS")
         blv_list    = item.get("blv") or []
         time_str    = item.get("time", "")
@@ -452,6 +462,9 @@ def get_matches() -> list:
         real_blv = [b for b in blv_list if b != "nha-dai"]
         if not real_blv:
             continue
+
+        # Override cate_type nếu là đua xe
+        cate_type = resolve_cate_type(raw_type, league_name, team_a, team_b)
 
         if cate_type == "football" and is_america_league(league_name):
             continue
@@ -501,17 +514,15 @@ def get_live_url(match_id: str) -> str | None:
         url = f"{API_DETAIL}{match_id}"
         res = requests.get(url, headers=HEADERS, timeout=10)
         data = res.json()
-        
-        # Xử lý trường hợp API bọc dữ liệu trong key "response"
+
         fixture_data = data
         if isinstance(data, dict) and "response" in data:
             fixture_data = data["response"]
-            # Nếu response là list thì lấy object đầu tiên
             if isinstance(fixture_data, list) and len(fixture_data) > 0:
                 fixture_data = fixture_data[0]
-                
+
         blv_list = fixture_data.get("blv", []) if isinstance(fixture_data, dict) else []
-        
+
         if isinstance(blv_list, list):
             for blv in blv_list:
                 if isinstance(blv, dict):
@@ -552,10 +563,9 @@ def build_channel(match: dict, stream_url: str, thumb_url: str = "") -> dict:
     label_text  = "● LIVE" if match["is_live"] else "🕐 Sắp"
     label_color = "#ff4444" if match["is_live"] else "#aaaaaa"
 
-    # Định dạng lại thời gian và ngày tháng cho tên kênh
     time_fmt = format_time_hhmm(match["time"])
     date_fmt = format_date_ddmm(match["date"])
-    
+
     display_name = match["name"]
     if time_fmt and date_fmt:
         display_name = f"{match['name']} | {time_fmt} {date_fmt}"
@@ -631,8 +641,7 @@ def main():
         print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({log_time} {log_date}) | BLV: {match['blv']}")
 
         stream_url = None
-        
-        # Lấy link từ API chi tiết (Áp dụng chung cho cả Live và Sắp)
+
         raw_url = get_live_url(match["match_id"])
 
         if raw_url:
@@ -660,7 +669,6 @@ def main():
             cate_channels[cate_type] = []
         cate_channels[cate_type].append(channel)
 
-        # Nghỉ 0.2s để không bị server chặn do gọi API chi tiết liên tục
         time.sleep(0.2)
 
     groups = []
