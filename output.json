@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1707bbf3f1",
-          "name": "U21 Ý vs U21 Albania | 23:15 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1707bbf3f1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1707bbf3f1",
-                  "name": "U21 Ý vs U21 Albania",
-                  "streams": [
-                    {
-                      "id": "st-1707bbf3f1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-870c97c585",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780929602_hd/1780929602_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "U21 Ý",
-            "team_b": "U21 Albania",
-            "logo_a": "https://images.keovip88.net/images/teams/italy-u21.png",
-            "logo_b": "https://images.keovip88.net/images/teams/albania-u21.png",
-            "time": "23:15:00",
-            "date": "08/06",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1707bbf3f1_637d4c87_20260609.png?v=637d4c87",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-c9ee1e13de",
           "name": "Venezuela U20  vs Bồ Đào Nha U20 | 23:30 08/06",
           "type": "single",
@@ -168,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +148,7 @@
             "time": "01:45:00",
             "date": "09/06",
             "blv": "BLV Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
