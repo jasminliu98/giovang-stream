@@ -114,25 +114,7 @@
                     {
                       "id": "st-146270cd75",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5e8a7b253d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780866533_hd/1780866533_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -330,7 +312,25 @@
                     {
                       "id": "st-8b4fe0265e",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-dca4c7f6ec",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780929548_hd/1780929548_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -456,25 +456,7 @@
                     {
                       "id": "st-1707bbf3f1",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-870c97c585",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780929602_hd/1780929602_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1016,6 +998,150 @@
           }
         },
         {
+          "id": "gv-261f780c4e",
+          "name": "Connecticut Sun W  vs New York Liberty W | 06:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-261f780c4e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-261f780c4e",
+                  "name": "Connecticut Sun W  vs New York Liberty W",
+                  "streams": [
+                    {
+                      "id": "st-261f780c4e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ae00bfaf2f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780930507_hd/1780930507_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Connecticut Sun W ",
+            "team_b": "New York Liberty W",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/0/09/Connecticut_Sun_logo.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFsEkiU1gOwmarpw9ErB0OrMqNBZSXWNG6g&s",
+            "time": "06:00:00",
+            "date": "09/06",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-261f780c4e_ecf38798_20260608.png?v=ecf38798",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-32c0036af7",
+          "name": "Washington Mystics W vs  Indiana Fever W | 06:00 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-32c0036af7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-32c0036af7",
+                  "name": "Washington Mystics W vs  Indiana Fever W",
+                  "streams": [
+                    {
+                      "id": "st-32c0036af7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b6c925995c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780930572_hd/1780930572_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Washington Mystics W",
+            "team_b": " Indiana Fever W",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBUQUtM1l9MT0iBK4mOsRrAGoMKztfT30POpNe22lJQ&s=10",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/5/54/Indiana_Fever_logo.svg",
+            "time": "06:00:00",
+            "date": "09/06",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-32c0036af7_a592c693_20260608.png?v=a592c693",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-5b3c7ae7f3",
           "name": "New York Knicks vs San Antonio Spurs | 07:30 09/06",
           "type": "single",
@@ -1168,6 +1294,78 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-02606d03b1",
+          "name": "Cleveland Guardians  vs New York Yankees | 05:40 09/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-02606d03b1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-02606d03b1",
+                  "name": "Cleveland Guardians  vs New York Yankees",
+                  "streams": [
+                    {
+                      "id": "st-02606d03b1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3d7d0d183a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780930680_hd/1780930680_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB ",
+            "team_a": "Cleveland Guardians ",
+            "team_b": "New York Yankees",
+            "logo_a": "https://static.flashscore.com/res/image/data/CMe9zXzS-QNrz0V5B.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
+            "time": "05:40:00",
+            "date": "09/06",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-02606d03b1_dd3999d5_20260608.png?v=dd3999d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-becc6f1e02",
           "name": "San Diego Padres vs Cincinati Reds | 08:40 09/06",
