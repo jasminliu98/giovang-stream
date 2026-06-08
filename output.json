@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c9ee1e13de_722dbaa0_20260609.png?v=722dbaa0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bff265f2a5",
-          "name": "Đức Nữ U23 vs U23 Nữ Đan Mạch | 01:15 09/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bff265f2a5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bff265f2a5",
-                  "name": "Đức Nữ U23 vs U23 Nữ Đan Mạch",
-                  "streams": [
-                    {
-                      "id": "st-bff265f2a5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5228753806",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780930073_hd/1780930073_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Đức Nữ U23",
-            "team_b": "U23 Nữ Đan Mạch",
-            "logo_a": "https://images.keovip88.net/images/teams/germany-w-u23.png",
-            "logo_b": "https://images.keovip88.net/images/teams/denmark-w-u23.png",
-            "time": "01:15:00",
-            "date": "09/06",
-            "blv": "blv-mat",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bff265f2a5_a684d74a_20260609.png?v=a684d74a",
             "width": 1600,
             "height": 1200
           }
@@ -524,83 +452,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c45765063a",
-          "name": "Unics Kazan  vs CSKA Moscow | 23:30 08/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c45765063a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c45765063a",
-                  "name": "Unics Kazan  vs CSKA Moscow",
-                  "streams": [
-                    {
-                      "id": "st-c45765063a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4864dc339a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780930420_hd/1780930420_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VTB",
-            "team_a": "Unics Kazan ",
-            "team_b": "CSKA Moscow",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/2/27/UNICS_logo_2014.png/250px-UNICS_logo_2014.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMKiFb063wSCU1cBiceCtztv8TA_Np_9SYHby8IWGUbg&s",
-            "time": "23:30:00",
-            "date": "08/06",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c45765063a_77791972_20260609.png?v=77791972",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-261f780c4e",
           "name": "Connecticut Sun W  vs New York Liberty W | 06:00 09/06",
