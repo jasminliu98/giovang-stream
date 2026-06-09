@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9fb75d5d9e",
-          "name": "Kyrgyzstan vs Palestine | 21:30 09/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9fb75d5d9e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9fb75d5d9e",
-                  "name": "Kyrgyzstan vs Palestine",
-                  "streams": [
-                    {
-                      "id": "st-9fb75d5d9e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bbe2df4fe4",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780981927_hd/1780981927_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Kyrgyzstan",
-            "team_b": "Palestine",
-            "logo_a": "https://images.keovip88.net/images/teams/kyrgyzstan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/palestine.png",
-            "time": "21:30:00",
-            "date": "09/06",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9fb75d5d9e_fe082d9d_20260609.png?v=fe082d9d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-88078d39cf",
           "name": "Tajikistan vs Ấn Độ | 22:00 09/06",
@@ -444,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f330d4667f_044565ec_20260609.png?v=044565ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d48fe49849",
-          "name": "Serbia vs Denmark | 00:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d48fe49849",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d48fe49849",
-                  "name": "Serbia vs Denmark",
-                  "streams": [
-                    {
-                      "id": "st-d48fe49849",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a92cbf615f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780975902_hd/1780975902_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vòng loại World Cup Nữ",
-            "team_a": "Serbia",
-            "team_b": "Denmark",
-            "logo_a": "https://static.flashscore.com/res/image/data/2NUY9fYA-h6SRz2xL.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/nHFMNnGG-8Q45Qxt1.png",
-            "time": "00:00:00",
-            "date": "10/06",
-            "blv": "BLV Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d48fe49849_ec9edc60_20260609.png?v=ec9edc60",
             "width": 1600,
             "height": 1200
           }
@@ -978,7 +834,25 @@
                     {
                       "id": "st-8e1f93fa12",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-991e4f156e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780976309_hd/1780976309_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
