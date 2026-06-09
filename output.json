@@ -114,7 +114,25 @@
                     {
                       "id": "st-ffcfb399fd",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e8d3b4d4",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780964084_hd/1780964084_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
