@@ -402,7 +402,25 @@
                     {
                       "id": "st-c59080aef2",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ecc2a8c70",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780964226_hd/1780964226_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -515,83 +533,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-02606d03b1",
-          "name": "Cleveland Guardians  vs New York Yankees | 05:40 09/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-02606d03b1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-02606d03b1",
-                  "name": "Cleveland Guardians  vs New York Yankees",
-                  "streams": [
-                    {
-                      "id": "st-02606d03b1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3d7d0d183a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1780930680_hd/1780930680_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB ",
-            "team_a": "Cleveland Guardians ",
-            "team_b": "New York Yankees",
-            "logo_a": "https://static.flashscore.com/res/image/data/CMe9zXzS-QNrz0V5B.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
-            "time": "05:40:00",
-            "date": "09/06",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-02606d03b1_dd3999d5_20260609.png?v=dd3999d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-becc6f1e02",
           "name": "San Diego Padres vs Cincinati Reds | 08:40 09/06",
