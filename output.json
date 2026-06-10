@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-00d2a1c857",
-          "name": "Pakistan vs Afghanistan | 23:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-00d2a1c857",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-00d2a1c857",
-                  "name": "Pakistan vs Afghanistan",
-                  "streams": [
-                    {
-                      "id": "st-00d2a1c857",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-97b00d1af9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781100573_hd/1781100573_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Pakistan",
-            "team_b": "Afghanistan",
-            "logo_a": "https://images.keovip88.net/images/teams/pakistan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/afghanistan.png",
-            "time": "23:00:00",
-            "date": "10/06",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-00d2a1c857_21f435f6_20260611.png?v=21f435f6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-56ec5f13ee",
           "name": "Colombia U19  vs Tunisia U23 | 23:59 10/06",
