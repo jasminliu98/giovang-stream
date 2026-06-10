@@ -10,45 +10,45 @@
   },
   "groups": [
     {
-      "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-17f1c2104f",
-          "name": "Cuba vs Poland | 12:00 10/06",
+          "id": "gv-902c7f5374",
+          "name": "San Diego Padres  vs Cincinati Reds | 08:40 10/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-17f1c2104f",
+              "id": "src-902c7f5374",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-17f1c2104f",
-                  "name": "Cuba vs Poland",
+                  "id": "ct-902c7f5374",
+                  "name": "San Diego Padres  vs Cincinati Reds",
                   "streams": [
                     {
-                      "id": "st-17f1c2104f",
+                      "id": "st-902c7f5374",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-6dd6a41be6",
+                          "id": "lnk-f547a90612",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781025543_hd/1781025543_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781025341_hd/1781025341_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,22 +68,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Nations League ",
-            "team_a": "Cuba",
-            "team_b": "Poland",
-            "logo_a": "https://static.flashscore.com/res/image/data/27lnLiZg-fomCGwjD.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WnW15DfM-6ys9CWQj.png",
-            "time": "12:00:00",
+            "league": "MLB",
+            "team_a": "San Diego Padres ",
+            "team_b": "Cincinati Reds",
+            "logo_a": "https://static.flashscore.com/res/image/data/YsFz7vWg-plL3Lm41.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tUgxR1zB-hxmcgnNf.png",
+            "time": "08:40:00",
             "date": "10/06",
-            "blv": "BLV Điếc",
-            "is_live": false,
-            "cate_type": "bongchuyen"
+            "blv": "blv-ngu",
+            "is_live": true,
+            "cate_type": "bongchay"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-17f1c2104f_6d3ab4f4_20260610.png?v=6d3ab4f4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-902c7f5374_52b4f6e5_20260610.png?v=52b4f6e5",
             "width": 1600,
             "height": 1200
           }
