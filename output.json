@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a1736a54e6",
-          "name": "Fubon Braves vs Taoyuan Pauian Pilots | 18:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a1736a54e6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a1736a54e6",
-                  "name": "Fubon Braves vs Taoyuan Pauian Pilots",
-                  "streams": [
-                    {
-                      "id": "st-a1736a54e6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a11ac0ae62",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781073382_hd/1781073382_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Taiwan",
-            "team_a": "Fubon Braves",
-            "team_b": "Taoyuan Pauian Pilots",
-            "logo_a": "https://static.flashscore.com/res/image/data/Ie0wYPZA-ja1iLwgA.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QX5oBfWg-SbVkMQLN.png",
-            "time": "18:00:00",
-            "date": "10/06",
-            "blv": "blv-lac",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a1736a54e6_b6fa00d7_20260610.png?v=b6fa00d7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6fd6439337",
           "name": "TNT Tropang 5G vs Barangay Ginebra San Miguel | 18:35 10/06",
