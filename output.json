@@ -618,7 +618,25 @@
                     {
                       "id": "st-2a5aef91f2",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-578862ab0c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781101982_hd/1781101982_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1092,6 +1110,231 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3b7374fc1f_e4957cb6_20260610.png?v=e4957cb6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-eb11382cd7",
+          "name": "Brazil  vs Iran | 06:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eb11382cd7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-eb11382cd7",
+                  "name": "Brazil  vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-eb11382cd7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f41ebf3ad7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781102681_hd/1781102681_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League ",
+            "team_a": "Brazil ",
+            "team_b": "Iran",
+            "logo_a": "https://ih1.redbubble.net/image.2547126730.2065/raf,360x360,075,t,fafafa:ca443f4786.jpg",
+            "logo_b": "https://pbs.twimg.com/profile_images/741102242762096640/iOTASjab.jpg",
+            "time": "06:00:00",
+            "date": "11/06",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-eb11382cd7_d8b155e2_20260610.png?v=d8b155e2",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-a389d32750",
+          "name": "Cleveland Guardians  vs New York Yankees | 00:10 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a389d32750",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a389d32750",
+                  "name": "Cleveland Guardians  vs New York Yankees",
+                  "streams": [
+                    {
+                      "id": "st-a389d32750",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dd2eb4ba20",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781102804_hd/1781102804_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MBL",
+            "team_a": "Cleveland Guardians ",
+            "team_b": "New York Yankees",
+            "logo_a": "https://static.flashscore.com/res/image/data/CMe9zXzS-QNrz0V5B.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
+            "time": "00:10:00",
+            "date": "11/06",
+            "blv": "blv-ngu",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a389d32750_dd3999d5_20260610.png?v=dd3999d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6dbc3b96c6",
+          "name": "Pittsburg Pirates  vs Los Angeles Dodgers | 05:40 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6dbc3b96c6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6dbc3b96c6",
+                  "name": "Pittsburg Pirates  vs Los Angeles Dodgers",
+                  "streams": [
+                    {
+                      "id": "st-6dbc3b96c6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e233a53559",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781102871_hd/1781102871_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MBL",
+            "team_a": "Pittsburg Pirates ",
+            "team_b": "Los Angeles Dodgers",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/gV1Eeg-phmjgjSn8BoLLZA_96x96.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/LA_Dodgers.svg/960px-LA_Dodgers.svg.png",
+            "time": "05:40:00",
+            "date": "11/06",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6dbc3b96c6_80b56610_20260610.png?v=80b56610",
             "width": 1600,
             "height": 1200
           }
