@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "02:00:00",
             "date": "11/06",
             "blv": "BLV Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1109,83 +1109,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fa7d1019ac",
-          "name": "Belgium  vs Bulgaria | 23:00 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fa7d1019ac",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fa7d1019ac",
-                  "name": "Belgium  vs Bulgaria",
-                  "streams": [
-                    {
-                      "id": "st-fa7d1019ac",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-895e8af6e6",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781102378_hd/1781102378_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League ",
-            "team_a": "Belgium ",
-            "team_b": "Bulgaria",
-            "logo_a": "https://static.flashscore.com/res/image/data/QJWQSoYg-CUoVGnpd.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/r7q7GrzB-6ys9CWQj.png",
-            "time": "23:00:00",
-            "date": "10/06",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fa7d1019ac_c50d44a3_20260611.png?v=c50d44a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cc296a5dbd",
           "name": "Serbia  vs Argentina | 02:30 11/06",
@@ -1398,6 +1326,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-eb11382cd7_d8b155e2_20260611.png?v=d8b155e2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9687c2cebd",
+          "name": "Việt Nam vs Iran | 08:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9687c2cebd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9687c2cebd",
+                  "name": "Việt Nam vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-9687c2cebd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c36a09060d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781114966_hd/1781114966_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Women's Cup",
+            "team_a": "Việt Nam",
+            "team_b": "Iran",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/250px-Flag_of_Vietnam.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/330px-Flag_of_Iran.svg.png",
+            "time": "08:00:00",
+            "date": "11/06",
+            "blv": "blv-mat",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9687c2cebd_4ab7785e_20260611.png?v=4ab7785e",
             "width": 1600,
             "height": 1200
           }
