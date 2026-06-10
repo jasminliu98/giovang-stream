@@ -1478,83 +1478,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a389d32750",
-          "name": "Cleveland Guardians  vs New York Yankees | 23:59 10/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a389d32750",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a389d32750",
-                  "name": "Cleveland Guardians  vs New York Yankees",
-                  "streams": [
-                    {
-                      "id": "st-a389d32750",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dd2eb4ba20",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781102804_hd/1781102804_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MBL",
-            "team_a": "Cleveland Guardians ",
-            "team_b": "New York Yankees",
-            "logo_a": "https://static.flashscore.com/res/image/data/CMe9zXzS-QNrz0V5B.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
-            "time": "23:59:00",
-            "date": "10/06",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a389d32750_dd3999d5_20260611.png?v=dd3999d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6dbc3b96c6",
           "name": "Pittsburg Pirates  vs Los Angeles Dodgers | 05:40 11/06",
