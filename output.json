@@ -312,6 +312,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-6fd6439337",
+          "name": "TNT Tropang 5G vs Barangay Ginebra San Miguel | 18:35 10/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6fd6439337",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6fd6439337",
+                  "name": "TNT Tropang 5G vs Barangay Ginebra San Miguel",
+                  "streams": [
+                    {
+                      "id": "st-6fd6439337",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa85481304",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781073821_hd/1781073821_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PBL",
+            "team_a": "TNT Tropang 5G",
+            "team_b": "Barangay Ginebra San Miguel",
+            "logo_a": "https://static.flashscore.com/res/image/data/nTNHGwAr-hCospehC.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hWf7PfGG-67i7cfzM.png",
+            "time": "18:35:00",
+            "date": "10/06",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6fd6439337_6a55b31c_20260610.png?v=6a55b31c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
