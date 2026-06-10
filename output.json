@@ -618,25 +618,7 @@
                     {
                       "id": "st-2a5aef91f2",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-578862ab0c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781101982_hd/1781101982_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -821,7 +803,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -834,10 +816,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -886,7 +868,7 @@
             "time": "22:00:00",
             "date": "10/06",
             "blv": "blv-can",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -966,6 +948,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fa7d1019ac_c50d44a3_20260610.png?v=c50d44a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cc296a5dbd",
+          "name": "Serbia  vs Argentina | 02:30 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cc296a5dbd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cc296a5dbd",
+                  "name": "Serbia  vs Argentina",
+                  "streams": [
+                    {
+                      "id": "st-cc296a5dbd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a7f8a228c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781102508_hd/1781102508_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League ",
+            "team_a": "Serbia ",
+            "team_b": "Argentina",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQibnV-ybMmNWDvYhAr4E9GdiY6e37cz8SAdQ&s",
+            "logo_b": "https://ih1.redbubble.net/image.2547012324.9091/st,small,507x507-pad,600x600,f8f8f8.jpg",
+            "time": "02:30:00",
+            "date": "11/06",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cc296a5dbd_f01ef9bc_20260610.png?v=f01ef9bc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3b7374fc1f",
+          "name": "France  vs Italy | 03:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3b7374fc1f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3b7374fc1f",
+                  "name": "France  vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-3b7374fc1f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e1c1b1cca1",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781102611_hd/1781102611_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League ",
+            "team_a": "France ",
+            "team_b": "Italy",
+            "logo_a": "https://static.flashscore.com/res/image/data/dnoZORwS-rcthslVl.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8GPRc1yB-xCsenx2O.png",
+            "time": "03:00:00",
+            "date": "11/06",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3b7374fc1f_e4957cb6_20260610.png?v=e4957cb6",
             "width": 1600,
             "height": 1200
           }
