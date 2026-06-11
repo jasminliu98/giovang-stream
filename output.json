@@ -236,83 +236,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a100c9adde",
-          "name": "Da Nang Dragons  vs Can Tho Catfish | 19:30 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a100c9adde",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a100c9adde",
-                  "name": "Da Nang Dragons  vs Can Tho Catfish",
-                  "streams": [
-                    {
-                      "id": "st-a100c9adde",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d0abb68aab",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781163186_hd/1781163186_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VBA",
-            "team_a": "Da Nang Dragons ",
-            "team_b": "Can Tho Catfish",
-            "logo_a": "https://static.flashscore.com/res/image/data/jByEMYCr-j7mZGhp3.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pxwXwLeM-lhzSvQKA.png",
-            "time": "19:30:00",
-            "date": "11/06",
-            "blv": "blv-leo",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a100c9adde_d7085f1e_20260611.png?v=d7085f1e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-dcbac194e6",
           "name": "Barcelona vs Tenerife | 01:00 12/06",
