@@ -308,83 +308,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-09673c4700",
-          "name": "New York Knicks vs San Antonio Spurs | 07:30 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-09673c4700",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-09673c4700",
-                  "name": "New York Knicks vs San Antonio Spurs",
-                  "streams": [
-                    {
-                      "id": "st-09673c4700",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b286d523bd",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781113925_hd/1781113925_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "New York Knicks",
-            "team_b": "San Antonio Spurs",
-            "logo_a": "https://static.flashscore.com/res/image/data/UBTxFpcM-I30Q0K9l.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8f2WVCFG-SrHHDGUm.png",
-            "time": "07:30:00",
-            "date": "11/06",
-            "blv": "blv-lac, blv-can, BLV Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-09673c4700_c4767ef8_20260611.png?v=c4767ef8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6ada11c3b6",
           "name": "Seatle Storm W vs Los Angeles Sparks W | 09:00 11/06",
@@ -708,25 +636,7 @@
                     {
                       "id": "st-e02b8d42bb",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4309412f09",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781144246_hd/1781144246_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
