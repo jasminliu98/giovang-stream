@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "gv-9432ed7071",
-          "name": "Phu Dong  vs Viettel | 18:00 11/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9432ed7071",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9432ed7071",
-                  "name": "Phu Dong  vs Viettel",
-                  "streams": [
-                    {
-                      "id": "st-9432ed7071",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f061422f92",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781162182_hd/1781162182_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam - National Cup",
-            "team_a": "Phu Dong ",
-            "team_b": "Viettel",
-            "logo_a": "https://static.flashscore.com/res/image/data/vHkP4zDr-nD3eT8Ou.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/0Qfb99EG-vcLqLXYS.png",
-            "time": "18:00:00",
-            "date": "11/06",
-            "blv": "BLV Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9432ed7071_68650144_20260611.png?v=68650144",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-77f7049545",
           "name": "Nam Dinh  vs Hồ Chí Minh | 18:00 11/06",
           "type": "single",
@@ -228,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-77f7049545_c2475415_20260611.png?v=c2475415",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9432ed7071",
+          "name": "Phu Dong  vs Viettel | 18:00 11/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9432ed7071",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9432ed7071",
+                  "name": "Phu Dong  vs Viettel",
+                  "streams": [
+                    {
+                      "id": "st-9432ed7071",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f061422f92",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781162182_hd/1781162182_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam - National Cup",
+            "team_a": "Phu Dong ",
+            "team_b": "Viettel",
+            "logo_a": "https://static.flashscore.com/res/image/data/vHkP4zDr-nD3eT8Ou.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/0Qfb99EG-vcLqLXYS.png",
+            "time": "18:00:00",
+            "date": "11/06",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9432ed7071_68650144_20260611.png?v=68650144",
             "width": 1600,
             "height": 1200
           }
