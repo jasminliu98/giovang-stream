@@ -305,6 +305,150 @@
           }
         },
         {
+          "id": "gv-47622e3bca",
+          "name": "Audax Italiano vs La Serena | 07:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-47622e3bca",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-47622e3bca",
+                  "name": "Audax Italiano vs La Serena",
+                  "streams": [
+                    {
+                      "id": "st-47622e3bca",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-29b0c67de8",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781289869_hd/1781289869_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Chilê",
+            "team_a": "Audax Italiano",
+            "team_b": "La Serena",
+            "logo_a": "https://images.keovip88.net/images/teams/audax-italiano.png",
+            "logo_b": "https://images.keovip88.net/images/teams/deportes-la-serena.png",
+            "time": "07:00:00",
+            "date": "13/06",
+            "blv": "blv-ngong",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-47622e3bca_8440d318_20260613.png?v=8440d318",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-228772abcd",
+          "name": "Mỹ vs Paraguay | 08:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-228772abcd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-228772abcd",
+                  "name": "Mỹ vs Paraguay",
+                  "streams": [
+                    {
+                      "id": "st-228772abcd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-218e4f0d91",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781290077_hd/1781290077_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Mỹ",
+            "team_b": "Paraguay",
+            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/paraguay.png",
+            "time": "08:00:00",
+            "date": "13/06",
+            "blv": "blv-leo, BLV Dần",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-228772abcd_ac18af1f_20260613.png?v=ac18af1f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-33604aa6be",
           "name": "Lahti vs SJK Seinajoki | 23:00 13/06",
           "type": "single",
