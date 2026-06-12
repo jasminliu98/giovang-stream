@@ -686,7 +686,7 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -759,78 +759,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6233dd466c_791155b8_20260612.png?v=791155b8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8b29d51a2d",
-          "name": "Chicago White Sox vs Atlanta Braves | 06:40 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8b29d51a2d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8b29d51a2d",
-                  "name": "Chicago White Sox vs Atlanta Braves",
-                  "streams": [
-                    {
-                      "id": "st-8b29d51a2d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f9e47a1c9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781143725_hd/1781143725_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Chicago White Sox",
-            "team_b": "Atlanta Braves",
-            "logo_a": "https://static.flashscore.com/res/image/data/rHrt6LAr-MFkjl69i.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/IPmhSoEa-hvtJM6zJ.png",
-            "time": "06:40:00",
-            "date": "12/06",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8b29d51a2d_74da4eac_20260612.png?v=74da4eac",
             "width": 1600,
             "height": 1200
           }
