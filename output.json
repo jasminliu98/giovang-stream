@@ -87,6 +87,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-33604aa6be",
+          "name": "Lahti vs SJK Seinajoki | 23:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-33604aa6be",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-33604aa6be",
+                  "name": "Lahti vs SJK Seinajoki",
+                  "streams": [
+                    {
+                      "id": "st-33604aa6be",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-677aed8e76",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781255241_hd/1781255241_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan",
+            "team_a": "Lahti",
+            "team_b": "SJK Seinajoki",
+            "logo_a": "https://images.keovip88.net/images/teams/lahti.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sjk-seinajoen.png",
+            "time": "23:00:00",
+            "date": "13/06",
+            "blv": "blv-mat",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-33604aa6be_7f5154fc_20260612.png?v=7f5154fc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-495225002f",
+          "name": "IFK Mariehamn vs Gnistan | 23:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-495225002f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-495225002f",
+                  "name": "IFK Mariehamn vs Gnistan",
+                  "streams": [
+                    {
+                      "id": "st-495225002f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0f1b1bb5b2",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781255270_hd/1781255270_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan",
+            "team_a": "IFK Mariehamn",
+            "team_b": "Gnistan",
+            "logo_a": "https://images.keovip88.net/images/teams/ifk-mariehamn.png",
+            "logo_b": "https://images.keovip88.net/images/teams/gnistan-helsinki.png",
+            "time": "23:00:00",
+            "date": "13/06",
+            "blv": "BLV Hợi",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-495225002f_d331c5c7_20260612.png?v=d331c5c7",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -390,87 +534,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-477e15af56_97cd61c2_20260612.png?v=97cd61c2",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-d0e947625c",
-          "name": "Barcelona vs Catalunya | 22:00 12/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d0e947625c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d0e947625c",
-                  "name": "Barcelona vs Catalunya",
-                  "streams": [
-                    {
-                      "id": "st-d0e947625c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-14f1259c72",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781275610_hd/1781275610_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "F1",
-            "team_a": "Barcelona",
-            "team_b": "Catalunya",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/pt/1/19/Circuit_de_Barcelona-Catalunya_logo.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW8q5-ezZI4KGFrwSGmL-tC1HxItS3U84dvVGobGoNdw&s=10",
-            "time": "22:00:00",
-            "date": "12/06",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "duaxe"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d0e947625c_247c7e53_20260612.png?v=247c7e53",
             "width": 1600,
             "height": 1200
           }
