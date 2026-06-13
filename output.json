@@ -258,25 +258,7 @@
                     {
                       "id": "st-9c9b45e5c4",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-33179672de",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781339676_hd/1781339676_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -300,6 +282,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9c9b45e5c4_b4c692f5_20260613.png?v=b4c692f5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c04f357933",
+          "name": "Inter Turku vs AC Oulu | 19:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c04f357933",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c04f357933",
+                  "name": "Inter Turku vs AC Oulu",
+                  "streams": [
+                    {
+                      "id": "st-c04f357933",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5410712c32",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781339854_hd/1781339854_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan",
+            "team_a": "Inter Turku",
+            "team_b": "AC Oulu",
+            "logo_a": "https://images.keovip88.net/images/teams/inter-turku.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ac-oulu.png",
+            "time": "19:00:00",
+            "date": "13/06",
+            "blv": "BLV Dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c04f357933_51a470e5_20260613.png?v=51a470e5",
             "width": 1600,
             "height": 1200
           }
