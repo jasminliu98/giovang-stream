@@ -11,11 +11,155 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-47622e3bca",
+          "name": "Audax Italiano vs La Serena | 07:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-47622e3bca",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-47622e3bca",
+                  "name": "Audax Italiano vs La Serena",
+                  "streams": [
+                    {
+                      "id": "st-47622e3bca",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-29b0c67de8",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781289869_hd/1781289869_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Chilê",
+            "team_a": "Audax Italiano",
+            "team_b": "La Serena",
+            "logo_a": "https://images.keovip88.net/images/teams/audax-italiano.png",
+            "logo_b": "https://images.keovip88.net/images/teams/deportes-la-serena.png",
+            "time": "07:00:00",
+            "date": "13/06",
+            "blv": "blv-ngong",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-47622e3bca_8440d318_20260613.png?v=8440d318",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-228772abcd",
+          "name": "Mỹ vs Paraguay | 08:00 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-228772abcd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-228772abcd",
+                  "name": "Mỹ vs Paraguay",
+                  "streams": [
+                    {
+                      "id": "st-228772abcd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-218e4f0d91",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781290077_hd/1781290077_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Mỹ",
+            "team_b": "Paraguay",
+            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/paraguay.png",
+            "time": "08:00:00",
+            "date": "13/06",
+            "blv": "blv-leo, BLV Dần",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-228772abcd_ac18af1f_20260613.png?v=ac18af1f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-7b3f9e0713",
           "name": "University NSW vs St George Saints | 12:00 13/06",
@@ -596,11 +740,83 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-52c1ccb458",
+          "name": "Washington Mystics W vs Toronto Tempo W | 06:30 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52c1ccb458",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-52c1ccb458",
+                  "name": "Washington Mystics W vs Toronto Tempo W",
+                  "streams": [
+                    {
+                      "id": "st-52c1ccb458",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3e4043637a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781279224_hd/1781279224_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Washington Mystics W",
+            "team_b": "Toronto Tempo W",
+            "logo_a": "https://static.flashscore.com/res/image/data/v9aM9hWg-zPKhqktm.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/bs4BkvzB-KOUexDHq.png",
+            "time": "06:30:00",
+            "date": "13/06",
+            "blv": "BLV Ben",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-52c1ccb458_93d05415_20260613.png?v=93d05415",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-70afc31332",
           "name": "Nelson Giants vs Southland Sharks | 08:30 13/06",
@@ -1271,11 +1487,155 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-dc3e1d6c26",
+          "name": "Toronto Blue Jays  vs New York Yankees | 06:37 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc3e1d6c26",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dc3e1d6c26",
+                  "name": "Toronto Blue Jays  vs New York Yankees",
+                  "streams": [
+                    {
+                      "id": "st-dc3e1d6c26",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f80945cf42",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781282812_hd/1781282812_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Toronto Blue Jays ",
+            "team_b": "New York Yankees",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/7TiwS24jou41wScT8vDwAQ_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/kNiURsT2QKUI_jwkbgwPaw_96x96.png",
+            "time": "06:37:00",
+            "date": "13/06",
+            "blv": "BLV Cầy",
+            "is_live": true,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-dc3e1d6c26_7a877918_20260613.png?v=7a877918",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b77f77df00",
+          "name": "Chicago White Sox  vs Los Angeles Dodgers | 06:40 13/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b77f77df00",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b77f77df00",
+                  "name": "Chicago White Sox  vs Los Angeles Dodgers",
+                  "streams": [
+                    {
+                      "id": "st-b77f77df00",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7c82cbe0e7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781282882_hd/1781282882_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Chicago White Sox ",
+            "team_b": "Los Angeles Dodgers",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/vwedTKxQwO9pe5tcCyecWg_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png",
+            "time": "06:40:00",
+            "date": "13/06",
+            "blv": "blv-can",
+            "is_live": true,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b77f77df00_e2bed3ac_20260613.png?v=e2bed3ac",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-a89a2cc641",
           "name": "San Francisco Giants vs Chicago Cubs | 09:15 13/06",
