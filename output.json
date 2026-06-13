@@ -821,83 +821,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f448873741",
-          "name": "Việt Nam  vs Hàn Quốc | 18:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f448873741",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f448873741",
-                  "name": "Việt Nam  vs Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "st-f448873741",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-de753d8867",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781338890_hd/1781338890_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AVC Women's Cup - Tứ kết",
-            "team_a": "Việt Nam ",
-            "team_b": "Hàn Quốc",
-            "logo_a": "https://static.flashscore.com/res/image/data/vNL4gRYA-4I3lSGFh.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/E9rftfEa-G2bHWF8P.png",
-            "time": "18:00:00",
-            "date": "13/06",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f448873741_32c5aeb9_20260613.png?v=32c5aeb9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ec63ad859b",
           "name": "Cuba  vs Slovenia | 19:00 13/06",
