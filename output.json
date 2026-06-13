@@ -1838,83 +1838,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ead76efccd",
-          "name": "Gen.G  vs KT | 13:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ead76efccd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ead76efccd",
-                  "name": "Gen.G  vs KT",
-                  "streams": [
-                    {
-                      "id": "st-ead76efccd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-821ffc65ed",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781290622_hd/1781290622_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "Gen.G ",
-            "team_b": "KT",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/7/77/Gen.G_Logo.svg",
-            "logo_b": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
-            "time": "13:00:00",
-            "date": "13/06",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ead76efccd_6e3800e3_20260613.png?v=6e3800e3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-97eb4266ba",
           "name": "WE  vs BLG | 16:00 13/06",
@@ -1996,78 +1924,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-df33b3287a",
-          "name": "Barcelona vs Catalunya | 17:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-df33b3287a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-df33b3287a",
-                  "name": "Barcelona vs Catalunya",
-                  "streams": [
-                    {
-                      "id": "st-df33b3287a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7d1a2af8cc",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781326291_hd/1781326291_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "F1",
-            "team_a": "Barcelona",
-            "team_b": "Catalunya",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/pt/1/19/Circuit_de_Barcelona-Catalunya_logo.jpg",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW8q5-ezZI4KGFrwSGmL-tC1HxItS3U84dvVGobGoNdw&s=10",
-            "time": "17:00:00",
-            "date": "13/06",
-            "blv": "blv-ngu",
-            "is_live": false,
-            "cate_type": "duaxe"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-df33b3287a_247c7e53_20260613.png?v=247c7e53",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d160cb42ff",
           "name": "Barcelona vs Catalunya | 21:00 13/06",
