@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-228772abcd",
-          "name": "Mỹ vs Paraguay | 08:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-228772abcd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-228772abcd",
-                  "name": "Mỹ vs Paraguay",
-                  "streams": [
-                    {
-                      "id": "st-228772abcd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-218e4f0d91",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781290077_hd/1781290077_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Mỹ",
-            "team_b": "Paraguay",
-            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/paraguay.png",
-            "time": "08:00:00",
-            "date": "13/06",
-            "blv": "blv-leo, BLV Dần",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-228772abcd_ac18af1f_20260613.png?v=ac18af1f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7b3f9e0713",
           "name": "University NSW vs St George Saints | 12:00 13/06",
