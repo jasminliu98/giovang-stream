@@ -962,6 +962,78 @@
           }
         },
         {
+          "id": "gv-05821ad060",
+          "name": "Barangay Ginebra San Miguel vs TNT Tropang 5G | 18:30 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05821ad060",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-05821ad060",
+                  "name": "Barangay Ginebra San Miguel vs TNT Tropang 5G",
+                  "streams": [
+                    {
+                      "id": "st-05821ad060",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2a066fded7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781372692_hd/1781372692_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MPBL",
+            "team_a": "Barangay Ginebra San Miguel",
+            "team_b": "TNT Tropang 5G",
+            "logo_a": "https://static.flashscore.com/res/image/data/nTNHGwAr-hCospehC.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hWf7PfGG-67i7cfzM.png",
+            "time": "18:30:00",
+            "date": "14/06",
+            "blv": "blv-lac",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-05821ad060_6a55b31c_20260614.png?v=6a55b31c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-e12c197282",
           "name": "Joventut Badalona vs Valencia | 01:00 15/06",
           "type": "single",
@@ -1614,6 +1686,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-db0df1feae_e530917c_20260614.png?v=e530917c",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-4736b9ae55",
+          "name": "TES vs BLG | 16:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4736b9ae55",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4736b9ae55",
+                  "name": "TES vs BLG",
+                  "streams": [
+                    {
+                      "id": "st-4736b9ae55",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1cdb2d3e5",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781372432_hd/1781372432_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LPL Final",
+            "team_a": "TES",
+            "team_b": "BLG",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/a/ac/Top_Esports_logo.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/thumb/6/66/Bilibili_Gaming_logo_%282021%29.png/250px-Bilibili_Gaming_logo_%282021%29.png",
+            "time": "16:00:00",
+            "date": "14/06",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4736b9ae55_7912b9f4_20260614.png?v=7912b9f4",
             "width": 1600,
             "height": 1200
           }
