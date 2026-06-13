@@ -330,25 +330,7 @@
                     {
                       "id": "st-e1fcd7ec9b",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-46d37b5f9b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781344703_hd/1781344703_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -372,6 +354,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e1fcd7ec9b_176b37d2_20260613.png?v=176b37d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-23737134f9",
+          "name": "D. Concepcion vs Deportes Limache | 23:30 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-23737134f9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-23737134f9",
+                  "name": "D. Concepcion vs Deportes Limache",
+                  "streams": [
+                    {
+                      "id": "st-23737134f9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-63ebb9935f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781366198_hd/1781366198_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Chilê",
+            "team_a": "D. Concepcion",
+            "team_b": "Deportes Limache",
+            "logo_a": "https://images.keovip88.net/images/teams/d-concepcion.png",
+            "logo_b": "https://images.keovip88.net/images/teams/deportes-limache.png",
+            "time": "23:30:00",
+            "date": "14/06",
+            "blv": "blv-leo",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-23737134f9_d8846879_20260613.png?v=d8846879",
             "width": 1600,
             "height": 1200
           }
