@@ -377,6 +377,78 @@
           }
         },
         {
+          "id": "gv-2d66f89a75",
+          "name": "Haiti vs Scotland | 08:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2d66f89a75",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2d66f89a75",
+                  "name": "Haiti vs Scotland",
+                  "streams": [
+                    {
+                      "id": "st-2d66f89a75",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-800b497838",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781372843_hd/1781372843_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Haiti",
+            "team_b": "Scotland",
+            "logo_a": "https://images.keovip88.net/images/teams/haiti.png",
+            "logo_b": "https://images.keovip88.net/images/teams/scotland.png",
+            "time": "08:00:00",
+            "date": "14/06",
+            "blv": "diec-ben",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2d66f89a75_d5505e42_20260614.png?v=d5505e42",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-8a94e9fcf1",
           "name": "ShenZhen Juniors vs Guangxi Hengchen | 18:00 14/06",
           "type": "single",
@@ -1398,6 +1470,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ac9202450b_ba06448b_20260614.png?v=ba06448b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f1a8e11cac",
+          "name": "Slovenia vs Japan | 19:00 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1a8e11cac",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f1a8e11cac",
+                  "name": "Slovenia vs Japan",
+                  "streams": [
+                    {
+                      "id": "st-f1a8e11cac",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d72fe9178",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781372926_hd/1781372926_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "Slovenia",
+            "team_b": "Japan",
+            "logo_a": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/f552VMEa-E1YhvyqD.png",
+            "time": "19:00:00",
+            "date": "14/06",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f1a8e11cac_d574a545_20260614.png?v=d574a545",
             "width": 1600,
             "height": 1200
           }
