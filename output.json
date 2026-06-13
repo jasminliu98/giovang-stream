@@ -330,25 +330,7 @@
                     {
                       "id": "st-330ef5cf98",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96c8a8211f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781373268_hd/1781373268_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -474,7 +456,25 @@
                     {
                       "id": "st-5af34afa3d",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-53173aa498",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781373543_hd/1781373543_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1362,6 +1362,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f4be65d573_52622924_20260614.png?v=52622924",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3d47f4bd15",
+          "name": "Bờ Biển Ngà vs Ecuador | 06:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3d47f4bd15",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3d47f4bd15",
+                  "name": "Bờ Biển Ngà vs Ecuador",
+                  "streams": [
+                    {
+                      "id": "st-3d47f4bd15",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-988b8de3d7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781366963_hd/1781366963_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Bờ Biển Ngà",
+            "team_b": "Ecuador",
+            "logo_a": "https://images.keovip88.net/images/teams/ivory-coast.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ecuador.png",
+            "time": "06:00:00",
+            "date": "15/06",
+            "blv": "blv-ngu, blv-mat",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3d47f4bd15_26243348_20260614.png?v=26243348",
             "width": 1600,
             "height": 1200
           }
@@ -2850,7 +2922,25 @@
                     {
                       "id": "st-db0df1feae",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fccbf24fd6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781367531_hd/1781367531_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
