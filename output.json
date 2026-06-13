@@ -605,83 +605,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-7073198ce8",
-          "name": "Brazil  vs Serbia | 21:00 13/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7073198ce8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7073198ce8",
-                  "name": "Brazil  vs Serbia",
-                  "streams": [
-                    {
-                      "id": "st-7073198ce8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3bd5770136",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781339008_hd/1781339008_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League ",
-            "team_a": "Brazil ",
-            "team_b": "Serbia",
-            "logo_a": "https://static.flashscore.com/res/image/data/OM8Y9ODa-vBKZiE2j.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/vDiyVxhl-6ys9CWQj.png",
-            "time": "21:00:00",
-            "date": "13/06",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7073198ce8_1acf8921_20260613.png?v=1acf8921",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8a622133df",
           "name": "Canada vs USA | 03:00 14/06",
