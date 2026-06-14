@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2d66f89a75",
-          "name": "Haiti vs Scotland | 08:00 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2d66f89a75",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2d66f89a75",
-                  "name": "Haiti vs Scotland",
-                  "streams": [
-                    {
-                      "id": "st-2d66f89a75",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-800b497838",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781372843_hd/1781372843_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Haiti",
-            "team_b": "Scotland",
-            "logo_a": "https://images.keovip88.net/images/teams/haiti.png",
-            "logo_b": "https://images.keovip88.net/images/teams/scotland.png",
-            "time": "08:00:00",
-            "date": "14/06",
-            "blv": "diec-ben",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2d66f89a75_d5505e42_20260614.png?v=d5505e42",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8068a5f861",
-          "name": "El Paso Locomotive FC vs Phoenix Rising FC | 08:05 14/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8068a5f861",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8068a5f861",
-                  "name": "El Paso Locomotive FC vs Phoenix Rising FC",
-                  "streams": [
-                    {
-                      "id": "st-8068a5f861",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-032e26d563",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781373240_hd/1781373240_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "USL Championship Mỹ",
-            "team_a": "El Paso Locomotive FC",
-            "team_b": "Phoenix Rising FC",
-            "logo_a": "https://images.keovip88.net/images/teams/el-paso-locomotive-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/phoenix-rising-fc.png",
-            "time": "08:05:00",
-            "date": "14/06",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8068a5f861_fdf14a84_20260614.png?v=fdf14a84",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-330ef5cf98",
           "name": "New Mexico United vs Orange County Blues FC | 08:35 14/06",
@@ -2436,7 +2292,25 @@
                     {
                       "id": "st-14f6a76431",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d37136c16e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781367321_hd/1781367321_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
