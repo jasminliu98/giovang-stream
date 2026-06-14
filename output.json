@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-23737134f9_d8846879_20260615.png?v=d8846879",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e31d5e0f28",
+          "name": "Đức vs Curacao | 23:59 14/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e31d5e0f28",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e31d5e0f28",
+                  "name": "Đức vs Curacao",
+                  "streams": [
+                    {
+                      "id": "st-e31d5e0f28",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2b586d55fe",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781452227_hd/1781452227_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Đức",
+            "team_b": "Curacao",
+            "logo_a": "https://images.keovip88.net/images/teams/germany.png",
+            "logo_b": "https://images.keovip88.net/images/teams/curacao.png",
+            "time": "23:59:00",
+            "date": "14/06",
+            "blv": "leo-bin, BLV Hợi, ben-cay",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e31d5e0f28_595c5084_20260615.png?v=595c5084",
             "width": 1600,
             "height": 1200
           }
@@ -965,7 +1037,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1050,10 +1122,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1102,7 +1174,7 @@
             "time": "00:30:00",
             "date": "15/06",
             "blv": "blv-can",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
