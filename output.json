@@ -735,6 +735,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-05a7cc3250",
+          "name": "Bỉ vs Ai Cập | 02:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05a7cc3250",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-05a7cc3250",
+                  "name": "Bỉ vs Ai Cập",
+                  "streams": [
+                    {
+                      "id": "st-05a7cc3250",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-52c0fca44b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781402482_hd/1781402482_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Bỉ",
+            "team_b": "Ai Cập",
+            "logo_a": "https://images.keovip88.net/images/teams/belgium.png",
+            "logo_b": "https://images.keovip88.net/images/teams/egypt.png",
+            "time": "02:00:00",
+            "date": "16/06",
+            "blv": "Leo-dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-05a7cc3250_b8d64c34_20260615.png?v=b8d64c34",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
