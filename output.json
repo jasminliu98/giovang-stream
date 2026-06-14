@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -168,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -188,11 +188,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-a60cfb89e4",
+                          "id": "lnk-ca5d8b89aa",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781366739_hd/1781366739_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781366730_hd/1781366730_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -219,8 +219,8 @@
             "logo_b": "https://images.keovip88.net/images/teams/japan.png",
             "time": "03:00:00",
             "date": "15/06",
-            "blv": "blv-can, BLV Hợi, Leo-dory",
-            "is_live": false,
+            "blv": "BLV Hợi, blv-can, Leo-dory",
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -740,7 +740,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -885,6 +885,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-503a7757ab_e06af832_20260615.png?v=e06af832",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f0c493d3f3",
+          "name": "New York Liberty W  vs Washington Mystic W | 02:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f0c493d3f3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f0c493d3f3",
+                  "name": "New York Liberty W  vs Washington Mystic W",
+                  "streams": [
+                    {
+                      "id": "st-f0c493d3f3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0f3cf82e25",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781367117_hd/1781367117_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "New York Liberty W ",
+            "team_b": "Washington Mystic W",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFsEkiU1gOwmarpw9ErB0OrMqNBZSXWNG6g&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/7/79/Washington_Mystics_logo.svg",
+            "time": "02:00:01",
+            "date": "15/06",
+            "blv": "BLV Ben",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f0c493d3f3_f338f4cd_20260615.png?v=f338f4cd",
             "width": 1600,
             "height": 1200
           }
