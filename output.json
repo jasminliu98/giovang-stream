@@ -8,5 +8,240 @@
     "type": "cover",
     "url": "https://giovang.fun/wp-content/uploads/2024/10/GiovangTV_logo-01-1.png"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-325c68f91b",
+          "name": "SJK Akatemia vs Haka | 22:30 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-325c68f91b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-325c68f91b",
+                  "name": "SJK Akatemia vs Haka",
+                  "streams": [
+                    {
+                      "id": "st-325c68f91b",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng 2 Phần Lan",
+            "team_a": "SJK Akatemia",
+            "team_b": "Haka",
+            "logo_a": "https://static.flashscore.com/res/image/data/4W3RM2eM-U1tWtrt0.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/SEZzuph5-KtjRAU38.png",
+            "time": "22:30:00",
+            "date": "15/06",
+            "blv": "blv-tri",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-325c68f91b_c38fb1c8_20260615.png?v=c38fb1c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5a680e2ae8",
+          "name": "Tây Ban Nha vs Cape Verde | 23:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5a680e2ae8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5a680e2ae8",
+                  "name": "Tây Ban Nha vs Cape Verde",
+                  "streams": [
+                    {
+                      "id": "st-5a680e2ae8",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Tây Ban Nha",
+            "team_b": "Cape Verde",
+            "logo_a": "https://images.keovip88.net/images/teams/spain.png",
+            "logo_b": "https://images.keovip88.net/images/teams/cape-verde.png",
+            "time": "23:00:00",
+            "date": "15/06",
+            "blv": "mason-mat",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5a680e2ae8_94f64737_20260615.png?v=94f64737",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-05a7cc3250",
+          "name": "Bỉ vs Ai Cập | 02:00 16/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05a7cc3250",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-05a7cc3250",
+                  "name": "Bỉ vs Ai Cập",
+                  "streams": [
+                    {
+                      "id": "st-05a7cc3250",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Bỉ",
+            "team_b": "Ai Cập",
+            "logo_a": "https://images.keovip88.net/images/teams/belgium.png",
+            "logo_b": "https://images.keovip88.net/images/teams/egypt.png",
+            "time": "02:00:00",
+            "date": "16/06",
+            "blv": "Leo-dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-05a7cc3250_b8d64c34_20260615.png?v=b8d64c34",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-f0c493d3f3",
+          "name": "New York Liberty W  vs Washington Mystic W | 02:00 15/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f0c493d3f3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f0c493d3f3",
+                  "name": "New York Liberty W  vs Washington Mystic W",
+                  "streams": [
+                    {
+                      "id": "st-f0c493d3f3",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "New York Liberty W ",
+            "team_b": "Washington Mystic W",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFsEkiU1gOwmarpw9ErB0OrMqNBZSXWNG6g&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/7/79/Washington_Mystics_logo.svg",
+            "time": "02:00:01",
+            "date": "15/06",
+            "blv": "BLV Ben",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f0c493d3f3_f338f4cd_20260615.png?v=f338f4cd",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
