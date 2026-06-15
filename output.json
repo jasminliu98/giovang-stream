@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -44,11 +44,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-9491faf6a8",
+                          "id": "lnk-ba1acfaafe",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781517935_hd/1781517935_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781517938_hd/1781517938_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -75,8 +75,8 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/KnSUdQWiGRoy89q4x85IgA_96x96.png",
             "time": "05:00:00",
             "date": "16/06",
-            "blv": "blv-lac, BLV Dần",
-            "is_live": false,
+            "blv": "BLV Dần, blv-lac",
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
