@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,7 +83,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1620fda470_147063ac_20260616.png?v=147063ac",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1620fda470_147063ac_20260617.png?v=147063ac",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-78e97dfccf",
+          "name": "Landskrona vs Nordic United | 00:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-78e97dfccf",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-78e97dfccf",
+                  "name": "Landskrona vs Nordic United",
+                  "streams": [
+                    {
+                      "id": "st-78e97dfccf",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-202eed9935",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781592303_hd/1781592303_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Sweden Superettan",
+            "team_a": "Landskrona",
+            "team_b": "Nordic United",
+            "logo_a": "https://static.flashscore.com/res/image/data/QmfDaGGG-8MQIUsm4.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/G6zwl8Da-rsdkaaKP.png",
+            "time": "00:00:00",
+            "date": "17/06",
+            "blv": "blv-ngong",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-78e97dfccf_98600d87_20260617.png?v=98600d87",
             "width": 1600,
             "height": 1200
           }
@@ -155,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b0fff2d945_716239be_20260616.png?v=716239be",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b0fff2d945_716239be_20260617.png?v=716239be",
             "width": 1600,
             "height": 1200
           }
@@ -227,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b7a500b6fd_2ed1926a_20260616.png?v=2ed1926a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b7a500b6fd_2ed1926a_20260617.png?v=2ed1926a",
             "width": 1600,
             "height": 1200
           }
@@ -299,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6411eca8c4_1d652c57_20260616.png?v=1d652c57",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6411eca8c4_1d652c57_20260617.png?v=1d652c57",
             "width": 1600,
             "height": 1200
           }
@@ -371,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0aa61c2a98_bbcc505b_20260616.png?v=bbcc505b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0aa61c2a98_bbcc505b_20260617.png?v=bbcc505b",
             "width": 1600,
             "height": 1200
           }
@@ -443,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a97cc595af_fab5d609_20260616.png?v=fab5d609",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a97cc595af_fab5d609_20260617.png?v=fab5d609",
             "width": 1600,
             "height": 1200
           }
@@ -515,7 +587,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bd3ce61437_542374f1_20260616.png?v=542374f1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bd3ce61437_542374f1_20260617.png?v=542374f1",
             "width": 1600,
             "height": 1200
           }
@@ -587,7 +659,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4520667b9c_a5727bef_20260616.png?v=a5727bef",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4520667b9c_a5727bef_20260617.png?v=a5727bef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b67c70bc27",
+          "name": "Portugal  vs DR Congo | 00:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b67c70bc27",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b67c70bc27",
+                  "name": "Portugal  vs DR Congo",
+                  "streams": [
+                    {
+                      "id": "st-b67c70bc27",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-17c49fd57b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781619091_hd/1781619091_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup 2026 ",
+            "team_a": "Portugal ",
+            "team_b": "DR Congo",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/HJ3_2c4w791nZJj7n-Lj3Q_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/B0wsGHH3HXHsV_5dvmnPuQ_96x96.png",
+            "time": "00:00:00",
+            "date": "18/06",
+            "blv": "mason-mat, bon-tri, can-ngu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b67c70bc27_1be8a576_20260617.png?v=1be8a576",
             "width": 1600,
             "height": 1200
           }
@@ -596,155 +740,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f0c493d3f3",
-          "name": "New York Liberty W  vs Washington Mystic W | 02:00 15/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f0c493d3f3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f0c493d3f3",
-                  "name": "New York Liberty W  vs Washington Mystic W",
-                  "streams": [
-                    {
-                      "id": "st-f0c493d3f3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0f3cf82e25",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781367117_hd/1781367117_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WNBA",
-            "team_a": "New York Liberty W ",
-            "team_b": "Washington Mystic W",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnFsEkiU1gOwmarpw9ErB0OrMqNBZSXWNG6g&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/7/79/Washington_Mystics_logo.svg",
-            "time": "02:00:01",
-            "date": "15/06",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f0c493d3f3_f338f4cd_20260616.png?v=f338f4cd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-fe6cef1d02",
-          "name": "Basilan Steel vs GenSan Warriors | 17:00 15/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe6cef1d02",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fe6cef1d02",
-                  "name": "Basilan Steel vs GenSan Warriors",
-                  "streams": [
-                    {
-                      "id": "st-fe6cef1d02",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8316675fea",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781509555_hd/1781509555_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MPBL",
-            "team_a": "Basilan Steel",
-            "team_b": "GenSan Warriors",
-            "logo_a": "https://static.flashscore.com/res/image/data/hv2p2cjl-nuxDTkWK.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/drJAc1FG-Iq0tNfof.png",
-            "time": "17:00:00",
-            "date": "15/06",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fe6cef1d02_ba370a0a_20260616.png?v=ba370a0a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b88b4c2d1d",
           "name": "Indiana Fever W vs Toronto Tempo W | 06:00 16/06",
@@ -812,7 +812,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b88b4c2d1d_db55cac3_20260616.png?v=db55cac3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b88b4c2d1d_db55cac3_20260617.png?v=db55cac3",
             "width": 1600,
             "height": 1200
           }
@@ -884,7 +884,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-098640d2f7_a03b6a6e_20260616.png?v=a03b6a6e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-098640d2f7_a03b6a6e_20260617.png?v=a03b6a6e",
             "width": 1600,
             "height": 1200
           }
@@ -956,7 +956,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0831a2ff31_f43ddf78_20260616.png?v=f43ddf78",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0831a2ff31_f43ddf78_20260617.png?v=f43ddf78",
             "width": 1600,
             "height": 1200
           }
@@ -1028,7 +1028,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f9215d8530_ac04151b_20260616.png?v=ac04151b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f9215d8530_ac04151b_20260617.png?v=ac04151b",
             "width": 1600,
             "height": 1200
           }
@@ -1100,7 +1100,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ab75178ebd_0b148753_20260616.png?v=0b148753",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ab75178ebd_0b148753_20260617.png?v=0b148753",
             "width": 1600,
             "height": 1200
           }
@@ -1181,7 +1181,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3ca5ff9556_40fffeda_20260616.png?v=40fffeda",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3ca5ff9556_40fffeda_20260617.png?v=40fffeda",
             "width": 1600,
             "height": 1200
           }
@@ -1262,7 +1262,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-af4807cceb_88ea3c13_20260616.png?v=88ea3c13",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-af4807cceb_88ea3c13_20260617.png?v=88ea3c13",
             "width": 1600,
             "height": 1200
           }
@@ -1334,7 +1334,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-df244a290e_4ebecdd2_20260616.png?v=4ebecdd2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-df244a290e_4ebecdd2_20260617.png?v=4ebecdd2",
             "width": 1600,
             "height": 1200
           }
@@ -1406,7 +1406,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-08aa76527e_2a281003_20260616.png?v=2a281003",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-08aa76527e_2a281003_20260617.png?v=2a281003",
             "width": 1600,
             "height": 1200
           }
@@ -1478,7 +1478,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7f19d437bf_64fc0fa7_20260616.png?v=64fc0fa7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7f19d437bf_64fc0fa7_20260617.png?v=64fc0fa7",
             "width": 1600,
             "height": 1200
           }
@@ -1550,7 +1550,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-40af9d5ae2_fc53af08_20260616.png?v=fc53af08",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-40af9d5ae2_fc53af08_20260617.png?v=fc53af08",
             "width": 1600,
             "height": 1200
           }
@@ -1631,7 +1631,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-098ca28bd8_e5084e8d_20260616.png?v=e5084e8d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-098ca28bd8_e5084e8d_20260617.png?v=e5084e8d",
             "width": 1600,
             "height": 1200
           }
