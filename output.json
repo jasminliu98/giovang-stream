@@ -818,6 +818,78 @@
           }
         },
         {
+          "id": "gv-f1ef93b6cb",
+          "name": "Nelson Giants vs Manawatu Jets | 14:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1ef93b6cb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f1ef93b6cb",
+                  "name": "Nelson Giants vs Manawatu Jets",
+                  "streams": [
+                    {
+                      "id": "st-f1ef93b6cb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f0bff4167",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781632580_hd/1781632580_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBL",
+            "team_a": "Nelson Giants",
+            "team_b": "Manawatu Jets",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/6/63/Nelson_Giants_logo.webp",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzuv8y15b3-foTJEu5m5hq8u1jvDwdVslefA&s",
+            "time": "14:00:00",
+            "date": "17/06",
+            "blv": "leo",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f1ef93b6cb_c73fa2ca_20260617.png?v=c73fa2ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-098640d2f7",
           "name": "Negros Hacienderos vs IIoilo United Royals | 15:00 17/06",
           "type": "single",
@@ -1182,6 +1254,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f418d00eee_29fef30e_20260617.png?v=29fef30e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3b9e5da6f3",
+          "name": "Canada vs Netherlands | 13:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3b9e5da6f3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3b9e5da6f3",
+                  "name": "Canada vs Netherlands",
+                  "streams": [
+                    {
+                      "id": "st-3b9e5da6f3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a2292496d8",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781632506_hd/1781632506_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Canada",
+            "team_b": "Netherlands",
+            "logo_a": "https://static.flashscore.com/res/image/data/x8ugZxyS-QBQPB0xP.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/KveiFAyS-SrXKwAi9.png",
+            "time": "13:00:00",
+            "date": "17/06",
+            "blv": "blv-can",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3b9e5da6f3_205529f6_20260617.png?v=205529f6",
             "width": 1600,
             "height": 1200
           }
