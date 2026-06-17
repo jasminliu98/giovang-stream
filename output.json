@@ -755,8 +755,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-b46561fabb",
-          "name": "Zizou Bergs vs Taylor Fritz | 16:30 17/06",
+          "id": "gv-578fe357b6",
+          "name": "Ben Shelton vs Lorenzo Sonego  | 19:40 17/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -766,78 +766,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b46561fabb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b46561fabb",
-                  "name": "Zizou Bergs vs Taylor Fritz",
-                  "streams": [
-                    {
-                      "id": "st-b46561fabb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-246d35fc68",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781662088_hd/1781662088_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Halle Open",
-            "team_a": "Zizou Bergs",
-            "team_b": "Taylor Fritz",
-            "logo_a": "https://static.flashscore.com/res/image/data/OWXLbmil-reLgjysB.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/vDLwcnCa-8AMTtzu5.png",
-            "time": "16:30:00",
-            "date": "17/06",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b46561fabb_77908574_20260617.png?v=77908574",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-578fe357b6",
-          "name": "Ben Shelton vs Lorenzo Sonego  | 19:40 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -886,7 +814,7 @@
             "time": "19:40:00",
             "date": "17/06",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
