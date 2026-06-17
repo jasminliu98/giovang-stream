@@ -10,45 +10,45 @@
   },
   "groups": [
     {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-f1ef93b6cb",
-          "name": "Nelson Giants vs Manawatu Jets | 14:00 17/06",
+          "id": "gv-a97cc595af",
+          "name": "Ilves Tampere vs Jaro | 22:00 17/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-f1ef93b6cb",
+              "id": "src-a97cc595af",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-f1ef93b6cb",
-                  "name": "Nelson Giants vs Manawatu Jets",
+                  "id": "ct-a97cc595af",
+                  "name": "Ilves Tampere vs Jaro",
                   "streams": [
                     {
-                      "id": "st-f1ef93b6cb",
+                      "id": "st-a97cc595af",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-9f0bff4167",
+                          "id": "lnk-bd58068f2b",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781632580_hd/1781632580_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781487957_hd/1781487957_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,22 +68,382 @@
             }
           ],
           "org_metadata": {
-            "league": "NBL",
-            "team_a": "Nelson Giants",
-            "team_b": "Manawatu Jets",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/6/63/Nelson_Giants_logo.webp",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzuv8y15b3-foTJEu5m5hq8u1jvDwdVslefA&s",
-            "time": "14:00:00",
+            "league": "VĐQG Phần Lan",
+            "team_a": "Ilves Tampere",
+            "team_b": "Jaro",
+            "logo_a": "https://images.keovip88.net/images/teams/ilves-tampere.png",
+            "logo_b": "https://images.keovip88.net/images/teams/jaro.png",
+            "time": "22:00:00",
             "date": "17/06",
-            "blv": "leo",
-            "is_live": true,
-            "cate_type": "basketball"
+            "blv": "BLV Hợi",
+            "is_live": false,
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f1ef93b6cb_c73fa2ca_20260617.png?v=c73fa2ca",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a97cc595af_fab5d609_20260617.png?v=fab5d609",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-bd3ce61437",
+          "name": "TPS Turku vs KuPS | 22:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd3ce61437",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bd3ce61437",
+                  "name": "TPS Turku vs KuPS",
+                  "streams": [
+                    {
+                      "id": "st-bd3ce61437",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-70c533f2fa",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781488186_hd/1781488186_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan",
+            "team_a": "TPS Turku",
+            "team_b": "KuPS",
+            "logo_a": "https://images.keovip88.net/images/teams/tps-turku.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kups.png",
+            "time": "22:00:00",
+            "date": "17/06",
+            "blv": "blv-mat",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bd3ce61437_542374f1_20260617.png?v=542374f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4520667b9c",
+          "name": "HJK Helsinki vs Inter Turku | 22:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4520667b9c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4520667b9c",
+                  "name": "HJK Helsinki vs Inter Turku",
+                  "streams": [
+                    {
+                      "id": "st-4520667b9c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2f3bafcc74",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781488130_hd/1781488130_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan",
+            "team_a": "HJK Helsinki",
+            "team_b": "Inter Turku",
+            "logo_a": "https://images.keovip88.net/images/teams/hjk-helsinki.png",
+            "logo_b": "https://images.keovip88.net/images/teams/inter-turku.png",
+            "time": "22:00:00",
+            "date": "17/06",
+            "blv": "blv Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4520667b9c_a5727bef_20260617.png?v=a5727bef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b67c70bc27",
+          "name": "Portugal  vs DR Congo | 00:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b67c70bc27",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b67c70bc27",
+                  "name": "Portugal  vs DR Congo",
+                  "streams": [
+                    {
+                      "id": "st-b67c70bc27",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-17c49fd57b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781619091_hd/1781619091_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup 2026 ",
+            "team_a": "Portugal ",
+            "team_b": "DR Congo",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/HJ3_2c4w791nZJj7n-Lj3Q_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/B0wsGHH3HXHsV_5dvmnPuQ_96x96.png",
+            "time": "00:00:00",
+            "date": "18/06",
+            "blv": "mason-mat, bon-tri, can-ngu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b67c70bc27_1be8a576_20260617.png?v=1be8a576",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8496364c35",
+          "name": "England  vs Croatia | 03:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8496364c35",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8496364c35",
+                  "name": "England  vs Croatia",
+                  "streams": [
+                    {
+                      "id": "st-8496364c35",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ac67af9bd5",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781616664_hd/1781616664_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "England ",
+            "team_b": "Croatia",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/DTqIL8Ba3KIuxGkpXw5ayA_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/9toerdOg8xW4CRhDaZxsyw_96x96.png",
+            "time": "03:00:00",
+            "date": "18/06",
+            "blv": "blv-can, blv-ngu, BLV Dần",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8496364c35_2b91662e_20260617.png?v=2b91662e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f1de15d643",
+          "name": "Ghana  vs Panama | 06:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1de15d643",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f1de15d643",
+                  "name": "Ghana  vs Panama",
+                  "streams": [
+                    {
+                      "id": "st-f1de15d643",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6ed19941d9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781619141_hd/1781619141_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup 2026 ",
+            "team_a": "Ghana ",
+            "team_b": "Panama",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/VJQ1emg0TOubjGnap4vWuw_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/JIn8OwxL6KFFiYrKGnL2RQ_96x96.png",
+            "time": "06:00:00",
+            "date": "18/06",
+            "blv": "ben-diec",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f1de15d643_3443abbd_20260617.png?v=3443abbd",
             "width": 1600,
             "height": 1200
           }
@@ -91,37 +451,37 @@
       ]
     },
     {
-      "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-3b9e5da6f3",
-          "name": "Canada vs Netherlands | 13:00 17/06",
+          "id": "gv-098640d2f7",
+          "name": "Negros Hacienderos vs IIoilo United Royals | 15:00 17/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-3b9e5da6f3",
+              "id": "src-098640d2f7",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-3b9e5da6f3",
-                  "name": "Canada vs Netherlands",
+                  "id": "ct-098640d2f7",
+                  "name": "Negros Hacienderos vs IIoilo United Royals",
                   "streams": [
                     {
-                      "id": "st-3b9e5da6f3",
+                      "id": "st-098640d2f7",
                       "name": "GV",
                       "stream_links": []
                     }
@@ -131,22 +491,832 @@
             }
           ],
           "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Canada",
-            "team_b": "Netherlands",
-            "logo_a": "https://static.flashscore.com/res/image/data/x8ugZxyS-QBQPB0xP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/KveiFAyS-SrXKwAi9.png",
-            "time": "13:00:00",
+            "league": "MPBL",
+            "team_a": "Negros Hacienderos",
+            "team_b": "IIoilo United Royals",
+            "logo_a": "https://static.flashscore.com/res/image/data/6DfoMaZA-jLQmfqq6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/MewsyCeM-S4C31kj0.png",
+            "time": "15:00:00",
             "date": "17/06",
-            "blv": "blv-can",
-            "is_live": true,
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-098640d2f7_a03b6a6e_20260617.png?v=a03b6a6e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0831a2ff31",
+          "name": "Bataan Risers vs Batang Kankaloo | 17:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0831a2ff31",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0831a2ff31",
+                  "name": "Bataan Risers vs Batang Kankaloo",
+                  "streams": [
+                    {
+                      "id": "st-0831a2ff31",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-01447c8d7c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781663206_hd/1781663206_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MPBL",
+            "team_a": "Bataan Risers",
+            "team_b": "Batang Kankaloo",
+            "logo_a": "https://static.flashscore.com/res/image/data/OOkJJig5-lWIAAzpl.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/OMzLwoDa-t2NJlK7n.png",
+            "time": "17:00:00",
+            "date": "17/06",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0831a2ff31_f43ddf78_20260617.png?v=f43ddf78",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f9215d8530",
+          "name": "Barangay Ginebra San Miguel vs TNT Tropang 5G | 18:30 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f9215d8530",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f9215d8530",
+                  "name": "Barangay Ginebra San Miguel vs TNT Tropang 5G",
+                  "streams": [
+                    {
+                      "id": "st-f9215d8530",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-45b4aea697",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781594617_hd/1781594617_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PBA",
+            "team_a": "Barangay Ginebra San Miguel",
+            "team_b": "TNT Tropang 5G",
+            "logo_a": "https://static.flashscore.com/res/image/data/hWf7PfGG-67i7cfzM.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nTNHGwAr-hCospehC.png",
+            "time": "18:30:00",
+            "date": "17/06",
+            "blv": "blv-lac",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f9215d8530_ac04151b_20260617.png?v=ac04151b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ab75178ebd",
+          "name": "Rizal Golden Coolers vs Quezon City | 19:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ab75178ebd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ab75178ebd",
+                  "name": "Rizal Golden Coolers vs Quezon City",
+                  "streams": [
+                    {
+                      "id": "st-ab75178ebd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-72a5ab8311",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781488778_hd/1781488778_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MPBL",
+            "team_a": "Rizal Golden Coolers",
+            "team_b": "Quezon City",
+            "logo_a": "https://static.flashscore.com/res/image/data/lEBVWsHG-UJNQ0C5A.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hU0zfSzB-rXQZEtws.png",
+            "time": "19:00:00",
+            "date": "17/06",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ab75178ebd_0b148753_20260617.png?v=0b148753",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-b46561fabb",
+          "name": "Zizou Bergs vs Taylor Fritz | 16:30 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b46561fabb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b46561fabb",
+                  "name": "Zizou Bergs vs Taylor Fritz",
+                  "streams": [
+                    {
+                      "id": "st-b46561fabb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-246d35fc68",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781662088_hd/1781662088_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Halle Open",
+            "team_a": "Zizou Bergs",
+            "team_b": "Taylor Fritz",
+            "logo_a": "https://static.flashscore.com/res/image/data/OWXLbmil-reLgjysB.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/vDLwcnCa-8AMTtzu5.png",
+            "time": "16:30:00",
+            "date": "17/06",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b46561fabb_77908574_20260617.png?v=77908574",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-578fe357b6",
+          "name": "Ben Shelton vs Lorenzo Sonego  | 18:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-578fe357b6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-578fe357b6",
+                  "name": "Ben Shelton vs Lorenzo Sonego ",
+                  "streams": [
+                    {
+                      "id": "st-578fe357b6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6ef13e9299",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781662173_hd/1781662173_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Halle Open",
+            "team_a": "Ben Shelton",
+            "team_b": "Lorenzo Sonego ",
+            "logo_a": "https://static.flashscore.com/res/image/data/UBXM3cXg-fgTOwTv9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/WfbI2IDa-xYdWWVqk.png",
+            "time": "18:00:00",
+            "date": "17/06",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-578fe357b6_1d95dd25_20260617.png?v=1d95dd25",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e0c8a05c81",
+          "name": "Terence Antmane vs Daniil Medvedev  | 21:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e0c8a05c81",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e0c8a05c81",
+                  "name": "Terence Antmane vs Daniil Medvedev ",
+                  "streams": [
+                    {
+                      "id": "st-e0c8a05c81",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-edd2e9e206",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781670738_hd/1781670738_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Halle Open",
+            "team_a": "Terence Antmane",
+            "team_b": "Daniil Medvedev ",
+            "logo_a": "https://static.flashscore.com/res/image/data/ENLkKnBr-IaK73Az7.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QujxPtf5-6Z1AkBdk.png",
+            "time": "21:00:00",
+            "date": "17/06",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e0c8a05c81_ad396418_20260617.png?v=ad396418",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-af4807cceb",
+          "name": "Germany vs China | 16:30 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af4807cceb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-af4807cceb",
+                  "name": "Germany vs China",
+                  "streams": [
+                    {
+                      "id": "st-af4807cceb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0400b9ece1",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781500360_hd/1781500360_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Germany",
+            "team_b": "China",
+            "logo_a": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
+            "time": "16:30:00",
+            "date": "17/06",
+            "blv": "blv-sun",
+            "is_live": false,
             "cate_type": "bongchuyen"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3b9e5da6f3_205529f6_20260617.png?v=205529f6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-af4807cceb_88ea3c13_20260617.png?v=88ea3c13",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-df244a290e",
+          "name": "Bulgaria vs Poland | 17:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-df244a290e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-df244a290e",
+                  "name": "Bulgaria vs Poland",
+                  "streams": [
+                    {
+                      "id": "st-df244a290e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8eb939031a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781500425_hd/1781500425_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Bulgaria",
+            "team_b": "Poland",
+            "logo_a": "https://static.flashscore.com/res/image/data/trgkvtFa-p8cOXAXu.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/WKTUghyB-612vZEE1.png",
+            "time": "17:00:00",
+            "date": "17/06",
+            "blv": "blv-can",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-df244a290e_4ebecdd2_20260617.png?v=4ebecdd2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-08aa76527e",
+          "name": "Japan vs Serbia | 19:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-08aa76527e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-08aa76527e",
+                  "name": "Japan vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-08aa76527e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5d5ddba542",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781501842_hd/1781501842_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Japan",
+            "team_b": "Serbia",
+            "logo_a": "https://static.flashscore.com/res/image/data/0WJLxnGG-zLx3xGjj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/x4FgDryB-zLx3xGjj.png",
+            "time": "19:00:00",
+            "date": "17/06",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-08aa76527e_2a281003_20260617.png?v=2a281003",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7f19d437bf",
+          "name": "France vs Brazil | 20:00 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f19d437bf",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7f19d437bf",
+                  "name": "France vs Brazil",
+                  "streams": [
+                    {
+                      "id": "st-7f19d437bf",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-11e56098cc",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781501902_hd/1781501902_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "France",
+            "team_b": "Brazil",
+            "logo_a": "https://static.flashscore.com/res/image/data/ne4FVih5-rcthslVl.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/WG7ZbYdM-dlhXsxTS.png",
+            "time": "20:00:00",
+            "date": "17/06",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7f19d437bf_64fc0fa7_20260617.png?v=64fc0fa7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-40af9d5ae2",
+          "name": "Thailand vs Ukraine | 20:30 17/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-40af9d5ae2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-40af9d5ae2",
+                  "name": "Thailand vs Ukraine",
+                  "streams": [
+                    {
+                      "id": "st-40af9d5ae2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-01509b0a1c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781501983_hd/1781501983_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Thailand",
+            "team_b": "Ukraine",
+            "logo_a": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Q3dsHxe5-8KJ0tcMR.png",
+            "time": "20:30:00",
+            "date": "17/06",
+            "blv": "blv-can",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-40af9d5ae2_fc53af08_20260617.png?v=fc53af08",
             "width": 1600,
             "height": 1200
           }
