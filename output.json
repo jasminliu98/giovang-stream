@@ -524,83 +524,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0831a2ff31",
-          "name": "Bataan Risers vs Batang Kankaloo | 17:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0831a2ff31",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0831a2ff31",
-                  "name": "Bataan Risers vs Batang Kankaloo",
-                  "streams": [
-                    {
-                      "id": "st-0831a2ff31",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-01447c8d7c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781663206_hd/1781663206_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MPBL",
-            "team_a": "Bataan Risers",
-            "team_b": "Batang Kankaloo",
-            "logo_a": "https://static.flashscore.com/res/image/data/OOkJJig5-lWIAAzpl.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OMzLwoDa-t2NJlK7n.png",
-            "time": "17:00:00",
-            "date": "17/06",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0831a2ff31_f43ddf78_20260617.png?v=f43ddf78",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f9215d8530",
           "name": "Barangay Ginebra San Miguel vs TNT Tropang 5G | 18:30 17/06",
@@ -902,83 +830,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-af4807cceb",
-          "name": "Germany vs China | 16:30 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af4807cceb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-af4807cceb",
-                  "name": "Germany vs China",
-                  "streams": [
-                    {
-                      "id": "st-af4807cceb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0400b9ece1",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781500360_hd/1781500360_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Germany",
-            "team_b": "China",
-            "logo_a": "https://static.flashscore.com/res/image/data/OfOVK7il-jwMhrJiF.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "time": "16:30:00",
-            "date": "17/06",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-af4807cceb_88ea3c13_20260617.png?v=88ea3c13",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-08aa76527e",
           "name": "Japan vs Serbia | 19:00 17/06",
