@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b67c70bc27",
-          "name": "Portugal  vs DR Congo | 00:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b67c70bc27",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b67c70bc27",
-                  "name": "Portugal  vs DR Congo",
-                  "streams": [
-                    {
-                      "id": "st-b67c70bc27",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c6296f2dc4",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781616549_hd/1781616549_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup 2026 ",
-            "team_a": "Portugal ",
-            "team_b": "DR Congo",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/HJ3_2c4w791nZJj7n-Lj3Q_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/B0wsGHH3HXHsV_5dvmnPuQ_96x96.png",
-            "time": "00:00:00",
-            "date": "18/06",
-            "blv": "bon-tri, can-ngu, mason-mat, 10 blv",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b67c70bc27_1be8a576_20260618.png?v=1be8a576",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9c9454195b",
           "name": "SJK Seinajoki vs VPS Vaasa | 01:00 18/06",
