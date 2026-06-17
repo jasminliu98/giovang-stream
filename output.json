@@ -879,6 +879,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-9c7e5253bb",
+          "name": "Cộng hòa Séc vs Nam Phi | 23:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c7e5253bb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9c7e5253bb",
+                  "name": "Cộng hòa Séc vs Nam Phi",
+                  "streams": [
+                    {
+                      "id": "st-9c7e5253bb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-190270f73e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781702469_hd/1781702469_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Cộng hòa Séc",
+            "team_b": "Nam Phi",
+            "logo_a": "https://images.keovip88.net/images/teams/czech-republic.png",
+            "logo_b": "https://images.keovip88.net/images/teams/south-africa.png",
+            "time": "23:00:00",
+            "date": "18/06",
+            "blv": "BLV Dần",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9c7e5253bb_b8e6e266_20260617.png?v=b8e6e266",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1550,83 +1622,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-40af9d5ae2",
-          "name": "Thailand vs Ukraine | 20:30 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-40af9d5ae2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-40af9d5ae2",
-                  "name": "Thailand vs Ukraine",
-                  "streams": [
-                    {
-                      "id": "st-40af9d5ae2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-01509b0a1c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781501983_hd/1781501983_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Thailand",
-            "team_b": "Ukraine",
-            "logo_a": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Q3dsHxe5-8KJ0tcMR.png",
-            "time": "20:30:00",
-            "date": "17/06",
-            "blv": "blv-can",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-40af9d5ae2_fc53af08_20260617.png?v=fc53af08",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0214ecd27f",
           "name": "Türkiye  vs Belgium | 23:30 17/06",
