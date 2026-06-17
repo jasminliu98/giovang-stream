@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b7a500b6fd",
-          "name": "Iraq vs Na Uy | 05:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b7a500b6fd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b7a500b6fd",
-                  "name": "Iraq vs Na Uy",
-                  "streams": [
-                    {
-                      "id": "st-b7a500b6fd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-69f8c90406",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781594108_hd/1781594108_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Iraq",
-            "team_b": "Na Uy",
-            "logo_a": "https://images.keovip88.net/images/teams/iraq.png",
-            "logo_b": "https://images.keovip88.net/images/teams/norway.png",
-            "time": "05:00:00",
-            "date": "17/06",
-            "blv": "Leo-dory, BLV Hợi, BLV Dần",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b7a500b6fd_2ed1926a_20260617.png?v=2ed1926a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6411eca8c4",
           "name": "Argentina vs Algeria | 08:00 17/06",
