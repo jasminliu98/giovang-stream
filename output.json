@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9c9454195b",
-          "name": "SJK Seinajoki vs VPS Vaasa | 01:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c9454195b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9c9454195b",
-                  "name": "SJK Seinajoki vs VPS Vaasa",
-                  "streams": [
-                    {
-                      "id": "st-9c9454195b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d212307467",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781708459_hd/1781708459_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Phần Lan",
-            "team_a": "SJK Seinajoki",
-            "team_b": "VPS Vaasa",
-            "logo_a": "https://images.keovip88.net/images/teams/sjk-seinajoen.png",
-            "logo_b": "https://images.keovip88.net/images/teams/vaasa-vps.png",
-            "time": "01:00:00",
-            "date": "18/06",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9c9454195b_95f740df_20260618.png?v=95f740df",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8855717c56",
           "name": "Oakland Roots vs Birmingham Legion | 02:05 18/06",
@@ -516,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-631e8d4c3c_631b85d9_20260618.png?v=631b85d9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e266da8ecb",
+          "name": "Nữ Eskilstuna Utd vs Nữ Pitea IF | 22:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e266da8ecb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e266da8ecb",
+                  "name": "Nữ Eskilstuna Utd vs Nữ Pitea IF",
+                  "streams": [
+                    {
+                      "id": "st-e266da8ecb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6be09a799",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781726029_hd/1781726029_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thụy Điển Allsvenskan Nữ",
+            "team_a": "Nữ Eskilstuna Utd",
+            "team_b": "Nữ Pitea IF",
+            "logo_a": "https://images.keovip88.net/images/teams/eskilstuna-united-w.png",
+            "logo_b": "https://images.keovip88.net/images/teams/pitea-if-w.png",
+            "time": "22:00:00",
+            "date": "18/06",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e266da8ecb_8aa492ee_20260618.png?v=8aa492ee",
             "width": 1600,
             "height": 1200
           }
@@ -1248,6 +1248,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-bbda6fed11",
+          "name": "Ho Chi Minh City Wings vs Nha Trang Dolphins | 19:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bbda6fed11",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bbda6fed11",
+                  "name": "Ho Chi Minh City Wings vs Nha Trang Dolphins",
+                  "streams": [
+                    {
+                      "id": "st-bbda6fed11",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f9ed910c65",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781725807_hd/1781725807_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VBA",
+            "team_a": "Ho Chi Minh City Wings",
+            "team_b": "Nha Trang Dolphins",
+            "logo_a": "https://static.flashscore.com/res/image/data/6kpgdKyB-MqRS5Sy2.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwDd-fhvnASmcsH8rVchCBcX3fGH9qARMnKA&s",
+            "time": "19:00:00",
+            "date": "18/06",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bbda6fed11_c1ca4d19_20260618.png?v=c1ca4d19",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1470,6 +1542,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0c5f046b94_5f7f4ec0_20260618.png?v=5f7f4ec0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a598c85f2b",
+          "name": "Belgium vs Brazil | 20:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a598c85f2b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a598c85f2b",
+                  "name": "Belgium vs Brazil",
+                  "streams": [
+                    {
+                      "id": "st-a598c85f2b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96dcc71f5c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781725888_hd/1781725888_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Belgium",
+            "team_b": "Brazil",
+            "logo_a": "https://images.volleyballworld.com/image/upload/f_png/t_flag/assets/flags/flag_bel",
+            "logo_b": "https://static.flashscore.com/res/image/data/WG7ZbYdM-dlhXsxTS.png",
+            "time": "20:00:00",
+            "date": "18/06",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a598c85f2b_f2f5690d_20260618.png?v=f2f5690d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c71ff3e891",
+          "name": "Thailand vs Bulgaria | 20:30 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c71ff3e891",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c71ff3e891",
+                  "name": "Thailand vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-c71ff3e891",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-46e635e194",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781725956_hd/1781725956_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Thailand",
+            "team_b": "Bulgaria",
+            "logo_a": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/trgkvtFa-p8cOXAXu.png",
+            "time": "20:30:00",
+            "date": "18/06",
+            "blv": "blv-mat",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c71ff3e891_45b680ef_20260618.png?v=45b680ef",
             "width": 1600,
             "height": 1200
           }
