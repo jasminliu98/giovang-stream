@@ -1052,8 +1052,8 @@
           }
         },
         {
-          "id": "gv-df244a290e",
-          "name": "Bulgaria vs Poland | 17:00 17/06",
+          "id": "gv-08aa76527e",
+          "name": "Japan vs Serbia | 19:00 17/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1063,78 +1063,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-df244a290e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-df244a290e",
-                  "name": "Bulgaria vs Poland",
-                  "streams": [
-                    {
-                      "id": "st-df244a290e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8eb939031a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781500425_hd/1781500425_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Bulgaria",
-            "team_b": "Poland",
-            "logo_a": "https://static.flashscore.com/res/image/data/trgkvtFa-p8cOXAXu.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WKTUghyB-612vZEE1.png",
-            "time": "17:00:00",
-            "date": "17/06",
-            "blv": "blv-can",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-df244a290e_4ebecdd2_20260617.png?v=4ebecdd2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-08aa76527e",
-          "name": "Japan vs Serbia | 19:00 17/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1183,7 +1111,7 @@
             "time": "19:00:00",
             "date": "17/06",
             "blv": "blv-sun",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
