@@ -758,11 +758,83 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-a598c85f2b",
+          "name": "Belgium vs Brazil | 20:00 18/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a598c85f2b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a598c85f2b",
+                  "name": "Belgium vs Brazil",
+                  "streams": [
+                    {
+                      "id": "st-a598c85f2b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96dcc71f5c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781725888_hd/1781725888_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Belgium",
+            "team_b": "Brazil",
+            "logo_a": "https://images.volleyballworld.com/image/upload/f_png/t_flag/assets/flags/flag_bel",
+            "logo_b": "https://static.flashscore.com/res/image/data/WG7ZbYdM-dlhXsxTS.png",
+            "time": "20:00:00",
+            "date": "18/06",
+            "blv": "blv-sun",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a598c85f2b_f2f5690d_20260618.png?v=f2f5690d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-b4ea82c6ad",
           "name": "Turkey vs France | 23:30 18/06",
