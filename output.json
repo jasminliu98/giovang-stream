@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-631e8d4c3c",
-          "name": "Uzbekistan vs Colombia | 09:00 18/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-631e8d4c3c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-631e8d4c3c",
-                  "name": "Uzbekistan vs Colombia",
-                  "streams": [
-                    {
-                      "id": "st-631e8d4c3c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c7b5da3015",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781702371_hd/1781702371_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Uzbekistan",
-            "team_b": "Colombia",
-            "logo_a": "https://images.keovip88.net/images/teams/uzbekistan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/colombia.png",
-            "time": "09:00:00",
-            "date": "18/06",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-631e8d4c3c_631b85d9_20260618.png?v=631b85d9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e266da8ecb",
           "name": "Nữ Eskilstuna Utd vs Nữ Pitea IF | 22:00 18/06",
