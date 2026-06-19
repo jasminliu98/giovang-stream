@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-4e5e528280",
+          "name": "Trakai  vs Hegelmann | 23:00 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4e5e528280",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4e5e528280",
+                  "name": "Trakai  vs Hegelmann",
+                  "streams": [
+                    {
+                      "id": "st-4e5e528280",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-47be7e7896",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882243_hd/1781882243_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Lithuania",
+            "team_a": "Trakai ",
+            "team_b": "Hegelmann",
+            "logo_a": "https://cdn.footystats.org/img/teams/lithuania-fk-trakai.png",
+            "logo_b": "https://cdn.footystats.org/img/teams/lithuania-fc-hegelmann-litauen-kaunas.png",
+            "time": "23:00:00",
+            "date": "19/06",
+            "blv": "BLV Dần",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4e5e528280_a2168c4c_20260619.png?v=a2168c4c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-25c821ef89",
           "name": "Mỹ vs Úc | 02:00 20/06",
           "type": "single",
@@ -759,6 +831,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-506b09850a_85e2e906_20260619.png?v=85e2e906",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-185940d96d",
+          "name": "Belgium vs Germany | 23:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-185940d96d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-185940d96d",
+                  "name": "Belgium vs Germany",
+                  "streams": [
+                    {
+                      "id": "st-185940d96d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5ae482f444",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882343_hd/1781882343_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Belgium",
+            "team_b": "Germany",
+            "logo_a": "https://static.flashscore.com/res/image/data/6kfviue5-6ys9CWQj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hjKM6ZCr-6ys9CWQj.png",
+            "time": "23:30:00",
+            "date": "19/06",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-185940d96d_713e84ad_20260619.png?v=713e84ad",
             "width": 1600,
             "height": 1200
           }
