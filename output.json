@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "23:00:00",
             "date": "19/06",
             "blv": "BLV Dần",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -84,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4e5e528280_a2168c4c_20260619.png?v=a2168c4c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0a695906c1",
+          "name": "Al-Fahaheel  vs Kazma  | 23:05 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a695906c1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0a695906c1",
+                  "name": "Al-Fahaheel  vs Kazma ",
+                  "streams": [
+                    {
+                      "id": "st-0a695906c1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-43fd260a9d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781883697_hd/1781883697_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Kuwait Premier League",
+            "team_a": "Al-Fahaheel ",
+            "team_b": "Kazma ",
+            "logo_a": "https://static.flashscore.com/res/image/data/4lUacfHG-25qRGqb6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/lGmRDJil-xYjCA67E.png",
+            "time": "23:05:00",
+            "date": "19/06",
+            "blv": "BLV Dần",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0a695906c1_2c42d394_20260619.png?v=2c42d394",
             "width": 1600,
             "height": 1200
           }
@@ -791,11 +863,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-5ae482f444",
+                          "id": "lnk-b4ecf04db5",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882343_hd/1781882343_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781883634_hd/1781883634_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -822,7 +894,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/hjKM6ZCr-6ys9CWQj.png",
             "time": "23:30:00",
             "date": "19/06",
-            "blv": "BLV Điếc",
+            "blv": "blv-tri",
             "is_live": false,
             "cate_type": "bongchuyen"
           },
