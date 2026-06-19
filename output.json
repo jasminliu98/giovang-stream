@@ -467,6 +467,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-f5d048122c",
+          "name": "Ben Shelton vs Taylor Fritz | 16:30 19/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f5d048122c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f5d048122c",
+                  "name": "Ben Shelton vs Taylor Fritz",
+                  "streams": [
+                    {
+                      "id": "st-f5d048122c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-850b875371",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781848584_hd/1781848584_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Halle Open",
+            "team_a": "Ben Shelton",
+            "team_b": "Taylor Fritz",
+            "logo_a": "https://static.flashscore.com/res/image/data/UBXM3cXg-fgTOwTv9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/vDLwcnCa-8AMTtzu5.png",
+            "time": "16:30:00",
+            "date": "19/06",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f5d048122c_bc2bf37e_20260619.png?v=bc2bf37e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-02ff23ba6e",
           "name": "Alexander Zverev vs Raphael Collignon | 18:00 19/06",
           "type": "single",
