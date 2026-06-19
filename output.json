@@ -983,83 +983,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-dee7d36e4d",
-          "name": "New York Yankees vs Chicago White Sox | 06:05 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dee7d36e4d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-dee7d36e4d",
-                  "name": "New York Yankees vs Chicago White Sox",
-                  "streams": [
-                    {
-                      "id": "st-dee7d36e4d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4da10109b1",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781721702_hd/1781721702_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "New York Yankees",
-            "team_b": "Chicago White Sox",
-            "logo_a": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/rHrt6LAr-MFkjl69i.png",
-            "time": "06:05:00",
-            "date": "19/06",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-dee7d36e4d_e5084e8d_20260619.png?v=e5084e8d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-992c945f2b",
           "name": "Athletics vs Los Angeles Angels | 08:40 19/06",
