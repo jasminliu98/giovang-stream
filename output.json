@@ -389,7 +389,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -468,16 +468,16 @@
         },
         {
           "id": "gv-02ff23ba6e",
-          "name": "Alexander Zverev vs Raphael Collignon | 18:30 19/06",
+          "name": "Alexander Zverev vs Raphael Collignon | 19:30 19/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -523,10 +523,10 @@
             "team_b": "Raphael Collignon",
             "logo_a": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
             "logo_b": "https://static.flashscore.com/res/image/data/UyXKjhhl-Ecj4yk6A.png",
-            "time": "18:30:00",
+            "time": "19:30:00",
             "date": "19/06",
             "blv": "BLV Ben",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "tennis"
           },
           "image": {
@@ -542,7 +542,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -555,10 +555,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -607,7 +607,7 @@
             "time": "19:00:00",
             "date": "19/06",
             "blv": "blv-sun",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
