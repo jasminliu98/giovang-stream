@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-39c0e5fe27",
-          "name": "Mexico vs Hàn Quốc | 08:00 19/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-39c0e5fe27",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-39c0e5fe27",
-                  "name": "Mexico vs Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "st-39c0e5fe27",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eedd384d25",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781824609_hd/1781824609_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Mexico",
-            "team_b": "Hàn Quốc",
-            "logo_a": "https://images.keovip88.net/images/teams/mexico.png",
-            "logo_b": "https://images.keovip88.net/images/teams/south-korea.png",
-            "time": "08:00:00",
-            "date": "19/06",
-            "blv": "can-ngu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-39c0e5fe27_07dcf1ae_20260619.png?v=07dcf1ae",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4167c44142",
           "name": "Bentleigh Greens vs South Melbourne | 16:30 19/06",
