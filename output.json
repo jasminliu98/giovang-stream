@@ -83,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4e5e528280_a2168c4c_20260619.png?v=a2168c4c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4e5e528280_a2168c4c_20260620.png?v=a2168c4c",
             "width": 1600,
             "height": 1200
           }
@@ -155,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0a695906c1_2c42d394_20260619.png?v=2c42d394",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0a695906c1_2c42d394_20260620.png?v=2c42d394",
             "width": 1600,
             "height": 1200
           }
@@ -227,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-052424208a_6cf6f4b3_20260619.png?v=6cf6f4b3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-052424208a_6cf6f4b3_20260620.png?v=6cf6f4b3",
             "width": 1600,
             "height": 1200
           }
@@ -299,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-25c821ef89_3f4bdf20_20260619.png?v=3f4bdf20",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-25c821ef89_3f4bdf20_20260620.png?v=3f4bdf20",
             "width": 1600,
             "height": 1200
           }
@@ -371,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c7a2d77ae4_e532295e_20260619.png?v=e532295e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c7a2d77ae4_e532295e_20260620.png?v=e532295e",
             "width": 1600,
             "height": 1200
           }
@@ -443,7 +443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1661ce12ba_2898fc2e_20260619.png?v=2898fc2e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1661ce12ba_2898fc2e_20260620.png?v=2898fc2e",
             "width": 1600,
             "height": 1200
           }
@@ -515,7 +515,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4141895ae1_f7cd13ce_20260619.png?v=f7cd13ce",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4141895ae1_f7cd13ce_20260620.png?v=f7cd13ce",
             "width": 1600,
             "height": 1200
           }
@@ -587,7 +587,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ba852bf288_027f0fd3_20260619.png?v=027f0fd3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ba852bf288_027f0fd3_20260620.png?v=027f0fd3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6263d81c0e",
+          "name": "Hà Lan vs Thụy Điển | 00:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6263d81c0e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6263d81c0e",
+                  "name": "Hà Lan vs Thụy Điển",
+                  "streams": [
+                    {
+                      "id": "st-6263d81c0e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3c155db065",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781844672_hd/1781844672_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Hà Lan",
+            "team_b": "Thụy Điển",
+            "logo_a": "https://images.keovip88.net/images/teams/netherlands.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sweden.png",
+            "time": "00:00:00",
+            "date": "21/06",
+            "blv": "BLV Hợi",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6263d81c0e_24daabca_20260620.png?v=24daabca",
             "width": 1600,
             "height": 1200
           }
@@ -668,7 +740,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-74970575b4_d73ca180_20260619.png?v=d73ca180",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-74970575b4_d73ca180_20260620.png?v=d73ca180",
             "width": 1600,
             "height": 1200
           }
@@ -740,7 +812,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-14fb55b2a6_08144e0b_20260619.png?v=08144e0b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-14fb55b2a6_08144e0b_20260620.png?v=08144e0b",
             "width": 1600,
             "height": 1200
           }
@@ -812,7 +884,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4f98f73b6d_4109d4ca_20260619.png?v=4109d4ca",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4f98f73b6d_4109d4ca_20260620.png?v=4109d4ca",
             "width": 1600,
             "height": 1200
           }
@@ -884,7 +956,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9ea1865049_0484fb51_20260619.png?v=0484fb51",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9ea1865049_0484fb51_20260620.png?v=0484fb51",
             "width": 1600,
             "height": 1200
           }
@@ -956,7 +1028,223 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-15c098ba97_26cf1038_20260619.png?v=26cf1038",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-15c098ba97_26cf1038_20260620.png?v=26cf1038",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c646b9f310",
+          "name": "Dallas Wings W  vs Chicago Sky W | 07:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c646b9f310",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c646b9f310",
+                  "name": "Dallas Wings W  vs Chicago Sky W",
+                  "streams": [
+                    {
+                      "id": "st-c646b9f310",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d2638e39ba",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882248_hd/1781882248_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Dallas Wings W ",
+            "team_b": "Chicago Sky W",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk0nmYNUbdu_irSbIj1ZZVdI5JJsQnb6UGKw&s",
+            "logo_b": "https://static.flashscore.com/res/image/data/ID1vxUZA-t67FITyc.png",
+            "time": "07:00:00",
+            "date": "21/06",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c646b9f310_aeaae596_20260620.png?v=aeaae596",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9ddd5e3c1b",
+          "name": "Franklin Bulls  vs Wellington Saints | 10:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ddd5e3c1b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9ddd5e3c1b",
+                  "name": "Franklin Bulls  vs Wellington Saints",
+                  "streams": [
+                    {
+                      "id": "st-9ddd5e3c1b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee7c34bd70",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882300_hd/1781882300_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBL",
+            "team_a": "Franklin Bulls ",
+            "team_b": "Wellington Saints",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmniLWEWtP2z1nTvNinANoJYb5xc6nBGoWg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxJsz96tJ5af--mAT0ol6Q3cYomZDZng6UGw&s",
+            "time": "10:00:00",
+            "date": "21/06",
+            "blv": "blv-lac",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9ddd5e3c1b_4ed54d8d_20260620.png?v=4ed54d8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-651490d60b",
+          "name": "Serbia vs USA | 11:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-651490d60b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-651490d60b",
+                  "name": "Serbia vs USA",
+                  "streams": [
+                    {
+                      "id": "st-651490d60b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3346c3a2da",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882389_hd/1781882389_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Serbia",
+            "team_b": "USA",
+            "logo_a": "https://assets.fiba.basketball/image/upload/d_.logoflag--dark--organisation_8323.webp/w_400/f_auto/q_auto/.logoflag--dark--organisation_8323--competition_208853?buster=20515",
+            "logo_b": "https://static.flashscore.com/res/image/data/AF5ZcRwS-0rEKp9J8.png",
+            "time": "11:00:00",
+            "date": "21/06",
+            "blv": "blv-sun",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-651490d60b_d2ecd702_20260620.png?v=d2ecd702",
             "width": 1600,
             "height": 1200
           }
@@ -1037,7 +1325,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-250753b9b0_638461ab_20260619.png?v=638461ab",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-250753b9b0_638461ab_20260620.png?v=638461ab",
             "width": 1600,
             "height": 1200
           }
@@ -1118,7 +1406,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-185940d96d_713e84ad_20260619.png?v=713e84ad",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-185940d96d_713e84ad_20260620.png?v=713e84ad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b465185daf",
+          "name": "Bulgaria vs Ukraine | 13:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b465185daf",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b465185daf",
+                  "name": "Bulgaria vs Ukraine",
+                  "streams": [
+                    {
+                      "id": "st-b465185daf",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5271b108e9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882462_hd/1781882462_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Bulgaria",
+            "team_b": "Ukraine",
+            "logo_a": "https://static.flashscore.com/res/image/data/trgkvtFa-p8cOXAXu.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Q3dsHxe5-8KJ0tcMR.png",
+            "time": "13:00:00",
+            "date": "21/06",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b465185daf_2eee21cb_20260620.png?v=2eee21cb",
             "width": 1600,
             "height": 1200
           }
@@ -1199,7 +1559,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-91693bb0be_b9144bc0_20260619.png?v=b9144bc0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-91693bb0be_b9144bc0_20260620.png?v=b9144bc0",
             "width": 1600,
             "height": 1200
           }
@@ -1271,7 +1631,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d4d6fcbe73_da60dc23_20260619.png?v=da60dc23",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d4d6fcbe73_da60dc23_20260620.png?v=da60dc23",
             "width": 1600,
             "height": 1200
           }
@@ -1343,7 +1703,151 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8557d15121_54bac4b0_20260619.png?v=54bac4b0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8557d15121_54bac4b0_20260620.png?v=54bac4b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-35561c0951",
+          "name": "Athletics vs Los Angeles Angels | 09:05 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35561c0951",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-35561c0951",
+                  "name": "Athletics vs Los Angeles Angels",
+                  "streams": [
+                    {
+                      "id": "st-35561c0951",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3bc4b421f9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882537_hd/1781882537_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Athletics",
+            "team_b": "Los Angeles Angels",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Oakland_A%27s_logo.svg/250px-Oakland_A%27s_logo.svg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/jmLVKEcM-6aera8NK.png",
+            "time": "09:05:00",
+            "date": "21/06",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-35561c0951_eb37c396_20260620.png?v=eb37c396",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b26536648b",
+          "name": "Los Angeles Dodgers vs Baltimore Orioles | 09:10 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b26536648b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b26536648b",
+                  "name": "Los Angeles Dodgers vs Baltimore Orioles",
+                  "streams": [
+                    {
+                      "id": "st-b26536648b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-deefed0f23",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882591_hd/1781882591_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Los Angeles Dodgers",
+            "team_b": "Baltimore Orioles",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIxW6YZgzlpBloA0ZZDQ1TJEkghNAAfcRoMQ&s",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Baltimore_Orioles_Script.svg/3840px-Baltimore_Orioles_Script.svg.png",
+            "time": "09:10:00",
+            "date": "21/06",
+            "blv": "blv-ngu",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b26536648b_54bac4b0_20260620.png?v=54bac4b0",
             "width": 1600,
             "height": 1200
           }
