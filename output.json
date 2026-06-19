@@ -524,7 +524,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -537,10 +537,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -589,7 +589,7 @@
             "time": "06:30:00",
             "date": "20/06",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -597,78 +597,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-74970575b4_d73ca180_20260620.png?v=d73ca180",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-14fb55b2a6",
-          "name": "New York Liberty W  vs Washington Mystics W | 06:30 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-14fb55b2a6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-14fb55b2a6",
-                  "name": "New York Liberty W  vs Washington Mystics W",
-                  "streams": [
-                    {
-                      "id": "st-14fb55b2a6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ef54afdb42",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781885791_hd/1781885791_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WNBA",
-            "team_a": "New York Liberty W ",
-            "team_b": "Washington Mystics W",
-            "logo_a": "https://static.flashscore.com/res/image/data/GdVsz3il-AqtCAd4f.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/v9aM9hWg-zPKhqktm.png",
-            "time": "06:30:00",
-            "date": "20/06",
-            "blv": "leo",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-14fb55b2a6_08144e0b_20260620.png?v=08144e0b",
             "width": 1600,
             "height": 1200
           }
@@ -1190,7 +1118,7 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1203,10 +1131,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1255,7 +1183,7 @@
             "time": "06:15:00",
             "date": "20/06",
             "blv": "blv-can",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
