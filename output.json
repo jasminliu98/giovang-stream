@@ -1541,7 +1541,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1626,10 +1626,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1678,7 +1678,7 @@
             "time": "21:30:00",
             "date": "20/06",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -1694,83 +1694,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f9e036a32c",
-          "name": "Japan vs Dominican Republic | 19:00 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f9e036a32c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f9e036a32c",
-                  "name": "Japan vs Dominican Republic",
-                  "streams": [
-                    {
-                      "id": "st-f9e036a32c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cb10702b4c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781941702_hd/1781941702_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Japan",
-            "team_b": "Dominican Republic",
-            "logo_a": "https://static.flashscore.com/res/image/data/0WJLxnGG-zLx3xGjj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hWkRwuZA-YwmRHSUk.png",
-            "time": "19:00:00",
-            "date": "20/06",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f9e036a32c_59e0770b_20260620.png?v=59e0770b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6147cffe2f",
           "name": "China vs Brazil | 20:00 20/06",
