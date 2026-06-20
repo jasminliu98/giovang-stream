@@ -1622,83 +1622,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6147cffe2f",
-          "name": "China vs Brazil | 20:00 20/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6147cffe2f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6147cffe2f",
-                  "name": "China vs Brazil",
-                  "streams": [
-                    {
-                      "id": "st-6147cffe2f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3fb9704a7f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781942102_hd/1781942102_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "China",
-            "team_b": "Brazil",
-            "logo_a": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WG7ZbYdM-dlhXsxTS.png",
-            "time": "20:00:00",
-            "date": "20/06",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6147cffe2f_1c9a92a9_20260620.png?v=1c9a92a9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cbebeec4cb",
           "name": "Thailand vs Canada | 20:30 20/06",
