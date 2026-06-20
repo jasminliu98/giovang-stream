@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-b293f05466",
-          "name": "Almeria vs Malaga | 02:00 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b293f05466",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b293f05466",
-                  "name": "Almeria vs Malaga",
-                  "streams": [
-                    {
-                      "id": "st-b293f05466",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-08ce683e4d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781941043_hd/1781941043_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng 2 Tây Ban Nha",
-            "team_a": "Almeria",
-            "team_b": "Malaga",
-            "logo_a": "https://images.keovip88.net/images/teams/almeria.png",
-            "logo_b": "https://images.keovip88.net/images/teams/malaga.png",
-            "time": "02:00:00",
-            "date": "21/06",
-            "blv": "blv-ngong",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b293f05466_eacea43b_20260620.png?v=eacea43b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-0ae367a1c8",
           "name": "Đức vs Bờ Biển Ngà | 03:00 21/06",
           "type": "single",
@@ -956,11 +884,83 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-2f4e62b785",
+          "name": "Atlanta Dream W vs Indiana Fever W | 00:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2f4e62b785",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2f4e62b785",
+                  "name": "Atlanta Dream W vs Indiana Fever W",
+                  "streams": [
+                    {
+                      "id": "st-2f4e62b785",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-681c80aa90",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781973731_hd/1781973731_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Atlanta Dream W",
+            "team_b": "Indiana Fever W",
+            "logo_a": "https://static.flashscore.com/res/image/data/GQbbJxxS-I5Zot0RH.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/OnITeBf5-ljX4tzuR.png",
+            "time": "00:00:00",
+            "date": "21/06",
+            "blv": "BLV Cầy",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2f4e62b785_a92387ae_20260620.png?v=a92387ae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-df79835c23",
           "name": "Phoenix Mercury W vs Seattle Storm W | 02:00 21/06",
