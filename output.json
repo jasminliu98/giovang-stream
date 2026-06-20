@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-6263d81c0e",
+          "name": "Hà Lan vs Thụy Điển | 23:59 20/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6263d81c0e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6263d81c0e",
+                  "name": "Hà Lan vs Thụy Điển",
+                  "streams": [
+                    {
+                      "id": "st-6263d81c0e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c5eb21a4a6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781941738_hd/1781941738_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Hà Lan",
+            "team_b": "Thụy Điển",
+            "logo_a": "https://images.keovip88.net/images/teams/netherlands.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sweden.png",
+            "time": "23:59:00",
+            "date": "20/06",
+            "blv": "leo-dory, BLV Hợi",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6263d81c0e_24daabca_20260620.png?v=24daabca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-0ae367a1c8",
           "name": "Đức vs Bờ Biển Ngà | 03:00 21/06",
@@ -957,6 +1029,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2f4e62b785_a92387ae_20260620.png?v=a92387ae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4e97c4c383",
+          "name": "Valencia vs Barcelona | 01:00 21/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4e97c4c383",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4e97c4c383",
+                  "name": "Valencia vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-4e97c4c383",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1aa360f95",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781973958_hd/1781973958_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ACB",
+            "team_a": "Valencia",
+            "team_b": "Barcelona",
+            "logo_a": "https://static.flashscore.com/res/image/data/Ioshoye5-MHrRLNUo.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8dhw5vxS-fcDVLdrL.png",
+            "time": "01:00:00",
+            "date": "21/06",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4e97c4c383_c7c13111_20260620.png?v=c7c13111",
             "width": 1600,
             "height": 1200
           }
