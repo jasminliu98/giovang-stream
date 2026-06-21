@@ -524,83 +524,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9ddd5e3c1b",
-          "name": "Franklin Bulls  vs Wellington Saints | 10:00 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ddd5e3c1b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9ddd5e3c1b",
-                  "name": "Franklin Bulls  vs Wellington Saints",
-                  "streams": [
-                    {
-                      "id": "st-9ddd5e3c1b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee7c34bd70",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882300_hd/1781882300_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBL",
-            "team_a": "Franklin Bulls ",
-            "team_b": "Wellington Saints",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROmniLWEWtP2z1nTvNinANoJYb5xc6nBGoWg&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxJsz96tJ5af--mAT0ol6Q3cYomZDZng6UGw&s",
-            "time": "10:00:00",
-            "date": "21/06",
-            "blv": "blv-lac",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9ddd5e3c1b_4ed54d8d_20260621.png?v=4ed54d8d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-651490d60b",
           "name": "Serbia vs USA | 11:00 21/06",
@@ -1254,87 +1182,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-63c89e3166_5c1753c1_20260621.png?v=5c1753c1",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-b26536648b",
-          "name": "Los Angeles Dodgers vs Baltimore Orioles | 09:10 21/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b26536648b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b26536648b",
-                  "name": "Los Angeles Dodgers vs Baltimore Orioles",
-                  "streams": [
-                    {
-                      "id": "st-b26536648b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-deefed0f23",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1781882591_hd/1781882591_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Los Angeles Dodgers",
-            "team_b": "Baltimore Orioles",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIxW6YZgzlpBloA0ZZDQ1TJEkghNAAfcRoMQ&s",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Baltimore_Orioles_Script.svg/3840px-Baltimore_Orioles_Script.svg.png",
-            "time": "09:10:00",
-            "date": "21/06",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b26536648b_54bac4b0_20260621.png?v=54bac4b0",
             "width": 1600,
             "height": 1200
           }
