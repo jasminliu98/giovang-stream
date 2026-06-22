@@ -1034,6 +1034,87 @@
           }
         }
       ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-3f0f27098a",
+          "name": "Minesota Twins vs Los Angeles Dodgers | 06:40 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f0f27098a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3f0f27098a",
+                  "name": "Minesota Twins vs Los Angeles Dodgers",
+                  "streams": [
+                    {
+                      "id": "st-3f0f27098a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d27844b89a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782136163_hd/1782136163_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Minesota Twins",
+            "team_b": "Los Angeles Dodgers",
+            "logo_a": "https://static.flashscore.com/res/image/data/48zwVQil-hf8mqtOe.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
+            "time": "06:40:00",
+            "date": "23/06",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3f0f27098a_8613e26c_20260622.png?v=8613e26c",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
