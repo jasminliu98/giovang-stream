@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "03:00:00",
             "date": "24/06",
             "blv": "can-ngong, dory-leo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1470,6 +1470,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ee6a30f4e4_8613e26c_20260624.png?v=8613e26c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5392356c62",
+          "name": "San Diego Padres vs Atlanta Braves | 09:10 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5392356c62",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5392356c62",
+                  "name": "San Diego Padres vs Atlanta Braves",
+                  "streams": [
+                    {
+                      "id": "st-5392356c62",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a12c21232",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782241295_hd/1782241295_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "San Diego Padres",
+            "team_b": "Atlanta Braves",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/SDPadres_logo.svg/250px-SDPadres_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Atlanta_Braves.svg/250px-Atlanta_Braves.svg.png",
+            "time": "09:10:00",
+            "date": "24/06",
+            "blv": "blv-ngu",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5392356c62_efbd175e_20260624.png?v=efbd175e",
             "width": 1600,
             "height": 1200
           }
