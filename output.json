@@ -807,6 +807,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-cb098c701a",
+          "name": "Gold Coast Nữ vs FQ Academy QAS Nữ | 16:30 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb098c701a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cb098c701a",
+                  "name": "Gold Coast Nữ vs FQ Academy QAS Nữ",
+                  "streams": [
+                    {
+                      "id": "st-cb098c701a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7739e6d64d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782231281_hd/1782231281_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AUS - NPL Queensland W",
+            "team_a": "Gold Coast Nữ",
+            "team_b": "FQ Academy QAS Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/YP1rmlf5-YVAFnuZJ.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8SNy0Zhl-v30hppyA.png",
+            "time": "16:30:00",
+            "date": "24/06",
+            "blv": "BLV Dần",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cb098c701a_e8781643_20260623.png?v=e8781643",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1042,78 +1114,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c181c8f7cd",
-          "name": "Detroit Tigers vs New York Yankees | 05:40 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c181c8f7cd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c181c8f7cd",
-                  "name": "Detroit Tigers vs New York Yankees",
-                  "streams": [
-                    {
-                      "id": "st-c181c8f7cd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9250b2f7d6",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782096765_hd/1782096765_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Detroit Tigers",
-            "team_b": "New York Yankees",
-            "logo_a": "https://static.flashscore.com/res/image/data/WC5CNNGG-G4V3OZvb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
-            "time": "05:40:00",
-            "date": "24/06",
-            "blv": "BLV Cầy",
-            "is_live": false,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c181c8f7cd_af5a0f9e_20260623.png?v=af5a0f9e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ee6a30f4e4",
           "name": "Minesota Twins vs Los Angeles Dodgers | 06:40 24/06",
