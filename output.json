@@ -740,83 +740,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1a7fb485cf",
-          "name": "Paranaque Patriots  vs IIagan Isabela Cowboys | 19:00 23/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1a7fb485cf",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1a7fb485cf",
-                  "name": "Paranaque Patriots  vs IIagan Isabela Cowboys",
-                  "streams": [
-                    {
-                      "id": "st-1a7fb485cf",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-faf8eb2d14",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782049184_hd/1782049184_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MPBL",
-            "team_a": "Paranaque Patriots ",
-            "team_b": "IIagan Isabela Cowboys",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcPzXSHhNcXAoNqoawKvQuUNb-KAswFmgRDw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6lFhtByDgniMCnXTohABIGM87XrPpBZEKQQ&s",
-            "time": "19:00:00",
-            "date": "23/06",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1a7fb485cf_a982d47e_20260623.png?v=a982d47e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f2945c310b",
           "name": "Quezon City  vs Bataan Risers | 15:00 24/06",
