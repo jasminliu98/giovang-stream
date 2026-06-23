@@ -1043,6 +1043,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-ec8c89ed1a",
+          "name": "New Zealand vs Australia | 13:30 23/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ec8c89ed1a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ec8c89ed1a",
+                  "name": "New Zealand vs Australia",
+                  "streams": [
+                    {
+                      "id": "st-ec8c89ed1a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3a3c2f0fad",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782194375_hd/1782194375_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AVC Nations Cup",
+            "team_a": "New Zealand",
+            "team_b": "Australia",
+            "logo_a": "https://static.flashscore.com/res/image/data/Q1WkZDyS-zmDbXBOa.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Ygu7zgHG-YNb3oHYR.png",
+            "time": "13:30:00",
+            "date": "23/06",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ec8c89ed1a_6a9bb94b_20260623.png?v=6a9bb94b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-8856e33dc0",
           "name": "Đài Loan TQ  vs Kazakhstan | 16:30 23/06",
           "type": "single",
