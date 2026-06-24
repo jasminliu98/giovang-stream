@@ -1838,83 +1838,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f2289a38c8",
-          "name": "Detroit Tigers vs New York Yankees | 05:40 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f2289a38c8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f2289a38c8",
-                  "name": "Detroit Tigers vs New York Yankees",
-                  "streams": [
-                    {
-                      "id": "st-f2289a38c8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff2cf42541",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782232082_hd/1782232082_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Detroit Tigers",
-            "team_b": "New York Yankees",
-            "logo_a": "https://static.flashscore.com/res/image/data/WC5CNNGG-G4V3OZvb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
-            "time": "05:40:00",
-            "date": "24/06",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f2289a38c8_af5a0f9e_20260624.png?v=af5a0f9e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5392356c62",
           "name": "San Diego Padres vs Atlanta Braves | 09:10 24/06",
