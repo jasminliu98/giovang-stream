@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "16:30:00",
             "date": "24/06",
             "blv": "BLV Dần",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1397,83 +1397,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-847ee24a7d",
-          "name": "Việt Nam  vs Philippines | 16:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-847ee24a7d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-847ee24a7d",
-                  "name": "Việt Nam  vs Philippines",
-                  "streams": [
-                    {
-                      "id": "st-847ee24a7d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-661a665af0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782286401_hd/1782286401_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "U18 ASEAN",
-            "team_a": "Việt Nam ",
-            "team_b": "Philippines",
-            "logo_a": "https://static.flashscore.com/res/image/data/nsORfhdM-AeUnl0mG.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/EencY5Yg-U58fIz8F.png",
-            "time": "16:00:00",
-            "date": "24/06",
-            "blv": "blv-tri",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-847ee24a7d_716321a2_20260624.png?v=716321a2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-43ef3e2acc",
           "name": "Bulgaria  vs Italy | 18:00 24/06",
