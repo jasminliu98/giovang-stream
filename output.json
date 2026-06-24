@@ -452,83 +452,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2c529b00c0",
-          "name": "Negros Hacienderos vs Rizal Golden Coolers | 17:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2c529b00c0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2c529b00c0",
-                  "name": "Negros Hacienderos vs Rizal Golden Coolers",
-                  "streams": [
-                    {
-                      "id": "st-2c529b00c0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e7341adf93",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782232562_hd/1782232562_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MPBL",
-            "team_a": "Negros Hacienderos",
-            "team_b": "Rizal Golden Coolers",
-            "logo_a": "https://static.flashscore.com/res/image/data/6DfoMaZA-jLQmfqq6.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/lEBVWsHG-UJNQ0C5A.png",
-            "time": "17:00:00",
-            "date": "24/06",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2c529b00c0_ff5ab3a4_20260624.png?v=ff5ab3a4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-214283769b",
           "name": "Borneo Hornbills  vs Pelita Jaya | 19:00 24/06",
