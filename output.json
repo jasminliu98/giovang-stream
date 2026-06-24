@@ -1325,83 +1325,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4d58053bd4",
-          "name": "Ukraine  vs Brazil | 21:30 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4d58053bd4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4d58053bd4",
-                  "name": "Ukraine  vs Brazil",
-                  "streams": [
-                    {
-                      "id": "st-4d58053bd4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c26f95f24",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782287225_hd/1782287225_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Ukraine ",
-            "team_b": "Brazil",
-            "logo_a": "https://static.flashscore.com/res/image/data/va0cEUGG-8KJ0tcMR.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OM8Y9ODa-vBKZiE2j.png",
-            "time": "21:30:00",
-            "date": "24/06",
-            "blv": "blv-sun",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4d58053bd4_f0fa11ce_20260624.png?v=f0fa11ce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c5aba8857e",
           "name": "Poland vs Belgium | 01:00 25/06",
