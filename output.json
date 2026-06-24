@@ -42,25 +42,7 @@
                     {
                       "id": "st-7e9f404eba",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cf1e20ffb9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782232364_hd/1782232364_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -524,7 +506,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -602,78 +584,6 @@
           }
         },
         {
-          "id": "gv-6a14e14d66",
-          "name": "Borneo Hornbills  vs Pelita Jaya | 19:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6a14e14d66",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6a14e14d66",
-                  "name": "Borneo Hornbills  vs Pelita Jaya",
-                  "streams": [
-                    {
-                      "id": "st-6a14e14d66",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-382dd1aa47",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782049339_hd/1782049339_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "IBL Indo",
-            "team_a": "Borneo Hornbills ",
-            "team_b": "Pelita Jaya",
-            "logo_a": "https://iblindonesia.com/image/1040x585/20231026182746-borneo-hornbills-(2).jpeg",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/0/03/Pelita_Jaya_BC_logo.png",
-            "time": "19:00:00",
-            "date": "24/06",
-            "blv": "BLV Tôm",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6a14e14d66_5e60db81_20260624.png?v=5e60db81",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-214283769b",
           "name": "Borneo Hornbills  vs Pelita Jaya | 19:00 24/06",
           "type": "single",
@@ -681,10 +591,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -733,7 +643,7 @@
             "time": "19:00:00",
             "date": "24/06",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
