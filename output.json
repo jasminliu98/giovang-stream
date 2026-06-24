@@ -668,7 +668,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -746,6 +746,78 @@
           }
         },
         {
+          "id": "gv-84a2879106",
+          "name": "Quezon City  vs Bataan Risers | 15:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-84a2879106",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-84a2879106",
+                  "name": "Quezon City  vs Bataan Risers",
+                  "streams": [
+                    {
+                      "id": "st-84a2879106",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8cdbc7602d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782232513_hd/1782232513_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MPBL",
+            "team_a": "Quezon City ",
+            "team_b": "Bataan Risers",
+            "logo_a": "https://static.flashscore.com/res/image/data/hU0zfSzB-rXQZEtws.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/OOkJJig5-lWIAAzpl.png",
+            "time": "15:00:00",
+            "date": "24/06",
+            "blv": "BLV Cầy",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-84a2879106_25241afd_20260624.png?v=25241afd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-f2945c310b",
           "name": "Quezon City  vs Bataan Risers | 15:00 24/06",
           "type": "single",
@@ -813,78 +885,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f2945c310b_25241afd_20260624.png?v=25241afd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-84a2879106",
-          "name": "Quezon City  vs Bataan Risers | 15:00 24/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-84a2879106",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-84a2879106",
-                  "name": "Quezon City  vs Bataan Risers",
-                  "streams": [
-                    {
-                      "id": "st-84a2879106",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8cdbc7602d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782232513_hd/1782232513_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MPBL",
-            "team_a": "Quezon City ",
-            "team_b": "Bataan Risers",
-            "logo_a": "https://static.flashscore.com/res/image/data/hU0zfSzB-rXQZEtws.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OOkJJig5-lWIAAzpl.png",
-            "time": "15:00:00",
-            "date": "24/06",
-            "blv": "BLV Cầy",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-84a2879106_25241afd_20260624.png?v=25241afd",
             "width": 1600,
             "height": 1200
           }
@@ -1474,6 +1474,78 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-847ee24a7d",
+          "name": "Việt Nam  vs Philippines | 16:00 24/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-847ee24a7d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-847ee24a7d",
+                  "name": "Việt Nam  vs Philippines",
+                  "streams": [
+                    {
+                      "id": "st-847ee24a7d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-661a665af0",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782286401_hd/1782286401_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "U18 ASEAN",
+            "team_a": "Việt Nam ",
+            "team_b": "Philippines",
+            "logo_a": "https://static.flashscore.com/res/image/data/nsORfhdM-AeUnl0mG.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/EencY5Yg-U58fIz8F.png",
+            "time": "16:00:00",
+            "date": "24/06",
+            "blv": "blv-tri",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-847ee24a7d_716321a2_20260624.png?v=716321a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-c5aba8857e",
           "name": "Poland vs Belgium | 01:00 25/06",
