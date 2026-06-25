@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6e024e319f_8683636c_20260625.png?v=8683636c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9e4f7c9d23",
-          "name": "Grobiņa vs Auda | 22:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9e4f7c9d23",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9e4f7c9d23",
-                  "name": "Grobiņa vs Auda",
-                  "streams": [
-                    {
-                      "id": "st-9e4f7c9d23",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7f2a84ea14",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782179383_hd/1782179383_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Latvia",
-            "team_a": "Grobiņa",
-            "team_b": "Auda",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/FK_Grobi%C5%86a_logo.png/250px-FK_Grobi%C5%86a_logo.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Qe2AFZjl-hftqBi79.png",
-            "time": "22:00:00",
-            "date": "25/06",
-            "blv": "blv-mat",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9e4f7c9d23_b43a5005_20260625.png?v=b43a5005",
             "width": 1600,
             "height": 1200
           }
@@ -821,7 +749,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -978,10 +906,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1030,7 +958,7 @@
             "time": "22:30:00",
             "date": "25/06",
             "blv": "blv-mat",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
