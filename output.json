@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-dab45b3e0f",
-          "name": "BFC Daugavpils  vs Riga | 22:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dab45b3e0f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-dab45b3e0f",
-                  "name": "BFC Daugavpils  vs Riga",
-                  "streams": [
-                    {
-                      "id": "st-dab45b3e0f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aa2b3347e7",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782373053_hd/1782373053_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Latvia",
-            "team_a": "BFC Daugavpils ",
-            "team_b": "Riga",
-            "logo_a": "https://static.flashscore.com/res/image/data/vHb4EJZA-0Si1Ct09.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/lr6E8YDa-EmoyoZps.png",
-            "time": "22:00:00",
-            "date": "25/06",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-dab45b3e0f_06a473d6_20260625.png?v=06a473d6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-146edcccf4",
           "name": "Super Nova vs FS Jelgava | 23:59 25/06",
@@ -155,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-146edcccf4_82cc917e_20260625.png?v=82cc917e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-146edcccf4_82cc917e_20260626.png?v=82cc917e",
             "width": 1600,
             "height": 1200
           }
@@ -227,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-69eea13a97_12e9dde9_20260625.png?v=12e9dde9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-69eea13a97_12e9dde9_20260626.png?v=12e9dde9",
             "width": 1600,
             "height": 1200
           }
@@ -299,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5e38aed1a2_9aa4bb4f_20260625.png?v=9aa4bb4f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5e38aed1a2_9aa4bb4f_20260626.png?v=9aa4bb4f",
             "width": 1600,
             "height": 1200
           }
@@ -371,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d1dcf86715_a0a5ac74_20260625.png?v=a0a5ac74",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d1dcf86715_a0a5ac74_20260626.png?v=a0a5ac74",
             "width": 1600,
             "height": 1200
           }
@@ -443,7 +371,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6dcd22cbda_4ac5b8e7_20260625.png?v=4ac5b8e7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6dcd22cbda_4ac5b8e7_20260626.png?v=4ac5b8e7",
             "width": 1600,
             "height": 1200
           }
@@ -515,7 +443,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5d2f676a1e_b847ad53_20260625.png?v=b847ad53",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5d2f676a1e_b847ad53_20260626.png?v=b847ad53",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-15dd350605",
+          "name": "Paraguay vs Úc | 09:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-15dd350605",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-15dd350605",
+                  "name": "Paraguay vs Úc",
+                  "streams": [
+                    {
+                      "id": "st-15dd350605",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5184de388e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782406575_hd/1782406575_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Paraguay",
+            "team_b": "Úc",
+            "logo_a": "https://images.keovip88.net/images/teams/paraguay.png",
+            "logo_b": "https://images.keovip88.net/images/teams/australia.png",
+            "time": "09:00:00",
+            "date": "26/06",
+            "blv": "blv-ngong, blv-tri",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-15dd350605_116547a4_20260626.png?v=116547a4",
             "width": 1600,
             "height": 1200
           }
@@ -596,7 +596,79 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-815f776989_ce3855d2_20260625.png?v=ce3855d2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-815f776989_ce3855d2_20260626.png?v=ce3855d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-de046a4e63",
+          "name": "Las Vegas Aces W vs Dallas Wings | 09:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de046a4e63",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-de046a4e63",
+                  "name": "Las Vegas Aces W vs Dallas Wings",
+                  "streams": [
+                    {
+                      "id": "st-de046a4e63",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-15be578898",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782406786_hd/1782406786_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Las Vegas Aces W",
+            "team_b": "Dallas Wings",
+            "logo_a": "https://static.flashscore.com/res/image/data/6mT2sfg5-6gCoMGdb.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/APCDxNCr-rDAmagRK.png",
+            "time": "09:00:00",
+            "date": "26/06",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-de046a4e63_6efa84a5_20260626.png?v=6efa84a5",
             "width": 1600,
             "height": 1200
           }
@@ -605,7 +677,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -677,79 +749,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-23bb7cd8be_fe5afdad_20260625.png?v=fe5afdad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-cd9f0f0d25",
-          "name": "China  vs Belgium | 21:30 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cd9f0f0d25",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cd9f0f0d25",
-                  "name": "China  vs Belgium",
-                  "streams": [
-                    {
-                      "id": "st-cd9f0f0d25",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5d66e6c88f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782373389_hd/1782373389_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "China ",
-            "team_b": "Belgium",
-            "logo_a": "https://static.flashscore.com/res/image/data/byFAJXzS-vBKZiE2j.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QJWQSoYg-CUoVGnpd.png",
-            "time": "21:30:00",
-            "date": "25/06",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cd9f0f0d25_668c8ef1_20260625.png?v=668c8ef1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-23bb7cd8be_fe5afdad_20260626.png?v=fe5afdad",
             "width": 1600,
             "height": 1200
           }
@@ -821,7 +821,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-eb2accb06d_a3177767_20260625.png?v=a3177767",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-eb2accb06d_a3177767_20260626.png?v=a3177767",
             "width": 1600,
             "height": 1200
           }
@@ -893,7 +893,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-893d455ff0_9b1b4ab8_20260625.png?v=9b1b4ab8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-893d455ff0_9b1b4ab8_20260626.png?v=9b1b4ab8",
             "width": 1600,
             "height": 1200
           }
@@ -965,7 +965,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a6f1f86edd_2fa035a2_20260625.png?v=2fa035a2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a6f1f86edd_2fa035a2_20260626.png?v=2fa035a2",
             "width": 1600,
             "height": 1200
           }
@@ -1037,7 +1037,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-12eeb9b735_298b02fd_20260625.png?v=298b02fd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-12eeb9b735_298b02fd_20260626.png?v=298b02fd",
             "width": 1600,
             "height": 1200
           }
@@ -1118,7 +1118,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6fc82494ce_f5a054d5_20260625.png?v=f5a054d5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6fc82494ce_f5a054d5_20260626.png?v=f5a054d5",
             "width": 1600,
             "height": 1200
           }
