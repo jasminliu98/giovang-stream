@@ -452,7 +452,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (4 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -525,78 +525,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2761dbc561_e515b560_20260625.png?v=e515b560",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3d55934c65",
-          "name": "Washington Mystics W  vs Minnesota Lynx W | 06:30 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d55934c65",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3d55934c65",
-                  "name": "Washington Mystics W  vs Minnesota Lynx W",
-                  "streams": [
-                    {
-                      "id": "st-3d55934c65",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ae59941f80",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782248742_hd/1782248742_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WNBA",
-            "team_a": "Washington Mystics W ",
-            "team_b": "Minnesota Lynx W",
-            "logo_a": "https://static.flashscore.com/res/image/data/v9aM9hWg-zPKhqktm.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tYwDOwCa-pnEu7gs7.png",
-            "time": "06:30:00",
-            "date": "25/06",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3d55934c65_6aba5368_20260625.png?v=6aba5368",
             "width": 1600,
             "height": 1200
           }
@@ -1407,6 +1335,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1a85d98c3a_8613e26c_20260625.png?v=8613e26c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6fc82494ce",
+          "name": "Boston Red Sox vs New York Yankees | 06:10 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6fc82494ce",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6fc82494ce",
+                  "name": "Boston Red Sox vs New York Yankees",
+                  "streams": [
+                    {
+                      "id": "st-6fc82494ce",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e271e62e8d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782352175_hd/1782352175_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Boston Red Sox",
+            "team_b": "New York Yankees",
+            "logo_a": "https://static.flashscore.com/res/image/data/E92vTtZA-EXC3kc6s.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
+            "time": "06:10:00",
+            "date": "26/06",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6fc82494ce_f5a054d5_20260625.png?v=f5a054d5",
             "width": 1600,
             "height": 1200
           }
