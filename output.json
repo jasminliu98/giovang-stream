@@ -476,11 +476,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-20a689b4b6",
+                          "id": "lnk-3ec03ab2ea",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782354265_hd/1782354265_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782354502_hd/1782354502_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -507,7 +507,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/germany.png",
             "time": "03:00:00",
             "date": "26/06",
-            "blv": "BLV Mason",
+            "blv": "chinh-chuyen",
             "is_live": false,
             "cate_type": "football"
           },
@@ -516,6 +516,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5e38aed1a2_9aa4bb4f_20260625.png?v=9aa4bb4f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d1dcf86715",
+          "name": "Tunisia vs Hà Lan | 06:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d1dcf86715",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d1dcf86715",
+                  "name": "Tunisia vs Hà Lan",
+                  "streams": [
+                    {
+                      "id": "st-d1dcf86715",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19f7672408",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782354596_hd/1782354596_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Tunisia",
+            "team_b": "Hà Lan",
+            "logo_a": "https://images.keovip88.net/images/teams/tunisia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/netherlands.png",
+            "time": "06:00:00",
+            "date": "26/06",
+            "blv": "chinh-chuyen",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d1dcf86715_a0a5ac74_20260625.png?v=a0a5ac74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6dcd22cbda",
+          "name": "Nhật Bản vs Thụy Điển | 06:00 26/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6dcd22cbda",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6dcd22cbda",
+                  "name": "Nhật Bản vs Thụy Điển",
+                  "streams": [
+                    {
+                      "id": "st-6dcd22cbda",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e38b7938a7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782354584_hd/1782354584_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Nhật Bản",
+            "team_b": "Thụy Điển",
+            "logo_a": "https://images.keovip88.net/images/teams/japan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sweden.png",
+            "time": "06:00:00",
+            "date": "26/06",
+            "blv": "chinh-chuyen",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6dcd22cbda_4ac5b8e7_20260625.png?v=4ac5b8e7",
             "width": 1600,
             "height": 1200
           }
@@ -1190,83 +1334,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1a85d98c3a",
-          "name": "Minesota Twins  vs Los Angeles Dodgers | 06:40 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1a85d98c3a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1a85d98c3a",
-                  "name": "Minesota Twins  vs Los Angeles Dodgers",
-                  "streams": [
-                    {
-                      "id": "st-1a85d98c3a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a526c07849",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782343110_hd/1782343110_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.fun/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Minesota Twins ",
-            "team_b": "Los Angeles Dodgers",
-            "logo_a": "https://static.flashscore.com/res/image/data/48zwVQil-hf8mqtOe.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
-            "time": "06:40:00",
-            "date": "25/06",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1a85d98c3a_8613e26c_20260625.png?v=8613e26c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6fc82494ce",
           "name": "Boston Red Sox vs New York Yankees | 06:10 26/06",
