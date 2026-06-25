@@ -11,65 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6e024e319f",
-          "name": "Ukraine  vs Italy | 21:30 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e024e319f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6e024e319f",
-                  "name": "Ukraine  vs Italy",
-                  "streams": [
-                    {
-                      "id": "st-6e024e319f",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Ukraine ",
-            "team_b": "Italy",
-            "logo_a": "https://images.keovip.cc/images/teams/ukraine.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Logo_Italy_National_Football_Team_-_2023.svg/500px-Logo_Italy_National_Football_Team_-_2023.svg.png",
-            "time": "21:30:00",
-            "date": "25/06",
-            "blv": "blv-tri",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6e024e319f_8683636c_20260625.png?v=8683636c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-dab45b3e0f",
           "name": "BFC Daugavpils  vs Riga | 22:00 25/06",
@@ -138,60 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-dab45b3e0f_06a473d6_20260625.png?v=06a473d6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-32e37bbdbe",
-          "name": "Jazz Pori vs Tampere Utd | 23:00 25/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-32e37bbdbe",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-32e37bbdbe",
-                  "name": "Jazz Pori vs Tampere Utd",
-                  "streams": [
-                    {
-                      "id": "st-32e37bbdbe",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIN - Ykkonen",
-            "team_a": "Jazz Pori",
-            "team_b": "Tampere Utd",
-            "logo_a": "https://static.flashscore.com/res/image/data/4AZXupil-2ZlfMMDL.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/GWwMbXBr-vezBa1Ei.png",
-            "time": "23:00:00",
-            "date": "25/06",
-            "blv": "blv-ngu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-32e37bbdbe_39c50e0c_20260625.png?v=39c50e0c",
             "width": 1600,
             "height": 1200
           }
@@ -438,7 +330,25 @@
                     {
                       "id": "st-d1dcf86715",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed241c75ed",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782371922_hd/1782371922_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1095,7 +1005,25 @@
                     {
                       "id": "st-6fc82494ce",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e271e62e8d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782352175_hd/1782352175_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.fun/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
