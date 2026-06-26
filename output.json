@@ -407,7 +407,25 @@
                     {
                       "id": "st-3d87854e27",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-14431e8d38",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782489791_hd/1782489791_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -462,7 +480,25 @@
                     {
                       "id": "st-2a40f46aa8",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0cabacff4b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782490258_hd/1782490258_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -706,6 +742,152 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e5bb2ea2b5_bb274b7d_20260627.png?v=bb274b7d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3bc3f7e7fe",
+          "name": "Croatia vs Ghana | 04:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3bc3f7e7fe",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3bc3f7e7fe",
+                  "name": "Croatia vs Ghana",
+                  "streams": [
+                    {
+                      "id": "st-3bc3f7e7fe",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-301dc047a2",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782354526_hd/1782354526_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Croatia",
+            "team_b": "Ghana",
+            "logo_a": "https://images.keovip88.net/images/teams/croatia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ghana.png",
+            "time": "04:00:00",
+            "date": "28/06",
+            "blv": "chinh-chuyen",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1782594000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3bc3f7e7fe_abcb914c_20260627.png?v=abcb914c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9de3fdfdd5",
+          "name": "Panama vs Anh | 04:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9de3fdfdd5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9de3fdfdd5",
+                  "name": "Panama vs Anh",
+                  "streams": [
+                    {
+                      "id": "st-9de3fdfdd5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c732208039",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782355324_hd/1782355324_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Panama",
+            "team_b": "Anh",
+            "logo_a": "https://images.keovip88.net/images/teams/panama.png",
+            "logo_b": "https://images.keovip88.net/images/teams/england.png",
+            "time": "04:00:00",
+            "date": "28/06",
+            "blv": "BLV Hợi",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1782594000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9de3fdfdd5_3c77f36e_20260627.png?v=3c77f36e",
             "width": 1600,
             "height": 1200
           }
