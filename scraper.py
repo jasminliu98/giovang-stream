@@ -71,15 +71,13 @@ def calc_is_live(status_code: str, time_str: str, date_str: str) -> bool:
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Referer":    "https://giovang.fun/",
+    "Referer":    "https://giovang.team/",
 }
 
 BASE_URL      = "https://giovang.team"
 API_LIVE      = "https://live-api.megatech.global/storage/livestream/live.json"
 API_ALL       = "https://live-api.megatech.global/storage/livestream/all.json"
-
-# ── CDN mới ──────────────────────────────────────────────────────────────────
-CDN_BASE      = "https://sgtdrxtdjeliv.vcdn.cloud"
+API_FIXTURES  = "https://live-api.megatech.global/api/fixtures"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
@@ -185,43 +183,6 @@ def format_date_ddmm(date_str: str) -> str:
     if m2:
         return f"{m2.group(1).zfill(2)}/{m2.group(2).zfill(2)}"
     return d
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# BUILD STREAM URL TỪ CDN MỚI
-# ─────────────────────────────────────────────────────────────────────────────
-
-def build_stream_url(time_start: int) -> str | None:
-    """
-    Tạo link stream HLS từ time_start (unix timestamp).
-    Format: https://sgtdrxtdjeliv.vcdn.cloud/{time_start}_hd/{time_start}_hd@720p.m3u8
-    """
-    if not time_start:
-        return None
-    return f"{CDN_BASE}/{time_start}_hd/{time_start}_hd@720p.m3u8"
-
-
-def verify_stream_url(url: str, timeout: int = 5) -> bool:
-    """Kiểm tra nhanh xem link m3u8 có tồn tại không (HTTP HEAD/GET)."""
-    if not url:
-        return False
-    try:
-        res = requests.head(url, headers={
-            "User-Agent": "Mozilla/5.0",
-            "Referer": "https://giovang.team/",
-        }, timeout=timeout, allow_redirects=True)
-        if res.status_code == 200:
-            return True
-        # Fallback: thử GET nếu HEAD không được
-        res = requests.get(url, headers={
-            "User-Agent": "Mozilla/5.0",
-            "Referer": "https://giovang.team/",
-        }, timeout=timeout, stream=True)
-        ok = res.status_code == 200
-        res.close()
-        return ok
-    except Exception:
-        return False
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -447,6 +408,7 @@ def get_blv_names(blv_list: list) -> str:
         "blv-sun":           "BLV Sún",
         "blv-can":           "BLV Cần",
         "blv-mat":           "BLV Mát",
+        "blv Mù":            "BLV Mù",
         "fan-liver":         "Fan Liver: Thìn + Tỵ",
         "fan-mu-perry-cam":  "Fan MU: Perry vs Câm",
         "fan-psg":           "Fan PSG: Câm + Bin",
@@ -464,7 +426,6 @@ def get_blv_names(blv_list: list) -> str:
         "mat-mason":         "Mát + Mason",
         "dory-leo":          "Dory + Leo",
         "leo":               "Leo",
-        "blv-ngong":         "BLV Ngỗng",
     }
     names = []
     for key in blv_list:
@@ -502,7 +463,7 @@ def get_matches() -> list:
         blv_list    = item.get("blv") or []
         time_str    = item.get("time", "")
         date_str    = item.get("day_month", "")
-        time_start  = item.get("time_start", 0)  # ← unix timestamp từ API
+        time_start  = item.get("time_start", 0)
         league_obj  = item.get("league") or {}
         league_name = league_obj.get("title", "")
         league_icon = league_obj.get("icon", "")
@@ -541,9 +502,6 @@ def get_matches() -> list:
 
         name = f"{team_a} vs {team_b}" if team_a and team_b else match_id[:50]
 
-        # ── Build stream URL từ time_start ──────────────────────────────
-        stream_url = build_stream_url(time_start) if time_start else None
-
         matches.append({
             "match_id":    match_id,
             "cate_type":   cate_type,
@@ -564,11 +522,51 @@ def get_matches() -> list:
             "status_code": status_code,
             "is_hot":      item.get("is_hot", 0),
             "is_hot_top":  item.get("is_hot_top", 0),
-            "stream_url":  stream_url,
         })
 
     matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
     return matches
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# GET LIVE URL (API FIXTURES)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def get_live_url(match_id: str) -> str | None:
+    """Gọi API fixtures để lấy link_stream_hd thực tế."""
+    if not match_id:
+        return None
+    try:
+        url = f"{API_FIXTURES}/{match_id}"
+        res = requests.get(url, headers=HEADERS, timeout=10)
+        data = res.json()
+
+        fixture_data = data.get("response", {}) if isinstance(data, dict) else {}
+        if not isinstance(fixture_data, dict):
+            return None
+
+        blv_list = fixture_data.get("blv", [])
+        if not isinstance(blv_list, list) or not blv_list:
+            return None
+
+        # Lấy link_stream_hd từ BLV đầu tiên
+        for blv in blv_list:
+            if isinstance(blv, dict):
+                hd_link = blv.get("link_stream_hd")
+                if hd_link:
+                    return hd_link
+        
+        # Fallback: thử link_stream_sd
+        for blv in blv_list:
+            if isinstance(blv, dict):
+                sd_link = blv.get("link_stream_sd")
+                if sd_link:
+                    return sd_link
+        
+        return None
+    except Exception as e:
+        print(f"    Loi lay link chi tiet: {e}")
+        return None
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -666,33 +664,29 @@ def main():
     matches = get_matches()
 
     live_count = sum(1 for m in matches if m["is_live"])
-    stream_count = sum(1 for m in matches if m.get("stream_url"))
-    print(f"Tong: {len(matches)} | LIVE: {live_count} | Sap: {len(matches) - live_count} | Co link: {stream_count}\n")
+    print(f"Tong: {len(matches)} | LIVE: {live_count} | Sap: {len(matches) - live_count}\n")
 
     cate_channels = {cate: [] for cate in CATE_ORDER}
 
     for i, match in enumerate(matches):
-        cate_type  = match["cate_type"]
-        status     = "LIVE" if match["is_live"] else "SAP"
-        log_time   = format_time_hhmm(match['time'])
-        log_date   = format_date_ddmm(match['date'])
-        stream_url = match.get("stream_url", "")
-
+        cate_type = match["cate_type"]
+        status    = "LIVE" if match["is_live"] else "SAP"
+        log_time  = format_time_hhmm(match['time'])
+        log_date  = format_date_ddmm(match['date'])
         print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({log_time} {log_date}) | BLV: {match['blv']}")
 
+        stream_url = get_live_url(match["match_id"])
+
         if stream_url:
-            # Kiểm tra nhanh link có sống không (chỉ kiểm tra trận LIVE để tiết kiệm thời gian)
             if match["is_live"]:
-                is_ok = verify_stream_url(stream_url)
-                if is_ok:
-                    print(f"    stream: OK -> {stream_url}")
-                else:
-                    print(f"    stream: LINK DIE (404) -> {stream_url}")
-                    # Vẫn giữ link, có thể CDN chưa sẵn sàng
+                print(f"    stream: DA LUU (LIVE) -> {stream_url}")
             else:
                 print(f"    stream: DA LUU (SAP) -> {stream_url}")
         else:
-            print(f"    stream: KHONG CO time_start")
+            if match["is_live"]:
+                print(f"    stream: LOI API FIXTURES (de trong)")
+            else:
+                print(f"    stream: Chua co link (de trong)")
 
         uid       = make_id(match["match_id"], "gv")
         cache_key = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
@@ -707,7 +701,7 @@ def main():
             cate_channels[cate_type] = []
         cate_channels[cate_type].append(channel)
 
-        time.sleep(0.1)  # Giảm delay vì không cần gọi API chi tiết nữa
+        time.sleep(0.2)
 
     groups = []
     for cate_type in CATE_ORDER:
