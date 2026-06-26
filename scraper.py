@@ -81,7 +81,7 @@ API_FIXTURES  = "https://live-api.megatech.global/api/fixtures"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v5"
+THUMB_VERSION = "v1"
 
 CATE_MAP = {
     "football":   "⚽ Bóng Đá",
