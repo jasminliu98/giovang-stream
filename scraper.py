@@ -503,33 +503,152 @@ def get_matches() -> list:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# GET LIVE URL (API CHI TIẾT)
+# GET LIVE URL (API CHI TIẾT) — ĐÃ SỬA
 # ─────────────────────────────────────────────────────────────────────────────
 
+DETAIL_HEADERS = {
+    **HEADERS,
+    "Referer":    "https://giovang.team/",
+    "Origin":     "https://giovang.team",
+    "Accept":     "application/json, text/plain, */*",
+}
+
+# Pattern link mới: https://sgtdrxtdjeliv.vcdn.cloud/{id}_hd/{id}_hd@720p.m3u8
+VCDN_HOSTS = [
+    "sgtdrxtdjeliv.vcdn.cloud",
+    "livetvcdn.vcdn.cloud",
+    "livecdn.vcdn.cloud",
+]
+
+
+def _extract_numeric_id(text: str) -> str:
+    """Lấy chuỗi số dài nhất từ text (dùng cho fallback vcdn pattern)."""
+    if not text:
+        return ""
+    nums = re.findall(r"\d{6,}", str(text))
+    return nums[-1] if nums else ""
+
+
+def _find_m3u8_recursive(obj, depth: int = 0):
+    """Tìm đệ quy bất kỳ URL .m3u8 nào trong JSON response."""
+    if depth > 8:
+        return None
+    if isinstance(obj, str):
+        s = obj.strip()
+        if ".m3u8" in s.lower() and s.startswith("http"):
+            return s
+        return None
+    if isinstance(obj, dict):
+        # Ưu tiên các key thường chứa link HD
+        priority_keys = [
+            "link_stream_hd", "link_hd", "stream_hd",
+            "link_stream", "stream_url", "url",
+            "m3u8", "hls", "src", "source",
+            "link", "play_url", "file",
+        ]
+        for k in priority_keys:
+            if k in obj:
+                r = _find_m3u8_recursive(obj[k], depth + 1)
+                if r:
+                    return r
+        for v in obj.values():
+            r = _find_m3u8_recursive(v, depth + 1)
+            if r:
+                return r
+    elif isinstance(obj, list):
+        for v in obj:
+            r = _find_m3u8_recursive(v, depth + 1)
+            if r:
+                return r
+    return None
+
+
+def _try_vcdn_fallback(match_id: str, fixture_data: dict) -> str | None:
+    """Thử build link theo pattern vcdn mới nếu không tìm được m3u8 trong response."""
+    # 1) Thử lấy numeric id từ nhiều nguồn
+    numeric_id = ""
+    # a) Từ chính match_id (nếu chứa số)
+    numeric_id = _extract_numeric_id(match_id)
+
+    # b) Tìm trong fixture_data bất kỳ chuỗi số dài nào
+    if not numeric_id:
+        try:
+            flat = json.dumps(fixture_data, ensure_ascii=False)
+            # Ưu tiên chuỗi số xuất hiện gần keyword "hd" hoặc "_hd"
+            m = re.search(r"(\d{8,})_hd", flat, re.IGNORECASE)
+            if m:
+                numeric_id = m.group(1)
+            else:
+                nums = re.findall(r"\d{9,}", flat)
+                if nums:
+                    # lấy số xuất hiện nhiều nhất / số cuối
+                    numeric_id = nums[-1]
+        except Exception:
+            pass
+
+    if not numeric_id:
+        return None
+
+    # 2) Thử từng host đã biết với 2 pattern phổ biến
+    patterns = [
+        f"https://{{host}}/{numeric_id}_hd/{numeric_id}_hd@720p.m3u8",
+        f"https://{{host}}/{numeric_id}/{numeric_id}@720p.m3u8",
+        f"https://{{host}}/{numeric_id}_hd/{numeric_id}_hd.m3u8",
+        f"https://{{host}}/{numeric_id}/{numeric_id}.m3u8",
+    ]
+    for host in VCDN_HOSTS:
+        for p in patterns:
+            url = p.replace("{host}", host)
+            try:
+                # HEAD request nhẹ để kiểm tra
+                chk = requests.head(url, headers=DETAIL_HEADERS, timeout=5, allow_redirects=True)
+                if chk.status_code in (200, 206):
+                    return url
+            except Exception:
+                continue
+    return None
+
+
 def get_live_url(match_id: str) -> str | None:
-    """Gọi API chi tiết để lấy link_stream_hd thực tế."""
+    """Gọi API chi tiết để lấy link_stream. Đã sửa cho web mới."""
     if not match_id:
         return None
     try:
         url = f"{API_DETAIL}{match_id}"
-        res = requests.get(url, headers=HEADERS, timeout=10)
-        data = res.json()
+        t   = int(time.time() * 1000)
+        res = requests.get(f"{url}?t={t}", headers=DETAIL_HEADERS, timeout=12)
+        try:
+            data = res.json()
+        except Exception as je:
+            print(f"    [detail] JSON parse loi: {je} | HTTP {res.status_code}")
+            return None
 
+        # Bóc fixture_data (có thể bọc trong response[])
         fixture_data = data
         if isinstance(data, dict) and "response" in data:
             fixture_data = data["response"]
             if isinstance(fixture_data, list) and len(fixture_data) > 0:
                 fixture_data = fixture_data[0]
 
-        blv_list = fixture_data.get("blv", []) if isinstance(fixture_data, dict) else []
+        # 1) Tìm m3u8 đệ quy trong toàn response
+        link = _find_m3u8_recursive(fixture_data)
+        if link:
+            return link
 
-        if isinstance(blv_list, list):
-            for blv in blv_list:
-                if isinstance(blv, dict):
-                    hd_link = blv.get("link_stream_hd")
-                    if hd_link:
-                        return hd_link
+        # 2) Fallback: build link theo pattern vcdn mới
+        link = _try_vcdn_fallback(match_id, fixture_data if isinstance(fixture_data, dict) else {})
+        if link:
+            print(f"    [detail] dung fallback vcdn: {link}")
+            return link
+
+        # 3) Không tìm thấy — in cấu trúc để debug
+        try:
+            keys_top = list(fixture_data.keys())[:15] if isinstance(fixture_data, dict) else type(fixture_data).__name__
+            print(f"    [detail] KHONG THAY m3u8. Top keys: {keys_top}")
+        except Exception:
+            pass
         return None
+
     except Exception as e:
         print(f"    Loi lay link chi tiet: {e}")
         return None
@@ -555,7 +674,7 @@ def build_channel(match: dict, stream_url: str, thumb_url: str = "") -> dict:
             "default": True,
             "url":     stream_url,
             "request_headers": [
-                {"key": "Referer",    "value": "https://giovang.fun/"},
+                {"key": "Referer",    "value": "https://giovang.team/"},
                 {"key": "User-Agent", "value": "Mozilla/5.0"},
             ],
         })
