@@ -77,11 +77,13 @@ HEADERS = {
 BASE_URL      = "https://giovang.team"
 API_LIVE      = "https://live-api.megatech.global/storage/livestream/live.json"
 API_ALL       = "https://live-api.megatech.global/storage/livestream/all.json"
-API_DETAIL    = "https://live-api.megatech.global/api/fixture-detail"
+
+# ── CDN mới ──────────────────────────────────────────────────────────────────
+CDN_BASE      = "https://sgtdrxtdjeliv.vcdn.cloud"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v4"
+THUMB_VERSION = "v5"
 
 CATE_MAP = {
     "football":   "⚽ Bóng Đá",
@@ -170,6 +172,10 @@ def format_date_ddmm(date_str: str) -> str:
     if not date_str:
         return ""
     d = date_str.strip()
+    # DD-MM-YYYY -> DD/MM
+    m_dash = re.match(r"(\d{1,2})-(\d{1,2})-(\d{4})", d)
+    if m_dash:
+        return f"{m_dash.group(1).zfill(2)}/{m_dash.group(2).zfill(2)}"
     # DD/MM/YYYY -> DD/MM
     m3 = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4})", d)
     if m3:
@@ -179,6 +185,43 @@ def format_date_ddmm(date_str: str) -> str:
     if m2:
         return f"{m2.group(1).zfill(2)}/{m2.group(2).zfill(2)}"
     return d
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# BUILD STREAM URL TỪ CDN MỚI
+# ─────────────────────────────────────────────────────────────────────────────
+
+def build_stream_url(time_start: int) -> str | None:
+    """
+    Tạo link stream HLS từ time_start (unix timestamp).
+    Format: https://sgtdrxtdjeliv.vcdn.cloud/{time_start}_hd/{time_start}_hd@720p.m3u8
+    """
+    if not time_start:
+        return None
+    return f"{CDN_BASE}/{time_start}_hd/{time_start}_hd@720p.m3u8"
+
+
+def verify_stream_url(url: str, timeout: int = 5) -> bool:
+    """Kiểm tra nhanh xem link m3u8 có tồn tại không (HTTP HEAD/GET)."""
+    if not url:
+        return False
+    try:
+        res = requests.head(url, headers={
+            "User-Agent": "Mozilla/5.0",
+            "Referer": "https://giovang.team/",
+        }, timeout=timeout, allow_redirects=True)
+        if res.status_code == 200:
+            return True
+        # Fallback: thử GET nếu HEAD không được
+        res = requests.get(url, headers={
+            "User-Agent": "Mozilla/5.0",
+            "Referer": "https://giovang.team/",
+        }, timeout=timeout, stream=True)
+        ok = res.status_code == 200
+        res.close()
+        return ok
+    except Exception:
+        return False
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -382,6 +425,7 @@ def get_blv_names(blv_list: list) -> str:
     BLV_NAME_MAP = {
         "blv-perry":         "BLV Perry",
         "blv-1":             "BLV Ngỗng",
+        "blv-ngong":         "BLV Ngỗng",
         "blv-3":             "BLV Dần",
         "blv-5":             "BLV Thìn",
         "blv-6":             "BLV Tỵ",
@@ -397,11 +441,30 @@ def get_blv_names(blv_list: list) -> str:
         "blv-nen":           "BLV Nến",
         "blv-diec":          "BLV Điếc",
         "blv-thuviec":       "BLV Thử Việc",
+        "blv-bon":           "BLV Bón",
+        "blv-ngu":           "BLV Ngủ",
+        "blv-tri":           "BLV Trĩ",
+        "blv-sun":           "BLV Sún",
+        "blv-can":           "BLV Cần",
+        "blv-mat":           "BLV Mát",
         "fan-liver":         "Fan Liver: Thìn + Tỵ",
         "fan-mu-perry-cam":  "Fan MU: Perry vs Câm",
         "fan-psg":           "Fan PSG: Câm + Bin",
         "fan-bayern":        "Fan Chè: Điếc",
         "nha-dai":           "Nhà Đài",
+        # Combo keys (từ all.json)
+        "mason-mat":         "Đầu Cầu Chính Chuyên: Mason vs Mát",
+        "leo-mason":         "Leo + Mason",
+        "bon-tri":           "Bón + Trĩ",
+        "can-ngu":           "Cần + Ngủ",
+        "ben-dory":          "Ben + Dory",
+        "tri-ngong":         "Trĩ + Ngỗng",
+        "leo-dory":          "Leo + Dory",
+        "hoi-ngong":         "Hỏi + Ngỗng",
+        "mat-mason":         "Mát + Mason",
+        "dory-leo":          "Dory + Leo",
+        "leo":               "Leo",
+        "blv-ngong":         "BLV Ngỗng",
     }
     names = []
     for key in blv_list:
@@ -439,6 +502,7 @@ def get_matches() -> list:
         blv_list    = item.get("blv") or []
         time_str    = item.get("time", "")
         date_str    = item.get("day_month", "")
+        time_start  = item.get("time_start", 0)  # ← unix timestamp từ API
         league_obj  = item.get("league") or {}
         league_name = league_obj.get("title", "")
         league_icon = league_obj.get("icon", "")
@@ -477,181 +541,34 @@ def get_matches() -> list:
 
         name = f"{team_a} vs {team_b}" if team_a and team_b else match_id[:50]
 
+        # ── Build stream URL từ time_start ──────────────────────────────
+        stream_url = build_stream_url(time_start) if time_start else None
+
         matches.append({
-            "match_id":   match_id,
-            "cate_type":  cate_type,
-            "name":       name,
-            "time":       time_str,
-            "date":       date_str,
-            "time_sort":  parse_time_sort(time_str, date_str),
-            "team_a":     team_a,
-            "team_b":     team_b,
-            "logo_a":     logo_a,
-            "logo_b":     logo_b,
-            "league":     league_name,
+            "match_id":    match_id,
+            "cate_type":   cate_type,
+            "name":        name,
+            "time":        time_str,
+            "date":        date_str,
+            "time_start":  time_start,
+            "time_sort":   parse_time_sort(time_str, date_str),
+            "team_a":      team_a,
+            "team_b":      team_b,
+            "logo_a":      logo_a,
+            "logo_b":      logo_b,
+            "league":      league_name,
             "league_icon": league_icon,
-            "blv":        blv_names,
-            "blv_list":   blv_list,
-            "is_live":    is_live,
+            "blv":         blv_names,
+            "blv_list":    blv_list,
+            "is_live":     is_live,
             "status_code": status_code,
-            "is_hot":     item.get("is_hot", 0),
-            "is_hot_top": item.get("is_hot_top", 0),
+            "is_hot":      item.get("is_hot", 0),
+            "is_hot_top":  item.get("is_hot_top", 0),
+            "stream_url":  stream_url,
         })
 
     matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
     return matches
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# GET LIVE URL (API CHI TIẾT) — ĐÃ SỬA
-# ─────────────────────────────────────────────────────────────────────────────
-
-DETAIL_HEADERS = {
-    **HEADERS,
-    "Referer":    "https://giovang.team/",
-    "Origin":     "https://giovang.team",
-    "Accept":     "application/json, text/plain, */*",
-}
-
-# Pattern link mới: https://sgtdrxtdjeliv.vcdn.cloud/{id}_hd/{id}_hd@720p.m3u8
-VCDN_HOSTS = [
-    "sgtdrxtdjeliv.vcdn.cloud",
-    "livetvcdn.vcdn.cloud",
-    "livecdn.vcdn.cloud",
-]
-
-
-def _extract_numeric_id(text: str) -> str:
-    """Lấy chuỗi số dài nhất từ text (dùng cho fallback vcdn pattern)."""
-    if not text:
-        return ""
-    nums = re.findall(r"\d{6,}", str(text))
-    return nums[-1] if nums else ""
-
-
-def _find_m3u8_recursive(obj, depth: int = 0):
-    """Tìm đệ quy bất kỳ URL .m3u8 nào trong JSON response."""
-    if depth > 8:
-        return None
-    if isinstance(obj, str):
-        s = obj.strip()
-        if ".m3u8" in s.lower() and s.startswith("http"):
-            return s
-        return None
-    if isinstance(obj, dict):
-        # Ưu tiên các key thường chứa link HD
-        priority_keys = [
-            "link_stream_hd", "link_hd", "stream_hd",
-            "link_stream", "stream_url", "url",
-            "m3u8", "hls", "src", "source",
-            "link", "play_url", "file",
-        ]
-        for k in priority_keys:
-            if k in obj:
-                r = _find_m3u8_recursive(obj[k], depth + 1)
-                if r:
-                    return r
-        for v in obj.values():
-            r = _find_m3u8_recursive(v, depth + 1)
-            if r:
-                return r
-    elif isinstance(obj, list):
-        for v in obj:
-            r = _find_m3u8_recursive(v, depth + 1)
-            if r:
-                return r
-    return None
-
-
-def _try_vcdn_fallback(match_id: str, fixture_data: dict) -> str | None:
-    """Thử build link theo pattern vcdn mới nếu không tìm được m3u8 trong response."""
-    # 1) Thử lấy numeric id từ nhiều nguồn
-    numeric_id = ""
-    # a) Từ chính match_id (nếu chứa số)
-    numeric_id = _extract_numeric_id(match_id)
-
-    # b) Tìm trong fixture_data bất kỳ chuỗi số dài nào
-    if not numeric_id:
-        try:
-            flat = json.dumps(fixture_data, ensure_ascii=False)
-            # Ưu tiên chuỗi số xuất hiện gần keyword "hd" hoặc "_hd"
-            m = re.search(r"(\d{8,})_hd", flat, re.IGNORECASE)
-            if m:
-                numeric_id = m.group(1)
-            else:
-                nums = re.findall(r"\d{9,}", flat)
-                if nums:
-                    # lấy số xuất hiện nhiều nhất / số cuối
-                    numeric_id = nums[-1]
-        except Exception:
-            pass
-
-    if not numeric_id:
-        return None
-
-    # 2) Thử từng host đã biết với 2 pattern phổ biến
-    patterns = [
-        f"https://{{host}}/{numeric_id}_hd/{numeric_id}_hd@720p.m3u8",
-        f"https://{{host}}/{numeric_id}/{numeric_id}@720p.m3u8",
-        f"https://{{host}}/{numeric_id}_hd/{numeric_id}_hd.m3u8",
-        f"https://{{host}}/{numeric_id}/{numeric_id}.m3u8",
-    ]
-    for host in VCDN_HOSTS:
-        for p in patterns:
-            url = p.replace("{host}", host)
-            try:
-                # HEAD request nhẹ để kiểm tra
-                chk = requests.head(url, headers=DETAIL_HEADERS, timeout=5, allow_redirects=True)
-                if chk.status_code in (200, 206):
-                    return url
-            except Exception:
-                continue
-    return None
-
-
-def get_live_url(match_id: str) -> str | None:
-    """Gọi API chi tiết để lấy link_stream. Đã sửa cho web mới."""
-    if not match_id:
-        return None
-    try:
-        url = f"{API_DETAIL}{match_id}"
-        t   = int(time.time() * 1000)
-        res = requests.get(f"{url}?t={t}", headers=DETAIL_HEADERS, timeout=12)
-        try:
-            data = res.json()
-        except Exception as je:
-            print(f"    [detail] JSON parse loi: {je} | HTTP {res.status_code}")
-            return None
-
-        # Bóc fixture_data (có thể bọc trong response[])
-        fixture_data = data
-        if isinstance(data, dict) and "response" in data:
-            fixture_data = data["response"]
-            if isinstance(fixture_data, list) and len(fixture_data) > 0:
-                fixture_data = fixture_data[0]
-
-        # 1) Tìm m3u8 đệ quy trong toàn response
-        link = _find_m3u8_recursive(fixture_data)
-        if link:
-            return link
-
-        # 2) Fallback: build link theo pattern vcdn mới
-        link = _try_vcdn_fallback(match_id, fixture_data if isinstance(fixture_data, dict) else {})
-        if link:
-            print(f"    [detail] dung fallback vcdn: {link}")
-            return link
-
-        # 3) Không tìm thấy — in cấu trúc để debug
-        try:
-            keys_top = list(fixture_data.keys())[:15] if isinstance(fixture_data, dict) else type(fixture_data).__name__
-            print(f"    [detail] KHONG THAY m3u8. Top keys: {keys_top}")
-        except Exception:
-            pass
-        return None
-
-    except Exception as e:
-        print(f"    Loi lay link chi tiet: {e}")
-        return None
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -675,7 +592,7 @@ def build_channel(match: dict, stream_url: str, thumb_url: str = "") -> dict:
             "url":     stream_url,
             "request_headers": [
                 {"key": "Referer",    "value": "https://giovang.team/"},
-                {"key": "User-Agent", "value": "Mozilla/5.0"},
+                {"key": "User-Agent", "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
             ],
         })
 
@@ -709,16 +626,17 @@ def build_channel(match: dict, stream_url: str, thumb_url: str = "") -> dict:
             }],
         }],
         "org_metadata": {
-            "league":    match.get("league",      ""),
-            "team_a":    match.get("team_a",      ""),
-            "team_b":    match.get("team_b",      ""),
-            "logo_a":    match.get("logo_a",      ""),
-            "logo_b":    match.get("logo_b",      ""),
-            "time":      match.get("time",        ""),
-            "date":      match.get("date",        ""),
-            "blv":       match.get("blv",         ""),
-            "is_live":   match["is_live"],
-            "cate_type": match.get("cate_type",   ""),
+            "league":     match.get("league",      ""),
+            "team_a":     match.get("team_a",      ""),
+            "team_b":     match.get("team_b",      ""),
+            "logo_a":     match.get("logo_a",      ""),
+            "logo_b":     match.get("logo_b",      ""),
+            "time":       match.get("time",        ""),
+            "date":       match.get("date",        ""),
+            "blv":        match.get("blv",         ""),
+            "is_live":    match["is_live"],
+            "cate_type":  match.get("cate_type",   ""),
+            "time_start": match.get("time_start",  0),
         },
     }
 
@@ -748,32 +666,33 @@ def main():
     matches = get_matches()
 
     live_count = sum(1 for m in matches if m["is_live"])
-    print(f"Tong: {len(matches)} | LIVE: {live_count} | Sap: {len(matches) - live_count}\n")
+    stream_count = sum(1 for m in matches if m.get("stream_url"))
+    print(f"Tong: {len(matches)} | LIVE: {live_count} | Sap: {len(matches) - live_count} | Co link: {stream_count}\n")
 
     cate_channels = {cate: [] for cate in CATE_ORDER}
 
     for i, match in enumerate(matches):
-        cate_type = match["cate_type"]
-        status    = "LIVE" if match["is_live"] else "SAP"
-        log_time  = format_time_hhmm(match['time'])
-        log_date  = format_date_ddmm(match['date'])
+        cate_type  = match["cate_type"]
+        status     = "LIVE" if match["is_live"] else "SAP"
+        log_time   = format_time_hhmm(match['time'])
+        log_date   = format_date_ddmm(match['date'])
+        stream_url = match.get("stream_url", "")
+
         print(f"[{status} {i+1}/{len(matches)}] {match['name']} ({log_time} {log_date}) | BLV: {match['blv']}")
 
-        stream_url = None
-
-        raw_url = get_live_url(match["match_id"])
-
-        if raw_url:
-            stream_url = raw_url
+        if stream_url:
+            # Kiểm tra nhanh link có sống không (chỉ kiểm tra trận LIVE để tiết kiệm thời gian)
             if match["is_live"]:
-                print(f"    stream: DA LUU (LIVE)")
+                is_ok = verify_stream_url(stream_url)
+                if is_ok:
+                    print(f"    stream: OK -> {stream_url}")
+                else:
+                    print(f"    stream: LINK DIE (404) -> {stream_url}")
+                    # Vẫn giữ link, có thể CDN chưa sẵn sàng
             else:
-                print(f"    stream: DA LUU (SAP)")
+                print(f"    stream: DA LUU (SAP) -> {stream_url}")
         else:
-            if match["is_live"]:
-                print(f"    stream: LOI API CHI TIET (de trong)")
-            else:
-                print(f"    stream: Chua co link (de trong)")
+            print(f"    stream: KHONG CO time_start")
 
         uid       = make_id(match["match_id"], "gv")
         cache_key = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
@@ -788,7 +707,7 @@ def main():
             cate_channels[cate_type] = []
         cate_channels[cate_type].append(channel)
 
-        time.sleep(0.2)
+        time.sleep(0.1)  # Giảm delay vì không cần gọi API chi tiết nữa
 
     groups = []
     for cate_type in CATE_ORDER:
@@ -826,7 +745,7 @@ def main():
 
     output = {
         "id":          "giovang",
-        "url":         "https://giovang.fun",
+        "url":         "https://giovang.team",
         "name":        "GiovangTV",
         "color":       "#0155a5",
         "grid_number": 3,
