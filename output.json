@@ -1203,79 +1203,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-efb78d6a75",
-          "name": "Iran  vs Japan | 22:00 26/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-efb78d6a75",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-efb78d6a75",
-                  "name": "Iran  vs Japan",
-                  "streams": [
-                    {
-                      "id": "st-efb78d6a75",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7a9cad55ba",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782454524_hd/1782454524_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Iran ",
-            "team_b": "Japan",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/1oq8Fy7ETpBpZNaCA22ArQ_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/by4OltvtZz7taxuQtkiP3A_96x96.png",
-            "time": "22:00:00",
-            "date": "26/06",
-            "blv": "BLV Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen",
-            "time_start": 1782486000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-efb78d6a75_c3037e7e_20260627.png?v=c3037e7e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-9f69d13add",
           "name": "Australia  vs Bahrain | 22:30 26/06",
           "type": "single",
@@ -1356,10 +1283,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1408,7 +1335,7 @@
             "time": "01:00:00",
             "date": "27/06",
             "blv": "BLV Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen",
             "time_start": 1782496800
           },
