@@ -74,10 +74,10 @@ HEADERS = {
     "Referer":    "https://giovang.fun/",
 }
 
-BASE_URL      = "https://giovang.fun"
-API_LIVE      = "https://live-api.keovip88.net/storage/livestream/live.json"
-API_ALL       = "https://live-api.keovip88.net/storage/livestream/all.json"
-API_DETAIL    = "https://live-api.keovip88.net/api/fixtures/"
+BASE_URL      = "https://giovang.team"
+API_LIVE      = "https://live-api.megatech.global/storage/livestream/live.json"
+API_ALL       = "https://live-api.megatech.global/storage/livestream/all.json"
+API_DETAIL    = "https://live-api.megatech.global/api/fixture-detail"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
