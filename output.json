@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -170,10 +170,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -222,7 +222,7 @@
             "time": "18:35:00",
             "date": "27/06",
             "blv": "BLV Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1782560100
           },
@@ -747,79 +747,6 @@
           }
         },
         {
-          "id": "gv-9de3fdfdd5",
-          "name": "Panama vs Anh | 04:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9de3fdfdd5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9de3fdfdd5",
-                  "name": "Panama vs Anh",
-                  "streams": [
-                    {
-                      "id": "st-9de3fdfdd5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd19cd70ea",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782523986_hd/1782523986_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Panama",
-            "team_b": "Anh",
-            "logo_a": "https://images.keovip88.net/images/teams/panama.png",
-            "logo_b": "https://images.keovip88.net/images/teams/england.png",
-            "time": "04:00:00",
-            "date": "28/06",
-            "blv": "Cần + Ngủ",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1782594000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9de3fdfdd5_3c77f36e_20260627.png?v=3c77f36e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-3bc3f7e7fe",
           "name": "Croatia vs Ghana | 04:00 28/06",
           "type": "single",
@@ -893,8 +820,8 @@
           }
         },
         {
-          "id": "gv-6c74ac92b2",
-          "name": "D.R. Congo vs Uzbekistan | 06:30 28/06",
+          "id": "gv-9de3fdfdd5",
+          "name": "Panama vs Anh | 04:00 28/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -908,23 +835,23 @@
           ],
           "sources": [
             {
-              "id": "src-6c74ac92b2",
+              "id": "src-9de3fdfdd5",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-6c74ac92b2",
-                  "name": "D.R. Congo vs Uzbekistan",
+                  "id": "ct-9de3fdfdd5",
+                  "name": "Panama vs Anh",
                   "streams": [
                     {
-                      "id": "st-6c74ac92b2",
+                      "id": "st-9de3fdfdd5",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-c92141ab68",
+                          "id": "lnk-fd19cd70ea",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782524044_hd/1782524044_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782523986_hd/1782523986_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -945,22 +872,22 @@
           ],
           "org_metadata": {
             "league": "FIFA World Cup",
-            "team_a": "D.R. Congo",
-            "team_b": "Uzbekistan",
-            "logo_a": "https://images.keovip88.net/images/teams/democratic-rep-congo.png",
-            "logo_b": "https://images.keovip88.net/images/teams/uzbekistan.png",
-            "time": "06:30:00",
+            "team_a": "Panama",
+            "team_b": "Anh",
+            "logo_a": "https://images.keovip88.net/images/teams/panama.png",
+            "logo_b": "https://images.keovip88.net/images/teams/england.png",
+            "time": "04:00:00",
             "date": "28/06",
-            "blv": "Hỏi + Ngỗng",
+            "blv": "Cần + Ngủ",
             "is_live": false,
             "cate_type": "football",
-            "time_start": 1782603000
+            "time_start": 1782594000
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6c74ac92b2_079141b6_20260627.png?v=079141b6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9de3fdfdd5_3c77f36e_20260627.png?v=3c77f36e",
             "width": 1600,
             "height": 1200
           }
@@ -1034,6 +961,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4f9b48e1f0_6dc980e2_20260627.png?v=6dc980e2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6c74ac92b2",
+          "name": "D.R. Congo vs Uzbekistan | 06:30 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c74ac92b2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6c74ac92b2",
+                  "name": "D.R. Congo vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-6c74ac92b2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c92141ab68",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782524044_hd/1782524044_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "D.R. Congo",
+            "team_b": "Uzbekistan",
+            "logo_a": "https://images.keovip88.net/images/teams/democratic-rep-congo.png",
+            "logo_b": "https://images.keovip88.net/images/teams/uzbekistan.png",
+            "time": "06:30:00",
+            "date": "28/06",
+            "blv": "Hỏi + Ngỗng",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1782603000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6c74ac92b2_079141b6_20260627.png?v=079141b6",
             "width": 1600,
             "height": 1200
           }
@@ -1276,79 +1276,6 @@
           }
         },
         {
-          "id": "gv-d4992058f2",
-          "name": "USA  vs Japan | 22:00 27/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4992058f2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d4992058f2",
-                  "name": "USA  vs Japan",
-                  "streams": [
-                    {
-                      "id": "st-d4992058f2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-24defe1435",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782543266_hd/1782543266_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "USA ",
-            "team_b": "Japan",
-            "logo_a": "https://assets.fiba.basketball/image/upload/d_.logoflag--dark--organisation_154.webp/w_400/f_auto/q_auto/.logoflag--dark--organisation_154--competition_208755?buster=20628",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/by4OltvtZz7taxuQtkiP3A_96x96.png",
-            "time": "22:00:00",
-            "date": "27/06",
-            "blv": "BLV Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen",
-            "time_start": 1782572400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d4992058f2_9728c0a4_20260627.png?v=9728c0a4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-b6040b9fe8",
           "name": "Poland vs Germany | 22:00 27/06",
           "type": "single",
@@ -1422,8 +1349,8 @@
           }
         },
         {
-          "id": "gv-ed42ba9b8b",
-          "name": "Türkiye vs Argentina | 01:30 28/06",
+          "id": "gv-d4992058f2",
+          "name": "USA  vs Japan | 22:00 27/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1437,23 +1364,23 @@
           ],
           "sources": [
             {
-              "id": "src-ed42ba9b8b",
+              "id": "src-d4992058f2",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-ed42ba9b8b",
-                  "name": "Türkiye vs Argentina",
+                  "id": "ct-d4992058f2",
+                  "name": "USA  vs Japan",
                   "streams": [
                     {
-                      "id": "st-ed42ba9b8b",
+                      "id": "st-d4992058f2",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-c01f2d742a",
+                          "id": "lnk-24defe1435",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782354150_hd/1782354150_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782543266_hd/1782543266_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1474,13 +1401,86 @@
           ],
           "org_metadata": {
             "league": "Nations League",
-            "team_a": "Türkiye",
-            "team_b": "Argentina",
-            "logo_a": "https://static.flashscore.com/res/image/data/4bqGlReM-OYQpqern.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8jGAxFBr-AmY8ktbk.png",
+            "team_a": "USA ",
+            "team_b": "Japan",
+            "logo_a": "https://assets.fiba.basketball/image/upload/d_.logoflag--dark--organisation_154.webp/w_400/f_auto/q_auto/.logoflag--dark--organisation_154--competition_208755?buster=20628",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/by4OltvtZz7taxuQtkiP3A_96x96.png",
+            "time": "22:00:00",
+            "date": "27/06",
+            "blv": "BLV Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen",
+            "time_start": 1782572400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d4992058f2_9728c0a4_20260627.png?v=9728c0a4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-06be04d8eb",
+          "name": "France vs Serbia | 01:30 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-06be04d8eb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-06be04d8eb",
+                  "name": "France vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-06be04d8eb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-53418e5c51",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782353986_hd/1782353986_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "France",
+            "team_b": "Serbia",
+            "logo_a": "https://static.flashscore.com/res/image/data/nwHompCa-APHBYBiC.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/pxo9wfYg-prStpyTu.png",
             "time": "01:30:00",
             "date": "28/06",
-            "blv": "BLV Trĩ",
+            "blv": "BLV Tôm",
             "is_live": false,
             "cate_type": "bongchuyen",
             "time_start": 1782585000
@@ -1489,7 +1489,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ed42ba9b8b_007a91da_20260627.png?v=007a91da",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-06be04d8eb_7e0fd68f_20260627.png?v=7e0fd68f",
             "width": 1600,
             "height": 1200
           }
@@ -1568,8 +1568,8 @@
           }
         },
         {
-          "id": "gv-06be04d8eb",
-          "name": "France vs Serbia | 01:30 28/06",
+          "id": "gv-ed42ba9b8b",
+          "name": "Türkiye vs Argentina | 01:30 28/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1583,23 +1583,23 @@
           ],
           "sources": [
             {
-              "id": "src-06be04d8eb",
+              "id": "src-ed42ba9b8b",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-06be04d8eb",
-                  "name": "France vs Serbia",
+                  "id": "ct-ed42ba9b8b",
+                  "name": "Türkiye vs Argentina",
                   "streams": [
                     {
-                      "id": "st-06be04d8eb",
+                      "id": "st-ed42ba9b8b",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-53418e5c51",
+                          "id": "lnk-c01f2d742a",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782353986_hd/1782353986_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782354150_hd/1782354150_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1620,13 +1620,13 @@
           ],
           "org_metadata": {
             "league": "Nations League",
-            "team_a": "France",
-            "team_b": "Serbia",
-            "logo_a": "https://static.flashscore.com/res/image/data/nwHompCa-APHBYBiC.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pxo9wfYg-prStpyTu.png",
+            "team_a": "Türkiye",
+            "team_b": "Argentina",
+            "logo_a": "https://static.flashscore.com/res/image/data/4bqGlReM-OYQpqern.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8jGAxFBr-AmY8ktbk.png",
             "time": "01:30:00",
             "date": "28/06",
-            "blv": "BLV Tôm",
+            "blv": "BLV Trĩ",
             "is_live": false,
             "cate_type": "bongchuyen",
             "time_start": 1782585000
@@ -1635,7 +1635,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-06be04d8eb_7e0fd68f_20260627.png?v=7e0fd68f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ed42ba9b8b_007a91da_20260627.png?v=007a91da",
             "width": 1600,
             "height": 1200
           }
