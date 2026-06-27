@@ -528,79 +528,6 @@
           }
         },
         {
-          "id": "gv-9de3fdfdd5",
-          "name": "Panama vs Anh | 04:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9de3fdfdd5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9de3fdfdd5",
-                  "name": "Panama vs Anh",
-                  "streams": [
-                    {
-                      "id": "st-9de3fdfdd5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fd19cd70ea",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782523986_hd/1782523986_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Panama",
-            "team_b": "Anh",
-            "logo_a": "https://images.keovip88.net/images/teams/panama.png",
-            "logo_b": "https://images.keovip88.net/images/teams/england.png",
-            "time": "04:00:00",
-            "date": "28/06",
-            "blv": "Cần + Ngủ",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1782594000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9de3fdfdd5_3c77f36e_20260627.png?v=3c77f36e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-3bc3f7e7fe",
           "name": "Croatia vs Ghana | 04:00 28/06",
           "type": "single",
@@ -669,6 +596,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3bc3f7e7fe_abcb914c_20260627.png?v=abcb914c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9de3fdfdd5",
+          "name": "Panama vs Anh | 04:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9de3fdfdd5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9de3fdfdd5",
+                  "name": "Panama vs Anh",
+                  "streams": [
+                    {
+                      "id": "st-9de3fdfdd5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd19cd70ea",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782523986_hd/1782523986_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Panama",
+            "team_b": "Anh",
+            "logo_a": "https://images.keovip88.net/images/teams/panama.png",
+            "logo_b": "https://images.keovip88.net/images/teams/england.png",
+            "time": "04:00:00",
+            "date": "28/06",
+            "blv": "Cần + Ngủ",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1782594000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9de3fdfdd5_3c77f36e_20260627.png?v=3c77f36e",
             "width": 1600,
             "height": 1200
           }
@@ -978,7 +978,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -991,10 +991,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1043,7 +1043,7 @@
             "time": "21:30:00",
             "date": "27/06",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen",
             "time_start": 1782570600
           },
@@ -1203,79 +1203,6 @@
           }
         },
         {
-          "id": "gv-f9f7ae2ef8",
-          "name": "Slovenia vs Brazil | 01:30 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f9f7ae2ef8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f9f7ae2ef8",
-                  "name": "Slovenia vs Brazil",
-                  "streams": [
-                    {
-                      "id": "st-f9f7ae2ef8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-34d8d3ea39",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782354080_hd/1782354080_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Slovenia",
-            "team_b": "Brazil",
-            "logo_a": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OM8Y9ODa-vBKZiE2j.png",
-            "time": "01:30:00",
-            "date": "28/06",
-            "blv": "BLV Mát",
-            "is_live": false,
-            "cate_type": "bongchuyen",
-            "time_start": 1782585000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f9f7ae2ef8_1075b078_20260627.png?v=1075b078",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-06be04d8eb",
           "name": "France vs Serbia | 01:30 28/06",
           "type": "single",
@@ -1344,6 +1271,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-06be04d8eb_7e0fd68f_20260627.png?v=7e0fd68f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f9f7ae2ef8",
+          "name": "Slovenia vs Brazil | 01:30 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f9f7ae2ef8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f9f7ae2ef8",
+                  "name": "Slovenia vs Brazil",
+                  "streams": [
+                    {
+                      "id": "st-f9f7ae2ef8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-34d8d3ea39",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782354080_hd/1782354080_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "Slovenia",
+            "team_b": "Brazil",
+            "logo_a": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/OM8Y9ODa-vBKZiE2j.png",
+            "time": "01:30:00",
+            "date": "28/06",
+            "blv": "BLV Mát",
+            "is_live": false,
+            "cate_type": "bongchuyen",
+            "time_start": 1782585000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f9f7ae2ef8_1075b078_20260627.png?v=1075b078",
             "width": 1600,
             "height": 1200
           }
