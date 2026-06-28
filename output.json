@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -170,10 +170,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -222,7 +222,7 @@
             "time": "06:00:00",
             "date": "29/06",
             "blv": "BLV Mát",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1782687600
           },
@@ -677,84 +677,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-451d6211c5",
-          "name": "Chicago Sky W  vs Las Vegas Aces W | 03:00 29/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-451d6211c5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-451d6211c5",
-                  "name": "Chicago Sky W  vs Las Vegas Aces W",
-                  "streams": [
-                    {
-                      "id": "st-451d6211c5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0b681855ca",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782662105_hd/1782662105_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WNBA",
-            "team_a": "Chicago Sky W ",
-            "team_b": "Las Vegas Aces W",
-            "logo_a": "https://static.flashscore.com/res/image/data/ID1vxUZA-t67FITyc.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/6mT2sfg5-6gCoMGdb.png",
-            "time": "03:00:00",
-            "date": "29/06",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1782676800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-451d6211c5_e1e3a228_20260629.png?v=e1e3a228",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5a6d3ebdac",
           "name": "Golden State Valkyries W vs New York Liberty W | 06:00 29/06",
