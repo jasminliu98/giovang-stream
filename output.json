@@ -394,84 +394,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-76d1e0ed0e",
-          "name": "Bulgaria vs Ukraine | 18:00 28/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-76d1e0ed0e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-76d1e0ed0e",
-                  "name": "Bulgaria vs Ukraine",
-                  "streams": [
-                    {
-                      "id": "st-76d1e0ed0e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11dedbaa26",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782606527_hd/1782606527_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Bulgaria",
-            "team_b": "Ukraine",
-            "logo_a": "https://static.flashscore.com/res/image/data/r7q7GrzB-6ys9CWQj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/va0cEUGG-8KJ0tcMR.png",
-            "time": "18:00:00",
-            "date": "28/06",
-            "blv": "BLV Trĩ",
-            "is_live": true,
-            "cate_type": "bongchuyen",
-            "time_start": 1782644400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-76d1e0ed0e_79a8cf74_20260628.png?v=79a8cf74",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a84ada07d8",
           "name": "Iran vs Cuba | 18:30 28/06",
