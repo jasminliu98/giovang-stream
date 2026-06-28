@@ -11,11 +11,139 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-4f9b48e1f0",
+          "name": "Colombia vs Bồ Đào Nha | 06:30 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4f9b48e1f0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4f9b48e1f0",
+                  "name": "Colombia vs Bồ Đào Nha",
+                  "streams": [
+                    {
+                      "id": "st-4f9b48e1f0",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Colombia",
+            "team_b": "Bồ Đào Nha",
+            "logo_a": "https://images.keovip88.net/images/teams/colombia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/portugal.png",
+            "time": "06:30:00",
+            "date": "28/06",
+            "blv": "bon-tri-27, dory-mat",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1782603000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4f9b48e1f0_6dc980e2_20260628.png?v=6dc980e2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6c74ac92b2",
+          "name": "D.R. Congo vs Uzbekistan | 06:30 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c74ac92b2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6c74ac92b2",
+                  "name": "D.R. Congo vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-6c74ac92b2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c92141ab68",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782524044_hd/1782524044_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "D.R. Congo",
+            "team_b": "Uzbekistan",
+            "logo_a": "https://images.keovip88.net/images/teams/democratic-rep-congo.png",
+            "logo_b": "https://images.keovip88.net/images/teams/uzbekistan.png",
+            "time": "06:30:00",
+            "date": "28/06",
+            "blv": "Hỏi + Ngỗng",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1782603000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6c74ac92b2_079141b6_20260628.png?v=079141b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-a6a5792cd8",
           "name": "Jordan vs Argentina | 09:00 28/06",
@@ -152,7 +280,25 @@
                     {
                       "id": "st-39fee94ef7",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d4142bb572",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782577695_hd/1782577695_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -207,7 +353,25 @@
                     {
                       "id": "st-be994ca9a4",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8e79da4e3f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782577617_hd/1782577617_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -262,7 +426,25 @@
                     {
                       "id": "st-2af032cac9",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3baf36d82b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782577744_hd/1782577744_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -372,25 +554,7 @@
                     {
                       "id": "st-efa8c7a706",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09a0bb7db5",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782577826_hd/1782577826_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -445,25 +609,7 @@
                     {
                       "id": "st-3b0a7e2cb0",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0fd6d406f3",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782606297_hd/1782606297_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -573,25 +719,7 @@
                     {
                       "id": "st-3403e81de8",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cb95e1e4a6",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782606372_hd/1782606372_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -624,11 +752,84 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-d9f3a0a84b",
+          "name": "Indiana Fever W vs Los Angeles Sparks W | 07:00 28/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d9f3a0a84b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d9f3a0a84b",
+                  "name": "Indiana Fever W vs Los Angeles Sparks W",
+                  "streams": [
+                    {
+                      "id": "st-d9f3a0a84b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7351a3a112",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782577447_hd/1782577447_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Indiana Fever W",
+            "team_b": "Los Angeles Sparks W",
+            "logo_a": "https://static.flashscore.com/res/image/data/OnITeBf5-ljX4tzuR.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/WAzKCQf5-pj48zN6q.png",
+            "time": "07:00:00",
+            "date": "28/06",
+            "blv": "blv-lac",
+            "is_live": true,
+            "cate_type": "basketball",
+            "time_start": 1782604800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d9f3a0a84b_1497fed3_20260628.png?v=1497fed3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-7eb3ea4400",
           "name": "Canterbury Rams vs Bay Hawks | 10:00 28/06",
@@ -655,7 +856,25 @@
                     {
                       "id": "st-7eb3ea4400",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-09f3f79082",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782577507_hd/1782577507_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -765,25 +984,7 @@
                     {
                       "id": "st-3f1ee1f988",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6d07b462c4",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782606418_hd/1782606418_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1012,25 +1213,7 @@
                     {
                       "id": "st-a43a70ea3e",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b58bdb720",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782606806_hd/1782606806_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1195,7 +1378,25 @@
                     {
                       "id": "st-bdf0217257",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9b46a3e550",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782606914_hd/1782606914_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1259,7 +1460,25 @@
                     {
                       "id": "st-9f2a11d15c",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b9fb4d9528",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782577369_hd/1782577369_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1323,7 +1542,25 @@
                     {
                       "id": "st-36b9170dcb",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-36a3003862",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782577160_hd/1782577160_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
