@@ -893,6 +893,79 @@
           }
         },
         {
+          "id": "gv-08a6b8c0c7",
+          "name": "U19 Ý vs Serbia U19 | 22:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-08a6b8c0c7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-08a6b8c0c7",
+                  "name": "U19 Ý vs Serbia U19",
+                  "streams": [
+                    {
+                      "id": "st-08a6b8c0c7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2ce2f1c64f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782671640_hd/1782671640_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Euro U19",
+            "team_a": "U19 Ý",
+            "team_b": "Serbia U19",
+            "logo_a": "https://images.keovip88.net/images/teams/italy-u19.png",
+            "logo_b": "https://images.keovip88.net/images/teams/serbia-u19.png",
+            "time": "22:00:00",
+            "date": "29/06",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1782745200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-08a6b8c0c7_8ffecca8_20260629.png?v=8ffecca8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-847a695071",
           "name": "Brazil vs Nhật Bản | 23:59 29/06",
           "type": "single",
@@ -1563,6 +1636,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6dd5799760_48e51fcc_20260629.png?v=48e51fcc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1cccfb828f",
+          "name": "Aryna Sabalenka vs Teodora Kostovic | 21:30 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1cccfb828f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1cccfb828f",
+                  "name": "Aryna Sabalenka vs Teodora Kostovic",
+                  "streams": [
+                    {
+                      "id": "st-1cccfb828f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-639fd38eb7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782671570_hd/1782671570_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Wimbledon",
+            "team_a": "Aryna Sabalenka",
+            "team_b": "Teodora Kostovic",
+            "logo_a": "https://static.flashscore.com/res/image/data/xhwEtyEa-I9HZAz1R.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/jFNZ1qzB-0zWSjZrD.png",
+            "time": "21:30:00",
+            "date": "29/06",
+            "blv": "BLV Sún",
+            "is_live": false,
+            "cate_type": "tennis",
+            "time_start": 1782743400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1cccfb828f_e2e9b408_20260629.png?v=e2e9b408",
             "width": 1600,
             "height": 1200
           }
