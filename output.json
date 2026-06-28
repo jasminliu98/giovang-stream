@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,7 +84,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d130588f79_afb193ac_20260628.png?v=afb193ac",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d130588f79_afb193ac_20260629.png?v=afb193ac",
             "width": 1600,
             "height": 1200
           }
@@ -157,7 +157,226 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-12ad6d21c2_8011b09d_20260628.png?v=8011b09d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-12ad6d21c2_8011b09d_20260629.png?v=8011b09d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-dfa5dc3a7b",
+          "name": "Wales U19 vs Tây Ban Nha U19 | 00:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dfa5dc3a7b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dfa5dc3a7b",
+                  "name": "Wales U19 vs Tây Ban Nha U19",
+                  "streams": [
+                    {
+                      "id": "st-dfa5dc3a7b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c5dbcf406d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782661316_hd/1782661316_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Euro U19",
+            "team_a": "Wales U19",
+            "team_b": "Tây Ban Nha U19",
+            "logo_a": "https://images.keovip88.net/images/teams/wales-u19.png",
+            "logo_b": "https://images.keovip88.net/images/teams/spain-u19.png",
+            "time": "00:00:00",
+            "date": "29/06",
+            "blv": "BLV Dần",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1782666000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-dfa5dc3a7b_c3f4aa26_20260629.png?v=c3f4aa26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3f8b461440",
+          "name": "Thór vs Valur | 00:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f8b461440",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3f8b461440",
+                  "name": "Thór vs Valur",
+                  "streams": [
+                    {
+                      "id": "st-3f8b461440",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-32a5e57e31",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782661346_hd/1782661346_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Iceland",
+            "team_a": "Thór",
+            "team_b": "Valur",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/5/55/Thorsmerki.jpg",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/NsESbFVYIML7rLTLQRJspA_96x96.png",
+            "time": "00:00:00",
+            "date": "29/06",
+            "blv": "BLV Mát",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1782666000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3f8b461440_0ddc513f_20260629.png?v=0ddc513f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-33adbab630",
+          "name": "Stjarnan\t vs KA | 00:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-33adbab630",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-33adbab630",
+                  "name": "Stjarnan\t vs KA",
+                  "streams": [
+                    {
+                      "id": "st-33adbab630",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e21dd09ca7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782663257_hd/1782663257_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Iceland",
+            "team_a": "Stjarnan\t",
+            "team_b": "KA",
+            "logo_a": "https://images.keovip.cc/images/teams/st-pauli.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/teams/dce20dacda09eff675b2c38b6e7cd91b.png",
+            "time": "00:00:00",
+            "date": "29/06",
+            "blv": "BLV Mason",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1782666000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-33adbab630_f07cc55a_20260629.png?v=f07cc55a",
             "width": 1600,
             "height": 1200
           }
@@ -230,80 +449,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e0b1cf11fd_fd7737d3_20260628.png?v=fd7737d3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d1b4832692",
-          "name": "Juventude vs Ceara | 02:00 29/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d1b4832692",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d1b4832692",
-                  "name": "Juventude vs Ceara",
-                  "streams": [
-                    {
-                      "id": "st-d1b4832692",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cd0105c09a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782662057_hd/1782662057_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Brazil Serie B",
-            "team_a": "Juventude",
-            "team_b": "Ceara",
-            "logo_a": "https://images.keovip88.net/images/teams/juventude.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ceara.png",
-            "time": "02:00:00",
-            "date": "29/06",
-            "blv": "BLV Mason",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1782673200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d1b4832692_81d19752_20260628.png?v=81d19752",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e0b1cf11fd_fd7737d3_20260629.png?v=fd7737d3",
             "width": 1600,
             "height": 1200
           }
@@ -376,14 +522,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-81137a5caf_73605928_20260628.png?v=73605928",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-81137a5caf_73605928_20260629.png?v=73605928",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "gv-9f2adf5481",
-          "name": "Fortaleza CE vs Sport Club Recife (PE) | 04:30 29/06",
+          "id": "gv-d1b4832692",
+          "name": "Juventude vs Ceara | 02:00 29/06",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -397,23 +543,23 @@
           ],
           "sources": [
             {
-              "id": "src-9f2adf5481",
+              "id": "src-d1b4832692",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-9f2adf5481",
-                  "name": "Fortaleza CE vs Sport Club Recife (PE)",
+                  "id": "ct-d1b4832692",
+                  "name": "Juventude vs Ceara",
                   "streams": [
                     {
-                      "id": "st-9f2adf5481",
+                      "id": "st-d1b4832692",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-4673f63a3d",
+                          "id": "lnk-cd0105c09a",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782662224_hd/1782662224_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782662057_hd/1782662057_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -434,22 +580,22 @@
           ],
           "org_metadata": {
             "league": "Brazil Serie B",
-            "team_a": "Fortaleza CE",
-            "team_b": "Sport Club Recife (PE)",
-            "logo_a": "https://images.keovip88.net/images/teams/fortaleza.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sport-club-do-recife.png",
-            "time": "04:30:00",
+            "team_a": "Juventude",
+            "team_b": "Ceara",
+            "logo_a": "https://images.keovip88.net/images/teams/juventude.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ceara.png",
+            "time": "02:00:00",
             "date": "29/06",
-            "blv": "BLV Hợi",
+            "blv": "BLV Mason",
             "is_live": false,
             "cate_type": "football",
-            "time_start": 1782682200
+            "time_start": 1782673200
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9f2adf5481_56ba4445_20260628.png?v=56ba4445",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d1b4832692_81d19752_20260629.png?v=81d19752",
             "width": 1600,
             "height": 1200
           }
@@ -522,7 +668,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-772f16538b_f50a6eb7_20260628.png?v=f50a6eb7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-772f16538b_f50a6eb7_20260629.png?v=f50a6eb7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9f2adf5481",
+          "name": "Fortaleza CE vs Sport Club Recife (PE) | 04:30 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f2adf5481",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9f2adf5481",
+                  "name": "Fortaleza CE vs Sport Club Recife (PE)",
+                  "streams": [
+                    {
+                      "id": "st-9f2adf5481",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4673f63a3d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782662224_hd/1782662224_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Brazil Serie B",
+            "team_a": "Fortaleza CE",
+            "team_b": "Sport Club Recife (PE)",
+            "logo_a": "https://images.keovip88.net/images/teams/fortaleza.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sport-club-do-recife.png",
+            "time": "04:30:00",
+            "date": "29/06",
+            "blv": "BLV Hợi",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1782682200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9f2adf5481_56ba4445_20260629.png?v=56ba4445",
             "width": 1600,
             "height": 1200
           }
@@ -595,7 +814,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ea2426891e_ce9e0455_20260628.png?v=ce9e0455",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ea2426891e_ce9e0455_20260629.png?v=ce9e0455",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-847a695071",
+          "name": "Brazil vs Nhật Bản | 23:59 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-847a695071",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-847a695071",
+                  "name": "Brazil vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-847a695071",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e2d157a671",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782644432_hd/1782644432_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Brazil",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://images.keovip88.net/images/teams/brazil.png",
+            "logo_b": "https://images.keovip88.net/images/teams/japan.png",
+            "time": "23:59:00",
+            "date": "29/06",
+            "blv": "bin-leo, fan-nhat, fan-brazil",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1782752340
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-847a695071_1f1d6d6f_20260629.png?v=1f1d6d6f",
             "width": 1600,
             "height": 1200
           }
@@ -677,7 +969,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6e58ba0efc_c277c8a6_20260628.png?v=c277c8a6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6e58ba0efc_c277c8a6_20260629.png?v=c277c8a6",
             "width": 1600,
             "height": 1200
           }
@@ -750,7 +1042,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-451d6211c5_e1e3a228_20260628.png?v=e1e3a228",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-451d6211c5_e1e3a228_20260629.png?v=e1e3a228",
             "width": 1600,
             "height": 1200
           }
@@ -823,7 +1115,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5a6d3ebdac_7c8386a5_20260628.png?v=7c8386a5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5a6d3ebdac_7c8386a5_20260629.png?v=7c8386a5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6f0118a6dc",
+          "name": "Aguada Santeros vs Piratas de Quebradillas | 07:00 30/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f0118a6dc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6f0118a6dc",
+                  "name": "Aguada Santeros vs Piratas de Quebradillas",
+                  "streams": [
+                    {
+                      "id": "st-6f0118a6dc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b7d4851d32",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782646320_hd/1782646320_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Peru",
+            "team_a": "Aguada Santeros",
+            "team_b": "Piratas de Quebradillas",
+            "logo_a": "https://static.flashscore.com/res/image/data/GvtkaHf5-lx2FWIRi.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/voBgfdXg-rVD0IIGn.png",
+            "time": "07:00:00",
+            "date": "30/06",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1782777600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6f0118a6dc_03e9fee8_20260629.png?v=03e9fee8",
             "width": 1600,
             "height": 1200
           }
@@ -905,7 +1270,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ea5f037e02_479b3274_20260628.png?v=479b3274",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ea5f037e02_479b3274_20260629.png?v=479b3274",
             "width": 1600,
             "height": 1200
           }
@@ -978,7 +1343,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bdf0217257_46dccf03_20260628.png?v=46dccf03",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bdf0217257_46dccf03_20260629.png?v=46dccf03",
             "width": 1600,
             "height": 1200
           }
@@ -1051,7 +1416,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b805c20b90_4b6fd8b6_20260628.png?v=4b6fd8b6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b805c20b90_4b6fd8b6_20260629.png?v=4b6fd8b6",
             "width": 1600,
             "height": 1200
           }
@@ -1133,7 +1498,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9f9dd0103b_834ca17a_20260628.png?v=834ca17a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9f9dd0103b_834ca17a_20260629.png?v=834ca17a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-eaf60fa082",
+          "name": "Athletics vs Los Angeles Dodgers | 08:40 30/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eaf60fa082",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-eaf60fa082",
+                  "name": "Athletics vs Los Angeles Dodgers",
+                  "streams": [
+                    {
+                      "id": "st-eaf60fa082",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7582108fde",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782646229_hd/1782646229_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Athletics",
+            "team_b": "Los Angeles Dodgers",
+            "logo_a": "https://static.flashscore.com/res/image/data/OnC9Vnjl-2NA0SpQN.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
+            "time": "08:40:00",
+            "date": "30/06",
+            "blv": "BLV Cần",
+            "is_live": false,
+            "cate_type": "bongchay",
+            "time_start": 1782783600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-eaf60fa082_839047dc_20260629.png?v=839047dc",
             "width": 1600,
             "height": 1200
           }
