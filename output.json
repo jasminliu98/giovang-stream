@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "gv-fd544e7889",
-          "name": "Guangxi Pingguo Beinong (W) vs Beijing Beikong W | 18:00 29/06",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd544e7889",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fd544e7889",
-                  "name": "Guangxi Pingguo Beinong (W) vs Beijing Beikong W",
-                  "streams": [
-                    {
-                      "id": "st-fd544e7889",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2ba3a301a1",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782669612_hd/1782669612_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.team/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Nữ Trung Quốc",
-            "team_a": "Guangxi Pingguo Beinong (W)",
-            "team_b": "Beijing Beikong W",
-            "logo_a": "https://static.flashscore.com/res/image/data/6eLwTbFa-6sdVtRxN.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/lf5prHcM-bLWUCs5t.png",
-            "time": "18:00:00",
-            "date": "29/06",
-            "blv": "BLV Mát",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1782730800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fd544e7889_d6241214_20260629.png?v=d6241214",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-8067992992",
           "name": "Guangdong Province (W) vs Wuhan Jianghan (W) | 18:00 29/06",
           "type": "single",
@@ -231,6 +158,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8067992992_990ff138_20260629.png?v=990ff138",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fd544e7889",
+          "name": "Guangxi Pingguo Beinong (W) vs Beijing Beikong W | 18:00 29/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd544e7889",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fd544e7889",
+                  "name": "Guangxi Pingguo Beinong (W) vs Beijing Beikong W",
+                  "streams": [
+                    {
+                      "id": "st-fd544e7889",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2ba3a301a1",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782669612_hd/1782669612_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Nữ Trung Quốc",
+            "team_a": "Guangxi Pingguo Beinong (W)",
+            "team_b": "Beijing Beikong W",
+            "logo_a": "https://static.flashscore.com/res/image/data/6eLwTbFa-6sdVtRxN.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/lf5prHcM-bLWUCs5t.png",
+            "time": "18:00:00",
+            "date": "29/06",
+            "blv": "BLV Mát",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1782730800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fd544e7889_d6241214_20260629.png?v=d6241214",
             "width": 1600,
             "height": 1200
           }
@@ -1362,6 +1362,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2dfb8ab641_be50ae69_20260629.png?v=be50ae69",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e318638193",
+          "name": "Athletics vs Los Angeles Dodgers | 08:40 30/06",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e318638193",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e318638193",
+                  "name": "Athletics vs Los Angeles Dodgers",
+                  "streams": [
+                    {
+                      "id": "st-e318638193",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-044111e1ba",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782696927_hd/1782696927_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.team/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Athletics",
+            "team_b": "Los Angeles Dodgers",
+            "logo_a": "https://static.flashscore.com/res/image/data/OnC9Vnjl-2NA0SpQN.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
+            "time": "08:40:00",
+            "date": "30/06",
+            "blv": "BLV Cần",
+            "is_live": false,
+            "cate_type": "bongchay",
+            "time_start": 1782783600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e318638193_839047dc_20260629.png?v=839047dc",
             "width": 1600,
             "height": 1200
           }
