@@ -77,7 +77,7 @@ HEADERS = {
 BASE_URL      = "https://giovang.store"
 API_LIVE      = "https://live-api.keovip88.net/storage/livestream/live.json"
 API_ALL       = "https://live-api.keovip88.net/storage/livestream/all.json"
-API_FIXTURES  = "https://live-api.keovip88.net/fixtures"
+API_FIXTURES  = "https://live-api.keovip88.net/api/fixtures/"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
