@@ -71,13 +71,13 @@ def calc_is_live(status_code: str, time_str: str, date_str: str) -> bool:
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Referer":    "https://giovang.team/",
+    "Referer":    "https://giovang.store/",
 }
 
-BASE_URL      = "https://giovang.team"
-API_LIVE      = "https://live-api.megatech.global/storage/livestream/live.json"
-API_ALL       = "https://live-api.megatech.global/storage/livestream/all.json"
-API_FIXTURES  = "https://live-api.megatech.global/api/fixtures"
+BASE_URL      = "https://giovang.store"
+API_LIVE      = "https://live-api.keovip88.net/storage/livestream/live.json"
+API_ALL       = "https://live-api.keovip88.net/storage/livestream/all.json"
+API_FIXTURES  = "https://live-api.keovip88.net/fixtures"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
@@ -589,7 +589,7 @@ def build_channel(match: dict, stream_url: str, thumb_url: str = "") -> dict:
             "default": True,
             "url":     stream_url,
             "request_headers": [
-                {"key": "Referer",    "value": "https://giovang.team/"},
+                {"key": "Referer",    "value": "https://giovang.store/"},
                 {"key": "User-Agent", "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
             ],
         })
@@ -739,7 +739,7 @@ def main():
 
     output = {
         "id":          "giovang",
-        "url":         "https://giovang.team",
+        "url":         "https://giovang.store",
         "name":        "GiovangTV",
         "color":       "#0155a5",
         "grid_number": 3,
