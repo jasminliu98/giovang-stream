@@ -526,6 +526,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-bd6751faf9",
+          "name": "Úc vs Ai Cập | 01:00 04/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd6751faf9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bd6751faf9",
+                  "name": "Úc vs Ai Cập",
+                  "streams": [
+                    {
+                      "id": "st-bd6751faf9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-84b3122fcb",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782930322_hd/1782930322_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Úc",
+            "team_b": "Ai Cập",
+            "logo_a": "https://images.keovip88.net/images/teams/australia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/egypt.png",
+            "time": "01:00:00",
+            "date": "04/07",
+            "blv": "canben, ngu-ngong-27",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783101600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bd6751faf9_422ec294_20260703.png?v=422ec294",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
