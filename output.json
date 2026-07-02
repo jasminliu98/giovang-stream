@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-92d70a32ec",
-          "name": "Serbia U19  vs Ukraine U19 | 00:00 03/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-92d70a32ec",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-92d70a32ec",
-                  "name": "Serbia U19  vs Ukraine U19",
-                  "streams": [
-                    {
-                      "id": "st-92d70a32ec",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d2e2cfcbe4",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783005867_hd/1783005867_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA U19 European Championship",
-            "team_a": "Serbia U19 ",
-            "team_b": "Ukraine U19",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/xyh1vmZ-xJH2iJCKjqS1Ow_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/DQIQtK7N4yrDIqw75pxFHg_96x96.png",
-            "time": "00:00:00",
-            "date": "03/07",
-            "blv": "BLV Ngỗng",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783011600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-92d70a32ec_5d7036c0_20260703.png?v=5d7036c0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8985852992",
           "name": "Tây Ban Nha vs Áo | 02:00 03/07",
@@ -510,6 +437,61 @@
           }
         },
         {
+          "id": "gv-281a45ff35",
+          "name": "Ilves vs SJK Akatemia | 22:30 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-281a45ff35",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-281a45ff35",
+                  "name": "Ilves vs SJK Akatemia",
+                  "streams": [
+                    {
+                      "id": "st-281a45ff35",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giải hạng 2 Phần Lan",
+            "team_a": "Ilves",
+            "team_b": "SJK Akatemia",
+            "logo_a": "https://static.flashscore.com/res/image/data/YuxJFAYg-StEHvdhI.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xzjdw0Da-nNbzs3cc.png",
+            "time": "22:30:00",
+            "date": "03/07",
+            "blv": "BLV Mát",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783092600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-281a45ff35_94abbe1f_20260703.png?v=94abbe1f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-e51225f466",
           "name": "Kongsvinger vs Sogndal | 23:00 03/07",
           "type": "single",
@@ -805,84 +787,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5dfbcc4072",
-          "name": "Spain  vs Denmark | 00:00 03/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5dfbcc4072",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5dfbcc4072",
-                  "name": "Spain  vs Denmark",
-                  "streams": [
-                    {
-                      "id": "st-5dfbcc4072",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b41f160195",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783006788_hd/1783006788_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vòng loại WC",
-            "team_a": "Spain ",
-            "team_b": "Denmark",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/5hLkf7KFHhmpaiOJQv8LmA_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/LaOvu-pyRqRso6uzff55XA_96x96.png",
-            "time": "00:00:00",
-            "date": "03/07",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1783011600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5dfbcc4072_ad4fa820_20260703.png?v=ad4fa820",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e6cd01fb4b",
           "name": "Bosnia  vs Turkey | 01:00 03/07",
