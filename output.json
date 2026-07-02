@@ -2891,6 +2891,125 @@
           }
         }
       ]
+    },
+    {
+      "id": "cate_duaxe",
+      "name": "🏎️ Đua Xe",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-baaa0268e0",
+          "name": "F1 vs British Grand Prix | 18:30 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-baaa0268e0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-baaa0268e0",
+                  "name": "F1 vs British Grand Prix",
+                  "streams": [
+                    {
+                      "id": "st-baaa0268e0",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "F1",
+            "team_a": "F1",
+            "team_b": "British Grand Prix",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZrc10o5Tsbcpd8Li73uI_dxCUXo4Loa3VmjnHRXisUg&s=10",
+            "logo_b": "https://static.flashscore.com/res/image/data/fTwn6Tmd-pdBRRTp0.png",
+            "time": "18:30:00",
+            "date": "03/07",
+            "blv": "BLV Ngủ",
+            "is_live": false,
+            "cate_type": "duaxe",
+            "time_start": 1783078200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-baaa0268e0_6e1a5004_20260703.png?v=6e1a5004",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ad9722dada",
+          "name": "F1 vs British Grand Prix | 22:30 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad9722dada",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ad9722dada",
+                  "name": "F1 vs British Grand Prix",
+                  "streams": [
+                    {
+                      "id": "st-ad9722dada",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "F1",
+            "team_a": "F1",
+            "team_b": "British Grand Prix",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZrc10o5Tsbcpd8Li73uI_dxCUXo4Loa3VmjnHRXisUg&s=10",
+            "logo_b": "https://static.flashscore.com/res/image/data/fTwn6Tmd-pdBRRTp0.png",
+            "time": "22:30:00",
+            "date": "03/07",
+            "blv": "BLV Ngủ",
+            "is_live": false,
+            "cate_type": "duaxe",
+            "time_start": 1783092600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ad9722dada_6e1a5004_20260703.png?v=6e1a5004",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
