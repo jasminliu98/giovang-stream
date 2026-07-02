@@ -163,79 +163,6 @@
           }
         },
         {
-          "id": "gv-d467c4ca56",
-          "name": "Jazz  vs KPV | 23:00 02/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d467c4ca56",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d467c4ca56",
-                  "name": "Jazz  vs KPV",
-                  "streams": [
-                    {
-                      "id": "st-d467c4ca56",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-28250fcbb2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783005422_hd/1783005422_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Finland - Ykkönen",
-            "team_a": "Jazz ",
-            "team_b": "KPV",
-            "logo_a": "https://static.flashscore.com/res/image/data/4AZXupil-2ZlfMMDL.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8lgj6Chl-WdapVR2a.png",
-            "time": "23:00:00",
-            "date": "02/07",
-            "blv": "BLV Mát",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783008000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d467c4ca56_2385f6e5_20260702.png?v=2385f6e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-7d90c65476",
           "name": "FC Minsk vs Din. Minsk | 00:00 03/07",
           "type": "single",
@@ -1270,7 +1197,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1356,10 +1283,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1408,7 +1335,7 @@
             "time": "23:00:00",
             "date": "02/07",
             "blv": "BLV Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis",
             "time_start": 1783008000
           },
