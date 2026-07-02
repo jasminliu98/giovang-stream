@@ -42,7 +42,25 @@
                     {
                       "id": "st-8985852992",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a03d43f87e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782930186_hd/1782930186_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -112,7 +130,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/croatia.png",
             "time": "06:00:00",
             "date": "03/07",
-            "blv": "Bón + Trĩ, Leo + Mason, Mason-mat",
+            "blv": "Bón + Trĩ, bin-mason, Mason-mat",
             "is_live": false,
             "cate_type": "football",
             "time_start": 1783033200
@@ -232,6 +250,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ee94874abc_f91da975_20260703.png?v=f91da975",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-93d2139fb4",
+          "name": "O'Higgins  vs Colo-Colo | 07:30 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-93d2139fb4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-93d2139fb4",
+                  "name": "O'Higgins  vs Colo-Colo",
+                  "streams": [
+                    {
+                      "id": "st-93d2139fb4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a27be3ef8c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783020952_hd/1783020952_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Chilê",
+            "team_a": "O'Higgins ",
+            "team_b": "Colo-Colo",
+            "logo_a": "https://images.keovip88.net/images/teams/ohiggins.png",
+            "logo_b": "https://images.keovip88.net/images/teams/colorado-springs-switchbacks-fc.png",
+            "time": "07:30:00",
+            "date": "03/07",
+            "blv": "BLV Ngỗng",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783038600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-93d2139fb4_4f37c2ef_20260703.png?v=4f37c2ef",
             "width": 1600,
             "height": 1200
           }
@@ -1016,6 +1107,61 @@
           }
         },
         {
+          "id": "gv-813af2e751",
+          "name": "Connecticut Sun W  vs Dallas Wings W | 07:00 03/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-813af2e751",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-813af2e751",
+                  "name": "Connecticut Sun W  vs Dallas Wings W",
+                  "streams": [
+                    {
+                      "id": "st-813af2e751",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WNBA",
+            "team_a": "Connecticut Sun W ",
+            "team_b": "Dallas Wings W",
+            "logo_a": "https://static.flashscore.com/res/image/data/GpwFHTYA-bam8o1Nj.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk0nmYNUbdu_irSbIj1ZZVdI5JJsQnb6UGKw&s",
+            "time": "07:00:00",
+            "date": "03/07",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1783036800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-813af2e751_7c20febd_20260703.png?v=7c20febd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-8d53bcaa2c",
           "name": "Phoenix Mercury W vs Seatle Storm W | 09:00 03/07",
           "type": "single",
@@ -1041,7 +1187,25 @@
                     {
                       "id": "st-8d53bcaa2c",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6d9077e9a9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783021147_hd/1783021147_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1056,7 +1220,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/WAtvfmDa-tCILA0mK.png",
             "time": "09:00:00",
             "date": "03/07",
-            "blv": "BLV Cầy",
+            "blv": "BLV Ben",
             "is_live": false,
             "cate_type": "basketball",
             "time_start": 1783044000
