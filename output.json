@@ -1110,6 +1110,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-7b87dc3513",
+          "name": "Argentina vs Cape Verde | 05:00 04/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b87dc3513",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7b87dc3513",
+                  "name": "Argentina vs Cape Verde",
+                  "streams": [
+                    {
+                      "id": "st-7b87dc3513",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67197f5439",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782930402_hd/1782930402_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Argentina",
+            "team_b": "Cape Verde",
+            "logo_a": "https://images.keovip88.net/images/teams/argentina.png",
+            "logo_b": "https://images.keovip88.net/images/teams/cape-verde.png",
+            "time": "05:00:00",
+            "date": "04/07",
+            "blv": "bin-mason, bon-tri-27",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783116000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7b87dc3513_a2e180ca_20260703.png?v=a2e180ca",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
