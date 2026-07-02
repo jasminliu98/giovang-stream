@@ -3856,6 +3856,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-f1e90b5e2e",
+          "name": "F1 vs F1 | 18:00 04/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1e90b5e2e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f1e90b5e2e",
+                  "name": "F1 vs F1",
+                  "streams": [
+                    {
+                      "id": "st-f1e90b5e2e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96efc9e742",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783022465_hd/1783022465_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "British",
+            "team_a": "F1",
+            "team_b": "F1",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZrc10o5Tsbcpd8Li73uI_dxCUXo4Loa3VmjnHRXisUg&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZrc10o5Tsbcpd8Li73uI_dxCUXo4Loa3VmjnHRXisUg&s=10",
+            "time": "18:00:00",
+            "date": "04/07",
+            "blv": "BLV Ngủ",
+            "is_live": false,
+            "cate_type": "duaxe",
+            "time_start": 1783162800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f1e90b5e2e_ca3e57de_20260703.png?v=ca3e57de",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
