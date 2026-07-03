@@ -3387,84 +3387,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a96a99ea89",
-          "name": "Jannik Sinner vs Jenson Brooksby | 20:30 03/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a96a99ea89",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a96a99ea89",
-                  "name": "Jannik Sinner vs Jenson Brooksby",
-                  "streams": [
-                    {
-                      "id": "st-a96a99ea89",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7c71979a3b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783059029_hd/1783059029_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Wimbledon",
-            "team_a": "Jannik Sinner",
-            "team_b": "Jenson Brooksby",
-            "logo_a": "https://static.flashscore.com/res/image/data/zsxlv1jl-0zrsJ4N3.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OK1A9QCr-Sj5mpIoi.png",
-            "time": "20:30:00",
-            "date": "03/07",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "tennis",
-            "time_start": 1783085400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a96a99ea89_977cee99_20260703.png?v=977cee99",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-dcefe817ab",
           "name": "Aryna Sabalenka vs Jelena Ostapenko | 21:30 03/07",
@@ -3689,6 +3616,70 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d3eb629595_5bac320b_20260703.png?v=5bac320b",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-92137be193",
+          "name": "SUN Yingsha vs  Dina MESHREF | 02:00 04/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-92137be193",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-92137be193",
+                  "name": "SUN Yingsha vs  Dina MESHREF",
+                  "streams": [
+                    {
+                      "id": "st-92137be193",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "US SMASH",
+            "team_a": "SUN Yingsha",
+            "team_b": " Dina MESHREF",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtQgGERqNo1yOr9XN4u69BdQumVdLmW0sOgkvgbP3-FosZNL6D7aXeHDec&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh-zmgmVII2OUZtpQ4STbpgKwj4R6nmtdYwf7dAO8OZjZi-g821gu2jWrb&s=10",
+            "time": "02:00:00",
+            "date": "04/07",
+            "blv": "BLV Dory",
+            "is_live": false,
+            "cate_type": "vothuat",
+            "time_start": 1783105200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-92137be193_90caccb1_20260703.png?v=90caccb1",
             "width": 1600,
             "height": 1200
           }
