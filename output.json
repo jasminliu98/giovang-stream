@@ -893,8 +893,8 @@
           }
         },
         {
-          "id": "gv-0c7b357fca",
-          "name": "Avondale FC vs Preston Lions | 12:00 04/07",
+          "id": "gv-4822d5a19d",
+          "name": "University NSW vs Sydney FC Youth | 12:00 04/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -908,23 +908,23 @@
           ],
           "sources": [
             {
-              "id": "src-0c7b357fca",
+              "id": "src-4822d5a19d",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-0c7b357fca",
-                  "name": "Avondale FC vs Preston Lions",
+                  "id": "ct-4822d5a19d",
+                  "name": "University NSW vs Sydney FC Youth",
                   "streams": [
                     {
-                      "id": "st-0c7b357fca",
+                      "id": "st-4822d5a19d",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-7857cf9ad8",
+                          "id": "lnk-7b36390eb5",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782953500_hd/1782953500_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783063219_hd/1783063219_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -944,14 +944,14 @@
             }
           ],
           "org_metadata": {
-            "league": "NPL Victoria Úc",
-            "team_a": "Avondale FC",
-            "team_b": "Preston Lions",
-            "logo_a": "https://images.keovip88.net/images/teams/avondale-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/preston-lions.png",
+            "league": "NPL NSW Úc",
+            "team_a": "University NSW",
+            "team_b": "Sydney FC Youth",
+            "logo_a": "https://images.keovip88.net/images/teams/university-nsw.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sydney-fc-youth.png",
             "time": "12:00:00",
             "date": "04/07",
-            "blv": "BLV Bón",
+            "blv": "BLV Mù",
             "is_live": false,
             "cate_type": "football",
             "time_start": 1783141200
@@ -960,7 +960,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0c7b357fca_9a3dd110_20260703.png?v=9a3dd110",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4822d5a19d_d497a84a_20260703.png?v=d497a84a",
             "width": 1600,
             "height": 1200
           }
@@ -1039,6 +1039,79 @@
           }
         },
         {
+          "id": "gv-0c7b357fca",
+          "name": "Avondale FC vs Preston Lions | 12:00 04/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0c7b357fca",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0c7b357fca",
+                  "name": "Avondale FC vs Preston Lions",
+                  "streams": [
+                    {
+                      "id": "st-0c7b357fca",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7857cf9ad8",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1782953500_hd/1782953500_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NPL Victoria Úc",
+            "team_a": "Avondale FC",
+            "team_b": "Preston Lions",
+            "logo_a": "https://images.keovip88.net/images/teams/avondale-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/preston-lions.png",
+            "time": "12:00:00",
+            "date": "04/07",
+            "blv": "BLV Bón",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783141200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0c7b357fca_9a3dd110_20260703.png?v=9a3dd110",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-b21983ae43",
           "name": "Altona Magic vs Melbourne Heart (Trẻ) | 12:15 04/07",
           "type": "single",
@@ -1064,7 +1137,25 @@
                     {
                       "id": "st-b21983ae43",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1da59a9d92",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783063184_hd/1783063184_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1235,6 +1326,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e2df91d908_4a5d9865_20260703.png?v=4a5d9865",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e7a5d03f9c",
+          "name": "Sutherland Sharks vs A.P.I.A. Leichhardt Tigers | 14:30 04/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e7a5d03f9c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e7a5d03f9c",
+                  "name": "Sutherland Sharks vs A.P.I.A. Leichhardt Tigers",
+                  "streams": [
+                    {
+                      "id": "st-e7a5d03f9c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-27a51761f7",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783063653_hd/1783063653_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NPL NSW Úc",
+            "team_a": "Sutherland Sharks",
+            "team_b": "A.P.I.A. Leichhardt Tigers",
+            "logo_a": "https://images.keovip88.net/images/teams/sutherland-sharks.png",
+            "logo_b": "https://images.keovip88.net/images/teams/apia-leichhardt-tigers.png",
+            "time": "14:30:00",
+            "date": "04/07",
+            "blv": "BLV Dory",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783150200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e7a5d03f9c_699135a3_20260703.png?v=699135a3",
             "width": 1600,
             "height": 1200
           }
