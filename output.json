@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,79 +85,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e51225f466_f8c7b811_20260704.png?v=f8c7b811",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1645425ddb",
-          "name": "Raufoss  vs Strømmen | 23:00 03/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1645425ddb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1645425ddb",
-                  "name": "Raufoss  vs Strømmen",
-                  "streams": [
-                    {
-                      "id": "st-1645425ddb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6bfe1f717d",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783000603_hd/1783000603_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Norway - OBOS-ligaen",
-            "team_a": "Raufoss ",
-            "team_b": "Strømmen",
-            "logo_a": "https://obosligaen.na.no/content/uploads/sites/21/2023/03/RaufossFotball.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ0uqekhm0unOzaJZMNpLJ0Sw8vSHNZqhPeyJEC-agpCr2xnX8YV2CYmA&s=10",
-            "time": "23:00:00",
-            "date": "03/07",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783094400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1645425ddb_80797475_20260704.png?v=80797475",
             "width": 1600,
             "height": 1200
           }
