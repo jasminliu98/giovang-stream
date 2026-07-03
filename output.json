@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8d0eff78d9",
-          "name": "Thụy Sĩ vs Algeria | 10:00 03/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8d0eff78d9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8d0eff78d9",
-                  "name": "Thụy Sĩ vs Algeria",
-                  "streams": [
-                    {
-                      "id": "st-8d0eff78d9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-af8314d4eb",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783020431_hd/1783020431_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Thụy Sĩ",
-            "team_b": "Algeria",
-            "logo_a": "https://images.keovip88.net/images/teams/switzerland.png",
-            "logo_b": "https://images.keovip88.net/images/teams/algeria.png",
-            "time": "10:00:00",
-            "date": "03/07",
-            "blv": "vui-ve-hoi-ngong, Dieccay, BLV Dần",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783047600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8d0eff78d9_ff5b9c30_20260703.png?v=ff5b9c30",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a15c985d7a",
           "name": "Green Gully Cavaliers vs Bentleigh Greens | 16:30 03/07",
@@ -1115,84 +1042,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-813af2e751",
-          "name": "Connecticut Sun W  vs Dallas Wings W | 07:00 03/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-813af2e751",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-813af2e751",
-                  "name": "Connecticut Sun W  vs Dallas Wings W",
-                  "streams": [
-                    {
-                      "id": "st-813af2e751",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8e0b372dd",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783020860_hd/1783020860_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WNBA",
-            "team_a": "Connecticut Sun W ",
-            "team_b": "Dallas Wings W",
-            "logo_a": "https://static.flashscore.com/res/image/data/GpwFHTYA-bam8o1Nj.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk0nmYNUbdu_irSbIj1ZZVdI5JJsQnb6UGKw&s",
-            "time": "07:00:00",
-            "date": "03/07",
-            "blv": "BLV Cầy",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1783036800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-813af2e751_7c20febd_20260703.png?v=7c20febd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-06780991b7",
           "name": "New Zealand vs Phillipines | 14:00 03/07",
