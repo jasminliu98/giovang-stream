@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-93d2139fb4",
-          "name": "O'Higgins  vs Colo-Colo | 07:30 03/07",
+          "id": "gv-8d0eff78d9",
+          "name": "Thụy Sĩ vs Algeria | 10:00 03/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,79 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-93d2139fb4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-93d2139fb4",
-                  "name": "O'Higgins  vs Colo-Colo",
-                  "streams": [
-                    {
-                      "id": "st-93d2139fb4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a27be3ef8c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783020952_hd/1783020952_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Chilê",
-            "team_a": "O'Higgins ",
-            "team_b": "Colo-Colo",
-            "logo_a": "https://images.keovip88.net/images/teams/ohiggins.png",
-            "logo_b": "https://images.keovip88.net/images/teams/colorado-springs-switchbacks-fc.png",
-            "time": "07:30:00",
-            "date": "03/07",
-            "blv": "BLV Ngỗng",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783038600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-93d2139fb4_4f37c2ef_20260703.png?v=4f37c2ef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8d0eff78d9",
-          "name": "Thụy Sĩ vs Algeria | 10:00 03/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -149,7 +76,7 @@
             "time": "10:00:00",
             "date": "03/07",
             "blv": "vui-ve-hoi-ngong, Dieccay, BLV Dần",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783047600
           },
