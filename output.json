@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -97,10 +97,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -117,11 +117,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-4222193b78",
+                          "id": "lnk-278b1ec2d0",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783164010_hd/1783164010_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783164043_hd/1783164043_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -148,8 +148,8 @@
             "logo_b": "https://images.keovip88.net/images/teams/france.png",
             "time": "04:00:00",
             "date": "05/07",
-            "blv": "leo-bin, Dieccay",
-            "is_live": false,
+            "blv": "Dieccay, leo-bin",
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783198800
           },
