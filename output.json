@@ -1506,6 +1506,70 @@
       ]
     },
     {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-fbd170b297",
+          "name": "Secret Whales vs TES | 10:00 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fbd170b297",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fbd170b297",
+                  "name": "Secret Whales vs TES",
+                  "streams": [
+                    {
+                      "id": "st-fbd170b297",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MSI",
+            "team_a": "Secret Whales",
+            "team_b": "TES",
+            "logo_a": "https://static.flashscore.com/res/image/data/xYMX87ZA-SS6SrwhM.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QPgfuJHG-AccDjeY5.png",
+            "time": "10:00:00",
+            "date": "05/07",
+            "blv": "blv-pery",
+            "is_live": false,
+            "cate_type": "esport",
+            "time_start": 1783220400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fbd170b297_f85dc6a7_20260704.png?v=f85dc6a7",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchay",
       "name": "⚾ Bóng Chày",
       "display": "vertical",
