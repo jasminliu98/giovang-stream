@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-511a525fb3",
-          "name": "Canada vs Ma Rốc | 23:59 04/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-511a525fb3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-511a525fb3",
-                  "name": "Canada vs Ma Rốc",
-                  "streams": [
-                    {
-                      "id": "st-511a525fb3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc8d35e711",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783176579_hd/1783176579_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Canada",
-            "team_b": "Ma Rốc",
-            "logo_a": "https://images.keovip88.net/images/teams/canada.png",
-            "logo_b": "https://images.keovip88.net/images/teams/morocco.png",
-            "time": "23:59:00",
-            "date": "04/07",
-            "blv": "nguoi-moi, dau-cau-boc-phet, BLV Hợi",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783184340
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-511a525fb3_fee23a44_20260705.png?v=fee23a44",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3db28dcf3a",
           "name": "Atl. Ottawa  vs Cavalry | 03:00 05/07",
