@@ -163,6 +163,134 @@
           }
         },
         {
+          "id": "gv-247864b0d0",
+          "name": "Goias  vs Ceara | 06:00 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-247864b0d0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-247864b0d0",
+                  "name": "Goias  vs Ceara",
+                  "streams": [
+                    {
+                      "id": "st-247864b0d0",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie B",
+            "team_a": "Goias ",
+            "team_b": "Ceara",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/gb8bo2x00XsbvsVp9nGniA_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/mSl0cz3i2t8uv4zcprobOg_96x96.png",
+            "time": "06:00:00",
+            "date": "05/07",
+            "blv": "BLV Dần",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783206000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-247864b0d0_20219cfb_20260705.png?v=20219cfb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8635b0a38c",
+          "name": "Rhode Island vs Orange County Blues FC | 06:30 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8635b0a38c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8635b0a38c",
+                  "name": "Rhode Island vs Orange County Blues FC",
+                  "streams": [
+                    {
+                      "id": "st-8635b0a38c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2d0226f07",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783195156_hd/1783195156_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "USL Championship Mỹ",
+            "team_a": "Rhode Island",
+            "team_b": "Orange County Blues FC",
+            "logo_a": "https://images.keovip88.net/images/teams/rhode-island.png",
+            "logo_b": "https://images.keovip88.net/images/teams/orange-county-blues-fc.png",
+            "time": "06:30:00",
+            "date": "05/07",
+            "blv": "BLV Hợi",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783207800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8635b0a38c_2edac5c7_20260705.png?v=2edac5c7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-ab9985108b",
           "name": "New Mexico United vs Oakland Roots | 08:30 05/07",
           "type": "single",
