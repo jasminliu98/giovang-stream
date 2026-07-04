@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2ed893764c",
-          "name": "Dalian Yingbo vs Wuhan Three Towns | 18:35 04/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ed893764c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2ed893764c",
-                  "name": "Dalian Yingbo vs Wuhan Three Towns",
-                  "streams": [
-                    {
-                      "id": "st-2ed893764c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1c654cf16b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783022627_hd/1783022627_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Trung Quốc",
-            "team_a": "Dalian Yingbo",
-            "team_b": "Wuhan Three Towns",
-            "logo_a": "https://images.keovip88.net/images/teams/dalian-zhixing.png",
-            "logo_b": "https://images.keovip88.net/images/teams/wuhan-three-towns.png",
-            "time": "18:35:00",
-            "date": "04/07",
-            "blv": "BLV Dần",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783164900
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2ed893764c_c114b31a_20260704.png?v=c114b31a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-135da908bb",
           "name": "Tianjin Jinmen Tiger vs Shenzhen Xinpengcheng | 19:00 04/07",
@@ -243,10 +170,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -295,7 +222,7 @@
             "time": "21:00:00",
             "date": "04/07",
             "blv": "BLV Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783173600
           },
@@ -316,10 +243,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -368,7 +295,7 @@
             "time": "21:00:00",
             "date": "04/07",
             "blv": "BLV Mát",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783173600
           },
@@ -389,10 +316,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -441,7 +368,7 @@
             "time": "21:00:00",
             "date": "04/07",
             "blv": "BLV Dory",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783173600
           },
@@ -677,7 +604,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -690,10 +617,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -742,7 +669,7 @@
             "time": "21:00:00",
             "date": "04/07",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783173600
           },
@@ -1057,79 +984,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-7148d1686c",
-          "name": "Elise Mertens  vs Elena Rybakina | 19:00 04/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7148d1686c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7148d1686c",
-                  "name": "Elise Mertens  vs Elena Rybakina",
-                  "streams": [
-                    {
-                      "id": "st-7148d1686c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4d2ed38042",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783158320_hd/1783158320_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Wimbledon ",
-            "team_a": "Elise Mertens ",
-            "team_b": "Elena Rybakina",
-            "logo_a": "https://static.flashscore.com/res/image/data/zuslwRfM-jX0SdYnI.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/nwc71xXg-2wyL104C.png",
-            "time": "19:00:00",
-            "date": "04/07",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "tennis",
-            "time_start": 1783166400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7148d1686c_917f9ee1_20260704.png?v=917f9ee1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-01a19afe52",
           "name": "Alexandra Eala vs Iga Swiatek | 19:30 04/07",
           "type": "single",
@@ -1283,10 +1137,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1335,7 +1189,7 @@
             "time": "21:00:00",
             "date": "04/07",
             "blv": "BLV Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis",
             "time_start": 1783173600
           },
