@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -243,10 +243,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -295,7 +295,7 @@
             "time": "19:00:00",
             "date": "04/07",
             "blv": "BLV Mát",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783166400
           },
@@ -1197,7 +1197,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1283,10 +1283,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1335,7 +1335,7 @@
             "time": "19:00:00",
             "date": "04/07",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis",
             "time_start": 1783166400
           },
@@ -1374,7 +1374,25 @@
                     {
                       "id": "st-01a19afe52",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b2e3984183",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783165066_hd/1783165066_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1399,6 +1417,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-01a19afe52_327da2bd_20260704.png?v=327da2bd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a9602163e9",
+          "name": "Amanda Anisimova vs Madison Keys | 21:00 04/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a9602163e9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a9602163e9",
+                  "name": "Amanda Anisimova vs Madison Keys",
+                  "streams": [
+                    {
+                      "id": "st-a9602163e9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d0c2b2813",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783165333_hd/1783165333_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Wimbledon",
+            "team_a": "Amanda Anisimova",
+            "team_b": "Madison Keys",
+            "logo_a": "https://static.flashscore.com/res/image/data/Cfqk4yBr-SxjHCXS2.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/I3KQvBYA-nqGgcXEd.png",
+            "time": "21:00:00",
+            "date": "04/07",
+            "blv": "BLV Sún",
+            "is_live": false,
+            "cate_type": "tennis",
+            "time_start": 1783173600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a9602163e9_89fc4b3b_20260704.png?v=89fc4b3b",
             "width": 1600,
             "height": 1200
           }
