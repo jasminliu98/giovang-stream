@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-775fcceb35",
-          "name": "Zenit St.Petersburg vs Gimnasia LP | 23:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-775fcceb35",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-775fcceb35",
-                  "name": "Zenit St.Petersburg vs Gimnasia LP",
-                  "streams": [
-                    {
-                      "id": "st-775fcceb35",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d6cea062a9",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783244787_hd/1783244787_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Zenit St.Petersburg",
-            "team_b": "Gimnasia LP",
-            "logo_a": "https://images.keovip88.net/images/teams/zenit-st-petersburg.png",
-            "logo_b": "https://images.keovip88.net/images/teams/gimnasia-la-plata.png",
-            "time": "23:00:00",
-            "date": "05/07",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783267200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-775fcceb35_3bf29bac_20260706.png?v=3bf29bac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3d61239cfc",
           "name": "Santiago Wanderers  vs Universidad Chile | 23:30 05/07",
