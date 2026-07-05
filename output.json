@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-e33ce2688c",
-          "name": "Blacktown City Demons vs Sydney United | 12:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e33ce2688c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e33ce2688c",
-                  "name": "Blacktown City Demons vs Sydney United",
-                  "streams": [
-                    {
-                      "id": "st-e33ce2688c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d640621a6b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783173844_hd/1783173844_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NPL NSW Úc",
-            "team_a": "Blacktown City Demons",
-            "team_b": "Sydney United",
-            "logo_a": "https://images.keovip88.net/images/teams/blacktown-city-demons.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sydney-united.png",
-            "time": "12:00:00",
-            "date": "05/07",
-            "blv": "BLV Trĩ",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783227600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e33ce2688c_961ef36e_20260705.png?v=961ef36e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-bce93d12a5",
           "name": "Hà Nội Nữ vs Phong Phú Hà Nam Nữ | 16:00 05/07",
@@ -827,6 +754,61 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-03d6bd64da",
+          "name": "Tunisie vs Guinea | 19:00 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-03d6bd64da",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-03d6bd64da",
+                  "name": "Tunisie vs Guinea",
+                  "streams": [
+                    {
+                      "id": "st-03d6bd64da",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Tunisie",
+            "team_b": "Guinea",
+            "logo_a": "https://static.flashscore.com/res/image/data/6mcaiZWg-67eTsYY5.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/0jXtAXCa-bFZ2S0tA.png",
+            "time": "19:00:00",
+            "date": "05/07",
+            "blv": "Leo",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1783252800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-03d6bd64da_2e3fb829_20260705.png?v=2e3fb829",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -888,6 +870,116 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-28879473d8_ce0a06e5_20260705.png?v=ce0a06e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-41968896fd",
+          "name": "Jessica Pegula vs Iva Jovic | 19:00 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41968896fd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-41968896fd",
+                  "name": "Jessica Pegula vs Iva Jovic",
+                  "streams": [
+                    {
+                      "id": "st-41968896fd",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Wimbledon",
+            "team_a": "Jessica Pegula",
+            "team_b": "Iva Jovic",
+            "logo_a": "https://static.flashscore.com/res/image/data/GS3hkKzB-nRUkF0Ol.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/zDQTpgGG-tjoxv74H.png",
+            "time": "19:00:00",
+            "date": "05/07",
+            "blv": "BLV Sún",
+            "is_live": false,
+            "cate_type": "tennis",
+            "time_start": 1783252800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-41968896fd_7536508a_20260705.png?v=7536508a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3020e5b3ee",
+          "name": "Belinda Bencic vs Coco Gauff | 22:30 05/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3020e5b3ee",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3020e5b3ee",
+                  "name": "Belinda Bencic vs Coco Gauff",
+                  "streams": [
+                    {
+                      "id": "st-3020e5b3ee",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Wimbledon",
+            "team_a": "Belinda Bencic",
+            "team_b": "Coco Gauff",
+            "logo_a": "https://static.flashscore.com/res/image/data/v7rReKGG-CzsoFbbA.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/UDnGEpDr-GWXWkTPf.png",
+            "time": "22:30:00",
+            "date": "05/07",
+            "blv": "BLV Sún",
+            "is_live": false,
+            "cate_type": "tennis",
+            "time_start": 1783265400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3020e5b3ee_c75bf574_20260705.png?v=c75bf574",
             "width": 1600,
             "height": 1200
           }
@@ -978,84 +1070,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fbd170b297",
-          "name": "Secret Whales vs TES | 10:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fbd170b297",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fbd170b297",
-                  "name": "Secret Whales vs TES",
-                  "streams": [
-                    {
-                      "id": "st-fbd170b297",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b9a61ceb92",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783175646_hd/1783175646_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MSI",
-            "team_a": "Secret Whales",
-            "team_b": "TES",
-            "logo_a": "https://static.flashscore.com/res/image/data/xYMX87ZA-SS6SrwhM.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QPgfuJHG-AccDjeY5.png",
-            "time": "10:00:00",
-            "date": "05/07",
-            "blv": "blv-pery",
-            "is_live": true,
-            "cate_type": "esport",
-            "time_start": 1783220400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fbd170b297_f85dc6a7_20260705.png?v=f85dc6a7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cf77cd90a7",
           "name": "HLE vs G2 | 15:00 05/07",
