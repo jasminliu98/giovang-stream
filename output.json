@@ -636,61 +636,34 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-1dba0445e2",
-          "name": "Milwaukee Bucks vs Brooklyn Nets | 02:00 06/07",
+          "id": "gv-c80a65b4ad",
+          "name": "Häcken vs Djurgården | 00:00 07/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-1dba0445e2",
+              "id": "src-c80a65b4ad",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-1dba0445e2",
-                  "name": "Milwaukee Bucks vs Brooklyn Nets",
+                  "id": "ct-c80a65b4ad",
+                  "name": "Häcken vs Djurgården",
                   "streams": [
                     {
-                      "id": "st-1dba0445e2",
+                      "id": "st-c80a65b4ad",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9a1e3e78c0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783246272_hd/1783246272_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -698,27 +671,146 @@
             }
           ],
           "org_metadata": {
-            "league": "NBA Summer League",
-            "team_a": "Milwaukee Bucks",
-            "team_b": "Brooklyn Nets",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Milwaukee_Bucks_logo.svg/250px-Milwaukee_Bucks_logo.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/250px-Brooklyn_Nets_newlogo.svg.png",
-            "time": "02:00:00",
-            "date": "06/07",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1783278000
+            "league": "VĐQG Thụy Điển",
+            "team_a": "Häcken",
+            "team_b": "Djurgården",
+            "logo_a": "https://images.keovip88.net/images/teams/orgryte.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hacken.png",
+            "time": "00:00:00",
+            "date": "07/07",
+            "blv": "BLV Mù",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783357200
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1dba0445e2_e662537b_20260706.png?v=e662537b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c80a65b4ad_194a91c4_20260706.png?v=194a91c4",
             "width": 1600,
             "height": 1200
           }
         },
+        {
+          "id": "gv-c23d655dab",
+          "name": "Bồ Đào Nha vs Tây Ban Nha | 02:00 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c23d655dab",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c23d655dab",
+                  "name": "Bồ Đào Nha vs Tây Ban Nha",
+                  "streams": [
+                    {
+                      "id": "st-c23d655dab",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Bồ Đào Nha",
+            "team_b": "Tây Ban Nha",
+            "logo_a": "https://images.keovip88.net/images/teams/portugal.png",
+            "logo_b": "https://images.keovip88.net/images/teams/spain.png",
+            "time": "02:00:00",
+            "date": "07/07",
+            "blv": "leo-dory-bin-cay",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783364400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c23d655dab_53b2799a_20260706.png?v=53b2799a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-164269d737",
+          "name": "Keflavík vs Fram | 02:15 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-164269d737",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-164269d737",
+                  "name": "Keflavík vs Fram",
+                  "streams": [
+                    {
+                      "id": "st-164269d737",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VDQG Iceland",
+            "team_a": "Keflavík",
+            "team_b": "Fram",
+            "logo_a": "https://upload-wikimedia-org.translate.goog/wikipedia/commons/thumb/2/29/KF_Shk%C3%ABndija_Logo.svg/330px-KF_Shk%C3%ABndija_Logo.svg.png?_x_tr_sl=en&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=tc",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Fram-logo_2020_512x512.png",
+            "time": "02:15:00",
+            "date": "07/07",
+            "blv": "BLV Mù",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783365300
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-164269d737_0cbab045_20260706.png?v=0cbab045",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-1348f95549",
           "name": "Los Angeles Lakers vs Miami Heat | 03:30 06/07",
