@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-972db91ea4",
-          "name": "Las Vegas Lights vs El Paso Locomotive FC | 09:30 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-972db91ea4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-972db91ea4",
-                  "name": "Las Vegas Lights vs El Paso Locomotive FC",
-                  "streams": [
-                    {
-                      "id": "st-972db91ea4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2eeb908b00",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783149283_hd/1783149283_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "USL Championship Mỹ",
-            "team_a": "Las Vegas Lights",
-            "team_b": "El Paso Locomotive FC",
-            "logo_a": "https://images.keovip88.net/images/teams/las-vegas-lights.png",
-            "logo_b": "https://images.keovip88.net/images/teams/el-paso-locomotive-fc.png",
-            "time": "09:30:00",
-            "date": "05/07",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783218600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-972db91ea4_3d64563c_20260705.png?v=3d64563c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-e33ce2688c",
           "name": "Blacktown City Demons vs Sydney United | 12:00 05/07",
           "type": "single",
@@ -243,10 +170,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -295,7 +222,7 @@
             "time": "12:00:00",
             "date": "05/07",
             "blv": "BLV Hợi",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783227600
           },
