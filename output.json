@@ -896,7 +896,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1128,10 +1128,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1180,7 +1180,7 @@
             "time": "01:00:00",
             "date": "06/07",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783274400
           },
@@ -1613,8 +1613,8 @@
             "league": "Women’s National Basketball Association",
             "team_a": "Las Vegas Aces",
             "team_b": "Indiana Fever",
-            "logo_a": "https://nba.titan007.com/files/team/1kne623s7w.png",
-            "logo_b": "https://nba.titan007.com/files/team/1hxtvftk9jk.png",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/f/ff/New_Las_Vegas_Aces_WNBA_logo_2024.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/5/54/Indiana_Fever_logo.svg",
             "time": "06:00:00",
             "date": "06/07",
             "blv": "BLV Điếc",
@@ -1626,7 +1626,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-75ff407fc6_22810b06_20260706.png?v=22810b06",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-75ff407fc6_f01f32d7_20260706.png?v=f01f32d7",
             "width": 1600,
             "height": 1200
           }
@@ -1927,7 +1927,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1940,10 +1940,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1992,7 +1992,7 @@
             "time": "00:59:00",
             "date": "06/07",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis",
             "time_start": 1783274340
           },
