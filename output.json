@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,30 +90,30 @@
           }
         },
         {
-          "id": "gv-ab9985108b",
-          "name": "New Mexico United vs Oakland Roots | 08:30 05/07",
+          "id": "gv-972db91ea4",
+          "name": "Las Vegas Lights vs El Paso Locomotive FC | 09:30 05/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-ab9985108b",
+              "id": "src-972db91ea4",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-ab9985108b",
-                  "name": "New Mexico United vs Oakland Roots",
+                  "id": "ct-972db91ea4",
+                  "name": "Las Vegas Lights vs El Paso Locomotive FC",
                   "streams": [
                     {
-                      "id": "st-ab9985108b",
+                      "id": "st-972db91ea4",
                       "name": "GV",
                       "stream_links": [
                         {
@@ -141,23 +141,23 @@
             }
           ],
           "org_metadata": {
-            "league": "United States - USL Championship",
-            "team_a": "New Mexico United",
-            "team_b": "Oakland Roots",
-            "logo_a": "https://static.flashscore.com/res/image/data/Wt3cd9yS-tzRPYLGH.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xxmwsphl-dWKqqmhs.png",
-            "time": "08:30:00",
+            "league": "USL Championship Mỹ",
+            "team_a": "Las Vegas Lights",
+            "team_b": "El Paso Locomotive FC",
+            "logo_a": "https://images.keovip88.net/images/teams/las-vegas-lights.png",
+            "logo_b": "https://images.keovip88.net/images/teams/el-paso-locomotive-fc.png",
+            "time": "09:30:00",
             "date": "05/07",
             "blv": "BLV Hợi",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "time_start": 1783215000
+            "time_start": 1783218600
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ab9985108b_923916b5_20260705.png?v=923916b5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-972db91ea4_3d64563c_20260705.png?v=3d64563c",
             "width": 1600,
             "height": 1200
           }
