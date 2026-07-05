@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-bce93d12a5",
-          "name": "Hà Nội Nữ vs Phong Phú Hà Nam Nữ | 16:00 05/07",
+          "id": "gv-775fcceb35",
+          "name": "Zenit St.Petersburg vs Gimnasia LP | 23:00 05/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,736 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bce93d12a5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bce93d12a5",
-                  "name": "Hà Nội Nữ vs Phong Phú Hà Nam Nữ",
-                  "streams": [
-                    {
-                      "id": "st-bce93d12a5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9c0711be95",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783232740_hd/1783232740_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National League Women",
-            "team_a": "Hà Nội Nữ",
-            "team_b": "Phong Phú Hà Nam Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/rsS3dewS-WKZXwKyb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tEiQHbBr-WKZXwKyb.png",
-            "time": "16:00:00",
-            "date": "05/07",
-            "blv": "BLV Hợi",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783242000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bce93d12a5_90c1e281_20260705.png?v=90c1e281",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c8a17207a0",
-          "name": "Gwangju FC vs Ulsan Hyundai | 17:30 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c8a17207a0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c8a17207a0",
-                  "name": "Gwangju FC vs Ulsan Hyundai",
-                  "streams": [
-                    {
-                      "id": "st-c8a17207a0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27273291d5",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783233690_hd/1783233690_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K-League Hàn Quốc",
-            "team_a": "Gwangju FC",
-            "team_b": "Ulsan Hyundai",
-            "logo_a": "https://images.keovip88.net/images/teams/gwangju-football-club.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ulsan-hd-fc.png",
-            "time": "17:30:00",
-            "date": "05/07",
-            "blv": "BLV Dần",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783247400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c8a17207a0_03b2a9e8_20260705.png?v=03b2a9e8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-406c9bba7f",
-          "name": "Qingdao Hainiu vs Chengdu Rongcheng | 18:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-406c9bba7f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-406c9bba7f",
-                  "name": "Qingdao Hainiu vs Chengdu Rongcheng",
-                  "streams": [
-                    {
-                      "id": "st-406c9bba7f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1d3d68d4ee",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783233761_hd/1783233761_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Trung Quốc",
-            "team_a": "Qingdao Hainiu",
-            "team_b": "Chengdu Rongcheng",
-            "logo_a": "https://images.keovip88.net/images/teams/qingdao-manatee.png",
-            "logo_b": "https://images.keovip88.net/images/teams/chengdu-rongcheng-fc.PNG",
-            "time": "18:00:00",
-            "date": "05/07",
-            "blv": "BLV Bón",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783249200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-406c9bba7f_3a0e6d3c_20260705.png?v=3a0e6d3c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-85923fe1c4",
-          "name": "Shanghai Shenhua vs Zhejiang FC | 18:35 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85923fe1c4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-85923fe1c4",
-                  "name": "Shanghai Shenhua vs Zhejiang FC",
-                  "streams": [
-                    {
-                      "id": "st-85923fe1c4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2007b80f16",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783233839_hd/1783233839_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Trung Quốc",
-            "team_a": "Shanghai Shenhua",
-            "team_b": "Zhejiang FC",
-            "logo_a": "https://images.keovip88.net/images/teams/shanghai-shenhua.png",
-            "logo_b": "https://images.keovip88.net/images/teams/zhejiang-professional-fc.png",
-            "time": "18:35:00",
-            "date": "05/07",
-            "blv": "BLV Trĩ",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783251300
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-85923fe1c4_3b6dcae4_20260705.png?v=3b6dcae4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ceb76f86d0",
-          "name": "IFK Goteborg vs AIK Solna | 19:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ceb76f86d0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ceb76f86d0",
-                  "name": "IFK Goteborg vs AIK Solna",
-                  "streams": [
-                    {
-                      "id": "st-ceb76f86d0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c74a502d4b",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783234367_hd/1783234367_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Thụy Điển",
-            "team_a": "IFK Goteborg",
-            "team_b": "AIK Solna",
-            "logo_a": "https://images.keovip88.net/images/teams/ifk-goteborg.png",
-            "logo_b": "https://images.keovip88.net/images/teams/aik-solna.png",
-            "time": "19:00:00",
-            "date": "05/07",
-            "blv": "BLV Mason",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783252800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ceb76f86d0_6aadafaf_20260705.png?v=6aadafaf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-36277954d4",
-          "name": "Kalmar FF vs Orgryte | 19:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-36277954d4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-36277954d4",
-                  "name": "Kalmar FF vs Orgryte",
-                  "streams": [
-                    {
-                      "id": "st-36277954d4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-050ea407cc",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783234419_hd/1783234419_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Thụy Điển",
-            "team_a": "Kalmar FF",
-            "team_b": "Orgryte",
-            "logo_a": "https://images.keovip88.net/images/teams/kalmar.png",
-            "logo_b": "https://images.keovip88.net/images/teams/orgryte.png",
-            "time": "19:00:00",
-            "date": "05/07",
-            "blv": "BLV Dory",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783252800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-36277954d4_309b4d82_20260705.png?v=309b4d82",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3128016c15",
-          "name": "Elfsborg vs Hammarby | 21:30 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3128016c15",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3128016c15",
-                  "name": "Elfsborg vs Hammarby",
-                  "streams": [
-                    {
-                      "id": "st-3128016c15",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fefc846d7c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783234620_hd/1783234620_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Thụy Điển",
-            "team_a": "Elfsborg",
-            "team_b": "Hammarby",
-            "logo_a": "https://images.keovip88.net/images/teams/elfsborg.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hammarby.png",
-            "time": "21:30:00",
-            "date": "05/07",
-            "blv": "BLV Bón",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783261800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3128016c15_b4336780_20260705.png?v=b4336780",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-2045553fb2",
-          "name": "Serbia U19 vs Croatia U19 | 22:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2045553fb2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2045553fb2",
-                  "name": "Serbia U19 vs Croatia U19",
-                  "streams": [
-                    {
-                      "id": "st-2045553fb2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4c222bacea",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783234708_hd/1783234708_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Euro U19",
-            "team_a": "Serbia U19",
-            "team_b": "Croatia U19",
-            "logo_a": "https://images.keovip88.net/images/teams/serbia-u19.png",
-            "logo_b": "https://images.keovip88.net/images/teams/croatia-u19.png",
-            "time": "22:00:00",
-            "date": "05/07",
-            "blv": "BLV Mason",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783263600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2045553fb2_24952835_20260705.png?v=24952835",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-7c74ba40ae",
-          "name": "U19 Ukraine vs U19 Ý | 22:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7c74ba40ae",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7c74ba40ae",
-                  "name": "U19 Ukraine vs U19 Ý",
-                  "streams": [
-                    {
-                      "id": "st-7c74ba40ae",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3423c6d8a3",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783234779_hd/1783234779_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Euro U19",
-            "team_a": "U19 Ukraine",
-            "team_b": "U19 Ý",
-            "logo_a": "https://images.keovip88.net/images/teams/ukraine-u19.png",
-            "logo_b": "https://images.keovip88.net/images/teams/italy-u19.png",
-            "time": "22:00:00",
-            "date": "05/07",
-            "blv": "BLV Mù",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783263600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7c74ba40ae_d9515e22_20260705.png?v=d9515e22",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-98eadf8840",
-          "name": "MP vs Haka | 22:30 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-98eadf8840",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-98eadf8840",
-                  "name": "MP vs Haka",
-                  "streams": [
-                    {
-                      "id": "st-98eadf8840",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a435a9dddf",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783238826_hd/1783238826_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giải hạng 2 Phần Lan",
-            "team_a": "MP",
-            "team_b": "Haka",
-            "logo_a": "https://static.flashscore.com/res/image/data/zaVmrGWg-Q3zjC5H3.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/SEZzuph5-KtjRAU38.png",
-            "time": "22:30:00",
-            "date": "05/07",
-            "blv": "BLV Mát",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783265400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-98eadf8840_3c5e3631_20260705.png?v=3c5e3631",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-775fcceb35",
-          "name": "Zenit St.Petersburg vs Gimnasia LP | 23:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -806,7 +76,7 @@
             "time": "23:00:00",
             "date": "05/07",
             "blv": "BLV Hợi",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783267200
           },
@@ -814,7 +84,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-775fcceb35_3bf29bac_20260705.png?v=3bf29bac",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-775fcceb35_3bf29bac_20260706.png?v=3bf29bac",
             "width": 1600,
             "height": 1200
           }
@@ -827,10 +97,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -879,7 +149,7 @@
             "time": "23:30:00",
             "date": "05/07",
             "blv": "BLV Dory",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783269000
           },
@@ -887,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3d61239cfc_9dc1f1eb_20260705.png?v=9dc1f1eb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3d61239cfc_9dc1f1eb_20260706.png?v=9dc1f1eb",
             "width": 1600,
             "height": 1200
           }
@@ -900,10 +170,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -952,7 +222,7 @@
             "time": "23:59:00",
             "date": "05/07",
             "blv": "BLV Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783270740
           },
@@ -960,7 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-202527d907_bd51713e_20260705.png?v=bd51713e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-202527d907_bd51713e_20260706.png?v=bd51713e",
             "width": 1600,
             "height": 1200
           }
@@ -973,10 +243,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1025,7 +295,7 @@
             "time": "00:55:00",
             "date": "06/07",
             "blv": "BLV Dần",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783274100
           },
@@ -1033,7 +303,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d846190c51_f2492713_20260705.png?v=f2492713",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d846190c51_f2492713_20260706.png?v=f2492713",
             "width": 1600,
             "height": 1200
           }
@@ -1097,7 +367,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/norway.png",
             "time": "03:00:00",
             "date": "06/07",
-            "blv": "Leo + Mason, BLV Dory, BLV Dần",
+            "blv": "Leo + Mason, leo-minh, BLV Dần",
             "is_live": false,
             "cate_type": "football",
             "time_start": 1783281600
@@ -1106,7 +376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4d8fc38ee6_2c2f4bd9_20260705.png?v=2c2f4bd9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4d8fc38ee6_2c2f4bd9_20260706.png?v=2c2f4bd9",
             "width": 1600,
             "height": 1200
           }
@@ -1179,7 +449,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d56425ebc9_5eec7954_20260705.png?v=5eec7954",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d56425ebc9_5eec7954_20260706.png?v=5eec7954",
             "width": 1600,
             "height": 1200
           }
@@ -1210,7 +480,25 @@
                     {
                       "id": "st-2a5e1c09b5",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-af734c327a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783245638_hd/1783245638_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1234,7 +522,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2a5e1c09b5_5ce32dcf_20260705.png?v=5ce32dcf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2a5e1c09b5_5ce32dcf_20260706.png?v=5ce32dcf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3331a09f17",
+          "name": "Pacific FC vs HFX Wanderers | 05:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3331a09f17",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3331a09f17",
+                  "name": "Pacific FC vs HFX Wanderers",
+                  "streams": [
+                    {
+                      "id": "st-3331a09f17",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-354c7862fe",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783265927_hd/1783265927_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Canada - Canadian Premier League",
+            "team_a": "Pacific FC",
+            "team_b": "HFX Wanderers",
+            "logo_a": "https://pacificfc.org/wp-content/uploads/2025/03/pfc-logo.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK8xxzyZOAUd2hqvhQs15HD99NU1Dy1zg3ZVLOAftb_grkcnjHGBiWzVY&s=10",
+            "time": "05:00:00",
+            "date": "06/07",
+            "blv": "blv-minh",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783288800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3331a09f17_431f202d_20260706.png?v=431f202d",
             "width": 1600,
             "height": 1200
           }
@@ -1265,7 +626,25 @@
                     {
                       "id": "st-68195b1c09",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b65463ac78",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783245709_hd/1783245709_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1289,7 +668,226 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-68195b1c09_20610ebc_20260705.png?v=20610ebc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-68195b1c09_20610ebc_20260706.png?v=20610ebc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-897615bafc",
+          "name": "Mexico vs Anh | 07:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-897615bafc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-897615bafc",
+                  "name": "Mexico vs Anh",
+                  "streams": [
+                    {
+                      "id": "st-897615bafc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1f8a337fcd",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783250038_hd/1783250038_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Mexico",
+            "team_b": "Anh",
+            "logo_a": "https://images.keovip88.net/images/teams/mexico.png",
+            "logo_b": "https://images.keovip88.net/images/teams/england.png",
+            "time": "07:00:00",
+            "date": "06/07",
+            "blv": "Dieccay, vui-ve-hoi-ngong, ben-can-01-07",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783296000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-897615bafc_faf6e909_20260706.png?v=faf6e909",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-58f00e1aba",
+          "name": "Ulaanbaatar  vs Deren | 11:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58f00e1aba",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-58f00e1aba",
+                  "name": "Ulaanbaatar  vs Deren",
+                  "streams": [
+                    {
+                      "id": "st-58f00e1aba",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c394378ab5",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783250687_hd/1783250687_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Mongolia - Mongolian Premier League",
+            "team_a": "Ulaanbaatar ",
+            "team_b": "Deren",
+            "logo_a": "https://static.flashscore.com/res/image/data/zsQb9iFG-ziRjVPgA.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/A7hdRgBr-MPnggpjM.png",
+            "time": "11:00:00",
+            "date": "06/07",
+            "blv": "BLV Trĩ",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783310400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-58f00e1aba_3350ff6c_20260706.png?v=3350ff6c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ee5fbceb5d",
+          "name": "Khangarid  vs Tuv Azarganuud | 14:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee5fbceb5d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ee5fbceb5d",
+                  "name": "Khangarid  vs Tuv Azarganuud",
+                  "streams": [
+                    {
+                      "id": "st-ee5fbceb5d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eb8f121da2",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783250753_hd/1783250753_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Mongolia - Mongolian Premier League",
+            "team_a": "Khangarid ",
+            "team_b": "Tuv Azarganuud",
+            "logo_a": "https://static.flashscore.com/res/image/data/llP4V6cM-nNG2I7d3.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/WGoU6kdM-t2gZ0NGc.png",
+            "time": "14:00:00",
+            "date": "06/07",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783321200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ee5fbceb5d_2447edb4_20260706.png?v=2447edb4",
             "width": 1600,
             "height": 1200
           }
@@ -1298,14 +896,14 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-d79777f8d7",
-          "name": "Rwanda vs Nigeria | 16:00 05/07",
+          "id": "gv-88e0d2c511",
+          "name": "Greece  vs Portugal | 23:30 05/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1315,663 +913,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d79777f8d7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d79777f8d7",
-                  "name": "Rwanda vs Nigeria",
-                  "streams": [
-                    {
-                      "id": "st-d79777f8d7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-052687cf04",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783233309_hd/1783233309_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Basketball World Cup",
-            "team_a": "Rwanda",
-            "team_b": "Nigeria",
-            "logo_a": "https://static.flashscore.com/res/image/data/ddplrXg5-MBizNLYC.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/nDstfrjl-C2aHpzkm.png",
-            "time": "16:00:00",
-            "date": "05/07",
-            "blv": "Leo",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1783242000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d79777f8d7_a50bfe7a_20260705.png?v=a50bfe7a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-03d6bd64da",
-          "name": "Tunisie vs Guinea | 19:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03d6bd64da",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-03d6bd64da",
-                  "name": "Tunisie vs Guinea",
-                  "streams": [
-                    {
-                      "id": "st-03d6bd64da",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a3700da846",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783235416_hd/1783235416_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Basketball World Cup",
-            "team_a": "Tunisie",
-            "team_b": "Guinea",
-            "logo_a": "https://static.flashscore.com/res/image/data/6mcaiZWg-67eTsYY5.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/0jXtAXCa-bFZ2S0tA.png",
-            "time": "19:00:00",
-            "date": "05/07",
-            "blv": "Leo",
-            "is_live": false,
-            "cate_type": "basketball",
-            "time_start": 1783252800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-03d6bd64da_2e3fb829_20260705.png?v=2e3fb829",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-553dac299d",
-          "name": "Saigon Heat vs Nha Trang Dolphins | 19:30 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-553dac299d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-553dac299d",
-                  "name": "Saigon Heat vs Nha Trang Dolphins",
-                  "streams": [
-                    {
-                      "id": "st-553dac299d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d49897111f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783235913_hd/1783235913_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VBA",
-            "team_a": "Saigon Heat",
-            "team_b": "Nha Trang Dolphins",
-            "logo_a": "https://static.flashscore.com/res/image/data/U3vCf2eM-IHuib93d.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/I7M8mRh5-MqRS5Sy2.png",
-            "time": "19:30:00",
-            "date": "05/07",
-            "blv": "BLV Tôm",
-            "is_live": false,
-            "cate_type": "basketball",
-            "time_start": 1783254600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-553dac299d_7d32b15f_20260705.png?v=7d32b15f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c58ed24c3e",
-          "name": "Denmark vs Ukraine | 20:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c58ed24c3e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c58ed24c3e",
-                  "name": "Denmark vs Ukraine",
-                  "streams": [
-                    {
-                      "id": "st-c58ed24c3e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f977d19f38",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783236061_hd/1783236061_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Basketball World Cup",
-            "team_a": "Denmark",
-            "team_b": "Ukraine",
-            "logo_a": "https://static.flashscore.com/res/image/data/d8MRvRBr-2kmuAQ93.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Q3KOlYVg-IPF97VQ3.png",
-            "time": "20:00:00",
-            "date": "05/07",
-            "blv": "BLV Ben",
-            "is_live": false,
-            "cate_type": "basketball",
-            "time_start": 1783256400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c58ed24c3e_2d8298ef_20260705.png?v=2d8298ef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-23c1186c3c",
-          "name": "Cape Verde vs Libya | 21:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-23c1186c3c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-23c1186c3c",
-                  "name": "Cape Verde vs Libya",
-                  "streams": [
-                    {
-                      "id": "st-23c1186c3c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9580c76ff2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783236195_hd/1783236195_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Basketball World Cup",
-            "team_a": "Cape Verde",
-            "team_b": "Libya",
-            "logo_a": "https://static.flashscore.com/res/image/data/WbNV3IXg-ruTy2xns.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hMByj8g5-tWtA6IwQ.png",
-            "time": "21:00:00",
-            "date": "05/07",
-            "blv": "blv-pery",
-            "is_live": false,
-            "cate_type": "basketball",
-            "time_start": 1783260000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-23c1186c3c_9ebb26b7_20260705.png?v=9ebb26b7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c590b8a7e3",
-          "name": "Great Britain vs Iceland | 21:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c590b8a7e3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c590b8a7e3",
-                  "name": "Great Britain vs Iceland",
-                  "streams": [
-                    {
-                      "id": "st-c590b8a7e3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8a1fa66e7c",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783236328_hd/1783236328_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Basketball World Cup",
-            "team_a": "Great Britain",
-            "team_b": "Iceland",
-            "logo_a": "https://static.flashscore.com/res/image/data/Eg4rkJEG-K6NdtgS4.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WCBxXywS-xQ4mPAxG.png",
-            "time": "21:00:00",
-            "date": "05/07",
-            "blv": "BLV Điếc",
-            "is_live": false,
-            "cate_type": "basketball",
-            "time_start": 1783260000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c590b8a7e3_c7251fc6_20260705.png?v=c7251fc6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-83c8ecdec2",
-          "name": "Saudi Arabia vs Qatar | 22:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-83c8ecdec2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-83c8ecdec2",
-                  "name": "Saudi Arabia vs Qatar",
-                  "streams": [
-                    {
-                      "id": "st-83c8ecdec2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f72941fdd2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783236462_hd/1783236462_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Basketball World Cup",
-            "team_a": "Saudi Arabia",
-            "team_b": "Qatar",
-            "logo_a": "https://static.flashscore.com/res/image/data/8pDKFwgl-2FUMH7Dh.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png",
-            "time": "22:00:00",
-            "date": "05/07",
-            "blv": "BLV Cần",
-            "is_live": false,
-            "cate_type": "basketball",
-            "time_start": 1783263600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-83c8ecdec2_86726938_20260705.png?v=86726938",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-855637d139",
-          "name": "India vs Lebanon | 22:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-855637d139",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-855637d139",
-                  "name": "India vs Lebanon",
-                  "streams": [
-                    {
-                      "id": "st-855637d139",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b22b5443b4",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783236575_hd/1783236575_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Basketball World Cup",
-            "team_a": "India",
-            "team_b": "Lebanon",
-            "logo_a": "https://static.flashscore.com/res/image/data/xSsN66dM-IkyuUDEE.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/SUJ10bBr-IkyuUDEE.png",
-            "time": "22:00:00",
-            "date": "05/07",
-            "blv": "BLV Tôm",
-            "is_live": false,
-            "cate_type": "basketball",
-            "time_start": 1783263600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-855637d139_8182846c_20260705.png?v=8182846c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-76acee0068",
-          "name": "Georgia vs Spain | 22:30 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-76acee0068",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-76acee0068",
-                  "name": "Georgia vs Spain",
-                  "streams": [
-                    {
-                      "id": "st-76acee0068",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f5b48aa5b0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783236736_hd/1783236736_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Basketball World Cup",
-            "team_a": "Georgia",
-            "team_b": "Spain",
-            "logo_a": "https://static.flashscore.com/res/image/data/YBj2Fjgl-prStpyTu.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/b5W8NzWg-Ykwr8Dur.png",
-            "time": "22:30:00",
-            "date": "05/07",
-            "blv": "BLV Ben",
-            "is_live": false,
-            "cate_type": "basketball",
-            "time_start": 1783265400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-76acee0068_2475f600_20260705.png?v=2475f600",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-88e0d2c511",
-          "name": "Greece  vs Portugal | 23:30 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1986,7 +927,25 @@
                     {
                       "id": "st-88e0d2c511",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4bb454ec29",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783245777_hd/1783245777_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2002,7 +961,7 @@
             "time": "23:30:00",
             "date": "05/07",
             "blv": "blv-pery",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783269000
           },
@@ -2010,7 +969,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-88e0d2c511_787d5363_20260705.png?v=787d5363",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-88e0d2c511_787d5363_20260706.png?v=787d5363",
             "width": 1600,
             "height": 1200
           }
@@ -2023,10 +982,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2041,7 +1000,25 @@
                     {
                       "id": "st-ceaa34265b",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-63151a61c9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783246088_hd/1783246088_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2057,7 +1034,7 @@
             "time": "23:30:00",
             "date": "05/07",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783269000
           },
@@ -2065,7 +1042,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ceaa34265b_f4edfadb_20260705.png?v=f4edfadb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ceaa34265b_f4edfadb_20260706.png?v=f4edfadb",
             "width": 1600,
             "height": 1200
           }
@@ -2078,10 +1055,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2096,7 +1073,25 @@
                     {
                       "id": "st-4c6dade26e",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6449178c82",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783246144_hd/1783246144_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2112,7 +1107,7 @@
             "time": "23:59:00",
             "date": "05/07",
             "blv": "Leo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783270740
           },
@@ -2120,7 +1115,591 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4c6dade26e_e757e8a6_20260705.png?v=e757e8a6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-4c6dade26e_e757e8a6_20260706.png?v=e757e8a6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-28e1198ad8",
+          "name": "Italy  vs Lithuania | 01:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-28e1198ad8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-28e1198ad8",
+                  "name": "Italy  vs Lithuania",
+                  "streams": [
+                    {
+                      "id": "st-28e1198ad8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5052411b26",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783246207_hd/1783246207_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vòng loại WC",
+            "team_a": "Italy ",
+            "team_b": "Lithuania",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUY7_1XgMvrrKO-JLWNxbXnn-86Swy3yRs383IVJMT8MnjafPbm3bZVRA&s=10",
+            "logo_b": "https://static.flashscore.com/res/image/data/vDHOVOkl-2PPlrFch.png",
+            "time": "01:00:00",
+            "date": "06/07",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1783274400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-28e1198ad8_26edd06a_20260706.png?v=26edd06a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-10123165e3",
+          "name": "New Zealand  vs Guam | 02:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-10123165e3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-10123165e3",
+                  "name": "New Zealand  vs Guam",
+                  "streams": [
+                    {
+                      "id": "st-10123165e3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-721e70142b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783250446_hd/1783250446_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vòng loại WC",
+            "team_a": "New Zealand ",
+            "team_b": "Guam",
+            "logo_a": "https://static.flashscore.com/res/image/data/vyvhzRzB-OMIIvzhg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/G6gtTG9r-ETxWupys.png",
+            "time": "02:00:00",
+            "date": "06/07",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1783278000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-10123165e3_c310d24d_20260706.png?v=c310d24d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1dba0445e2",
+          "name": "Milwaukee Bucks vs Brooklyn Nets | 02:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1dba0445e2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1dba0445e2",
+                  "name": "Milwaukee Bucks vs Brooklyn Nets",
+                  "streams": [
+                    {
+                      "id": "st-1dba0445e2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a1e3e78c0",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783246272_hd/1783246272_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA Summer League",
+            "team_a": "Milwaukee Bucks",
+            "team_b": "Brooklyn Nets",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Milwaukee_Bucks_logo.svg/250px-Milwaukee_Bucks_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Brooklyn_Nets_newlogo.svg/250px-Brooklyn_Nets_newlogo.svg.png",
+            "time": "02:00:00",
+            "date": "06/07",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1783278000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1dba0445e2_e662537b_20260706.png?v=e662537b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1348f95549",
+          "name": "Los Angeles Lakers vs Miami Heat | 03:30 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1348f95549",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1348f95549",
+                  "name": "Los Angeles Lakers vs Miami Heat",
+                  "streams": [
+                    {
+                      "id": "st-1348f95549",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-961853f579",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783261503_hd/1783261503_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA Summer League",
+            "team_a": "Los Angeles Lakers",
+            "team_b": "Miami Heat",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/250px-Los_Angeles_Lakers_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/f/fb/Miami_Heat_logo.svg",
+            "time": "03:30:00",
+            "date": "06/07",
+            "blv": "BLV Tôm",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1783283400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1348f95549_883e1249_20260706.png?v=883e1249",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3543c69cad",
+          "name": "Sacramento Kings vs Warriors Blue | 04:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3543c69cad",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3543c69cad",
+                  "name": "Sacramento Kings vs Warriors Blue",
+                  "streams": [
+                    {
+                      "id": "st-3543c69cad",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8be9f4b270",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783246391_hd/1783246391_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA Summer League",
+            "team_a": "Sacramento Kings",
+            "team_b": "Warriors Blue",
+            "logo_a": "https://nba.titan007.com/files/team/1k71f2e7cf2y.png",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkJXeIQqkhNdDKgCHBKQRjffzXFnZqUWq2GFH6rG1YrYnx6x1nO1-3vdQ&s=10",
+            "time": "04:00:00",
+            "date": "06/07",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1783285200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3543c69cad_5d926139_20260706.png?v=5d926139",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6737959bae",
+          "name": "Warriors Gold vs San Antonio Spurs | 06:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6737959bae",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6737959bae",
+                  "name": "Warriors Gold vs San Antonio Spurs",
+                  "streams": [
+                    {
+                      "id": "st-6737959bae",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a043cc484b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783246427_hd/1783246427_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA Summer League",
+            "team_a": "Warriors Gold",
+            "team_b": "San Antonio Spurs",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Golden_State_Warriors_logo.svg/250px-Golden_State_Warriors_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/San_Antonio_Spurs.svg/1280px-San_Antonio_Spurs.svg.png",
+            "time": "06:00:00",
+            "date": "06/07",
+            "blv": "Leo",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1783292400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6737959bae_1291ff6e_20260706.png?v=1291ff6e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-75ff407fc6",
+          "name": "Las Vegas Aces vs Indiana Fever | 06:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-75ff407fc6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-75ff407fc6",
+                  "name": "Las Vegas Aces vs Indiana Fever",
+                  "streams": [
+                    {
+                      "id": "st-75ff407fc6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-583b74a930",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783246504_hd/1783246504_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Las Vegas Aces",
+            "team_b": "Indiana Fever",
+            "logo_a": "https://nba.titan007.com/files/team/1kne623s7w.png",
+            "logo_b": "https://nba.titan007.com/files/team/1hxtvftk9jk.png",
+            "time": "06:00:00",
+            "date": "06/07",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1783292400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-75ff407fc6_22810b06_20260706.png?v=22810b06",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5685fe21fd",
+          "name": "China vs Chinese Taipei | 13:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5685fe21fd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5685fe21fd",
+                  "name": "China vs Chinese Taipei",
+                  "streams": [
+                    {
+                      "id": "st-5685fe21fd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-233717442c",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783250391_hd/1783250391_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vòng loại WC",
+            "team_a": "China",
+            "team_b": "Chinese Taipei",
+            "logo_a": "https://static.flashscore.com/res/image/data/IkaPuewS-IkyuUDEE.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/IRfsLGzB-dtzqTXTK.png",
+            "time": "13:00:00",
+            "date": "06/07",
+            "blv": "blv-pery",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1783317600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5685fe21fd_b59f2674_20260706.png?v=b59f2674",
             "width": 1600,
             "height": 1200
           }
@@ -2193,7 +1772,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2ce18038d5_67ea523e_20260705.png?v=67ea523e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2ce18038d5_67ea523e_20260706.png?v=67ea523e",
             "width": 1600,
             "height": 1200
           }
@@ -2266,7 +1845,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f0cb18be4b_17083438_20260705.png?v=17083438",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f0cb18be4b_17083438_20260706.png?v=17083438",
             "width": 1600,
             "height": 1200
           }
@@ -2339,7 +1918,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-37cb9e6c99_9e0d7e74_20260705.png?v=9e0d7e74",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-37cb9e6c99_9e0d7e74_20260706.png?v=9e0d7e74",
             "width": 1600,
             "height": 1200
           }
@@ -2354,8 +1933,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-28879473d8",
-          "name": "Karolina Muchova vs Barbora Krejcikova | 18:30 05/07",
+          "id": "gv-c308f833e2",
+          "name": "Jannik Sinner vs Shintaro Mochizuki | 00:59 06/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2369,23 +1948,23 @@
           ],
           "sources": [
             {
-              "id": "src-28879473d8",
+              "id": "src-c308f833e2",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-28879473d8",
-                  "name": "Karolina Muchova vs Barbora Krejcikova",
+                  "id": "ct-c308f833e2",
+                  "name": "Jannik Sinner vs Shintaro Mochizuki",
                   "streams": [
                     {
-                      "id": "st-28879473d8",
+                      "id": "st-c308f833e2",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-f70444d916",
+                          "id": "lnk-fcf3631bb4",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783234962_hd/1783234962_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783265271_hd/1783265271_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2405,324 +1984,23 @@
             }
           ],
           "org_metadata": {
-            "league": "WTA Wimbledon",
-            "team_a": "Karolina Muchova",
-            "team_b": "Barbora Krejcikova",
-            "logo_a": "https://static.flashscore.com/res/image/data/zPfjENFG-jX0SdYnI.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/b7TSF7g5-j9C3nl2O.png",
-            "time": "18:30:00",
-            "date": "05/07",
-            "blv": "blv-pery",
+            "league": "ATP Wimbledon",
+            "team_a": "Jannik Sinner",
+            "team_b": "Shintaro Mochizuki",
+            "logo_a": "https://static.flashscore.com/res/image/data/zsxlv1jl-0zrsJ4N3.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/pS9gULYA-IgkNkNBS.png",
+            "time": "00:59:00",
+            "date": "06/07",
+            "blv": "BLV Ben",
             "is_live": false,
             "cate_type": "tennis",
-            "time_start": 1783251000
+            "time_start": 1783274340
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-28879473d8_ce0a06e5_20260705.png?v=ce0a06e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-41968896fd",
-          "name": "Jessica Pegula vs Iva Jovic | 19:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41968896fd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-41968896fd",
-                  "name": "Jessica Pegula vs Iva Jovic",
-                  "streams": [
-                    {
-                      "id": "st-41968896fd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-101ee89304",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783235125_hd/1783235125_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Wimbledon",
-            "team_a": "Jessica Pegula",
-            "team_b": "Iva Jovic",
-            "logo_a": "https://static.flashscore.com/res/image/data/GS3hkKzB-nRUkF0Ol.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/zDQTpgGG-tjoxv74H.png",
-            "time": "19:00:00",
-            "date": "05/07",
-            "blv": "BLV Sún",
-            "is_live": false,
-            "cate_type": "tennis",
-            "time_start": 1783252800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-41968896fd_7536508a_20260705.png?v=7536508a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3020e5b3ee",
-          "name": "Belinda Bencic vs Coco Gauff | 22:30 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3020e5b3ee",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3020e5b3ee",
-                  "name": "Belinda Bencic vs Coco Gauff",
-                  "streams": [
-                    {
-                      "id": "st-3020e5b3ee",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2568c254a2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783235257_hd/1783235257_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Wimbledon",
-            "team_a": "Belinda Bencic",
-            "team_b": "Coco Gauff",
-            "logo_a": "https://static.flashscore.com/res/image/data/v7rReKGG-CzsoFbbA.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/UDnGEpDr-GWXWkTPf.png",
-            "time": "22:30:00",
-            "date": "05/07",
-            "blv": "BLV Sún",
-            "is_live": false,
-            "cate_type": "tennis",
-            "time_start": 1783265400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3020e5b3ee_c75bf574_20260705.png?v=c75bf574",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-3d7ddac93d",
-          "name": "F1 vs British Grand Prix | 19:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d7ddac93d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3d7ddac93d",
-                  "name": "F1 vs British Grand Prix",
-                  "streams": [
-                    {
-                      "id": "st-3d7ddac93d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-36d589151a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783239120_hd/1783239120_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "F1",
-            "team_a": "F1",
-            "team_b": "British Grand Prix",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/45/F1_logo.svg",
-            "logo_b": "https://static.flashscore.com/res/image/data/fTwn6Tmd-pdBRRTp0.png",
-            "time": "19:00:00",
-            "date": "05/07",
-            "blv": "BLV Ngủ",
-            "is_live": false,
-            "cate_type": "duaxe",
-            "time_start": 1783252800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3d7ddac93d_ef7c925a_20260705.png?v=ef7c925a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ccc07a9678",
-          "name": "F1 vs British Grand Prix | 21:00 05/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ccc07a9678",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ccc07a9678",
-                  "name": "F1 vs British Grand Prix",
-                  "streams": [
-                    {
-                      "id": "st-ccc07a9678",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-567f03e063",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783239233_hd/1783239233_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "F1",
-            "team_a": "F1",
-            "team_b": "British Grand Prix",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/45/F1_logo.svg",
-            "logo_b": "https://static.flashscore.com/res/image/data/fTwn6Tmd-pdBRRTp0.png",
-            "time": "21:00:00",
-            "date": "05/07",
-            "blv": "BLV Ngủ",
-            "is_live": false,
-            "cate_type": "duaxe",
-            "time_start": 1783260000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ccc07a9678_ef7c925a_20260705.png?v=ef7c925a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c308f833e2_8243208e_20260706.png?v=8243208e",
             "width": 1600,
             "height": 1200
           }
