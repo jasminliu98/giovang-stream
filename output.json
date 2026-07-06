@@ -90,8 +90,8 @@
           }
         },
         {
-          "id": "gv-c80a65b4ad",
-          "name": "Häcken vs Djurgården | 00:00 07/07",
+          "id": "gv-c23d655dab",
+          "name": "Bồ Đào Nha vs Tây Ban Nha | 02:00 07/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -101,79 +101,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c80a65b4ad",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c80a65b4ad",
-                  "name": "Häcken vs Djurgården",
-                  "streams": [
-                    {
-                      "id": "st-c80a65b4ad",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0d992a3387",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783284638_hd/1783284638_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Thụy Điển",
-            "team_a": "Häcken",
-            "team_b": "Djurgården",
-            "logo_a": "https://images.keovip88.net/images/teams/orgryte.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hacken.png",
-            "time": "00:00:00",
-            "date": "07/07",
-            "blv": "BLV Mù",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783357200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c80a65b4ad_194a91c4_20260707.png?v=194a91c4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c23d655dab",
-          "name": "Bồ Đào Nha vs Tây Ban Nha | 02:00 07/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -222,7 +149,7 @@
             "time": "02:00:00",
             "date": "07/07",
             "blv": "Leobin, Bón + Trĩ, Mumason, leo-dory-bin-cay",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783364400
           },
