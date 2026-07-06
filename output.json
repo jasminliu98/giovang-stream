@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -44,11 +44,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-76bbbbd061",
+                          "id": "lnk-b6fcefc275",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783353477_hd/1783353477_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783353458_hd/1783353458_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -75,7 +75,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/spain.png",
             "time": "02:00:00",
             "date": "07/07",
-            "blv": "Bón + Trĩ, Leobin, Mumason, leo-dory-bin-cay",
+            "blv": "Leobin, Bón + Trĩ, Mumason, leo-dory-bin-cay",
             "is_live": true,
             "cate_type": "football",
             "time_start": 1783364400
@@ -97,10 +97,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -149,7 +149,7 @@
             "time": "02:15:00",
             "date": "07/07",
             "blv": "BLV Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783365300
           },
