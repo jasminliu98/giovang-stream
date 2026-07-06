@@ -604,7 +604,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -763,10 +763,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -815,7 +815,7 @@
             "time": "23:00:00",
             "date": "06/07",
             "blv": "BLV Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783353600
           },
@@ -1002,11 +1002,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-28b25500eb",
+                          "id": "lnk-f87d1fb045",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783352094_hd/1783352094_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783352156_hd/1783352156_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1033,7 +1033,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/1280px-Flag_of_Cyprus.svg.png",
             "time": "00:00:00",
             "date": "07/07",
-            "blv": "BLV Cầy",
+            "blv": "BLV Cần",
             "is_live": false,
             "cate_type": "basketball",
             "time_start": 1783357200
@@ -1075,11 +1075,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-c7cc9a8cc4",
+                          "id": "lnk-35f177b819",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783285731_hd/1783285731_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783352318_hd/1783352318_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1106,7 +1106,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/zov4MFxS-OYQpqern.png",
             "time": "01:00:00",
             "date": "07/07",
-            "blv": "BLV Cầy",
+            "blv": "BLV Tôm",
             "is_live": false,
             "cate_type": "basketball",
             "time_start": 1783360800
