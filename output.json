@@ -1148,11 +1148,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-b7a40080aa",
+                          "id": "lnk-1706bfaa34",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783239409_hd/1783239409_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783301720_hd/1783301720_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1179,7 +1179,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/Crg4NaGG-ALs6yNah.png",
             "time": "17:30:00",
             "date": "06/07",
-            "blv": "BLV Tôm",
+            "blv": "BLV Cần",
             "is_live": false,
             "cate_type": "basketball",
             "time_start": 1783333800
@@ -2134,6 +2134,116 @@
           }
         },
         {
+          "id": "gv-c1b6aa9d12",
+          "name": "Jasmine Paolini vs Alexandra Eala | 19:30 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c1b6aa9d12",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c1b6aa9d12",
+                  "name": "Jasmine Paolini vs Alexandra Eala",
+                  "streams": [
+                    {
+                      "id": "st-c1b6aa9d12",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Wimbledon",
+            "team_a": "Jasmine Paolini",
+            "team_b": "Alexandra Eala",
+            "logo_a": "https://static.flashscore.com/res/image/data/h0kH5vDr-0fhNJLOt.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Me9Rt2Yg-44Oegl12.png",
+            "time": "19:30:00",
+            "date": "06/07",
+            "blv": "blv-pery",
+            "is_live": false,
+            "cate_type": "tennis",
+            "time_start": 1783341000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c1b6aa9d12_314c3235_20260706.png?v=314c3235",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-28a1cb6a4c",
+          "name": "Taylor Fritz vs Alexander Bublik | 22:30 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-28a1cb6a4c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-28a1cb6a4c",
+                  "name": "Taylor Fritz vs Alexander Bublik",
+                  "streams": [
+                    {
+                      "id": "st-28a1cb6a4c",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Wimbledon",
+            "team_a": "Taylor Fritz",
+            "team_b": "Alexander Bublik",
+            "logo_a": "https://static.flashscore.com/res/image/data/vDLwcnCa-8AMTtzu5.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xEzx16Fa-p45uyGM1.png",
+            "time": "22:30:00",
+            "date": "06/07",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "tennis",
+            "time_start": 1783351800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-28a1cb6a4c_5c127169_20260706.png?v=5c127169",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-161969aa32",
           "name": "Jiri Lehecka vs Alexander Zverev | 23:00 06/07",
           "type": "single",
@@ -2202,6 +2312,70 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-161969aa32_cd93b94a_20260706.png?v=cd93b94a",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-3863596ad1",
+          "name": "T1 vs FUR | 15:00 06/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3863596ad1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3863596ad1",
+                  "name": "T1 vs FUR",
+                  "streams": [
+                    {
+                      "id": "st-3863596ad1",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MSI",
+            "team_a": "T1",
+            "team_b": "FUR",
+            "logo_a": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/U1xA8WBr-McjJYhhQ.png",
+            "time": "15:00:00",
+            "date": "06/07",
+            "blv": "BLV Ngủ",
+            "is_live": false,
+            "cate_type": "esport",
+            "time_start": 1783324800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3863596ad1_46e70722_20260706.png?v=46e70722",
             "width": 1600,
             "height": 1200
           }
