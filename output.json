@@ -1568,81 +1568,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-d5937c04bc",
-          "name": "Ashlyn Krueger vs Marta Kostyuk | 17:00 06/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d5937c04bc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d5937c04bc",
-                  "name": "Ashlyn Krueger vs Marta Kostyuk",
-                  "streams": [
-                    {
-                      "id": "st-d5937c04bc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1beb70dd65",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783301227_hd/1783301227_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA Wimbledon",
-            "team_a": "Ashlyn Krueger",
-            "team_b": "Marta Kostyuk",
-            "logo_a": "https://static.flashscore.com/res/image/data/lWAUIpe5-f7v3Inzp.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/4tS2p3YA-UcIohdpM.png",
-            "time": "17:00:00",
-            "date": "06/07",
-            "blv": "BLV Sún",
-            "is_live": true,
-            "cate_type": "tennis",
-            "time_start": 1783332000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d5937c04bc_c20562e2_20260706.png?v=c20562e2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-39bd960650",
-          "name": "Marie Bouzkova vs Elise Mertens | 19:00 06/07",
+          "name": "Marie Bouzkova vs Elise Mertens | 18:40 06/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1697,12 +1624,12 @@
             "team_b": "Elise Mertens",
             "logo_a": "https://static.flashscore.com/res/image/data/KAiTWGyB-Gtaj18Ja.png",
             "logo_b": "https://static.flashscore.com/res/image/data/zuslwRfM-jX0SdYnI.png",
-            "time": "19:00:00",
+            "time": "18:40:00",
             "date": "06/07",
             "blv": "BLV Sún",
             "is_live": true,
             "cate_type": "tennis",
-            "time_start": 1783339200
+            "time_start": 1783338000
           },
           "image": {
             "padding": 1,
@@ -1721,10 +1648,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1773,7 +1700,7 @@
             "time": "19:00:00",
             "date": "06/07",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis",
             "time_start": 1783339200
           },
