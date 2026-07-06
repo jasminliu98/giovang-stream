@@ -756,6 +756,79 @@
           }
         },
         {
+          "id": "gv-b525052b38",
+          "name": "Warriors Gold vs Miami Heat | 09:00 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b525052b38",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b525052b38",
+                  "name": "Warriors Gold vs Miami Heat",
+                  "streams": [
+                    {
+                      "id": "st-b525052b38",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d28c38e421",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783381547_hd/1783381547_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NBA Summer League",
+            "team_a": "Warriors Gold",
+            "team_b": "Miami Heat",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/0/0f/Golden_State_Warriors_logo.png",
+            "logo_b": "https://nba.titan007.com/files/team/1k85fvk13bv.png",
+            "time": "09:00:00",
+            "date": "07/07",
+            "blv": "BLV Ben",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1783389600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b525052b38_9ea2ffda_20260707.png?v=9ea2ffda",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-8d7a512837",
           "name": "Los Angeles Sparks vs Seattle Storm | 09:00 07/07",
           "type": "single",
@@ -824,6 +897,70 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8d7a512837_4bba1874_20260707.png?v=4bba1874",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-5279275807",
+          "name": "Los Angeles Dodgers  vs Colorado Rockies | 09:10 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5279275807",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5279275807",
+                  "name": "Los Angeles Dodgers  vs Colorado Rockies",
+                  "streams": [
+                    {
+                      "id": "st-5279275807",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Los Angeles Dodgers ",
+            "team_b": "Colorado Rockies",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/etbcCni_q9qN-uhD83ZGmw_96x96.png",
+            "time": "09:10:00",
+            "date": "07/07",
+            "blv": "BLV Cần",
+            "is_live": false,
+            "cate_type": "bongchay",
+            "time_start": 1783390200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5279275807_0e86bb40_20260707.png?v=0e86bb40",
             "width": 1600,
             "height": 1200
           }
