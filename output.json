@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -85,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-de594a41bc_15ae3ccc_20260707.png?v=15ae3ccc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6dc7aed45d",
+          "name": "Mỹ vs Bỉ | 07:00 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6dc7aed45d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6dc7aed45d",
+                  "name": "Mỹ vs Bỉ",
+                  "streams": [
+                    {
+                      "id": "st-6dc7aed45d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-587456e11a",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783380682_hd/1783380682_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Mỹ",
+            "team_b": "Bỉ",
+            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/belgium.png",
+            "time": "07:00:00",
+            "date": "07/07",
+            "blv": "vui-ve-hoi-ngong, BLV Ngủ",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783382400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6dc7aed45d_30d1e43b_20260707.png?v=30d1e43b",
             "width": 1600,
             "height": 1200
           }
