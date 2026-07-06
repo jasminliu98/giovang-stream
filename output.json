@@ -2301,84 +2301,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-461356faa5",
-          "name": "BLG vs Lyon | 10:00 06/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-461356faa5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-461356faa5",
-                  "name": "BLG vs Lyon",
-                  "streams": [
-                    {
-                      "id": "st-461356faa5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4f27f95928",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783305364_hd/1783305364_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MSI",
-            "team_a": "BLG",
-            "team_b": "Lyon",
-            "logo_a": "https://static.flashscore.com/res/image/data/8GDKDOdM-MLEBzXUg.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/vBMCdyFG-bmH06hoa.png",
-            "time": "10:00:00",
-            "date": "06/07",
-            "blv": "BLV Ngủ",
-            "is_live": true,
-            "cate_type": "esport",
-            "time_start": 1783306800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-461356faa5_21a43c32_20260706.png?v=21a43c32",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3863596ad1",
           "name": "T1 vs FUR | 15:00 06/07",
