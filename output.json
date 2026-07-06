@@ -93,7 +93,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -318,79 +318,6 @@
           }
         },
         {
-          "id": "gv-0d5431beb2",
-          "name": "Golden State Warriors vs Miami Heat | 06:30 07/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0d5431beb2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0d5431beb2",
-                  "name": "Golden State Warriors vs Miami Heat",
-                  "streams": [
-                    {
-                      "id": "st-0d5431beb2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-752f52014e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783286358_hd/1783286358_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA",
-            "team_a": "Golden State Warriors",
-            "team_b": "Miami Heat",
-            "logo_a": "https://static.flashscore.com/res/image/data/ptyTvYeM-pfzjG61O.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/fBzhqch5-hrxbSkzm.png",
-            "time": "06:30:00",
-            "date": "07/07",
-            "blv": "BLV Điếc",
-            "is_live": false,
-            "cate_type": "basketball",
-            "time_start": 1783380600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0d5431beb2_5bb3c390_20260707.png?v=5bb3c390",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-6fbb2f67dd",
           "name": "Washington Mystics vs Golden State Valkyries | 06:30 07/07",
           "type": "single",
@@ -398,10 +325,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -418,11 +345,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-93e898d9b4",
+                          "id": "lnk-75e5b04b64",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783286585_hd/1783286585_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783379046_hd/1783379046_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -449,8 +376,8 @@
             "logo_b": "https://nba.titan007.com/files/team/1jskaahxka.png",
             "time": "06:30:00",
             "date": "07/07",
-            "blv": "BLV Tôm",
-            "is_live": false,
+            "blv": "BLV Điếc",
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783380600
           },
