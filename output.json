@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-26f0947811",
-          "name": "Botafogo SP vs Avaí | 05:00 07/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-26f0947811",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-26f0947811",
-                  "name": "Botafogo SP vs Avaí",
-                  "streams": [
-                    {
-                      "id": "st-26f0947811",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fed88fa4c5",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783284965_hd/1783284965_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Brazil Serie B",
-            "team_a": "Botafogo SP",
-            "team_b": "Avaí",
-            "logo_a": "https://images.keovip88.net/images/teams/sport-club-do-recife.png",
-            "logo_b": "https://images.keovip88.net/images/teams/botafogo-sp.png",
-            "time": "05:00:00",
-            "date": "07/07",
-            "blv": "BLV Hợi",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783375200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-26f0947811_e83bb433_20260707.png?v=e83bb433",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-de594a41bc",
           "name": "Vila Nova  vs São Bernardo | 05:00 07/07",
@@ -97,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -149,7 +76,7 @@
             "time": "05:00:00",
             "date": "07/07",
             "blv": "BLV Ngỗng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783375200
           },
@@ -158,6 +85,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-de594a41bc_15ae3ccc_20260707.png?v=15ae3ccc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-26f0947811",
+          "name": "Botafogo SP vs Avaí | 05:00 07/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-26f0947811",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-26f0947811",
+                  "name": "Botafogo SP vs Avaí",
+                  "streams": [
+                    {
+                      "id": "st-26f0947811",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fed88fa4c5",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783284965_hd/1783284965_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Brazil Serie B",
+            "team_a": "Botafogo SP",
+            "team_b": "Avaí",
+            "logo_a": "https://images.keovip88.net/images/teams/sport-club-do-recife.png",
+            "logo_b": "https://images.keovip88.net/images/teams/botafogo-sp.png",
+            "time": "05:00:00",
+            "date": "07/07",
+            "blv": "BLV Hợi",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783375200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-26f0947811_e83bb433_20260707.png?v=e83bb433",
             "width": 1600,
             "height": 1200
           }
@@ -312,7 +312,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -471,10 +471,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -523,7 +523,7 @@
             "time": "05:00:00",
             "date": "07/07",
             "blv": "BLV Ngỗng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783375200
           },
