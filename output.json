@@ -604,7 +604,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (4 LIVE)",
+      "name": "🏀 Bóng Rổ (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -781,25 +781,7 @@
                     {
                       "id": "st-e879cbc4ff",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9ae33d60fe",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783285355_hd/1783285355_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -854,25 +836,7 @@
                     {
                       "id": "st-2251098fdd",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5b25ddf592",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783285480_hd/1783285480_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -909,10 +873,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -961,7 +925,7 @@
             "time": "23:30:00",
             "date": "06/07",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783355400
           },
@@ -1416,7 +1380,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1447,25 +1411,7 @@
                     {
                       "id": "st-161969aa32",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-369bf7078f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783286642_hd/1783286642_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1502,10 +1448,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1554,7 +1500,7 @@
             "time": "23:30:00",
             "date": "06/07",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis",
             "time_start": 1783355400
           },
