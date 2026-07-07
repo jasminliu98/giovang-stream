@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-98f45cdae8",
-          "name": "Vikingur Reykjavik vs ETO Gyori FC | 02:00 08/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-98f45cdae8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-98f45cdae8",
-                  "name": "Vikingur Reykjavik vs ETO Gyori FC",
-                  "streams": [
-                    {
-                      "id": "st-98f45cdae8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-996b327f12",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783407491_hd/1783407491_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C1",
-            "team_a": "Vikingur Reykjavik",
-            "team_b": "ETO Gyori FC",
-            "logo_a": "https://images.keovip88.net/images/teams/vikingur-reykjavik.png",
-            "logo_b": "https://images.keovip88.net/images/teams/gyori-eto.png",
-            "time": "02:00:00",
-            "date": "08/07",
-            "blv": "BLV Ngỗng",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783450800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-98f45cdae8_05ddf0c6_20260708.png?v=05ddf0c6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ad55c1b806",
           "name": "Thụy Sĩ vs Colombia | 03:00 08/07",
