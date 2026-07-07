@@ -90,79 +90,6 @@
           }
         },
         {
-          "id": "gv-27f2932995",
-          "name": "Athletic Club MG vs Operario Ferroviario PR | 06:00 08/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-27f2932995",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-27f2932995",
-                  "name": "Athletic Club MG vs Operario Ferroviario PR",
-                  "streams": [
-                    {
-                      "id": "st-27f2932995",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2bd4912ef2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783438904_hd/1783438904_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Brazil Serie B",
-            "team_a": "Athletic Club MG",
-            "team_b": "Operario Ferroviario PR",
-            "logo_a": "https://images.keovip88.net/images/teams/athletic-club-mg.png",
-            "logo_b": "https://images.keovip88.net/images/teams/operario-ferroviario-pr.png",
-            "time": "06:00:00",
-            "date": "08/07",
-            "blv": "BLV Mát",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1783465200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-27f2932995_1d4d9d36_20260708.png?v=1d4d9d36",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-c89cf853ad",
           "name": "Úc U17 vs Nigeria U17 | 15:00 08/07",
           "type": "single",
@@ -1060,7 +987,7 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1073,10 +1000,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1125,7 +1052,7 @@
             "time": "05:40:00",
             "date": "08/07",
             "blv": "BLV Cần",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay",
             "time_start": 1783464000
           },
