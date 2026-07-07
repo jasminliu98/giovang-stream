@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-de594a41bc",
-          "name": "Vila Nova  vs São Bernardo | 05:00 07/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-de594a41bc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-de594a41bc",
-                  "name": "Vila Nova  vs São Bernardo",
-                  "streams": [
-                    {
-                      "id": "st-de594a41bc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-036764987e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783285093_hd/1783285093_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Brazil Serie B",
-            "team_a": "Vila Nova ",
-            "team_b": "São Bernardo",
-            "logo_a": "https://images.keovip88.net/images/teams/juventude.png",
-            "logo_b": "https://images.keovip88.net/images/teams/vila-nova.png",
-            "time": "05:00:00",
-            "date": "07/07",
-            "blv": "BLV Ngỗng",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783375200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-de594a41bc_15ae3ccc_20260707.png?v=15ae3ccc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6dc7aed45d",
           "name": "Mỹ vs Bỉ | 07:00 07/07",
@@ -936,7 +863,25 @@
                     {
                       "id": "st-5279275807",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3866b720d9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783381642_hd/1783381642_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
