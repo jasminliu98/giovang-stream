@@ -1197,7 +1197,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1274,12 +1274,67 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-0d853d9b0f",
+          "name": "Taylor Fritz  vs Alexander Zverev | 21:00 08/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0d853d9b0f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0d853d9b0f",
+                  "name": "Taylor Fritz  vs Alexander Zverev",
+                  "streams": [
+                    {
+                      "id": "st-0d853d9b0f",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Wimbledon",
+            "team_a": "Taylor Fritz ",
+            "team_b": "Alexander Zverev",
+            "logo_a": "https://static.flashscore.com/res/image/data/vDLwcnCa-8AMTtzu5.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
+            "time": "21:00:00",
+            "date": "08/07",
+            "blv": "blv-pery",
+            "is_live": true,
+            "cate_type": "tennis",
+            "time_start": 1783519200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0d853d9b0f_5c30748e_20260708.png?v=5c30748e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1511,10 +1566,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1563,7 +1618,7 @@
             "time": "21:30:00",
             "date": "08/07",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen",
             "time_start": 1783521000
           },
