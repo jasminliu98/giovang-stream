@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,30 +163,30 @@
           }
         },
         {
-          "id": "gv-6241601bed",
-          "name": "FC Differdange 03 vs Ilves Tampere | 00:30 09/07",
+          "id": "gv-38aada193d",
+          "name": "CS Petrocub vs Egnatia | 00:00 09/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-6241601bed",
+              "id": "src-38aada193d",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-6241601bed",
-                  "name": "FC Differdange 03 vs Ilves Tampere",
+                  "id": "ct-38aada193d",
+                  "name": "CS Petrocub vs Egnatia",
                   "streams": [
                     {
-                      "id": "st-6241601bed",
+                      "id": "st-38aada193d",
                       "name": "GV",
                       "stream_links": [
                         {
@@ -214,23 +214,23 @@
             }
           ],
           "org_metadata": {
-            "league": "Europa Conference League",
-            "team_a": "FC Differdange 03",
-            "team_b": "Ilves Tampere",
-            "logo_a": "https://images.keovip88.net/images/teams/red-boys-differdange.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ilves-tampere.png",
-            "time": "00:30:00",
+            "league": "C1",
+            "team_a": "CS Petrocub",
+            "team_b": "Egnatia",
+            "logo_a": "https://images.keovip88.net/images/teams/cs-petrocub.png",
+            "logo_b": "https://images.keovip88.net/images/teams/egnatia.png",
+            "time": "00:00:00",
             "date": "09/07",
             "blv": "blv-minh",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "time_start": 1783531800
+            "time_start": 1783530000
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6241601bed_f0367335_20260708.png?v=f0367335",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-38aada193d_ee7531bf_20260708.png?v=ee7531bf",
             "width": 1600,
             "height": 1200
           }
