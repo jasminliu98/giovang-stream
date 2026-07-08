@@ -239,7 +239,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -464,79 +464,6 @@
           }
         },
         {
-          "id": "gv-593b62ba11",
-          "name": "Venezuela vs Colombia | 07:10 09/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-593b62ba11",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-593b62ba11",
-                  "name": "Venezuela vs Colombia",
-                  "streams": [
-                    {
-                      "id": "st-593b62ba11",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6293ec2514",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783551007_hd/1783551007_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vòng loại WC",
-            "team_a": "Venezuela",
-            "team_b": "Colombia",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/250px-Flag_of_Venezuela.svg.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/3840px-Flag_of_Colombia.svg.png",
-            "time": "07:10:00",
-            "date": "09/07",
-            "blv": "Leo",
-            "is_live": false,
-            "cate_type": "basketball",
-            "time_start": 1783555800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-593b62ba11_77819f9a_20260709.png?v=77819f9a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-eab1323a89",
           "name": "Venezuela vs Colombia | 07:10 09/07",
           "type": "single",
@@ -544,10 +471,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -596,7 +523,7 @@
             "time": "07:10:00",
             "date": "09/07",
             "blv": "Leo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783555800
           },
