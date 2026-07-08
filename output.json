@@ -2456,23 +2456,23 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "gv-bf9e3c51db",
-          "name": "G2 vs  T1 | 15:00 08/07",
+          "name": "G2 vs  T1 | 13:00 08/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2518,12 +2518,12 @@
             "team_b": " T1",
             "logo_a": "https://static.flashscore.com/res/image/data/EyyGwOHG-0GgAPAil.png",
             "logo_b": "https://s-qwer.op.gg/images/lol/teams/385_1672191948431.png?image=w_112,f_webp",
-            "time": "15:00:00",
+            "time": "13:00:00",
             "date": "08/07",
             "blv": "blv-pery",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport",
-            "time_start": 1783497600
+            "time_start": 1783490400
           },
           "image": {
             "padding": 1,
