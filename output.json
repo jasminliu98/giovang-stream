@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c89cf853ad",
-          "name": "Úc U17 vs Nigeria U17 | 15:00 08/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c89cf853ad",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c89cf853ad",
-                  "name": "Úc U17 vs Nigeria U17",
-                  "streams": [
-                    {
-                      "id": "st-c89cf853ad",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a5e6f84cbe",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783428439_hd/1783428439_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Úc U17",
-            "team_b": "Nigeria U17",
-            "logo_a": "https://images.keovip88.net/images/teams/australia-u17.png",
-            "logo_b": "https://images.keovip88.net/images/teams/nigeria-u17.png",
-            "time": "15:00:00",
-            "date": "08/07",
-            "blv": "BLV Trĩ",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783497600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c89cf853ad_11a27064_20260708.png?v=11a27064",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-abcac47ee5",
           "name": "Gold Coast Knights W  vs Souths Strikers W | 17:30 08/07",
@@ -742,6 +669,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-65123abc62_90c1e281_20260708.png?v=90c1e281",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-60024a9902",
+          "name": "Atlètic Club d'Escaldes vs Mornar | 21:00 09/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60024a9902",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-60024a9902",
+                  "name": "Atlètic Club d'Escaldes vs Mornar",
+                  "streams": [
+                    {
+                      "id": "st-60024a9902",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a056209c79",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783246075_hd/1783246075_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europa Conference League",
+            "team_a": "Atlètic Club d'Escaldes",
+            "team_b": "Mornar",
+            "logo_a": "https://static.flashscore.com/res/image/data/4zJRM6dM-WnxS8ZvA.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YgUSHEyS-2JKzUeUK.png",
+            "time": "21:00:00",
+            "date": "09/07",
+            "blv": "BLV Bón",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783605600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-60024a9902_6c7a474d_20260708.png?v=6c7a474d",
             "width": 1600,
             "height": 1200
           }
