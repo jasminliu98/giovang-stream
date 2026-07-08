@@ -750,84 +750,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-55950163a0",
-          "name": "Utah Jazz vs Oklahoma City Thunder | 08:00 08/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-55950163a0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-55950163a0",
-                  "name": "Utah Jazz vs Oklahoma City Thunder",
-                  "streams": [
-                    {
-                      "id": "st-55950163a0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1eec09c3e",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783468007_hd/1783468007_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA Summer League",
-            "team_a": "Utah Jazz",
-            "team_b": "Oklahoma City Thunder",
-            "logo_a": "https://nba.titan007.com/files/team/1kh3g14hnt.png",
-            "logo_b": "https://nba.titan007.com/files/team/1k6sggkgev1f.png",
-            "time": "08:00:00",
-            "date": "08/07",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1783472400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-55950163a0_bef672d1_20260708.png?v=bef672d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-86b0815f9f",
           "name": "Phoenix Mercury vs Chicago Sky | 09:00 08/07",
