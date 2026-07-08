@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,7 +84,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-020e53be6c_ece91672_20260708.png?v=ece91672",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-020e53be6c_ece91672_20260709.png?v=ece91672",
             "width": 1600,
             "height": 1200
           }
@@ -157,7 +157,80 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-06b648916e_9f6927f8_20260708.png?v=9f6927f8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-06b648916e_9f6927f8_20260709.png?v=9f6927f8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-45013f220d",
+          "name": "ML Vitebsk vs CS Universitatea Craiova | 00:00 09/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-45013f220d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-45013f220d",
+                  "name": "ML Vitebsk vs CS Universitatea Craiova",
+                  "streams": [
+                    {
+                      "id": "st-45013f220d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f7c01f457d",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783466330_hd/1783466330_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "ML Vitebsk",
+            "team_b": "CS Universitatea Craiova",
+            "logo_a": "https://images.keovip88.net/images/teams/ml-vitebsk.png",
+            "logo_b": "https://images.keovip88.net/images/teams/cs-universitatea-craiova.png",
+            "time": "00:00:00",
+            "date": "09/07",
+            "blv": "BLV Ngỗng",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783530000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-45013f220d_e3b5e38b_20260709.png?v=e3b5e38b",
             "width": 1600,
             "height": 1200
           }
@@ -230,7 +303,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-38aada193d_ee7531bf_20260708.png?v=ee7531bf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-38aada193d_ee7531bf_20260709.png?v=ee7531bf",
             "width": 1600,
             "height": 1200
           }
@@ -303,7 +376,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-49d65181b1_3be149b0_20260708.png?v=3be149b0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-49d65181b1_3be149b0_20260709.png?v=3be149b0",
             "width": 1600,
             "height": 1200
           }
@@ -376,7 +449,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a1b51dfee9_d2a25346_20260708.png?v=d2a25346",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a1b51dfee9_d2a25346_20260709.png?v=d2a25346",
             "width": 1600,
             "height": 1200
           }
@@ -449,7 +522,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-39fe5e975f_050956a6_20260708.png?v=050956a6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-39fe5e975f_050956a6_20260709.png?v=050956a6",
             "width": 1600,
             "height": 1200
           }
@@ -522,7 +595,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-65123abc62_90c1e281_20260708.png?v=90c1e281",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-65123abc62_90c1e281_20260709.png?v=90c1e281",
             "width": 1600,
             "height": 1200
           }
@@ -595,7 +668,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-60024a9902_6c7a474d_20260708.png?v=6c7a474d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-60024a9902_6c7a474d_20260709.png?v=6c7a474d",
             "width": 1600,
             "height": 1200
           }
@@ -677,7 +750,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0286ddb40c_b52746bd_20260708.png?v=b52746bd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0286ddb40c_b52746bd_20260709.png?v=b52746bd",
             "width": 1600,
             "height": 1200
           }
@@ -750,7 +823,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3455aba5c1_9a75a932_20260708.png?v=9a75a932",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3455aba5c1_9a75a932_20260709.png?v=9a75a932",
             "width": 1600,
             "height": 1200
           }
@@ -823,7 +896,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b0df5dd9c4_2f3a3b24_20260708.png?v=2f3a3b24",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b0df5dd9c4_2f3a3b24_20260709.png?v=2f3a3b24",
             "width": 1600,
             "height": 1200
           }
@@ -896,7 +969,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f28a6ade99_4fc4aa52_20260708.png?v=4fc4aa52",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f28a6ade99_4fc4aa52_20260709.png?v=4fc4aa52",
             "width": 1600,
             "height": 1200
           }
@@ -969,7 +1042,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cfdf37fa63_a610db5e_20260708.png?v=a610db5e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cfdf37fa63_a610db5e_20260709.png?v=a610db5e",
             "width": 1600,
             "height": 1200
           }
@@ -1042,7 +1115,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8d43e1b6c7_ad2dbd29_20260708.png?v=ad2dbd29",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8d43e1b6c7_ad2dbd29_20260709.png?v=ad2dbd29",
             "width": 1600,
             "height": 1200
           }
@@ -1124,7 +1197,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-da5947f581_9ca636e3_20260708.png?v=9ca636e3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-da5947f581_9ca636e3_20260709.png?v=9ca636e3",
             "width": 1600,
             "height": 1200
           }
@@ -1197,7 +1270,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bc0f942ccf_f5a298fe_20260708.png?v=f5a298fe",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bc0f942ccf_f5a298fe_20260709.png?v=f5a298fe",
             "width": 1600,
             "height": 1200
           }
@@ -1270,7 +1343,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0f0316f892_6a258705_20260708.png?v=6a258705",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0f0316f892_6a258705_20260709.png?v=6a258705",
             "width": 1600,
             "height": 1200
           }
@@ -1343,7 +1416,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7d974994f1_c2b3bfdc_20260708.png?v=c2b3bfdc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7d974994f1_c2b3bfdc_20260709.png?v=c2b3bfdc",
             "width": 1600,
             "height": 1200
           }
@@ -1416,7 +1489,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-09798379e6_9d648013_20260708.png?v=9d648013",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-09798379e6_9d648013_20260709.png?v=9d648013",
             "width": 1600,
             "height": 1200
           }
@@ -1489,7 +1562,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-83d2794508_edebb8f4_20260708.png?v=edebb8f4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-83d2794508_edebb8f4_20260709.png?v=edebb8f4",
             "width": 1600,
             "height": 1200
           }
@@ -1571,7 +1644,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3ab2d4f728_1bdc9f32_20260708.png?v=1bdc9f32",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3ab2d4f728_1bdc9f32_20260709.png?v=1bdc9f32",
             "width": 1600,
             "height": 1200
           }
@@ -1644,7 +1717,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c1a662a34d_dcf9d282_20260708.png?v=dcf9d282",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c1a662a34d_dcf9d282_20260709.png?v=dcf9d282",
             "width": 1600,
             "height": 1200
           }
@@ -1717,7 +1790,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9fbeffd8ad_38ae3512_20260708.png?v=38ae3512",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9fbeffd8ad_38ae3512_20260709.png?v=38ae3512",
             "width": 1600,
             "height": 1200
           }
@@ -1790,7 +1863,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6e3fbcc38d_9a9c6fdb_20260708.png?v=9a9c6fdb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6e3fbcc38d_9a9c6fdb_20260709.png?v=9a9c6fdb",
             "width": 1600,
             "height": 1200
           }
@@ -1863,7 +1936,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-47b2c0e27d_9a12a972_20260708.png?v=9a12a972",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-47b2c0e27d_9a12a972_20260709.png?v=9a12a972",
             "width": 1600,
             "height": 1200
           }
@@ -1936,7 +2009,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-53ecb3dd8f_f56cf9d6_20260708.png?v=f56cf9d6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-53ecb3dd8f_f56cf9d6_20260709.png?v=f56cf9d6",
             "width": 1600,
             "height": 1200
           }
@@ -2009,7 +2082,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f82794c727_01b7355b_20260708.png?v=01b7355b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f82794c727_01b7355b_20260709.png?v=01b7355b",
             "width": 1600,
             "height": 1200
           }
@@ -2082,7 +2155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9ae1268e24_73c893ff_20260708.png?v=73c893ff",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9ae1268e24_73c893ff_20260709.png?v=73c893ff",
             "width": 1600,
             "height": 1200
           }
@@ -2155,7 +2228,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b3ebd7ed3a_864ca4b3_20260708.png?v=864ca4b3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b3ebd7ed3a_864ca4b3_20260709.png?v=864ca4b3",
             "width": 1600,
             "height": 1200
           }
@@ -2237,7 +2310,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c5542751ad_dc3f8b98_20260708.png?v=dc3f8b98",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c5542751ad_dc3f8b98_20260709.png?v=dc3f8b98",
             "width": 1600,
             "height": 1200
           }
