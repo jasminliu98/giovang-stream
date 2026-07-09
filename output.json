@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,7 +84,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a24a84e9a9_c5fa1300_20260709.png?v=c5fa1300",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a24a84e9a9_c5fa1300_20260710.png?v=c5fa1300",
             "width": 1600,
             "height": 1200
           }
@@ -157,7 +157,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8d6dd6ce6a_0c95539a_20260709.png?v=0c95539a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8d6dd6ce6a_0c95539a_20260710.png?v=0c95539a",
             "width": 1600,
             "height": 1200
           }
@@ -230,7 +230,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-36116813bd_383119b8_20260709.png?v=383119b8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-36116813bd_383119b8_20260710.png?v=383119b8",
             "width": 1600,
             "height": 1200
           }
@@ -303,7 +303,153 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bf9dbab3e9_d64c237b_20260709.png?v=d64c237b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bf9dbab3e9_d64c237b_20260710.png?v=d64c237b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2e5c2ca813",
+          "name": "FC Sheriff vs NK Aluminij | 00:00 10/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e5c2ca813",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2e5c2ca813",
+                  "name": "FC Sheriff vs NK Aluminij",
+                  "streams": [
+                    {
+                      "id": "st-2e5c2ca813",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-903951df87",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783579799_hd/1783579799_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "FC Sheriff",
+            "team_b": "NK Aluminij",
+            "logo_a": "https://images.keovip88.net/images/teams/sheriff-tiraspol.png",
+            "logo_b": "https://images.keovip88.net/images/teams/nk-aluminij.png",
+            "time": "00:00:00",
+            "date": "10/07",
+            "blv": "BLV Bón",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783616400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2e5c2ca813_398054bc_20260710.png?v=398054bc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3d10a94b4a",
+          "name": "Dynamo Kyiv vs Universitaea Cluj | 00:00 10/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3d10a94b4a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3d10a94b4a",
+                  "name": "Dynamo Kyiv vs Universitaea Cluj",
+                  "streams": [
+                    {
+                      "id": "st-3d10a94b4a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b98c380122",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783579870_hd/1783579870_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Dynamo Kyiv",
+            "team_b": "Universitaea Cluj",
+            "logo_a": "https://images.keovip88.net/images/teams/dynamo-kyiv.png",
+            "logo_b": "https://images.keovip88.net/images/teams/universitaea-cluj.png",
+            "time": "00:00:00",
+            "date": "10/07",
+            "blv": "BLV Ngỗng",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1783616400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3d10a94b4a_d7d9e06b_20260710.png?v=d7d9e06b",
             "width": 1600,
             "height": 1200
           }
@@ -376,7 +522,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-da1ca53ab4_c1f4a447_20260709.png?v=c1f4a447",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-da1ca53ab4_c1f4a447_20260710.png?v=c1f4a447",
             "width": 1600,
             "height": 1200
           }
@@ -449,7 +595,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8233e2f265_dbc704bb_20260709.png?v=dbc704bb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8233e2f265_dbc704bb_20260710.png?v=dbc704bb",
             "width": 1600,
             "height": 1200
           }
@@ -531,7 +677,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cfdf37fa63_a610db5e_20260709.png?v=a610db5e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cfdf37fa63_a610db5e_20260710.png?v=a610db5e",
             "width": 1600,
             "height": 1200
           }
@@ -604,7 +750,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8d43e1b6c7_ad2dbd29_20260709.png?v=ad2dbd29",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8d43e1b6c7_ad2dbd29_20260710.png?v=ad2dbd29",
             "width": 1600,
             "height": 1200
           }
@@ -677,7 +823,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9c714c3ff4_f3504910_20260709.png?v=f3504910",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9c714c3ff4_f3504910_20260710.png?v=f3504910",
             "width": 1600,
             "height": 1200
           }
@@ -750,7 +896,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-19ff3c2fdd_17897e87_20260709.png?v=17897e87",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-19ff3c2fdd_17897e87_20260710.png?v=17897e87",
             "width": 1600,
             "height": 1200
           }
@@ -823,7 +969,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-37c01815cf_b327bf0c_20260709.png?v=b327bf0c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-37c01815cf_b327bf0c_20260710.png?v=b327bf0c",
             "width": 1600,
             "height": 1200
           }
@@ -896,7 +1042,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2c0bc1e5f1_b43e7a47_20260709.png?v=b43e7a47",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2c0bc1e5f1_b43e7a47_20260710.png?v=b43e7a47",
             "width": 1600,
             "height": 1200
           }
@@ -978,7 +1124,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-471e12217e_1294a885_20260709.png?v=1294a885",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-471e12217e_1294a885_20260710.png?v=1294a885",
             "width": 1600,
             "height": 1200
           }
@@ -1060,7 +1206,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-42c3c9b8e8_bfa259e0_20260709.png?v=bfa259e0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-42c3c9b8e8_bfa259e0_20260710.png?v=bfa259e0",
             "width": 1600,
             "height": 1200
           }
@@ -1142,7 +1288,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d2a51efff8_f2667051_20260709.png?v=f2667051",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d2a51efff8_f2667051_20260710.png?v=f2667051",
             "width": 1600,
             "height": 1200
           }
@@ -1224,7 +1370,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3ab2d4f728_1bdc9f32_20260709.png?v=1bdc9f32",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3ab2d4f728_1bdc9f32_20260710.png?v=1bdc9f32",
             "width": 1600,
             "height": 1200
           }
@@ -1297,7 +1443,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c1a662a34d_dcf9d282_20260709.png?v=dcf9d282",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c1a662a34d_dcf9d282_20260710.png?v=dcf9d282",
             "width": 1600,
             "height": 1200
           }
@@ -1370,7 +1516,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9fbeffd8ad_38ae3512_20260709.png?v=38ae3512",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9fbeffd8ad_38ae3512_20260710.png?v=38ae3512",
             "width": 1600,
             "height": 1200
           }
@@ -1443,7 +1589,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6e3fbcc38d_9a9c6fdb_20260709.png?v=9a9c6fdb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6e3fbcc38d_9a9c6fdb_20260710.png?v=9a9c6fdb",
             "width": 1600,
             "height": 1200
           }
@@ -1516,7 +1662,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-47b2c0e27d_9a12a972_20260709.png?v=9a12a972",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-47b2c0e27d_9a12a972_20260710.png?v=9a12a972",
             "width": 1600,
             "height": 1200
           }
@@ -1589,7 +1735,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-53ecb3dd8f_f56cf9d6_20260709.png?v=f56cf9d6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-53ecb3dd8f_f56cf9d6_20260710.png?v=f56cf9d6",
             "width": 1600,
             "height": 1200
           }
@@ -1662,7 +1808,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f82794c727_01b7355b_20260709.png?v=01b7355b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f82794c727_01b7355b_20260710.png?v=01b7355b",
             "width": 1600,
             "height": 1200
           }
@@ -1735,7 +1881,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9ae1268e24_73c893ff_20260709.png?v=73c893ff",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9ae1268e24_73c893ff_20260710.png?v=73c893ff",
             "width": 1600,
             "height": 1200
           }
@@ -1808,7 +1954,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b3ebd7ed3a_864ca4b3_20260709.png?v=864ca4b3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b3ebd7ed3a_864ca4b3_20260710.png?v=864ca4b3",
             "width": 1600,
             "height": 1200
           }
