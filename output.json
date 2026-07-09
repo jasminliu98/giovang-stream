@@ -1425,84 +1425,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-09798379e6",
-          "name": "China W vs Ukraine W | 19:30 09/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-09798379e6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-09798379e6",
-                  "name": "China W vs Ukraine W",
-                  "streams": [
-                    {
-                      "id": "st-09798379e6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-546a50d889",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783310013_hd/1783310013_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "China W",
-            "team_b": "Ukraine W",
-            "logo_a": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Q3dsHxe5-8KJ0tcMR.png",
-            "time": "19:30:00",
-            "date": "09/07",
-            "blv": "BLV Cần",
-            "is_live": true,
-            "cate_type": "bongchuyen",
-            "time_start": 1783600200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-09798379e6_9d648013_20260709.png?v=9d648013",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-83d2794508",
           "name": "Czech Republic W vs Netherlands W | 21:30 09/07",
