@@ -1352,7 +1352,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1438,10 +1438,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1490,7 +1490,7 @@
             "time": "19:30:00",
             "date": "09/07",
             "blv": "BLV Cần",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen",
             "time_start": 1783600200
           },
@@ -1653,84 +1653,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-93a68bacf4",
-          "name": "HLE vs BLG | 15:00 09/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-93a68bacf4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-93a68bacf4",
-                  "name": "HLE vs BLG",
-                  "streams": [
-                    {
-                      "id": "st-93a68bacf4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5a95d64ad7",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783577297_hd/1783577297_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MSI",
-            "team_a": "HLE",
-            "team_b": "BLG",
-            "logo_a": "https://s-qwer.op.gg/images/lol/teams/591_1672191709194.png?image=w_112,f_webp",
-            "logo_b": "https://s-qwer.op.gg/images/lol/teams/632_1672191537262.png?image=w_112,f_webp",
-            "time": "15:00:00",
-            "date": "09/07",
-            "blv": "BLV Cần",
-            "is_live": true,
-            "cate_type": "esport",
-            "time_start": 1783584000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-93a68bacf4_6735bb7a_20260709.png?v=6735bb7a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d2a51efff8",
           "name": "WSOP Event #90 – $50,000 No vs Limit Hold'em High Roller | 03:00 10/07",
