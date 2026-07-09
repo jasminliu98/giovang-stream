@@ -902,7 +902,7 @@
           }
         },
         {
-          "id": "gv-fcffd9b4e7",
+          "id": "gv-47191c468c",
           "name": "Hanoi Buffalous vs Ho Chi Minh City Wings | 19:30 09/07",
           "type": "single",
           "display": "thumbnail-only",
@@ -917,23 +917,23 @@
           ],
           "sources": [
             {
-              "id": "src-fcffd9b4e7",
+              "id": "src-47191c468c",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-fcffd9b4e7",
+                  "id": "ct-47191c468c",
                   "name": "Hanoi Buffalous vs Ho Chi Minh City Wings",
                   "streams": [
                     {
-                      "id": "st-fcffd9b4e7",
+                      "id": "st-47191c468c",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-92d65d2fe3",
+                          "id": "lnk-f690234d34",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783583825_hd/1783583825_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783600175_hd/1783600175_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -956,8 +956,8 @@
             "league": "VBA",
             "team_a": "Hanoi Buffalous",
             "team_b": "Ho Chi Minh City Wings",
-            "logo_a": "https://static.flashscore.com/res/image/data/O4en2Til-MqRS5Sy2.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/6kpgdKyB-MqRS5Sy2.png",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/8/80/Hanoi_Buffaloes.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/3/35/HCMCWingsLogo.png",
             "time": "19:30:00",
             "date": "09/07",
             "blv": "blv-minh",
@@ -969,7 +969,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-fcffd9b4e7_6a14790e_20260709.png?v=6a14790e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-47191c468c_ac1d5640_20260709.png?v=ac1d5640",
             "width": 1600,
             "height": 1200
           }
@@ -1301,7 +1301,25 @@
                     {
                       "id": "st-39e74f73ef",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ccb4a2ea46",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783599665_hd/1783599665_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1407,84 +1425,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-7d974994f1",
-          "name": "Japan W vs Thailand W | 17:20 09/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7d974994f1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7d974994f1",
-                  "name": "Japan W vs Thailand W",
-                  "streams": [
-                    {
-                      "id": "st-7d974994f1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-28b1756ba3",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783309951_hd/1783309951_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League Women",
-            "team_a": "Japan W",
-            "team_b": "Thailand W",
-            "logo_a": "https://static.flashscore.com/res/image/data/0WJLxnGG-zLx3xGjj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
-            "time": "17:20:00",
-            "date": "09/07",
-            "blv": "BLV Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen",
-            "time_start": 1783592400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7d974994f1_c2b3bfdc_20260709.png?v=c2b3bfdc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-09798379e6",
           "name": "China W vs Ukraine W | 19:30 09/07",
