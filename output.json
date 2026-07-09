@@ -823,7 +823,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -836,10 +836,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -888,7 +888,7 @@
             "time": "15:00:00",
             "date": "09/07",
             "blv": "Leo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783584000
           },
@@ -1146,7 +1146,25 @@
                     {
                       "id": "st-9c714c3ff4",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-5fc22c4d8b",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783581303_hd/1783581303_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1201,7 +1219,25 @@
                     {
                       "id": "st-19ff3c2fdd",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-630b4cbffb",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783581630_hd/1783581630_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1256,7 +1292,25 @@
                     {
                       "id": "st-37c01815cf",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-06016eb5c4",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783581761_hd/1783581761_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1311,7 +1365,25 @@
                     {
                       "id": "st-2c0bc1e5f1",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-deafdfa1c3",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783581822_hd/1783581822_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
