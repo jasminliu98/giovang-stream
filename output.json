@@ -90,6 +90,61 @@
           }
         },
         {
+          "id": "gv-c74de75066",
+          "name": "Vancouver FC  vs CF Montréal | 09:00 09/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c74de75066",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c74de75066",
+                  "name": "Vancouver FC  vs CF Montréal",
+                  "streams": [
+                    {
+                      "id": "st-c74de75066",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Canada - Canadian Championship",
+            "team_a": "Vancouver FC ",
+            "team_b": "CF Montréal",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Vancouver_Whitecaps_logo.svg/250px-Vancouver_Whitecaps_logo.svg.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Logo_of_CF_Montreal_2023.svg",
+            "time": "09:00:00",
+            "date": "09/07",
+            "blv": "blv-minh",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1783562400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c74de75066_fec5ddcb_20260709.png?v=fec5ddcb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-65123abc62",
           "name": "Hà Nội 2 Nữ vs Phong Phú Hà Nam Nữ | 16:00 09/07",
           "type": "single",
