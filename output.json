@@ -750,7 +750,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -897,79 +897,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8d43e1b6c7_ad2dbd29_20260709.png?v=ad2dbd29",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-47191c468c",
-          "name": "Hanoi Buffalous vs Ho Chi Minh City Wings | 19:30 09/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-47191c468c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-47191c468c",
-                  "name": "Hanoi Buffalous vs Ho Chi Minh City Wings",
-                  "streams": [
-                    {
-                      "id": "st-47191c468c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f690234d34",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783600175_hd/1783600175_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VBA",
-            "team_a": "Hanoi Buffalous",
-            "team_b": "Ho Chi Minh City Wings",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/8/80/Hanoi_Buffaloes.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/3/35/HCMCWingsLogo.png",
-            "time": "19:30:00",
-            "date": "09/07",
-            "blv": "blv-minh",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1783600200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-47191c468c_ac1d5640_20260709.png?v=ac1d5640",
             "width": 1600,
             "height": 1200
           }
