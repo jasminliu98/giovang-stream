@@ -2204,14 +2204,14 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-2032d396f6",
-          "name": "LYON  vs G2 | 15:00 10/07",
+          "id": "gv-070c4766c7",
+          "name": "2026 European Darts Open vs Darts Open | 18:00 10/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2221,61 +2221,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2032d396f6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2032d396f6",
-                  "name": "LYON  vs G2",
-                  "streams": [
-                    {
-                      "id": "st-2032d396f6",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MSI",
-            "team_a": "LYON ",
-            "team_b": "G2",
-            "logo_a": "https://static.flashscore.com/res/image/data/vBMCdyFG-bmH06hoa.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/EyyGwOHG-0GgAPAil.png",
-            "time": "15:00:00",
-            "date": "10/07",
-            "blv": "BLV Ngủ",
-            "is_live": true,
-            "cate_type": "esport",
-            "time_start": 1783670400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2032d396f6_120cd6d5_20260710.png?v=120cd6d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-070c4766c7",
-          "name": "2026 European Darts Open vs Darts Open | 18:00 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2306,7 +2251,7 @@
             "time": "18:00:00",
             "date": "10/07",
             "blv": "BLV Cần",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport",
             "time_start": 1783681200
           },
@@ -2327,10 +2272,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2361,7 +2306,7 @@
             "time": "18:00:00",
             "date": "10/07",
             "blv": "BLV Cần",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport",
             "time_start": 1783681200
           },
