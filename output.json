@@ -1042,7 +1042,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1055,10 +1055,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1107,7 +1107,7 @@
             "time": "19:30:00",
             "date": "10/07",
             "blv": "BLV Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783686600
           },
@@ -1635,7 +1635,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1648,10 +1648,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1700,7 +1700,7 @@
             "time": "19:30:00",
             "date": "10/07",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis",
             "time_start": 1783686600
           },
@@ -1863,7 +1863,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1943,16 +1943,16 @@
         },
         {
           "id": "gv-d5ac13259d",
-          "name": "China W  vs Ukraine W | 19:30 10/07",
+          "name": "Bỉ vs Ý | 19:30 10/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1962,7 +1962,7 @@
               "contents": [
                 {
                   "id": "ct-d5ac13259d",
-                  "name": "China W  vs Ukraine W",
+                  "name": "Bỉ vs Ý",
                   "streams": [
                     {
                       "id": "st-d5ac13259d",
@@ -1994,14 +1994,14 @@
           ],
           "org_metadata": {
             "league": "Nations League Women",
-            "team_a": "China W ",
-            "team_b": "Ukraine W",
-            "logo_a": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Q3dsHxe5-8KJ0tcMR.png",
+            "team_a": "Bỉ",
+            "team_b": "Ý",
+            "logo_a": "https://static.flashscore.com/res/image/data/QJWQSoYg-CUoVGnpd.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/0IAL5Rkl-xCsenx2O.png",
             "time": "19:30:00",
             "date": "10/07",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen",
             "time_start": 1783686600
           },
@@ -2009,7 +2009,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d5ac13259d_9d648013_20260710.png?v=9d648013",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d5ac13259d_645bab26_20260710.png?v=645bab26",
             "width": 1600,
             "height": 1200
           }
