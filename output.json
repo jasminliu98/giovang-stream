@@ -677,7 +677,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (6 LIVE)",
+      "name": "🏀 Bóng Rổ (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -824,79 +824,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8d43e1b6c7_ad2dbd29_20260710.png?v=ad2dbd29",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d7b7556b30",
-          "name": "Washington Wizards vs Utah Jazz | 08:00 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d7b7556b30",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d7b7556b30",
-                  "name": "Washington Wizards vs Utah Jazz",
-                  "streams": [
-                    {
-                      "id": "st-d7b7556b30",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0731246bfd",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783640154_hd/1783640154_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA Summer League",
-            "team_a": "Washington Wizards",
-            "team_b": "Utah Jazz",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f4a3bba0c74c9f2b90bc5861ec26e3c7.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/a0f2371dad505780cccd4cba8baa0610.png",
-            "time": "08:00:00",
-            "date": "10/07",
-            "blv": "blv-pery",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1783645200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-d7b7556b30_d9c3c10d_20260710.png?v=d9c3c10d",
             "width": 1600,
             "height": 1200
           }
