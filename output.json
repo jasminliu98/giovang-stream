@@ -1115,84 +1115,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-39fc4deb1d",
-          "name": "Saigon Heat  vs  Da Nang Dragons | 19:30 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-39fc4deb1d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-39fc4deb1d",
-                  "name": "Saigon Heat  vs  Da Nang Dragons",
-                  "streams": [
-                    {
-                      "id": "st-39fc4deb1d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f1170e715b",
-                          "name": "Link HD 720p",
-                          "type": "httpflv",
-                          "default": true,
-                          "url": "https://play.megatech.global/live/1783619401_hd@720p.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam Basketball League",
-            "team_a": "Saigon Heat ",
-            "team_b": " Da Nang Dragons",
-            "logo_a": "https://static.flashscore.com/res/image/data/U3vCf2eM-IHuib93d.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/e/ea/DanangDragonLogo.png",
-            "time": "19:30:00",
-            "date": "10/07",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1783686600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-39fc4deb1d_e5fae1c3_20260710.png?v=e5fae1c3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3aa7818503",
           "name": "Miami Heat vs Milwaukee Bucks | 03:00 11/07",
