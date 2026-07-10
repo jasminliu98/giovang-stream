@@ -1635,84 +1635,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-abc710ca91",
-          "name": "Arthur Fery  vs Alexander Zverev | 19:30 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-abc710ca91",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-abc710ca91",
-                  "name": "Arthur Fery  vs Alexander Zverev",
-                  "streams": [
-                    {
-                      "id": "st-abc710ca91",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-edf6e24d55",
-                          "name": "Link HD 720p",
-                          "type": "httpflv",
-                          "default": true,
-                          "url": "https://play.megatech.global/live/1783684489_hd@720p.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Wimbledon",
-            "team_a": "Arthur Fery ",
-            "team_b": "Alexander Zverev",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfkHUqG9kaACWaPWP-E0q4Fg3je44Lg16x76CB2vFVcg&s=10",
-            "logo_b": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
-            "time": "19:30:00",
-            "date": "10/07",
-            "blv": "BLV Ben",
-            "is_live": true,
-            "cate_type": "tennis",
-            "time_start": 1783686600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-abc710ca91_4bae792e_20260710.png?v=4bae792e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-63e75369ba",
           "name": "Jannik Sinner  vs Novak Djokovic | 21:45 10/07",
@@ -1741,11 +1668,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-b0e4f24a2e",
+                          "id": "lnk-2fc4bed9b2",
                           "name": "Link HD 720p",
-                          "type": "hls",
+                          "type": "httpflv",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783618785_hd/1783618785_hd@720p.m3u8",
+                          "url": "https://play.megatech.global/live/1783618785_hd@720p.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1772,7 +1699,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/tSfwGCdM-MJZajegG.png",
             "time": "21:45:00",
             "date": "10/07",
-            "blv": "BLV Ben, blv-beo",
+            "blv": "BLV Ben",
             "is_live": true,
             "cate_type": "tennis",
             "time_start": 1783694700
