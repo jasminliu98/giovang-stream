@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -225,10 +225,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -259,7 +259,7 @@
             "time": "18:35:00",
             "date": "10/07",
             "blv": "BLV Bón",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783683300
           },
@@ -915,66 +915,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ab2176f6c4",
-          "name": "Terrafirma Dyip  vs Titan Ultra Giant Risers | 16:15 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ab2176f6c4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ab2176f6c4",
-                  "name": "Terrafirma Dyip  vs Titan Ultra Giant Risers",
-                  "streams": [
-                    {
-                      "id": "st-ab2176f6c4",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines PBA Governors' Cup",
-            "team_a": "Terrafirma Dyip ",
-            "team_b": "Titan Ultra Giant Risers",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/a/a2/Terrafirma_Dyip_PBA_team_logo.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/fHwB9qDa-8t1lfHSc.png",
-            "time": "16:15:00",
-            "date": "10/07",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1783674900
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ab2176f6c4_aa7a205c_20260710.png?v=aa7a205c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-39fc4deb1d",
           "name": "Saigon Heat  vs  Da Nang Dragons | 19:30 10/07",
