@@ -1872,7 +1872,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (4 LIVE)",
+      "name": "🎮 Esport (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2019,79 +2019,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3782a59a21_28622431_20260711.png?v=28622431",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-5bf1aca72e",
-          "name": "2026 European Darts Open vs Darts Open | 23:59 10/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5bf1aca72e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5bf1aca72e",
-                  "name": "2026 European Darts Open vs Darts Open",
-                  "streams": [
-                    {
-                      "id": "st-5bf1aca72e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-50e417ab89",
-                          "name": "Link HD 720p",
-                          "type": "httpflv",
-                          "default": true,
-                          "url": "https://play.megatech.global/live/1783619041_hd@720p.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "DART",
-            "team_a": "2026 European Darts Open",
-            "team_b": "Darts Open",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8P0eQhXh_NmDCRilUMinYDXKM_H7zmUgOt-5URjfko9xJknBZGcLu6lz_&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWzuvT_VkswQag5V2OZEBpTbCThzJyd6CLY9Z1av2KA8ZVZ-7NNJ8vYWSN&s=10",
-            "time": "23:59:00",
-            "date": "10/07",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "esport",
-            "time_start": 1783702740
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5bf1aca72e_089be84b_20260711.png?v=089be84b",
             "width": 1600,
             "height": 1200
           }
