@@ -1115,84 +1115,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-3aa7818503",
-          "name": "Miami Heat vs Milwaukee Bucks | 03:00 11/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3aa7818503",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3aa7818503",
-                  "name": "Miami Heat vs Milwaukee Bucks",
-                  "streams": [
-                    {
-                      "id": "st-3aa7818503",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-00c7be4ff2",
-                          "name": "Link HD 720p",
-                          "type": "httpflv",
-                          "default": true,
-                          "url": "https://play.megatech.global/live/1783644145_hd@720p.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA Summer League",
-            "team_a": "Miami Heat",
-            "team_b": "Milwaukee Bucks",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/43ebb4d6ad3ea5b68e9b1c969dff055b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e82de69ea44942a3e90a5be6cf0004da.png",
-            "time": "03:00:00",
-            "date": "11/07",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1783713600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3aa7818503_23f350f6_20260711.png?v=23f350f6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9fca3101f0",
           "name": "Indiana Pacers vs Cleveland Cavaliers | 03:30 11/07",
