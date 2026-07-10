@@ -185,6 +185,22 @@ def format_date_ddmm(date_str: str) -> str:
     return d
 
 
+def get_stream_type(url: str) -> str:
+    """Tự động nhận diện loại stream dựa vào đuôi file."""
+    if not url:
+        return "hls"
+    # Loại bỏ phần query string để check đuôi file chuẩn xác
+    clean_url = url.lower().split("?")[0]
+    
+    if clean_url.endswith(".flv"):
+        return "httpflv"  # Giao thức FLV qua HTTP
+    elif clean_url.endswith(".mpd"):
+        return "dash"
+    elif clean_url.endswith(".mp4"):
+        return "mp4"
+    return "hls" # Mặc định cho .m3u8
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # THUMBNAIL
 # ─────────────────────────────────────────────────────────────────────────────
@@ -533,7 +549,7 @@ def get_matches() -> list:
 # ─────────────────────────────────────────────────────────────────────────────
 
 def get_live_url(match_id: str) -> str | None:
-    """Gọi API fixtures để lấy link_stream_hd thực tế."""
+    """Gọi API fixtures để lấy link stream thực tế (m3u8, flv...)."""
     if not match_id:
         return None
     try:
@@ -549,19 +565,15 @@ def get_live_url(match_id: str) -> str | None:
         if not isinstance(blv_list, list) or not blv_list:
             return None
 
-        # Lấy link_stream_hd từ BLV đầu tiên
-        for blv in blv_list:
-            if isinstance(blv, dict):
-                hd_link = blv.get("link_stream_hd")
-                if hd_link:
-                    return hd_link
+        # Thứ tự ưu tiên các key chứa link stream
+        stream_keys = ["link_stream_hd", "pc_stream_url", "mobile_stream_url", "link_stream_sd"]
         
-        # Fallback: thử link_stream_sd
         for blv in blv_list:
             if isinstance(blv, dict):
-                sd_link = blv.get("link_stream_sd")
-                if sd_link:
-                    return sd_link
+                for key in stream_keys:
+                    link = blv.get(key)
+                    if link and isinstance(link, str) and link.strip():
+                        return link.strip()
         
         return None
     except Exception as e:
@@ -582,10 +594,12 @@ def build_channel(match: dict, stream_url: str, thumb_url: str = "") -> dict:
     stream_links = []
     if stream_url:
         lnk_id = make_id(stream_url, "lnk")
+        stream_type = get_stream_type(stream_url) # Tự động nhận diện type
+        
         stream_links.append({
             "id":      lnk_id,
             "name":    "Link HD 720p",
-            "type":    "hls",
+            "type":    stream_type, # Sử dụng type động thay vì hardcode "hls"
             "default": True,
             "url":     stream_url,
             "request_headers": [
