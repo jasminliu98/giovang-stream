@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-ef31c3881d",
-          "name": "VPS Vaasa vs SJK Seinajoki | 23:00 10/07",
+          "id": "gv-8feae2bb63",
+          "name": "Tây Ban Nha vs Bỉ | 02:00 11/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,79 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef31c3881d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ef31c3881d",
-                  "name": "VPS Vaasa vs SJK Seinajoki",
-                  "streams": [
-                    {
-                      "id": "st-ef31c3881d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0b9269a620",
-                          "name": "Link HD 720p",
-                          "type": "httpflv",
-                          "default": true,
-                          "url": "https://play.megatech.global/live/1783643768_hd@720p.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Phần Lan",
-            "team_a": "VPS Vaasa",
-            "team_b": "SJK Seinajoki",
-            "logo_a": "https://images.keovip88.net/images/teams/vaasa-vps.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sjk-seinajoen.png",
-            "time": "23:00:00",
-            "date": "10/07",
-            "blv": "BLV Mát",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783699200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ef31c3881d_0d99ca69_20260711.png?v=0d99ca69",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8feae2bb63",
-          "name": "Tây Ban Nha vs Bỉ | 02:00 11/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -149,7 +76,7 @@
             "time": "02:00:00",
             "date": "11/07",
             "blv": "Beo-minh, Đầu Cầu Chính Chuyên: Mason vs Mát, Bencay",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783710000
           },
