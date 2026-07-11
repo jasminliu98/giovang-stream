@@ -2252,6 +2252,79 @@
           }
         },
         {
+          "id": "gv-9fbeffd8ad",
+          "name": "McGregor vs Holloway 2 | 04:00 12/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9fbeffd8ad",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9fbeffd8ad",
+                  "name": "McGregor vs Holloway 2",
+                  "streams": [
+                    {
+                      "id": "st-9fbeffd8ad",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-064b04fd1b",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783746573_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UFC 329",
+            "team_a": "McGregor",
+            "team_b": "Holloway 2",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtSVc8vghl3O2OqtsTXcQSK9L0F4VWXkvXjvkgplzRs-EaFjoRICcmhS_X&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzIVmFrKWaM6Gjq1n38O2MGI9qyZ6pK-ZpzuW8I_J-5Lkr30wQLn_5E0_I&s=10",
+            "time": "04:00:00",
+            "date": "12/07",
+            "blv": "fan-brazil, du-phong2",
+            "is_live": false,
+            "cate_type": "vothuat",
+            "time_start": 1783803600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9fbeffd8ad_38ae3512_20260711.png?v=38ae3512",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-6e3fbcc38d",
           "name": "ONE Friday Fights 162  vs The Inner Circle 22 | 18:30 17/07",
           "type": "single",
