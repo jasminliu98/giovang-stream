@@ -261,7 +261,25 @@
                     {
                       "id": "st-d514cc2312",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-57f339fe01",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783827553_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1024,84 +1042,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ad8d6a9c21",
-          "name": "Toronto Raptors vs Houston Rockets | 08:30 12/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad8d6a9c21",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ad8d6a9c21",
-                  "name": "Toronto Raptors vs Houston Rockets",
-                  "streams": [
-                    {
-                      "id": "st-ad8d6a9c21",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f3de316e61",
-                          "name": "Link HD 720p",
-                          "type": "httpflv",
-                          "default": true,
-                          "url": "https://play.megatech.global/live/1783815895_hd@720p.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NBA Summer League",
-            "team_a": "Toronto Raptors",
-            "team_b": "Houston Rockets",
-            "logo_a": "https://static.flashscore.com/res/image/data/UmPff6f5-dfaUavPf.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tpfZ3yeM-Q9iB8bcq.png",
-            "time": "08:30:00",
-            "date": "12/07",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1783819800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ad8d6a9c21_12913d8a_20260712.png?v=12913d8a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b724427c34",
           "name": "Dallas Mavericks vs Los Angeles Lakers | 09:00 12/07",
@@ -1274,7 +1219,25 @@
                     {
                       "id": "st-0159c82d52",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-93c31bb745",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783827600_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1454,6 +1417,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b5fe677788_7d648ffa_20260712.png?v=7d648ffa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ab3c3f7537",
+          "name": "Thailand W  vs Türkiye W | 13:30 12/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ab3c3f7537",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ab3c3f7537",
+                  "name": "Thailand W  vs Türkiye W",
+                  "streams": [
+                    {
+                      "id": "st-ab3c3f7537",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bdb7f30a72",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783827657_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League Women",
+            "team_a": "Thailand W ",
+            "team_b": "Türkiye W",
+            "logo_a": "https://static.flashscore.com/res/image/data/pWVxGjFa-zLx3xGjj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/byFAJXzS-vBKZiE2j.png",
+            "time": "13:30:00",
+            "date": "12/07",
+            "blv": "BLV Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen",
+            "time_start": 1783837800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ab3c3f7537_ba28a6d3_20260712.png?v=ba28a6d3",
             "width": 1600,
             "height": 1200
           }
@@ -1746,6 +1782,88 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7cd01603f3_ef4da71c_20260712.png?v=ef4da71c",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-55b87d4579",
+          "name": "BLG  vs HLE | 13:00 12/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-55b87d4579",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-55b87d4579",
+                  "name": "BLG  vs HLE",
+                  "streams": [
+                    {
+                      "id": "st-55b87d4579",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8b3bb0b988",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783827717_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MSI",
+            "team_a": "BLG ",
+            "team_b": "HLE",
+            "logo_a": "https://static.flashscore.com/res/image/data/8GDKDOdM-MLEBzXUg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/pKkqJ4Wg-bB59SVBr.png",
+            "time": "13:00:00",
+            "date": "12/07",
+            "blv": "BLV Ngủ",
+            "is_live": false,
+            "cate_type": "esport",
+            "time_start": 1783836000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-55b87d4579_da00a082_20260712.png?v=da00a082",
             "width": 1600,
             "height": 1200
           }
