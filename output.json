@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-eb951dedb0",
-          "name": "Djurgardens vs Halmstads | 23:59 13/07",
+          "id": "gv-efb2bff2c6",
+          "name": "Breidablik vs Keflavík | 02:15 14/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,79 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb951dedb0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-eb951dedb0",
-                  "name": "Djurgardens vs Halmstads",
-                  "streams": [
-                    {
-                      "id": "st-eb951dedb0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3d143737cc",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783904386_hd/1783904386_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Thụy Điển",
-            "team_a": "Djurgardens",
-            "team_b": "Halmstads",
-            "logo_a": "https://images.keovip88.net/images/teams/djurgardens.png",
-            "logo_b": "https://images.keovip88.net/images/teams/halmstads.png",
-            "time": "23:59:00",
-            "date": "13/07",
-            "blv": "BLV Mát",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1783961940
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-eb951dedb0_7c29d842_20260714.png?v=7c29d842",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-efb2bff2c6",
-          "name": "Breidablik vs Keflavík | 02:15 14/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -149,7 +76,7 @@
             "time": "02:15:00",
             "date": "14/07",
             "blv": "BLV Ngỗng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1783970100
           },
@@ -669,6 +596,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bb0dbc2608_58c6d8a1_20260714.png?v=58c6d8a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f02324e7c0",
+          "name": "Pháp vs Tây Ban Nha | 02:00 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f02324e7c0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f02324e7c0",
+                  "name": "Pháp vs Tây Ban Nha",
+                  "streams": [
+                    {
+                      "id": "st-f02324e7c0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-99b0078cd5",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783904650_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA World Cup",
+            "team_a": "Pháp",
+            "team_b": "Tây Ban Nha",
+            "logo_a": "https://images.keovip88.net/images/teams/france.png",
+            "logo_b": "https://images.keovip88.net/images/teams/spain.png",
+            "time": "02:00:00",
+            "date": "15/07",
+            "blv": "BLV Mason",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1784055600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f02324e7c0_704efa9f_20260714.png?v=704efa9f",
             "width": 1600,
             "height": 1200
           }
@@ -1863,7 +1863,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1937,6 +1937,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e07471f912_1b5c4cc4_20260714.png?v=1b5c4cc4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a740f1eac6",
+          "name": "Event #82: $10,000 WSOP Main Event NLH World Championship vs Event #82: $10,000 WSOP Main Event NLH World Championship | 02:00 14/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a740f1eac6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a740f1eac6",
+                  "name": "Event #82: $10,000 WSOP Main Event NLH World Championship vs Event #82: $10,000 WSOP Main Event NLH World Championship",
+                  "streams": [
+                    {
+                      "id": "st-a740f1eac6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d6c6813b1b",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783968690_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Event #82: $10,000 WSOP Main Event NLH World Championship",
+            "team_a": "Event #82: $10,000 WSOP Main Event NLH World Championship",
+            "team_b": "Event #82: $10,000 WSOP Main Event NLH World Championship",
+            "logo_a": "https://cms.worldpokerdeals.com/assets/ae5ebf6a-51ea-4ed2-960f-bbb8dc6eb8ef?format=webp&quality=75",
+            "logo_b": "https://cms.worldpokerdeals.com/assets/ae5ebf6a-51ea-4ed2-960f-bbb8dc6eb8ef?format=webp&quality=75",
+            "time": "02:00:00",
+            "date": "14/07",
+            "blv": "BLV Ngỗng",
+            "is_live": true,
+            "cate_type": "esport",
+            "time_start": 1783969200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a740f1eac6_1b5c4cc4_20260714.png?v=1b5c4cc4",
             "width": 1600,
             "height": 1200
           }
