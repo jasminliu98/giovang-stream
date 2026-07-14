@@ -677,7 +677,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (5 LIVE)",
+      "name": "🏀 Bóng Rổ (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1055,10 +1055,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1107,7 +1107,7 @@
             "time": "08:00:00",
             "date": "14/07",
             "blv": "Leo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1783990800
           },
@@ -1790,7 +1790,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1864,6 +1864,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-e07471f912_1b5c4cc4_20260714.png?v=1b5c4cc4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ff7b4436d6",
+          "name": "Event #82: $10,000 WSOP Main Event NLH World Championship (p1) vs Event #82: $10,000 WSOP Main Event NLH World Championship (p1) | 08:00 14/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ff7b4436d6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ff7b4436d6",
+                  "name": "Event #82: $10,000 WSOP Main Event NLH World Championship (p1) vs Event #82: $10,000 WSOP Main Event NLH World Championship (p1)",
+                  "streams": [
+                    {
+                      "id": "st-ff7b4436d6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e7403857e6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783989664_hd/1783989664_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WSOP",
+            "team_a": "Event #82: $10,000 WSOP Main Event NLH World Championship (p1)",
+            "team_b": "Event #82: $10,000 WSOP Main Event NLH World Championship (p1)",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcaYrzJFInc_d_472OI-rxWYedJ6FIUbqHRONyEm_1KcwEBrj9GoTNeAZp&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt7avv6GiasYOrR8ngysSadBWzoDAsRMkLlQCx6j-LPA5ofr2g9WW-TuqX&s=10",
+            "time": "08:00:00",
+            "date": "14/07",
+            "blv": "BLV Ngủ",
+            "is_live": true,
+            "cate_type": "esport",
+            "time_start": 1783990800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ff7b4436d6_cfee12f7_20260714.png?v=cfee12f7",
             "width": 1600,
             "height": 1200
           }
