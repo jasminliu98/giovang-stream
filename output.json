@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "16:30:00",
             "date": "14/07",
             "blv": "BLV Bón",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1784021400
           },
@@ -458,7 +458,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -617,10 +617,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -669,7 +669,7 @@
             "time": "16:15:00",
             "date": "14/07",
             "blv": "BLV Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1784020500
           },
@@ -1530,6 +1530,116 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-56b4157bcd",
+          "name": "Iran vs Slovenia | 01:00 18/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-56b4157bcd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-56b4157bcd",
+                  "name": "Iran vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "st-56b4157bcd",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "Iran",
+            "team_b": "Slovenia",
+            "logo_a": "https://static.flashscore.com/res/image/data/xt3pVREa-tWhhL1yr.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fBWBjchl-dWxvhZJm.png",
+            "time": "01:00:00",
+            "date": "18/07",
+            "blv": "BLV Mát",
+            "is_live": false,
+            "cate_type": "bongchuyen",
+            "time_start": 1784311200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-56b4157bcd_d39b3f82_20260714.png?v=d39b3f82",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-16af08f5de",
+          "name": "China vs Bulgaria | 04:00 18/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-16af08f5de",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-16af08f5de",
+                  "name": "China vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-16af08f5de",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nations League",
+            "team_a": "China",
+            "team_b": "Bulgaria",
+            "logo_a": "https://static.flashscore.com/res/image/data/Cn6GvlxS-4ILatieg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/2wMZyUzB-Op3ON8FJ.png",
+            "time": "04:00:00",
+            "date": "18/07",
+            "blv": "BLV Mát",
+            "is_live": false,
+            "cate_type": "bongchuyen",
+            "time_start": 1784322000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-16af08f5de_d161bd8d_20260714.png?v=d161bd8d",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2056,6 +2166,70 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-b3ebd7ed3a_864ca4b3_20260714.png?v=864ca4b3",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-000297b835",
+          "name": "New York Yankees vs Los Angeles Dodgers | 06:05 18/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-000297b835",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-000297b835",
+                  "name": "New York Yankees vs Los Angeles Dodgers",
+                  "streams": [
+                    {
+                      "id": "st-000297b835",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "New York Yankees",
+            "team_b": "Los Angeles Dodgers",
+            "logo_a": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
+            "time": "06:05:00",
+            "date": "18/07",
+            "blv": "BLV Cầy",
+            "is_live": false,
+            "cate_type": "bongchay",
+            "time_start": 1784329500
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-000297b835_d8d3fdb2_20260714.png?v=d8d3fdb2",
             "width": 1600,
             "height": 1200
           }
