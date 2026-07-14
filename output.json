@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -170,10 +170,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -222,7 +222,7 @@
             "time": "23:59:00",
             "date": "14/07",
             "blv": "BLV Ngỗng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1784048340
           },
@@ -377,6 +377,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7267034a00_f0419e6e_20260714.png?v=f0419e6e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6fd349e031",
+          "name": "Ammerthal vs Neumarkt | 23:30 15/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6fd349e031",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6fd349e031",
+                  "name": "Ammerthal vs Neumarkt",
+                  "streams": [
+                    {
+                      "id": "st-6fd349e031",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0df70ad2e2",
+                          "name": "Link HD 720p",
+                          "type": "httpflv",
+                          "default": true,
+                          "url": "https://play.megatech.global/live/1783904715_hd@720p.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Germany - Oberliga",
+            "team_a": "Ammerthal",
+            "team_b": "Neumarkt",
+            "logo_a": "https://static.flashscore.com/res/image/data/0tCNWvxS-0W95CQ5i.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/AP0ry4EG-GzIHj5mf.png",
+            "time": "23:30:00",
+            "date": "15/07",
+            "blv": "BLV Trĩ",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1784133000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-6fd349e031_d4608194_20260714.png?v=d4608194",
             "width": 1600,
             "height": 1200
           }
