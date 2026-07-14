@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f02324e7c0",
-          "name": "Pháp vs Tây Ban Nha | 02:00 15/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f02324e7c0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f02324e7c0",
-                  "name": "Pháp vs Tây Ban Nha",
-                  "streams": [
-                    {
-                      "id": "st-f02324e7c0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27ffaaacf5",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783993198_hd/1783993198_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA World Cup",
-            "team_a": "Pháp",
-            "team_b": "Tây Ban Nha",
-            "logo_a": "https://images.keovip88.net/images/teams/france.png",
-            "logo_b": "https://images.keovip88.net/images/teams/spain.png",
-            "time": "02:00:00",
-            "date": "15/07",
-            "blv": "fan-phap, trunglap-leo-minh, fanttbn",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1784055600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-f02324e7c0_704efa9f_20260715.png?v=704efa9f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6fd349e031",
           "name": "Ammerthal vs Neumarkt | 23:30 15/07",
