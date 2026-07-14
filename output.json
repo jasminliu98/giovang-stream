@@ -17,79 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-bb0dbc2608",
-          "name": "KuPS vs FC Vardar Skopje | 22:00 14/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb0dbc2608",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bb0dbc2608",
-                  "name": "KuPS vs FC Vardar Skopje",
-                  "streams": [
-                    {
-                      "id": "st-bb0dbc2608",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b557ae11c8",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783930064_hd/1783930064_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C1",
-            "team_a": "KuPS",
-            "team_b": "FC Vardar Skopje",
-            "logo_a": "https://images.keovip88.net/images/teams/kups.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fc-vardar-skopje.png",
-            "time": "22:00:00",
-            "date": "14/07",
-            "blv": "BLV Bón",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1784041200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bb0dbc2608_58c6d8a1_20260715.png?v=58c6d8a1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-3ef1a3c6e5",
           "name": "FC Saburtalo Tbilisi vs FC Flora Tallinn | 23:00 14/07",
           "type": "single",
@@ -243,10 +170,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -263,11 +190,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-6c67dfcd42",
+                          "id": "lnk-27ffaaacf5",
                           "name": "Link HD 720p",
-                          "type": "httpflv",
+                          "type": "hls",
                           "default": true,
-                          "url": "https://play.megatech.global/live/1783993191_hd@720p.flv",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1783993198_hd/1783993198_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -294,8 +221,8 @@
             "logo_b": "https://images.keovip88.net/images/teams/spain.png",
             "time": "02:00:00",
             "date": "15/07",
-            "blv": "trunglap-leo-minh, fan-phap, fanttbn",
-            "is_live": false,
+            "blv": "fan-phap, trunglap-leo-minh, fanttbn",
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1784055600
           },
