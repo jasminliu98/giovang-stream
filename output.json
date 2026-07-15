@@ -732,84 +732,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-3743528e06",
-          "name": "Chicago Sky vs Seattle Storm | 23:00 15/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3743528e06",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3743528e06",
-                  "name": "Chicago Sky vs Seattle Storm",
-                  "streams": [
-                    {
-                      "id": "st-3743528e06",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5bd429171",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/178390501_hd/178390501_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Chicago Sky",
-            "team_b": "Seattle Storm",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/0a570e6f3972fccc8370091d6ffdef5e.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f9c0c5ff8557d6be9b17f1ab94781948.png",
-            "time": "23:00:00",
-            "date": "15/07",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1784131200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-3743528e06_7ee7aab2_20260716.png?v=7ee7aab2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-55445f228e",
           "name": "Minnesota Lynx vs Los Angeles Sparks | 23:59 15/07",
