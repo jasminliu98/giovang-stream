@@ -1781,84 +1781,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-cf05a3bb48",
-          "name": "Canada vs Argentina | 10:00 15/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cf05a3bb48",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cf05a3bb48",
-                  "name": "Canada vs Argentina",
-                  "streams": [
-                    {
-                      "id": "st-cf05a3bb48",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2e9e56fb22",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784041248_hd/1784041248_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League",
-            "team_a": "Canada",
-            "team_b": "Argentina",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/H23oIEP6qK-zNc3O8abnIA_96x96.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
-            "time": "10:00:00",
-            "date": "15/07",
-            "blv": "BLV Mason",
-            "is_live": true,
-            "cate_type": "bongchuyen",
-            "time_start": 1784084400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cf05a3bb48_0a9ce635_20260715.png?v=0a9ce635",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-601f7fa3d7",
           "name": "Belgium vs Cuba | 13:30 15/07",
