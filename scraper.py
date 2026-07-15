@@ -56,13 +56,20 @@ def parse_kickoff(time_str: str, date_str: str = ""):
 
 def calc_is_live(status_code: str, time_str: str, date_str: str) -> bool:
     live_codes = {"1H", "2H", "HT", "PEN", "LIVE", "ET"}
-    if status_code in live_codes:
-        return True
     kickoff = parse_kickoff(time_str, date_str)
+    
     if kickoff is None:
-        return False
+        return status_code in live_codes
+        
     now = now_vn()
-    return now >= (kickoff - LIVE_BEFORE)
+    max_live_duration = timedelta(hours=6)
+    
+    # Ưu tiên tuyệt đối: Nếu chưa đến giờ hoặc ĐÃ QUÁ 6 tiếng -> Tắt LIVE (bất chấp API báo gì)
+    if now < (kickoff - LIVE_BEFORE) or now > (kickoff + max_live_duration):
+        return False
+        
+    # Nếu đang trong khung giờ hợp lệ, mới kiểm tra status_code
+    return status_code in live_codes
 
 
 # ─────────────────────────────────────────────────────────────────────────────
