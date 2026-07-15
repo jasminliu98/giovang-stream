@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8ae8f93a1d",
-          "name": "Marlin Coast vs Brunswick Juventus | 16:30 15/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8ae8f93a1d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8ae8f93a1d",
-                  "name": "Marlin Coast vs Brunswick Juventus",
-                  "streams": [
-                    {
-                      "id": "st-8ae8f93a1d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11e1740bc2",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784087731_hd/1784087731_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Úc",
-            "team_a": "Marlin Coast",
-            "team_b": "Brunswick Juventus",
-            "logo_a": "https://static.flashscore.com/res/image/data/nkJ6iycM-0twEKH3c.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Y1YpLPFG-bH6s7IOl.png",
-            "time": "16:30:00",
-            "date": "15/07",
-            "blv": "BLV Bón",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1784107800
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-8ae8f93a1d_eaf1d7c3_20260715.png?v=eaf1d7c3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-08b106cf28",
           "name": "FK Beograd vs North Sunshine Eagles | 17:00 15/07",
