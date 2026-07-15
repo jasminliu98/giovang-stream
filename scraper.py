@@ -62,7 +62,7 @@ def calc_is_live(status_code: str, time_str: str, date_str: str) -> bool:
         return status_code in live_codes
         
     now = now_vn()
-    max_live_duration = timedelta(hours=6)
+    max_live_duration = timedelta(hours=8)
     
     # Ưu tiên tuyệt đối: Nếu chưa đến giờ hoặc ĐÃ QUÁ 6 tiếng -> Tắt LIVE (bất chấp API báo gì)
     if now < (kickoff - LIVE_BEFORE) or now > (kickoff + max_live_duration):
