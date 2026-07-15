@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "21:30:00",
             "date": "15/07",
             "blv": "BLV Bón",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1784125800
           },
@@ -659,7 +659,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -672,10 +672,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -692,11 +692,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-0faca20984",
+                          "id": "lnk-efc7e3ddc7",
                           "name": "Link HD 720p",
                           "type": "hls",
                           "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784098732_hd/1784098732_hd@720p.m3u8",
+                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784124726_hd/1784124726_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -723,8 +723,8 @@
             "logo_b": "https://static.flashscore.com/res/image/data/8GPRc1yB-xCsenx2O.png",
             "time": "21:30:00",
             "date": "15/07",
-            "blv": "BLV Mason",
-            "is_live": false,
+            "blv": "BLV Sún",
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1784125800
           },
