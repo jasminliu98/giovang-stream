@@ -878,7 +878,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -891,10 +891,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -943,7 +943,7 @@
             "time": "23:00:00",
             "date": "15/07",
             "blv": "BLV Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1784131200
           },
@@ -2947,7 +2947,7 @@
         },
         {
           "id": "gv-0cec54fcb2",
-          "name": "FUR  vs DK | 23:10 15/07",
+          "name": "FUR  vs DK | 23:55 15/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3002,12 +3002,12 @@
             "team_b": "DK",
             "logo_a": "https://files.tips.gg/static/image/teams/furia-uppercut-lol.png",
             "logo_b": "https://files.tips.gg/static/image/teams/dwg-kia-2021-lol.png",
-            "time": "23:10:00",
+            "time": "23:55:00",
             "date": "15/07",
             "blv": "BLV Ngủ",
             "is_live": false,
             "cate_type": "esport",
-            "time_start": 1784131800
+            "time_start": 1784134500
           },
           "image": {
             "padding": 1,
