@@ -55,21 +55,31 @@ def parse_kickoff(time_str: str, date_str: str = ""):
 
 
 def calc_is_live(status_code: str, time_str: str, date_str: str) -> bool:
+    """Kiểm tra xem trận có thực sự đang LIVE không, tránh bị 'LIVE' ảo của trận hôm qua."""
     live_codes = {"1H", "2H", "HT", "PEN", "LIVE", "ET"}
-    kickoff = parse_kickoff(time_str, date_str)
     
+    # Nếu không phải mã live, chắc chắn không phải live
+    if status_code not in live_codes:
+        return False
+        
+    kickoff = parse_kickoff(time_str, date_str)
     if kickoff is None:
+        # Nếu không parse được thời gian, dựa tạm vào status_code
         return status_code in live_codes
         
     now = now_vn()
+    
     max_live_duration = timedelta(hours=8)
     
-    # Ưu tiên tuyệt đối: Nếu chưa đến giờ hoặc ĐÃ QUÁ 6 tiếng -> Tắt LIVE (bất chấp API báo gì)
-    if now < (kickoff - LIVE_BEFORE) or now > (kickoff + max_live_duration):
+    # Nếu chưa đến giờ kickoff (trừ 15 phút cho LIVE_BEFORE) thì chưa live
+    if now < (kickoff - LIVE_BEFORE):
         return False
         
-    # Nếu đang trong khung giờ hợp lệ, mới kiểm tra status_code
-    return status_code in live_codes
+    # Nếu đã qua quá thời gian tối đa của một trận, coi như đã kết thúc
+    if now > (kickoff + max_live_duration):
+        return False
+        
+    return True
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -479,6 +489,8 @@ def get_matches() -> list:
             seen[item.get("id")] = item
 
     matches = []
+    now = now_vn()
+    
     for item in seen.values():
         match_id    = item.get("id", "")
         raw_type    = item.get("type", "football")
@@ -517,6 +529,14 @@ def get_matches() -> list:
         if cate_type == "football" and is_america_league(league_name):
             continue
 
+        # ─────────────────────────────────────────────────────────────────────
+        # BỘ LỌC THỜI GIAN: Loại bỏ trận đã qua quá 8 tiếng (tránh trận hôm qua)
+        # ─────────────────────────────────────────────────────────────────────
+        kickoff = parse_kickoff(time_str, date_str)
+        if kickoff:
+            if now > kickoff + timedelta(hours=8):
+                continue
+                
         if not is_within_24h(time_str, date_str, cate_type):
             continue
 
