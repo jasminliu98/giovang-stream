@@ -2575,84 +2575,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0cec54fcb2",
-          "name": "FUR  vs DK | 23:55 15/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0cec54fcb2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0cec54fcb2",
-                  "name": "FUR  vs DK",
-                  "streams": [
-                    {
-                      "id": "st-0cec54fcb2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-445b222163",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://sgtdrxtdjeliv.vcdn.cloud/1784127696_hd/1784127696_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EWC",
-            "team_a": "FUR ",
-            "team_b": "DK",
-            "logo_a": "https://files.tips.gg/static/image/teams/furia-uppercut-lol.png",
-            "logo_b": "https://files.tips.gg/static/image/teams/dwg-kia-2021-lol.png",
-            "time": "23:55:00",
-            "date": "15/07",
-            "blv": "BLV Ngủ",
-            "is_live": true,
-            "cate_type": "esport",
-            "time_start": 1784134500
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-0cec54fcb2_5c3fb23c_20260716.png?v=5c3fb23c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ac0d9fb708",
           "name": "GEN.G  vs ZETA | 15:00 16/07",
