@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -243,10 +243,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -261,7 +261,25 @@
                     {
                       "id": "st-147bf814ce",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d0718cfcf6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784216852_hd/1784216852_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -277,7 +295,7 @@
             "time": "23:00:00",
             "date": "16/07",
             "blv": "blv-beo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
             "time_start": 1784217600
           },
@@ -505,6 +523,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ac9659bef9_bef5077b_20260716.png?v=bef5077b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c0dffde133",
+          "name": "Klubi-04 vs Haka | 23:00 17/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c0dffde133",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c0dffde133",
+                  "name": "Klubi-04 vs Haka",
+                  "streams": [
+                    {
+                      "id": "st-c0dffde133",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ad4c6b7aff",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784017391_hd/1784017391_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Finland - Ykkösliiga",
+            "team_a": "Klubi-04",
+            "team_b": "Haka",
+            "logo_a": "https://static.flashscore.com/res/image/data/QDxLQzZA-joSKJXz3.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/SEZzuph5-KtjRAU38.png",
+            "time": "23:00:00",
+            "date": "17/07",
+            "blv": "BLV Mát",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1784304000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c0dffde133_262aa3d9_20260716.png?v=262aa3d9",
             "width": 1600,
             "height": 1200
           }
