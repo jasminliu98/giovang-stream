@@ -1066,79 +1066,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-7cc19638b7",
-          "name": "GEN.G vs SEN / HLE vs JDG vs GEN.G vs SEN / HLE vs JDG | 16:00 16/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7cc19638b7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7cc19638b7",
-                  "name": "GEN.G vs SEN / HLE vs JDG vs GEN.G vs SEN / HLE vs JDG",
-                  "streams": [
-                    {
-                      "id": "st-7cc19638b7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1838f09276",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784188065_hd/1784188065_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EWC",
-            "team_a": "GEN.G vs SEN / HLE vs JDG",
-            "team_b": "GEN.G vs SEN / HLE vs JDG",
-            "logo_a": "https://static.flashscore.com/res/image/data/rglkqMzB-UJqSxlpo.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WWVQr3Fa-4GSfGFZc.png",
-            "time": "16:00:00",
-            "date": "16/07",
-            "blv": "BLV Ngủ",
-            "is_live": true,
-            "cate_type": "esport",
-            "time_start": 1784192400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7cc19638b7_2389587c_20260716.png?v=2389587c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-28d1203ed6",
           "name": "T1  vs GAM | 18:20 16/07",
           "type": "single",
@@ -1207,6 +1134,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-28d1203ed6_9b6beeae_20260716.png?v=9b6beeae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7cc19638b7",
+          "name": "SEN  vs KC | 18:20 16/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7cc19638b7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7cc19638b7",
+                  "name": "SEN  vs KC",
+                  "streams": [
+                    {
+                      "id": "st-7cc19638b7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1838f09276",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784188065_hd/1784188065_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EWC",
+            "team_a": "SEN ",
+            "team_b": "KC",
+            "logo_a": "https://static.flashscore.com/res/image/data/WWVQr3Fa-4GSfGFZc.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/2uAzi0e5-lldrLGON.png",
+            "time": "18:20:00",
+            "date": "16/07",
+            "blv": "BLV Ngủ",
+            "is_live": true,
+            "cate_type": "esport",
+            "time_start": 1784200800
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-7cc19638b7_bd61737b_20260716.png?v=bd61737b",
             "width": 1600,
             "height": 1200
           }
