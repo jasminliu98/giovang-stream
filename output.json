@@ -2520,14 +2520,14 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "gv-1114258e21",
-          "name": "FS vs NS | 15:00 17/07",
+          "name": "KRX vs DFM | 17:45 17/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2546,7 +2546,7 @@
               "contents": [
                 {
                   "id": "ct-1114258e21",
-                  "name": "FS vs NS",
+                  "name": "KRX vs DFM",
                   "streams": [
                     {
                       "id": "st-1114258e21",
@@ -2578,22 +2578,95 @@
           ],
           "org_metadata": {
             "league": "VCT Pacific",
-            "team_a": "FS",
-            "team_b": "NS",
-            "logo_a": "https://cdn-api.pandascore.co/images/team/image/128912/285px_fullsense_logo_icon_allmode.png?image=w_112,f_webp",
-            "logo_b": "https://cdn-api.pandascore.co/images/team/image/132692/nongshim_red_forcelogo_square.png?image=w_112,f_webp",
-            "time": "15:00:00",
+            "team_a": "KRX",
+            "team_b": "DFM",
+            "logo_a": "https://s-qwer.op.gg/images/valorant/teams/293_1681749200824.png?image=w_112,f_webp",
+            "logo_b": "https://cdn-api.pandascore.co/images/team/image/131974/780px_detonatio_n_focus_me_2022_lightmode.png?image=w_112,f_webp",
+            "time": "17:45:00",
             "date": "17/07",
             "blv": "BLV Điếc",
             "is_live": true,
             "cate_type": "esport",
-            "time_start": 1784275200
+            "time_start": 1784285100
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1114258e21_e4eedb81_20260717.png?v=e4eedb81",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1114258e21_b2b4c7d4_20260717.png?v=b2b4c7d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cd1a63e39b",
+          "name": "HLE vs T1 | 18:00 17/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd1a63e39b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cd1a63e39b",
+                  "name": "HLE vs T1",
+                  "streams": [
+                    {
+                      "id": "st-cd1a63e39b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b88bd0bae3",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784269654_hd/1784269654_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EWC",
+            "team_a": "HLE",
+            "team_b": "T1",
+            "logo_a": "https://static.flashscore.com/res/image/data/pKkqJ4Wg-bB59SVBr.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
+            "time": "18:00:00",
+            "date": "17/07",
+            "blv": "BLV Tôm",
+            "is_live": true,
+            "cate_type": "esport",
+            "time_start": 1784286000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cd1a63e39b_0e41c744_20260717.png?v=0e41c744",
             "width": 1600,
             "height": 1200
           }
@@ -2667,79 +2740,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bda6d3357d_b2b4c7d4_20260717.png?v=b2b4c7d4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-cd1a63e39b",
-          "name": "HLE vs T1 | 18:00 17/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cd1a63e39b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cd1a63e39b",
-                  "name": "HLE vs T1",
-                  "streams": [
-                    {
-                      "id": "st-cd1a63e39b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b88bd0bae3",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784269654_hd/1784269654_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EWC",
-            "team_a": "HLE",
-            "team_b": "T1",
-            "logo_a": "https://static.flashscore.com/res/image/data/pKkqJ4Wg-bB59SVBr.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
-            "time": "18:00:00",
-            "date": "17/07",
-            "blv": "BLV Tôm",
-            "is_live": false,
-            "cate_type": "esport",
-            "time_start": 1784286000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cd1a63e39b_0e41c744_20260717.png?v=0e41c744",
             "width": 1600,
             "height": 1200
           }
