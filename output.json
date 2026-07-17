@@ -1942,6 +1942,61 @@
           }
         },
         {
+          "id": "gv-bda6d3357d",
+          "name": "KRX vs DFM | 17:00 17/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bda6d3357d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bda6d3357d",
+                  "name": "KRX vs DFM",
+                  "streams": [
+                    {
+                      "id": "st-bda6d3357d",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VCT Pacific",
+            "team_a": "KRX",
+            "team_b": "DFM",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/DRX_logo_2023.png/1280px-DRX_logo_2023.png",
+            "logo_b": "https://i.namu.wiki/i/FKn1Na9dXdNDGUOkxdCQrdH7-pBL39cfukstZMFZHlR-B1taInJcdqX6cM027AXlbuWk5634azwvDU5e7QGFzA.svg",
+            "time": "17:00:00",
+            "date": "17/07",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "esport",
+            "time_start": 1784282400
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bda6d3357d_aa83fecc_20260717.png?v=aa83fecc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-438a679550",
           "name": "RRQ vs GE | 15:00 18/07",
           "type": "single",
