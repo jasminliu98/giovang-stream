@@ -11,84 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c0dffde133",
-          "name": "Klubi-04 vs Haka | 23:00 17/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c0dffde133",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c0dffde133",
-                  "name": "Klubi-04 vs Haka",
-                  "streams": [
-                    {
-                      "id": "st-c0dffde133",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ad4c6b7aff",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784017391_hd/1784017391_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Finland - Ykkösliiga",
-            "team_a": "Klubi-04",
-            "team_b": "Haka",
-            "logo_a": "https://static.flashscore.com/res/image/data/QDxLQzZA-joSKJXz3.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/SEZzuph5-KtjRAU38.png",
-            "time": "23:00:00",
-            "date": "17/07",
-            "blv": "BLV Mát",
-            "is_live": true,
-            "cate_type": "football",
-            "time_start": 1784304000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-c0dffde133_262aa3d9_20260718.png?v=262aa3d9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0fa30cf86b",
           "name": "IFK Goteborg vs Brommapojkarna | 23:59 17/07",
@@ -2365,7 +2292,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2378,10 +2305,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2430,7 +2357,7 @@
             "time": "01:00:00",
             "date": "18/07",
             "blv": "BLV Mát",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen",
             "time_start": 1784311200
           },
@@ -2817,79 +2744,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-bda6d3357d",
-          "name": "KRX vs DFM | 17:00 17/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bda6d3357d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bda6d3357d",
-                  "name": "KRX vs DFM",
-                  "streams": [
-                    {
-                      "id": "st-bda6d3357d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b00809ca0a",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784264822_hd/1784264822_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VCT Pacific",
-            "team_a": "KRX",
-            "team_b": "DFM",
-            "logo_a": "https://s-qwer.op.gg/images/valorant/teams/293_1681749200824.png?image=w_112,f_webp",
-            "logo_b": "https://cdn-api.pandascore.co/images/team/image/131974/780px_detonatio_n_focus_me_2022_lightmode.png?image=w_112,f_webp",
-            "time": "17:00:00",
-            "date": "17/07",
-            "blv": "BLV Điếc",
-            "is_live": false,
-            "cate_type": "esport",
-            "time_start": 1784282400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-bda6d3357d_b2b4c7d4_20260718.png?v=b2b4c7d4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-2bfbaec476",
           "name": "JOPT STARS TABLE vs JOPT 2026 Tokyo #029 | 11:15 18/07",
