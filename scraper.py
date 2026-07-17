@@ -516,8 +516,8 @@ def get_matches() -> list:
         if status_code == "FT":
             continue
 
-        if "nha-dai" in blv_list:
-            continue
+        #if "nha-dai" in blv_list:
+        #    continue
 
         real_blv = [b for b in blv_list if b != "nha-dai"]
         if not real_blv:
