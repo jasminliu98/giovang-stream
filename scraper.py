@@ -459,11 +459,12 @@ def get_blv_names(blv_list: list) -> str:
         "mat-mason":         "Mát + Mason",
         "dory-leo":          "Dory + Leo",
         "leo":               "Leo",
+        "nha-dai": "Nhà Đài",
     }
     names = []
     for key in blv_list:
-        if key == "nha-dai":
-            continue
+        #if key == "nha-dai":
+        #    continue
         names.append(BLV_NAME_MAP.get(key, key))
     return ", ".join(names)
 
@@ -520,8 +521,8 @@ def get_matches() -> list:
         #    continue
 
         real_blv = [b for b in blv_list if b != "nha-dai"]
-        if not real_blv:
-            continue
+        #if not real_blv:
+        #    continue
 
         # Override cate_type nếu là đua xe
         cate_type = resolve_cate_type(raw_type, league_name, team_a, team_b)
