@@ -1548,6 +1548,79 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-a73feadddc",
+          "name": "Östersunds FK  vs Landskrona | 20:00 18/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a73feadddc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a73feadddc",
+                  "name": "Östersunds FK  vs Landskrona",
+                  "streams": [
+                    {
+                      "id": "st-a73feadddc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-56329362b9",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784118148_hd/1784118148_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Sweden - Superettan",
+            "team_a": "Östersunds FK ",
+            "team_b": "Landskrona",
+            "logo_a": "https://static.flashscore.com/res/image/data/K44g7CDa-WnKsn5Ti.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QmfDaGGG-8MQIUsm4.png",
+            "time": "20:00:00",
+            "date": "18/07",
+            "blv": "BLV Mát",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1784379600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-a73feadddc_2543139b_20260717.png?v=2543139b",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2374,84 +2447,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-cd1a63e39b",
-          "name": "HLE vs T1 | 18:00 17/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cd1a63e39b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cd1a63e39b",
-                  "name": "HLE vs T1",
-                  "streams": [
-                    {
-                      "id": "st-cd1a63e39b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b88bd0bae3",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784269654_hd/1784269654_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EWC",
-            "team_a": "HLE",
-            "team_b": "T1",
-            "logo_a": "https://static.flashscore.com/res/image/data/pKkqJ4Wg-bB59SVBr.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
-            "time": "18:00:00",
-            "date": "17/07",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "esport",
-            "time_start": 1784286000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-cd1a63e39b_0e41c744_20260717.png?v=0e41c744",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-bda6d3357d",
           "name": "KRX vs DFM | 17:00 17/07",
