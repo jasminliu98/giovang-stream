@@ -2374,84 +2374,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1114258e21",
-          "name": "KRX vs DFM | 17:45 17/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1114258e21",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1114258e21",
-                  "name": "KRX vs DFM",
-                  "streams": [
-                    {
-                      "id": "st-1114258e21",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54f7c88163",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784225273_hd/1784225273_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VCT Pacific",
-            "team_a": "KRX",
-            "team_b": "DFM",
-            "logo_a": "https://s-qwer.op.gg/images/valorant/teams/293_1681749200824.png?image=w_112,f_webp",
-            "logo_b": "https://cdn-api.pandascore.co/images/team/image/131974/780px_detonatio_n_focus_me_2022_lightmode.png?image=w_112,f_webp",
-            "time": "17:45:00",
-            "date": "17/07",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "esport",
-            "time_start": 1784285100
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-1114258e21_b2b4c7d4_20260717.png?v=b2b4c7d4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cd1a63e39b",
           "name": "HLE vs T1 | 18:00 17/07",
