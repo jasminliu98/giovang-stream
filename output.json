@@ -480,7 +480,25 @@
                     {
                       "id": "st-5234895ba2",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e03bdb8f1e",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784397898_hd/1784397898_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -535,7 +553,25 @@
                     {
                       "id": "st-7b9e44a573",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1a3c940b91",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784397964_hd/1784397964_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -599,7 +635,25 @@
                     {
                       "id": "st-9e369f57f6",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-19ff3feef6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784397829_hd/1784397829_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -624,6 +678,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9e369f57f6_00d09ca2_20260719.png?v=00d09ca2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5d95a57477",
+          "name": "Barangay Ginebra Kings vs Phoenix Fuel Masters | 18:30 19/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d95a57477",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5d95a57477",
+                  "name": "Barangay Ginebra Kings vs Phoenix Fuel Masters",
+                  "streams": [
+                    {
+                      "id": "st-5d95a57477",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd5f19a753",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784398320_hd/1784398320_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Philippines PBA Governors'' Cup",
+            "team_a": "Barangay Ginebra Kings",
+            "team_b": "Phoenix Fuel Masters",
+            "logo_a": "https://nba.titan007.com/files/team/1hfghwkryr3.png",
+            "logo_b": "https://nba.titan007.com/files/team/1hf39pabp510.png",
+            "time": "18:30:00",
+            "date": "19/07",
+            "blv": "blv-leo",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1784460600
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-5d95a57477_c894f3fe_20260719.png?v=c894f3fe",
             "width": 1600,
             "height": 1200
           }
