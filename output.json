@@ -1717,84 +1717,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-438a679550",
-          "name": "RRQ vs GE | 15:00 18/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-438a679550",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-438a679550",
-                  "name": "RRQ vs GE",
-                  "streams": [
-                    {
-                      "id": "st-438a679550",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6e67b24566",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784170730_hd/1784170730_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VCT Pacific",
-            "team_a": "RRQ",
-            "team_b": "GE",
-            "logo_a": "https://liquipedia.net/commons/images/thumb/1/1e/Rex_Regum_Qeon_allmode.png/70px-Rex_Regum_Qeon_allmode.png",
-            "logo_b": "https://liquipedia.net/commons/images/thumb/2/23/Global_Esports_2020_allmode.png/84px-Global_Esports_2020_allmode.png",
-            "time": "15:00:00",
-            "date": "18/07",
-            "blv": "BLV Điếc",
-            "is_live": true,
-            "cate_type": "esport",
-            "time_start": 1784361600
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-438a679550_61279e8c_20260718.png?v=61279e8c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9b0468da41",
           "name": "T1 vs KC | 18:00 18/07",
