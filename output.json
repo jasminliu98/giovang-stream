@@ -1258,6 +1258,79 @@
           }
         },
         {
+          "id": "gv-ecb92ac81e",
+          "name": "SJK Seinajoki vs KuPS | 21:00 18/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ecb92ac81e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ecb92ac81e",
+                  "name": "SJK Seinajoki vs KuPS",
+                  "streams": [
+                    {
+                      "id": "st-ecb92ac81e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a611923633",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784342594_hd/1784342594_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan",
+            "team_a": "SJK Seinajoki",
+            "team_b": "KuPS",
+            "logo_a": "https://images.keovip88.net/images/teams/sjk-seinajoen.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kups.png",
+            "time": "21:00:00",
+            "date": "18/07",
+            "blv": "BLV Trĩ",
+            "is_live": false,
+            "cate_type": "football",
+            "time_start": 1784383200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ecb92ac81e_10979e19_20260718.png?v=10979e19",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-f2b0fa9db5",
           "name": "AC Oulu vs Gnistan | 21:00 18/07",
           "type": "single",
@@ -1480,7 +1553,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1639,10 +1712,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1691,7 +1764,7 @@
             "time": "10:00:00",
             "date": "18/07",
             "blv": "BLV Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball",
             "time_start": 1784343600
           },
@@ -2478,7 +2551,25 @@
                     {
                       "id": "st-9b0468da41",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a09c6b1f89",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784342056_hd/1784342056_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2533,7 +2624,25 @@
                     {
                       "id": "st-fa6ec63929",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-47fc5bc2b6",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784342145_hd/1784342145_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
