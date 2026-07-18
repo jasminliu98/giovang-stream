@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -236,6 +236,79 @@
           }
         },
         {
+          "id": "gv-ecb92ac81e",
+          "name": "SJK Seinajoki vs KuPS | 21:00 18/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ecb92ac81e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ecb92ac81e",
+                  "name": "SJK Seinajoki vs KuPS",
+                  "streams": [
+                    {
+                      "id": "st-ecb92ac81e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a611923633",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784342594_hd/1784342594_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan",
+            "team_a": "SJK Seinajoki",
+            "team_b": "KuPS",
+            "logo_a": "https://images.keovip88.net/images/teams/sjk-seinajoen.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kups.png",
+            "time": "21:00:00",
+            "date": "18/07",
+            "blv": "BLV Trĩ",
+            "is_live": true,
+            "cate_type": "football",
+            "time_start": 1784383200
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ecb92ac81e_10979e19_20260718.png?v=10979e19",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-3ce17bde38",
           "name": "Daejeon Citizen vs Ulsan Hyundai | 17:30 18/07",
           "type": "single",
@@ -377,79 +450,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-170dd4b5dd_41c331b4_20260718.png?v=41c331b4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ecb92ac81e",
-          "name": "SJK Seinajoki vs KuPS | 21:00 18/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ecb92ac81e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ecb92ac81e",
-                  "name": "SJK Seinajoki vs KuPS",
-                  "streams": [
-                    {
-                      "id": "st-ecb92ac81e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a611923633",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784342594_hd/1784342594_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Phần Lan",
-            "team_a": "SJK Seinajoki",
-            "team_b": "KuPS",
-            "logo_a": "https://images.keovip88.net/images/teams/sjk-seinajoen.png",
-            "logo_b": "https://images.keovip88.net/images/teams/kups.png",
-            "time": "21:00:00",
-            "date": "18/07",
-            "blv": "BLV Trĩ",
-            "is_live": false,
-            "cate_type": "football",
-            "time_start": 1784383200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ecb92ac81e_10979e19_20260718.png?v=10979e19",
             "width": 1600,
             "height": 1200
           }
@@ -823,84 +823,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-80d36c6ec0",
-          "name": "Rain or Shine Elasto Painters vs Meralco Bolts | 18:30 18/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80d36c6ec0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-80d36c6ec0",
-                  "name": "Rain or Shine Elasto Painters vs Meralco Bolts",
-                  "streams": [
-                    {
-                      "id": "st-80d36c6ec0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e44d04fe09",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784118546_hd/1784118546_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines PBA Governors'' Cup",
-            "team_a": "Rain or Shine Elasto Painters",
-            "team_b": "Meralco Bolts",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/7c67e4f0e2da7d269cf37d496d24f106.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7d3eab9dc4318560a4967f40d522de68.png",
-            "time": "18:30:00",
-            "date": "18/07",
-            "blv": "BLV Tôm",
-            "is_live": true,
-            "cate_type": "basketball",
-            "time_start": 1784374200
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-80d36c6ec0_7746e52a_20260718.png?v=7746e52a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5a1adb9c9f",
           "name": "Terrafirma Dyip vs San Miguel Beermen | 16:15 18/07",
@@ -1498,84 +1425,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9b0468da41",
-          "name": "T1 vs KC | 18:00 18/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9b0468da41",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9b0468da41",
-                  "name": "T1 vs KC",
-                  "streams": [
-                    {
-                      "id": "st-9b0468da41",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a09c6b1f89",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784342056_hd/1784342056_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EWC",
-            "team_a": "T1",
-            "team_b": "KC",
-            "logo_a": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/2uAzi0e5-lldrLGON.png",
-            "time": "18:00:00",
-            "date": "18/07",
-            "blv": "blv-pery",
-            "is_live": true,
-            "cate_type": "esport",
-            "time_start": 1784372400
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9b0468da41_61e2f9ff_20260718.png?v=61e2f9ff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-fa6ec63929",
           "name": "Gen.G vs DK | 20:30 18/07",
@@ -2036,7 +1890,7 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2049,10 +1903,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2101,7 +1955,7 @@
             "time": "21:00:00",
             "date": "18/07",
             "blv": "BLV Ngủ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "duaxe",
             "time_start": 1784383200
           },
