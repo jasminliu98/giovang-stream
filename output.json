@@ -610,79 +610,6 @@
           }
         },
         {
-          "id": "gv-ea314a208a",
-          "name": "Golden State Valkyries vs Washington Mystics | 07:30 19/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ea314a208a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ea314a208a",
-                  "name": "Golden State Valkyries vs Washington Mystics",
-                  "streams": [
-                    {
-                      "id": "st-ea314a208a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f3a9fe588f",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784407521_hd/1784407521_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Golden State Valkyries",
-            "team_b": "Washington Mystics",
-            "logo_a": "https://nba.titan007.com/files/team/1jskaahxka.png",
-            "logo_b": "https://nba.titan007.com/files/team/1har101sdj1w.png",
-            "time": "07:30:00",
-            "date": "19/07",
-            "blv": "BLV Điếc",
-            "is_live": false,
-            "cate_type": "basketball",
-            "time_start": 1784421000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ea314a208a_c9df3c19_20260719.png?v=c9df3c19",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-509d571086",
           "name": "Los Angeles Lakers vs Golden State Warriors | 07:30 19/07",
           "type": "single",
@@ -751,6 +678,79 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-509d571086_cd5f487e_20260719.png?v=cd5f487e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ea314a208a",
+          "name": "Golden State Valkyries vs Washington Mystics | 07:30 19/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ea314a208a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ea314a208a",
+                  "name": "Golden State Valkyries vs Washington Mystics",
+                  "streams": [
+                    {
+                      "id": "st-ea314a208a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f3a9fe588f",
+                          "name": "Link HD 720p",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784407521_hd/1784407521_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Golden State Valkyries",
+            "team_b": "Washington Mystics",
+            "logo_a": "https://nba.titan007.com/files/team/1jskaahxka.png",
+            "logo_b": "https://nba.titan007.com/files/team/1har101sdj1w.png",
+            "time": "07:30:00",
+            "date": "19/07",
+            "blv": "BLV Điếc",
+            "is_live": false,
+            "cate_type": "basketball",
+            "time_start": 1784421000
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-ea314a208a_c9df3c19_20260719.png?v=c9df3c19",
             "width": 1600,
             "height": 1200
           }
@@ -2538,7 +2538,7 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2551,10 +2551,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2603,7 +2603,7 @@
             "time": "07:08:00",
             "date": "19/07",
             "blv": "BLV Ngủ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay",
             "time_start": 1784419680
           },
