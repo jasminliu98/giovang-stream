@@ -832,7 +832,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -918,10 +918,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -970,7 +970,7 @@
             "time": "18:00:00",
             "date": "19/07",
             "blv": "BLV Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen",
             "time_start": 1784458800
           },
@@ -1279,7 +1279,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (3 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1353,79 +1353,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-2bfbaec476_225a17b5_20260719.png?v=225a17b5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9832418721",
-          "name": "NS vs GEN.G | 15:00 19/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9832418721",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9832418721",
-                  "name": "NS vs GEN.G",
-                  "streams": [
-                    {
-                      "id": "st-9832418721",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-60809102b0",
-                          "name": "Link HD 720p",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784397540_hd/1784397540_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VCT Pacific",
-            "team_a": "NS",
-            "team_b": "GEN.G",
-            "logo_a": "https://static.flashscore.com/res/image/data/fsLmL8ZA-K2mdw3oq.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/rglkqMzB-UJqSxlpo.png",
-            "time": "15:00:00",
-            "date": "19/07",
-            "blv": "BLV Ngủ",
-            "is_live": true,
-            "cate_type": "esport",
-            "time_start": 1784448000
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gv-9832418721_e3aa7401_20260719.png?v=e3aa7401",
             "width": 1600,
             "height": 1200
           }
