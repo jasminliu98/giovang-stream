@@ -13,7 +13,6 @@ from io import BytesIO
 # ─────────────────────────────────────────────────────────────────────────────
 
 VN_TZ       = timezone(timedelta(hours=7))
-LIVE_BEFORE = timedelta(minutes=15)
 
 def now_vn() -> datetime:
     return datetime.now(tz=VN_TZ)
@@ -45,18 +44,6 @@ def parse_kickoff(time_str: str, date_str: str = ""):
         return datetime(today.year, today.month, today.day, hh, mm, tzinfo=VN_TZ)
     except ValueError:
         return None
-
-def calc_is_live(status_code: str, time_str: str, date_str: str) -> bool:
-    live_codes = {"1H", "2H", "HT", "PEN", "LIVE", "ET"}
-    if status_code not in live_codes:
-        return False
-    kickoff = parse_kickoff(time_str, date_str)
-    if kickoff is None:
-        return status_code in live_codes
-    now = now_vn()
-    if now < (kickoff - LIVE_BEFORE) or now > (kickoff + timedelta(hours=8)):
-        return False
-    return True
 
 # ─────────────────────────────────────────────────────────────────────────────
 # CONFIG
@@ -110,13 +97,6 @@ def parse_time_sort(time_str: str, date_str: str) -> int:
         return kickoff.month * 10_000_000 + kickoff.day * 10_000 + kickoff.hour * 100 + kickoff.minute
     return 999_999_999
 
-def is_within_24h(time_str: str, date_str: str, cate_type: str = "football") -> bool:
-    if cate_type != "football": return True
-    kickoff = parse_kickoff(time_str, date_str)
-    if kickoff is None: return True
-    now = now_vn()
-    return (now - timedelta(hours=6)) <= kickoff <= (now + timedelta(hours=24))
-
 def format_time_hhmm(time_str: str) -> str:
     if not time_str: return ""
     parts = time_str.strip().split(":")
@@ -137,7 +117,7 @@ def get_stream_type(url: str) -> str:
     return "hls"
 
 # ─────────────────────────────────────────────────────────────────────────────
-# BLV MAPPING (Fallback nếu API không trả về blv_name)
+# BLV MAPPING
 # ─────────────────────────────────────────────────────────────────────────────
 
 BLV_NAME_MAP = {
@@ -161,7 +141,7 @@ def get_blv_display_name(blv_key: str) -> str:
     return BLV_NAME_MAP.get(blv_key, blv_key.replace("blv-", "BLV ").title())
 
 # ─────────────────────────────────────────────────────────────────────────────
-# THUMBNAIL (1 ảnh duy nhất cho mỗi trận)
+# THUMBNAIL
 # ─────────────────────────────────────────────────────────────────────────────
 
 def make_thumbnail(match, match_id_safe):
@@ -237,7 +217,7 @@ def cleanup_old_thumbs(days: int = 3):
             except Exception: pass
 
 # ─────────────────────────────────────────────────────────────────────────────
-# FETCH & GROUP LOGIC
+# FETCH & GROUP LOGIC (ĐÃ SỬA LOGIC LỌC THỜI GIAN)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def fetch_json(url: str) -> list:
@@ -250,12 +230,15 @@ def fetch_json(url: str) -> list:
         return []
 
 def get_grouped_matches() -> dict:
-    """Lấy danh sách trận và gom nhóm link theo BLV cho từng match_id."""
     live_items = fetch_json(API_LIVE)
     all_items = fetch_json(API_ALL)
 
     seen = {}
-    for item in live_items + all_items:
+    # Ưu tiên live_items để giữ trạng thái LIVE chính xác nhất
+    for item in live_items:
+        if item.get("id"):
+            seen[item.get("id")] = item
+    for item in all_items:
         if item.get("id") and item.get("id") not in seen:
             seen[item.get("id")] = item
 
@@ -264,14 +247,19 @@ def get_grouped_matches() -> dict:
 
     for item in seen.values():
         match_id = str(item.get("id", ""))
-        if not match_id or item.get("status_code") == "FT":
+        status_code = item.get("status_code", "NS")
+        
+        # Tin tưởng API: Nếu API báo LIVE hoặc các mã giữa trận, ta coi là đang live
+        is_live_api = item.get("is_live", False) or status_code in {"1H", "2H", "HT", "PEN", "LIVE", "ET"}
+
+        if not match_id or status_code == "FT":
             continue
 
         league_obj = item.get("league") or {}
         league_name = league_obj.get("title", "")
         teams = item.get("teams") or {}
-        team_a = teams.get("home", {}).get("name", "")
-        team_b = teams.get("away", {}).get("name", "")
+        team_a = teams.get("home", {}).get("name", "").strip()
+        team_b = teams.get("away", {}).get("name", "").strip()
         
         if not team_a or not team_b:
             continue
@@ -288,12 +276,17 @@ def get_grouped_matches() -> dict:
         time_str = item.get("time", "")
         date_str = item.get("day_month", "")
         
-        kickoff = parse_kickoff(time_str, date_str)
-        if kickoff and (now > kickoff + timedelta(hours=8) or not is_within_24h(time_str, date_str, cate_type)):
-            continue
+        # ─── LOGIC LỌC THỜI GIAN AN TOÀN ───
+        # 1. Nếu trận ĐANG LIVE -> Bỏ qua kiểm tra thời gian (tránh sai lệch múi giờ làm mất trận)
+        # 2. Nếu trận CHƯA LIVE -> Chỉ lấy trận trong khoảng 6 tiếng trước đến 48 tiếng sau
+        if not is_live_api:
+            kickoff = parse_kickoff(time_str, date_str)
+            if kickoff:
+                if now > kickoff + timedelta(hours=6):  # Đã qua quá 6 tiếng (tránh trận hôm qua)
+                    continue
+                if kickoff > now + timedelta(hours=48): # Còn quá xa (tránh rác tương lai)
+                    continue
 
-        is_live = calc_is_live(item.get("status_code", "NS"), time_str, date_str)
-        # Lọc lấy danh sách key BLV hợp lệ từ list trận đấu
         blv_keys = [b for b in (item.get("blv") or []) if b != "nha-dai" and isinstance(b, str)]
 
         if match_id not in grouped:
@@ -309,15 +302,14 @@ def get_grouped_matches() -> dict:
                 "logo_a": teams.get("home", {}).get("logo", ""),
                 "logo_b": teams.get("away", {}).get("logo", ""),
                 "league": league_name,
-                "is_live": is_live,
-                "blvs_dict": {}
+                "is_live": is_live_api,
+                "blvs_dict": {},
+                "_blv_keys": blv_keys
             }
-        
-        if is_live:
-            grouped[match_id]["is_live"] = True
-            
-        # Lưu tạm để đối chiếu khi fetch chi tiết
-        grouped[match_id]["_blv_keys"] = blv_keys
+        else:
+            if is_live_api:
+                grouped[match_id]["is_live"] = True
+            grouped[match_id]["_blv_keys"] = list(set(grouped[match_id]["_blv_keys"] + blv_keys))
 
     # Fetch chi tiết để lấy link cho từng BLV
     for match_id, match_data in grouped.items():
@@ -332,38 +324,30 @@ def get_grouped_matches() -> dict:
                 stream_keys = ["link_stream_hd", "pc_stream_url", "mobile_stream_url", "link_stream_sd"]
                 
                 for blv in api_blv_list:
-                    if isinstance(blv, str):
-                        blv_key = blv
-                        blv_name = get_blv_display_name(blv_key)
-                        stream_url = None
-                    elif isinstance(blv, dict):
-                        # SỬA LỖI: API trả về "blv_key" và "blv_name", không phải "key" hay "id"
-                        blv_key = blv.get("blv_key") or blv.get("key") or blv.get("id")
+                    if isinstance(blv, dict):
+                        blv_key = blv.get("blv_key") or blv.get("key") or blv.get("id") or "unknown"
                         blv_name = blv.get("blv_name") or get_blv_display_name(blv_key)
                         
-                        # Chỉ lấy BLV có trong danh sách của trận đấu
-                        if blv_key and blv_key not in match_data.get("_blv_keys", []):
+                        valid_keys = match_data.get("_blv_keys", [])
+                        if blv_key != "unknown" and valid_keys and blv_key not in valid_keys:
                             continue
                             
                         stream_url = next((blv.get(k) for k in stream_keys if blv.get(k) and isinstance(blv.get(k), str)), None)
-                    else:
-                        continue
                         
-                    if stream_url:
-                        if blv_name not in match_data["blvs_dict"]:
-                            match_data["blvs_dict"][blv_name] = []
-                        if stream_url not in match_data["blvs_dict"][blv_name]:
-                            match_data["blvs_dict"][blv_name].append(stream_url)
+                        if stream_url:
+                            if blv_name not in match_data["blvs_dict"]:
+                                match_data["blvs_dict"][blv_name] = []
+                            if stream_url not in match_data["blvs_dict"][blv_name]:
+                                match_data["blvs_dict"][blv_name].append(stream_url)
         except Exception:
             pass
             
-        # Dọn dẹp key tạm
         match_data.pop("_blv_keys", None)
 
     return grouped
 
 # ─────────────────────────────────────────────────────────────────────────────
-# BUILD CHANNEL JSON (Nhiều stream link trong 1 channel)
+# BUILD CHANNEL JSON
 # ─────────────────────────────────────────────────────────────────────────────
 
 def build_channel(match: dict, match_id_safe: str, thumb_url: str = "") -> dict:
@@ -459,7 +443,7 @@ def main():
         status = "LIVE" if match["is_live"] else "SAP"
         log_time = format_time_hhmm(match['time'])
         log_date = format_date_ddmm(match['date'])
-        blv_str = ", ".join(match["blvs_dict"].keys())
+        blv_str = ", ".join(match["blvs_dict"].keys()) if match["blvs_dict"] else "Khong co link"
         
         print(f"[{status} {i+1}/{len(matches_list)}] {match['name']} ({log_time} {log_date}) | BLV: {blv_str}")
 
