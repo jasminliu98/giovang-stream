@@ -142,7 +142,7 @@ def get_blv_display_name(blv_key: str) -> str:
     return BLV_NAME_MAP.get(blv_key, blv_key.replace("blv-", "BLV ").title())
 
 # ─────────────────────────────────────────────────────────────────────────────
-# THUMBNAIL (ĐÃ SỬA LỖI PASTE ẢNH)
+# THUMBNAIL (ĐÃ KHÔI PHỤC BỐ CỤC GỐC + FIX LỖI PASTE)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def make_thumbnail(match, match_id_safe):
@@ -156,56 +156,129 @@ def make_thumbnail(match, match_id_safe):
         return out_path
 
     W, H = 1600, 1200
-    HEADER_H, FOOTER_H = 180, 160
-    bg = Image.new("RGB", (W, H), (245, 245, 248))
+    HEADER_H = 180
+    FOOTER_H = 160
+
+    bg   = Image.new("RGB", (W, H), (245, 245, 248))
     draw = ImageDraw.Draw(bg)
 
     for y in range(HEADER_H, H - FOOTER_H):
         ratio = (y - HEADER_H) / (H - FOOTER_H - HEADER_H)
-        draw.line([(0, y), (W, y)], fill=(int(248 - ratio * 18),) * 3)
+        gray  = int(248 - ratio * 18)
+        draw.line([(0, y), (W, y)], fill=(gray, gray, gray + 4))
 
-    draw.rectangle([(0, 0), (W, HEADER_H)], fill=(13, 20, 40))
-    draw.rectangle([(0, H - FOOTER_H), (W, H)], fill=(13, 20, 40))
-    draw.rectangle([(0, HEADER_H), (W, HEADER_H + 5)], fill=(220, 30, 40))
-    draw.rectangle([(0, H - FOOTER_H - 5), (W, H - FOOTER_H)], fill=(220, 30, 40))
+    draw.rectangle([(0, 0),            (W, HEADER_H)],  fill=(13, 20, 40))
+    draw.rectangle([(0, H - FOOTER_H), (W, H)],         fill=(13, 20, 40))
+
+    ACCENT = (220, 30, 40)
+    draw.rectangle([(0, HEADER_H),         (W, HEADER_H + 5)],    fill=ACCENT)
+    draw.rectangle([(0, H - FOOTER_H - 5), (W, H - FOOTER_H)],    fill=ACCENT)
 
     FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
     try:
-        font_vs = ImageFont.truetype(FONT_BOLD, 160)
+        font_vs   = ImageFont.truetype(FONT_BOLD, 160)
         font_time = ImageFont.truetype(FONT_BOLD, 100)
         font_team = ImageFont.truetype(FONT_BOLD, 58)
     except Exception:
         font_vs = font_time = font_team = ImageFont.load_default()
 
-    logo_size = 360
-    logo_y = HEADER_H + 40
-    name_center = logo_y + logo_size + 80
-    time_y = name_center + 80
+    content_top = HEADER_H + 5
+    content_bot = H - FOOTER_H - 5
+    content_h   = content_bot - content_top
 
-    for side, team_key, logo_key in [(W // 4, "team_a", "logo_a"), (W * 3 // 4, "team_b", "logo_b")]:
-        if match.get(logo_key):
-            img = fetch_image(match[logo_key])
-            if img:
-                try:
-                    # SỬA LỖI: Gán ảnh đã resize vào biến, dùng chính nó làm mask để tránh lỗi "images do not match"
-                    resized_img = img.resize((logo_size, logo_size), Image.LANCZOS)
-                    bg.paste(resized_img, (side - logo_size // 2, logo_y), resized_img)
-                except Exception:
-                    pass # Bỏ qua nếu ảnh lỗi, không làm crash toàn bộ script
+    # --- KHÔI PHỤC LOGIC CĂN GIỮA ĐỘNG ---
+    logo_size     = 360
+    name_h        = 120
+    time_h        = 110
+    gap_logo_name = 40
+    gap_name_time = 60
 
-        if match.get(team_key):
-            draw.text((side, name_center), match[team_key], fill=(20, 20, 20), font=font_team, anchor="mm")
+    total_block_h = logo_size + gap_logo_name + name_h + gap_name_time + time_h
+    block_top     = content_top + (content_h - total_block_h) // 2
 
-    draw.text((W // 2, logo_y + logo_size // 2), "VS", fill=(220, 30, 40), font=font_vs, anchor="mm")
+    logo_y       = block_top
+    name_block_y = logo_y + logo_size + gap_logo_name
+    name_center  = name_block_y + name_h // 2
+    time_y       = name_block_y + name_h + gap_name_time + time_h // 2
+    # -------------------------------------
+
+    # Hàm tự động co giãn font nếu tên đội quá dài
+    def draw_team_name(text, cx):
+        max_width = W // 2 - 60
+        font_size = 58
+        f = font_team
+        while font_size >= 28:
+            try:
+                f = ImageFont.truetype(FONT_BOLD, font_size)
+            except Exception:
+                f = ImageFont.load_default()
+            bbox = draw.textbbox((0, 0), text, font=f)
+            if (bbox[2] - bbox[0]) <= max_width:
+                break
+            font_size -= 3
+        draw.text((cx, name_center), text, fill=(20, 20, 20), font=f, anchor="mm")
+
+    # Paste ảnh với FIX: dùng resized_img làm cả ảnh lẫn mask
+    if match.get("logo_a"):
+        img = fetch_image(match["logo_a"])
+        if img:
+            try:
+                resized_img = img.resize((logo_size, logo_size), Image.LANCZOS)
+                x = W // 4 - logo_size // 2
+                bg.paste(resized_img, (x, logo_y), resized_img)
+            except Exception:
+                pass
+
+    if match.get("logo_b"):
+        img = fetch_image(match["logo_b"])
+        if img:
+            try:
+                resized_img = img.resize((logo_size, logo_size), Image.LANCZOS)
+                x = W * 3 // 4 - logo_size // 2
+                bg.paste(resized_img, (x, logo_y), resized_img)
+            except Exception:
+                pass
+
+    draw.text((W // 2, logo_y + logo_size // 2), "VS", fill=ACCENT, font=font_vs, anchor="mm")
+
+    if match.get("team_a"):
+        draw_team_name(match["team_a"], W // 4)
+    if match.get("team_b"):
+        draw_team_name(match["team_b"], W * 3 // 4)
 
     time_fmt = format_time_hhmm(match.get("time", ""))
     date_fmt = format_date_ddmm(match.get("date", ""))
     time_display = f"{time_fmt} {date_fmt}" if time_fmt and date_fmt else (time_fmt or "")
+    
     if time_display:
-        draw.text((W // 2, time_y), time_display, fill=(15, 15, 15), font=font_time, anchor="mm")
+        font_size = 100
+        f_time = font_time
+        while font_size >= 40:
+            try:
+                f_time = ImageFont.truetype(FONT_BOLD, font_size)
+            except Exception:
+                f_time = ImageFont.load_default()
+            bbox = draw.textbbox((0, 0), time_display, font=f_time)
+            if (bbox[2] - bbox[0]) <= W - 100:
+                break
+            font_size -= 4
+        draw.text((W // 2 + 4, time_y + 4), time_display, fill=ACCENT, font=f_time, anchor="mm")
+        draw.text((W // 2, time_y), time_display, fill=(15, 15, 15), font=f_time, anchor="mm")
 
     if match.get("league"):
-        draw.text((W // 2, HEADER_H // 2), match["league"].upper(), fill=(255, 255, 255), font=font_team, anchor="mm")
+        league_text = match["league"].upper()
+        font_size = 62
+        f = None
+        while font_size >= 28:
+            try:
+                f = ImageFont.truetype(FONT_BOLD, font_size)
+            except Exception:
+                f = ImageFont.load_default()
+            bbox = draw.textbbox((0, 0), league_text, font=f)
+            if (bbox[2] - bbox[0]) <= W - 60:
+                break
+            font_size -= 3
+        draw.text((W // 2, HEADER_H // 2), league_text, fill=(255, 255, 255), font=f, anchor="mm")
 
     draw.rectangle([(0, 0), (W - 1, H - 1)], outline=(180, 180, 180), width=3)
     bg.save(out_path, "PNG", optimize=True)
