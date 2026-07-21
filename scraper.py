@@ -60,7 +60,7 @@ API_FIXTURES  = "https://live-api.keovip88.net/api/fixtures/"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v2"
+THUMB_VERSION = "v1"
 
 CATE_MAP = {
     "football": "⚽ Bóng Đá", "basketball": "🏀 Bóng Rổ", "tennis": "🎾 Tennis",
@@ -97,6 +97,24 @@ def parse_time_sort(time_str: str, date_str: str) -> int:
     if kickoff:
         return kickoff.month * 10_000_000 + kickoff.day * 10_000 + kickoff.hour * 100 + kickoff.minute
     return 999_999_999
+
+# ─────────────────────────────────────────────────────────────────────────────
+# BỘ LỌC THỜI GIAN (CHỈ ÁP DỤNG CHO BÓNG ĐÁ)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def is_within_24h(time_str: str, date_str: str, cate_type: str = "football") -> bool:
+    # Nếu KHÔNG phải bóng đá, luôn cho phép qua (không khóa thời gian)
+    if cate_type != "football":
+        return True
+        
+    kickoff = parse_kickoff(time_str, date_str)
+    if kickoff is None:
+        return True
+        
+    now = now_vn()
+    lower = now - timedelta(hours=6)
+    upper = now + timedelta(hours=24)
+    return lower <= kickoff <= upper
 
 def format_time_hhmm(time_str: str) -> str:
     if not time_str: return ""
@@ -142,7 +160,7 @@ def get_blv_display_name(blv_key: str) -> str:
     return BLV_NAME_MAP.get(blv_key, blv_key.replace("blv-", "BLV ").title())
 
 # ─────────────────────────────────────────────────────────────────────────────
-# THUMBNAIL (ĐÃ KHÔI PHỤC BỐ CỤC GỐC + FIX LỖI PASTE)
+# THUMBNAIL (BỐ CỤC GỐC + FIX LỖI PASTE)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def make_thumbnail(match, match_id_safe):
@@ -186,7 +204,6 @@ def make_thumbnail(match, match_id_safe):
     content_bot = H - FOOTER_H - 5
     content_h   = content_bot - content_top
 
-    # --- KHÔI PHỤC LOGIC CĂN GIỮA ĐỘNG ---
     logo_size     = 360
     name_h        = 120
     time_h        = 110
@@ -200,9 +217,7 @@ def make_thumbnail(match, match_id_safe):
     name_block_y = logo_y + logo_size + gap_logo_name
     name_center  = name_block_y + name_h // 2
     time_y       = name_block_y + name_h + gap_name_time + time_h // 2
-    # -------------------------------------
 
-    # Hàm tự động co giãn font nếu tên đội quá dài
     def draw_team_name(text, cx):
         max_width = W // 2 - 60
         font_size = 58
@@ -218,7 +233,6 @@ def make_thumbnail(match, match_id_safe):
             font_size -= 3
         draw.text((cx, name_center), text, fill=(20, 20, 20), font=f, anchor="mm")
 
-    # Paste ảnh với FIX: dùng resized_img làm cả ảnh lẫn mask
     if match.get("logo_a"):
         img = fetch_image(match["logo_a"])
         if img:
@@ -327,6 +341,8 @@ def get_grouped_matches() -> dict:
     for item in seen.values():
         match_id = str(item.get("id", ""))
         status_code = item.get("status_code", "NS")
+        
+        # Tin tưởng API: Nếu API báo LIVE hoặc các mã giữa trận, ta coi là đang live
         is_live_api = item.get("is_live", False) or status_code in {"1H", "2H", "HT", "PEN", "LIVE", "ET"}
 
         if not match_id or status_code == "FT":
@@ -353,14 +369,11 @@ def get_grouped_matches() -> dict:
         time_str = item.get("time", "")
         date_str = item.get("day_month", "")
         
-        # Chỉ lọc thời gian nếu KHÔNG phải trận đang LIVE
+        # ─── LOGIC LỌC THỜI GIAN ĐÃ SỬA ───
+        # Chỉ áp dụng bộ lọc thời gian nếu KHÔNG phải trận đang LIVE
         if not is_live_api:
-            kickoff = parse_kickoff(time_str, date_str)
-            if kickoff:
-                if now > kickoff + timedelta(hours=6):
-                    continue
-                if kickoff > now + timedelta(hours=48):
-                    continue
+            if not is_within_24h(time_str, date_str, cate_type):
+                continue
 
         blv_keys = [b for b in (item.get("blv") or []) if b != "nha-dai" and isinstance(b, str)]
 
