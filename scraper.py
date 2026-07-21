@@ -87,6 +87,7 @@ def make_id(text, prefix):
 def fetch_image(url):
     try:
         res = requests.get(url, headers=HEADERS, timeout=8)
+        res.raise_for_status()
         return Image.open(BytesIO(res.content)).convert("RGBA")
     except Exception:
         return None
@@ -141,7 +142,7 @@ def get_blv_display_name(blv_key: str) -> str:
     return BLV_NAME_MAP.get(blv_key, blv_key.replace("blv-", "BLV ").title())
 
 # ─────────────────────────────────────────────────────────────────────────────
-# THUMBNAIL
+# THUMBNAIL (ĐÃ SỬA LỖI PASTE ẢNH)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def make_thumbnail(match, match_id_safe):
@@ -185,7 +186,13 @@ def make_thumbnail(match, match_id_safe):
         if match.get(logo_key):
             img = fetch_image(match[logo_key])
             if img:
-                bg.paste(img.resize((logo_size, logo_size), Image.LANCZOS), (side - logo_size // 2, logo_y), img)
+                try:
+                    # SỬA LỖI: Gán ảnh đã resize vào biến, dùng chính nó làm mask để tránh lỗi "images do not match"
+                    resized_img = img.resize((logo_size, logo_size), Image.LANCZOS)
+                    bg.paste(resized_img, (side - logo_size // 2, logo_y), resized_img)
+                except Exception:
+                    pass # Bỏ qua nếu ảnh lỗi, không làm crash toàn bộ script
+
         if match.get(team_key):
             draw.text((side, name_center), match[team_key], fill=(20, 20, 20), font=font_team, anchor="mm")
 
@@ -217,7 +224,7 @@ def cleanup_old_thumbs(days: int = 3):
             except Exception: pass
 
 # ─────────────────────────────────────────────────────────────────────────────
-# FETCH & GROUP LOGIC (ĐÃ SỬA LOGIC LỌC THỜI GIAN)
+# FETCH & GROUP LOGIC
 # ─────────────────────────────────────────────────────────────────────────────
 
 def fetch_json(url: str) -> list:
@@ -234,7 +241,6 @@ def get_grouped_matches() -> dict:
     all_items = fetch_json(API_ALL)
 
     seen = {}
-    # Ưu tiên live_items để giữ trạng thái LIVE chính xác nhất
     for item in live_items:
         if item.get("id"):
             seen[item.get("id")] = item
@@ -248,8 +254,6 @@ def get_grouped_matches() -> dict:
     for item in seen.values():
         match_id = str(item.get("id", ""))
         status_code = item.get("status_code", "NS")
-        
-        # Tin tưởng API: Nếu API báo LIVE hoặc các mã giữa trận, ta coi là đang live
         is_live_api = item.get("is_live", False) or status_code in {"1H", "2H", "HT", "PEN", "LIVE", "ET"}
 
         if not match_id or status_code == "FT":
@@ -276,15 +280,13 @@ def get_grouped_matches() -> dict:
         time_str = item.get("time", "")
         date_str = item.get("day_month", "")
         
-        # ─── LOGIC LỌC THỜI GIAN AN TOÀN ───
-        # 1. Nếu trận ĐANG LIVE -> Bỏ qua kiểm tra thời gian (tránh sai lệch múi giờ làm mất trận)
-        # 2. Nếu trận CHƯA LIVE -> Chỉ lấy trận trong khoảng 6 tiếng trước đến 48 tiếng sau
+        # Chỉ lọc thời gian nếu KHÔNG phải trận đang LIVE
         if not is_live_api:
             kickoff = parse_kickoff(time_str, date_str)
             if kickoff:
-                if now > kickoff + timedelta(hours=6):  # Đã qua quá 6 tiếng (tránh trận hôm qua)
+                if now > kickoff + timedelta(hours=6):
                     continue
-                if kickoff > now + timedelta(hours=48): # Còn quá xa (tránh rác tương lai)
+                if kickoff > now + timedelta(hours=48):
                     continue
 
         blv_keys = [b for b in (item.get("blv") or []) if b != "nha-dai" and isinstance(b, str)]
@@ -311,7 +313,6 @@ def get_grouped_matches() -> dict:
                 grouped[match_id]["is_live"] = True
             grouped[match_id]["_blv_keys"] = list(set(grouped[match_id]["_blv_keys"] + blv_keys))
 
-    # Fetch chi tiết để lấy link cho từng BLV
     for match_id, match_data in grouped.items():
         try:
             url = f"{API_FIXTURES}/{match_id}"
