@@ -308,7 +308,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -393,10 +393,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -445,7 +445,7 @@
             "time": "06:30:00",
             "date": "23/07",
             "blv": "Số 4",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -483,7 +483,25 @@
                     {
                       "id": "st-1215b0577e",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-bac6a16a1a",
+                          "name": "Số 3",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784760743_hd/1784760743_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -498,7 +516,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/0/09/Connecticut_Sun_logo.svg",
             "time": "07:00:00",
             "date": "23/07",
-            "blv": "",
+            "blv": "Số 3",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -537,7 +555,25 @@
                     {
                       "id": "st-319f873ff6",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-69dc9165f1",
+                          "name": "Số 16",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784760841_hd/1784760841_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -552,7 +588,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYG9Q330ok6AqN2wDHAAXj4btM9_YSnn6tdqYLGzDFYA&s",
             "time": "09:00:00",
             "date": "23/07",
-            "blv": "",
+            "blv": "Số 16",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -1011,6 +1047,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/67ra814vy9rk_b30e0743_20260723.png?v=b30e0743",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f0eccb2c0b",
+          "name": "Brazilian Series vs Poker Day 1 | 08:00 23/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f0eccb2c0b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f0eccb2c0b",
+                  "name": "Brazilian Series vs Poker Day 1",
+                  "streams": [
+                    {
+                      "id": "st-f0eccb2c0b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-02a6ec245b",
+                          "name": "Số 7",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784760998_hd/1784760998_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BSOP",
+            "team_a": "Brazilian Series",
+            "team_b": "Poker Day 1",
+            "logo_a": "https://res.cloudinary.com/jurojinpoker/image/upload/v1732822246/blog/bsop.webp",
+            "logo_b": "https://i.ytimg.com/vi/CJpNQh5c_2A/maxresdefault.jpg",
+            "time": "08:00:00",
+            "date": "23/07",
+            "blv": "Số 7",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/vg2vpwx4xh8q_25e8835b_20260723.png?v=25e8835b",
             "width": 1600,
             "height": 1200
           }
