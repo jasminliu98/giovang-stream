@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c39ffa38f8",
-          "name": "Tottenham Hotspur vs Milton Keynes Dons | 23:00 22/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c39ffa38f8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c39ffa38f8",
-                  "name": "Tottenham Hotspur vs Milton Keynes Dons",
-                  "streams": [
-                    {
-                      "id": "st-c39ffa38f8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2c3185a554",
-                          "name": "Số 15",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784702250_hd/1784702250_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Tottenham Hotspur",
-            "team_b": "Milton Keynes Dons",
-            "logo_a": "https://images.keovip88.net/images/teams/tottenham-hotspur.png",
-            "logo_b": "https://images.keovip88.net/images/teams/milton-keynes-dons.png",
-            "time": "23:00:00",
-            "date": "22/07",
-            "blv": "Số 15",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a5d650b24d46db870a3c89e_9b2238a3_20260722.png?v=9b2238a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-25ec26d09a",
-          "name": "PKKU vs VJS | 23:00 22/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-25ec26d09a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-25ec26d09a",
-                  "name": "PKKU vs VJS",
-                  "streams": [
-                    {
-                      "id": "st-25ec26d09a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27cd0c8431",
-                          "name": "Số 13",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784714137_hd/1784714137_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Finland - Ykkönen",
-            "team_a": "PKKU",
-            "team_b": "VJS",
-            "logo_a": "https://static.flashscore.com/res/image/data/KG63fHZA-C4tNQkIk.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OSg5yPXg-rXOKoifF.png",
-            "time": "23:00:00",
-            "date": "22/07",
-            "blv": "Số 13",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/4rhd0myo4bbx_2a2f2355_20260722.png?v=2a2f2355",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-202c6ffe16",
           "name": "FC Neftci Baku vs Dinamo Minsk | 23:00 22/07",
@@ -228,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a5d650b24d46db870a3c93f_3ccf4712_20260722.png?v=3ccf4712",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c39ffa38f8",
+          "name": "Tottenham Hotspur vs Milton Keynes Dons | 23:00 22/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c39ffa38f8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c39ffa38f8",
+                  "name": "Tottenham Hotspur vs Milton Keynes Dons",
+                  "streams": [
+                    {
+                      "id": "st-c39ffa38f8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2c3185a554",
+                          "name": "Số 15",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784702250_hd/1784702250_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu",
+            "team_a": "Tottenham Hotspur",
+            "team_b": "Milton Keynes Dons",
+            "logo_a": "https://images.keovip88.net/images/teams/tottenham-hotspur.png",
+            "logo_b": "https://images.keovip88.net/images/teams/milton-keynes-dons.png",
+            "time": "23:00:00",
+            "date": "22/07",
+            "blv": "Số 15",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a5d650b24d46db870a3c89e_9b2238a3_20260722.png?v=9b2238a3",
             "width": 1600,
             "height": 1200
           }
