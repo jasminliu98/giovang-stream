@@ -843,7 +843,25 @@
                     {
                       "id": "st-c782c63b38",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-502497c66e",
+                          "name": "Số 14",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784715316_hd/1784715316_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -858,7 +876,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/IZ04YpAr-rPdnEwGr.png",
             "time": "02:00:00",
             "date": "23/07",
-            "blv": "",
+            "blv": "Số 14",
             "is_live": false,
             "cate_type": "basketball"
           },
