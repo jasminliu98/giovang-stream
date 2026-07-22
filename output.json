@@ -902,83 +902,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-322d92de88",
-          "name": "EYEBALLERS vs FaZe Clan | 17:00 22/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-322d92de88",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-322d92de88",
-                  "name": "EYEBALLERS vs FaZe Clan",
-                  "streams": [
-                    {
-                      "id": "st-322d92de88",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aa93ff1513",
-                          "name": "Số 14",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784599025_hd/1784599025_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BLAST Bounty CS2",
-            "team_a": "EYEBALLERS",
-            "team_b": "FaZe Clan",
-            "logo_a": "https://static.flashscore.com/res/image/data/riXYYRwS-jR5Xl2rl.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/EPOGwQYA-KMPqTYKk.png",
-            "time": "17:00:00",
-            "date": "22/07",
-            "blv": "Số 14",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/q645png9xcuo_881fa065_20260722.png?v=881fa065",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-112a10421e",
           "name": "Nemiga Gaming vs G2 Esports | 19:30 22/07",
