@@ -314,78 +314,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-c1b8995176",
-          "name": "Whai vs Otago Nuggets | 14:00 22/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c1b8995176",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c1b8995176",
-                  "name": "Whai vs Otago Nuggets",
-                  "streams": [
-                    {
-                      "id": "st-c1b8995176",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-da91edc4b2",
-                          "name": "Số 12",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784608197_hd/1784608197_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League (New Zealand)",
-            "team_a": "Whai",
-            "team_b": "Otago Nuggets",
-            "logo_a": "https://nba.titan007.com/files/team/1hs0gj835s6.png",
-            "logo_b": "https://nba.titan007.com/files/team/1jp9xtwzwnw.png",
-            "time": "14:00:00",
-            "date": "22/07",
-            "blv": "Số 12",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/17030279_fbfb0426_20260722.png?v=fbfb0426",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-259647b2d5",
           "name": "Negros Muscovados vs Pasay Voyagers | 15:00 22/07",
           "type": "single",
@@ -465,10 +393,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -517,7 +445,7 @@
             "time": "16:15:00",
             "date": "22/07",
             "blv": "Số 12",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
