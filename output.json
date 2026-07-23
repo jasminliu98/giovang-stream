@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -312,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +364,7 @@
             "time": "23:00:00",
             "date": "23/07",
             "blv": "Số 5",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1636,8 +1636,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-61212eebe7",
-          "name": "Sinners vs FUT Esports | 19:00 23/07",
+          "id": "gv-550f978f2d",
+          "name": "Gentle Mates vs paiN Gaming | 22:00 23/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1647,78 +1647,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-61212eebe7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-61212eebe7",
-                  "name": "Sinners vs FUT Esports",
-                  "streams": [
-                    {
-                      "id": "st-61212eebe7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-37b9bd1421",
-                          "name": "Số 14",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784801043_hd/1784801043_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Blast Bounty",
-            "team_a": "Sinners",
-            "team_b": "FUT Esports",
-            "logo_a": "https://liquipedia.net/commons/images/thumb/4/4f/SINNERS_Esports_allmode.png/600px-SINNERS_Esports_allmode.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8IALaoGG-WQ0dY9GI.png",
-            "time": "19:00:00",
-            "date": "23/07",
-            "blv": "Số 14",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/41ludlxopizs_1f2d6303_20260723.png?v=1f2d6303",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-550f978f2d",
-          "name": "Gentle Mates vs paiN Gaming | 22:00 23/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1767,7 +1695,7 @@
             "time": "22:00:00",
             "date": "23/07",
             "blv": "Số 14",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
