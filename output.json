@@ -1869,7 +1869,25 @@
                     {
                       "id": "st-0cddfe62db",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f61d3d337a",
+                          "name": "Số 16",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784790897_hd/1784790897_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1884,7 +1902,7 @@
             "logo_b": "https://files.tips.gg/static/image/teams/natus-vincere-valorant.png",
             "time": "01:00:00",
             "date": "24/07",
-            "blv": "",
+            "blv": "Số 16",
             "is_live": false,
             "cate_type": "esport"
           },
