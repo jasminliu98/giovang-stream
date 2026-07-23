@@ -1239,6 +1239,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-dfdbf034f2",
+          "name": "Cambodia vs Singapore | 19:00 24/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dfdbf034f2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dfdbf034f2",
+                  "name": "Cambodia vs Singapore",
+                  "streams": [
+                    {
+                      "id": "st-dfdbf034f2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eea08b8200",
+                          "name": "Số 6",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784612029_hd/1784612029_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asia - ASEAN Championship",
+            "team_a": "Cambodia",
+            "team_b": "Singapore",
+            "logo_a": "https://static.flashscore.com/res/image/data/v7hbfWAr-0pcoctv9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YJN4hmHG-Qq89lvZJ.png",
+            "time": "19:00:00",
+            "date": "24/07",
+            "blv": "Số 6",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/cs36y6i6iyo2_349398dd_20260723.png?v=349398dd",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1550,83 +1622,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-eb0214c21c",
-          "name": "T1 vs VL | 17:00 23/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb0214c21c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-eb0214c21c",
-                  "name": "T1 vs VL",
-                  "streams": [
-                    {
-                      "id": "st-eb0214c21c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-92aa84fbb1",
-                          "name": "Số 7",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784735969_hd/1784735969_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VCT Pacific",
-            "team_a": "T1",
-            "team_b": "VL",
-            "logo_a": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
-            "logo_b": "https://imgs.search.brave.com/ovt9lAYKqTCkv_iQd_GrxKH6Nna__rHniqyUus07GuA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/ZS52YXJyZWwuanAv/Y2RuL3Nob3AvZmls/ZXMvdmFycmVsX25l/dy5wbmc_dj0xNzc3/NTg3NDQ4JndpZHRo/PTEwODA",
-            "time": "17:00:00",
-            "date": "23/07",
-            "blv": "Số 7",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/jwylaqffd51w_cb9fba42_20260723.png?v=cb9fba42",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e6eb2fcfcc",
           "name": "FOKUS vs Aurora | 17:00 23/07",
