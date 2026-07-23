@@ -978,7 +978,25 @@
                     {
                       "id": "st-a9f0ba930d",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0965c55b55",
+                          "name": "Số 10",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784789994_hd/1784789994_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -993,7 +1011,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/jaJfnQDa-2DRkEf2q.png",
             "time": "06:00:00",
             "date": "24/07",
-            "blv": "",
+            "blv": "Số 10",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1779,7 +1797,25 @@
                     {
                       "id": "st-7538e37cfb",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8c632ddbf",
+                          "name": "Số 14",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784790173_hd/1784790173_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1794,7 +1830,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/zPWPSOYg-fwRTMaSf.png",
             "time": "00:00:00",
             "date": "24/07",
-            "blv": "",
+            "blv": "Số 14",
             "is_live": false,
             "cate_type": "esport"
           },
@@ -1803,6 +1839,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/5ogvrjt3slfm_bdb5c024_20260723.png?v=bdb5c024",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0cddfe62db",
+          "name": "Gentle Mates vs Natus Vincere | 01:00 24/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0cddfe62db",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0cddfe62db",
+                  "name": "Gentle Mates vs Natus Vincere",
+                  "streams": [
+                    {
+                      "id": "st-0cddfe62db",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VCT 2026: EMEA",
+            "team_a": "Gentle Mates",
+            "team_b": "Natus Vincere",
+            "logo_a": "https://files.tips.gg/static/image/teams/gentle-mates-valorant.png",
+            "logo_b": "https://files.tips.gg/static/image/teams/natus-vincere-valorant.png",
+            "time": "01:00:00",
+            "date": "24/07",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ukffbb9i07b2_7d2e74cc_20260723.png?v=7d2e74cc",
             "width": 1600,
             "height": 1200
           }
