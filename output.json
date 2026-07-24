@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5b6512745a",
-          "name": "Rosenborg vs Manchester United | 23:00 24/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5b6512745a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5b6512745a",
-                  "name": "Rosenborg vs Manchester United",
-                  "streams": [
-                    {
-                      "id": "st-5b6512745a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ccfba1cc97",
-                          "name": "Số 13",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784902533_hd/1784902533_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Rosenborg",
-            "team_b": "Manchester United",
-            "logo_a": "https://images.keovip88.net/images/teams/rosenborg-bk.png",
-            "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
-            "time": "23:00:00",
-            "date": "24/07",
-            "blv": "Số 13",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a60080a24d46db870320bcb_5a8f7bcd_20260725.png?v=5a8f7bcd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-105bb8e901",
           "name": "Jaro vs SJK Seinajoki | 23:00 24/07",
@@ -1115,8 +1043,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-102ef9d05d",
-          "name": "Team Liquid vs Team Vitality | 21:00 24/07",
+          "id": "gv-553fc9e325",
+          "name": "Sharks vs FURIA | 23:30 24/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1130,23 +1058,23 @@
           ],
           "sources": [
             {
-              "id": "src-102ef9d05d",
+              "id": "src-553fc9e325",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-102ef9d05d",
-                  "name": "Team Liquid vs Team Vitality",
+                  "id": "ct-553fc9e325",
+                  "name": "Sharks vs FURIA",
                   "streams": [
                     {
-                      "id": "st-102ef9d05d",
+                      "id": "st-553fc9e325",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-eb381ebb8a",
+                          "id": "lnk-4e91c8d452",
                           "name": "Số 14",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784611829_hd/1784611829_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784903163_hd/1784903163_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1167,11 +1095,11 @@
           ],
           "org_metadata": {
             "league": "BLAST Bounty CS2",
-            "team_a": "Team Liquid",
-            "team_b": "Team Vitality",
-            "logo_a": "https://static.flashscore.com/res/image/data/40G19RDa-QJruPzw9.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/C8zF3GEG-lG2kTCDf.png",
-            "time": "21:00:00",
+            "team_a": "Sharks",
+            "team_b": "FURIA",
+            "logo_a": "https://static.flashscore.com/res/image/data/bPYMcldM-A19EcpvU.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/G2z2rzf5-EgrECzdn.png",
+            "time": "23:30:00",
             "date": "24/07",
             "blv": "Số 14",
             "is_live": true,
@@ -1181,7 +1109,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/u2pr2pbnfo57_f72e2792_20260725.png?v=f72e2792",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/i5mt3pgalvjn_ac00c43c_20260725.png?v=ac00c43c",
             "width": 1600,
             "height": 1200
           }
@@ -1254,78 +1182,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/x2ifp0wiebmi_674b5979_20260725.png?v=674b5979",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-553fc9e325",
-          "name": "Sharks vs FURIA | 23:30 24/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-553fc9e325",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-553fc9e325",
-                  "name": "Sharks vs FURIA",
-                  "streams": [
-                    {
-                      "id": "st-553fc9e325",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4e91c8d452",
-                          "name": "Số 14",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784903163_hd/1784903163_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BLAST Bounty CS2",
-            "team_a": "Sharks",
-            "team_b": "FURIA",
-            "logo_a": "https://static.flashscore.com/res/image/data/bPYMcldM-A19EcpvU.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/G2z2rzf5-EgrECzdn.png",
-            "time": "23:30:00",
-            "date": "24/07",
-            "blv": "Số 14",
-            "is_live": false,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/i5mt3pgalvjn_ac00c43c_20260725.png?v=ac00c43c",
             "width": 1600,
             "height": 1200
           }
