@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-105bb8e901",
-          "name": "Jaro vs SJK Seinajoki | 23:00 24/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-105bb8e901",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-105bb8e901",
-                  "name": "Jaro vs SJK Seinajoki",
-                  "streams": [
-                    {
-                      "id": "st-105bb8e901",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c05338e79f",
-                          "name": "Số 5",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784902584_hd/1784902584_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Phần Lan",
-            "team_a": "Jaro",
-            "team_b": "SJK Seinajoki",
-            "logo_a": "https://images.keovip88.net/images/teams/jaro.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sjk-seinajoen.png",
-            "time": "23:00:00",
-            "date": "24/07",
-            "blv": "Số 5",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a581f2d24d46db870b0168c_e7c01ed2_20260725.png?v=e7c01ed2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-fd8e6848dd",
           "name": "Vasteras SK vs Orgryte | 00:00 25/07",
@@ -588,6 +516,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a59709924d46db870a53a7d_b71fdb9e_20260725.png?v=b71fdb9e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d226427882",
+          "name": "Standard Liège vs Juventus | 01:00 26/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d226427882",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d226427882",
+                  "name": "Standard Liège vs Juventus",
+                  "streams": [
+                    {
+                      "id": "st-d226427882",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d60655df07",
+                          "name": "Số 10",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784882844_hd/1784882844_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World - Club Friendly",
+            "team_a": "Standard Liège",
+            "team_b": "Juventus",
+            "logo_a": "https://static.flashscore.com/res/image/data/xGEOiwg5-tjZYJCwg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/GKF3dlf5-0nz5yHcE.png",
+            "time": "01:00:00",
+            "date": "26/07",
+            "blv": "Số 10",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/us4yas5ifsq7_0819807f_20260725.png?v=0819807f",
             "width": 1600,
             "height": 1200
           }
