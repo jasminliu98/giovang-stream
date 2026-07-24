@@ -694,83 +694,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-40d91343a5",
-          "name": "3DMAX vs Magic | 16:00 24/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-40d91343a5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-40d91343a5",
-                  "name": "3DMAX vs Magic",
-                  "streams": [
-                    {
-                      "id": "st-40d91343a5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2596e0a9bd",
-                          "name": "Số 14",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784856683_hd/1784856683_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BLAST Bounty CS2",
-            "team_a": "3DMAX",
-            "team_b": "Magic",
-            "logo_a": "https://static.flashscore.com/res/image/data/UHk62hzB-zTSIb9ET.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/IqG4njFa-CvFEsMDF.png",
-            "time": "16:00:00",
-            "date": "24/07",
-            "blv": "Số 14",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/usnncbgwg2iz_36cfd4a1_20260724.png?v=36cfd4a1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3c0901b592",
           "name": "Heroic vs The Mongolz | 18:30 24/07",
