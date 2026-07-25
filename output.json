@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-71038d94fb",
-          "name": "Spirit FC vs Western Sydney Wanderers AM | 14:30 25/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-71038d94fb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-71038d94fb",
-                  "name": "Spirit FC vs Western Sydney Wanderers AM",
-                  "streams": [
-                    {
-                      "id": "st-71038d94fb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f359cd74be",
-                          "name": "Số 2",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784955830_hd/1784955830_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NPL NSW Úc",
-            "team_a": "Spirit FC",
-            "team_b": "Western Sydney Wanderers AM",
-            "logo_a": "https://images.keovip88.net/images/teams/spirit-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/western-sydney-wanderers-am.png",
-            "time": "14:30:00",
-            "date": "25/07",
-            "blv": "Số 2",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a59709224d46db870a531a33_625973d1_20260725.png?v=625973d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9a639cbd1a",
           "name": "A.P.I.A. Leichhardt Tigers vs University NSW | 15:00 25/07",
@@ -2359,11 +2287,83 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-e1d89d6f44",
+          "name": "100 Thieves vs Team Spirit | 17:00 25/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e1d89d6f44",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e1d89d6f44",
+                  "name": "100 Thieves vs Team Spirit",
+                  "streams": [
+                    {
+                      "id": "st-e1d89d6f44",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8512dd4547",
+                          "name": "Số 2",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784956114_hd/1784956114_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BLAST Bounty CS2",
+            "team_a": "100 Thieves",
+            "team_b": "Team Spirit",
+            "logo_a": "https://static.flashscore.com/res/image/data/Y5Fp2sFG-j7Z9IDCI.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QcXfQGf5-KKlHXGtD.png",
+            "time": "17:00:00",
+            "date": "25/07",
+            "blv": "Số 2",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/crv38h4l1k4x_2ce9abc8_20260725.png?v=2ce9abc8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-883148a4a9",
           "name": "DFM vs PRX | 17:00 24/07",
@@ -2432,78 +2432,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/x2ifp0wiebmi_674b5979_20260725.png?v=674b5979",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e1d89d6f44",
-          "name": "100 Thieves vs Team Spirit | 17:00 25/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1d89d6f44",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e1d89d6f44",
-                  "name": "100 Thieves vs Team Spirit",
-                  "streams": [
-                    {
-                      "id": "st-e1d89d6f44",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8512dd4547",
-                          "name": "Số 2",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784956114_hd/1784956114_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BLAST Bounty CS2",
-            "team_a": "100 Thieves",
-            "team_b": "Team Spirit",
-            "logo_a": "https://static.flashscore.com/res/image/data/Y5Fp2sFG-j7Z9IDCI.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QcXfQGf5-KKlHXGtD.png",
-            "time": "17:00:00",
-            "date": "25/07",
-            "blv": "Số 2",
-            "is_live": false,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/crv38h4l1k4x_2ce9abc8_20260725.png?v=2ce9abc8",
             "width": 1600,
             "height": 1200
           }
