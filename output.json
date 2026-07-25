@@ -1981,83 +1981,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-075002e006",
-          "name": "Wellington Saints vs Southland Sharks | 11:00 25/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-075002e006",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-075002e006",
-                  "name": "Wellington Saints vs Southland Sharks",
-                  "streams": [
-                    {
-                      "id": "st-075002e006",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c9cbd8b55b",
-                          "name": "Số 12",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784951159_hd/1784951159_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League (New Zealand)",
-            "team_a": "Wellington Saints",
-            "team_b": "Southland Sharks",
-            "logo_a": "https://nba.titan007.com/files/team/1hwcjhd7511h.png",
-            "logo_b": "https://nba.titan007.com/files/team/1hs0gmz1ka23.png",
-            "time": "11:00:00",
-            "date": "25/07",
-            "blv": "Số 12",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/10130273_8dce7f9e_20260725.png?v=8dce7f9e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-2069e7371f",
           "name": "Nelson Giants vs Whai | 14:30 25/07",
