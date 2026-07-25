@@ -740,83 +740,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-dec216a35a",
-          "name": "Calgary Surge vs Edmonton Stingers | 08:30 25/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dec216a35a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-dec216a35a",
-                  "name": "Calgary Surge vs Edmonton Stingers",
-                  "streams": [
-                    {
-                      "id": "st-dec216a35a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc3d703297",
-                          "name": "Số 16",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784907887_hd/1784907887_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Canada EBL",
-            "team_a": "Calgary Surge",
-            "team_b": "Edmonton Stingers",
-            "logo_a": "https://3e026d5af78aab3f1bd4.cdn6.editmysite.com/uploads/b/3e026d5af78aab3f1bd4a16c5a1f85809e84127a3fa87cdc2c8064535cfbc2ce/CalgarySurge__Icon_OneColour_Red_1726609563.png?width=2400&optimize=medium",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/0/03/Edmonton_Stingers_Logo.png",
-            "time": "08:30:00",
-            "date": "25/07",
-            "blv": "Số 16",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/23351271_89414687_20260725.png?v=89414687",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7c22dfc0a5",
           "name": "Winnipeg Sea Bears vs Hamilton Honey Badgers | 02:30 26/07",
