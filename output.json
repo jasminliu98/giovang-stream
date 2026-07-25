@@ -771,7 +771,25 @@
                     {
                       "id": "st-075002e006",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-c9cbd8b55b",
+                          "name": "Số 12",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784951159_hd/1784951159_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -786,7 +804,7 @@
             "logo_b": "https://nba.titan007.com/files/team/1hs0gmz1ka23.png",
             "time": "11:00:00",
             "date": "25/07",
-            "blv": "",
+            "blv": "Số 12",
             "is_live": true,
             "cate_type": "basketball"
           },
