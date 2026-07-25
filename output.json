@@ -3022,6 +3022,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-02e4d7aa87",
+          "name": "Ankalaev vs Rountree Jr | 20:00 25/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-02e4d7aa87",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-02e4d7aa87",
+                  "name": "Ankalaev vs Rountree Jr",
+                  "streams": [
+                    {
+                      "id": "st-02e4d7aa87",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3c767092d7",
+                          "name": "Số 4",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784956252_hd/1784956252_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UFC Fight Night",
+            "team_a": "Ankalaev",
+            "team_b": "Rountree Jr",
+            "logo_a": "https://static.flashscore.com/res/image/data/0dc4iwf5-CpOxY0ki.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/S0K7I1cM-j5GLqGjA.png",
+            "time": "20:00:00",
+            "date": "25/07",
+            "blv": "Số 4",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/zd291c73i1kl_76cf5312_20260725.png?v=76cf5312",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-9ae1268e24",
           "name": "Ankalaev vs Rountree Jr | 20:00 25/07",
           "type": "single",
@@ -3089,78 +3161,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ohgm5gr84knm_0c29a9ed_20260725.png?v=0c29a9ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-02e4d7aa87",
-          "name": "Ankalaev vs Rountree Jr | 20:14 25/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-02e4d7aa87",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-02e4d7aa87",
-                  "name": "Ankalaev vs Rountree Jr",
-                  "streams": [
-                    {
-                      "id": "st-02e4d7aa87",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3c767092d7",
-                          "name": "Số 4",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784956252_hd/1784956252_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UFC Fight Night",
-            "team_a": "Ankalaev",
-            "team_b": "Rountree Jr",
-            "logo_a": "https://static.flashscore.com/res/image/data/0dc4iwf5-CpOxY0ki.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/S0K7I1cM-j5GLqGjA.png",
-            "time": "20:14:00",
-            "date": "25/07",
-            "blv": "Số 4",
-            "is_live": false,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/zd291c73i1kl_76cf5312_20260725.png?v=76cf5312",
             "width": 1600,
             "height": 1200
           }
@@ -3399,6 +3399,78 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-6a4e85774d",
+          "name": "F1 Hungary vs F1 Hungary | 17:30 25/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6a4e85774d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6a4e85774d",
+                  "name": "F1 Hungary vs F1 Hungary",
+                  "streams": [
+                    {
+                      "id": "st-6a4e85774d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f522a409fb",
+                          "name": "Số 7",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784611124_hd/1784611124_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "F1 Hungary",
+            "team_a": "F1 Hungary",
+            "team_b": "F1 Hungary",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/45/F1_logo.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/4/45/F1_logo.svg",
+            "time": "17:30:00",
+            "date": "25/07",
+            "blv": "Số 7",
+            "is_live": false,
+            "cate_type": "duaxe"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ir62tptkknfo_9faf4305_20260725.png?v=9faf4305",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-aae3440e48",
           "name": "Formula 1 vs Belgian Grand Prix | 20:00 26/07",
