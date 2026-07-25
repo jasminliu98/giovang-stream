@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-40cad8eccc",
-          "name": "Servette vs Basel | 23:00 25/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-40cad8eccc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-40cad8eccc",
-                  "name": "Servette vs Basel",
-                  "streams": [
-                    {
-                      "id": "st-40cad8eccc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88cce7e486",
-                          "name": "Số 15",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784882812_hd/1784882812_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Thụy Sĩ",
-            "team_a": "Servette",
-            "team_b": "Basel",
-            "logo_a": "https://images.keovip88.net/images/teams/servette.png",
-            "logo_b": "https://images.keovip88.net/images/teams/basel.png",
-            "time": "23:00:00",
-            "date": "25/07",
-            "blv": "Số 15",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a59709924d46db870a53a7d_b71fdb9e_20260726.png?v=b71fdb9e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-d226427882",
           "name": "Standard Liège vs Juventus | 01:00 26/07",
           "type": "single",
@@ -161,6 +89,78 @@
           }
         },
         {
+          "id": "gv-f25c3dbf2b",
+          "name": "Sporting CP vs Monaco | 01:30 26/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f25c3dbf2b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f25c3dbf2b",
+                  "name": "Sporting CP vs Monaco",
+                  "streams": [
+                    {
+                      "id": "st-f25c3dbf2b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a4c0038886",
+                          "name": "Số 15",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784882981_hd/1784882981_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World - Club Friendly",
+            "team_a": "Sporting CP",
+            "team_b": "Monaco",
+            "logo_a": "https://static.flashscore.com/res/image/data/OWbPc9il-4ddK8rOq.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/GzvUVteM-0SFGJsPk.png",
+            "time": "01:30:00",
+            "date": "26/07",
+            "blv": "Số 15",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/mqxg005230gu_5c4dae06_20260726.png?v=5c4dae06",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-1f28c56743",
           "name": "Lausanne Sports vs Grasshoppers | 23:00 25/07",
           "type": "single",
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a59709924d46db870a53a77_3904d906_20260726.png?v=3904d906",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f25c3dbf2b",
-          "name": "Sporting CP vs Monaco | 01:30 26/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f25c3dbf2b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f25c3dbf2b",
-                  "name": "Sporting CP vs Monaco",
-                  "streams": [
-                    {
-                      "id": "st-f25c3dbf2b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4c0038886",
-                          "name": "Số 15",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784882981_hd/1784882981_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World - Club Friendly",
-            "team_a": "Sporting CP",
-            "team_b": "Monaco",
-            "logo_a": "https://static.flashscore.com/res/image/data/OWbPc9il-4ddK8rOq.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/GzvUVteM-0SFGJsPk.png",
-            "time": "01:30:00",
-            "date": "26/07",
-            "blv": "Số 15",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/mqxg005230gu_5c4dae06_20260726.png?v=5c4dae06",
             "width": 1600,
             "height": 1200
           }
