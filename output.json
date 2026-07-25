@@ -1630,11 +1630,83 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-7d58daae36",
+          "name": "HOTU vs Astralis | 22:00 25/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7d58daae36",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7d58daae36",
+                  "name": "HOTU vs Astralis",
+                  "streams": [
+                    {
+                      "id": "st-7d58daae36",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1f53ea0486",
+                          "name": "Số 14",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784986149_hd/1784986149_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": " Blast Bounty",
+            "team_a": "HOTU",
+            "team_b": "Astralis",
+            "logo_a": "https://static.flashscore.com/res/image/data/Mw6QYtf5-CzF8RJLl.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/jeCAnlFG-86KSX4dQ.png",
+            "time": "22:00:00",
+            "date": "25/07",
+            "blv": "Số 14",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ftw9hma38tpq_4592ec48_20260725.png?v=4592ec48",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-883148a4a9",
           "name": "DFM vs PRX | 17:00 24/07",
@@ -1703,78 +1775,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/x2ifp0wiebmi_674b5979_20260725.png?v=674b5979",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-7d58daae36",
-          "name": "HOTU vs Astralis | 22:00 25/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7d58daae36",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7d58daae36",
-                  "name": "HOTU vs Astralis",
-                  "streams": [
-                    {
-                      "id": "st-7d58daae36",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1f53ea0486",
-                          "name": "Số 14",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1784986149_hd/1784986149_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": " Blast Bounty",
-            "team_a": "HOTU",
-            "team_b": "Astralis",
-            "logo_a": "https://static.flashscore.com/res/image/data/Mw6QYtf5-CzF8RJLl.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/jeCAnlFG-86KSX4dQ.png",
-            "time": "22:00:00",
-            "date": "25/07",
-            "blv": "Số 14",
-            "is_live": false,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ftw9hma38tpq_4592ec48_20260725.png?v=4592ec48",
             "width": 1600,
             "height": 1200
           }
