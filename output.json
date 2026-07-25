@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "15:00:00",
             "date": "25/07",
             "blv": "Số 6",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -3257,7 +3257,7 @@
         },
         {
           "id": "gv-aae3440e48",
-          "name": "Formula 1 vs Belgian Grand Prix | 20:00 26/07",
+          "name": "Formula 1 vs Hungary Grand Prix | 20:00 26/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3276,7 +3276,7 @@
               "contents": [
                 {
                   "id": "ct-aae3440e48",
-                  "name": "Formula 1 vs Belgian Grand Prix",
+                  "name": "Formula 1 vs Hungary Grand Prix",
                   "streams": [
                     {
                       "id": "st-aae3440e48",
@@ -3309,9 +3309,9 @@
           "org_metadata": {
             "league": "Formula 1",
             "team_a": "Formula 1",
-            "team_b": "Belgian Grand Prix",
+            "team_b": "Hungary Grand Prix",
             "logo_a": "https://upload.wikimedia.org/wikipedia/commons/4/45/F1_logo.svg",
-            "logo_b": "https://cdn-az.allevents.in/events7/banners/05c379e0-7db7-11f1-8de7-a55c04e17f2e-rimg-w1200-h675-dcf0dbb9-gmir.png?v=1783836045",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVRwWX48SQL9-CGEZU0C_zuGhZ4N7izN7dEbAlOgdXRQ&s",
             "time": "20:00:00",
             "date": "26/07",
             "blv": "Số 7",
@@ -3322,7 +3322,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/v5gyjdrrvdtt_ecb4e8ea_20260725.png?v=ecb4e8ea",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/v5gyjdrrvdtt_79d35f1d_20260725.png?v=79d35f1d",
             "width": 1600,
             "height": 1200
           }
