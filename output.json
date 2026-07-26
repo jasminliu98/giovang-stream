@@ -924,7 +924,25 @@
                     {
                       "id": "st-270e5e4b18",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6228ccd820",
+                          "name": "Số 7",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785080651_hd/1785080651_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -939,7 +957,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbkPn44lofzTj3hG7s8vN6_Tyy8Nbxtgf8I734B3EXHw&s",
             "time": "00:30:00",
             "date": "27/07",
-            "blv": "",
+            "blv": "Số 7",
             "is_live": true,
             "cate_type": "esport"
           },
