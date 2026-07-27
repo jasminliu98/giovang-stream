@@ -605,83 +605,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-270e5e4b18",
-          "name": "zBSOP WINTER 2026 Main Event Day Final vs zBSOP WINTER 2026 Main Event Day Final | 00:15 28/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-270e5e4b18",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-270e5e4b18",
-                  "name": "zBSOP WINTER 2026 Main Event Day Final vs zBSOP WINTER 2026 Main Event Day Final",
-                  "streams": [
-                    {
-                      "id": "st-270e5e4b18",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6228ccd820",
-                          "name": "Số 7",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785080651_hd/1785080651_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WSOP",
-            "team_a": "zBSOP WINTER 2026 Main Event Day Final",
-            "team_b": "zBSOP WINTER 2026 Main Event Day Final",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbkPn44lofzTj3hG7s8vN6_Tyy8Nbxtgf8I734B3EXHw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbkPn44lofzTj3hG7s8vN6_Tyy8Nbxtgf8I734B3EXHw&s",
-            "time": "00:15:00",
-            "date": "28/07",
-            "blv": "Số 7",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/00w2ibn66uvy_0faea99b_20260728.png?v=0faea99b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b9b6029de5",
           "name": "zBSOP WINTER 2026 Main Event Day Final vs zBSOP WINTER 2026 Main Event Day Final | 00:15 29/07",
