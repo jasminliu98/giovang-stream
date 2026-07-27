@@ -325,83 +325,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-65fde19015",
-          "name": "Sarangani Province vs Manila Stars | 19:00 27/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-65fde19015",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-65fde19015",
-                  "name": "Sarangani Province vs Manila Stars",
-                  "streams": [
-                    {
-                      "id": "st-65fde19015",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7525e7ca31",
-                          "name": "Số 4",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785137960_hd/1785137960_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines MPBL",
-            "team_a": "Sarangani Province",
-            "team_b": "Manila Stars",
-            "logo_a": "https://static.flashscore.com/res/image/data/bcCdv0GG-prO010ar.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/2qCNVpZg-Y3U51s2r.png",
-            "time": "19:00:00",
-            "date": "27/07",
-            "blv": "Số 4",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/17300279_e674c68e_20260727.png?v=e674c68e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4a8beb98d5",
           "name": "Atros vs Correcaminos | 09:15 28/07",
