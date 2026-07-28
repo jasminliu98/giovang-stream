@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -93,7 +93,7 @@
             "time": "16:45:00",
             "date": "28/07",
             "blv": "Số 5, Số 1",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -113,10 +113,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -165,7 +165,7 @@
             "time": "17:00:00",
             "date": "28/07",
             "blv": "Số 6",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -406,78 +406,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a387ddb153ee8455e055746_562cc427_20260728.png?v=562cc427",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f2b6eef8f5",
-          "name": "KuPS vs Sabah FK | 22:00 28/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f2b6eef8f5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f2b6eef8f5",
-                  "name": "KuPS vs Sabah FK",
-                  "streams": [
-                    {
-                      "id": "st-f2b6eef8f5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-372249840b",
-                          "name": "Số 2",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785209120_hd/1785209120_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C1",
-            "team_a": "KuPS",
-            "team_b": "Sabah FK",
-            "logo_a": "https://images.keovip88.net/images/teams/kups.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sabah-fk-baku.png",
-            "time": "22:00:00",
-            "date": "28/07",
-            "blv": "Số 2",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a597153d4a6cb1e5f0c0989_052ae133_20260728.png?v=052ae133",
             "width": 1600,
             "height": 1200
           }
@@ -990,44 +918,44 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-ede6f7f706",
-          "name": "Bacolod Tubo Slashers vs Bulacan Kuyas | 15:00 28/07",
+          "id": "gv-c46097d4ea",
+          "name": "Zamboanga Familys Brand Sardines vs Paranaque Patriots | 16:00 28/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-ede6f7f706",
+              "id": "src-c46097d4ea",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-ede6f7f706",
-                  "name": "Bacolod Tubo Slashers vs Bulacan Kuyas",
+                  "id": "ct-c46097d4ea",
+                  "name": "Zamboanga Familys Brand Sardines vs Paranaque Patriots",
                   "streams": [
                     {
-                      "id": "st-ede6f7f706",
+                      "id": "st-c46097d4ea",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-7c23b1f5d0",
-                          "name": "Số 4",
+                          "id": "lnk-d129b958fc",
+                          "name": "Số 9",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785209282_hd/1785209282_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785219118_hd/1785219118_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1048,21 +976,21 @@
           ],
           "org_metadata": {
             "league": "Philippines MPBL",
-            "team_a": "Bacolod Tubo Slashers",
-            "team_b": "Bulacan Kuyas",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c049b15e745f73b8589457b8d64b7975.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ba2afd33a7a0fc7c8946f51957d18cb1.png",
-            "time": "15:00:00",
+            "team_a": "Zamboanga Familys Brand Sardines",
+            "team_b": "Paranaque Patriots",
+            "logo_a": "https://nba.titan007.com/files/team/1khmtt4s6g2x.png",
+            "logo_b": "https://nba.titan007.com/files/team/1hazvww9wg2j.png",
+            "time": "16:00:00",
             "date": "28/07",
-            "blv": "Số 4",
-            "is_live": false,
+            "blv": "Số 9",
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/28300270_7e419780_20260728.png?v=7e419780",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/29300271_7cabbcf8_20260728.png?v=7cabbcf8",
             "width": 1600,
             "height": 1200
           }
@@ -1075,10 +1003,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1127,7 +1055,7 @@
             "time": "16:15:00",
             "date": "28/07",
             "blv": "Số 16",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1140,80 +1068,8 @@
           }
         },
         {
-          "id": "gv-c46097d4ea",
-          "name": "Zamboanga Familys Brand Sardines vs Paranaque Patriots | 17:00 28/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c46097d4ea",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c46097d4ea",
-                  "name": "Zamboanga Familys Brand Sardines vs Paranaque Patriots",
-                  "streams": [
-                    {
-                      "id": "st-c46097d4ea",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d129b958fc",
-                          "name": "Số 9",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785219118_hd/1785219118_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines MPBL",
-            "team_a": "Zamboanga Familys Brand Sardines",
-            "team_b": "Paranaque Patriots",
-            "logo_a": "https://nba.titan007.com/files/team/1khmtt4s6g2x.png",
-            "logo_b": "https://nba.titan007.com/files/team/1hazvww9wg2j.png",
-            "time": "17:00:00",
-            "date": "28/07",
-            "blv": "Số 9",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/29300271_7cabbcf8_20260728.png?v=7cabbcf8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-12864b03f3",
-          "name": "TNT Tropang 5G vs Converge FiberXers | 17:00 28/07",
+          "name": "TNT Tropang 5G vs Converge FiberXers | 18:35 28/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1268,7 +1124,7 @@
             "team_b": "Converge FiberXers",
             "logo_a": "https://static.flashscore.com/res/image/data/nTNHGwAr-hCospehC.png",
             "logo_b": "https://static.flashscore.com/res/image/data/UPlTdQHG-vBbzdfpd.png",
-            "time": "17:00:00",
+            "time": "18:35:00",
             "date": "28/07",
             "blv": "Số 4",
             "is_live": false,
@@ -1309,7 +1165,25 @@
                     {
                       "id": "st-9038c6620b",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4d14019de1",
+                          "name": "Số 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785219415_hd/1785219415_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1324,7 +1198,7 @@
             "logo_b": "https://nba.titan007.com/files/team/1kpw5n7f75x.png",
             "time": "19:00:00",
             "date": "28/07",
-            "blv": "",
+            "blv": "Số 1",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -1420,7 +1294,7 @@
       "channels": [
         {
           "id": "gv-d25312cba7",
-          "name": "Japan vs China | 18:30 28/07",
+          "name": "Japan vs China | 18:30 29/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1444,7 +1318,25 @@
                     {
                       "id": "st-d25312cba7",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2cafc8dac1",
+                          "name": "Số 9",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785219503_hd/1785219503_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1458,8 +1350,8 @@
             "logo_a": "https://static.flashscore.com/res/image/data/8G7efUAr-vX32SaDf.png",
             "logo_b": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
             "time": "18:30:00",
-            "date": "28/07",
-            "blv": "",
+            "date": "29/07",
+            "blv": "Số 9",
             "is_live": false,
             "cate_type": "bongchuyen"
           },
