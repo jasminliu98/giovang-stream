@@ -600,6 +600,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-4a84e36a0c",
+          "name": "Minnesota Lynx vs Toronto Tempo | 07:00 29/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4a84e36a0c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4a84e36a0c",
+                  "name": "Minnesota Lynx vs Toronto Tempo",
+                  "streams": [
+                    {
+                      "id": "st-4a84e36a0c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fb48eae456",
+                          "name": "Số 3",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785258514_hd/1785258514_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Minnesota Lynx",
+            "team_b": "Toronto Tempo",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/df5084b6a0e471356f94c0d460105072.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/2144aaf701fac7e3c3caf3853aeb9929.png",
+            "time": "07:00:00",
+            "date": "29/07",
+            "blv": "Số 3",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/24315070_e012a5af_20260729.png?v=e012a5af",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -686,7 +758,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -699,10 +771,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -751,7 +823,7 @@
             "time": "01:00:00",
             "date": "29/07",
             "blv": "Số 7",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
