@@ -1046,11 +1046,65 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-ad6a7d47df",
+          "name": "K Poker Cup & King Poker Cup Serier vs K Poker Cup & King Poker Cup Series | 18:00 29/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad6a7d47df",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ad6a7d47df",
+                  "name": "K Poker Cup & King Poker Cup Serier vs K Poker Cup & King Poker Cup Series",
+                  "streams": [
+                    {
+                      "id": "st-ad6a7d47df",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K Poker Cup & King Poker Cup Series",
+            "team_a": "K Poker Cup & King Poker Cup Serier",
+            "team_b": "K Poker Cup & King Poker Cup Series",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHn8PETTuxU36qexYo68uIDGSGwAdY67fljSh-85ufG_tslgt9jBX_oKQ&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHn8PETTuxU36qexYo68uIDGSGwAdY67fljSh-85ufG_tslgt9jBX_oKQ&s=10",
+            "time": "18:00:00",
+            "date": "29/07",
+            "blv": "",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ku99lb8xfi9q_6b10e7fc_20260729.png?v=6b10e7fc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-8a10bb4e37",
           "name": "GIANTX vs Team Liquid | 22:00 29/07",
