@@ -89,8 +89,8 @@
           }
         },
         {
-          "id": "gv-fe4c53e9fc",
-          "name": "Real Betis vs Lyonnais | 01:00 30/07",
+          "id": "gv-3dcc6e7f05",
+          "name": "Atlético Mineiro vs RB Bragantino | 03:00 30/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -100,78 +100,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe4c53e9fc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fe4c53e9fc",
-                  "name": "Real Betis vs Lyonnais",
-                  "streams": [
-                    {
-                      "id": "st-fe4c53e9fc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-33cf280a61",
-                          "name": "Số 17",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785325801_hd/1785325801_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Real Betis",
-            "team_b": "Lyonnais",
-            "logo_a": "https://images.keovip88.net/images/teams/real-betis.png",
-            "logo_b": "https://images.keovip88.net/images/teams/lyon.png",
-            "time": "01:00:00",
-            "date": "30/07",
-            "blv": "Số 17",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a654e0424d46db870286eb6_d49982be_20260730.png?v=d49982be",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3dcc6e7f05",
-          "name": "Atlético Mineiro vs RB Bragantino | 03:00 30/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -220,7 +148,7 @@
             "time": "03:00:00",
             "date": "30/07",
             "blv": "Số 13",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -305,78 +233,6 @@
           }
         },
         {
-          "id": "gv-5fc42709ab",
-          "name": "Louisville City FC vs Birmingham Legion | 06:30 30/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5fc42709ab",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5fc42709ab",
-                  "name": "Louisville City FC vs Birmingham Legion",
-                  "streams": [
-                    {
-                      "id": "st-5fc42709ab",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2ccafed0f1",
-                          "name": "Số 5",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785326284_hd/1785326284_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "USL Championship Mỹ",
-            "team_a": "Louisville City FC",
-            "team_b": "Birmingham Legion",
-            "logo_a": "https://images.keovip88.net/images/teams/louisville-city-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/birmingham-legion.png",
-            "time": "06:30:00",
-            "date": "30/07",
-            "blv": "Số 5",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a60081e24d46db8703225a6_64ad5fd7_20260730.png?v=64ad5fd7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-fb6628cdd2",
           "name": "Liverpool vs Wrexham | 06:30 30/07",
           "type": "single",
@@ -444,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a654e0624d46db8702873c5_60630e1d_20260730.png?v=60630e1d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5fc42709ab",
+          "name": "Louisville City FC vs Birmingham Legion | 06:30 30/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5fc42709ab",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5fc42709ab",
+                  "name": "Louisville City FC vs Birmingham Legion",
+                  "streams": [
+                    {
+                      "id": "st-5fc42709ab",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2ccafed0f1",
+                          "name": "Số 5",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785326284_hd/1785326284_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "USL Championship Mỹ",
+            "team_a": "Louisville City FC",
+            "team_b": "Birmingham Legion",
+            "logo_a": "https://images.keovip88.net/images/teams/louisville-city-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/birmingham-legion.png",
+            "time": "06:30:00",
+            "date": "30/07",
+            "blv": "Số 5",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a60081e24d46db8703225a6_64ad5fd7_20260730.png?v=64ad5fd7",
             "width": 1600,
             "height": 1200
           }
