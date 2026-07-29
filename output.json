@@ -596,7 +596,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -669,6 +669,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/vw1lr3odjjr8_7fe3fceb_20260729.png?v=7fe3fceb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-81894c394f",
+          "name": "San Miguel Beermen vs Titan Ultra Giant Risers | 18:30 29/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-81894c394f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-81894c394f",
+                  "name": "San Miguel Beermen vs Titan Ultra Giant Risers",
+                  "streams": [
+                    {
+                      "id": "st-81894c394f",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PBA",
+            "team_a": "San Miguel Beermen",
+            "team_b": "Titan Ultra Giant Risers",
+            "logo_a": "https://static.flashscore.com/res/image/data/jeSijRyS-xrx6DBl6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fHwB9qDa-8t1lfHSc.png",
+            "time": "18:30:00",
+            "date": "29/07",
+            "blv": "",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/flgm8b9fp8s2_fe713316_20260729.png?v=fe713316",
             "width": 1600,
             "height": 1200
           }
@@ -821,83 +875,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d25312cba7",
-          "name": "Japan vs China | 18:30 29/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d25312cba7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d25312cba7",
-                  "name": "Japan vs China",
-                  "streams": [
-                    {
-                      "id": "st-d25312cba7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2cafc8dac1",
-                          "name": "Số 9",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785219503_hd/1785219503_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League - Play Off",
-            "team_a": "Japan",
-            "team_b": "China",
-            "logo_a": "https://static.flashscore.com/res/image/data/8G7efUAr-vX32SaDf.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png",
-            "time": "18:30:00",
-            "date": "29/07",
-            "blv": "Số 9",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/fsk36ij82o8b_926e3ea9_20260729.png?v=926e3ea9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b53a5a2f9a",
           "name": "Japan vs China | 18:30 29/07",
@@ -906,10 +888,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -958,7 +940,7 @@
             "time": "18:30:00",
             "date": "29/07",
             "blv": "Số 9",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
