@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5046e43ebb",
-          "name": "Kristall vs FK Znamya Noginsk | 21:30 29/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5046e43ebb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5046e43ebb",
-                  "name": "Kristall vs FK Znamya Noginsk",
-                  "streams": [
-                    {
-                      "id": "st-5046e43ebb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-55320f2315",
-                          "name": "Số 2",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785302182_hd/1785302182_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Nga",
-            "team_a": "Kristall",
-            "team_b": "FK Znamya Noginsk",
-            "logo_a": "https://images.keovip88.net/images/teams/default.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fk-znamya-noginsk.png",
-            "time": "21:30:00",
-            "date": "29/07",
-            "blv": "Số 2",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a39d014e3978e5e46039b0a_1e8a2400_20260729.png?v=1e8a2400",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-543a1f30a4",
           "name": "Kirovets-Voskhozhdenie vs FK Ruan Tosno | 22:00 29/07",
@@ -1164,6 +1092,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a5eb7522d3ee9969b0b8106_3bac3428_20260729.png?v=3bac3428",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a4915566d3",
+          "name": "Levadia Tallinn vs IFK Goteborg | 23:30 30/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a4915566d3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a4915566d3",
+                  "name": "Levadia Tallinn vs IFK Goteborg",
+                  "streams": [
+                    {
+                      "id": "st-a4915566d3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a7c15f36d",
+                          "name": "Số 5",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785202533_hd/1785202533_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europa Conference League",
+            "team_a": "Levadia Tallinn",
+            "team_b": "IFK Goteborg",
+            "logo_a": "https://images.keovip88.net/images/teams/levadia-tallinn.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ifk-goteborg.png",
+            "time": "23:30:00",
+            "date": "30/07",
+            "blv": "Số 5",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a5eb7522d3ee9969b0b8103_6a32e346_20260729.png?v=6a32e346",
             "width": 1600,
             "height": 1200
           }
