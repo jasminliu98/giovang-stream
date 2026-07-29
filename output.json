@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0d24cd903f",
-          "name": "Kauno Zalgiris vs KI Klaksvik | 23:00 29/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0d24cd903f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0d24cd903f",
-                  "name": "Kauno Zalgiris vs KI Klaksvik",
-                  "streams": [
-                    {
-                      "id": "st-0d24cd903f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c930a32300",
-                          "name": "Số 5",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785325628_hd/1785325628_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C1",
-            "team_a": "Kauno Zalgiris",
-            "team_b": "KI Klaksvik",
-            "logo_a": "https://images.keovip88.net/images/teams/kauno-zalgiris.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ki-klaksvik.png",
-            "time": "23:00:00",
-            "date": "29/07",
-            "blv": "Số 5",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a597153d4a6cb1e5f0c098e_d04e0a67_20260730.png?v=d04e0a67",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e97bd993e2",
           "name": "CS Universitatea Craiova vs Levski Sofia | 00:30 30/07",
@@ -1308,6 +1236,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a35db11dbc86fdf90016057_a633a114_20260730.png?v=a633a114",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5317acace4",
+          "name": "Ferencvarosi TC vs FC Twente Enschede | 01:30 31/07",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5317acace4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5317acace4",
+                  "name": "Ferencvarosi TC vs FC Twente Enschede",
+                  "streams": [
+                    {
+                      "id": "st-5317acace4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1fd9ab09ca",
+                          "name": "Số 15",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785202677_hd/1785202677_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Ferencvarosi TC",
+            "team_b": "FC Twente Enschede",
+            "logo_a": "https://images.keovip88.net/images/teams/ferencvarosi-tc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-twente-enschede.png",
+            "time": "01:30:00",
+            "date": "31/07",
+            "blv": "Số 15",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a5c1484af6e4895730452cd_d365f938_20260730.png?v=d365f938",
             "width": 1600,
             "height": 1200
           }
