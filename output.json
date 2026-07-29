@@ -2126,83 +2126,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8a10bb4e37",
-          "name": "GIANTX vs Team Liquid | 22:45 29/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a10bb4e37",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8a10bb4e37",
-                  "name": "GIANTX vs Team Liquid",
-                  "streams": [
-                    {
-                      "id": "st-8a10bb4e37",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2d9a41f159",
-                          "name": "Số 16",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785309288_hd/1785309288_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VCT 2026: EMEA ",
-            "team_a": "GIANTX",
-            "team_b": "Team Liquid",
-            "logo_a": "https://static.flashscore.com/res/image/data/tORL6GXg-d8EaALGc.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/d4rAavgl-4OY9Bgq6.png",
-            "time": "22:45:00",
-            "date": "29/07",
-            "blv": "Số 16",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/2c73i6m5yw1x_4953cc6a_20260730.png?v=4953cc6a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b9b6029de5",
           "name": "zBSOP WINTER 2026 Main Event Day Final vs zBSOP WINTER 2026 Main Event Day Final | 00:15 30/07",
