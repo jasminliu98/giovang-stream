@@ -818,8 +818,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-b14ca32ed4",
-          "name": "Manila Stars vs Basilan Viva Portmasters | 15:00 30/07",
+          "id": "gv-f945c5a719",
+          "name": "Marikina Shoemasters vs Cebu Classic | 16:00 30/07",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -829,78 +829,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b14ca32ed4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b14ca32ed4",
-                  "name": "Manila Stars vs Basilan Viva Portmasters",
-                  "streams": [
-                    {
-                      "id": "st-b14ca32ed4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-035257cc1e",
-                          "name": "Số 16",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785343087_hd/1785343087_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines MPBL",
-            "team_a": "Manila Stars",
-            "team_b": "Basilan Viva Portmasters",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/1b58325d8265d895b6cf505730edcf77.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/44301bad4e84f5bd81f0ff4477f51121.png",
-            "time": "15:00:00",
-            "date": "30/07",
-            "blv": "Số 16",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/22871277_17978e66_20260730.png?v=17978e66",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f945c5a719",
-          "name": "Marikina Shoemasters vs Cebu Classic | 17:00 30/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -946,10 +874,10 @@
             "team_b": "Cebu Classic",
             "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/bada859fff28f02391fcea0332cdcefd.png",
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/4e96e841ee44e663ed4a524c3ab181c5.png",
-            "time": "17:00:00",
+            "time": "16:00:00",
             "date": "30/07",
             "blv": "Số 9",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
