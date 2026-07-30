@@ -1478,83 +1478,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-3a95738bc7",
-          "name": "DNS vs BFX | 15:00 30/07",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3a95738bc7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3a95738bc7",
-                  "name": "DNS vs BFX",
-                  "streams": [
-                    {
-                      "id": "st-3a95738bc7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-be66100aa4",
-                          "name": "Số 2",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785343392_hd/1785343392_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "DNS",
-            "team_b": "BFX",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRamout9M-LiEXrzjLZNRq4AKbEKU3B4eJVhg&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAgyOLTKfdcm4CT7wcNP4MlfE1afamu5PRPA&s",
-            "time": "15:00:00",
-            "date": "30/07",
-            "blv": "Số 2",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/8nd4w8dknson_f54c2014_20260730.png?v=f54c2014",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c899df1fcd",
           "name": "Dương Quốc Hoàng vs Marco Teutscher | 23:00 30/07",
