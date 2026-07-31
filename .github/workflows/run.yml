@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: pip install requests Pillow yt-dlp
+        run: pip install requests Pillow
       - name: Run scraper
         run: python scraper.py
         env:
