@@ -186,7 +186,25 @@
                     {
                       "id": "st-848a5821f2",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f4f4ad3b7e",
+                          "name": "Số 10",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785556320_hd/1785556320_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -201,7 +219,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/xGkOqFDa-vPm0hQMN.png",
             "time": "01:00:00",
             "date": "02/08",
-            "blv": "",
+            "blv": "Số 10",
             "is_live": false,
             "cate_type": "football"
           },
