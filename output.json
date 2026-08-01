@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b75353e28f",
-          "name": "Pacific FC vs Supra du Quebec | 09:00 01/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b75353e28f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b75353e28f",
-                  "name": "Pacific FC vs Supra du Quebec",
-                  "streams": [
-                    {
-                      "id": "st-b75353e28f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4d00853699",
-                          "name": "Số 10",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785502227_hd/1785502227_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Canada - Canadian Premier League",
-            "team_a": "Pacific FC",
-            "team_b": "Supra du Quebec",
-            "logo_a": "https://static.flashscore.com/res/image/data/OICjQ2ZA-xA4LvVKO.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/UuRSjmDa-4roE8Tb8.png",
-            "time": "09:00:00",
-            "date": "01/08",
-            "blv": "Số 10",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/j7ym7vbw1u2d_b35fc18b_20260801.png?v=b35fc18b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-453007bd42",
           "name": "Western Sydney Wanderers AM vs University NSW | 12:00 01/08",
