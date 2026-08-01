@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2bbf1e3519",
-          "name": "Queensland Lions vs Peninsula Power | 15:00 01/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2bbf1e3519",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2bbf1e3519",
-                  "name": "Queensland Lions vs Peninsula Power",
-                  "streams": [
-                    {
-                      "id": "st-2bbf1e3519",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3568c41a06",
-                          "name": "Số 69",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785563164_hd/1785563164_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Queensland Lions",
-            "team_b": "Peninsula Power",
-            "logo_a": "https://static.flashscore.com/res/image/data/j7l1L9e5-GnWJ2Fya.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/wRkTGu9e5KTSNJwAu8K7zg_96x96.png",
-            "time": "15:00:00",
-            "date": "01/08",
-            "blv": "Số 69",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6a94b74736aca01c0f83b3_046c71b4_20260801.png?v=046c71b4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e8c336919f",
-          "name": "Sunshine Coast Wanderers vs Ipswich | 15:00 01/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e8c336919f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e8c336919f",
-                  "name": "Sunshine Coast Wanderers vs Ipswich",
-                  "streams": [
-                    {
-                      "id": "st-e8c336919f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-53c6dccadf",
-                          "name": "Số 6",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785570795_hd/1785570795_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Queensland Premier League - Round 20",
-            "team_a": "Sunshine Coast Wanderers",
-            "team_b": "Ipswich",
-            "logo_a": "https://static.flashscore.com/res/image/data/ETffnTEG-OM83iDC1.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/t8tZpbGG-EVJ33Cg9.png",
-            "time": "15:00:00",
-            "date": "01/08",
-            "blv": "Số 6",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/obzezix38q9a_2123d319_20260801.png?v=2123d319",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-05a2989dba",
           "name": "Chelsea FC vs Tottenham Hotspur | 16:45 01/08",
@@ -312,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +220,7 @@
             "time": "18:00:00",
             "date": "01/08",
             "blv": "Số 6",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1631,83 +1487,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0da42dd40d",
-          "name": "NS vs BFX | 15:00 01/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0da42dd40d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0da42dd40d",
-                  "name": "NS vs BFX",
-                  "streams": [
-                    {
-                      "id": "st-0da42dd40d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7d1963f65d",
-                          "name": "Số 12",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785568569_hd/1785568569_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "NS",
-            "team_b": "BFX",
-            "logo_a": "https://static.flashscore.com/res/image/data/fsLmL8ZA-K2mdw3oq.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAgyOLTKfdcm4CT7wcNP4MlfE1afamu5PRPA&s",
-            "time": "15:00:00",
-            "date": "01/08",
-            "blv": "Số 12",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1z1uf7bea7jp_b7b03b8f_20260801.png?v=b7b03b8f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1518e4d2fd",
           "name": "GenG vs DK | 17:00 01/08",
