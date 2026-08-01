@@ -70,11 +70,22 @@ CATE_MAP = {
 CATE_ORDER = ["football", "basketball", "tennis", "bongchuyen", "esport", "caulong", "vothuat", "bongchay", "duaxe", "Billiards"]
 
 MOTORSPORT_KW = ["formula", "f1", "grand prix", "motogp", "nascar", "indycar", "đua xe"]
-# Thêm từ khóa nhận diện Billiards để sửa lỗi API phân loại nhầm thành Esport
+# ─── THÊM TỪ KHÓA ÉP CỨNG & TỪ KHÓA BILLIARDS ───
+OVERRIDE_CATE = {
+    "vice city classic": "Billiards",
+    "joshua filler": "Billiards",
+    "duong quoc hoang": "Billiards",
+    "mosconi cup": "Billiards",
+    "predator pro billiard": "Billiards",
+    "matchroom pool": "Billiards",
+    "world pool masters": "Billiards",
+    "us open pool": "Billiards",
+}
+
 BILLIARDS_KW = [
     "billiard", "billiards", "pool", "snooker", "carom", 
-    "bi-a", "ba lỗ", "duong quoc hoang", "9-ball", "10-ball", "9 bi", "10 bi",
-    "vice city classic"  # Giải đấu cụ thể thường bị API nhận nhầm
+    "bi-a", "bida", "ba lỗ", "ba lo", "9-ball", "10-ball", "9 bi", "10 bi", "8-ball",
+    "vice city classic"
 ]
 EXCLUDE_LEAGUES_AMERICA = [
     "mls", "major league soccer", "liga mx", "brasileirao", "brasileirão", "serie a brasil",
