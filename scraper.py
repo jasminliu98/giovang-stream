@@ -70,6 +70,7 @@ CATE_MAP = {
 CATE_ORDER = ["football", "basketball", "tennis", "bongchuyen", "esport", "caulong", "vothuat", "bongchay", "duaxe", "Billiards"]
 
 MOTORSPORT_KW = ["formula", "f1", "grand prix", "motogp", "nascar", "indycar", "đua xe"]
+
 # ─── THÊM TỪ KHÓA ÉP CỨNG & TỪ KHÓA BILLIARDS ───
 OVERRIDE_CATE = {
     "vice city classic": "Billiards",
@@ -87,6 +88,7 @@ BILLIARDS_KW = [
     "bi-a", "bida", "ba lỗ", "ba lo", "9-ball", "10-ball", "9 bi", "10 bi", "8-ball",
     "vice city classic"
 ]
+
 EXCLUDE_LEAGUES_AMERICA = [
     "mls", "major league soccer", "liga mx", "brasileirao", "brasileirão", "serie a brasil",
     "campeonato brasileiro", "copa do brasil", "argentine", "argentina", "liga profesional",
@@ -353,7 +355,6 @@ def get_grouped_matches() -> dict:
             seen[item.get("id")] = item
 
     grouped = {}
-    now = now_vn()
 
     for item in seen.values():
         match_id = str(item.get("id", ""))
@@ -365,8 +366,13 @@ def get_grouped_matches() -> dict:
         if not match_id or status_code == "FT":
             continue
 
+        # Lấy league name từ dict hoặc string (phòng hờ API đổi format)
         league_obj = item.get("league") or {}
-        league_name = league_obj.get("title", "")
+        if isinstance(league_obj, dict):
+            league_name = league_obj.get("title", "") or league_obj.get("name", "")
+        else:
+            league_name = str(league_obj)
+            
         teams = item.get("teams") or {}
         team_a = teams.get("home", {}).get("name", "").strip()
         team_b = teams.get("away", {}).get("name", "").strip()
@@ -374,21 +380,31 @@ def get_grouped_matches() -> dict:
         if not team_a or not team_b:
             continue
 
-        # ─── LOGIC PHÂN LOẠI ĐÃ SỬA ───
-        raw_type = item.get("type", "football").lower().strip()
-        combined_text = (league_name + " " + team_a + " " + team_b).lower()
+        combined_text = f"{league_name} {team_a} {team_b}".lower()
         
-        # Ưu tiên kiểm tra từ khóa đặc thù để sửa lỗi API phân loại sai
-        if any(kw in combined_text for kw in MOTORSPORT_KW):
-            cate_type = "duaxe"
-        elif any(kw in combined_text for kw in BILLIARDS_KW):
-            cate_type = "Billiards"
-        elif raw_type in ["billiard", "billiards", "pool", "snooker", "carom", "bi-a", "ba lỗ", "ba lo"]:
-            cate_type = "Billiards"
-        elif raw_type in CATE_MAP:
-            cate_type = raw_type
+        # ─── LOGIC ÉP CỨNG & PHÂN LOẠI THỂ THAO ───
+        # 1. Ưu tiên số 1: Kiểm tra Override Cate (Ép cứng giải / VĐV bị API gán nhầm)
+        override_matched = next((cate for kw, cate in OVERRIDE_CATE.items() if kw in combined_text), None)
+        if override_matched:
+            cate_type = override_matched
         else:
-            cate_type = raw_type
+            raw_type = str(item.get("type", "football")).lower().strip()
+            
+            # 2. Logic phân loại thông thường
+            if any(kw in combined_text for kw in MOTORSPORT_KW):
+                cate_type = "duaxe"
+            elif any(kw in combined_text for kw in BILLIARDS_KW):
+                cate_type = "Billiards"
+            elif raw_type in ["billiard", "billiards", "pool", "snooker", "carom", "bi-a", "bida", "ba lỗ", "ba lo"]:
+                cate_type = "Billiards"
+            elif raw_type in CATE_MAP:
+                cate_type = raw_type
+            else:
+                cate_type = raw_type
+                
+        # Chốt chặn cuối: Nếu API báo esport nhưng có từ khóa billiard thì ép về Billiards
+        if cate_type == "esport" and any(kw in combined_text for kw in BILLIARDS_KW):
+            cate_type = "Billiards"
 
         if cate_type == "football" and is_america_league(league_name):
             continue
