@@ -70,6 +70,7 @@ CATE_MAP = {
 CATE_ORDER = ["football", "basketball", "tennis", "bongchuyen", "esport", "caulong", "vothuat", "bongchay", "duaxe", "Billiards"]
 
 MOTORSPORT_KW = ["formula", "f1", "grand prix", "motogp", "nascar", "indycar", "đua xe"]
+# Thêm từ khóa nhận diện Billiards để sửa lỗi API phân loại nhầm thành Esport
 BILLIARDS_KW = [
     "billiard", "billiards", "pool", "snooker", "carom", 
     "bi-a", "ba lỗ", "ba lo", "9-ball", "10-ball", "9 bi", "10 bi",
@@ -362,9 +363,19 @@ def get_grouped_matches() -> dict:
         if not team_a or not team_b:
             continue
 
-        raw_type = item.get("type", "football")
-        if any(kw in (league_name + " " + team_a + " " + team_b).lower() for kw in MOTORSPORT_KW):
+        # ─── LOGIC PHÂN LOẠI ĐÃ SỬA ───
+        raw_type = item.get("type", "football").lower().strip()
+        combined_text = (league_name + " " + team_a + " " + team_b).lower()
+        
+        # Ưu tiên kiểm tra từ khóa đặc thù để sửa lỗi API phân loại sai
+        if any(kw in combined_text for kw in MOTORSPORT_KW):
             cate_type = "duaxe"
+        elif any(kw in combined_text for kw in BILLIARDS_KW):
+            cate_type = "Billiards"
+        elif raw_type in ["billiard", "billiards", "pool", "snooker", "carom", "bi-a", "ba lỗ", "ba lo"]:
+            cate_type = "Billiards"
+        elif raw_type in CATE_MAP:
+            cate_type = raw_type
         else:
             cate_type = raw_type
 
@@ -374,7 +385,7 @@ def get_grouped_matches() -> dict:
         time_str = item.get("time", "")
         date_str = item.get("day_month", "")
         
-        # ─── LOGIC LỌC THỜI GIAN ĐÃ SỬA ───
+        # ─── LOGIC LỌC THỜI GIAN ───
         # Chỉ áp dụng bộ lọc thời gian nếu KHÔNG phải trận đang LIVE
         if not is_live_api:
             if not is_within_24h(time_str, date_str, cate_type):
