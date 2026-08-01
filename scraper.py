@@ -70,6 +70,11 @@ CATE_MAP = {
 CATE_ORDER = ["football", "basketball", "tennis", "bongchuyen", "esport", "caulong", "vothuat", "bongchay", "duaxe", "Billiards"]
 
 MOTORSPORT_KW = ["formula", "f1", "grand prix", "motogp", "nascar", "indycar", "đua xe"]
+BILLIARDS_KW = [
+    "billiard", "billiards", "pool", "snooker", "carom", 
+    "bi-a", "ba lỗ", "ba lo", "9-ball", "10-ball", "9 bi", "10 bi",
+    "vice city classic"  # Giải đấu cụ thể thường bị API nhận nhầm
+]
 EXCLUDE_LEAGUES_AMERICA = [
     "mls", "major league soccer", "liga mx", "brasileirao", "brasileirão", "serie a brasil",
     "campeonato brasileiro", "copa do brasil", "argentine", "argentina", "liga profesional",
