@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -274,7 +274,7 @@
             "time": "22:00:00",
             "date": "01/08",
             "blv": "",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -294,10 +294,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -346,7 +346,7 @@
             "time": "22:00:00",
             "date": "01/08",
             "blv": "Số 10",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -366,10 +366,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -418,7 +418,7 @@
             "time": "22:00:00",
             "date": "01/08",
             "blv": "Số 17",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2037,6 +2037,69 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/tr0g6f5nom8s_8ff07f72_20260801.png?v=8ff07f72",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-ba186ddff0",
+          "name": "Joshua Filler vs Duong Quoc Hoang | 22:00 01/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ba186ddff0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ba186ddff0",
+                  "name": "Joshua Filler vs Duong Quoc Hoang",
+                  "streams": [
+                    {
+                      "id": "st-ba186ddff0",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vice City Classic",
+            "team_a": "Joshua Filler",
+            "team_b": "Duong Quoc Hoang",
+            "logo_a": "https://i.ytimg.com/vi/31iIT_pjxSU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDi_0u2WANfLIqcruySMj5_oDlXBA",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOqQg_gQypilAAJH-wesHm89D669S42ve3kgO1Z-7gaA&s=10",
+            "time": "22:00:00",
+            "date": "01/08",
+            "blv": "",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/498js9ock0fl_b85423d4_20260801.png?v=b85423d4",
             "width": 1600,
             "height": 1200
           }
