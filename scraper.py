@@ -73,7 +73,7 @@ MOTORSPORT_KW = ["formula", "f1", "grand prix", "motogp", "nascar", "indycar", "
 # Thêm từ khóa nhận diện Billiards để sửa lỗi API phân loại nhầm thành Esport
 BILLIARDS_KW = [
     "billiard", "billiards", "pool", "snooker", "carom", 
-    "bi-a", "ba lỗ", "ba lo", "9-ball", "10-ball", "9 bi", "10 bi",
+    "bi-a", "ba lỗ", "duong quoc hoang", "9-ball", "10-ball", "9 bi", "10 bi",
     "vice city classic"  # Giải đấu cụ thể thường bị API nhận nhầm
 ]
 EXCLUDE_LEAGUES_AMERICA = [
