@@ -1100,83 +1100,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8024367722",
-          "name": "Chicago Sky vs Las Vegas Aces | 23:59 01/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8024367722",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8024367722",
-                  "name": "Chicago Sky vs Las Vegas Aces",
-                  "streams": [
-                    {
-                      "id": "st-8024367722",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7df1673580",
-                          "name": "Số 12",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785553084_hd/1785553084_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Chicago Sky",
-            "team_b": "Las Vegas Aces",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/0a570e6f3972fccc8370091d6ffdef5e.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/cbf9424df17d6e06d655dca78651d329.png",
-            "time": "23:59:00",
-            "date": "01/08",
-            "blv": "Số 12",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/26415073_94ee93f8_20260802.png?v=94ee93f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b0ba114c15",
           "name": "Phoenix Mercury vs New York Liberty | 02:00 02/08",
