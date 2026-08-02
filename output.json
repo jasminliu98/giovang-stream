@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -312,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +364,7 @@
             "time": "22:00:00",
             "date": "02/08",
             "blv": "Số 17",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -384,10 +384,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +436,7 @@
             "time": "22:00:00",
             "date": "02/08",
             "blv": "Số 13",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -456,10 +456,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -508,7 +508,7 @@
             "time": "22:00:00",
             "date": "02/08",
             "blv": "Số 11",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1062,83 +1062,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6393ff2ddd",
-          "name": "Barangay Ginebra San Miguel vs Magnolia Hotshots | 18:30 02/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6393ff2ddd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6393ff2ddd",
-                  "name": "Barangay Ginebra San Miguel vs Magnolia Hotshots",
-                  "streams": [
-                    {
-                      "id": "st-6393ff2ddd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-987e01bd41",
-                          "name": "Số 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785654778_hd/1785654778_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PBA",
-            "team_a": "Barangay Ginebra San Miguel",
-            "team_b": "Magnolia Hotshots",
-            "logo_a": "https://static.flashscore.com/res/image/data/hWf7PfGG-67i7cfzM.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/jw4MZXYA-UiVdRBAg.png",
-            "time": "18:30:00",
-            "date": "02/08",
-            "blv": "Số 1",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/2ywrpf2y0km4_cf90a3e1_20260802.png?v=cf90a3e1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-60990d9aa0",
           "name": "Minnesota Lynx vs Indiana Fever | 00:00 03/08",
@@ -1936,168 +1864,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/es1x00upki6f_133f5139_20260802.png?v=133f5139",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-e0fc3c1240",
-          "name": "Poland vs USA | 18:30 02/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e0fc3c1240",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e0fc3c1240",
-                  "name": "Poland vs USA",
-                  "streams": [
-                    {
-                      "id": "st-e0fc3c1240",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5aa8af93b9",
-                          "name": "Số 9",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785654851_hd/1785654851_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nations League - Play Off",
-            "team_a": "Poland",
-            "team_b": "USA",
-            "logo_a": "https://static.flashscore.com/res/image/data/WnW15DfM-6ys9CWQj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xpZWyhzB-rZcDn0Ec.png",
-            "time": "18:30:00",
-            "date": "02/08",
-            "blv": "Số 9",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/foot20x89ihx_b814b850_20260802.png?v=b814b850",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-a84e3ccd28",
-          "name": "KT vs HLE | 17:00 02/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a84e3ccd28",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a84e3ccd28",
-                  "name": "KT vs HLE",
-                  "streams": [
-                    {
-                      "id": "st-a84e3ccd28",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-877a5b2259",
-                          "name": "Số 12",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785654990_hd/1785654990_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "KT",
-            "team_b": "HLE",
-            "logo_a": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pKkqJ4Wg-bB59SVBr.png",
-            "time": "17:00:00",
-            "date": "02/08",
-            "blv": "Số 12",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/xb9jvdnckcgc_2f8fa875_20260802.png?v=2f8fa875",
             "width": 1600,
             "height": 1200
           }
