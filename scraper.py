@@ -97,6 +97,15 @@ EXCLUDE_LEAGUES_AMERICA = [
     "copa america", "copa sudamericana", "copa libertadores",
 ]
 
+# FIX: Dùng Regex Word Boundary (\b) để bắt từ khóa độc lập, tránh match "pool" trong "liverpool"
+def match_keywords(text: str, keywords: list) -> bool:
+    if not text: return False
+    text_lower = text.lower()
+    for kw in keywords:
+        if re.search(rf"\b{re.escape(kw.lower())}\b", text_lower):
+            return True
+    return False
+
 def is_america_league(league_name: str) -> bool:
     return any(kw in league_name.lower() for kw in EXCLUDE_LEAGUES_AMERICA)
 
