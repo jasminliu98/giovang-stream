@@ -1341,6 +1341,87 @@
       ]
     },
     {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-b9b6029de5",
+          "name": "WSOP Main Event Final Table – Day 1 vs WSOP Main Event Final Table – Day 1 | 08:00 04/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9b6029de5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b9b6029de5",
+                  "name": "WSOP Main Event Final Table – Day 1 vs WSOP Main Event Final Table – Day 1",
+                  "streams": [
+                    {
+                      "id": "st-b9b6029de5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8abd7ac396",
+                          "name": "Số 10",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785800479_hd/1785800479_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WSOP",
+            "team_a": "WSOP Main Event Final Table – Day 1",
+            "team_b": "WSOP Main Event Final Table – Day 1",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7YzZnDH_GUxsGuKe-Sig7UeMJ2ou8xKt8sOAQW3oXl2gsHbu7KpwqgXB-&s=10",
+            "logo_b": "https://s.pnimg.net/8gxFij6sspueSAB2NXS3ICth9EwTvLvZLwMVOffwkxI/pr:article-leading-desktop/aHR0cHM6Ly9wbmlt/Zy5uZXQvdy9hcnRp/Y2xlcy8wLzY5ZC82/MWU2NTAzMGJiLmpw/Zw.webp",
+            "time": "08:00:00",
+            "date": "04/08",
+            "blv": "Số 10",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/0aw0v389zsua_9a95867a_20260804.png?v=9a95867a",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_vothuat",
       "name": "🥊 Võ Thuật",
       "display": "vertical",
@@ -1567,7 +1648,7 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1580,10 +1661,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1632,7 +1713,7 @@
             "time": "07:05:00",
             "date": "04/08",
             "blv": "Số 9",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
