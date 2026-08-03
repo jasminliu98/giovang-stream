@@ -1117,6 +1117,69 @@
       ]
     },
     {
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-3f7a7afc4e",
+          "name": "WEN Ruibo vs Joao GERALDO | 09:00 04/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f7a7afc4e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3f7a7afc4e",
+                  "name": "WEN Ruibo vs Joao GERALDO",
+                  "streams": [
+                    {
+                      "id": "st-3f7a7afc4e",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Champions Yokohama 2026",
+            "team_a": "WEN Ruibo",
+            "team_b": "Joao GERALDO",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgeJkqn5uc1Qz61ysJe17YDRzcouykW74VTEkfIXfKYw&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQoOq3q1T4S-pyDKIhCOa99BTpS3N3mHXqk9ZBUTdTYeO9Z8Impcu7SPk&s=10",
+            "time": "09:00:00",
+            "date": "04/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ggwn2oif5zbh_1ee3e5de_20260803.png?v=1ee3e5de",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchay",
       "name": "⚾ Bóng Chày",
       "display": "vertical",
