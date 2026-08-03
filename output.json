@@ -483,78 +483,6 @@
           }
         },
         {
-          "id": "gv-8b855d2cb9",
-          "name": "SJK Seinajoki vs HJK Helsinki | 23:00 03/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8b855d2cb9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8b855d2cb9",
-                  "name": "SJK Seinajoki vs HJK Helsinki",
-                  "streams": [
-                    {
-                      "id": "st-8b855d2cb9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc33697c29",
-                          "name": "Số 16",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785692579_hd/1785692579_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Phần Lan",
-            "team_a": "SJK Seinajoki",
-            "team_b": "HJK Helsinki",
-            "logo_a": "https://images.keovip88.net/images/teams/sjk-seinajoen.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hjk-helsinki.png",
-            "time": "23:00:00",
-            "date": "03/08",
-            "blv": "Số 16",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a67f13324d46db87096bcd9_a46a0f0b_20260803.png?v=a46a0f0b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-644411358d",
           "name": "Djurgardens vs Vasteras SK | 00:00 04/08",
           "type": "single",
@@ -694,6 +622,114 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a67f13324d46db87096bdcc_243564fc_20260803.png?v=243564fc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2c9b2a1e67",
+          "name": "Odense BK vs Sonderjyske | 00:00 04/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2c9b2a1e67",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2c9b2a1e67",
+                  "name": "Odense BK vs Sonderjyske",
+                  "streams": [
+                    {
+                      "id": "st-2c9b2a1e67",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Đan Mạch",
+            "team_a": "Odense BK",
+            "team_b": "Sonderjyske",
+            "logo_a": "https://images.keovip88.net/images/teams/odense-bk.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sonderjyske.png",
+            "time": "00:00:00",
+            "date": "04/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a67f13324d46db87096bde0_6097ce13_20260803.png?v=6097ce13",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ecb77212d9",
+          "name": "Halifax Tides vs Ottawa Rapid | 01:00 04/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ecb77212d9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ecb77212d9",
+                  "name": "Halifax Tides vs Ottawa Rapid",
+                  "streams": [
+                    {
+                      "id": "st-ecb77212d9",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Canada - Northern Super League",
+            "team_a": "Halifax Tides",
+            "team_b": "Ottawa Rapid",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/3/37/Halifax_Tides_FC.svg",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Ottawa_Rapid_FC.svg/250px-Ottawa_Rapid_FC.svg.png",
+            "time": "01:00:00",
+            "date": "04/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/crhhuhqlfs15_6a79471e_20260803.png?v=6a79471e",
             "width": 1600,
             "height": 1200
           }
