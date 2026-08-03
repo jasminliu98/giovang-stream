@@ -630,7 +630,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -643,10 +643,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -663,11 +663,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-84062dc8c8",
-                          "name": "Số 16",
+                          "id": "lnk-067e929204",
+                          "name": "Số 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785630172_hd/1785630172_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785747376_hd/1785747376_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -694,8 +694,8 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/4e96e841ee44e663ed4a524c3ab181c5.png",
             "time": "16:00:00",
             "date": "03/08",
-            "blv": "Số 16",
-            "is_live": false,
+            "blv": "Số 1",
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
