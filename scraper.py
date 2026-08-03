@@ -60,7 +60,7 @@ API_FIXTURES  = "https://live-api.keovip88.net/api/fixtures/"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v3"
+THUMB_VERSION = "v2"
 
 CATE_MAP = {
     "football": "⚽ Bóng Đá", "basketball": "🏀 Bóng Rổ", "tennis": "🎾 Tennis",
@@ -107,7 +107,7 @@ def match_keywords(text: str, keywords: list) -> bool:
     return False
 
 def is_america_league(league_name: str) -> bool:
-    return any(kw in league_name.lower() for kw in EXCLUDE_LEAGUES_AMERICA)
+    return match_keywords(league_name, EXCLUDE_LEAGUES_AMERICA)
 
 def make_id(text, prefix):
     return f"{prefix}-{hashlib.md5(text.encode()).hexdigest()[:10]}"
@@ -127,22 +127,27 @@ def parse_time_sort(time_str: str, date_str: str) -> int:
     return 999_999_999
 
 # ─────────────────────────────────────────────────────────────────────────────
-# BỘ LỌC THỜI GIAN (CHỈ ÁP DỤNG CHO BÓNG ĐÁ)
+# BỘ LỌC THỜI GIAN (ÁP DỤNG CHO MỌI MÔN)
 # ─────────────────────────────────────────────────────────────────────────────
 
-def is_within_24h(time_str: str, date_str: str, cate_type: str = "football") -> bool:
-    # Nếu KHÔNG phải bóng đá, luôn cho phép qua (không khóa thời gian)
-    if cate_type != "football":
-        return True
-        
+def is_valid_time(time_str: str, date_str: str, cate_type: str = "football") -> bool:
     kickoff = parse_kickoff(time_str, date_str)
     if kickoff is None:
-        return True
+        return True # Không parse được thì cứ cho qua
         
     now = now_vn()
+    
+    # FIX: Dù là môn gì, nếu trận đã kết thúc quá 3 tiếng thì loại bỏ để tránh hiển thị trận cũ
     lower = now - timedelta(hours=6)
-    upper = now + timedelta(hours=24)
-    return lower <= kickoff <= upper
+    if kickoff < lower:
+        return False
+
+    # Chỉ áp dụng giới hạn trên (24h tới) cho bóng đá để tránh spam lịch thi đấu quá dài
+    if cate_type == "football":
+        upper = now + timedelta(hours=24)
+        return kickoff <= upper
+        
+    return True
 
 def format_time_hhmm(time_str: str) -> str:
     if not time_str: return ""
@@ -369,13 +374,11 @@ def get_grouped_matches() -> dict:
         match_id = str(item.get("id", ""))
         status_code = item.get("status_code", "NS")
         
-        # Tin tưởng API: Nếu API báo LIVE hoặc các mã giữa trận, ta coi là đang live
         is_live_api = item.get("is_live", False) or status_code in {"1H", "2H", "HT", "PEN", "LIVE", "ET"}
 
         if not match_id or status_code == "FT":
             continue
 
-        # Lấy league name từ dict hoặc string (phòng hờ API đổi format)
         league_obj = item.get("league") or {}
         if isinstance(league_obj, dict):
             league_name = league_obj.get("title", "") or league_obj.get("name", "")
@@ -391,18 +394,16 @@ def get_grouped_matches() -> dict:
 
         combined_text = f"{league_name} {team_a} {team_b}".lower()
         
-        # ─── LOGIC ÉP CỨNG & PHÂN LOẠI THỂ THAO ───
-        # 1. Ưu tiên số 1: Kiểm tra Override Cate (Ép cứng giải / VĐV bị API gán nhầm)
-        override_matched = next((cate for kw, cate in OVERRIDE_CATE.items() if kw in combined_text), None)
+        # ─── LOGIC ÉP CỨNG & PHÂN LOẠI THỂ THAO (ĐÃ FIX LỖI SUBSTRING) ───
+        override_matched = next((cate for kw, cate in OVERRIDE_CATE.items() if match_keywords(combined_text, [kw])), None)
         if override_matched:
             cate_type = override_matched
         else:
             raw_type = str(item.get("type", "football")).lower().strip()
             
-            # 2. Logic phân loại thông thường
-            if any(kw in combined_text for kw in MOTORSPORT_KW):
+            if match_keywords(combined_text, MOTORSPORT_KW):
                 cate_type = "duaxe"
-            elif any(kw in combined_text for kw in BILLIARDS_KW):
+            elif match_keywords(combined_text, BILLIARDS_KW):
                 cate_type = "Billiards"
             elif raw_type in ["billiard", "billiards", "pool", "snooker", "carom", "bi-a", "bida", "ba lỗ", "ba lo"]:
                 cate_type = "Billiards"
@@ -411,8 +412,7 @@ def get_grouped_matches() -> dict:
             else:
                 cate_type = raw_type
                 
-        # Chốt chặn cuối: Nếu API báo esport nhưng có từ khóa billiard thì ép về Billiards
-        if cate_type == "esport" and any(kw in combined_text for kw in BILLIARDS_KW):
+        if cate_type == "esport" and match_keywords(combined_text, BILLIARDS_KW):
             cate_type = "Billiards"
 
         if cate_type == "football" and is_america_league(league_name):
@@ -421,10 +421,9 @@ def get_grouped_matches() -> dict:
         time_str = item.get("time", "")
         date_str = item.get("day_month", "")
         
-        # ─── LOGIC LỌC THỜI GIAN ───
-        # Chỉ áp dụng bộ lọc thời gian nếu KHÔNG phải trận đang LIVE
+        # ─── LOGIC LỌC THỜI GIAN (ĐÃ FIX LỌC CHO TẤT CẢ CÁC MÔN) ───
         if not is_live_api:
-            if not is_within_24h(time_str, date_str, cate_type):
+            if not is_valid_time(time_str, date_str, cate_type):
                 continue
 
         blv_keys = [b for b in (item.get("blv") or []) if b != "nha-dai" and isinstance(b, str)]
