@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-d99ba0700a",
-          "name": "Jeju United FC vs Bayern Munich | 18:00 04/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d99ba0700a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d99ba0700a",
-                  "name": "Jeju United FC vs Bayern Munich",
-                  "streams": [
-                    {
-                      "id": "st-d99ba0700a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-befda9d661",
-                          "name": "Số 5",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785772799_hd/1785772799_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Jeju United FC",
-            "team_b": "Bayern Munich",
-            "logo_a": "https://images.keovip88.net/images/teams/jeju-sk-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bayern-munchen.png",
-            "time": "18:00:00",
-            "date": "04/08",
-            "blv": "Số 5",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6e89450f85b1e1860470fa_5820d218_20260804.png?v=5820d218",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-48cbfa4950",
           "name": "Bangkok Glass vs Aston Villa | 19:30 04/08",
           "type": "single",
@@ -329,10 +257,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -381,7 +309,7 @@
             "time": "20:15:00",
             "date": "04/08",
             "blv": "Số 1",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
