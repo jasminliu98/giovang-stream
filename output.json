@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -156,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6e89450f85b1e1860470fb_0899993e_20260804.png?v=0899993e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-36c5769086",
+          "name": "FarDU vs TerDU | 19:30 04/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-36c5769086",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-36c5769086",
+                  "name": "FarDU vs TerDU",
+                  "streams": [
+                    {
+                      "id": "st-36c5769086",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30bae8d7ed",
+                          "name": "Số 17",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785845721_hd/1785845721_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uzbekistan Super League",
+            "team_a": "FarDU",
+            "team_b": "TerDU",
+            "logo_a": "https://static.flashscore.com/res/image/data/hMMEC3jl-jNuQsmNA.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/noDiKGCa-W2CZaars.png",
+            "time": "19:30:00",
+            "date": "04/08",
+            "blv": "Số 17",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/5s2bm2iv1tx2_cd3643cd_20260804.png?v=cd3643cd",
             "width": 1600,
             "height": 1200
           }
