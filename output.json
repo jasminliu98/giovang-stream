@@ -1046,7 +1046,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (3 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1119,78 +1119,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/xvh2kcux7jzv_8c133818_20260805.png?v=8c133818",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-daea0710c8",
-          "name": "LGD vs JDG | 16:00 05/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-daea0710c8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-daea0710c8",
-                  "name": "LGD vs JDG",
-                  "streams": [
-                    {
-                      "id": "st-daea0710c8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-263a11f0c0",
-                          "name": "Số 2",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785893737_hd/1785893737_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LPL",
-            "team_a": "LGD",
-            "team_b": "JDG",
-            "logo_a": "https://static.flashscore.com/res/image/data/K2DzGSil-IizXy6Yg.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/4Aoo4weM-MLEBzXUg.png",
-            "time": "16:00:00",
-            "date": "05/08",
-            "blv": "Số 2",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/9iunarosv14v_74f0efb5_20260805.png?v=74f0efb5",
             "width": 1600,
             "height": 1200
           }
