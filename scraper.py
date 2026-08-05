@@ -70,6 +70,7 @@ CATE_MAP = {
 CATE_ORDER = ["football", "basketball", "tennis", "bongchuyen", "esport", "caulong", "vothuat", "bongchay", "duaxe", "Billiards"]
 
 MOTORSPORT_KW = ["formula", "f1", "grand prix", "motogp", "nascar", "indycar", "đua xe"]
+BONGBAN_KW = ["wtt"]
 
 # ─── THÊM TỪ KHÓA ÉP CỨNG & TỪ KHÓA BILLIARDS ───
 OVERRIDE_CATE = {
