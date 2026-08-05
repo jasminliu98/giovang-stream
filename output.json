@@ -884,7 +884,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -897,10 +897,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -949,7 +949,7 @@
             "time": "09:00:00",
             "date": "05/08",
             "blv": "Số 1",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1556,78 +1556,6 @@
           }
         },
         {
-          "id": "gv-6e229e7080",
-          "name": "Tomokazu HARIMOTO vs Nicholas LUM | 17:00 05/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e229e7080",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6e229e7080",
-                  "name": "Tomokazu HARIMOTO vs Nicholas LUM",
-                  "streams": [
-                    {
-                      "id": "st-6e229e7080",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-05a5f9ba06",
-                          "name": "Số 69",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785893895_hd/1785893895_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTT Champions Yokohama 2026",
-            "team_a": "Tomokazu HARIMOTO",
-            "team_b": "Nicholas LUM",
-            "logo_a": "https://static.flashscore.com/res/image/data/p2pUgGEG-0GVPIiRs.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/j9bgnxgl-6mB1hoUd.png",
-            "time": "17:00:00",
-            "date": "05/08",
-            "blv": "Số 69",
-            "is_live": false,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/tr2cf5xckbq9_a0ca1440_20260805.png?v=a0ca1440",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-f2d6a28553",
           "name": "HLE vs GEN | 17:00 05/08",
           "type": "single",
@@ -1695,6 +1623,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ve3othyep52a_ce9b1a8d_20260805.png?v=ce9b1a8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6e229e7080",
+          "name": "Tomokazu HARIMOTO vs Nicholas LUM | 17:00 05/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e229e7080",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6e229e7080",
+                  "name": "Tomokazu HARIMOTO vs Nicholas LUM",
+                  "streams": [
+                    {
+                      "id": "st-6e229e7080",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-05a5f9ba06",
+                          "name": "Số 69",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785893895_hd/1785893895_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Champions Yokohama 2026",
+            "team_a": "Tomokazu HARIMOTO",
+            "team_b": "Nicholas LUM",
+            "logo_a": "https://static.flashscore.com/res/image/data/p2pUgGEG-0GVPIiRs.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/j9bgnxgl-6mB1hoUd.png",
+            "time": "17:00:00",
+            "date": "05/08",
+            "blv": "Số 69",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/tr2cf5xckbq9_a0ca1440_20260805.png?v=a0ca1440",
             "width": 1600,
             "height": 1200
           }
@@ -1775,7 +1775,7 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1788,10 +1788,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1840,7 +1840,7 @@
             "time": "09:00:00",
             "date": "05/08",
             "blv": "Số 69",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "vothuat"
           },
           "image": {
