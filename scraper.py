@@ -65,7 +65,7 @@ THUMB_VERSION = "v2"
 CATE_MAP = {
     "football": "⚽ Bóng Đá", "basketball": "🏀 Bóng Rổ", "tennis": "🎾 Tennis",
     "bongchuyen": "🏐 Bóng Chuyền", "esport": "🎮 Esport", "caulong": "🏸 Cầu Lông",
-    "vothuat": "🥊 Võ Thuật", "bongchay": "⚾ Bóng Chày", "duaxe": "🏎️ Đua Xe", "Billiards": "🎱 Billiards"
+    "vothuat": "🥊 Võ Thuật", "bongchay": "⚾ Bóng Chày", "duaxe": "🏎️ Đua Xe", "bongban": "🏓 Bóng Bàn", "Billiards": "🎱 Billiards"
 }
 CATE_ORDER = ["football", "basketball", "tennis", "bongchuyen", "esport", "caulong", "vothuat", "bongchay", "duaxe", "Billiards"]
 
@@ -81,6 +81,8 @@ OVERRIDE_CATE = {
     "matchroom pool": "Billiards",
     "world pool masters": "Billiards",
     "us open pool": "Billiards",
+    "WTT": "bongban",
+    
 }
 
 BILLIARDS_KW = [
