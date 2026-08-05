@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8a63bb0985",
-          "name": "Juventude vs Atletico Mineiro | 05:30 05/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a63bb0985",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8a63bb0985",
-                  "name": "Juventude vs Atletico Mineiro",
-                  "streams": [
-                    {
-                      "id": "st-8a63bb0985",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3a077509d6",
-                          "name": "Số 17",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785865586_hd/1785865586_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Brazil",
-            "team_a": "Juventude",
-            "team_b": "Atletico Mineiro",
-            "logo_a": "https://images.keovip88.net/images/teams/juventude.png",
-            "logo_b": "https://images.keovip88.net/images/teams/atletico-mineiro.png",
-            "time": "05:30:00",
-            "date": "05/08",
-            "blv": "Số 17",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a17894c058587a6e10c641b_6670a7b2_20260805.png?v=6670a7b2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ab97c6cffd",
           "name": "Columbus Crew vs Atlas | 06:45 05/08",
@@ -1088,6 +1016,60 @@
           }
         },
         {
+          "id": "gv-9e504b7344",
+          "name": "San Miguel Beermen vs Converge FiberXers | 18:30 05/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9e504b7344",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9e504b7344",
+                  "name": "San Miguel Beermen vs Converge FiberXers",
+                  "streams": [
+                    {
+                      "id": "st-9e504b7344",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Philippines PBA Governors'' Cup",
+            "team_a": "San Miguel Beermen",
+            "team_b": "Converge FiberXers",
+            "logo_a": "https://static.flashscore.com/res/image/data/jeSijRyS-xrx6DBl6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/UPlTdQHG-vBbzdfpd.png",
+            "time": "18:30:00",
+            "date": "05/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/42qimb5sa6wk_92d75dc3_20260805.png?v=92d75dc3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-4ffdaf297b",
           "name": "Chicago Sky vs Los Angeles Sparks | 08:00 06/08",
           "type": "single",
@@ -1394,6 +1376,60 @@
           }
         },
         {
+          "id": "gv-cb0e55109f",
+          "name": "BRO vs NS | 15:00 05/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb0e55109f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cb0e55109f",
+                  "name": "BRO vs NS",
+                  "streams": [
+                    {
+                      "id": "st-cb0e55109f",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "BRO",
+            "team_b": "NS",
+            "logo_a": "https://static.flashscore.com/res/image/data/dWdjTlyS-tSnxXc8U.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fsLmL8ZA-K2mdw3oq.png",
+            "time": "15:00:00",
+            "date": "05/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/xvh2kcux7jzv_8c133818_20260805.png?v=8c133818",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-d7a9eff37d",
           "name": "LGD vs TT | 14:00 06/08",
           "type": "single",
@@ -1550,83 +1586,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-7dee583ed8",
-          "name": "New York Yankees vs St.Louis Cardinals | 06:05 05/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7dee583ed8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7dee583ed8",
-                  "name": "New York Yankees vs St.Louis Cardinals",
-                  "streams": [
-                    {
-                      "id": "st-7dee583ed8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e5b2f5f98e",
-                          "name": "Số 4",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785865531_hd/1785865531_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "New York Yankees",
-            "team_b": "St.Louis Cardinals",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/kNiURsT2QKUI_jwkbgwPaw_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/oJf168LcE5pH3F6s9iI1Mg_96x96.png",
-            "time": "06:05:00",
-            "date": "05/08",
-            "blv": "Số 4",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/asol3cwh1250_42abbf53_20260805.png?v=42abbf53",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a7e91f946b",
           "name": "Chicago Cubs vs Los Angeles Dodgers | 07:05 05/08",
@@ -1839,87 +1803,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/nfirs2jpqrzz_7f5a1ca3_20260805.png?v=7f5a1ca3",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_Billiards",
-      "name": "🎱 Billiards (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-35a5aa7b13",
-          "name": "Duong Quoc Hoang vs Eduardo Pagan | 05:30 05/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-35a5aa7b13",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-35a5aa7b13",
-                  "name": "Duong Quoc Hoang vs Eduardo Pagan",
-                  "streams": [
-                    {
-                      "id": "st-35a5aa7b13",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-56fc13e541",
-                          "name": "Số 9",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785865638_hd/1785865638_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Florida Open",
-            "team_a": "Duong Quoc Hoang",
-            "team_b": "Eduardo Pagan",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMpYmqNT8XGfqrwVGJuQ2pH_mbiEw5iORcS-4vT1WeRw&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScUSaUy0jVbT04o4J-bBH0uAIFWu7NnmfUrXmJTV2paA&s=10",
-            "time": "05:30:00",
-            "date": "05/08",
-            "blv": "Số 9",
-            "is_live": true,
-            "cate_type": "Billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6oy996tnj53i_bd40dcba_20260805.png?v=bd40dcba",
             "width": 1600,
             "height": 1200
           }
