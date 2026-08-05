@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a3f152cdb65f8f93c086e27_d53d1b6c_20260806.png?v=d53d1b6c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6cb3b9ed86",
-          "name": "Mallorca vs Paris Saint Germain | 02:00 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6cb3b9ed86",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6cb3b9ed86",
-                  "name": "Mallorca vs Paris Saint Germain",
-                  "streams": [
-                    {
-                      "id": "st-6cb3b9ed86",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ca0a4afac9",
-                          "name": "Số 19",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785938064_hd/1785938064_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Mallorca",
-            "team_b": "Paris Saint Germain",
-            "logo_a": "https://images.keovip88.net/images/teams/mallorca.png",
-            "logo_b": "https://images.keovip88.net/images/teams/paris-saint-germain-psg.png",
-            "time": "02:00:00",
-            "date": "06/08",
-            "blv": "Số 19",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a712b8d24d46db870f83ea3_61f1d97b_20260806.png?v=61f1d97b",
             "width": 1600,
             "height": 1200
           }
