@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-5681a5090d",
-          "name": "Chaves B vs Famalicao U23 | 21:30 05/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5681a5090d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5681a5090d",
-                  "name": "Chaves B vs Famalicao U23",
-                  "streams": [
-                    {
-                      "id": "st-5681a5090d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-307c9dd9e1",
-                          "name": "Số 11",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785892980_hd/1785892980_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Chaves B",
-            "team_b": "Famalicao U23",
-            "logo_a": "https://images.keovip88.net/images/teams/chaves-b.png",
-            "logo_b": "https://images.keovip88.net/images/teams/famalicao-u23.png",
-            "time": "21:30:00",
-            "date": "05/08",
-            "blv": "Số 11",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6e89450f85b1e186047101_6d96cd35_20260805.png?v=6d96cd35",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-863aa7a47b",
           "name": "Virtus Entella vs Novara Calcio | 22:00 05/08",
           "type": "single",
@@ -1253,7 +1181,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1266,10 +1194,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1318,7 +1246,7 @@
             "time": "22:00:00",
             "date": "05/08",
             "blv": "Số 3",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -1356,25 +1284,7 @@
                     {
                       "id": "st-fb15ef3bd3",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-509a43812b",
-                          "name": "Số 12",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785922249_hd/1785922249_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -1389,7 +1299,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/beye6ugl-dO8eBuOC.png",
             "time": "22:00:00",
             "date": "05/08",
-            "blv": "Số 12",
+            "blv": "",
             "is_live": false,
             "cate_type": "tennis"
           },
@@ -1500,7 +1410,25 @@
                     {
                       "id": "st-e5734f83e3",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f60a3fb7df",
+                          "name": "Số 12",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785939247_hd/1785939247_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1515,7 +1443,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBVHJgMiWRbc3S0OsC2CHPKy27uSGDmqtrRkr-PlUv7A&s=10",
             "time": "23:10:00",
             "date": "05/08",
-            "blv": "",
+            "blv": "Số 12",
             "is_live": false,
             "cate_type": "tennis"
           },
