@@ -1068,7 +1068,25 @@
                     {
                       "id": "st-fb15ef3bd3",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-509a43812b",
+                          "name": "Số 12",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785922249_hd/1785922249_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1083,7 +1101,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/beye6ugl-dO8eBuOC.png",
             "time": "22:00:00",
             "date": "05/08",
-            "blv": "",
+            "blv": "Số 12",
             "is_live": false,
             "cate_type": "tennis"
           },
@@ -1100,7 +1118,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1257,10 +1275,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1309,7 +1327,7 @@
             "time": "17:00:00",
             "date": "05/08",
             "blv": "Số 7",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
