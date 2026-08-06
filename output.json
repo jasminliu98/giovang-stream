@@ -749,83 +749,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b9b6029de5",
-          "name": "WSOP Main Event Final Table – Day 3 vs WSOP Main Event Final Table – Day 3 | 09:30 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b9b6029de5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b9b6029de5",
-                  "name": "WSOP Main Event Final Table – Day 3 vs WSOP Main Event Final Table – Day 3",
-                  "streams": [
-                    {
-                      "id": "st-b9b6029de5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ff080c4681",
-                          "name": "Số 10",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785932997_hd/1785932997_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WSOP",
-            "team_a": "WSOP Main Event Final Table – Day 3",
-            "team_b": "WSOP Main Event Final Table – Day 3",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7YzZnDH_GUxsGuKe-Sig7UeMJ2ou8xKt8sOAQW3oXl2gsHbu7KpwqgXB-&s=10",
-            "logo_b": "https://s.pnimg.net/8gxFij6sspueSAB2NXS3ICth9EwTvLvZLwMVOffwkxI/pr:article-leading-desktop/aHR0cHM6Ly9wbmlt/Zy5uZXQvdy9hcnRp/Y2xlcy8wLzY5ZC82/MWU2NTAzMGJiLmpw/Zw.webp",
-            "time": "09:30:00",
-            "date": "06/08",
-            "blv": "Số 10",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/0aw0v389zsua_9a95867a_20260806.png?v=9a95867a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d7a9eff37d",
           "name": "LGD vs TT | 14:00 06/08",
@@ -1118,83 +1046,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-23e61e8061",
-          "name": "New York Yankees vs St.Louis Cardinals | 06:05 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-23e61e8061",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-23e61e8061",
-                  "name": "New York Yankees vs St.Louis Cardinals",
-                  "streams": [
-                    {
-                      "id": "st-23e61e8061",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0180bdcc98",
-                          "name": "Số 9",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785939016_hd/1785939016_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "New York Yankees",
-            "team_b": "St.Louis Cardinals",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/kNiURsT2QKUI_jwkbgwPaw_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/oJf168LcE5pH3F6s9iI1Mg_96x96.png",
-            "time": "06:05:00",
-            "date": "06/08",
-            "blv": "Số 9",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/yyxc5i6xld1n_42abbf53_20260806.png?v=42abbf53",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-28e135869d",
           "name": "Arizona Diamondbacks vs San Diego Padres | 08:40 06/08",
