@@ -596,83 +596,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b5ced18ba8",
-          "name": "Basilan Viva Portmasters vs Paranaque Patriots | 18:00 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b5ced18ba8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b5ced18ba8",
-                  "name": "Basilan Viva Portmasters vs Paranaque Patriots",
-                  "streams": [
-                    {
-                      "id": "st-b5ced18ba8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fc1b3f0e8b",
-                          "name": "Số 3",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785955303_hd/1785955303_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines MPBL",
-            "team_a": "Basilan Viva Portmasters",
-            "team_b": "Paranaque Patriots",
-            "logo_a": "https://nba.titan007.com/files/team/1k2p751yht1b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/44b923abc0dfdd25add729b91a4f6d28.png",
-            "time": "18:00:00",
-            "date": "06/08",
-            "blv": "Số 3",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/13052279_d626bf66_20260806.png?v=d626bf66",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-caa9c9755e",
           "name": "Indiana Fever vs Las Vegas Aces | 06:00 07/08",
