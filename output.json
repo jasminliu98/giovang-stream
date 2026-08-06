@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-ff9650496c",
-          "name": "Jagiellonia Bialystok vs Glasgow Rangers | 23:00 06/08",
+          "id": "gv-2ad40e0e04",
+          "name": "AS Monaco vs Getafe | 01:00 07/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,78 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff9650496c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ff9650496c",
-                  "name": "Jagiellonia Bialystok vs Glasgow Rangers",
-                  "streams": [
-                    {
-                      "id": "st-ff9650496c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-14afee5e19",
-                          "name": "Số 19",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786009392_hd/1786009392_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "Jagiellonia Bialystok",
-            "team_b": "Glasgow Rangers",
-            "logo_a": "https://images.keovip88.net/images/teams/jagiellonia-bialystok.png",
-            "logo_b": "https://images.keovip88.net/images/teams/glasgow-rangers.png",
-            "time": "23:00:00",
-            "date": "06/08",
-            "blv": "Số 19",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d372224d46db8705f3ac3_ad7de02f_20260807.png?v=ad7de02f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-2ad40e0e04",
-          "name": "AS Monaco vs Getafe | 01:00 07/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -148,7 +76,7 @@
             "time": "01:00:00",
             "date": "07/08",
             "blv": "Số 10",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -168,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +148,7 @@
             "time": "02:15:00",
             "date": "07/08",
             "blv": "Số 19",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -228,6 +156,366 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/b0tdz5pdgp3v_2c0d8927_20260807.png?v=2c0d8927",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4e97d1706e",
+          "name": "Cruz Azul vs Philadelphia Union | 07:10 07/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4e97d1706e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4e97d1706e",
+                  "name": "Cruz Azul vs Philadelphia Union",
+                  "streams": [
+                    {
+                      "id": "st-4e97d1706e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4abc0bf1d2",
+                          "name": "Số 19",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786043306_hd/1786043306_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "North Central America Leagues Cup",
+            "team_a": "Cruz Azul",
+            "team_b": "Philadelphia Union",
+            "logo_a": "https://images.keovip88.net/images/teams/cdsyc-cruz-azul.png",
+            "logo_b": "https://images.keovip88.net/images/teams/philadelphia-union.png",
+            "time": "07:10:00",
+            "date": "07/08",
+            "blv": "Số 19",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/69b749603a7b546ad10d13e7_a2dfab1d_20260807.png?v=a2dfab1d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-33efb93bac",
+          "name": "Chicago Fire vs Necaxa | 07:30 07/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-33efb93bac",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-33efb93bac",
+                  "name": "Chicago Fire vs Necaxa",
+                  "streams": [
+                    {
+                      "id": "st-33efb93bac",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a0e00c8d51",
+                          "name": "Số 2",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786043360_hd/1786043360_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "North Central America Leagues Cup",
+            "team_a": "Chicago Fire",
+            "team_b": "Necaxa",
+            "logo_a": "https://images.keovip88.net/images/teams/chicago-fire.png",
+            "logo_b": "https://images.keovip88.net/images/teams/necaxa.png",
+            "time": "07:30:00",
+            "date": "07/08",
+            "blv": "Số 2",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/69b89f34751748191c09c99a_50b47fc0_20260807.png?v=50b47fc0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-888dee3d9a",
+          "name": "Austin FC vs Club Tijuana | 08:00 07/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-888dee3d9a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-888dee3d9a",
+                  "name": "Austin FC vs Club Tijuana",
+                  "streams": [
+                    {
+                      "id": "st-888dee3d9a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1cf8b6e535",
+                          "name": "Số 6",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786043434_hd/1786043434_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "North Central America Leagues Cup",
+            "team_a": "Austin FC",
+            "team_b": "Club Tijuana",
+            "logo_a": "https://images.keovip88.net/images/teams/austin-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/club-tijuana.png",
+            "time": "08:00:00",
+            "date": "07/08",
+            "blv": "Số 6",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/69b9f0a3b44d771b900c40c8_4237fdf4_20260807.png?v=4237fdf4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fafea22e29",
+          "name": "Club America vs San Diego FC | 09:00 07/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fafea22e29",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fafea22e29",
+                  "name": "Club America vs San Diego FC",
+                  "streams": [
+                    {
+                      "id": "st-fafea22e29",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-db367e159e",
+                          "name": "Số 11",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786043487_hd/1786043487_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "North Central America Leagues Cup",
+            "team_a": "Club America",
+            "team_b": "San Diego FC",
+            "logo_a": "https://images.keovip88.net/images/teams/club-america.png",
+            "logo_b": "https://images.keovip88.net/images/teams/san-diego-fc.png",
+            "time": "09:00:00",
+            "date": "07/08",
+            "blv": "Số 11",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6be5af24d46db8701e7c69_821b83d1_20260807.png?v=821b83d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b4b96a1316",
+          "name": "Portland Timbers vs Puebla | 09:30 07/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4b96a1316",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b4b96a1316",
+                  "name": "Portland Timbers vs Puebla",
+                  "streams": [
+                    {
+                      "id": "st-b4b96a1316",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9b71388613",
+                          "name": "Số 2",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786043575_hd/1786043575_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "North Central America Leagues Cup",
+            "team_a": "Portland Timbers",
+            "team_b": "Puebla",
+            "logo_a": "https://images.keovip88.net/images/teams/portland-timbers.png",
+            "logo_b": "https://images.keovip88.net/images/teams/puebla.png",
+            "time": "09:30:00",
+            "date": "07/08",
+            "blv": "Số 2",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/69b749603a7b546ad10d13e8_34949ff6_20260807.png?v=34949ff6",
             "width": 1600,
             "height": 1200
           }
@@ -312,12 +600,156 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-3c971a2248",
+          "name": "Minnesota Lynx vs Los Angeles Sparks | 08:00 07/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c971a2248",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3c971a2248",
+                  "name": "Minnesota Lynx vs Los Angeles Sparks",
+                  "streams": [
+                    {
+                      "id": "st-3c971a2248",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2fa70fd930",
+                          "name": "Số 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786043716_hd/1786043716_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Minnesota Lynx",
+            "team_b": "Los Angeles Sparks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/df5084b6a0e471356f94c0d460105072.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/32f21070cfd05affb7125a707c2b3b37.png",
+            "time": "08:00:00",
+            "date": "07/08",
+            "blv": "Số 1",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/21615070_22dc3e9e_20260807.png?v=22dc3e9e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-39cb538101",
+          "name": "Portland Fire vs Toronto Tempo | 09:00 07/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-39cb538101",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-39cb538101",
+                  "name": "Portland Fire vs Toronto Tempo",
+                  "streams": [
+                    {
+                      "id": "st-39cb538101",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ca0cf53229",
+                          "name": "Số 3",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786043763_hd/1786043763_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Portland Fire",
+            "team_b": "Toronto Tempo",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/687f4fda7efc61afefa80ee3591a56f2.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/2144aaf701fac7e3c3caf3853aeb9929.png",
+            "time": "09:00:00",
+            "date": "07/08",
+            "blv": "Số 3",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/22615071_5a4a0e09_20260807.png?v=5a4a0e09",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -390,150 +822,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/zfhcxtvbkt5v_6224b51a_20260807.png?v=6224b51a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d4330a62f4",
-          "name": "Mariano Navone vs Arthur Fils | 23:30 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4330a62f4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d4330a62f4",
-                  "name": "Mariano Navone vs Arthur Fils",
-                  "streams": [
-                    {
-                      "id": "st-d4330a62f4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-de9ca34238",
-                          "name": "Số 12",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786032297_hd/1786032297_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Canadian Open",
-            "team_a": "Mariano Navone",
-            "team_b": "Arthur Fils",
-            "logo_a": "https://static.flashscore.com/res/image/data/dziYmEFG-jicxINUP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Eg01vrEa-SQeH6w5H.png",
-            "time": "23:30:00",
-            "date": "06/08",
-            "blv": "Số 12",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/3j7svz0yd2u7_32678745_20260807.png?v=32678745",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d7d7466ba5",
-          "name": "Yannick Hanfmann vs Nuno Borges | 01:00 07/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d7d7466ba5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d7d7466ba5",
-                  "name": "Yannick Hanfmann vs Nuno Borges",
-                  "streams": [
-                    {
-                      "id": "st-d7d7466ba5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ecf291de01",
-                          "name": "Số 3",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786001753_hd/1786001753_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Canadian Open",
-            "team_a": "Yannick Hanfmann",
-            "team_b": "Nuno Borges",
-            "logo_a": "https://static.flashscore.com/res/image/data/OMgJpohl-EX8p71Ag.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/4WdeaLYg-Mc0Ip3ar.png",
-            "time": "01:00:00",
-            "date": "07/08",
-            "blv": "Số 3",
-            "is_live": false,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/80jpi178kzkt_3c94988c_20260807.png?v=3c94988c",
             "width": 1600,
             "height": 1200
           }
@@ -620,6 +908,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-6461607f83",
+          "name": "Vietnam W vs Indonesia W | 13:00 07/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6461607f83",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6461607f83",
+                  "name": "Vietnam W vs Indonesia W",
+                  "streams": [
+                    {
+                      "id": "st-6461607f83",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7707bfd10b",
+                          "name": "Số 9",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786043912_hd/1786043912_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SEA V.CUP 2026",
+            "team_a": "Vietnam W",
+            "team_b": "Indonesia W",
+            "logo_a": "https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YkKZmUDa-463LAvlB.png",
+            "time": "13:00:00",
+            "date": "07/08",
+            "blv": "Số 9",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/exmda4yrcagq_ba81c7d8_20260807.png?v=ba81c7d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-ae9be8c092",
           "name": "Việt Nam W vs Philippines W | 13:00 08/08",
           "type": "single",
@@ -687,6 +1047,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/m605hv7pr7u5_0b4559d4_20260807.png?v=0b4559d4",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-5419b6cbee",
+          "name": "EDG vs JDG | 14:00 07/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5419b6cbee",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5419b6cbee",
+                  "name": "EDG vs JDG",
+                  "streams": [
+                    {
+                      "id": "st-5419b6cbee",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-defce988db",
+                          "name": "Số 2",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786044005_hd/1786044005_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LPL",
+            "team_a": "EDG",
+            "team_b": "JDG",
+            "logo_a": "https://static.flashscore.com/res/image/data/xtnvwhh5-rgb1I9qH.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/4Aoo4weM-MLEBzXUg.png",
+            "time": "14:00:00",
+            "date": "07/08",
+            "blv": "Số 2",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/x7qut7ycjqjb_4b049cc8_20260807.png?v=4b049cc8",
             "width": 1600,
             "height": 1200
           }
@@ -920,7 +1361,7 @@
     },
     {
       "id": "cate_Billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -933,10 +1374,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -985,7 +1426,7 @@
             "time": "03:15:00",
             "date": "07/08",
             "blv": "Số 7",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "Billiards"
           },
           "image": {
