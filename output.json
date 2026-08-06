@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-de6718f194",
-          "name": "FK Sogdiana Jizak vs FK Andijon | 22:00 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-de6718f194",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-de6718f194",
-                  "name": "FK Sogdiana Jizak vs FK Andijon",
-                  "streams": [
-                    {
-                      "id": "st-de6718f194",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9b96f4a24c",
-                          "name": "Số 6",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785955597_hd/1785955597_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uzbekistan Super League",
-            "team_a": "FK Sogdiana Jizak",
-            "team_b": "FK Andijon",
-            "logo_a": "https://images.keovip88.net/images/teams/sogdiana-jizak.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fk-andijon.png",
-            "time": "22:00:00",
-            "date": "06/08",
-            "blv": "Số 6",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d374124d46db8705f6929_6b32c421_20260806.png?v=6b32c421",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ad925cdd8b",
-          "name": "Pakhtakor Tashkent vs Buxoro FK | 22:00 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad925cdd8b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ad925cdd8b",
-                  "name": "Pakhtakor Tashkent vs Buxoro FK",
-                  "streams": [
-                    {
-                      "id": "st-ad925cdd8b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-240b5dec2d",
-                          "name": "Số 2",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785955774_hd/1785955774_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uzbekistan Super League",
-            "team_a": "Pakhtakor Tashkent",
-            "team_b": "Buxoro FK",
-            "logo_a": "https://images.keovip88.net/images/teams/pakhtakor.png",
-            "logo_b": "https://images.keovip88.net/images/teams/buxoro-fk.png",
-            "time": "22:00:00",
-            "date": "06/08",
-            "blv": "Số 2",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d374124d46db8705f691f_2ed3bac3_20260806.png?v=2ed3bac3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ff9650496c",
           "name": "Jagiellonia Bialystok vs Glasgow Rangers | 23:00 06/08",
@@ -227,7 +83,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d372224d46db8705f3ac3_ad7de02f_20260806.png?v=ad7de02f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d372224d46db8705f3ac3_ad7de02f_20260807.png?v=ad7de02f",
             "width": 1600,
             "height": 1200
           }
@@ -299,7 +155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6e89450f85b1e18604710a_97f7dc59_20260806.png?v=97f7dc59",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6e89450f85b1e18604710a_97f7dc59_20260807.png?v=97f7dc59",
             "width": 1600,
             "height": 1200
           }
@@ -371,7 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/b0tdz5pdgp3v_2c0d8927_20260806.png?v=2c0d8927",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/b0tdz5pdgp3v_2c0d8927_20260807.png?v=2c0d8927",
             "width": 1600,
             "height": 1200
           }
@@ -452,7 +308,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/10615079_52909e18_20260806.png?v=52909e18",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/10615079_52909e18_20260807.png?v=52909e18",
             "width": 1600,
             "height": 1200
           }
@@ -468,7 +324,7 @@
       "channels": [
         {
           "id": "gv-d9b42d77f2",
-          "name": "Luciano Darderi vs Shang Juncheng | 23:30 06/08",
+          "name": "Anna Kalinskaya vs Diana Maximovna Shanider | 23:30 06/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -487,7 +343,7 @@
               "contents": [
                 {
                   "id": "ct-d9b42d77f2",
-                  "name": "Luciano Darderi vs Shang Juncheng",
+                  "name": "Anna Kalinskaya vs Diana Maximovna Shanider",
                   "streams": [
                     {
                       "id": "st-d9b42d77f2",
@@ -518,11 +374,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Canadian Open",
-            "team_a": "Luciano Darderi",
-            "team_b": "Shang Juncheng",
-            "logo_a": "https://static.flashscore.com/res/image/data/dQXp4veM-WztgPI73.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Y7KvlfCa-vcHTmQNN.png",
+            "league": "WTA",
+            "team_a": "Anna Kalinskaya",
+            "team_b": "Diana Maximovna Shanider",
+            "logo_a": "https://static.flashscore.com/res/image/data/CtIEAqf5-0tiKNHAm.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/jFFbLhZg-8jUzGsE1.png",
             "time": "23:30:00",
             "date": "06/08",
             "blv": "Số 3",
@@ -533,7 +389,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/zfhcxtvbkt5v_7b5ee0a8_20260806.png?v=7b5ee0a8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/zfhcxtvbkt5v_6224b51a_20260807.png?v=6224b51a",
             "width": 1600,
             "height": 1200
           }
@@ -605,7 +461,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/3j7svz0yd2u7_32678745_20260806.png?v=32678745",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/3j7svz0yd2u7_32678745_20260807.png?v=32678745",
             "width": 1600,
             "height": 1200
           }
@@ -677,7 +533,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/80jpi178kzkt_3c94988c_20260806.png?v=3c94988c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/80jpi178kzkt_3c94988c_20260807.png?v=3c94988c",
             "width": 1600,
             "height": 1200
           }
@@ -749,7 +605,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/jtxvkm80aj1z_d5524405_20260806.png?v=d5524405",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/jtxvkm80aj1z_d5524405_20260807.png?v=d5524405",
             "width": 1600,
             "height": 1200
           }
@@ -830,7 +686,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/m605hv7pr7u5_0b4559d4_20260806.png?v=0b4559d4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/m605hv7pr7u5_0b4559d4_20260807.png?v=0b4559d4",
             "width": 1600,
             "height": 1200
           }
@@ -911,7 +767,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/5b9qccar6p2v_d7cc1aa8_20260806.png?v=d7cc1aa8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/5b9qccar6p2v_d7cc1aa8_20260807.png?v=d7cc1aa8",
             "width": 1600,
             "height": 1200
           }
@@ -983,7 +839,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/9kjxexd93m3o_8161ba08_20260806.png?v=8161ba08",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/9kjxexd93m3o_8161ba08_20260807.png?v=8161ba08",
             "width": 1600,
             "height": 1200
           }
@@ -1055,7 +911,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/stec4h3k5l7h_5b19d288_20260806.png?v=5b19d288",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/stec4h3k5l7h_5b19d288_20260807.png?v=5b19d288",
             "width": 1600,
             "height": 1200
           }
@@ -1136,7 +992,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/smf0ao4a8jgz_bd40dcba_20260806.png?v=bd40dcba",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/smf0ao4a8jgz_bd40dcba_20260807.png?v=bd40dcba",
             "width": 1600,
             "height": 1200
           }
