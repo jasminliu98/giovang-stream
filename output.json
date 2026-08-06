@@ -380,83 +380,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-212118e0ca",
-          "name": "Pasig City vs Bulacan Kuyas | 14:00 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-212118e0ca",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-212118e0ca",
-                  "name": "Pasig City vs Bulacan Kuyas",
-                  "streams": [
-                    {
-                      "id": "st-212118e0ca",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-768a11c9d8",
-                          "name": "Số 9",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785809193_hd/1785809193_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines MPBL",
-            "team_a": "Pasig City",
-            "team_b": "Bulacan Kuyas",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/36bfb5322e04aeaa9b71c9633a73cc0b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ba2afd33a7a0fc7c8946f51957d18cb1.png",
-            "time": "14:00:00",
-            "date": "06/08",
-            "blv": "Số 9",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/38871273_2e2e2415_20260806.png?v=2e2e2415",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3ffcfa7c00",
           "name": "Abra Weavers vs Bataan Risers | 16:00 06/08",
