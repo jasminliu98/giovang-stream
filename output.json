@@ -233,6 +233,78 @@
           }
         },
         {
+          "id": "gv-ff9650496c",
+          "name": "Jagiellonia Bialystok vs Glasgow Rangers | 23:00 06/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ff9650496c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ff9650496c",
+                  "name": "Jagiellonia Bialystok vs Glasgow Rangers",
+                  "streams": [
+                    {
+                      "id": "st-ff9650496c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-14afee5e19",
+                          "name": "Số 19",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786009392_hd/1786009392_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Jagiellonia Bialystok",
+            "team_b": "Glasgow Rangers",
+            "logo_a": "https://images.keovip88.net/images/teams/jagiellonia-bialystok.png",
+            "logo_b": "https://images.keovip88.net/images/teams/glasgow-rangers.png",
+            "time": "23:00:00",
+            "date": "06/08",
+            "blv": "Số 19",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d372224d46db8705f3ac3_ad7de02f_20260806.png?v=ad7de02f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-43166a8d6d",
           "name": "Legnago Salus vs Mantova | 23:30 06/08",
           "type": "single",
@@ -372,6 +444,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a712b9024d46db870f8469e_b275f49c_20260806.png?v=b275f49c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-05dae0a9aa",
+          "name": "ÍR vs Ægir | 02:15 07/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05dae0a9aa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-05dae0a9aa",
+                  "name": "ÍR vs Ægir",
+                  "streams": [
+                    {
+                      "id": "st-05dae0a9aa",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-808fbd398c",
+                          "name": "Số 19",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786009451_hd/1786009451_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Iceland - 1. deild karla",
+            "team_a": "ÍR",
+            "team_b": "Ægir",
+            "logo_a": "https://static.flashscore.com/res/image/data/U3TnVPg5-KCfEng8m.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/IyAcVLAr-SUNPWF4q.png",
+            "time": "02:15:00",
+            "date": "07/08",
+            "blv": "Số 19",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/b0tdz5pdgp3v_2c0d8927_20260806.png?v=2c0d8927",
             "width": 1600,
             "height": 1200
           }
@@ -989,78 +1133,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-d7a9eff37d",
-          "name": "LGD vs TT | 14:00 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d7a9eff37d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d7a9eff37d",
-                  "name": "LGD vs TT",
-                  "streams": [
-                    {
-                      "id": "st-d7a9eff37d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-af05a9b870",
-                          "name": "Số 2",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785809357_hd/1785809357_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LPL",
-            "team_a": "LGD",
-            "team_b": "TT",
-            "logo_a": "https://static.flashscore.com/res/image/data/K2DzGSil-IizXy6Yg.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/C0zbdICr-hnEFSiGQ.png",
-            "time": "14:00:00",
-            "date": "06/08",
-            "blv": "Số 2",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ruy8arljgc4c_03e2f845_20260806.png?v=03e2f845",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-f84f5907b7",
           "name": "IG vs NIP | 16:00 06/08",
           "type": "single",
@@ -1140,10 +1212,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1192,7 +1264,7 @@
             "time": "17:00:00",
             "date": "06/08",
             "blv": "Số 7",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
