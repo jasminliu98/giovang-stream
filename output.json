@@ -233,150 +233,6 @@
           }
         },
         {
-          "id": "gv-43166a8d6d",
-          "name": "Legnago Salus vs Mantova | 23:30 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-43166a8d6d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-43166a8d6d",
-                  "name": "Legnago Salus vs Mantova",
-                  "streams": [
-                    {
-                      "id": "st-43166a8d6d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30d5c7fe94",
-                          "name": "Số 69",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786001379_hd/1786001379_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Legnago Salus",
-            "team_b": "Mantova",
-            "logo_a": "https://images.keovip88.net/images/teams/legnago-salus.png",
-            "logo_b": "https://images.keovip88.net/images/teams/mantova.png",
-            "time": "23:30:00",
-            "date": "06/08",
-            "blv": "Số 69",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a712b8f24d46db870f841e1_ab986f32_20260806.png?v=ab986f32",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6b89307e85",
-          "name": "Fiorentina vs Deportivo La Coruna | 01:00 07/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6b89307e85",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6b89307e85",
-                  "name": "Fiorentina vs Deportivo La Coruna",
-                  "streams": [
-                    {
-                      "id": "st-6b89307e85",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c766c65336",
-                          "name": "Số 11",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786001406_hd/1786001406_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Fiorentina",
-            "team_b": "Deportivo La Coruna",
-            "logo_a": "https://images.keovip88.net/images/teams/fiorentina.png",
-            "logo_b": "https://images.keovip88.net/images/teams/deportivo-la-coruna.png",
-            "time": "01:00:00",
-            "date": "07/08",
-            "blv": "Số 11",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a712b9024d46db870f8469e_b275f49c_20260806.png?v=b275f49c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-2ad40e0e04",
           "name": "AS Monaco vs Getafe | 01:00 07/08",
           "type": "single",
@@ -605,7 +461,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -618,10 +474,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -670,7 +526,7 @@
             "time": "23:30:00",
             "date": "06/08",
             "blv": "Số 3",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
