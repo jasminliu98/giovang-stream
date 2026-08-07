@@ -114,42 +114,7 @@
                     {
                       "id": "st-228ed69c6d",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-36cea06546",
-                          "name": "Đầu cầu: Việt Nam Vô Địch",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786048884_hd/1786048884_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-660e8aee05",
-                          "name": "Số 9",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786048877_hd/1786048877_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -164,7 +129,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/cambodia.png",
             "time": "20:00:00",
             "date": "07/08",
-            "blv": "Đầu cầu: Việt Nam Vô Địch, Số 9",
+            "blv": "",
             "is_live": true,
             "cate_type": "football"
           },
@@ -1311,6 +1276,60 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-3199d3f2a3",
+          "name": "Ann Li vs Elena Rybakina | 23:30 07/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3199d3f2a3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3199d3f2a3",
+                  "name": "Ann Li vs Elena Rybakina",
+                  "streams": [
+                    {
+                      "id": "st-3199d3f2a3",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Canadian Open WTA",
+            "team_a": "Ann Li",
+            "team_b": "Elena Rybakina",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR42jo-d85m0LgavMIemLiUCy8gMJdJrVKC-w&s",
+            "logo_b": "https://static.flashscore.com/res/image/data/nwc71xXg-2wyL104C.png",
+            "time": "23:30:00",
+            "date": "07/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/9skyi8vjf6vo_9f2e33e4_20260807.png?v=9f2e33e4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-46c02e3782",
           "name": "Learner Tien vs Tommy Paul | 07:10 08/08",
