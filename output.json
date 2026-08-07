@@ -1414,83 +1414,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d9b42d77f2",
-          "name": "Anna Kalinskaya vs Diana Maximovna Shanider | 06:00 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d9b42d77f2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d9b42d77f2",
-                  "name": "Anna Kalinskaya vs Diana Maximovna Shanider",
-                  "streams": [
-                    {
-                      "id": "st-d9b42d77f2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-03fb9118a5",
-                          "name": "Số 3",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786001574_hd/1786001574_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTA",
-            "team_a": "Anna Kalinskaya",
-            "team_b": "Diana Maximovna Shanider",
-            "logo_a": "https://static.flashscore.com/res/image/data/CtIEAqf5-0tiKNHAm.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/jFFbLhZg-8jUzGsE1.png",
-            "time": "06:00:00",
-            "date": "06/08",
-            "blv": "Số 3",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/zfhcxtvbkt5v_6224b51a_20260807.png?v=6224b51a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-2d8c8fa48b",
           "name": "Jiri Lehecka vs Alexander Blockx | 05:00 07/08",
