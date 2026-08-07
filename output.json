@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,6 +161,78 @@
           }
         },
         {
+          "id": "gv-42b895d239",
+          "name": "Gyeongnam FC vs Daegu FC | 17:30 07/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-42b895d239",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-42b895d239",
+                  "name": "Gyeongnam FC vs Daegu FC",
+                  "streams": [
+                    {
+                      "id": "st-42b895d239",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cfc4b84a15",
+                          "name": "Số 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786048640_hd/1786048640_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 2 Hàn Quốc",
+            "team_a": "Gyeongnam FC",
+            "team_b": "Daegu FC",
+            "logo_a": "https://images.keovip88.net/images/teams/gyeongnam-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/daegu-fc.png",
+            "time": "17:30:00",
+            "date": "07/08",
+            "blv": "Số 1",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6be5af24d46db8701e7cdf_119c7eea_20260807.png?v=119c7eea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-24f126e3c0",
           "name": "Chungnam Asan vs Ansan Greeners FC | 17:30 07/08",
           "type": "single",
@@ -228,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6be5af24d46db8701e7cd1_9ee05432_20260807.png?v=9ee05432",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-42b895d239",
-          "name": "Gyeongnam FC vs Daegu FC | 17:30 07/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-42b895d239",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-42b895d239",
-                  "name": "Gyeongnam FC vs Daegu FC",
-                  "streams": [
-                    {
-                      "id": "st-42b895d239",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cfc4b84a15",
-                          "name": "Số 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786048640_hd/1786048640_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 2 Hàn Quốc",
-            "team_a": "Gyeongnam FC",
-            "team_b": "Daegu FC",
-            "logo_a": "https://images.keovip88.net/images/teams/gyeongnam-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/daegu-fc.png",
-            "time": "17:30:00",
-            "date": "07/08",
-            "blv": "Số 1",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6be5af24d46db8701e7cdf_119c7eea_20260807.png?v=119c7eea",
             "width": 1600,
             "height": 1200
           }
