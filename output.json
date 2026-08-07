@@ -1504,83 +1504,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-e7aedb8f0f",
-          "name": "KT vs GEN | 15:00 07/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e7aedb8f0f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e7aedb8f0f",
-                  "name": "KT vs GEN",
-                  "streams": [
-                    {
-                      "id": "st-e7aedb8f0f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5722738a87",
-                          "name": "Số 12",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786049422_hd/1786049422_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "KT",
-            "team_b": "GEN",
-            "logo_a": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/rglkqMzB-UJqSxlpo.png",
-            "time": "15:00:00",
-            "date": "07/08",
-            "blv": "Số 12",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/y7jbdh3czmoh_69ef0b04_20260807.png?v=69ef0b04",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-69f7a4fa24",
           "name": "WE vs TT | 16:00 07/08",
@@ -1661,10 +1589,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1713,7 +1641,7 @@
             "time": "17:00:00",
             "date": "07/08",
             "blv": "Số 12",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -1733,10 +1661,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1785,7 +1713,7 @@
             "time": "17:00:00",
             "date": "07/08",
             "blv": "Số 7",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
