@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ed0e21021e",
-          "name": "Spirit FC vs Blacktown City Demons | 14:30 08/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ed0e21021e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ed0e21021e",
-                  "name": "Spirit FC vs Blacktown City Demons",
-                  "streams": [
-                    {
-                      "id": "st-ed0e21021e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5bb2a18b35",
-                          "name": "Số 11",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786000770_hd/1786000770_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NPL NSW Úc",
-            "team_a": "Spirit FC",
-            "team_b": "Blacktown City Demons",
-            "logo_a": "https://images.keovip88.net/images/teams/spirit-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/blacktown-city-demons.png",
-            "time": "14:30:00",
-            "date": "08/08",
-            "blv": "Số 11",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6be5b524d46db8701e8474_262654c9_20260808.png?v=262654c9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-33c3b31524",
           "name": "St George Saints vs A.P.I.A. Leichhardt Tigers | 15:30 08/08",
@@ -312,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +292,7 @@
             "time": "17:00:00",
             "date": "08/08",
             "blv": "Số 19",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -384,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +364,7 @@
             "time": "17:00:00",
             "date": "08/08",
             "blv": "Số 5",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -456,10 +384,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -508,7 +436,7 @@
             "time": "17:00:00",
             "date": "08/08",
             "blv": "Số 11",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2774,7 +2702,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2931,10 +2859,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2983,7 +2911,7 @@
             "time": "17:00:00",
             "date": "08/08",
             "blv": "Số 12",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
