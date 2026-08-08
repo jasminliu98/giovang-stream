@@ -1862,6 +1862,69 @@
           }
         }
       ]
+    },
+    {
+      "id": "cate_Billiards",
+      "name": "🎱 Billiards",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-ed77202c86",
+          "name": "Duong Quoc Hoang vs Alexander Kazakis | 00:00 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ed77202c86",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ed77202c86",
+                  "name": "Duong Quoc Hoang vs Alexander Kazakis",
+                  "streams": [
+                    {
+                      "id": "st-ed77202c86",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "Duong Quoc Hoang",
+            "team_b": "Alexander Kazakis",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR85H6RLZADiYTP7vGFdATqLZVykl0c5EuOiJwDMhNbRyEp2YRJqvKOLUHS&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqFSQIBbhe48R2u5AOeNFO1kE-v3Qs66_tcZPGLYwmSvs09iSixpllRYs&s=10",
+            "time": "00:00:00",
+            "date": "09/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "Billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/y6k45rit0vhd_b2cc70bf_20260808.png?v=b2cc70bf",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
