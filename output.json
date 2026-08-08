@@ -2495,83 +2495,11 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-bb95792781",
-          "name": "ONE vs SAMURAI 2 | 15:30 08/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb95792781",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bb95792781",
-                  "name": "ONE vs SAMURAI 2",
-                  "streams": [
-                    {
-                      "id": "st-bb95792781",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1ea21059b0",
-                          "name": "Số 69",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786124979_hd/1786124979_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ONE SAMURAI 2",
-            "team_a": "ONE",
-            "team_b": "SAMURAI 2",
-            "logo_a": "https://media.zaiko.io/zaiko/w_600/1_4b3p8v1mhi2iu0q7rccj5",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByScHMyBeVLujOxhUjY3sXS6Y-yKAbx90cPOXxEgxFw&s",
-            "time": "15:30:00",
-            "date": "08/08",
-            "blv": "Số 69",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/tx7r0n531a6a_864be1e7_20260808.png?v=864be1e7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ca3b05dc5e",
           "name": "Acheson vs Jones | 07:00 09/08",
