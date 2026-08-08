@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "05:30:00",
             "date": "09/08",
             "blv": "Số 19",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -971,8 +971,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-e57fdf28df",
-          "name": "Jessica Pegula vs Diana Shnaider | 01:00 09/08",
+          "id": "gv-fdef60a250",
+          "name": "Jiri Lehecka vs Rafael Jodar | 05:00 09/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -982,78 +982,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e57fdf28df",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e57fdf28df",
-                  "name": "Jessica Pegula vs Diana Shnaider",
-                  "streams": [
-                    {
-                      "id": "st-e57fdf28df",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1a451813de",
-                          "name": "Số 8",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786201356_hd/1786201356_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Canadian Open WTA",
-            "team_a": "Jessica Pegula",
-            "team_b": "Diana Shnaider",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Jessica_Pegula_%282025_DC_Open%29_01_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAvmHkD2vUf1FMe87SdCPo5RNp4K-3m75nivzPhow9hA&s",
-            "time": "01:00:00",
-            "date": "09/08",
-            "blv": "Số 8",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/mpwzwlxswexp_a0fe1eb5_20260809.png?v=a0fe1eb5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-fdef60a250",
-          "name": "Jiri Lehecka vs Rafael Jodar | 05:00 09/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1102,7 +1030,7 @@
             "time": "05:00:00",
             "date": "09/08",
             "blv": "Số 3",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
