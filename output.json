@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-707ba01fc2",
-          "name": "FC Porto vs Alverca | 00:00 10/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-707ba01fc2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-707ba01fc2",
-                  "name": "FC Porto vs Alverca",
-                  "streams": [
-                    {
-                      "id": "st-707ba01fc2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8a9697e7a7",
-                          "name": "Số 19",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786286917_hd/1786286917_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Bồ Đào Nha",
-            "team_a": "FC Porto",
-            "team_b": "Alverca",
-            "logo_a": "https://images.keovip88.net/images/teams/fc-porto.png",
-            "logo_b": "https://images.keovip88.net/images/teams/alverca.png",
-            "time": "00:00:00",
-            "date": "10/08",
-            "blv": "Số 19",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a712bb624d46db870f87fb7_10d2cc2d_20260810.png?v=10d2cc2d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-87fa28d413",
           "name": "Palmeiras vs Internacional (RS) | 02:00 10/08",
