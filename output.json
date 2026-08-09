@@ -305,6 +305,78 @@
           }
         },
         {
+          "id": "gv-c2aa98e3f2",
+          "name": "Tokyo Verdy vs Kawasaki Frontale | 16:00 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c2aa98e3f2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c2aa98e3f2",
+                  "name": "Tokyo Verdy vs Kawasaki Frontale",
+                  "streams": [
+                    {
+                      "id": "st-c2aa98e3f2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0da34eb656",
+                          "name": "Số 6",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786245560_hd/1786245560_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Tokyo Verdy",
+            "team_b": "Kawasaki Frontale",
+            "logo_a": "https://images.keovip88.net/images/teams/tokyo-verdy.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kawasaki-frontale.png",
+            "time": "16:00:00",
+            "date": "09/08",
+            "blv": "Số 6",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d373d24d46db8705f621d_032b8cfd_20260809.png?v=032b8cfd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-5d0aeb3247",
           "name": "Manchester City vs Atletico Madrid | 18:00 09/08",
           "type": "single",
