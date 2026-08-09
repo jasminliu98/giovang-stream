@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2d551276c4",
-          "name": "Sporting Charleroi vs Oud Heverlee Leuven | 21:00 09/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2d551276c4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2d551276c4",
-                  "name": "Sporting Charleroi vs Oud Heverlee Leuven",
-                  "streams": [
-                    {
-                      "id": "st-2d551276c4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-49182d67c3",
-                          "name": "Số 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786245770_hd/1786245770_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Bỉ",
-            "team_a": "Sporting Charleroi",
-            "team_b": "Oud Heverlee Leuven",
-            "logo_a": "https://images.keovip88.net/images/teams/charleroi.png",
-            "logo_b": "https://images.keovip88.net/images/teams/oud-heverlee.png",
-            "time": "21:00:00",
-            "date": "09/08",
-            "blv": "Số 1",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d374024d46db8705f66cf_e6e0e114_20260809.png?v=e6e0e114",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d94a81cd7d",
           "name": "Ham-Kam vs Aalesund FK | 22:00 09/08",
