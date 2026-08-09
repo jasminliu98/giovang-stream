@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "16:00:00",
             "date": "09/08",
             "blv": "Số 6",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1864,83 +1864,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-e98762d745",
-          "name": "LNG vs IG | 14:00 09/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e98762d745",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e98762d745",
-                  "name": "LNG vs IG",
-                  "streams": [
-                    {
-                      "id": "st-e98762d745",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-024c78b1c0",
-                          "name": "Số 2",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786161198_hd/1786161198_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LPL",
-            "team_a": "LNG",
-            "team_b": "IG",
-            "logo_a": "https://static.flashscore.com/res/image/data/Y9vJAmyB-Mqc5HTbN.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/I3B2NChl-Cxferg9G.png",
-            "time": "14:00:00",
-            "date": "09/08",
-            "blv": "Số 2",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1hm4xhl7es51_2ed77338_20260809.png?v=2ed77338",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d3fe8b8f28",
           "name": "DK vs KT | 15:00 09/08",
