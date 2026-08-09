@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-afd6a14059",
-          "name": "Supra du Quebec vs Cavalry | 07:00 09/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-afd6a14059",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-afd6a14059",
-                  "name": "Supra du Quebec vs Cavalry",
-                  "streams": [
-                    {
-                      "id": "st-afd6a14059",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4d2ff1099e",
-                          "name": "Số 5",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786160657_hd/1786160657_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Canada - Canadian Premier League",
-            "team_a": "Supra du Quebec",
-            "team_b": "Cavalry",
-            "logo_a": "https://static.flashscore.com/res/image/data/UuRSjmDa-4roE8Tb8.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/rF3lk6EG-GWX7hUHN.png",
-            "time": "07:00:00",
-            "date": "09/08",
-            "blv": "Số 5",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/f3yi2vmpst9r_6285aab2_20260809.png?v=6285aab2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d820cf9147",
           "name": "Chivas Guadalajara vs FC Dallas | 08:00 09/08",
@@ -1001,7 +929,7 @@
     },
     {
       "id": "cate_bongban",
-      "name": "🏓 Bóng Bàn",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1014,10 +942,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1066,7 +994,7 @@
             "time": "09:30:00",
             "date": "09/08",
             "blv": "Số 69",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongban"
           },
           "image": {
