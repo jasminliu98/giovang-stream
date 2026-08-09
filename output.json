@@ -1572,6 +1572,60 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-b9b6029de5",
+          "name": "APPT Manila 2026 Main Event –Day 2 vs APPT Manila 2026 Main Event –Day 2 | 22:00 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9b6029de5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b9b6029de5",
+                  "name": "APPT Manila 2026 Main Event –Day 2 vs APPT Manila 2026 Main Event –Day 2",
+                  "streams": [
+                    {
+                      "id": "st-b9b6029de5",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "APPT",
+            "team_a": "APPT Manila 2026 Main Event –Day 2",
+            "team_b": "APPT Manila 2026 Main Event –Day 2",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7YzZnDH_GUxsGuKe-Sig7UeMJ2ou8xKt8sOAQW3oXl2gsHbu7KpwqgXB-&s=10",
+            "logo_b": "https://s.pnimg.net/8gxFij6sspueSAB2NXS3ICth9EwTvLvZLwMVOffwkxI/pr:article-leading-desktop/aHR0cHM6Ly9wbmlt/Zy5uZXQvdy9hcnRp/Y2xlcy8wLzY5ZC82/MWU2NTAzMGJiLmpw/Zw.webp",
+            "time": "22:00:00",
+            "date": "09/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/0aw0v389zsua_9a95867a_20260809.png?v=9a95867a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1812,6 +1866,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/hd6vyjzg3377_b54133c3_20260809.png?v=b54133c3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ad0e9f9d7d",
+          "name": "CHUNG KẾT vs CHUNG KẾT | 16:30 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad0e9f9d7d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ad0e9f9d7d",
+                  "name": "CHUNG KẾT vs CHUNG KẾT",
+                  "streams": [
+                    {
+                      "id": "st-ad0e9f9d7d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e7f7176a4c",
+                          "name": "Số 69",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786049820_hd/1786049820_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Champions Yokohama 2026",
+            "team_a": "CHUNG KẾT",
+            "team_b": "CHUNG KẾT",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtFHXMFCo0GoOqfuXA_vAYWVOYwC6Rz9w2cg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtFHXMFCo0GoOqfuXA_vAYWVOYwC6Rz9w2cg&s",
+            "time": "16:30:00",
+            "date": "09/08",
+            "blv": "Số 69",
+            "is_live": false,
+            "cate_type": "bongban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/3irl7ismh1k8_34662e72_20260809.png?v=34662e72",
             "width": 1600,
             "height": 1200
           }
