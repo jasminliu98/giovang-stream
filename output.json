@@ -1478,7 +1478,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1551,6 +1551,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/8i9oxrc3iqha_ce9b1a8d_20260810.png?v=ce9b1a8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f81c98a5b0",
+          "name": "DNS vs KRX | 15:15 10/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f81c98a5b0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f81c98a5b0",
+                  "name": "DNS vs KRX",
+                  "streams": [
+                    {
+                      "id": "st-f81c98a5b0",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "KeSPA Cup",
+            "team_a": "DNS",
+            "team_b": "KRX",
+            "logo_a": "https://static.flashscore.com/res/image/data/dMVqE8Yg-6sW7CEHO.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/bgSWuehl-SxdIjKYi.png",
+            "time": "15:15:00",
+            "date": "10/08",
+            "blv": "",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/nq3jfcesl845_d23a4386_20260810.png?v=d23a4386",
             "width": 1600,
             "height": 1200
           }
