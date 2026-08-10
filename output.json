@@ -10,6 +10,123 @@
   },
   "groups": [
     {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-181fca9192",
+          "name": "IK Sirius FK vs Brommapojkarna | 00:00 11/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-181fca9192",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-181fca9192",
+                  "name": "IK Sirius FK vs Brommapojkarna",
+                  "streams": [
+                    {
+                      "id": "st-181fca9192",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Thụy Điển",
+            "team_a": "IK Sirius FK",
+            "team_b": "Brommapojkarna",
+            "logo_a": "https://images.keovip88.net/images/teams/ik-sirius-fk.png",
+            "logo_b": "https://images.keovip88.net/images/teams/brommapojkarna.png",
+            "time": "00:00:00",
+            "date": "11/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6fda3924d46db870d539e2_2986fd7a_20260810.png?v=2986fd7a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2674dbc1ff",
+          "name": "Vasteras SK vs Djurgardens | 00:00 11/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2674dbc1ff",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2674dbc1ff",
+                  "name": "Vasteras SK vs Djurgardens",
+                  "streams": [
+                    {
+                      "id": "st-2674dbc1ff",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Thụy Điển",
+            "team_a": "Vasteras SK",
+            "team_b": "Djurgardens",
+            "logo_a": "https://images.keovip88.net/images/teams/vasteras-sk-fk.png",
+            "logo_b": "https://images.keovip88.net/images/teams/djurgardens.png",
+            "time": "00:00:00",
+            "date": "11/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6fda3924d46db870d539ea_efeec6ce_20260810.png?v=efeec6ce",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_basketball",
       "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
