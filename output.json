@@ -1311,6 +1311,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-020f3a60f3",
+          "name": "Dordoi Bishkek vs Homs Al Fidaa (SYR) | 21:00 11/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-020f3a60f3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-020f3a60f3",
+                  "name": "Dordoi Bishkek vs Homs Al Fidaa (SYR)",
+                  "streams": [
+                    {
+                      "id": "st-020f3a60f3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-44103997e0",
+                          "name": "Số 69",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786249819_hd/1786249819_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asia - AFC Challenge League vòng loại",
+            "team_a": "Dordoi Bishkek",
+            "team_b": "Homs Al Fidaa (SYR)",
+            "logo_a": "https://static.flashscore.com/res/image/data/hUcj2AeM-ILBgbXn2.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/4dhy0jyS-fPTA1y1k.png",
+            "time": "21:00:00",
+            "date": "11/08",
+            "blv": "Số 69",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/dobvem9yca7d_003d6e32_20260810.png?v=003d6e32",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
