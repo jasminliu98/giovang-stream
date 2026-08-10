@@ -2269,6 +2269,69 @@
       ]
     },
     {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-9170f344af",
+          "name": "APPT Manila 2026 vs Main Event – Final Day | 22:00 10/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9170f344af",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9170f344af",
+                  "name": "APPT Manila 2026 vs Main Event – Final Day",
+                  "streams": [
+                    {
+                      "id": "st-9170f344af",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "APPT",
+            "team_a": "APPT Manila 2026",
+            "team_b": "Main Event – Final Day",
+            "logo_a": "https://s.pnimg.net/8gxFij6sspueSAB2NXS3ICth9EwTvLvZLwMVOffwkxI/pr:article-leading-desktop/aHR0cHM6Ly9wbmlt/Zy5uZXQvdy9hcnRp/Y2xlcy8wLzY5ZC82/MWU2NTAzMGJiLmpw/Zw.webp",
+            "logo_b": "https://somuchpoker.com/_next/image?url=https%3A%2F%2Fik.imagekit.io%2Fll1deke0wk%2FPokerTours%2FAPPT-dark.png%3Ftr%3Dw-200&w=256&q=75",
+            "time": "22:00:00",
+            "date": "10/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/66mguewyu079_57883857_20260810.png?v=57883857",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchay",
       "name": "⚾ Bóng Chày",
       "display": "vertical",
