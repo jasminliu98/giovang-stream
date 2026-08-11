@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1a86673a21",
-          "name": "Ulaanbaatar vs Hang Yuen | 15:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1a86673a21",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1a86673a21",
-                  "name": "Ulaanbaatar vs Hang Yuen",
-                  "streams": [
-                    {
-                      "id": "st-1a86673a21",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-206bfadd51",
-                          "name": "Số 5",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786328068_hd/1786328068_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asia - AFC Challenge League vòng loại",
-            "team_a": "Ulaanbaatar",
-            "team_b": "Hang Yuen",
-            "logo_a": "https://static.flashscore.com/res/image/data/zsQb9iFG-ziRjVPgA.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/vwgzUHh5-KQZsMHm6.png",
-            "time": "15:00:00",
-            "date": "11/08",
-            "blv": "Số 5",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/152ro82pukmu_2af28255_20260811.png?v=2af28255",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e567beaa0d",
           "name": "Fortis (BAN) vs Muras United (KGZ) | 16:00 11/08",
