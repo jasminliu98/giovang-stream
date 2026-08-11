@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-e567beaa0d",
-          "name": "Fortis (BAN) vs Muras United (KGZ) | 16:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e567beaa0d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e567beaa0d",
-                  "name": "Fortis (BAN) vs Muras United (KGZ)",
-                  "streams": [
-                    {
-                      "id": "st-e567beaa0d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-07a2db41c1",
-                          "name": "Số 11",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786249686_hd/1786249686_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asia - AFC Challenge League vòng loại",
-            "team_a": "Fortis (BAN)",
-            "team_b": "Muras United (KGZ)",
-            "logo_a": "https://static.flashscore.com/res/image/data/f7YLvsAr-fckengae.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/0Qj0B5Br-0p5Z3A83.png",
-            "time": "16:00:00",
-            "date": "11/08",
-            "blv": "Số 11",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/q8pen2qrmpn1_f2525401_20260811.png?v=f2525401",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c6629f2fff",
           "name": "Adelaide United FC vs Công An Hà Nội | 16:30 11/08",
