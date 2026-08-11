@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-020f3a60f3",
-          "name": "Dordoi Bishkek vs Homs Al Fidaa (SYR) | 21:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-020f3a60f3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-020f3a60f3",
-                  "name": "Dordoi Bishkek vs Homs Al Fidaa (SYR)",
-                  "streams": [
-                    {
-                      "id": "st-020f3a60f3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-44103997e0",
-                          "name": "Số 69",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786249819_hd/1786249819_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asia - AFC Challenge League vòng loại",
-            "team_a": "Dordoi Bishkek",
-            "team_b": "Homs Al Fidaa (SYR)",
-            "logo_a": "https://static.flashscore.com/res/image/data/hUcj2AeM-ILBgbXn2.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/4dhy0jyS-fPTA1y1k.png",
-            "time": "21:00:00",
-            "date": "11/08",
-            "blv": "Số 69",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/dobvem9yca7d_003d6e32_20260811.png?v=003d6e32",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5d18e498aa",
           "name": "Pakhtakor Tashkent vs Al Hussein Irbid | 22:00 11/08",
@@ -444,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d37da7c050192260d53d9_03631601_20260811.png?v=03631601",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9690bc118b",
-          "name": "Maziya vs Regar-TadAZ (TAJ) | 17:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9690bc118b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9690bc118b",
-                  "name": "Maziya vs Regar-TadAZ (TAJ)",
-                  "streams": [
-                    {
-                      "id": "st-9690bc118b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cd8100dd5a",
-                          "name": "Số 13",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786422311_hd/1786422311_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asia - AFC Challenge League vòng loại",
-            "team_a": "Maziya",
-            "team_b": "Regar-TadAZ (TAJ)",
-            "logo_a": "https://static.flashscore.com/res/image/data/ryQ9WHCr-nadjQI7q.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/nZ32VvWg-Y5q0SR4G.png",
-            "time": "17:00:00",
-            "date": "11/08",
-            "blv": "Số 13",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/o855014y9rzu_f1eee734_20260811.png?v=f1eee734",
             "width": 1600,
             "height": 1200
           }
@@ -1266,7 +1122,25 @@
                     {
                       "id": "st-aef5e5df42",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-787c36f076",
+                          "name": "Số 2",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786463130_hd/1786463130_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1281,7 +1155,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/5/5e/Sydney_United_FC.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
             "time": "16:30:00",
             "date": "12/08",
-            "blv": "",
+            "blv": "Số 2",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1320,7 +1194,25 @@
                     {
                       "id": "st-133e981954",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-234d796900",
+                          "name": "Số 6",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786463470_hd/1786463470_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1335,7 +1227,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/en/1/1f/Preston_Lions_FC_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
             "time": "16:30:00",
             "date": "12/08",
-            "blv": "",
+            "blv": "Số 6",
             "is_live": false,
             "cate_type": "football"
           },
