@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,78 +161,6 @@
           }
         },
         {
-          "id": "gv-9690bc118b",
-          "name": "Maziya vs Regar-TadAZ (TAJ) | 17:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9690bc118b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9690bc118b",
-                  "name": "Maziya vs Regar-TadAZ (TAJ)",
-                  "streams": [
-                    {
-                      "id": "st-9690bc118b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cd8100dd5a",
-                          "name": "Số 13",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786422311_hd/1786422311_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asia - AFC Challenge League vòng loại",
-            "team_a": "Maziya",
-            "team_b": "Regar-TadAZ (TAJ)",
-            "logo_a": "https://static.flashscore.com/res/image/data/ryQ9WHCr-nadjQI7q.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/nZ32VvWg-Y5q0SR4G.png",
-            "time": "17:00:00",
-            "date": "11/08",
-            "blv": "Số 13",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/o855014y9rzu_f1eee734_20260811.png?v=f1eee734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-7aa402d85a",
           "name": "Juventus vs Palermo | 17:00 11/08",
           "type": "single",
@@ -300,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a77c41a40e443c1d9050060_c67560d1_20260811.png?v=c67560d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9690bc118b",
+          "name": "Maziya vs Regar-TadAZ (TAJ) | 17:00 11/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9690bc118b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9690bc118b",
+                  "name": "Maziya vs Regar-TadAZ (TAJ)",
+                  "streams": [
+                    {
+                      "id": "st-9690bc118b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd8100dd5a",
+                          "name": "Số 13",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786422311_hd/1786422311_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asia - AFC Challenge League vòng loại",
+            "team_a": "Maziya",
+            "team_b": "Regar-TadAZ (TAJ)",
+            "logo_a": "https://static.flashscore.com/res/image/data/ryQ9WHCr-nadjQI7q.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nZ32VvWg-Y5q0SR4G.png",
+            "time": "17:00:00",
+            "date": "11/08",
+            "blv": "Số 13",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/o855014y9rzu_f1eee734_20260811.png?v=f1eee734",
             "width": 1600,
             "height": 1200
           }
