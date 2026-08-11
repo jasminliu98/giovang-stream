@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,8 +161,8 @@
           }
         },
         {
-          "id": "gv-69a84c38ce",
-          "name": "Sabah FK vs Aarhus AGF | 23:00 11/08",
+          "id": "gv-09d692d960",
+          "name": "Sturm Graz vs Fenerbahce | 01:30 12/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -176,23 +176,23 @@
           ],
           "sources": [
             {
-              "id": "src-69a84c38ce",
+              "id": "src-09d692d960",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-69a84c38ce",
-                  "name": "Sabah FK vs Aarhus AGF",
+                  "id": "ct-09d692d960",
+                  "name": "Sturm Graz vs Fenerbahce",
                   "streams": [
                     {
-                      "id": "st-69a84c38ce",
+                      "id": "st-09d692d960",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-53746afb44",
+                          "id": "lnk-1c9e3d288b",
                           "name": "Số 11",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786421917_hd/1786421917_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786456202_hd/1786456202_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -213,12 +213,12 @@
           ],
           "org_metadata": {
             "league": "C1",
-            "team_a": "Sabah FK",
-            "team_b": "Aarhus AGF",
-            "logo_a": "https://images.keovip88.net/images/teams/sabah-fk-baku.png",
-            "logo_b": "https://images.keovip88.net/images/teams/aarhus-agf.png",
-            "time": "23:00:00",
-            "date": "11/08",
+            "team_a": "Sturm Graz",
+            "team_b": "Fenerbahce",
+            "logo_a": "https://images.keovip88.net/images/teams/sturm-graz.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fenerbahce.png",
+            "time": "01:30:00",
+            "date": "12/08",
             "blv": "Số 11",
             "is_live": true,
             "cate_type": "football"
@@ -227,79 +227,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6be65c78c63f75900cb4df_6a7a40a9_20260812.png?v=6a7a40a9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-18b0265c83",
-          "name": "FC Saburtalo Tbilisi vs Larne FC | 23:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-18b0265c83",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-18b0265c83",
-                  "name": "FC Saburtalo Tbilisi vs Larne FC",
-                  "streams": [
-                    {
-                      "id": "st-18b0265c83",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-71c888c7da",
-                          "name": "Số 5",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786421943_hd/1786421943_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "FC Saburtalo Tbilisi",
-            "team_b": "Larne FC",
-            "logo_a": "https://images.keovip88.net/images/teams/fc-iberia-1999-tbilisi.png",
-            "logo_b": "https://images.keovip88.net/images/teams/larne-fc.png",
-            "time": "23:00:00",
-            "date": "11/08",
-            "blv": "Số 5",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d37da7c050192260d53d9_03631601_20260812.png?v=03631601",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d37d37c050192260d53d7_e5b2cd26_20260812.png?v=e5b2cd26",
             "width": 1600,
             "height": 1200
           }
@@ -444,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6be65c78c63f75900cb4de_b100444e_20260812.png?v=b100444e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-09d692d960",
-          "name": "Sturm Graz vs Fenerbahce | 01:30 12/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-09d692d960",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-09d692d960",
-                  "name": "Sturm Graz vs Fenerbahce",
-                  "streams": [
-                    {
-                      "id": "st-09d692d960",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1c9e3d288b",
-                          "name": "Số 11",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786456202_hd/1786456202_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C1",
-            "team_a": "Sturm Graz",
-            "team_b": "Fenerbahce",
-            "logo_a": "https://images.keovip88.net/images/teams/sturm-graz.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fenerbahce.png",
-            "time": "01:30:00",
-            "date": "12/08",
-            "blv": "Số 11",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d37d37c050192260d53d7_e5b2cd26_20260812.png?v=e5b2cd26",
             "width": 1600,
             "height": 1200
           }
