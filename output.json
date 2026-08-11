@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-3ac7c3df34",
-          "name": "Central Stallions (MON) vs Taiwan Steel (TPE) | 10:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3ac7c3df34",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3ac7c3df34",
-                  "name": "Central Stallions (MON) vs Taiwan Steel (TPE)",
-                  "streams": [
-                    {
-                      "id": "st-3ac7c3df34",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-de22c9038d",
-                          "name": "Số 19",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786348477_hd/1786348477_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asia - AFC Challenge League vòng loại",
-            "team_a": "Central Stallions (MON)",
-            "team_b": "Taiwan Steel (TPE)",
-            "logo_a": "https://static.flashscore.com/res/image/data/WGoU6kdM-t2gZ0NGc.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/6aZL0kyB-06GeqeEa.png",
-            "time": "10:00:00",
-            "date": "11/08",
-            "blv": "Số 19",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1l7bmxd0v292_7e04316f_20260811.png?v=7e04316f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1a86673a21",
           "name": "Ulaanbaatar vs Hang Yuen | 15:00 11/08",
