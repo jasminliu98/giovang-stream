@@ -1262,83 +1262,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6227c82493",
-          "name": "Hanwha Life vs DN SOOPers | 16:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6227c82493",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6227c82493",
-                  "name": "Hanwha Life vs DN SOOPers",
-                  "streams": [
-                    {
-                      "id": "st-6227c82493",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9b0d7574b1",
-                          "name": "Số 2",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786415930_hd/1786415930_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "KeSPA Cup",
-            "team_a": "Hanwha Life",
-            "team_b": "DN SOOPers",
-            "logo_a": "https://static.flashscore.com/res/image/data/pKkqJ4Wg-bB59SVBr.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/dMVqE8Yg-6sW7CEHO.png",
-            "time": "16:00:00",
-            "date": "11/08",
-            "blv": "Số 2",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/yzm4akqfpewu_dd9942f1_20260811.png?v=dd9942f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cf320090cd",
           "name": "KRX vs FearX | 15:00 13/08",
