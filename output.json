@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c6629f2fff",
-          "name": "Adelaide United FC vs Công An Hà Nội | 16:30 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c6629f2fff",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c6629f2fff",
-                  "name": "Adelaide United FC vs Công An Hà Nội",
-                  "streams": [
-                    {
-                      "id": "st-c6629f2fff",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3f16cf4455",
-                          "name": "Số 10",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786248693_hd/1786248693_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League",
-            "team_a": "Adelaide United FC",
-            "team_b": "Công An Hà Nội",
-            "logo_a": "https://images.keovip88.net/images/teams/adelaide-united.png",
-            "logo_b": "https://images.keovip88.net/images/teams/cong-an-ha-noi.png",
-            "time": "16:30:00",
-            "date": "11/08",
-            "blv": "Số 10",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a4065a33c78f1054f0ee082_f5181f86_20260811.png?v=f5181f86",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7aa402d85a",
           "name": "Juventus vs Palermo | 17:00 11/08",
@@ -884,83 +812,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-28f8341f64",
-          "name": "Converge FiberXers vs Terrafirma Dyip | 16:15 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-28f8341f64",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-28f8341f64",
-                  "name": "Converge FiberXers vs Terrafirma Dyip",
-                  "streams": [
-                    {
-                      "id": "st-28f8341f64",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-90cac2d09d",
-                          "name": "Số 12",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786416269_hd/1786416269_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines PBA Governors'' Cup",
-            "team_a": "Converge FiberXers",
-            "team_b": "Terrafirma Dyip",
-            "logo_a": "https://static.flashscore.com/res/image/data/UPlTdQHG-vBbzdfpd.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/vssaS5zB-GfI3TW5S.png",
-            "time": "16:15:00",
-            "date": "11/08",
-            "blv": "Số 12",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/3i0cnytpbiw3_92e96d57_20260811.png?v=92e96d57",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c1f5c2e553",
           "name": "Batang Kankaloo vs GenSan Warriors | 18:00 11/08",
