@@ -332,11 +332,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-38891d16ae",
-                          "name": "Số 17",
+                          "id": "lnk-cd8100dd5a",
+                          "name": "Số 13",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786249737_hd/1786249737_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786422311_hd/1786422311_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -363,7 +363,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/nZ32VvWg-Y5q0SR4G.png",
             "time": "17:00:00",
             "date": "11/08",
-            "blv": "Số 17",
+            "blv": "Số 13",
             "is_live": false,
             "cate_type": "football"
           },
@@ -834,7 +834,25 @@
                     {
                       "id": "st-8e9dd0279e",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea82ca1fc0",
+                          "name": "Số 19",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786421727_hd/1786421727_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -849,7 +867,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/al-ittihad.png",
             "time": "23:00:00",
             "date": "11/08",
-            "blv": "",
+            "blv": "Số 19",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1002,6 +1020,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6be65c78c63f75900cb4df_6a7a40a9_20260811.png?v=6a7a40a9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-18b0265c83",
+          "name": "FC Saburtalo Tbilisi vs Larne FC | 23:00 11/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-18b0265c83",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-18b0265c83",
+                  "name": "FC Saburtalo Tbilisi vs Larne FC",
+                  "streams": [
+                    {
+                      "id": "st-18b0265c83",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-71c888c7da",
+                          "name": "Số 5",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786421943_hd/1786421943_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "FC Saburtalo Tbilisi",
+            "team_b": "Larne FC",
+            "logo_a": "https://images.keovip88.net/images/teams/fc-iberia-1999-tbilisi.png",
+            "logo_b": "https://images.keovip88.net/images/teams/larne-fc.png",
+            "time": "23:00:00",
+            "date": "11/08",
+            "blv": "Số 5",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a6d37da7c050192260d53d9_03631601_20260811.png?v=03631601",
             "width": 1600,
             "height": 1200
           }
