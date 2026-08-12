@@ -970,6 +970,60 @@
           }
         },
         {
+          "id": "gv-3aa7899c60",
+          "name": "Monterrey vs Nashville SC | 07:00 13/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3aa7899c60",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3aa7899c60",
+                  "name": "Monterrey vs Nashville SC",
+                  "streams": [
+                    {
+                      "id": "st-3aa7899c60",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Leagues Cup",
+            "team_a": "Monterrey",
+            "team_b": "Nashville SC",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/LXZ8fEgzf0_FwSyq15buPw_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/lGl7IVkIXcnY2XcAH77yeg_96x96.png",
+            "time": "07:00:00",
+            "date": "13/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ga882mbjyjd1_60af100c_20260812.png?v=60af100c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-d13ed76ec4",
           "name": "Bodoland FC vs KAMS FC | 17:30 13/08",
           "type": "single",
