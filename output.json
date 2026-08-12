@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d189532f50",
-          "name": "Minnesota United vs Atlante | 07:30 12/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d189532f50",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d189532f50",
-                  "name": "Minnesota United vs Atlante",
-                  "streams": [
-                    {
-                      "id": "st-d189532f50",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67b85de588",
-                          "name": "Số 6",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786460091_hd/1786460091_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Leagues Cup",
-            "team_a": "Minnesota United",
-            "team_b": "Atlante",
-            "logo_a": "https://static.flashscore.com/res/image/data/fXYygQfM-Y5BuxdGt.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pE20TZzB-GfzblQr0.png",
-            "time": "07:30:00",
-            "date": "12/08",
-            "blv": "Số 6",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/2l0dt3z0colw_e02d011a_20260812.png?v=e02d011a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-52548507c3",
           "name": "Real Salt Lake vs Juárez | 08:30 12/08",
