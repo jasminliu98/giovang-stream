@@ -1508,7 +1508,25 @@
                     {
                       "id": "st-3a105b88e5",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3118b8381",
+                          "name": "Số 3",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786433457_hd/1786433457_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1523,7 +1541,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c7ead789b0925ea6b2b21e8191c8d795.png",
             "time": "18:00:00",
             "date": "13/08",
-            "blv": "",
+            "blv": "Số 3",
             "is_live": false,
             "cate_type": "basketball"
           },
