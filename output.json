@@ -1423,83 +1423,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c77a7275cf",
-          "name": "Los Angeles Dodgers vs Kansas City Royals | 09:10 12/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c77a7275cf",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c77a7275cf",
-                  "name": "Los Angeles Dodgers vs Kansas City Royals",
-                  "streams": [
-                    {
-                      "id": "st-c77a7275cf",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3c931eefd",
-                          "name": "Số 9",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786461139_hd/1786461139_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Los Angeles Dodgers",
-            "team_b": "Kansas City Royals",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/fgfty5Ovh-HR___10uOktw_96x96.png",
-            "time": "09:10:00",
-            "date": "12/08",
-            "blv": "Số 9",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/va884yw2w34t_75b87e69_20260812.png?v=75b87e69",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a6d15745a9",
           "name": "New York Yankees vs Seattle Mariners | 06:05 13/08",
