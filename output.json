@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -312,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +364,7 @@
             "time": "18:00:00",
             "date": "12/08",
             "blv": "Số 17",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1333,83 +1333,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-df485bbc89",
-          "name": "Ilagan Isabela Cowboys vs Cebu Classic | 16:00 12/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-df485bbc89",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-df485bbc89",
-                  "name": "Ilagan Isabela Cowboys vs Cebu Classic",
-                  "streams": [
-                    {
-                      "id": "st-df485bbc89",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6b66755d37",
-                          "name": "Số 9",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786517751_hd/1786517751_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines MPBL",
-            "team_a": "Ilagan Isabela Cowboys",
-            "team_b": "Cebu Classic",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/a5c12bcd51767b84b552ebec45d5ac7b.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/4e96e841ee44e663ed4a524c3ab181c5.png",
-            "time": "16:00:00",
-            "date": "12/08",
-            "blv": "Số 9",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/39971275_31a1019b_20260812.png?v=31a1019b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-79ade269eb",
           "name": "Titan Ultra Giant Risers vs San Miguel Beermen | 16:15 12/08",
@@ -1490,10 +1418,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1542,7 +1470,7 @@
             "time": "18:00:00",
             "date": "12/08",
             "blv": "Số 4",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1562,10 +1490,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1614,7 +1542,7 @@
             "time": "18:30:00",
             "date": "12/08",
             "blv": "Số 1",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
