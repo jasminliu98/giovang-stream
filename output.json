@@ -114,7 +114,25 @@
                     {
                       "id": "st-f1b9a1b4fa",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ac19507909",
+                          "name": "Số 2",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786665699_hd/1786665699_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -129,7 +147,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/CEZPnWh5-AP3GsSz8.png",
             "time": "07:30:00",
             "date": "14/08",
-            "blv": "",
+            "blv": "Số 2",
             "is_live": true,
             "cate_type": "football"
           },
