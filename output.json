@@ -1325,83 +1325,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5aa6ace6f8",
-          "name": "NS vs BRO | 17:00 14/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5aa6ace6f8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5aa6ace6f8",
-                  "name": "NS vs BRO",
-                  "streams": [
-                    {
-                      "id": "st-5aa6ace6f8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-86ded2b276",
-                          "name": "Số 7",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786696033_hd/1786696033_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "NS",
-            "team_b": "BRO",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKXgMQnsSVHjJiPubh59uTFA-B1hygegRyoCz8Hfrv7w&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeT6MPk7XORNDMFhmKJV829Pp96B2ZuIk1a-Z9L6b5MA&s",
-            "time": "17:00:00",
-            "date": "14/08",
-            "blv": "Số 7",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/kc64pqgc59sj_7c55ce41_20260814.png?v=7c55ce41",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9ae3db456c",
           "name": "HLE vs KT | 15:00 15/08",
@@ -1550,83 +1478,11 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fe9b582b4f",
-          "name": "ONE Friday Fights 166 vs The Inner Circle 26 | 18:30 14/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe9b582b4f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fe9b582b4f",
-                  "name": "ONE Friday Fights 166 vs The Inner Circle 26",
-                  "streams": [
-                    {
-                      "id": "st-fe9b582b4f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-060882e43b",
-                          "name": "Số 69",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786696153_hd/1786696153_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ONE Friday Fights 166 & The Inner Circle 26",
-            "team_a": "ONE Friday Fights 166",
-            "team_b": "The Inner Circle 26",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzz-cWeMiRJ7dVhCsOytYxALNEiwRxL5KRgv8p7GM5RrcCMRmL-pc4oeGr&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf0M2zpxu-nfgDw1KR3QAyyozbqxOORAIG2pQLoYQnIQ&s",
-            "time": "18:30:00",
-            "date": "14/08",
-            "blv": "Số 69",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bifhuwhwocbm_160b7984_20260814.png?v=160b7984",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c008b81c39",
           "name": "ONE Fight Night 46 vs ONE Fight Night 46 | 08:00 15/08",
