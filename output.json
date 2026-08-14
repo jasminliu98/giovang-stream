@@ -1037,83 +1037,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2c2ab5b451",
-          "name": "Iga Swiatek vs Elena Rybakina | 05:00 14/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2c2ab5b451",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2c2ab5b451",
-                  "name": "Iga Swiatek vs Elena Rybakina",
-                  "streams": [
-                    {
-                      "id": "st-2c2ab5b451",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-188d3dc587",
-                          "name": "Số 3",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786624788_hd/1786624788_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Canadian Open WTA",
-            "team_a": "Iga Swiatek",
-            "team_b": "Elena Rybakina",
-            "logo_a": "https://static.flashscore.com/res/image/data/S2NdWdWg-tOt4Rhy2.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/nwc71xXg-2wyL104C.png",
-            "time": "05:00:00",
-            "date": "14/08",
-            "blv": "Số 3",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/yvu6njtplbck_03ff64eb_20260814.png?v=03ff64eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-030193e958",
           "name": "Ben Shelton vs Brandon Nakashima | 07:00 14/08",
