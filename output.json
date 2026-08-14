@@ -605,7 +605,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -750,6 +750,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/dkctopzqxqbg_bc78400d_20260814.png?v=bc78400d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3592aeecd4",
+          "name": "HLE vs KT | 15:00 14/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3592aeecd4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3592aeecd4",
+                  "name": "HLE vs KT",
+                  "streams": [
+                    {
+                      "id": "st-3592aeecd4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4659bc082",
+                          "name": "Số 12",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786694151_hd/1786694151_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "HLE",
+            "team_b": "KT",
+            "logo_a": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/e/e9/Hanwha_Life_Esportslogo_profile.png/revision/latest?cb=20260119144058",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmSdsLdCE59VLcHwhlWEtwW_r6tgwN-PZ5L5KYH0ZwRA&s=10",
+            "time": "15:00:00",
+            "date": "14/08",
+            "blv": "Số 12",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ikz1bincfwz7_a75f2380_20260814.png?v=a75f2380",
             "width": 1600,
             "height": 1200
           }
