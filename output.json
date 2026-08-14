@@ -951,6 +951,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-0333178926",
+          "name": "Urawa Red Diamonds vs Sanfrecce Hiroshima | 17:00 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0333178926",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0333178926",
+                  "name": "Urawa Red Diamonds vs Sanfrecce Hiroshima",
+                  "streams": [
+                    {
+                      "id": "st-0333178926",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b4168a6ea9",
+                          "name": "Số 19",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786590007_hd/1786590007_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Urawa Red Diamonds",
+            "team_b": "Sanfrecce Hiroshima",
+            "logo_a": "https://images.keovip88.net/images/teams/urawa-red-diamonds.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hiroshima-sanfrecce.png",
+            "time": "17:00:00",
+            "date": "15/08",
+            "blv": "Số 19",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a75201824d46db8706713df_b6449736_20260814.png?v=b6449736",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
