@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -312,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +364,7 @@
             "time": "18:35:00",
             "date": "14/08",
             "blv": "Số 13",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1244,7 +1244,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1257,10 +1257,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1309,7 +1309,7 @@
             "time": "18:00:00",
             "date": "14/08",
             "blv": "Số 4",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1397,155 +1397,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (3 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-15dc123c4d",
-          "name": "SkyCity New Zealand Darts Masters 2026 vs SkyCity New Zealand Darts Masters 2026 | 14:00 14/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-15dc123c4d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-15dc123c4d",
-                  "name": "SkyCity New Zealand Darts Masters 2026 vs SkyCity New Zealand Darts Masters 2026",
-                  "streams": [
-                    {
-                      "id": "st-15dc123c4d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ebb56f5118",
-                          "name": "Số 9",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786633845_hd/1786633845_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Dart",
-            "team_a": "SkyCity New Zealand Darts Masters 2026",
-            "team_b": "SkyCity New Zealand Darts Masters 2026",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyDV2FwktUy4xt7oA8Jt05I7iBIbaIN5cK86GiJg39rw&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyDV2FwktUy4xt7oA8Jt05I7iBIbaIN5cK86GiJg39rw&s=10",
-            "time": "14:00:00",
-            "date": "14/08",
-            "blv": "Số 9",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/dkctopzqxqbg_bc78400d_20260814.png?v=bc78400d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3592aeecd4",
-          "name": "T1 vs DK | 15:00 14/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3592aeecd4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3592aeecd4",
-                  "name": "T1 vs DK",
-                  "streams": [
-                    {
-                      "id": "st-3592aeecd4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4659bc082",
-                          "name": "Số 12",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786694151_hd/1786694151_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "T1",
-            "team_b": "DK",
-            "logo_a": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
-            "logo_b": "https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/3/32/DWG_KIAlogo_square.png/revision/latest/scale-to-width-down/250?cb=20221028045526",
-            "time": "15:00:00",
-            "date": "14/08",
-            "blv": "Số 12",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ikz1bincfwz7_3d03200c_20260814.png?v=3d03200c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5aa6ace6f8",
           "name": "NS vs BRO | 17:00 14/08",
@@ -1766,7 +1622,7 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1779,10 +1635,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1831,7 +1687,7 @@
             "time": "18:30:00",
             "date": "14/08",
             "blv": "Số 69",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "vothuat"
           },
           "image": {
