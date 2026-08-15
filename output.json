@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,78 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7bb87587b267b97008303e_3390dd5f_20260815.png?v=3390dd5f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1fad87179e",
-          "name": "Monchengladbach vs Aston Villa | 20:30 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1fad87179e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1fad87179e",
-                  "name": "Monchengladbach vs Aston Villa",
-                  "streams": [
-                    {
-                      "id": "st-1fad87179e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-87391e227f",
-                          "name": "Số 2",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786755952_hd/1786755952_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Monchengladbach",
-            "team_b": "Aston Villa",
-            "logo_a": "https://images.keovip88.net/images/teams/borussia-monchengladbach.png",
-            "logo_b": "https://images.keovip88.net/images/teams/aston-villa.png",
-            "time": "20:30:00",
-            "date": "15/08",
-            "blv": "Số 2",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7914a624d46db8703fd555_a2e73d5e_20260815.png?v=a2e73d5e",
             "width": 1600,
             "height": 1200
           }
@@ -780,7 +708,25 @@
                     {
                       "id": "st-b3eb5a327b",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8006bc684",
+                          "name": "Số 13",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786777764_hd/1786777764_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -795,7 +741,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/sjk-seinajoen.png",
             "time": "23:00:00",
             "date": "15/08",
-            "blv": "",
+            "blv": "Số 13",
             "is_live": false,
             "cate_type": "football"
           },
@@ -834,7 +780,25 @@
                     {
                       "id": "st-054eef9a5c",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-17fb3990a8",
+                          "name": "Số 17",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786777795_hd/1786777795_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -849,7 +813,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/birmingham-city.png",
             "time": "23:30:00",
             "date": "15/08",
-            "blv": "",
+            "blv": "Số 17",
             "is_live": false,
             "cate_type": "football"
           },
@@ -888,7 +852,25 @@
                     {
                       "id": "st-d573bbb0d6",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9976b914bc",
+                          "name": "Số 3",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786777846_hd/1786777846_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -903,7 +885,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/al-fateh.png",
             "time": "01:00:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 3",
             "is_live": false,
             "cate_type": "football"
           },
@@ -942,7 +924,25 @@
                     {
                       "id": "st-e8eb535bc6",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3fbd1ecb65",
+                          "name": "Số 13",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786777871_hd/1786777871_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -957,7 +957,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/al-kholood.png",
             "time": "01:00:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 13",
             "is_live": false,
             "cate_type": "football"
           },
@@ -996,7 +996,25 @@
                     {
                       "id": "st-3462b5f8f8",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc071559b3",
+                          "name": "Số 10",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786777894_hd/1786777894_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1011,7 +1029,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/fc-porto.png",
             "time": "02:30:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 10",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1050,7 +1068,25 @@
                     {
                       "id": "st-a779efdabd",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed0f026cc2",
+                          "name": "Số 13",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786777930_hd/1786777930_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1065,7 +1101,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/wrexham.png",
             "time": "04:00:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 13",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1293,6 +1329,114 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-fb2b92ee3f",
+          "name": "Arsenal vs Manchester City | 21:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb2b92ee3f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fb2b92ee3f",
+                  "name": "Arsenal vs Manchester City",
+                  "streams": [
+                    {
+                      "id": "st-fb2b92ee3f",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Siêu Cúp Anh",
+            "team_a": "Arsenal",
+            "team_b": "Manchester City",
+            "logo_a": "https://images.keovip88.net/images/teams/arsenal.png",
+            "logo_b": "https://images.keovip88.net/images/teams/manchester-city.png",
+            "time": "21:00:00",
+            "date": "16/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a2364861908f3a21c09f702_118b0bec_20260815.png?v=118b0bec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-51084d4ee1",
+          "name": "Basel vs Barcelona | 21:30 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-51084d4ee1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-51084d4ee1",
+                  "name": "Basel vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-51084d4ee1",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu",
+            "team_a": "Basel",
+            "team_b": "Barcelona",
+            "logo_a": "https://images.keovip88.net/images/teams/basel.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-barcelona.png",
+            "time": "21:30:00",
+            "date": "16/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7bb87587b267b970083056_0067b788_20260815.png?v=0067b788",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1329,7 +1473,25 @@
                     {
                       "id": "st-c9b2fea059",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9bb3ed4d6e",
+                          "name": "Số 4",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786801663_hd/1786801663_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1344,7 +1506,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7a41b2cf98e8350722b096134858af8e.png",
             "time": "00:00:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 4",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -1383,7 +1545,25 @@
                     {
                       "id": "st-9391d2a50a",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d4b2c723a",
+                          "name": "Số 4",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786801893_hd/1786801893_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1398,7 +1578,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/79721e33f2fc06606a19da7433b8dd32.png",
             "time": "02:30:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 4",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -1500,7 +1680,25 @@
                     {
                       "id": "st-4a1f7b117d",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a466eb06d6",
+                          "name": "Số 69",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786588196_hd/1786588196_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1515,7 +1713,7 @@
             "logo_b": "https://storage.allsportdb.com/orig/event/e2b7fa13-e624-452a-b2af-4b56208d3bf2",
             "time": "23:00:00",
             "date": "15/08",
-            "blv": "",
+            "blv": "Số 69",
             "is_live": false,
             "cate_type": "vothuat"
           },
@@ -1554,7 +1752,25 @@
                     {
                       "id": "st-0fd6afa0eb",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-45c49f53d4",
+                          "name": "Số 69",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786802340_hd/1786802340_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1569,7 +1785,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/dGdRKaFa-nkHZLWfS.png",
             "time": "04:00:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 69",
             "is_live": false,
             "cate_type": "vothuat"
           },
