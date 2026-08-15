@@ -1748,7 +1748,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1821,78 +1821,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/52dfntf1skcg_8d9e9e92_20260815.png?v=8d9e9e92",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-7b3b52ea0f",
-          "name": "SkyCity New Zealand Darts Masters 2026 vs SkyCity New Zealand Darts Masters 2026 | 14:00 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7b3b52ea0f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7b3b52ea0f",
-                  "name": "SkyCity New Zealand Darts Masters 2026 vs SkyCity New Zealand Darts Masters 2026",
-                  "streams": [
-                    {
-                      "id": "st-7b3b52ea0f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f61e935c6a",
-                          "name": "Số 4",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786730137_hd/1786730137_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Dart",
-            "team_a": "SkyCity New Zealand Darts Masters 2026",
-            "team_b": "SkyCity New Zealand Darts Masters 2026",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4jRse3CqQhZvpNVSysgueoTFYx08iiIw4icBZCWmAXg&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4jRse3CqQhZvpNVSysgueoTFYx08iiIw4icBZCWmAXg&s=10",
-            "time": "14:00:00",
-            "date": "15/08",
-            "blv": "Số 4",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1j1i6etqpb4k_41bf1a98_20260815.png?v=41bf1a98",
             "width": 1600,
             "height": 1200
           }
