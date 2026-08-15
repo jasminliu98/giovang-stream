@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-3462b5f8f8",
-          "name": "Rio Ave vs FC Porto | 02:30 16/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3462b5f8f8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3462b5f8f8",
-                  "name": "Rio Ave vs FC Porto",
-                  "streams": [
-                    {
-                      "id": "st-3462b5f8f8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc071559b3",
-                          "name": "Số 10",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786777894_hd/1786777894_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Bồ Đào Nha",
-            "team_a": "Rio Ave",
-            "team_b": "FC Porto",
-            "logo_a": "https://images.keovip88.net/images/teams/rio-ave.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fc-porto.png",
-            "time": "02:30:00",
-            "date": "16/08",
-            "blv": "Số 10",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7671c124d46db870ae9b8a_2acb4a70_20260816.png?v=2acb4a70",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8bb36bd4e8",
           "name": "Atletico Paranaense vs Bragantino SP | 04:30 16/08",
@@ -845,11 +773,83 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-4e1290ff98",
+          "name": "Washington Mystics vs Los Angeles Sparks | 06:30 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4e1290ff98",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4e1290ff98",
+                  "name": "Washington Mystics vs Los Angeles Sparks",
+                  "streams": [
+                    {
+                      "id": "st-4e1290ff98",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1f806d514",
+                          "name": "Số 12",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786801828_hd/1786801828_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Washington Mystics",
+            "team_b": "Los Angeles Sparks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e4fdbc941d11c2927bafb5b8978e8ea6.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/32f21070cfd05affb7125a707c2b3b37.png",
+            "time": "06:30:00",
+            "date": "16/08",
+            "blv": "Số 12",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/27815078_477e1cd8_20260816.png?v=477e1cd8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-60ab8f4598",
           "name": "Las Vegas Aces vs Minnesota Lynx | 07:00 16/08",
@@ -900,78 +900,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/28815079_5966badb_20260816.png?v=5966badb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-4e1290ff98",
-          "name": "Washington Mystics vs Los Angeles Sparks | 06:30 16/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4e1290ff98",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4e1290ff98",
-                  "name": "Washington Mystics vs Los Angeles Sparks",
-                  "streams": [
-                    {
-                      "id": "st-4e1290ff98",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d1f806d514",
-                          "name": "Số 12",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786801828_hd/1786801828_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Washington Mystics",
-            "team_b": "Los Angeles Sparks",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e4fdbc941d11c2927bafb5b8978e8ea6.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/32f21070cfd05affb7125a707c2b3b37.png",
-            "time": "06:30:00",
-            "date": "16/08",
-            "blv": "Số 12",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/27815078_477e1cd8_20260816.png?v=477e1cd8",
             "width": 1600,
             "height": 1200
           }
@@ -1142,7 +1070,7 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1155,10 +1083,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1207,7 +1135,7 @@
             "time": "06:15:00",
             "date": "16/08",
             "blv": "Số 7",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
@@ -1215,87 +1143,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/0sd584ogb9kv_2e89df7a_20260816.png?v=2e89df7a",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongban",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-4a1f7b117d",
-          "name": "Europe Smash - Sweden vs Europe Smash - Sweden | 23:00 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4a1f7b117d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4a1f7b117d",
-                  "name": "Europe Smash - Sweden vs Europe Smash - Sweden",
-                  "streams": [
-                    {
-                      "id": "st-4a1f7b117d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a466eb06d6",
-                          "name": "Số 69",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786588196_hd/1786588196_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Europe Smash - Sweden 2026",
-            "team_a": "Europe Smash - Sweden",
-            "team_b": "Europe Smash - Sweden",
-            "logo_a": "https://storage.allsportdb.com/orig/event/e2b7fa13-e624-452a-b2af-4b56208d3bf2",
-            "logo_b": "https://storage.allsportdb.com/orig/event/e2b7fa13-e624-452a-b2af-4b56208d3bf2",
-            "time": "23:00:00",
-            "date": "15/08",
-            "blv": "Số 69",
-            "is_live": true,
-            "cate_type": "bongban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/u0rwhhhxg84n_bd7a3a5d_20260816.png?v=bd7a3a5d",
             "width": 1600,
             "height": 1200
           }
