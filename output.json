@@ -827,83 +827,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9391d2a50a",
-          "name": "Winnipeg Sea Bears vs Brampton Honey Badgers | 02:30 16/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9391d2a50a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9391d2a50a",
-                  "name": "Winnipeg Sea Bears vs Brampton Honey Badgers",
-                  "streams": [
-                    {
-                      "id": "st-9391d2a50a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7d4b2c723a",
-                          "name": "Số 4",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786801893_hd/1786801893_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Canada EBL",
-            "team_a": "Winnipeg Sea Bears",
-            "team_b": "Brampton Honey Badgers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/da4309a0f6b1b5517748b1867edc58a1.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/79721e33f2fc06606a19da7433b8dd32.png",
-            "time": "02:30:00",
-            "date": "16/08",
-            "blv": "Số 4",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/31849271_675784f1_20260816.png?v=675784f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4e1290ff98",
           "name": "Washington Mystics vs Los Angeles Sparks | 06:30 16/08",
@@ -1061,7 +989,7 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1074,10 +1002,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1126,7 +1054,7 @@
             "time": "04:00:00",
             "date": "16/08",
             "blv": "Số 69",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "vothuat"
           },
           "image": {
