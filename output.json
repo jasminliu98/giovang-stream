@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -377,6 +377,78 @@
           }
         },
         {
+          "id": "gv-b120d9a709",
+          "name": "Tottenham Hotspur vs Hoffenheim | 21:00 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b120d9a709",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b120d9a709",
+                  "name": "Tottenham Hotspur vs Hoffenheim",
+                  "streams": [
+                    {
+                      "id": "st-b120d9a709",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3e31e84cd8",
+                          "name": "Số 9",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786755975_hd/1786755975_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu",
+            "team_a": "Tottenham Hotspur",
+            "team_b": "Hoffenheim",
+            "logo_a": "https://static.flashscore.com/res/image/data/ARC62UAr-Ig5FKJZ5.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/I3cMF7f5-n7lWn9DL.png",
+            "time": "21:00:00",
+            "date": "15/08",
+            "blv": "Số 9",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/be9ljywqca4l_9572d908_20260815.png?v=9572d908",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-a3a4c8d05d",
           "name": "Bristol City vs Millwall | 21:00 15/08",
           "type": "single",
@@ -521,6 +593,78 @@
           }
         },
         {
+          "id": "gv-36727feed5",
+          "name": "Stoke City vs Swansea City | 21:00 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-36727feed5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-36727feed5",
+                  "name": "Stoke City vs Swansea City",
+                  "streams": [
+                    {
+                      "id": "st-36727feed5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a7d2c25393",
+                          "name": "Số 13",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786590803_hd/1786590803_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Anh",
+            "team_a": "Stoke City",
+            "team_b": "Swansea City",
+            "logo_a": "https://images.keovip88.net/images/teams/stoke-city.png",
+            "logo_b": "https://images.keovip88.net/images/teams/swansea-city.png",
+            "time": "21:00:00",
+            "date": "15/08",
+            "blv": "Số 13",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a75201d24d46db870671bb0_0e57f47f_20260815.png?v=0e57f47f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-8c1f65d4cd",
           "name": "Gwangju FC vs Pohang Steelers | 17:30 15/08",
           "type": "single",
@@ -660,150 +804,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a75201a24d46db8706716b8_37da3751_20260815.png?v=37da3751",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b120d9a709",
-          "name": "Tottenham Hotspur vs Hoffenheim | 21:00 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b120d9a709",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b120d9a709",
-                  "name": "Tottenham Hotspur vs Hoffenheim",
-                  "streams": [
-                    {
-                      "id": "st-b120d9a709",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3e31e84cd8",
-                          "name": "Số 9",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786755975_hd/1786755975_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Tottenham Hotspur",
-            "team_b": "Hoffenheim",
-            "logo_a": "https://static.flashscore.com/res/image/data/ARC62UAr-Ig5FKJZ5.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/I3cMF7f5-n7lWn9DL.png",
-            "time": "21:00:00",
-            "date": "15/08",
-            "blv": "Số 9",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/be9ljywqca4l_9572d908_20260815.png?v=9572d908",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-36727feed5",
-          "name": "Stoke City vs Swansea City | 21:00 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-36727feed5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-36727feed5",
-                  "name": "Stoke City vs Swansea City",
-                  "streams": [
-                    {
-                      "id": "st-36727feed5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a7d2c25393",
-                          "name": "Số 13",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786590803_hd/1786590803_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng Nhất Anh",
-            "team_a": "Stoke City",
-            "team_b": "Swansea City",
-            "logo_a": "https://images.keovip88.net/images/teams/stoke-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/swansea-city.png",
-            "time": "21:00:00",
-            "date": "15/08",
-            "blv": "Số 13",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a75201d24d46db870671bb0_0e57f47f_20260815.png?v=0e57f47f",
             "width": 1600,
             "height": 1200
           }
