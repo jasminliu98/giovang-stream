@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6f8ae8e996",
-          "name": "Bayern Munich vs RB Leipzig | 20:30 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f8ae8e996",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6f8ae8e996",
-                  "name": "Bayern Munich vs RB Leipzig",
-                  "streams": [
-                    {
-                      "id": "st-6f8ae8e996",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8537a9769",
-                          "name": "Số 7",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786755903_hd/1786755903_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Bayern Munich",
-            "team_b": "RB Leipzig",
-            "logo_a": "https://images.keovip88.net/images/teams/bayern-munchen.png",
-            "logo_b": "https://images.keovip88.net/images/teams/rb-leipzig.png",
-            "time": "20:30:00",
-            "date": "15/08",
-            "blv": "Số 7",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7bb87587b267b97008303e_3390dd5f_20260815.png?v=3390dd5f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b120d9a709",
           "name": "Tottenham Hotspur vs Hoffenheim | 21:00 15/08",
@@ -1140,7 +1068,25 @@
                     {
                       "id": "st-8bb36bd4e8",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0be4fae5a9",
+                          "name": "Số 17",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786778077_hd/1786778077_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1155,7 +1101,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/bragantino.png",
             "time": "04:30:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 17",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1302,7 +1248,42 @@
                     {
                       "id": "st-33a112d5a1",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-89510eed9f",
+                          "name": "Số 7",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786804872_hd/1786804872_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8f3adea3f7",
+                          "name": "Số 19",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786804877_hd/1786804877_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1317,7 +1298,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/vietnam.png",
             "time": "20:00:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 7, Số 19",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1434,6 +1415,114 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7bb87587b267b970083056_0067b788_20260815.png?v=0067b788",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a8f2bfc26e",
+          "name": "Burnley vs West Ham United | 22:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8f2bfc26e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a8f2bfc26e",
+                  "name": "Burnley vs West Ham United",
+                  "streams": [
+                    {
+                      "id": "st-a8f2bfc26e",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Anh",
+            "team_a": "Burnley",
+            "team_b": "West Ham United",
+            "logo_a": "https://images.keovip88.net/images/teams/burnley.png",
+            "logo_b": "https://images.keovip88.net/images/teams/west-ham-united.png",
+            "time": "22:00:00",
+            "date": "16/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7671c924d46db870aeb123_a31688e3_20260815.png?v=a31688e3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8b57766916",
+          "name": "Racing Santander vs Villarreal | 22:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b57766916",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8b57766916",
+                  "name": "Racing Santander vs Villarreal",
+                  "streams": [
+                    {
+                      "id": "st-8b57766916",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Racing Santander",
+            "team_b": "Villarreal",
+            "logo_a": "https://images.keovip88.net/images/teams/racing-santander.png",
+            "logo_b": "https://images.keovip88.net/images/teams/villarreal.png",
+            "time": "22:00:00",
+            "date": "16/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7671c924d46db870aeb11f_91b600b7_20260815.png?v=91b600b7",
             "width": 1600,
             "height": 1200
           }
@@ -1617,7 +1706,25 @@
                     {
                       "id": "st-4e1290ff98",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1f806d514",
+                          "name": "Số 12",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786801828_hd/1786801828_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1632,7 +1739,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/32f21070cfd05affb7125a707c2b3b37.png",
             "time": "06:30:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 12",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -1641,6 +1748,69 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/27815078_338b8e22_20260815.png?v=338b8e22",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-2463a1aad6",
+          "name": "T1 vs GEN | 15:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2463a1aad6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2463a1aad6",
+                  "name": "T1 vs GEN",
+                  "streams": [
+                    {
+                      "id": "st-2463a1aad6",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "T1",
+            "team_b": "GEN",
+            "logo_a": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/77/Gen.G_Logo.svg",
+            "time": "15:00:00",
+            "date": "16/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/cappsgnmzpag_4c472757_20260815.png?v=4c472757",
             "width": 1600,
             "height": 1200
           }
@@ -1833,7 +2003,25 @@
                     {
                       "id": "st-73d6eeafac",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-45473baa3f",
+                          "name": "Số 7",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786803609_hd/1786803609_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1848,7 +2036,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/467Meu6PL9-FddkGftApJA_96x96.png",
             "time": "06:15:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 7",
             "is_live": false,
             "cate_type": "bongchay"
           },
