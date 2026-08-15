@@ -1319,7 +1319,25 @@
                     {
                       "id": "st-2463a1aad6",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-829f075f78",
+                          "name": "Số 12",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786807617_hd/1786807617_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1334,7 +1352,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/7/77/Gen.G_Logo.svg",
             "time": "15:00:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 12",
             "is_live": false,
             "cate_type": "esport"
           },
