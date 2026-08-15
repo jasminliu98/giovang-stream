@@ -1676,7 +1676,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (3 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1749,78 +1749,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/52dfntf1skcg_8d9e9e92_20260815.png?v=8d9e9e92",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9ae3db456c",
-          "name": "HLE vs KT | 15:00 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ae3db456c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9ae3db456c",
-                  "name": "HLE vs KT",
-                  "streams": [
-                    {
-                      "id": "st-9ae3db456c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2b61ea2436",
-                          "name": "Số 12",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786593736_hd/1786593736_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "HLE",
-            "team_b": "KT",
-            "logo_a": "https://static.flashscore.com/res/image/data/pKkqJ4Wg-bB59SVBr.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
-            "time": "15:00:00",
-            "date": "15/08",
-            "blv": "Số 12",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/om9vsq5041ah_550545e3_20260815.png?v=550545e3",
             "width": 1600,
             "height": 1200
           }
