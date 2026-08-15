@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -593,6 +593,78 @@
           }
         },
         {
+          "id": "gv-272c59806f",
+          "name": "Manchester United vs AC Milan | 21:45 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-272c59806f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-272c59806f",
+                  "name": "Manchester United vs AC Milan",
+                  "streams": [
+                    {
+                      "id": "st-272c59806f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5b68c8e690",
+                          "name": "Số 12",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786802183_hd/1786802183_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu",
+            "team_a": "Manchester United",
+            "team_b": "AC Milan",
+            "logo_a": "https://images.keovip88.net/images/teams/manchester-united.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ac-milan.png",
+            "time": "21:45:00",
+            "date": "15/08",
+            "blv": "Số 12",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7bb87587b267b970083047_1a16367a_20260815.png?v=1a16367a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-8c1f65d4cd",
           "name": "Gwangju FC vs Pohang Steelers | 17:30 15/08",
           "type": "single",
@@ -804,78 +876,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a75201d24d46db870671ba7_43082503_20260815.png?v=43082503",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-272c59806f",
-          "name": "Manchester United vs AC Milan | 21:45 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-272c59806f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-272c59806f",
-                  "name": "Manchester United vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "st-272c59806f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5b68c8e690",
-                          "name": "Số 12",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786802183_hd/1786802183_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Manchester United",
-            "team_b": "AC Milan",
-            "logo_a": "https://images.keovip88.net/images/teams/manchester-united.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ac-milan.png",
-            "time": "21:45:00",
-            "date": "15/08",
-            "blv": "Số 12",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7bb87587b267b970083047_1a16367a_20260815.png?v=1a16367a",
             "width": 1600,
             "height": 1200
           }
@@ -1563,7 +1563,25 @@
                     {
                       "id": "st-9391d2a50a",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d4b2c723a",
+                          "name": "Số 4",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786801893_hd/1786801893_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1578,7 +1596,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/79721e33f2fc06606a19da7433b8dd32.png",
             "time": "02:30:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 4",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -1842,7 +1860,25 @@
                     {
                       "id": "st-0fd6afa0eb",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-45c49f53d4",
+                          "name": "Số 69",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786802340_hd/1786802340_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1857,7 +1893,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/dGdRKaFa-nkHZLWfS.png",
             "time": "04:00:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 69",
             "is_live": false,
             "cate_type": "vothuat"
           },
@@ -1905,7 +1941,25 @@
                     {
                       "id": "st-73d6eeafac",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-45473baa3f",
+                          "name": "Số 7",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786803609_hd/1786803609_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1920,7 +1974,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/467Meu6PL9-FddkGftApJA_96x96.png",
             "time": "06:15:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 7",
             "is_live": false,
             "cate_type": "bongchay"
           },
