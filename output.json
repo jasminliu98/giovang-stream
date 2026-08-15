@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-b3eb5a327b",
-          "name": "IFK Mariehamn vs SJK Seinajoki | 23:00 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b3eb5a327b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b3eb5a327b",
-                  "name": "IFK Mariehamn vs SJK Seinajoki",
-                  "streams": [
-                    {
-                      "id": "st-b3eb5a327b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8006bc684",
-                          "name": "Số 13",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786777764_hd/1786777764_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Phần Lan",
-            "team_a": "IFK Mariehamn",
-            "team_b": "SJK Seinajoki",
-            "logo_a": "https://images.keovip88.net/images/teams/ifk-mariehamn.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sjk-seinajoen.png",
-            "time": "23:00:00",
-            "date": "15/08",
-            "blv": "Số 13",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a75202524d46db87067280e_1b140ef0_20260816.png?v=1b140ef0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-054eef9a5c",
           "name": "Sheffield United vs Birmingham | 23:30 15/08",
           "type": "single",
@@ -233,6 +161,78 @@
           }
         },
         {
+          "id": "gv-e8eb535bc6",
+          "name": "Al Ittihad Jeddah vs Al Kholood | 01:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8eb535bc6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e8eb535bc6",
+                  "name": "Al Ittihad Jeddah vs Al Kholood",
+                  "streams": [
+                    {
+                      "id": "st-e8eb535bc6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3fbd1ecb65",
+                          "name": "Số 13",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786777871_hd/1786777871_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al Ittihad Jeddah",
+            "team_b": "Al Kholood",
+            "logo_a": "https://images.keovip88.net/images/teams/al-ittihad.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-kholood.png",
+            "time": "01:00:00",
+            "date": "16/08",
+            "blv": "Số 13",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7671c124d46db870ae9a85_bea7a243_20260816.png?v=bea7a243",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-43de692c09",
           "name": "Portsmouth vs Queens Park Rangers | 21:00 15/08",
           "type": "single",
@@ -300,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a75201d24d46db870671ba7_9aef45c4_20260816.png?v=9aef45c4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e8eb535bc6",
-          "name": "Al Ittihad Jeddah vs Al Kholood | 01:00 16/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e8eb535bc6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e8eb535bc6",
-                  "name": "Al Ittihad Jeddah vs Al Kholood",
-                  "streams": [
-                    {
-                      "id": "st-e8eb535bc6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3fbd1ecb65",
-                          "name": "Số 13",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786777871_hd/1786777871_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Al Ittihad Jeddah",
-            "team_b": "Al Kholood",
-            "logo_a": "https://images.keovip88.net/images/teams/al-ittihad.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-kholood.png",
-            "time": "01:00:00",
-            "date": "16/08",
-            "blv": "Số 13",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7671c124d46db870ae9a85_bea7a243_20260816.png?v=bea7a243",
             "width": 1600,
             "height": 1200
           }
