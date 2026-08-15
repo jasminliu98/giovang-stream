@@ -83,6 +83,7 @@ OVERRIDE_CATE = {
     "world pool masters": "Billiards",
     "us open pool": "Billiards",
     "WTT": "bongban",
+    "europe smash": "bongban",
     
 }
 
