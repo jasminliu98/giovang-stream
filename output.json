@@ -1239,6 +1239,60 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-b3eb5a327b",
+          "name": "IFK Mariehamn vs SJK Seinajoki | 23:00 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b3eb5a327b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b3eb5a327b",
+                  "name": "IFK Mariehamn vs SJK Seinajoki",
+                  "streams": [
+                    {
+                      "id": "st-b3eb5a327b",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan",
+            "team_a": "IFK Mariehamn",
+            "team_b": "SJK Seinajoki",
+            "logo_a": "https://images.keovip88.net/images/teams/ifk-mariehamn.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sjk-seinajoen.png",
+            "time": "23:00:00",
+            "date": "15/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a75202524d46db87067280e_e50168b0_20260815.png?v=e50168b0",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
