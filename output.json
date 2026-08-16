@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "02:00:00",
             "date": "17/08",
             "blv": "Số 13",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -449,6 +449,78 @@
           }
         },
         {
+          "id": "gv-0b9784dec7",
+          "name": "Colo Colo vs O Higgins | 04:30 17/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b9784dec7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0b9784dec7",
+                  "name": "Colo Colo vs O Higgins",
+                  "streams": [
+                    {
+                      "id": "st-0b9784dec7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1abc4adf4a",
+                          "name": "Số 11",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786866476_hd/1786866476_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Chilê",
+            "team_a": "Colo Colo",
+            "team_b": "O Higgins",
+            "logo_a": "https://images.keovip88.net/images/teams/colo-colo.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ohiggins.png",
+            "time": "04:30:00",
+            "date": "17/08",
+            "blv": "Số 11",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7a664824d46db8707503b0_4acd71ea_20260817.png?v=4acd71ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-6cd865cdcb",
           "name": "Mirassol FC vs Flamengo | 04:30 17/08",
           "type": "single",
@@ -588,78 +660,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7a664824d46db8707503ab_5c28b121_20260817.png?v=5c28b121",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0b9784dec7",
-          "name": "Colo Colo vs O Higgins | 04:30 17/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b9784dec7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0b9784dec7",
-                  "name": "Colo Colo vs O Higgins",
-                  "streams": [
-                    {
-                      "id": "st-0b9784dec7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1abc4adf4a",
-                          "name": "Số 11",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786866476_hd/1786866476_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Chilê",
-            "team_a": "Colo Colo",
-            "team_b": "O Higgins",
-            "logo_a": "https://images.keovip88.net/images/teams/colo-colo.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ohiggins.png",
-            "time": "04:30:00",
-            "date": "17/08",
-            "blv": "Số 11",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7a664824d46db8707503b0_4acd71ea_20260817.png?v=4acd71ea",
             "width": 1600,
             "height": 1200
           }
@@ -1077,7 +1077,25 @@
                     {
                       "id": "st-3f5228b9dc",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2dc43d5d32",
+                          "name": "Số 4",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786904722_hd/1786904722_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1092,7 +1110,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1ba7bc78f9d1c7a7110e43d1c6f141f3.png",
             "time": "14:00:00",
             "date": "17/08",
-            "blv": "",
+            "blv": "Số 4",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -1140,7 +1158,25 @@
                     {
                       "id": "st-e8dc1a3190",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f26f8b0e02",
+                          "name": "Số 7",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786904795_hd/1786904795_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1155,7 +1191,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqQgr-ZMXcu-H9oPZoKCIkW13egkj_Z5w52C0E1gRnMw&s=10",
             "time": "11:10:00",
             "date": "17/08",
-            "blv": "",
+            "blv": "Số 7",
             "is_live": false,
             "cate_type": "esport"
           },
