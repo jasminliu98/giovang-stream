@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "gv-093be2dae3",
-          "name": "Feyenoord vs G.A. Eagles | 19:30 16/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-093be2dae3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-093be2dae3",
-                  "name": "Feyenoord vs G.A. Eagles",
-                  "streams": [
-                    {
-                      "id": "st-093be2dae3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7bdad8e2a1",
-                          "name": "Số 11",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786877993_hd/1786877993_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Netherlands Eredivisie - Round 2",
-            "team_a": "Feyenoord",
-            "team_b": "G.A. Eagles",
-            "logo_a": "https://static.flashscore.com/res/image/data/hxdMgrGG-Wz6bfhxO.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/rgj4XeZA-CYLEXeh5.png",
-            "time": "19:30:00",
-            "date": "16/08",
-            "blv": "Số 11",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/xd84csqh5xuu_adf06214_20260816.png?v=adf06214",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-33a112d5a1",
           "name": "Malaysia vs Việt Nam | 20:00 16/08",
           "type": "single",
@@ -228,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7914b124d46db8703fe4a6_d75b0839_20260816.png?v=d75b0839",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-093be2dae3",
+          "name": "Feyenoord vs G.A. Eagles | 19:30 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-093be2dae3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-093be2dae3",
+                  "name": "Feyenoord vs G.A. Eagles",
+                  "streams": [
+                    {
+                      "id": "st-093be2dae3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7bdad8e2a1",
+                          "name": "Số 11",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786877993_hd/1786877993_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Netherlands Eredivisie - Round 2",
+            "team_a": "Feyenoord",
+            "team_b": "G.A. Eagles",
+            "logo_a": "https://static.flashscore.com/res/image/data/hxdMgrGG-Wz6bfhxO.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/rgj4XeZA-CYLEXeh5.png",
+            "time": "19:30:00",
+            "date": "16/08",
+            "blv": "Số 11",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/xd84csqh5xuu_adf06214_20260816.png?v=adf06214",
             "width": 1600,
             "height": 1200
           }
