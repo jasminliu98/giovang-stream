@@ -797,11 +797,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-4dcb3b6930",
-                          "name": "Số 11",
+                          "id": "lnk-3ae9227d98",
+                          "name": "Số 17",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786805075_hd/1786805075_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786861888_hd/1786861888_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -828,7 +828,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/como.png",
             "time": "00:00:00",
             "date": "17/08",
-            "blv": "Số 11",
+            "blv": "Số 17",
             "is_live": false,
             "cate_type": "football"
           },
@@ -837,6 +837,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7a663d24d46db87074e7a5_e8ec1725_20260816.png?v=e8ec1725",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3b6190e8bf",
+          "name": "Espanyol vs Levante | 00:00 17/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3b6190e8bf",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3b6190e8bf",
+                  "name": "Espanyol vs Levante",
+                  "streams": [
+                    {
+                      "id": "st-3b6190e8bf",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-120a209a07",
+                          "name": "Số 13",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786862090_hd/1786862090_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Espanyol",
+            "team_b": "Levante",
+            "logo_a": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
+            "logo_b": "https://images.keovip88.net/images/teams/levante.png",
+            "time": "00:00:00",
+            "date": "17/08",
+            "blv": "Số 13",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7a664524d46db87074f534_5dfcbf91_20260816.png?v=5dfcbf91",
             "width": 1600,
             "height": 1200
           }
