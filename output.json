@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b7603f8a92",
-          "name": "Inter Toronto vs HFX Wanderers | 03:00 17/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b7603f8a92",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b7603f8a92",
-                  "name": "Inter Toronto vs HFX Wanderers",
-                  "streams": [
-                    {
-                      "id": "st-b7603f8a92",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d5015c132a",
-                          "name": "Số 17",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786867021_hd/1786867021_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Canadian Premier League",
-            "team_a": "Inter Toronto",
-            "team_b": "HFX Wanderers",
-            "logo_a": "https://static.flashscore.com/res/image/data/OWHH40Wg-EXlX9pp1.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/ra3cIdZA-0MS9u0Q7.png",
-            "time": "03:00:00",
-            "date": "17/08",
-            "blv": "Số 17",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/8ql4epb0f49d_6fca3664_20260817.png?v=6fca3664",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6cd865cdcb",
           "name": "Mirassol FC vs Flamengo | 04:30 17/08",
@@ -632,7 +560,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -777,78 +705,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/39815070_190ad9d1_20260817.png?v=190ad9d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e0827c7990",
-          "name": "Phoenix Mercury vs Portland Fire | 06:00 17/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e0827c7990",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e0827c7990",
-                  "name": "Phoenix Mercury vs Portland Fire",
-                  "streams": [
-                    {
-                      "id": "st-e0827c7990",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f2569c18a8",
-                          "name": "Số 3",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786866846_hd/1786866846_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Phoenix Mercury",
-            "team_b": "Portland Fire",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f35ccb51f91cd187f149d4d55fc6be24.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/687f4fda7efc61afefa80ee3591a56f2.png",
-            "time": "06:00:00",
-            "date": "17/08",
-            "blv": "Số 3",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/20915072_e260b28e_20260817.png?v=e260b28e",
             "width": 1600,
             "height": 1200
           }
