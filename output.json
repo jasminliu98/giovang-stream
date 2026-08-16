@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-799e6498ab",
-          "name": "Liverpool vs Como | 23:59 16/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-799e6498ab",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-799e6498ab",
-                  "name": "Liverpool vs Como",
-                  "streams": [
-                    {
-                      "id": "st-799e6498ab",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3ae9227d98",
-                          "name": "Số 17",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786861888_hd/1786861888_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Liverpool",
-            "team_b": "Como",
-            "logo_a": "https://images.keovip88.net/images/teams/liverpool.png",
-            "logo_b": "https://images.keovip88.net/images/teams/como.png",
-            "time": "23:59:00",
-            "date": "16/08",
-            "blv": "Số 17",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7a663d24d46db87074e7a5_e8ec1725_20260817.png?v=e8ec1725",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3b6190e8bf",
           "name": "Espanyol vs Levante | 00:00 17/08",
