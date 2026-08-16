@@ -1679,6 +1679,69 @@
           }
         }
       ]
+    },
+    {
+      "id": "cate_bongban",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-d0807529cb",
+          "name": "Europe Smash vs Sweden 2026 | 17:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d0807529cb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d0807529cb",
+                  "name": "Europe Smash vs Sweden 2026",
+                  "streams": [
+                    {
+                      "id": "st-d0807529cb",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europe Smash - Sweden 2026",
+            "team_a": "Europe Smash",
+            "team_b": "Sweden 2026",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfKbWD0-fWhDbcs5o9yqz6wk78cebogkDpUx78E6bNRaA2QM6hbWnOuw&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYE3Y5hGfLtmkqJegxaVQgVHC4Olk6gO87hCiXx2TUHXsT-IBDIr48anU&s=10",
+            "time": "17:00:00",
+            "date": "16/08",
+            "blv": "",
+            "is_live": true,
+            "cate_type": "bongban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gej2fajs1618_e4731ca7_20260816.png?v=e4731ca7",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
