@@ -188,27 +188,10 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-89510eed9f",
-                          "name": "Số 7",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786804872_hd/1786804872_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-8f3adea3f7",
                           "name": "Số 19",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://eqr2hdarxfliv.vcdn.cloud/1786804877_hd/1786804877_hd@720p.m3u8",
                           "request_headers": [
                             {
@@ -236,7 +219,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/vietnam.png",
             "time": "20:00:00",
             "date": "16/08",
-            "blv": "Số 7, Số 19",
+            "blv": "Số 19",
             "is_live": false,
             "cate_type": "football"
           },
@@ -495,6 +478,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7671c924d46db870aeb123_bf3c8f2a_20260816.png?v=bf3c8f2a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6adf15626d",
+          "name": "Schalke 04 vs Real Madrid | 22:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6adf15626d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6adf15626d",
+                  "name": "Schalke 04 vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "st-6adf15626d",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu",
+            "team_a": "Schalke 04",
+            "team_b": "Real Madrid",
+            "logo_a": "https://images.keovip88.net/images/teams/schalke-04.png",
+            "logo_b": "https://images.keovip88.net/images/teams/real-madrid.png",
+            "time": "22:00:00",
+            "date": "16/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a712c3298d3bfb9800a255e_e25fdfce_20260816.png?v=e25fdfce",
             "width": 1600,
             "height": 1200
           }
