@@ -186,7 +186,25 @@
                     {
                       "id": "st-093be2dae3",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7bdad8e2a1",
+                          "name": "Số 11",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786877993_hd/1786877993_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -201,7 +219,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/rgj4XeZA-CYLEXeh5.png",
             "time": "19:30:00",
             "date": "16/08",
-            "blv": "",
+            "blv": "Số 11",
             "is_live": false,
             "cate_type": "football"
           },
@@ -465,6 +483,78 @@
           }
         },
         {
+          "id": "gv-6adf15626d",
+          "name": "Schalke 04 vs Real Madrid | 22:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6adf15626d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6adf15626d",
+                  "name": "Schalke 04 vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "st-6adf15626d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1ad00ac467",
+                          "name": "Số 7",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786877318_hd/1786877318_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu",
+            "team_a": "Schalke 04",
+            "team_b": "Real Madrid",
+            "logo_a": "https://images.keovip88.net/images/teams/schalke-04.png",
+            "logo_b": "https://images.keovip88.net/images/teams/real-madrid.png",
+            "time": "22:00:00",
+            "date": "16/08",
+            "blv": "Số 7",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a712c3298d3bfb9800a255e_e25fdfce_20260816.png?v=e25fdfce",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-a8f2bfc26e",
           "name": "Burnley vs West Ham United | 22:00 16/08",
           "type": "single",
@@ -537,8 +627,8 @@
           }
         },
         {
-          "id": "gv-6adf15626d",
-          "name": "Schalke 04 vs Real Madrid | 22:00 16/08",
+          "id": "gv-8b57766916",
+          "name": "Racing Santander vs Villarreal | 22:00 16/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -552,15 +642,15 @@
           ],
           "sources": [
             {
-              "id": "src-6adf15626d",
+              "id": "src-8b57766916",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-6adf15626d",
-                  "name": "Schalke 04 vs Real Madrid",
+                  "id": "ct-8b57766916",
+                  "name": "Racing Santander vs Villarreal",
                   "streams": [
                     {
-                      "id": "st-6adf15626d",
+                      "id": "st-8b57766916",
                       "name": "GV",
                       "stream_links": []
                     }
@@ -570,11 +660,11 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Schalke 04",
-            "team_b": "Real Madrid",
-            "logo_a": "https://images.keovip88.net/images/teams/schalke-04.png",
-            "logo_b": "https://images.keovip88.net/images/teams/real-madrid.png",
+            "league": "La Liga",
+            "team_a": "Racing Santander",
+            "team_b": "Villarreal",
+            "logo_a": "https://images.keovip88.net/images/teams/racing-santander.png",
+            "logo_b": "https://images.keovip88.net/images/teams/villarreal.png",
             "time": "22:00:00",
             "date": "16/08",
             "blv": "",
@@ -585,7 +675,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a712c3298d3bfb9800a255e_e25fdfce_20260816.png?v=e25fdfce",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7671c924d46db870aeb11f_648b670c_20260816.png?v=648b670c",
             "width": 1600,
             "height": 1200
           }
@@ -664,7 +754,7 @@
         },
         {
           "id": "gv-799e6498ab",
-          "name": "Liverpool vs Como | 00:00 17/08",
+          "name": "Liverpool vs Como | 23:59 16/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -719,8 +809,8 @@
             "team_b": "Como",
             "logo_a": "https://images.keovip88.net/images/teams/liverpool.png",
             "logo_b": "https://images.keovip88.net/images/teams/como.png",
-            "time": "00:00:00",
-            "date": "17/08",
+            "time": "23:59:00",
+            "date": "16/08",
             "blv": "Số 17",
             "is_live": false,
             "cate_type": "football"
