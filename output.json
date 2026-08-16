@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-3b6190e8bf",
-          "name": "Espanyol vs Levante | 00:00 17/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3b6190e8bf",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3b6190e8bf",
-                  "name": "Espanyol vs Levante",
-                  "streams": [
-                    {
-                      "id": "st-3b6190e8bf",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-120a209a07",
-                          "name": "Số 13",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786862090_hd/1786862090_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Espanyol",
-            "team_b": "Levante",
-            "logo_a": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
-            "logo_b": "https://images.keovip88.net/images/teams/levante.png",
-            "time": "00:00:00",
-            "date": "17/08",
-            "blv": "Số 13",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7a664524d46db87074f534_5dfcbf91_20260817.png?v=5dfcbf91",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e85a1fb895",
           "name": "Lens vs Paris Saint Germain | 01:45 17/08",
