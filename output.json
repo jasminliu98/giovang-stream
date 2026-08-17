@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-212155f856",
-          "name": "Polissya Zhytomyr vs Zorya | 22:00 17/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-212155f856",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-212155f856",
-                  "name": "Polissya Zhytomyr vs Zorya",
-                  "streams": [
-                    {
-                      "id": "st-212155f856",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-610601bee9",
-                          "name": "Số 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786951655_hd/1786951655_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ukraine",
-            "team_a": "Polissya Zhytomyr",
-            "team_b": "Zorya",
-            "logo_a": "https://images.keovip88.net/images/teams/polissya-zhytomyr.png",
-            "logo_b": "https://images.keovip88.net/images/teams/zorya.png",
-            "time": "22:00:00",
-            "date": "17/08",
-            "blv": "Số 1",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a75202224d46db8706723e3_3cb386e4_20260817.png?v=3cb386e4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-bd7c67ffb8",
           "name": "Pisa vs Empoli | 23:00 17/08",
