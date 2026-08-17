@@ -330,25 +330,7 @@
                     {
                       "id": "st-a779efdabd",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9a16300c71",
-                          "name": "Số 10",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786851291_hd/1786851291_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -363,7 +345,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/wrexham.png",
             "time": "02:00:00",
             "date": "18/08",
-            "blv": "Số 10",
+            "blv": "",
             "is_live": false,
             "cate_type": "football"
           },
@@ -452,44 +434,107 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-3f5228b9dc",
-          "name": "Manila Stars vs Zamboanga Familys Brand Sardines | 14:00 17/08",
+          "id": "gv-7b4e472504",
+          "name": "Meycauayan vs Cebu Classic | 16:00 17/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-3f5228b9dc",
+              "id": "src-7b4e472504",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-3f5228b9dc",
-                  "name": "Manila Stars vs Zamboanga Familys Brand Sardines",
+                  "id": "ct-7b4e472504",
+                  "name": "Meycauayan vs Cebu Classic",
                   "streams": [
                     {
-                      "id": "st-3f5228b9dc",
+                      "id": "st-7b4e472504",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Philippines MPBL",
+            "team_a": "Meycauayan",
+            "team_b": "Cebu Classic",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/779c533165ff6737a253e453f0e09e5c.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/4e96e841ee44e663ed4a524c3ab181c5.png",
+            "time": "16:00:00",
+            "date": "17/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/27081275_cb723469_20260817.png?v=cb723469",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-b5a45be5d0",
+          "name": "T1 vs DNS | 15:00 17/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5a45be5d0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b5a45be5d0",
+                  "name": "T1 vs DNS",
+                  "streams": [
+                    {
+                      "id": "st-b5a45be5d0",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-2dc43d5d32",
-                          "name": "Số 4",
+                          "id": "lnk-75bb6dcf43",
+                          "name": "Số 9",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786904722_hd/1786904722_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786950428_hd/1786950428_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -509,22 +554,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Philippines MPBL",
-            "team_a": "Manila Stars",
-            "team_b": "Zamboanga Familys Brand Sardines",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/1b58325d8265d895b6cf505730edcf77.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1ba7bc78f9d1c7a7110e43d1c6f141f3.png",
-            "time": "14:00:00",
+            "league": "KESPA CUP",
+            "team_a": "T1",
+            "team_b": "DNS",
+            "logo_a": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fsLmL8ZA-K2mdw3oq.png",
+            "time": "15:00:00",
             "date": "17/08",
-            "blv": "Số 4",
-            "is_live": true,
-            "cate_type": "basketball"
+            "blv": "Số 9",
+            "is_live": false,
+            "cate_type": "esport"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/26081274_a3963ee1_20260817.png?v=a3963ee1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/keadivazlfzo_69bfbe92_20260817.png?v=69bfbe92",
             "width": 1600,
             "height": 1200
           }
