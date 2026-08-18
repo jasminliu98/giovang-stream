@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-6390a13b61",
-          "name": "Buxoro FK vs Neftchi Fargona | 22:00 18/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6390a13b61",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6390a13b61",
-                  "name": "Buxoro FK vs Neftchi Fargona",
-                  "streams": [
-                    {
-                      "id": "st-6390a13b61",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bdf199e4ed",
-                          "name": "Số 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787037344_hd/1787037344_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uzbekistan Super League",
-            "team_a": "Buxoro FK",
-            "team_b": "Neftchi Fargona",
-            "logo_a": "https://images.keovip88.net/images/teams/buxoro-fk.png",
-            "logo_b": "https://images.keovip88.net/images/teams/neftchi-fargona.png",
-            "time": "22:00:00",
-            "date": "18/08",
-            "blv": "Số 1",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7a664f24d46db870750ec7_b8bcadc5_20260819.png?v=b8bcadc5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-23af9e093d",
           "name": "CSKA Moscow vs Akron Togliatti | 22:30 18/08",
           "type": "single",
@@ -240,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +220,7 @@
             "time": "00:45:00",
             "date": "19/08",
             "blv": "Số 1",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -618,7 +546,25 @@
                     {
                       "id": "st-3655657662",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-b5670b944d",
+                          "name": "Số 9",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787072757_hd/1787072757_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -633,7 +579,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/CAc8vSkl-IcBHQrhJ.png",
             "time": "17:00:00",
             "date": "19/08",
-            "blv": "",
+            "blv": "Số 9",
             "is_live": false,
             "cate_type": "football"
           },
@@ -672,7 +618,25 @@
                     {
                       "id": "st-fa3d0bd253",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-d686e53835",
+                          "name": "Số 13",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787072868_hd/1787072868_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -687,7 +651,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/E7LHWiHG-nFQt27sT.png",
             "time": "17:30:00",
             "date": "19/08",
-            "blv": "",
+            "blv": "Số 13",
             "is_live": false,
             "cate_type": "football"
           },
@@ -696,6 +660,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/dknt9htsj73q_92fecad9_20260819.png?v=92fecad9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a756a150b3",
+          "name": "Gangwon vs Seongnam FC | 17:30 19/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a756a150b3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a756a150b3",
+                  "name": "Gangwon vs Seongnam FC",
+                  "streams": [
+                    {
+                      "id": "st-a756a150b3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7feb7d0114",
+                          "name": "Số 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787073102_hd/1787073102_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K-League Hàn Quốc",
+            "team_a": "Gangwon",
+            "team_b": "Seongnam FC",
+            "logo_a": "https://static.flashscore.com/res/image/data/6a5annZg-IR4625wC.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/61CPvaf5-l04KlBA6.png",
+            "time": "17:30:00",
+            "date": "19/08",
+            "blv": "Số 1",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/abplzpt3macn_68658e74_20260819.png?v=68658e74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7f76621700",
+          "name": "Việt Nam vs Malaysia | 20:00 19/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f76621700",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7f76621700",
+                  "name": "Việt Nam vs Malaysia",
+                  "streams": [
+                    {
+                      "id": "st-7f76621700",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6fb55d67f8",
+                          "name": "Số 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787073277_hd/1787073277_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAN CUP 2026",
+            "team_a": "Việt Nam",
+            "team_b": "Malaysia",
+            "logo_a": "https://images.keovip88.net/images/teams/vietnam.png",
+            "logo_b": "https://images.keovip88.net/images/teams/malaysia.png",
+            "time": "20:00:00",
+            "date": "19/08",
+            "blv": "Số 1",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7915612e2477643506888a_865c639c_20260819.png?v=865c639c",
             "width": 1600,
             "height": 1200
           }
