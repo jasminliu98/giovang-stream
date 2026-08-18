@@ -636,7 +636,25 @@
                     {
                       "id": "st-bd3bf8ed9b",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0296772e9f",
+                          "name": "Số 4",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787064190_hd/1787064190_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -651,7 +669,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV0-1E2Wv8EzftLA1lpu7MkqJzib1v7j3pg4G1yiMGOw&s",
             "time": "06:00:00",
             "date": "19/08",
-            "blv": "",
+            "blv": "Số 4",
             "is_live": false,
             "cate_type": "vothuat"
           },
