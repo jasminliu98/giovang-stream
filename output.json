@@ -676,6 +676,123 @@
       ]
     },
     {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-626b277eb9",
+          "name": "AL vs TES | 15:00 19/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-626b277eb9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-626b277eb9",
+                  "name": "AL vs TES",
+                  "streams": [
+                    {
+                      "id": "st-626b277eb9",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LPL",
+            "team_a": "AL",
+            "team_b": "TES",
+            "logo_a": "https://static.flashscore.com/res/image/data/bZJer3Ar-h0gdtMbg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QPgfuJHG-AccDjeY5.png",
+            "time": "15:00:00",
+            "date": "19/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bklj2tdy45v7_aa3229d0_20260818.png?v=aa3229d0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-268704fb6f",
+          "name": "GEN vs KT | 15:00 19/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-268704fb6f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-268704fb6f",
+                  "name": "GEN vs KT",
+                  "streams": [
+                    {
+                      "id": "st-268704fb6f",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "GEN",
+            "team_b": "KT",
+            "logo_a": "https://static.flashscore.com/res/image/data/rglkqMzB-UJqSxlpo.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
+            "time": "15:00:00",
+            "date": "19/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ci798tuxwncb_968c13dc_20260818.png?v=968c13dc",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_vothuat",
       "name": "🥊 Võ Thuật",
       "display": "vertical",
