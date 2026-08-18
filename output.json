@@ -511,6 +511,60 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-80a1871185",
+          "name": "Toronto Tempo vs Indiana Fever | 06:00 19/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-80a1871185",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-80a1871185",
+                  "name": "Toronto Tempo vs Indiana Fever",
+                  "streams": [
+                    {
+                      "id": "st-80a1871185",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Toronto Tempo",
+            "team_b": "Indiana Fever",
+            "logo_a": "https://nba.titan007.com/files/team/1kjvxfkm62.png",
+            "logo_b": "https://nba.titan007.com/files/team/1hxtvftk9jk.png",
+            "time": "06:00:00",
+            "date": "19/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/24915076_06631dee_20260818.png?v=06631dee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-4dd5a6cf1c",
           "name": "Washington Mystics vs Toronto Tempo | 06:30 20/08",
           "type": "single",
@@ -578,6 +632,132 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/27915079_7f5b5240_20260818.png?v=7f5b5240",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-bd3bf8ed9b",
+          "name": "Dana White's Contender Series: Season 10 vs Week 2 | 06:00 19/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bd3bf8ed9b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bd3bf8ed9b",
+                  "name": "Dana White's Contender Series: Season 10 vs Week 2",
+                  "streams": [
+                    {
+                      "id": "st-bd3bf8ed9b",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Dana White's Contender Series: Season 10, Week 2",
+            "team_a": "Dana White's Contender Series: Season 10",
+            "team_b": "Week 2",
+            "logo_a": "https://i.ytimg.com/vi/nbDNG8AZ5C8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA50V4X_wbdGp8in358wd58m1Z8uA",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV0-1E2Wv8EzftLA1lpu7MkqJzib1v7j3pg4G1yiMGOw&s",
+            "time": "06:00:00",
+            "date": "19/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/t46fu2kxh83v_4e2d4a3f_20260818.png?v=4e2d4a3f",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-0374d467ff",
+          "name": "New York Mets vs San Diego Padres | 06:10 19/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0374d467ff",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0374d467ff",
+                  "name": "New York Mets vs San Diego Padres",
+                  "streams": [
+                    {
+                      "id": "st-0374d467ff",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "New York Mets",
+            "team_b": "San Diego Padres",
+            "logo_a": "https://static.flashscore.com/res/image/data/ID1PVAjl-QJ65VxPM.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/iM_hcWzccgEfD4bo-sp6Wg_96x96.png",
+            "time": "06:10:00",
+            "date": "19/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/iu5jxk8wku42_d8f1e466_20260818.png?v=d8f1e466",
             "width": 1600,
             "height": 1200
           }
