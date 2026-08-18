@@ -11,100 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8bb4ec3f4e",
-          "name": "Thái Lan vs Singapore | 20:00 18/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8bb4ec3f4e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8bb4ec3f4e",
-                  "name": "Thái Lan vs Singapore",
-                  "streams": [
-                    {
-                      "id": "st-8bb4ec3f4e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2212f9a975",
-                          "name": "Số 11",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787037175_hd/1787037175_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-33f9318d49",
-                          "name": "Số 13",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786941909_hd/1786941909_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAN CUP 2026",
-            "team_a": "Thái Lan",
-            "team_b": "Singapore",
-            "logo_a": "https://images.keovip88.net/images/teams/thailand.png",
-            "logo_b": "https://images.keovip88.net/images/teams/singapore.png",
-            "time": "20:00:00",
-            "date": "18/08",
-            "blv": "Số 11, Số 13",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7915612e24776435068889_5f07afb3_20260818.png?v=5f07afb3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b3340f0e57",
           "name": "FK Sogdiana Jizak vs Qizilqum Zarafshon | 21:00 18/08",
@@ -257,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -309,7 +220,7 @@
             "time": "22:30:00",
             "date": "18/08",
             "blv": "Số 11",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -329,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -381,7 +292,7 @@
             "time": "22:30:00",
             "date": "18/08",
             "blv": "Số 13",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
