@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d695d45d05",
-          "name": "Damac vs Al Taawon | 23:15 19/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d695d45d05",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d695d45d05",
-                  "name": "Damac vs Al Taawon",
-                  "streams": [
-                    {
-                      "id": "st-d695d45d05",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b908d19c54",
-                          "name": "Số 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786954182_hd/1786954182_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Damac",
-            "team_b": "Al Taawon",
-            "logo_a": "https://static.flashscore.com/res/image/data/f1Df7KeM-29Hb7UEa.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xQvLINXg-zwr48VYG.png",
-            "time": "23:15:00",
-            "date": "19/08",
-            "blv": "Số 1",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/hiunzxw9n4s5_b4c62df1_20260820.png?v=b4c62df1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-2ff287265c",
           "name": "Barcelona vs Al Ahly | 01:00 20/08",
