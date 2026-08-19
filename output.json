@@ -1118,83 +1118,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-626b277eb9",
-          "name": "AL vs TES | 15:00 19/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-626b277eb9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-626b277eb9",
-                  "name": "AL vs TES",
-                  "streams": [
-                    {
-                      "id": "st-626b277eb9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0cdc263db3",
-                          "name": "Số 2",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787071821_hd/1787071821_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LPL",
-            "team_a": "AL",
-            "team_b": "TES",
-            "logo_a": "https://static.flashscore.com/res/image/data/bZJer3Ar-h0gdtMbg.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QPgfuJHG-AccDjeY5.png",
-            "time": "15:00:00",
-            "date": "19/08",
-            "blv": "Số 2",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bklj2tdy45v7_aa3229d0_20260819.png?v=aa3229d0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0cbda8adf0",
           "name": "BRO vs DNS | 17:00 19/08",
