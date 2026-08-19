@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "23:30:00",
             "date": "19/08",
             "blv": "Số 13",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -858,6 +858,231 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bf1efjkcctot_e5e88670_20260819.png?v=e5e88670",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-c64ddba269",
+          "name": "DK vs HLE | 15:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c64ddba269",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c64ddba269",
+                  "name": "DK vs HLE",
+                  "streams": [
+                    {
+                      "id": "st-c64ddba269",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "DK",
+            "team_b": "HLE",
+            "logo_a": "https://static.flashscore.com/res/image/data/IcRWRrAr-lAg5zKZ6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/pKkqJ4Wg-bB59SVBr.png",
+            "time": "15:00:00",
+            "date": "20/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/d0hrk4mgezob_522200d9_20260819.png?v=522200d9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1cb37b8321",
+          "name": "TT vs JDG | 16:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1cb37b8321",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1cb37b8321",
+                  "name": "TT vs JDG",
+                  "streams": [
+                    {
+                      "id": "st-1cb37b8321",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LPL",
+            "team_a": "TT",
+            "team_b": "JDG",
+            "logo_a": "https://static.flashscore.com/res/image/data/4Aoo4weM-MLEBzXUg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/C0zbdICr-hnEFSiGQ.png",
+            "time": "16:00:00",
+            "date": "20/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ae5xvapa9skn_f64d29ce_20260819.png?v=f64d29ce",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f9a329e953",
+          "name": "NS vs KRX | 17:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f9a329e953",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f9a329e953",
+                  "name": "NS vs KRX",
+                  "streams": [
+                    {
+                      "id": "st-f9a329e953",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "NS",
+            "team_b": "KRX",
+            "logo_a": "https://static.flashscore.com/res/image/data/fsLmL8ZA-K2mdw3oq.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/bgSWuehl-SxdIjKYi.png",
+            "time": "17:00:00",
+            "date": "20/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bjkhovnovi8d_c1101b3f_20260819.png?v=c1101b3f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-89ed1deb59",
+          "name": "LGD vs BLG | 18:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-89ed1deb59",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-89ed1deb59",
+                  "name": "LGD vs BLG",
+                  "streams": [
+                    {
+                      "id": "st-89ed1deb59",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LPL",
+            "team_a": "LGD",
+            "team_b": "BLG",
+            "logo_a": "https://static.flashscore.com/res/image/data/K2DzGSil-IizXy6Yg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8GDKDOdM-MLEBzXUg.png",
+            "time": "18:00:00",
+            "date": "20/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/p78oj6azbmf9_84e9ccb8_20260819.png?v=84e9ccb8",
             "width": 1600,
             "height": 1200
           }
