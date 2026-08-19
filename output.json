@@ -1100,83 +1100,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-822860b5c4",
-          "name": "Chicago Sky vs New York Liberty | 08:00 19/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-822860b5c4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-822860b5c4",
-                  "name": "Chicago Sky vs New York Liberty",
-                  "streams": [
-                    {
-                      "id": "st-822860b5c4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-df0281b753",
-                          "name": "Số 3",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787077304_hd/1787077304_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Chicago Sky",
-            "team_b": "New York Liberty",
-            "logo_a": "https://nba.titan007.com/files/team/1knbjqf3dn.png",
-            "logo_b": "https://nba.titan007.com/files/team/1gzb1e8ke8.png",
-            "time": "08:00:00",
-            "date": "19/08",
-            "blv": "Số 3",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/25915077_f8f23ce6_20260819.png?v=f8f23ce6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-75be8a3156",
           "name": "Las Vegas Aces vs Atlanta Dream | 08:00 19/08",
