@@ -1284,7 +1284,25 @@
                     {
                       "id": "st-75d6ed69b6",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1511deafc2",
+                          "name": "Số 3",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787110266_hd/1787110266_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1299,7 +1317,7 @@
             "logo_b": "https://rg.org/_next/image?url=https%3A%2F%2Fcms-cdn-rg-prod-bemymedia-com.s3.us-east-2.amazonaws.com%2FCincinnati_85d577dbd6.jpg&w=2560&q=75",
             "time": "23:59:00",
             "date": "19/08",
-            "blv": "",
+            "blv": "Số 3",
             "is_live": false,
             "cate_type": "tennis"
           },
