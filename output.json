@@ -1187,6 +1187,60 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-8d0ee7eec1",
+          "name": "Rafael Jodar vs Flavio Cobolli | 22:00 19/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8d0ee7eec1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8d0ee7eec1",
+                  "name": "Rafael Jodar vs Flavio Cobolli",
+                  "streams": [
+                    {
+                      "id": "st-8d0ee7eec1",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Cincinnati Open",
+            "team_a": "Rafael Jodar",
+            "team_b": "Flavio Cobolli",
+            "logo_a": "https://static.flashscore.com/res/image/data/A5stpqzB-bJuw1oYE.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/E1rCFmCr-4rBjn5Su.png",
+            "time": "22:00:00",
+            "date": "19/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/9abb3o44m9rf_88a3bbe2_20260819.png?v=88a3bbe2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-75d6ed69b6",
           "name": "ATP Cincinnati Open vs ATP Cincinnati Open | 23:59 19/08",
           "type": "single",
