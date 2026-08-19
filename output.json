@@ -1500,7 +1500,25 @@
                     {
                       "id": "st-1e88223cc8",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a6705b2f83",
+                          "name": "Số 17",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787077067_hd/1787077067_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1515,7 +1533,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/A3X3wNil-AJjcvBgm.png",
             "time": "07:40:00",
             "date": "19/08",
-            "blv": "",
+            "blv": "Số 17",
             "is_live": true,
             "cate_type": "tennis"
           },
