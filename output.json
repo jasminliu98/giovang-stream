@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-90fa0a1092",
-          "name": "Al-Wakra vs Qatar SC | 21:15 20/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-90fa0a1092",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-90fa0a1092",
-                  "name": "Al-Wakra vs Qatar SC",
-                  "streams": [
-                    {
-                      "id": "st-90fa0a1092",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dc14f19709",
-                          "name": "Số 6",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787199160_hd/1787199160_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Qatar",
-            "team_a": "Al-Wakra",
-            "team_b": "Qatar SC",
-            "logo_a": "https://images.keovip88.net/images/teams/al-wakra.png",
-            "logo_b": "https://images.keovip88.net/images/teams/qatar-sc.png",
-            "time": "21:15:00",
-            "date": "20/08",
-            "blv": "Số 6",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7d093724d46db870f7cb99_efbb1f63_20260820.png?v=efbb1f63",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-67e6e659d5",
           "name": "Kairat Almaty (KAZ) vs Anderlecht (BEL) | 22:00 20/08",
@@ -1019,7 +947,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1032,10 +960,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1066,7 +994,7 @@
             "time": "23:59:00",
             "date": "20/08",
             "blv": "",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -1128,6 +1056,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/vc1hepc8iv45_141524b1_20260820.png?v=141524b1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-164b629ee6",
+          "name": "Iga Swiatek vs Elena Rybakina | 06:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-164b629ee6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-164b629ee6",
+                  "name": "Iga Swiatek vs Elena Rybakina",
+                  "streams": [
+                    {
+                      "id": "st-164b629ee6",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Cincinnati",
+            "team_a": "Iga Swiatek",
+            "team_b": "Elena Rybakina",
+            "logo_a": "https://static.flashscore.com/res/image/data/S2NdWdWg-tOt4Rhy2.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nwc71xXg-2wyL104C.png",
+            "time": "06:00:00",
+            "date": "21/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/2qq9eo4d6xqj_2afd195f_20260820.png?v=2afd195f",
             "width": 1600,
             "height": 1200
           }
