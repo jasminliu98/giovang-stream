@@ -497,83 +497,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (3 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c64ddba269",
-          "name": "DK vs HLE | 15:00 20/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c64ddba269",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c64ddba269",
-                  "name": "DK vs HLE",
-                  "streams": [
-                    {
-                      "id": "st-c64ddba269",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c9a760a34a",
-                          "name": "Số 7",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787155791_hd/1787155791_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "DK",
-            "team_b": "HLE",
-            "logo_a": "https://static.flashscore.com/res/image/data/IcRWRrAr-lAg5zKZ6.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pKkqJ4Wg-bB59SVBr.png",
-            "time": "15:00:00",
-            "date": "20/08",
-            "blv": "Số 7",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/d0hrk4mgezob_522200d9_20260820.png?v=522200d9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1cb37b8321",
           "name": "TT vs JDG | 16:00 20/08",
