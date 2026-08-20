@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "23:59:00",
             "date": "20/08",
             "blv": "Số 11",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1011,6 +1011,123 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/13025077_aaae952a_20260820.png?v=aaae952a",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-c4149d9286",
+          "name": "Amanda Anisimova vs Jessica Pegula | 23:59 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c4149d9286",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c4149d9286",
+                  "name": "Amanda Anisimova vs Jessica Pegula",
+                  "streams": [
+                    {
+                      "id": "st-c4149d9286",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Cincinnati",
+            "team_a": "Amanda Anisimova",
+            "team_b": "Jessica Pegula",
+            "logo_a": "https://static.flashscore.com/res/image/data/Cfqk4yBr-SxjHCXS2.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Jessica_Pegula_%282025_DC_Open%29_01_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+            "time": "23:59:00",
+            "date": "20/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/vjgj3ztdib51_7a41aefd_20260820.png?v=7a41aefd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-eba8738303",
+          "name": "Tommy Paul vs Flavio Cobolli | 02:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eba8738303",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-eba8738303",
+                  "name": "Tommy Paul vs Flavio Cobolli",
+                  "streams": [
+                    {
+                      "id": "st-eba8738303",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Cincinnati Open",
+            "team_a": "Tommy Paul",
+            "team_b": "Flavio Cobolli",
+            "logo_a": "https://static.flashscore.com/res/image/data/v7Wf42il-pQ0ElVBe.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/E1rCFmCr-4rBjn5Su.png",
+            "time": "02:00:00",
+            "date": "21/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/vc1hepc8iv45_141524b1_20260820.png?v=141524b1",
             "width": 1600,
             "height": 1200
           }
