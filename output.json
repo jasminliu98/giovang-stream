@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8cddf0829c",
-          "name": "Kuruvchi Bunyodkor vs Kuruvchi Kokand Qoqon | 21:00 20/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8cddf0829c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8cddf0829c",
-                  "name": "Kuruvchi Bunyodkor vs Kuruvchi Kokand Qoqon",
-                  "streams": [
-                    {
-                      "id": "st-8cddf0829c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7544886b8d",
-                          "name": "Số 11",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787199410_hd/1787199410_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uzbekistan Super League",
-            "team_a": "Kuruvchi Bunyodkor",
-            "team_b": "Kuruvchi Kokand Qoqon",
-            "logo_a": "https://images.keovip88.net/images/teams/kuruvchi-bunyodkor.png",
-            "logo_b": "https://images.keovip88.net/images/teams/kuruvchi-kokand-qoqon.png",
-            "time": "21:00:00",
-            "date": "20/08",
-            "blv": "Số 11",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7a664f24d46db870750ec2_d36a3e2f_20260820.png?v=d36a3e2f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-90fa0a1092",
           "name": "Al-Wakra vs Qatar SC | 21:15 20/08",
@@ -588,6 +516,294 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/7j4ri1nfxfz6_9a5fcfc1_20260820.png?v=9a5fcfc1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e8becc69ef",
+          "name": "Al-Riyadh vs Al-Nassr FC | 23:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8becc69ef",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e8becc69ef",
+                  "name": "Al-Riyadh vs Al-Nassr FC",
+                  "streams": [
+                    {
+                      "id": "st-e8becc69ef",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b86d14207",
+                          "name": "Số 3",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787213397_hd/1787213397_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Riyadh",
+            "team_b": "Al-Nassr FC",
+            "logo_a": "https://images.keovip88.net/images/teams/al-riyadh.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-nassr.png",
+            "time": "23:00:00",
+            "date": "21/08",
+            "blv": "Số 3",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7d093924d46db870f7ceca_eb9ba489_20260820.png?v=eb9ba489",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-aca620093f",
+          "name": "Preuben Munster vs Karlsruher SC | 23:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aca620093f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-aca620093f",
+                  "name": "Preuben Munster vs Karlsruher SC",
+                  "streams": [
+                    {
+                      "id": "st-aca620093f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6e10b80642",
+                          "name": "Số 5",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787213447_hd/1787213447_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Quốc Gia Đức",
+            "team_a": "Preuben Munster",
+            "team_b": "Karlsruher SC",
+            "logo_a": "https://images.keovip88.net/images/teams/preuben-munster.png",
+            "logo_b": "https://images.keovip88.net/images/teams/karlsruher-sc.png",
+            "time": "23:00:00",
+            "date": "21/08",
+            "blv": "Số 5",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a29fd389d3f17fa5f00c5aa_3783f0d7_20260820.png?v=3783f0d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f2b29aa971",
+          "name": "DJK Teutonia St.Tonis vs Eintracht Frankfurt | 23:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f2b29aa971",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f2b29aa971",
+                  "name": "DJK Teutonia St.Tonis vs Eintracht Frankfurt",
+                  "streams": [
+                    {
+                      "id": "st-f2b29aa971",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-be658de304",
+                          "name": "Số 17",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787213478_hd/1787213478_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Quốc Gia Đức",
+            "team_a": "DJK Teutonia St.Tonis",
+            "team_b": "Eintracht Frankfurt",
+            "logo_a": "https://images.keovip88.net/images/teams/djk-teutonia-sttonis.png",
+            "logo_b": "https://images.keovip88.net/images/teams/eintracht-frankfurt.png",
+            "time": "23:00:00",
+            "date": "21/08",
+            "blv": "Số 17",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a29fd389d3f17fa5f00c5bb_01aca723_20260820.png?v=01aca723",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7ad2806ef7",
+          "name": "SJK Seinajoki vs Lahti | 23:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7ad2806ef7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7ad2806ef7",
+                  "name": "SJK Seinajoki vs Lahti",
+                  "streams": [
+                    {
+                      "id": "st-7ad2806ef7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8ed1b69b8",
+                          "name": "Số 13",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787213511_hd/1787213511_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Phần Lan",
+            "team_a": "SJK Seinajoki",
+            "team_b": "Lahti",
+            "logo_a": "https://images.keovip88.net/images/teams/sjk-seinajoen.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lahti.png",
+            "time": "23:00:00",
+            "date": "21/08",
+            "blv": "Số 13",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7d093924d46db870f7cec2_8015a5c9_20260820.png?v=8015a5c9",
             "width": 1600,
             "height": 1200
           }
