@@ -812,83 +812,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c2d4e6b1f2",
-          "name": "Negros Muscovados vs Basilan Viva Portmasters | 14:00 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c2d4e6b1f2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c2d4e6b1f2",
-                  "name": "Negros Muscovados vs Basilan Viva Portmasters",
-                  "streams": [
-                    {
-                      "id": "st-c2d4e6b1f2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09f1feea43",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787275011_hd/1787275011_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines MPBL",
-            "team_a": "Negros Muscovados",
-            "team_b": "Basilan Viva Portmasters",
-            "logo_a": "https://nba.titan007.com/files/team/1hb5nde0rd28.png",
-            "logo_b": "https://nba.titan007.com/files/team/1k2p751yht1b.png",
-            "time": "14:00:00",
-            "date": "21/08",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/28381279_d6c02035_20260821.png?v=d6c02035",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-98004a7642",
           "name": "Mindoro Tamaraws vs Cebu Classic | 16:00 21/08",
