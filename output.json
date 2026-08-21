@@ -627,7 +627,25 @@
                     {
                       "id": "st-ad46412ce1",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-be60b1e8f1",
+                          "name": "Perry",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787213366_hd/1787213366_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -642,7 +660,7 @@
             "logo_b": "https://nba.titan007.com/files/team/1hxdz8yxej2m.png",
             "time": "06:30:00",
             "date": "22/08",
-            "blv": "",
+            "blv": "Perry",
             "is_live": false,
             "cate_type": "basketball"
           },
