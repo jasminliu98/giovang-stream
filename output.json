@@ -1397,83 +1397,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-559ef07157",
-          "name": "TT vs EDG | 14:00 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-559ef07157",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-559ef07157",
-                  "name": "TT vs EDG",
-                  "streams": [
-                    {
-                      "id": "st-559ef07157",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-77e68cc3f9",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787281059_hd/1787281059_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LPL",
-            "team_a": "TT",
-            "team_b": "EDG",
-            "logo_a": "https://static.flashscore.com/res/image/data/C0zbdICr-hnEFSiGQ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xtnvwhh5-rgb1I9qH.png",
-            "time": "14:00:00",
-            "date": "21/08",
-            "blv": "Hấu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/v7txt92o9pmx_4ef7a7fb_20260821.png?v=4ef7a7fb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a0cd8b15ac",
           "name": "BRO vs BFX | 15:00 21/08",
