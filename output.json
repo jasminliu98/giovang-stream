@@ -524,7 +524,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -663,10 +663,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -697,7 +697,7 @@
             "time": "09:00:00",
             "date": "21/08",
             "blv": "",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -717,10 +717,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -751,7 +751,7 @@
             "time": "09:00:00",
             "date": "21/08",
             "blv": "",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1074,6 +1074,69 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/2qq9eo4d6xqj_2afd195f_20260821.png?v=2afd195f",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-ddd9b24455",
+          "name": "Đài Bắc Trung Hoa vs Iran | 09:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ddd9b24455",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ddd9b24455",
+                  "name": "Đài Bắc Trung Hoa vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-ddd9b24455",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Women's Volleyball Championship",
+            "team_a": "Đài Bắc Trung Hoa",
+            "team_b": "Iran",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/1280px-Flag_of_the_Republic_of_China.svg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/E71I3ig5-vHwNhhf2.png",
+            "time": "09:00:00",
+            "date": "21/08",
+            "blv": "",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/509ala7uc9fh_5fd94d88_20260821.png?v=5fd94d88",
             "width": 1600,
             "height": 1200
           }
