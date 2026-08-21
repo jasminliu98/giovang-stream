@@ -42,7 +42,25 @@
                     {
                       "id": "st-e8becc69ef",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b86d14207",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787213397_hd/1787213397_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -57,7 +75,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/al-nassr.png",
             "time": "23:00:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Ben",
             "is_live": false,
             "cate_type": "football"
           },
@@ -96,7 +114,25 @@
                     {
                       "id": "st-aca620093f",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-6e10b80642",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787213447_hd/1787213447_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -111,7 +147,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/karlsruher-sc.png",
             "time": "23:00:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Trĩ",
             "is_live": false,
             "cate_type": "football"
           },
@@ -150,7 +186,25 @@
                     {
                       "id": "st-f2b29aa971",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-be658de304",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787213478_hd/1787213478_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -165,7 +219,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/eintracht-frankfurt.png",
             "time": "23:00:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Mù",
             "is_live": false,
             "cate_type": "football"
           },
@@ -204,7 +258,25 @@
                     {
                       "id": "st-7ad2806ef7",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8ed1b69b8",
+                          "name": "Mát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787213511_hd/1787213511_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -219,7 +291,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/lahti.png",
             "time": "23:00:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Mát",
             "is_live": false,
             "cate_type": "football"
           },
@@ -380,119 +452,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2e66a74a56",
-          "name": "Los Angeles Sparks vs Atlanta Dream | 09:00 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2e66a74a56",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2e66a74a56",
-                  "name": "Los Angeles Sparks vs Atlanta Dream",
-                  "streams": [
-                    {
-                      "id": "st-2e66a74a56",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Los Angeles Sparks",
-            "team_b": "Atlanta Dream",
-            "logo_a": "https://nba.titan007.com/files/team/1jv1rr6wwt.png",
-            "logo_b": "https://nba.titan007.com/files/team/1jv1rk2vc5.png",
-            "time": "09:00:00",
-            "date": "21/08",
-            "blv": "",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/11025075_5aa0c6ce_20260821.png?v=5aa0c6ce",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-fd0a1050dc",
-          "name": "Canada (W) vs Mexico (W) | 09:30 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd0a1050dc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fd0a1050dc",
-                  "name": "Canada (W) vs Mexico (W)",
-                  "streams": [
-                    {
-                      "id": "st-fd0a1050dc",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women''s Olympic Basketball Qualifying",
-            "team_a": "Canada (W)",
-            "team_b": "Mexico (W)",
-            "logo_a": "https://nba.titan007.com/files/team/1762.gif",
-            "logo_b": "https://nba.titan007.com/team/images/20079284274.jpg",
-            "time": "09:30:00",
-            "date": "21/08",
-            "blv": "",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/28118277_0aa2540c_20260821.png?v=0aa2540c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c2d4e6b1f2",
           "name": "Negros Muscovados vs Basilan Viva Portmasters | 14:00 21/08",
@@ -519,7 +483,25 @@
                     {
                       "id": "st-c2d4e6b1f2",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-09f1feea43",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787275011_hd/1787275011_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -534,7 +516,7 @@
             "logo_b": "https://nba.titan007.com/files/team/1k2p751yht1b.png",
             "time": "14:00:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Cầy",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -690,7 +672,25 @@
                     {
                       "id": "st-5827d4588d",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ef734c8412",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787282214_hd/1787282214_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -705,7 +705,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/I3KQvBYA-nqGgcXEd.png",
             "time": "23:59:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Sún",
             "is_live": false,
             "cate_type": "tennis"
           },
@@ -744,7 +744,25 @@
                     {
                       "id": "st-b4895a67b6",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b32d48eed",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787282301_hd/1787282301_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -759,7 +777,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/h8wF43GG-I3vxtblK.png",
             "time": "02:00:00",
             "date": "22/08",
-            "blv": "",
+            "blv": "Ben",
             "is_live": false,
             "cate_type": "tennis"
           },
@@ -861,7 +879,25 @@
                     {
                       "id": "st-2ee21120a2",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9d3775433a",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787280915_hd/1787280915_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -876,7 +912,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/Ygu7zgHG-YNb3oHYR.png",
             "time": "13:00:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Sún",
             "is_live": false,
             "cate_type": "bongchuyen"
           },
@@ -924,7 +960,25 @@
                     {
                       "id": "st-559ef07157",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-77e68cc3f9",
+                          "name": "minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787281059_hd/1787281059_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -939,7 +993,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/xtnvwhh5-rgb1I9qH.png",
             "time": "14:00:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "minh",
             "is_live": false,
             "cate_type": "esport"
           },
@@ -987,7 +1041,25 @@
                     {
                       "id": "st-e88b554191",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-94a92d4acb",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787213119_hd/1787213119_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1002,7 +1074,7 @@
             "logo_b": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.180cc7da-fed1-4133-8b85-10a31a74d61c/4/HERO-16X9/en-US._UR1920,1080_SX1080_FMjpg_.jpg",
             "time": "05:00:00",
             "date": "22/08",
-            "blv": "",
+            "blv": "Cầy",
             "is_live": false,
             "cate_type": "vothuat"
           },
