@@ -830,83 +830,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-98004a7642",
-          "name": "Mindoro Tamaraws vs Cebu Classic | 16:00 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-98004a7642",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-98004a7642",
-                  "name": "Mindoro Tamaraws vs Cebu Classic",
-                  "streams": [
-                    {
-                      "id": "st-98004a7642",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-264c6d7794",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787294100_hd/1787294100_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines MPBL",
-            "team_a": "Mindoro Tamaraws",
-            "team_b": "Cebu Classic",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f265f639507860463b03c6a46fe76e93.png",
-            "logo_b": "https://nba.titan007.com/files/team/1k21b3td4a1c.png",
-            "time": "16:00:00",
-            "date": "21/08",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/39381270_9557d96d_20260821.png?v=9557d96d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-68ceb922d7",
           "name": "Meycauayan vs GenSan Warriors | 18:00 21/08",
