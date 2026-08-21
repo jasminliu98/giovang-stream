@@ -740,83 +740,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-68ceb922d7",
-          "name": "Meycauayan vs GenSan Warriors | 18:00 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-68ceb922d7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-68ceb922d7",
-                  "name": "Meycauayan vs GenSan Warriors",
-                  "streams": [
-                    {
-                      "id": "st-68ceb922d7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bee8e0ac98",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787294577_hd/1787294577_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Philippines MPBL",
-            "team_a": "Meycauayan",
-            "team_b": "GenSan Warriors",
-            "logo_a": "https://nba.titan007.com/files/team/1kpw5n7f7h1t.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/3bc66d6b680b347f58df4b9be1a6dcea.png",
-            "time": "18:00:00",
-            "date": "21/08",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/21181270_5d5cfe51_20260821.png?v=5d5cfe51",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e86ddcc6a0",
           "name": "Chicago Sky vs Golden State Valkyries | 06:30 22/08",
@@ -1191,87 +1119,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/s1hdcdldendx_da43e8cc_20260821.png?v=da43e8cc",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_esport",
-      "name": "🎮 Esport",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-a0cd8b15ac",
-          "name": "BRO vs BFX | 15:00 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a0cd8b15ac",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a0cd8b15ac",
-                  "name": "BRO vs BFX",
-                  "streams": [
-                    {
-                      "id": "st-a0cd8b15ac",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a54c0aac45",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787295734_hd/1787295734_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "BRO",
-            "team_b": "BFX",
-            "logo_a": "https://static.flashscore.com/res/image/data/dWdjTlyS-tSnxXc8U.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/t0Ieuvf5-h2pEHB7M.png",
-            "time": "15:00:00",
-            "date": "21/08",
-            "blv": "Ngu",
-            "is_live": false,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/gx4tfmardpwf_c59b1ca3_20260821.png?v=c59b1ca3",
             "width": 1600,
             "height": 1200
           }
