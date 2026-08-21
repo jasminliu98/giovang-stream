@@ -186,7 +186,25 @@
                     {
                       "id": "st-7542526c9b",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0c2217104e",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787296421_hd/1787296421_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -201,7 +219,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/YJGDjXhl-Ea1dNJQi.png",
             "time": "19:00:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Trĩ",
             "is_live": false,
             "cate_type": "football"
           },
@@ -825,7 +843,25 @@
                     {
                       "id": "st-c2d4e6b1f2",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-09f1feea43",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787275011_hd/1787275011_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -840,7 +876,7 @@
             "logo_b": "https://nba.titan007.com/files/team/1k2p751yht1b.png",
             "time": "14:00:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Cầy",
             "is_live": true,
             "cate_type": "basketball"
           },
@@ -1311,7 +1347,25 @@
                     {
                       "id": "st-0ee3a3f99b",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-559c04b2bf",
+                          "name": "Mát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787295954_hd/1787295954_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1326,7 +1380,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/S2kVwtCa-IuvzgF4s.png",
             "time": "18:00:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Mát",
             "is_live": false,
             "cate_type": "bongchuyen"
           },
@@ -1335,6 +1389,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/9km9dimqze2b_4018d74f_20260821.png?v=4018d74f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-dd71a8d8ef",
+          "name": "Croatia vs Italy | 21:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dd71a8d8ef",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dd71a8d8ef",
+                  "name": "Croatia vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-dd71a8d8ef",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Women's Volleyball Championship",
+            "team_a": "Croatia",
+            "team_b": "Italy",
+            "logo_a": "https://static.flashscore.com/res/image/data/KMZkYbwS-Gff8fOAh.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/zgZ3N3Yg-KfXjzrxU.png",
+            "time": "21:00:00",
+            "date": "21/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/s1hdcdldendx_da43e8cc_20260821.png?v=da43e8cc",
             "width": 1600,
             "height": 1200
           }
@@ -1374,7 +1482,25 @@
                     {
                       "id": "st-559ef07157",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-77e68cc3f9",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787281059_hd/1787281059_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1389,7 +1515,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/xtnvwhh5-rgb1I9qH.png",
             "time": "14:00:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Hấu",
             "is_live": true,
             "cate_type": "esport"
           },
@@ -1428,7 +1554,25 @@
                     {
                       "id": "st-a0cd8b15ac",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a54c0aac45",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787295734_hd/1787295734_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1443,7 +1587,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/t0Ieuvf5-h2pEHB7M.png",
             "time": "15:00:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Ngu",
             "is_live": false,
             "cate_type": "esport"
           },
@@ -1491,7 +1635,25 @@
                     {
                       "id": "st-adee5fe267",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-dc5ad883bc",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787296226_hd/1787296226_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1506,7 +1668,7 @@
             "logo_b": "https://cdn.onefc.com/wp-content/uploads/2026/03/260515-BKK-TIC-1800x1200px-2.jpg",
             "time": "18:30:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Dory",
             "is_live": false,
             "cate_type": "vothuat"
           },
@@ -1608,7 +1770,25 @@
                     {
                       "id": "st-9d2d026acf",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-7ba138b73b",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787296587_hd/1787296587_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1623,7 +1803,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUwbfJp3NLHw__E8C6dvyki7si7ol-zc63Miz8hbc0FaCyN115d9LWL00&s=10",
             "time": "19:30:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Ngu",
             "is_live": false,
             "cate_type": "duaxe"
           },
@@ -1662,7 +1842,25 @@
                     {
                       "id": "st-fd88714062",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-98c77bbce0",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787296909_hd/1787296909_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1677,7 +1875,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUwbfJp3NLHw__E8C6dvyki7si7ol-zc63Miz8hbc0FaCyN115d9LWL00&s=10",
             "time": "21:30:00",
             "date": "21/08",
-            "blv": "",
+            "blv": "Ngu",
             "is_live": false,
             "cate_type": "duaxe"
           },
