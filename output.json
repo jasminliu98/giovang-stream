@@ -663,6 +663,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-01140a77ae",
+          "name": "Thái Lan vs Việt Nam | 20:00 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-01140a77ae",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-01140a77ae",
+                  "name": "Thái Lan vs Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-01140a77ae",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3782c39fd4",
+                          "name": "Nhà Đài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787304815_hd/1787304815_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAN CUP 2026",
+            "team_a": "Thái Lan",
+            "team_b": "Việt Nam",
+            "logo_a": "https://images.keovip88.net/images/teams/thailand.png",
+            "logo_b": "https://images.keovip88.net/images/teams/vietnam.png",
+            "time": "20:00:00",
+            "date": "22/08",
+            "blv": "Nhà Đài",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a87950624d46db870aacbf1_e48d0180_20260821.png?v=e48d0180",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
