@@ -1100,83 +1100,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0ee3a3f99b",
-          "name": "France vs Slovenia | 18:00 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0ee3a3f99b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0ee3a3f99b",
-                  "name": "France vs Slovenia",
-                  "streams": [
-                    {
-                      "id": "st-0ee3a3f99b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-559c04b2bf",
-                          "name": "Mát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787295954_hd/1787295954_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Women's Volleyball Championship",
-            "team_a": "France",
-            "team_b": "Slovenia",
-            "logo_a": "https://static.flashscore.com/res/image/data/I5PqTkcM-U3HPIwDq.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/S2kVwtCa-IuvzgF4s.png",
-            "time": "18:00:00",
-            "date": "21/08",
-            "blv": "Mát",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/9km9dimqze2b_4018d74f_20260821.png?v=4018d74f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-dd71a8d8ef",
           "name": "Croatia vs Italy | 21:00 21/08",
