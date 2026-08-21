@@ -951,6 +951,123 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-2ee21120a2",
+          "name": "Thái Lan vs Australia | 13:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ee21120a2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2ee21120a2",
+                  "name": "Thái Lan vs Australia",
+                  "streams": [
+                    {
+                      "id": "st-2ee21120a2",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Women's Volleyball Championship",
+            "team_a": "Thái Lan",
+            "team_b": "Australia",
+            "logo_a": "https://static.flashscore.com/res/image/data/jH8flBZA-UknO2XLh.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Ygu7zgHG-YNb3oHYR.png",
+            "time": "13:00:00",
+            "date": "21/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/y8g17d242mkf_6e6f4853_20260821.png?v=6e6f4853",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-559ef07157",
+          "name": "TT vs EDG | 14:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-559ef07157",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-559ef07157",
+                  "name": "TT vs EDG",
+                  "streams": [
+                    {
+                      "id": "st-559ef07157",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LPL",
+            "team_a": "TT",
+            "team_b": "EDG",
+            "logo_a": "https://static.flashscore.com/res/image/data/C0zbdICr-hnEFSiGQ.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xtnvwhh5-rgb1I9qH.png",
+            "time": "14:00:00",
+            "date": "21/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/v7txt92o9pmx_4ef7a7fb_20260821.png?v=4ef7a7fb",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
