@@ -17,6 +17,60 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-2a7f4bc88e",
+          "name": "Kashiwa Reysol vs V-Varen Nagasaki | 17:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2a7f4bc88e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2a7f4bc88e",
+                  "name": "Kashiwa Reysol vs V-Varen Nagasaki",
+                  "streams": [
+                    {
+                      "id": "st-2a7f4bc88e",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Kashiwa Reysol",
+            "team_b": "V-Varen Nagasaki",
+            "logo_a": "https://images.keovip88.net/images/teams/kashiwa-reysol.png",
+            "logo_b": "https://images.keovip88.net/images/teams/v-varen-nagasaki.png",
+            "time": "17:00:00",
+            "date": "21/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7d093824d46db870f7cd36_6ac14136_20260821.png?v=6ac14136",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-e8becc69ef",
           "name": "Al-Riyadh vs Al-Nassr FC | 23:00 21/08",
           "type": "single",
