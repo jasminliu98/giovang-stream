@@ -1351,7 +1351,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1424,78 +1424,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/pmaw82gm2c4e_6654c734_20260822.png?v=6654c734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-da4622e1cb",
-          "name": "DK vs GEN | 15:00 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da4622e1cb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-da4622e1cb",
-                  "name": "DK vs GEN",
-                  "streams": [
-                    {
-                      "id": "st-da4622e1cb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6e64b3c2ae",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787378841_hd/1787378841_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "DK",
-            "team_b": "GEN",
-            "logo_a": "https://static.flashscore.com/res/image/data/IcRWRrAr-lAg5zKZ6.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/rglkqMzB-UJqSxlpo.png",
-            "time": "15:00:00",
-            "date": "22/08",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/o6yt90cys01a_a52971e0_20260822.png?v=a52971e0",
             "width": 1600,
             "height": 1200
           }
