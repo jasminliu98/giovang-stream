@@ -202,7 +202,7 @@ def get_blv_display_name(blv_key: str) -> str:
 
 def make_thumbnail(match, match_id_safe):
     os.makedirs(THUMBS_DIR, exist_ok=True)
-    cache_key = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
+    cache_key = (match.get("logo_a") or "") + (match.get("logo_b") or "") + THUMB_VERSION
     logo_hash = hashlib.md5(cache_key.encode()).hexdigest()[:8]
     date_str = now_vn().strftime("%Y%m%d")
     
@@ -442,8 +442,8 @@ def get_grouped_matches() -> dict:
                 "time_sort": parse_time_sort(time_str, date_str),
                 "team_a": team_a,
                 "team_b": team_b,
-                "logo_a": teams.get("home", {}).get("logo", ""),
-                "logo_b": teams.get("away", {}).get("logo", ""),
+                "logo_a": teams.get("home", {}).get("logo") or "",
+                "logo_b": teams.get("away", {}).get("logo") or "",
                 "league": league_name,
                 "is_live": is_live_api,
                 "blvs_dict": {},
@@ -590,7 +590,7 @@ def main():
         print(f"[{status} {i+1}/{len(matches_list)}] {match['name']} ({log_time} {log_date}) | BLV: {blv_str}")
 
         thumb_path = make_thumbnail(match, match_id_safe)
-        cache_key = match.get("logo_a", "") + match.get("logo_b", "") + THUMB_VERSION
+        cache_key = (match.get("logo_a") or "") + (match.get("logo_b") or "") + THUMB_VERSION
         logo_hash = hashlib.md5(cache_key.encode()).hexdigest()[:8]
         thumb_url = f"{REPO_RAW}/{thumb_path}?v={logo_hash}" if REPO_RAW else ""
 
