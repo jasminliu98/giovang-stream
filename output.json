@@ -8,5 +8,636 @@
     "type": "cover",
     "url": "https://giovang.fun/wp-content/uploads/2024/10/GiovangTV_logo-01-1.png"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-cb8273eaf0",
+          "name": "Audax Italiano vs Union La Calera | 07:30 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb8273eaf0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cb8273eaf0",
+                  "name": "Audax Italiano vs Union La Calera",
+                  "streams": [
+                    {
+                      "id": "st-cb8273eaf0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f7d70a80e6",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787326677_hd/1787326677_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Chilê",
+            "team_a": "Audax Italiano",
+            "team_b": "Union La Calera",
+            "logo_a": "https://images.keovip88.net/images/teams/audax-italiano.png",
+            "logo_b": "https://images.keovip88.net/images/teams/union-la-calera.png",
+            "time": "07:30:00",
+            "date": "22/08",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7e5aa924d46db8703a99cf_777c9970_20260822.png?v=777c9970",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_basketball",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-6b42a2573d",
+          "name": "Toronto Tempo vs Portland Fire | 09:00 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6b42a2573d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6b42a2573d",
+                  "name": "Toronto Tempo vs Portland Fire",
+                  "streams": [
+                    {
+                      "id": "st-6b42a2573d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5b2a28ad26",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787327078_hd/1787327078_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Toronto Tempo",
+            "team_b": "Portland Fire",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2144aaf701fac7e3c3caf3853aeb9929.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/687f4fda7efc61afefa80ee3591a56f2.png",
+            "time": "09:00:00",
+            "date": "22/08",
+            "blv": "Vịt",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/14025078_6d8f1b7a_20260822.png?v=6d8f1b7a",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-9b538351f3",
+          "name": "Lorenzo Musetti vs Frances Tiafoe | 06:00 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9b538351f3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9b538351f3",
+                  "name": "Lorenzo Musetti vs Frances Tiafoe",
+                  "streams": [
+                    {
+                      "id": "st-9b538351f3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5308dcd0c3",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787282366_hd/1787282366_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Cincinnati Open",
+            "team_a": "Lorenzo Musetti",
+            "team_b": "Frances Tiafoe",
+            "logo_a": "https://static.flashscore.com/res/image/data/beye6ugl-dO8eBuOC.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/A3X3wNil-AJjcvBgm.png",
+            "time": "06:00:00",
+            "date": "22/08",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/iysdnqiag3cw_92678d57_20260822.png?v=92678d57",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d49d31466c",
+          "name": "Coco Gauff vs Marta Kotyuk | 07:30 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d49d31466c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d49d31466c",
+                  "name": "Coco Gauff vs Marta Kotyuk",
+                  "streams": [
+                    {
+                      "id": "st-d49d31466c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-522ad30566",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787327326_hd/1787327326_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTA Cincinnati",
+            "team_a": "Coco Gauff",
+            "team_b": "Marta Kotyuk",
+            "logo_a": "https://static.flashscore.com/res/image/data/UDnGEpDr-j3eqe4HM.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/4tS2p3YA-xEW6m27i.png",
+            "time": "07:30:00",
+            "date": "22/08",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/hoq327yvtznd_f89da96c_20260822.png?v=f89da96c",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-41cd424c05",
+          "name": "Việt Nam vs Hàn Quốc | 09:00 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41cd424c05",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-41cd424c05",
+                  "name": "Việt Nam vs Hàn Quốc",
+                  "streams": [
+                    {
+                      "id": "st-41cd424c05",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-81aacf184b",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787327108_hd/1787327108_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Women's Volleyball Championship",
+            "team_a": "Việt Nam",
+            "team_b": "Hàn Quốc",
+            "logo_a": "https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/E9rftfEa-G2bHWF8P.png",
+            "time": "09:00:00",
+            "date": "22/08",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/kan8n0iu1xh3_cd9342df_20260822.png?v=cd9342df",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-e88b554191",
+          "name": "BKFC Fight Night Mohegan Sun: Henry vs Trinidad vs BKFC Fight Night Mohegan Sun: Henry vs Trinidad | 05:00 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e88b554191",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e88b554191",
+                  "name": "BKFC Fight Night Mohegan Sun: Henry vs Trinidad vs BKFC Fight Night Mohegan Sun: Henry vs Trinidad",
+                  "streams": [
+                    {
+                      "id": "st-e88b554191",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-94a92d4acb",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787213119_hd/1787213119_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BKFC Fight Night Mohegan Sun: Henry vs Trinidad",
+            "team_a": "BKFC Fight Night Mohegan Sun: Henry vs Trinidad",
+            "team_b": "BKFC Fight Night Mohegan Sun: Henry vs Trinidad",
+            "logo_a": "https://www.trillertv.com/thumbs/va/2pk0d/bkfcfn_mohegansun_1080x1080/bkfc-2026-henry-vs-trinidad-1280x720top.jpg",
+            "logo_b": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.180cc7da-fed1-4133-8b85-10a31a74d61c/4/HERO-16X9/en-US._UR1920,1080_SX1080_FMjpg_.jpg",
+            "time": "05:00:00",
+            "date": "22/08",
+            "blv": "Cầy",
+            "is_live": true,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/212z35dj1a44_a08d7a7c_20260822.png?v=a08d7a7c",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-2973f12cac",
+          "name": "Chiben Wakayama vs Takasaki | 08:00 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2973f12cac",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2973f12cac",
+                  "name": "Chiben Wakayama vs Takasaki",
+                  "streams": [
+                    {
+                      "id": "st-2973f12cac",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b885485640",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787327565_hd/1787327565_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chung kết Koshien",
+            "team_a": "Chiben Wakayama",
+            "team_b": "Takasaki",
+            "logo_a": "https://static.flashscore.com/res/image/data/YutVaPcM-KCpgNVzT.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Wv4PW3Xg-n3CRsiuk.png",
+            "time": "08:00:00",
+            "date": "22/08",
+            "blv": "Cận",
+            "is_live": true,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/7qd6oekm7e4e_b5390531_20260822.png?v=b5390531",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1b38c276af",
+          "name": "Los Angeles Dodgers vs Pittsburgh Pirates | 09:10 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1b38c276af",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1b38c276af",
+                  "name": "Los Angeles Dodgers vs Pittsburgh Pirates",
+                  "streams": [
+                    {
+                      "id": "st-1b38c276af",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1c0c3ca4ee",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787327724_hd/1787327724_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Los Angeles Dodgers",
+            "team_b": "Pittsburgh Pirates",
+            "logo_a": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
+            "logo_b": "https://imageio.forbes.com/i-forbesimg/media/lists/teams/pittsburgh-pirates_416x416.jpg?format=jpg",
+            "time": "09:10:00",
+            "date": "22/08",
+            "blv": "Ngu",
+            "is_live": true,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/i5ajm7byvrh6_05db0940_20260822.png?v=05db0940",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
