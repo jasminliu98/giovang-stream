@@ -690,7 +690,25 @@
                     {
                       "id": "st-bec3b0b1ad",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-70cb7f623b",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787409732_hd/1787409732_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -705,7 +723,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPJOQJ_7CPcsPrxlw6umVKlJSSsE6XydyhNa-QDkOYpQ&s",
             "time": "05:30:00",
             "date": "23/08",
-            "blv": "",
+            "blv": "Mù",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1248,7 +1266,25 @@
                     {
                       "id": "st-4e1c2ac96f",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbe0100951",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787410029_hd/1787410029_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1263,7 +1299,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/A3X3wNil-AJjcvBgm.png",
             "time": "05:00:00",
             "date": "23/08",
-            "blv": "",
+            "blv": "Ben",
             "is_live": false,
             "cate_type": "tennis"
           },
@@ -1415,83 +1451,11 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-38a6bf6939",
-          "name": "Trần Ngọc Lượng vs Emunanjia | 20:00 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-38a6bf6939",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-38a6bf6939",
-                  "name": "Trần Ngọc Lượng vs Emunanjia",
-                  "streams": [
-                    {
-                      "id": "st-38a6bf6939",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2ad51601b1",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787381415_hd/1787381415_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "YFU MMA 96",
-            "team_a": "Trần Ngọc Lượng",
-            "team_b": "Emunanjia",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgevPeF4_V169PcXjI_NdziOASLVc8BO_TyZ1z_tZDF-_Hk6MetFZGVw&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgevPeF4_V169PcXjI_NdziOASLVc8BO_TyZ1z_tZDF-_Hk6MetFZGVw&s=10",
-            "time": "20:00:00",
-            "date": "22/08",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/z3zl68v40lyc_f7c527d1_20260822.png?v=f7c527d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-58d80a9373",
           "name": "Hernandez vs Rodrigues | 04:00 23/08",
