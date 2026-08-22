@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -156,78 +156,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7fac3924d46db8707fcd89_e11c4eab_20260822.png?v=e11c4eab",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1d3014e02b",
-          "name": "Nottingham Forest vs Leeds United | 21:00 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1d3014e02b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1d3014e02b",
-                  "name": "Nottingham Forest vs Leeds United",
-                  "streams": [
-                    {
-                      "id": "st-1d3014e02b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6a6f46f539",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787382022_hd/1787382022_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Nottingham Forest",
-            "team_b": "Leeds United",
-            "logo_a": "https://images.keovip88.net/images/teams/nottingham-forest.png",
-            "logo_b": "https://images.keovip88.net/images/teams/leeds-united.png",
-            "time": "21:00:00",
-            "date": "22/08",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a7fac3924d46db8707fcd92_29def603_20260822.png?v=29def603",
             "width": 1600,
             "height": 1200
           }
