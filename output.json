@@ -1521,6 +1521,69 @@
       ]
     },
     {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-ecfc68e1d1",
+          "name": "Arthur Fils vs Frances Tiafoe | 03:30 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ecfc68e1d1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ecfc68e1d1",
+                  "name": "Arthur Fils vs Frances Tiafoe",
+                  "streams": [
+                    {
+                      "id": "st-ecfc68e1d1",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Cincinnati Open",
+            "team_a": "Arthur Fils",
+            "team_b": "Frances Tiafoe",
+            "logo_a": "https://static.flashscore.com/res/image/data/Eg01vrEa-SQeH6w5H.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/A3X3wNil-AJjcvBgm.png",
+            "time": "03:30:00",
+            "date": "24/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/t6cos95aai2f_a93cad0e_20260823.png?v=a93cad0e",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền",
       "display": "vertical",
