@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "22:30:00",
             "date": "23/08",
             "blv": "chồn",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football"
           },
           "image": {
@@ -84,294 +84,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2b24d46db8701aca2d_a81d0ecf_20260824.png?v=a81d0ecf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b8b8c6a3da",
-          "name": "Venezia F.C. vs Lecce | 23:30 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b8b8c6a3da",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b8b8c6a3da",
-                  "name": "Venezia F.C. vs Lecce",
-                  "streams": [
-                    {
-                      "id": "st-b8b8c6a3da",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-03544f5fdc",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787391131_hd/1787391131_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Venezia F.C.",
-            "team_b": "Lecce",
-            "logo_a": "https://images.keovip88.net/images/teams/venezia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/lecce.png",
-            "time": "23:30:00",
-            "date": "23/08",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2d24d46db8701acc07_4ff65512_20260824.png?v=4ff65512",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-4c091d2343",
-          "name": "Frosinone vs Juventus | 23:30 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4c091d2343",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4c091d2343",
-                  "name": "Frosinone vs Juventus",
-                  "streams": [
-                    {
-                      "id": "st-4c091d2343",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f4ec51cfc",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787391174_hd/1787391174_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Frosinone",
-            "team_b": "Juventus",
-            "logo_a": "https://images.keovip88.net/images/teams/frosinone.png",
-            "logo_b": "https://images.keovip88.net/images/teams/juventus.png",
-            "time": "23:30:00",
-            "date": "23/08",
-            "blv": "Bón",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2d24d46db8701acbfe_a523813a_20260824.png?v=a523813a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6db6409662",
-          "name": "Club Brugge vs Cercle Brugge | 23:30 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6db6409662",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6db6409662",
-                  "name": "Club Brugge vs Cercle Brugge",
-                  "streams": [
-                    {
-                      "id": "st-6db6409662",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a2ea723686",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787494825_hd/1787494825_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Bỉ",
-            "team_a": "Club Brugge",
-            "team_b": "Cercle Brugge",
-            "logo_a": "https://images.keovip88.net/images/teams/club-brugge.png",
-            "logo_b": "https://images.keovip88.net/images/teams/cercle-brugge.png",
-            "time": "23:30:00",
-            "date": "23/08",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2d24d46db8701acc0b_06d7ab59_20260824.png?v=06d7ab59",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-889d4a2ae7",
-          "name": "Getafe vs Racing Santander | 00:30 24/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-889d4a2ae7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-889d4a2ae7",
-                  "name": "Getafe vs Racing Santander",
-                  "streams": [
-                    {
-                      "id": "st-889d4a2ae7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f7dc94a8aa",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787391230_hd/1787391230_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Getafe",
-            "team_b": "Racing Santander",
-            "logo_a": "https://images.keovip88.net/images/teams/getafe.png",
-            "logo_b": "https://images.keovip88.net/images/teams/racing-santander.png",
-            "time": "00:30:00",
-            "date": "24/08",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a80fda224d46db870d0655e_14264c16_20260824.png?v=14264c16",
             "width": 1600,
             "height": 1200
           }
@@ -444,6 +156,294 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2c24d46db8701acaa3_ea9d74d6_20260824.png?v=ea9d74d6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b8b8c6a3da",
+          "name": "Venezia F.C. vs Lecce | 23:30 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b8b8c6a3da",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b8b8c6a3da",
+                  "name": "Venezia F.C. vs Lecce",
+                  "streams": [
+                    {
+                      "id": "st-b8b8c6a3da",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-03544f5fdc",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787391131_hd/1787391131_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Venezia F.C.",
+            "team_b": "Lecce",
+            "logo_a": "https://images.keovip88.net/images/teams/venezia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lecce.png",
+            "time": "23:30:00",
+            "date": "23/08",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2d24d46db8701acc07_4ff65512_20260824.png?v=4ff65512",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4c091d2343",
+          "name": "Frosinone vs Juventus | 23:30 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4c091d2343",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4c091d2343",
+                  "name": "Frosinone vs Juventus",
+                  "streams": [
+                    {
+                      "id": "st-4c091d2343",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f4ec51cfc",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787391174_hd/1787391174_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Frosinone",
+            "team_b": "Juventus",
+            "logo_a": "https://images.keovip88.net/images/teams/frosinone.png",
+            "logo_b": "https://images.keovip88.net/images/teams/juventus.png",
+            "time": "23:30:00",
+            "date": "23/08",
+            "blv": "Bón",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2d24d46db8701acbfe_a523813a_20260824.png?v=a523813a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6db6409662",
+          "name": "Club Brugge vs Cercle Brugge | 23:30 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6db6409662",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6db6409662",
+                  "name": "Club Brugge vs Cercle Brugge",
+                  "streams": [
+                    {
+                      "id": "st-6db6409662",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a2ea723686",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787494825_hd/1787494825_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Bỉ",
+            "team_a": "Club Brugge",
+            "team_b": "Cercle Brugge",
+            "logo_a": "https://images.keovip88.net/images/teams/club-brugge.png",
+            "logo_b": "https://images.keovip88.net/images/teams/cercle-brugge.png",
+            "time": "23:30:00",
+            "date": "23/08",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2d24d46db8701acc0b_06d7ab59_20260824.png?v=06d7ab59",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-889d4a2ae7",
+          "name": "Getafe vs Racing Santander | 00:30 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-889d4a2ae7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-889d4a2ae7",
+                  "name": "Getafe vs Racing Santander",
+                  "streams": [
+                    {
+                      "id": "st-889d4a2ae7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f7dc94a8aa",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787391230_hd/1787391230_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Getafe",
+            "team_b": "Racing Santander",
+            "logo_a": "https://images.keovip88.net/images/teams/getafe.png",
+            "logo_b": "https://images.keovip88.net/images/teams/racing-santander.png",
+            "time": "00:30:00",
+            "date": "24/08",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a80fda224d46db870d0655e_14264c16_20260824.png?v=14264c16",
             "width": 1600,
             "height": 1200
           }
