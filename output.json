@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0332f9da0f",
-          "name": "South Melbourne vs Heidelberg United | 12:30 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0332f9da0f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0332f9da0f",
-                  "name": "South Melbourne vs Heidelberg United",
-                  "streams": [
-                    {
-                      "id": "st-0332f9da0f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-46325c0901",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787420889_hd/1787420889_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NPL Victoria Úc",
-            "team_a": "South Melbourne",
-            "team_b": "Heidelberg United",
-            "logo_a": "https://images.keovip88.net/images/teams/south-melbourne.png",
-            "logo_b": "https://images.keovip88.net/images/teams/heidelberg-united.png",
-            "time": "12:30:00",
-            "date": "23/08",
-            "blv": "Bón",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2424d46db8701abe4d_f4a96c86_20260823.png?v=f4a96c86",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8ecd938f91",
           "name": "South Coast Wolves vs Western Sydney Wanderers AM | 12:00 23/08",
@@ -156,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2424d46db8701abe29_238324b9_20260823.png?v=238324b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c34c3cb5a0",
+          "name": "FC Machida Zelvia vs Urawa Red Diamonds | 17:30 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c34c3cb5a0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c34c3cb5a0",
+                  "name": "FC Machida Zelvia vs Urawa Red Diamonds",
+                  "streams": [
+                    {
+                      "id": "st-c34c3cb5a0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-865a4122df",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787471691_hd/1787471691_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "FC Machida Zelvia",
+            "team_b": "Urawa Red Diamonds",
+            "logo_a": "https://images.keovip88.net/images/teams/machida-zelvia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/urawa-red-diamonds.png",
+            "time": "17:30:00",
+            "date": "23/08",
+            "blv": "Bón",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2524d46db8701ac07b_f21ac8ee_20260823.png?v=f21ac8ee",
             "width": 1600,
             "height": 1200
           }
@@ -1037,7 +1037,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1050,10 +1050,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1102,7 +1102,7 @@
             "time": "15:00:00",
             "date": "23/08",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
