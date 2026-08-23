@@ -1319,7 +1319,25 @@
                     {
                       "id": "st-ecfc68e1d1",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-597fbf37d8",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787479813_hd/1787479813_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1334,7 +1352,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/A3X3wNil-AJjcvBgm.png",
             "time": "03:30:00",
             "date": "24/08",
-            "blv": "",
+            "blv": "Ben",
             "is_live": false,
             "cate_type": "tennis"
           },
