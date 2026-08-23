@@ -1115,6 +1115,123 @@
           }
         }
       ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-b5e4936699",
+          "name": "HLE vs T1 | 15:00 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5e4936699",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b5e4936699",
+                  "name": "HLE vs T1",
+                  "streams": [
+                    {
+                      "id": "st-b5e4936699",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "HLE",
+            "team_b": "T1",
+            "logo_a": "https://static.flashscore.com/res/image/data/pKkqJ4Wg-bB59SVBr.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
+            "time": "15:00:00",
+            "date": "23/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/767tr9oukzbc_0e41c744_20260823.png?v=0e41c744",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3563a47d85",
+          "name": "BFX vs NS | 17:00 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3563a47d85",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3563a47d85",
+                  "name": "BFX vs NS",
+                  "streams": [
+                    {
+                      "id": "st-3563a47d85",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "BFX",
+            "team_b": "NS",
+            "logo_a": "https://static.flashscore.com/res/image/data/t0Ieuvf5-h2pEHB7M.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fsLmL8ZA-K2mdw3oq.png",
+            "time": "17:00:00",
+            "date": "23/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/2bwa9lzlc0no_6e60827a_20260823.png?v=6e60827a",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
