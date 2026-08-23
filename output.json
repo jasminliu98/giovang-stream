@@ -1329,6 +1329,60 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-74063dec8b",
+          "name": "Portugal vs Belgium | 18:30 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-74063dec8b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-74063dec8b",
+                  "name": "Portugal vs Belgium",
+                  "streams": [
+                    {
+                      "id": "st-74063dec8b",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Women's Volleyball Championship",
+            "team_a": "Portugal",
+            "team_b": "Belgium",
+            "logo_a": "https://static.flashscore.com/res/image/data/GdFtDSYA-nkBpaHJn.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hfCb8SwS-YwmRHSUk.png",
+            "time": "18:30:00",
+            "date": "23/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1o1q63gphr5c_46773b73_20260823.png?v=46773b73",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
