@@ -1441,83 +1441,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-74063dec8b",
-          "name": "Portugal vs Belgium | 18:30 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-74063dec8b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-74063dec8b",
-                  "name": "Portugal vs Belgium",
-                  "streams": [
-                    {
-                      "id": "st-74063dec8b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea9a260b49",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787473444_hd/1787473444_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Women's Volleyball Championship",
-            "team_a": "Portugal",
-            "team_b": "Belgium",
-            "logo_a": "https://static.flashscore.com/res/image/data/GdFtDSYA-nkBpaHJn.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hfCb8SwS-YwmRHSUk.png",
-            "time": "18:30:00",
-            "date": "23/08",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1o1q63gphr5c_46773b73_20260823.png?v=46773b73",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5980f3eaf5",
           "name": "Greece vs Bulgaria | 21:00 23/08",
