@@ -884,83 +884,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f6f7994d80",
-          "name": "Phoenix Mercury vs Atlanta Dream | 09:00 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f6f7994d80",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f6f7994d80",
-                  "name": "Phoenix Mercury vs Atlanta Dream",
-                  "streams": [
-                    {
-                      "id": "st-f6f7994d80",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54a2324777",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787420955_hd/1787420955_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Phoenix Mercury",
-            "team_b": "Atlanta Dream",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f35ccb51f91cd187f149d4d55fc6be24.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
-            "time": "09:00:00",
-            "date": "23/08",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/27025071_5af87833_20260823.png?v=5af87833",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-094234a008",
           "name": "Dallas Wings vs Seattle Storm | 03:00 24/08",
