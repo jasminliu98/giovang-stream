@@ -17,150 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-c34c3cb5a0",
-          "name": "FC Machida Zelvia vs Urawa Red Diamonds | 17:30 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c34c3cb5a0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c34c3cb5a0",
-                  "name": "FC Machida Zelvia vs Urawa Red Diamonds",
-                  "streams": [
-                    {
-                      "id": "st-c34c3cb5a0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-865a4122df",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787471691_hd/1787471691_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "FC Machida Zelvia",
-            "team_b": "Urawa Red Diamonds",
-            "logo_a": "https://images.keovip88.net/images/teams/machida-zelvia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/urawa-red-diamonds.png",
-            "time": "17:30:00",
-            "date": "23/08",
-            "blv": "Bón",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2524d46db8701ac07b_f21ac8ee_20260823.png?v=f21ac8ee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8c4da566e5",
-          "name": "Gwangju FC vs Incheon United FC | 17:30 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c4da566e5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8c4da566e5",
-                  "name": "Gwangju FC vs Incheon United FC",
-                  "streams": [
-                    {
-                      "id": "st-8c4da566e5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-62ef11b15d",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787471746_hd/1787471746_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K-League Hàn Quốc",
-            "team_a": "Gwangju FC",
-            "team_b": "Incheon United FC",
-            "logo_a": "https://images.keovip88.net/images/teams/gwangju-football-club.png",
-            "logo_b": "https://images.keovip88.net/images/teams/incheon-united.png",
-            "time": "17:30:00",
-            "date": "23/08",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824f2524d46db8701ac08a_408ac6bf_20260823.png?v=408ac6bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-dafed750ba",
           "name": "West Bromwich(WBA) vs Burnley | 18:00 23/08",
           "type": "single",
@@ -312,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -381,7 +237,7 @@
             "time": "20:00:00",
             "date": "23/08",
             "blv": "BLV Hấu + BLV Lẹo, Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -401,10 +257,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -453,7 +309,7 @@
             "time": "20:00:00",
             "date": "23/08",
             "blv": "Mát",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1882,7 +1738,7 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1895,10 +1751,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1947,7 +1803,7 @@
             "time": "20:00:00",
             "date": "23/08",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "duaxe"
           },
           "image": {
