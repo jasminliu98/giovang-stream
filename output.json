@@ -1127,83 +1127,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ce1b8d3487",
-          "name": "Serbia vs Bulgaria | 00:00 25/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ce1b8d3487",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ce1b8d3487",
-                  "name": "Serbia vs Bulgaria",
-                  "streams": [
-                    {
-                      "id": "st-ce1b8d3487",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-66da0c3f92",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787547805_hd/1787547805_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Women's Volleyball Championship",
-            "team_a": "Serbia",
-            "team_b": "Bulgaria",
-            "logo_a": "https://static.flashscore.com/res/image/data/rHIRgwGG-fazrR153.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/6VTk1W9r-Iyld3bDd.png",
-            "time": "00:00:00",
-            "date": "25/08",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/klr5bfxzhnr8_8906ef38_20260825.png?v=8906ef38",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-d79a9c4879",
           "name": "Thái Lan vs Kazakhstan | 09:00 25/08",
