@@ -452,11 +452,65 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-e9fe6fb4b3",
+          "name": "Quezon City TODA AKSYON vs Imus Agimat | 14:00 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e9fe6fb4b3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e9fe6fb4b3",
+                  "name": "Quezon City TODA AKSYON vs Imus Agimat",
+                  "streams": [
+                    {
+                      "id": "st-e9fe6fb4b3",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Philippines MPBL",
+            "team_a": "Quezon City TODA AKSYON",
+            "team_b": "Imus Agimat",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/0103d6b334ebb5d69d96d75e5aef3bd3.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/eb293c68f4fcefb85c85dc46749b68fd.png",
+            "time": "14:00:00",
+            "date": "24/08",
+            "blv": "",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/22181271_1c1ae1b8_20260824.png?v=1c1ae1b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-b000ed16d8",
           "name": "Negros Muscovados vs Mindoro Tamaraws | 16:00 24/08",
@@ -731,7 +785,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -744,10 +798,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -778,7 +832,7 @@
             "time": "14:00:00",
             "date": "24/08",
             "blv": "",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
