@@ -10,6 +10,69 @@
   },
   "groups": [
     {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-072884c709",
+          "name": "Kuruvchi Kokand Qoqon vs Buxoro FK | 21:00 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-072884c709",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-072884c709",
+                  "name": "Kuruvchi Kokand Qoqon vs Buxoro FK",
+                  "streams": [
+                    {
+                      "id": "st-072884c709",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uzbekistan Super League",
+            "team_a": "Kuruvchi Kokand Qoqon",
+            "team_b": "Buxoro FK",
+            "logo_a": "https://images.keovip88.net/images/teams/kuruvchi-kokand-qoqon.png",
+            "logo_b": "https://images.keovip88.net/images/teams/buxoro-fk.png",
+            "time": "21:00:00",
+            "date": "24/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a80fda424d46db870d067e5_45a26051_20260824.png?v=45a26051",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_basketball",
       "name": "🏀 Bóng Rổ",
       "display": "vertical",
@@ -282,6 +345,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/22481274_8da8b6fc_20260824.png?v=8da8b6fc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-36901d768b",
+          "name": "Zamboanga Familys Brand Sardines vs Bataan Risers | 18:00 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-36901d768b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-36901d768b",
+                  "name": "Zamboanga Familys Brand Sardines vs Bataan Risers",
+                  "streams": [
+                    {
+                      "id": "st-36901d768b",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Philippines MPBL",
+            "team_a": "Zamboanga Familys Brand Sardines",
+            "team_b": "Bataan Risers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/1ba7bc78f9d1c7a7110e43d1c6f141f3.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b3beb3c49b359fa10dc7e8ac76a55c32.png",
+            "time": "18:00:00",
+            "date": "24/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/23481275_9a230831_20260824.png?v=9a230831",
             "width": 1600,
             "height": 1200
           }
