@@ -96,7 +96,25 @@
                     {
                       "id": "st-fdd5ca7556",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-9443ba96eb",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787547450_hd/1787547450_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -111,7 +129,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/lazio.png",
             "time": "23:30:00",
             "date": "24/08",
-            "blv": "",
+            "blv": "Bee",
             "is_live": false,
             "cate_type": "football"
           },
