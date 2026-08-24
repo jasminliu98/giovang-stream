@@ -713,83 +713,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-56ea5f5f44",
-          "name": "Trung Quốc vs Iran | 18:30 24/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-56ea5f5f44",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-56ea5f5f44",
-                  "name": "Trung Quốc vs Iran",
-                  "streams": [
-                    {
-                      "id": "st-56ea5f5f44",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-320a63ea3a",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787538626_hd/1787538626_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Women's Volleyball Championship",
-            "team_a": "Trung Quốc",
-            "team_b": "Iran",
-            "logo_a": "https://static.flashscore.com/res/image/data/nc9uS3HG-QDuM2WrS.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xt3pVREa-tWhhL1yr.png",
-            "time": "18:30:00",
-            "date": "24/08",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/omboeqzjvkrs_f754a090_20260824.png?v=f754a090",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e1d4942808",
           "name": "Netherlands vs Portugal | 18:30 24/08",
