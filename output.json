@@ -242,78 +242,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-ecfc68e1d1",
-          "name": "Arthur Fils vs Frances Tiafoe | 03:30 24/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ecfc68e1d1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ecfc68e1d1",
-                  "name": "Arthur Fils vs Frances Tiafoe",
-                  "streams": [
-                    {
-                      "id": "st-ecfc68e1d1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-597fbf37d8",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787479813_hd/1787479813_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Cincinnati Open",
-            "team_a": "Arthur Fils",
-            "team_b": "Frances Tiafoe",
-            "logo_a": "https://static.flashscore.com/res/image/data/Eg01vrEa-SQeH6w5H.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/A3X3wNil-AJjcvBgm.png",
-            "time": "03:30:00",
-            "date": "24/08",
-            "blv": "Ben",
-            "is_live": false,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/t6cos95aai2f_a93cad0e_20260824.png?v=a93cad0e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-4abc2a7f3c",
           "name": "Gauff C. vs Pegula J. | 06:00 24/08",
           "type": "single",
@@ -389,7 +317,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -402,10 +330,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +364,7 @@
             "time": "09:00:00",
             "date": "24/08",
             "blv": "",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -498,6 +426,69 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/etwgbk2likb3_8749a164_20260824.png?v=8749a164",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-9d1882eef3",
+          "name": "MAIN EVENT — DAY 2 | EPT Barcelona vs MAIN EVENT — DAY 2 | EPT Barcelona | 21:00 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d1882eef3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9d1882eef3",
+                  "name": "MAIN EVENT — DAY 2 | EPT Barcelona vs MAIN EVENT — DAY 2 | EPT Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-9d1882eef3",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "EPT",
+            "team_a": "MAIN EVENT — DAY 2 | EPT Barcelona",
+            "team_b": "MAIN EVENT — DAY 2 | EPT Barcelona",
+            "logo_a": "https://s.pnimg.net/h9BtAQkgwrUbWe5aT7YHsoSZNxphDeb5ED1rMohacYs/pr:article-leading-desktop/aHR0cHM6Ly9wbmlt/Zy5uZXQvdy9hcnRp/Y2xlcy8wLzZhNy9i/NDhiMjc4NGNkLnBu/Zw.webp",
+            "logo_b": "https://s.pnimg.net/h9BtAQkgwrUbWe5aT7YHsoSZNxphDeb5ED1rMohacYs/pr:article-leading-desktop/aHR0cHM6Ly9wbmlt/Zy5uZXQvdy9hcnRp/Y2xlcy8wLzZhNy9i/NDhiMjc4NGNkLnBu/Zw.webp",
+            "time": "21:00:00",
+            "date": "24/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/qj78urqrh7tw_30eb367d_20260824.png?v=30eb367d",
             "width": 1600,
             "height": 1200
           }
