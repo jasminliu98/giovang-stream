@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-3ba94f19fb",
-          "name": "VSG Altglienicke vs Wolfsburg | 23:00 24/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3ba94f19fb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3ba94f19fb",
-                  "name": "VSG Altglienicke vs Wolfsburg",
-                  "streams": [
-                    {
-                      "id": "st-3ba94f19fb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-69df529a75",
-                          "name": "chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787586739_hd/1787586739_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Quốc Gia Đức",
-            "team_a": "VSG Altglienicke",
-            "team_b": "Wolfsburg",
-            "logo_a": "https://images.keovip88.net/images/teams/vsg-altglienicke.gif",
-            "logo_b": "https://images.keovip88.net/images/teams/vfl-wolfsburg.png",
-            "time": "23:00:00",
-            "date": "24/08",
-            "blv": "chồn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a29fd389d3f17fa5f00c5ad_ad87a5dd_20260825.png?v=ad87a5dd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-d0106721df",
           "name": "Osasuna vs Levante | 00:30 25/08",
           "type": "single",
@@ -384,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +364,7 @@
             "time": "02:30:00",
             "date": "25/08",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
