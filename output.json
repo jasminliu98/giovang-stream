@@ -231,6 +231,60 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-b000ed16d8",
+          "name": "Negros Muscovados vs Mindoro Tamaraws | 16:00 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b000ed16d8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b000ed16d8",
+                  "name": "Negros Muscovados vs Mindoro Tamaraws",
+                  "streams": [
+                    {
+                      "id": "st-b000ed16d8",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Philippines MPBL",
+            "team_a": "Negros Muscovados",
+            "team_b": "Mindoro Tamaraws",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c7ead789b0925ea6b2b21e8191c8d795.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f265f639507860463b03c6a46fe76e93.png",
+            "time": "16:00:00",
+            "date": "24/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/22481274_8da8b6fc_20260824.png?v=8da8b6fc",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -348,7 +402,25 @@
                     {
                       "id": "st-6a2fb2555b",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f91c9ad85a",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787498309_hd/1787498309_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -363,7 +435,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/vNwPljil-Sr5HBKY4.png",
             "time": "09:00:00",
             "date": "24/08",
-            "blv": "",
+            "blv": "Sún",
             "is_live": true,
             "cate_type": "bongchuyen"
           },
@@ -426,6 +498,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/etwgbk2likb3_8749a164_20260824.png?v=8749a164",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-56ea5f5f44",
+          "name": "Trung Quốc vs Iran | 18:30 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-56ea5f5f44",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-56ea5f5f44",
+                  "name": "Trung Quốc vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-56ea5f5f44",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Women's Volleyball Championship",
+            "team_a": "Trung Quốc",
+            "team_b": "Iran",
+            "logo_a": "https://static.flashscore.com/res/image/data/nc9uS3HG-QDuM2WrS.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xt3pVREa-tWhhL1yr.png",
+            "time": "18:30:00",
+            "date": "24/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/omboeqzjvkrs_f754a090_20260824.png?v=f754a090",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e1d4942808",
+          "name": "Netherlands vs Portugal | 18:30 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e1d4942808",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e1d4942808",
+                  "name": "Netherlands vs Portugal",
+                  "streams": [
+                    {
+                      "id": "st-e1d4942808",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Women's Volleyball Championship",
+            "team_a": "Netherlands",
+            "team_b": "Portugal",
+            "logo_a": "https://static.flashscore.com/res/image/data/KveiFAyS-SrXKwAi9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xYGjw2yS-6ys9CWQj.png",
+            "time": "18:30:00",
+            "date": "24/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1zjx3r8utbit_f3a93c98_20260824.png?v=f3a93c98",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-98c93ff766",
+          "name": "Poland vs Latvia | 20:00 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-98c93ff766",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-98c93ff766",
+                  "name": "Poland vs Latvia",
+                  "streams": [
+                    {
+                      "id": "st-98c93ff766",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Women's Volleyball Championship",
+            "team_a": "Poland",
+            "team_b": "Latvia",
+            "logo_a": "https://static.flashscore.com/res/image/data/bDyR9xGG-80NbcEGb.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/bLgBMiZg-U9Ofbf1h.png",
+            "time": "20:00:00",
+            "date": "24/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/emuntasiyqxg_edf8ab0c_20260824.png?v=edf8ab0c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-97f60d253a",
+          "name": "Ukraine vs Austria | 21:00 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-97f60d253a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-97f60d253a",
+                  "name": "Ukraine vs Austria",
+                  "streams": [
+                    {
+                      "id": "st-97f60d253a",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Women's Volleyball Championship",
+            "team_a": "Ukraine",
+            "team_b": "Austria",
+            "logo_a": "https://static.flashscore.com/res/image/data/MoDfGPXg-0Ad6cfX6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/G68F4jyS-G0odTf6T.png",
+            "time": "21:00:00",
+            "date": "24/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/cd74wj31vamo_ef687c55_20260824.png?v=ef687c55",
             "width": 1600,
             "height": 1200
           }
