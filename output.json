@@ -713,83 +713,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-e1d4942808",
-          "name": "Netherlands vs Portugal | 18:30 24/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1d4942808",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e1d4942808",
-                  "name": "Netherlands vs Portugal",
-                  "streams": [
-                    {
-                      "id": "st-e1d4942808",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e182363811",
-                          "name": "Mát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787538702_hd/1787538702_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Women's Volleyball Championship",
-            "team_a": "Netherlands",
-            "team_b": "Portugal",
-            "logo_a": "https://static.flashscore.com/res/image/data/KveiFAyS-SrXKwAi9.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xYGjw2yS-6ys9CWQj.png",
-            "time": "18:30:00",
-            "date": "24/08",
-            "blv": "Mát",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1zjx3r8utbit_f3a93c98_20260824.png?v=f3a93c98",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-98c93ff766",
           "name": "Poland vs Latvia | 20:00 24/08",
