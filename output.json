@@ -816,7 +816,25 @@
                     {
                       "id": "st-ce1b8d3487",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-66da0c3f92",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787547805_hd/1787547805_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -831,7 +849,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/6VTk1W9r-Iyld3bDd.png",
             "time": "00:00:00",
             "date": "25/08",
-            "blv": "",
+            "blv": "Sún",
             "is_live": true,
             "cate_type": "bongchuyen"
           },
