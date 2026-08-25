@@ -663,6 +663,60 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-52ce52cd51",
+          "name": "Việt Nam vs Thái Lan | 20:00 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52ce52cd51",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-52ce52cd51",
+                  "name": "Việt Nam vs Thái Lan",
+                  "streams": [
+                    {
+                      "id": "st-52ce52cd51",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Club Championship",
+            "team_a": "Việt Nam",
+            "team_b": "Thái Lan",
+            "logo_a": "https://static.flashscore.com/res/image/data/rZCKbaFa-QHeKqeWC.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/jH8flBZA-UknO2XLh.png",
+            "time": "20:00:00",
+            "date": "26/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/c2516f618772_68c2f08e_20260825.png?v=68c2f08e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
