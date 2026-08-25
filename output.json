@@ -461,83 +461,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d79a9c4879",
-          "name": "Thái Lan vs Kazakhstan | 09:00 25/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d79a9c4879",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d79a9c4879",
-                  "name": "Thái Lan vs Kazakhstan",
-                  "streams": [
-                    {
-                      "id": "st-d79a9c4879",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-66267c8346",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787586291_hd/1787586291_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Women's Volleyball Championship",
-            "team_a": "Thái Lan",
-            "team_b": "Kazakhstan",
-            "logo_a": "https://static.flashscore.com/res/image/data/jH8flBZA-UknO2XLh.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/330px-Flag_of_Kazakhstan.svg.png",
-            "time": "09:00:00",
-            "date": "25/08",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/187w5dunajw9_01a58eff_20260825.png?v=01a58eff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3193d02ab5",
           "name": "Iran vs Iraq | 13:00 25/08",
@@ -1164,87 +1092,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/stq0oxbxh54r_76d0a666_20260825.png?v=76d0a666",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-31217f35cc",
-          "name": "Arizona Diamondbacks vs Chicago Cubs | 08:40 25/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-31217f35cc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-31217f35cc",
-                  "name": "Arizona Diamondbacks vs Chicago Cubs",
-                  "streams": [
-                    {
-                      "id": "st-31217f35cc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6721ce23b3",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787586492_hd/1787586492_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Arizona Diamondbacks",
-            "team_b": "Chicago Cubs",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcVStvvVE4AFk27fsazXiVFYEa1uAe9Tr0nbTGjbjYCg&s=10",
-            "logo_b": "https://1000logos.net/wp-content/uploads/2017/07/Chicago-Cubs-Logo.png",
-            "time": "08:40:00",
-            "date": "25/08",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1qbpa5uxkmk1_0398b8f0_20260825.png?v=0398b8f0",
             "width": 1600,
             "height": 1200
           }
