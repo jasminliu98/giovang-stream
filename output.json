@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "23:45:00",
             "date": "25/08",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1470,6 +1470,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/128zkzqa4oje_8c03e96a_20260825.png?v=8c03e96a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b0f71f5d13",
+          "name": "Indonesia vs Australia | 14:00 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b0f71f5d13",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b0f71f5d13",
+                  "name": "Indonesia vs Australia",
+                  "streams": [
+                    {
+                      "id": "st-b0f71f5d13",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Women's Volleyball Championship",
+            "team_a": "Indonesia",
+            "team_b": "Australia",
+            "logo_a": "https://static.flashscore.com/res/image/data/WvrcHkXg-QBz8eAFI.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Ygu7zgHG-YNb3oHYR.png",
+            "time": "14:00:00",
+            "date": "26/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6cy3xzdy6or2_81e71eb3_20260825.png?v=81e71eb3",
             "width": 1600,
             "height": 1200
           }
