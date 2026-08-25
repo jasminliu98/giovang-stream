@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5fbe51e658",
-          "name": "FK Andijon vs Xorazm Urganch | 21:00 25/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5fbe51e658",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5fbe51e658",
-                  "name": "FK Andijon vs Xorazm Urganch",
-                  "streams": [
-                    {
-                      "id": "st-5fbe51e658",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6a797d1baf",
-                          "name": "Tỵ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787666155_hd/1787666155_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uzbekistan Super League",
-            "team_a": "FK Andijon",
-            "team_b": "Xorazm Urganch",
-            "logo_a": "https://images.keovip88.net/images/teams/fk-andijon.png",
-            "logo_b": "https://images.keovip88.net/images/teams/xorazm-urganch.png",
-            "time": "21:00:00",
-            "date": "25/08",
-            "blv": "Tỵ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a80fda424d46db870d067d9_d3221fcc_20260825.png?v=d3221fcc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-985b86ab75",
           "name": "Al-Taawon vs Al-Feiha | 23:10 25/08",
@@ -1019,83 +947,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f3b88bbc1a",
-          "name": "Hy Lạp vs Austria | 21:00 25/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f3b88bbc1a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f3b88bbc1a",
-                  "name": "Hy Lạp vs Austria",
-                  "streams": [
-                    {
-                      "id": "st-f3b88bbc1a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a386ea6b7e",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787595339_hd/1787595339_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Women's Volleyball Championship",
-            "team_a": "Hy Lạp",
-            "team_b": "Austria",
-            "logo_a": "https://static.flashscore.com/res/image/data/Y7rmskwS-IPNevN3m.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/G68F4jyS-G0odTf6T.png",
-            "time": "21:00:00",
-            "date": "25/08",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/rksnps6u3lzb_6204d26b_20260825.png?v=6204d26b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6fbd536caf",
           "name": "Poland vs Slovenia | 23:00 25/08",
