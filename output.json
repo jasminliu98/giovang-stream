@@ -1333,83 +1333,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5b0ee0af35",
-          "name": "Pierfrancesco Garzia vs Dương Quốc Hoàng | 06:30 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5b0ee0af35",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5b0ee0af35",
-                  "name": "Pierfrancesco Garzia vs Dương Quốc Hoàng",
-                  "streams": [
-                    {
-                      "id": "st-5b0ee0af35",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2b6a3cb407",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787692343_hd/1787692343_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "US Open",
-            "team_a": "Pierfrancesco Garzia",
-            "team_b": "Dương Quốc Hoàng",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwwehB6bTeN6MNNQgvzHyPkJkU659QWlMUxPi_G9Bq0obs6neuVNECHa_z&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsVPef3C7Ae7usjeL-k8MK3VEUhPb6ciSgfx7RIqD6EIOLyFkDxFqhMlE&s=10",
-            "time": "06:30:00",
-            "date": "26/08",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/oulbowv5d7gn_9d1129e4_20260826.png?v=9d1129e4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3d991936d7",
           "name": "KT vs BRO | 15:00 26/08",
