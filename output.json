@@ -1166,7 +1166,25 @@
                     {
                       "id": "st-23be784079",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ec6fcd805",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1785219631_hd/1785219631_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1181,7 +1199,7 @@
             "logo_b": "https://i.ytimg.com/vi/-p1XsQ2wu-o/hq720.jpg?v=6a8438c8&sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBXkx85Q-6fYo4F6KDv4rchPkfPbg",
             "time": "20:30:00",
             "date": "26/08",
-            "blv": "",
+            "blv": "Ngu",
             "is_live": false,
             "cate_type": "esport"
           },
