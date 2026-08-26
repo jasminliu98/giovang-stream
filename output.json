@@ -121,6 +121,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-ab9aa249a2",
+          "name": "Al-Faisaly Harmah vs Al-Fateh SC | 23:00 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ab9aa249a2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ab9aa249a2",
+                  "name": "Al-Faisaly Harmah vs Al-Fateh SC",
+                  "streams": [
+                    {
+                      "id": "st-ab9aa249a2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e1afc7e1b6",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787752186_hd/1787752186_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Faisaly Harmah",
+            "team_b": "Al-Fateh SC",
+            "logo_a": "https://images.keovip88.net/images/teams/al-faisaly-harmah.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-fateh.png",
+            "time": "23:00:00",
+            "date": "26/08",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a83a0d524d46db8705e763c_14e67777_20260826.png?v=14e67777",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
