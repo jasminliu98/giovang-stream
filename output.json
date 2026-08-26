@@ -11,117 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-52ce52cd51",
-          "name": "Việt Nam vs Thái Lan | 20:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-52ce52cd51",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-52ce52cd51",
-                  "name": "Việt Nam vs Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-52ce52cd51",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5f15d83f0e",
-                          "name": "Đầu Cầu Việt Nam Vô Địch",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787711663_hd/1787711663_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0f11192f03",
-                          "name": "Đầu Cầu Vui Vẻ",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787643649_hd/1787643649_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4226ad1d34",
-                          "name": "Bình Luận Viên Thái Lan",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787738411_hd/1787738411_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Club Championship",
-            "team_a": "Việt Nam",
-            "team_b": "Thái Lan",
-            "logo_a": "https://static.flashscore.com/res/image/data/rZCKbaFa-QHeKqeWC.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/jH8flBZA-UknO2XLh.png",
-            "time": "20:00:00",
-            "date": "26/08",
-            "blv": "Đầu Cầu Việt Nam Vô Địch, Đầu Cầu Vui Vẻ, Bình Luận Viên Thái Lan",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/c2516f618772_68c2f08e_20260826.png?v=68c2f08e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ab9aa249a2",
           "name": "Al-Faisaly Harmah vs Al-Fateh SC | 23:00 26/08",
