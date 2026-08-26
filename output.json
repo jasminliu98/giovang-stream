@@ -474,7 +474,25 @@
                     {
                       "id": "st-a795686956",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0c2ba5ea0d",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787765497_hd/1787765497_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -489,7 +507,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/austin-fc.png",
             "time": "07:30:00",
             "date": "27/08",
-            "blv": "",
+            "blv": "Hấu",
             "is_live": false,
             "cate_type": "football"
           },
@@ -528,7 +546,25 @@
                     {
                       "id": "st-51f23064dd",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-37a317f776",
+                          "name": "Tỵ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787765802_hd/1787765802_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -543,7 +579,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/lexington.png",
             "time": "08:30:00",
             "date": "27/08",
-            "blv": "",
+            "blv": "Tỵ",
             "is_live": false,
             "cate_type": "football"
           },
@@ -614,83 +650,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b9ec1c3676",
-          "name": "Oman vs Kuwait | 23:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b9ec1c3676",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b9ec1c3676",
-                  "name": "Oman vs Kuwait",
-                  "streams": [
-                    {
-                      "id": "st-b9ec1c3676",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-99a5f23c1c",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787758208_hd/1787758208_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Asia Cup",
-            "team_a": "Oman",
-            "team_b": "Kuwait",
-            "logo_a": "https://static.flashscore.com/res/image/data/KGYHRIYA-baDaGjjh.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/viWmKcBr-2ybyvrpo.png",
-            "time": "23:00:00",
-            "date": "26/08",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6deo1w44lfmu_93b9131c_20260827.png?v=93b9131c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-2758bf7c74",
           "name": "Palestine vs Kyrgyzstan | 21:00 26/08",
@@ -861,7 +825,25 @@
                     {
                       "id": "st-55e6b18e42",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-2d9e051ce2",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787766245_hd/1787766245_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -876,7 +858,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/2144aaf701fac7e3c3caf3853aeb9929.png",
             "time": "09:00:00",
             "date": "27/08",
-            "blv": "",
+            "blv": "Vịt",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -1428,7 +1410,25 @@
                     {
                       "id": "st-276006712a",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-ef7c741910",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787758338_hd/1787758338_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1443,7 +1443,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/4iCrrqHfq9zLlhOt34o7Pg_96x96.png",
             "time": "00:00:00",
             "date": "27/08",
-            "blv": "",
+            "blv": "Sún",
             "is_live": true,
             "cate_type": "bongchuyen"
           },
@@ -1689,7 +1689,25 @@
                     {
                       "id": "st-99d1effa5b",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-540675bacf",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787761649_hd/1787761649_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1704,7 +1722,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXyyjFdZKvRhjD1P49mMNfvepJgufSbAlLXC8dAAQQHw&s=10",
             "time": "05:00:00",
             "date": "27/08",
-            "blv": "",
+            "blv": "Mason",
             "is_live": false,
             "cate_type": "esport"
           },
