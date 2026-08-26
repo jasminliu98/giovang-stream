@@ -639,14 +639,14 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-427b0f9485",
-          "name": "Trung Quốc vs Đài Bắc Trung Hoa | 18:30 26/08",
+          "id": "gv-6136196e00",
+          "name": "Belgium vs Azerbaijan | 21:30 26/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -660,95 +660,23 @@
           ],
           "sources": [
             {
-              "id": "src-427b0f9485",
+              "id": "src-6136196e00",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-427b0f9485",
-                  "name": "Trung Quốc vs Đài Bắc Trung Hoa",
+                  "id": "ct-6136196e00",
+                  "name": "Belgium vs Azerbaijan",
                   "streams": [
                     {
-                      "id": "st-427b0f9485",
+                      "id": "st-6136196e00",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-04930e32b5",
+                          "id": "lnk-5cd2b073a4",
                           "name": "Sún",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787730024_hd/1787730024_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Women's Volleyball Championship",
-            "team_a": "Trung Quốc",
-            "team_b": "Đài Bắc Trung Hoa",
-            "logo_a": "https://static.flashscore.com/res/image/data/zuKuPVWg-8fviIzFt.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/0Kr8RwBr-8fviIzFt.png",
-            "time": "18:30:00",
-            "date": "26/08",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/t46vux81gbs1_833036b7_20260826.png?v=833036b7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ed7ae58c3e",
-          "name": "Spain vs Portugal | 18:30 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ed7ae58c3e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ed7ae58c3e",
-                  "name": "Spain vs Portugal",
-                  "streams": [
-                    {
-                      "id": "st-ed7ae58c3e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-69f94aa747",
-                          "name": "Mát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787540090_hd/1787540090_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787649648_hd/1787649648_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -769,13 +697,13 @@
           ],
           "org_metadata": {
             "league": "European Women's Volleyball Championship",
-            "team_a": "Spain",
-            "team_b": "Portugal",
-            "logo_a": "https://static.flashscore.com/res/image/data/hEiQqnHG-UJq6P5tS.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/4jp4rKzB-MsdcFnxp.png",
-            "time": "18:30:00",
+            "team_a": "Belgium",
+            "team_b": "Azerbaijan",
+            "logo_a": "https://static.flashscore.com/res/image/data/Qur1J5jl-dtrVaP64.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QXDfRbZg-dtrVaP64.png",
+            "time": "21:30:00",
             "date": "26/08",
-            "blv": "Mát",
+            "blv": "Sún",
             "is_live": true,
             "cate_type": "bongchuyen"
           },
@@ -783,7 +711,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/vhpjqunz29ci_1bf98a20_20260826.png?v=1bf98a20",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/qlulynuvv2wh_d09bf8e8_20260826.png?v=d09bf8e8",
             "width": 1600,
             "height": 1200
           }
@@ -856,78 +784,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/m42mzfoe70gj_2b1714d3_20260826.png?v=2b1714d3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6136196e00",
-          "name": "Belgium vs Azerbaijan | 21:30 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6136196e00",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6136196e00",
-                  "name": "Belgium vs Azerbaijan",
-                  "streams": [
-                    {
-                      "id": "st-6136196e00",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5cd2b073a4",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787649648_hd/1787649648_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Women's Volleyball Championship",
-            "team_a": "Belgium",
-            "team_b": "Azerbaijan",
-            "logo_a": "https://static.flashscore.com/res/image/data/Qur1J5jl-dtrVaP64.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QXDfRbZg-dtrVaP64.png",
-            "time": "21:30:00",
-            "date": "26/08",
-            "blv": "Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/qlulynuvv2wh_d09bf8e8_20260826.png?v=d09bf8e8",
             "width": 1600,
             "height": 1200
           }
@@ -1008,83 +864,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-3d991936d7",
-          "name": "KT vs BRO | 15:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d991936d7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3d991936d7",
-                  "name": "KT vs BRO",
-                  "streams": [
-                    {
-                      "id": "st-3d991936d7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-149f9a7223",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787540221_hd/1787540221_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "KT",
-            "team_b": "BRO",
-            "logo_a": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/dWdjTlyS-tSnxXc8U.png",
-            "time": "15:00:00",
-            "date": "26/08",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1hkj33m77z8f_318634bf_20260826.png?v=318634bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-23be784079",
           "name": "European Poker Tour vs EPT Barcelona 2026 | 20:30 26/08",
