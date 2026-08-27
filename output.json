@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-975faf72e2",
-          "name": "FC Ararat Armenia vs CS Universitatea Craiova | 23:00 27/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-975faf72e2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-975faf72e2",
-                  "name": "FC Ararat Armenia vs CS Universitatea Craiova",
-                  "streams": [
-                    {
-                      "id": "st-975faf72e2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc2f67a51c",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787815510_hd/1787815510_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "FC Ararat Armenia",
-            "team_b": "CS Universitatea Craiova",
-            "logo_a": "https://images.keovip88.net/images/teams/fc-ararat-armenia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/cs-universitatea-craiova.png",
-            "time": "23:00:00",
-            "date": "27/08",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a80fe6f14d93d23140c66ab_eda5fb8d_20260828.png?v=eda5fb8d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e18df6a510",
           "name": "SC Freiburg vs Motherwell FC | 23:45 27/08",
@@ -168,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +148,7 @@
             "time": "01:30:00",
             "date": "28/08",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -240,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +220,7 @@
             "time": "01:30:00",
             "date": "28/08",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -854,6 +782,60 @@
           }
         },
         {
+          "id": "gv-37702a84c8",
+          "name": "Panama vs Canada | 08:40 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-37702a84c8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-37702a84c8",
+                  "name": "Panama vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-37702a84c8",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Panama",
+            "team_b": "Canada",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/0a815a1fbc2954c33f92a676ef8dc20c.jpg",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ba993f17f671a23a20b0d27c4cc2582b.jpg",
+            "time": "08:40:00",
+            "date": "28/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/t2qnqb15o162_e7f6ac31_20260828.png?v=e7f6ac31",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-69a0fd9108",
           "name": "Phoenix Mercury vs Washington Mystics | 09:00 28/08",
           "type": "single",
@@ -957,6 +939,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/38708272_3a808cf2_20260828.png?v=3a808cf2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-16bf7faa33",
+          "name": "Iran vs New Zealand | 13:00 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-16bf7faa33",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-16bf7faa33",
+                  "name": "Iran vs New Zealand",
+                  "streams": [
+                    {
+                      "id": "st-16bf7faa33",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Iran",
+            "team_b": "New Zealand",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/fd824340b59fd17ed954aa1dafac0564.jpg",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/da47e6c94224d6c9ab4c32d7850c9de0.jpg",
+            "time": "13:00:00",
+            "date": "28/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/vq3c7wabqtha_3a808cf2_20260828.png?v=3a808cf2",
             "width": 1600,
             "height": 1200
           }
@@ -1254,6 +1290,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/jbixmh3r9ye6_9a062471_20260828.png?v=9a062471",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fe3d3e475d",
+          "name": "Indonesia vs Iran | 14:00 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fe3d3e475d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fe3d3e475d",
+                  "name": "Indonesia vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-fe3d3e475d",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Women's Volleyball Championship",
+            "team_a": "Indonesia",
+            "team_b": "Iran",
+            "logo_a": "https://static.flashscore.com/res/image/data/WvrcHkXg-QBz8eAFI.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xt3pVREa-tWhhL1yr.png",
+            "time": "14:00:00",
+            "date": "28/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/84tt9rg0ifie_d5d25f33_20260828.png?v=d5d25f33",
             "width": 1600,
             "height": 1200
           }
