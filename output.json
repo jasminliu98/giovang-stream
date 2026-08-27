@@ -933,7 +933,25 @@
                     {
                       "id": "st-f4c003ac67",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-af491cc8b7",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787817197_hd/1787817197_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -948,7 +966,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
             "time": "06:15:00",
             "date": "28/08",
-            "blv": "",
+            "blv": "Cận",
             "is_live": true,
             "cate_type": "bongchay"
           },
