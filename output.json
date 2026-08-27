@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b3915925e4",
-          "name": "KuPS vs Shamrock Rovers | 22:00 27/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b3915925e4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b3915925e4",
-                  "name": "KuPS vs Shamrock Rovers",
-                  "streams": [
-                    {
-                      "id": "st-b3915925e4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-86c628f0d1",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787770776_hd/1787770776_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Europa Conference League",
-            "team_a": "KuPS",
-            "team_b": "Shamrock Rovers",
-            "logo_a": "https://images.keovip88.net/images/teams/kups.png",
-            "logo_b": "https://images.keovip88.net/images/teams/shamrock-rovers.png",
-            "time": "22:00:00",
-            "date": "27/08",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a824fb6a28e51b7220c2b05_3dc838a1_20260827.png?v=3dc838a1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-33962c1a9d",
           "name": "FC Saburtalo Tbilisi vs Jagiellonia Bialystok | 23:00 27/08",
