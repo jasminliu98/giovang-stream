@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,60 +161,6 @@
           }
         },
         {
-          "id": "gv-2562977a71",
-          "name": "Bốc thăm vs C1 | 23:00 27/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2562977a71",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2562977a71",
-                  "name": "Bốc thăm vs C1",
-                  "streams": [
-                    {
-                      "id": "st-2562977a71",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C1",
-            "team_a": "Bốc thăm",
-            "team_b": "C1",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "23:00:00",
-            "date": "27/08",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/dd989hhabuz1_6654c734_20260827.png?v=6654c734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-975faf72e2",
           "name": "FC Ararat Armenia vs CS Universitatea Craiova | 23:00 27/08",
           "type": "single",
@@ -222,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -274,7 +220,7 @@
             "time": "23:00:00",
             "date": "27/08",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -282,6 +228,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a80fe6f14d93d23140c66ab_eda5fb8d_20260827.png?v=eda5fb8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2562977a71",
+          "name": "Bốc thăm vs C1 | 23:00 27/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2562977a71",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2562977a71",
+                  "name": "Bốc thăm vs C1",
+                  "streams": [
+                    {
+                      "id": "st-2562977a71",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C1",
+            "team_a": "Bốc thăm",
+            "team_b": "C1",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "23:00:00",
+            "date": "27/08",
+            "blv": "",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/dd989hhabuz1_6654c734_20260827.png?v=6654c734",
             "width": 1600,
             "height": 1200
           }
