@@ -330,7 +330,25 @@
                     {
                       "id": "st-e8105ebb08",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-8fcf8b2c66",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787816079_hd/1787816079_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -345,7 +363,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/besiktas-jk.png",
             "time": "00:00:00",
             "date": "28/08",
-            "blv": "",
+            "blv": "Trĩ",
             "is_live": false,
             "cate_type": "football"
           },
