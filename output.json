@@ -1586,83 +1586,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f4c003ac67",
-          "name": "Atlanta Braves vs Los Angeles Dodgers | 06:15 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f4c003ac67",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f4c003ac67",
-                  "name": "Atlanta Braves vs Los Angeles Dodgers",
-                  "streams": [
-                    {
-                      "id": "st-f4c003ac67",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-af491cc8b7",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787817197_hd/1787817197_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Atlanta Braves",
-            "team_b": "Los Angeles Dodgers",
-            "logo_a": "https://static.flashscore.com/res/image/data/IPmhSoEa-hvtJM6zJ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
-            "time": "06:15:00",
-            "date": "28/08",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/pmqlx6gvkxwg_78819583_20260828.png?v=78819583",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-fd8a08cc5f",
           "name": "Detroit Tigers vs Los Angeles Dodgers | 05:40 29/08",
