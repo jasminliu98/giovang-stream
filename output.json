@@ -1235,83 +1235,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fe3d3e475d",
-          "name": "Indonesia vs Iran | 14:00 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fe3d3e475d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fe3d3e475d",
-                  "name": "Indonesia vs Iran",
-                  "streams": [
-                    {
-                      "id": "st-fe3d3e475d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2953319ee3",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787854199_hd/1787854199_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Women's Volleyball Championship",
-            "team_a": "Indonesia",
-            "team_b": "Iran",
-            "logo_a": "https://static.flashscore.com/res/image/data/WvrcHkXg-QBz8eAFI.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xt3pVREa-tWhhL1yr.png",
-            "time": "14:00:00",
-            "date": "28/08",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/84tt9rg0ifie_d5d25f33_20260828.png?v=d5d25f33",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6ff71eb707",
           "name": "Spain vs Romania | 18:30 28/08",
