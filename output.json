@@ -1181,83 +1181,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6ff71eb707",
-          "name": "Spain vs Romania | 18:30 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ff71eb707",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6ff71eb707",
-                  "name": "Spain vs Romania",
-                  "streams": [
-                    {
-                      "id": "st-6ff71eb707",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8621e88f3d",
-                          "name": "Mát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787737969_hd/1787737969_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Women's Volleyball Championship",
-            "team_a": "Spain",
-            "team_b": "Romania",
-            "logo_a": "https://static.flashscore.com/res/image/data/Od7JGXZA-0E8Iihe1.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WMABMEDa-tKviOc0q.png",
-            "time": "18:30:00",
-            "date": "28/08",
-            "blv": "Mát",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/jp2jc6xptd40_6a866d8f_20260828.png?v=6a866d8f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9c743302f8",
           "name": "Slovenia vs Hungary | 20:00 28/08",
