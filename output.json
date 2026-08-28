@@ -1187,78 +1187,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-8b5f8576cd",
-          "name": "Trung Quốc vs Việt Nam | 18:30 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8b5f8576cd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8b5f8576cd",
-                  "name": "Trung Quốc vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-8b5f8576cd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-535736d52f",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787913934_hd/1787913934_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Women's Volleyball Championship",
-            "team_a": "Trung Quốc",
-            "team_b": "Việt Nam",
-            "logo_a": "https://static.flashscore.com/res/image/data/IJDZmhjl-lSxdJQh4.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/StTKbSzS-A9PcSp30.png",
-            "time": "18:30:00",
-            "date": "28/08",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/26q8tqshuiw1_d1ac5cb7_20260828.png?v=d1ac5cb7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-6ff71eb707",
           "name": "Spain vs Romania | 18:30 28/08",
           "type": "single",
@@ -1338,10 +1266,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1390,7 +1318,7 @@
             "time": "20:00:00",
             "date": "28/08",
             "blv": "Mát",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
