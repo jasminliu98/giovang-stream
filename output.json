@@ -812,65 +812,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-cca9ea0e0c",
-          "name": "Ukraine vs Greece | 23:00 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cca9ea0e0c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cca9ea0e0c",
-                  "name": "Ukraine vs Greece",
-                  "streams": [
-                    {
-                      "id": "st-cca9ea0e0c",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA World Cup",
-            "team_a": "Ukraine",
-            "team_b": "Greece",
-            "logo_a": "https://static.flashscore.com/res/image/data/6sYNPFZA-K6NdtgS4.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/UknZz5hl-EcK7yLm6.png",
-            "time": "23:00:00",
-            "date": "28/08",
-            "blv": "",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/swxidsww89fb_3a386965_20260829.png?v=3a386965",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-15a7c230d2",
           "name": "Indiana Fever vs Connecticut Sun | 06:30 29/08",
