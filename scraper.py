@@ -360,6 +360,32 @@ def fetch_json(url: str) -> list:
         print(f"  Loi fetch {url}: {e}")
         return []
 
+# ─────────────────────────────────────────────────────────────────────────────
+# FETCH & GROUP LOGIC (ĐÃ FIX LỖI BỎ LỠ LINK UFC/ESPORT)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def extract_any_stream_url(obj: dict) -> str:
+    """Hàm phụ: Tìm bất kỳ link stream nào hợp lệ trong 1 dict"""
+    if not isinstance(obj, dict): return None
+    # 1. Thử các key phổ biến trước
+    for k in ["link_stream_hd", "pc_stream_url", "mobile_stream_url", "link_stream_sd", "stream_url", "url", "hd_url"]:
+        v = obj.get(k)
+        if v and isinstance(v, str) and v.startswith("http"): return v
+    # 2. Nếu không thấy, duyệt toàn bộ value để tìm chuỗi có đuôi stream
+    for v in obj.values():
+        if isinstance(v, str) and v.startswith("http") and re.search(r'\.(m3u8|flv|mpd|mp4)', v, re.IGNORECASE):
+            return v
+    return None
+
+def fetch_json(url: str) -> list:
+    try:
+        res = requests.get(f"{url}?t={int(time.time() * 1000)}", headers=HEADERS, timeout=15)
+        data = res.json()
+        return data.get("response", []) if isinstance(data, dict) else []
+    except Exception as e:
+        print(f"  Loi fetch {url}: {e}")
+        return []
+
 def get_grouped_matches() -> dict:
     live_items = fetch_json(API_LIVE)
     all_items = fetch_json(API_ALL)
@@ -398,7 +424,6 @@ def get_grouped_matches() -> dict:
 
         combined_text = f"{league_name} {team_a} {team_b}".lower()
         
-        # ─── LOGIC ÉP CỨNG & PHÂN LOẠI THỂ THAO (ĐÃ FIX LỖI SUBSTRING) ───
         override_matched = next((cate for kw, cate in OVERRIDE_CATE.items() if match_keywords(combined_text, [kw])), None)
         if override_matched:
             cate_type = override_matched
@@ -425,7 +450,6 @@ def get_grouped_matches() -> dict:
         time_str = item.get("time", "")
         date_str = item.get("day_month", "")
         
-        # ─── LOGIC LỌC THỜI GIAN (ĐÃ FIX LỌC CHO TẤT CẢ CÁC MÔN) ───
         if not is_live_api:
             if not is_valid_time(time_str, date_str, cate_type):
                 continue
@@ -454,6 +478,7 @@ def get_grouped_matches() -> dict:
                 grouped[match_id]["is_live"] = True
             grouped[match_id]["_blv_keys"] = list(set(grouped[match_id]["_blv_keys"] + blv_keys))
 
+    # ─── LẤY LINK TỪ API CHI TIẾT ───
     for match_id, match_data in grouped.items():
         try:
             url = f"{API_FIXTURES}/{match_id}"
@@ -463,24 +488,34 @@ def get_grouped_matches() -> dict:
             
             if isinstance(fixture_data, dict):
                 api_blv_list = fixture_data.get("blv", [])
-                stream_keys = ["link_stream_hd", "pc_stream_url", "mobile_stream_url", "link_stream_sd"]
                 
                 for blv in api_blv_list:
                     if isinstance(blv, dict):
                         blv_key = blv.get("blv_key") or blv.get("key") or blv.get("id") or "unknown"
                         blv_name = blv.get("blv_name") or get_blv_display_name(blv_key)
                         
-                        valid_keys = match_data.get("_blv_keys", [])
-                        if blv_key != "unknown" and valid_keys and blv_key not in valid_keys:
+                        # FIX CHÍNH Ở ĐÂY: 
+                        # Bỏ logic so khớp cứng (_blv_keys) vì API thường bị lệch dữ liệu (đặc biệt là Esport/UFC)
+                        # Chỉ skip nếu nó là kênh "nha-dai" (kênh nhà đài thường không có link hoặc lỗi)
+                        if "nha-dai" in str(blv_key).lower():
                             continue
                             
-                        stream_url = next((blv.get(k) for k in stream_keys if blv.get(k) and isinstance(blv.get(k), str)), None)
+                        # Dùng hàm thông minh để tìm link
+                        stream_url = extract_any_stream_url(blv)
                         
                         if stream_url:
                             if blv_name not in match_data["blvs_dict"]:
                                 match_data["blvs_dict"][blv_name] = []
                             if stream_url not in match_data["blvs_dict"][blv_name]:
                                 match_data["blvs_dict"][blv_name].append(stream_url)
+                
+                # FIX THÊM: Nếu lặp qua mảng blv mà không tìm được link, 
+                # có thể link nằm trực tiếp ở root của fixture_data (thường xảy ra với UFC/MMA)
+                if not match_data["blvs_dict"]:
+                    root_stream = extract_any_stream_url(fixture_data)
+                    if root_stream:
+                        match_data["blvs_dict"]["Trực Tiếp"] = [root_stream]
+                        
         except Exception:
             pass
             
