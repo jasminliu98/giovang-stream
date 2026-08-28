@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-10f7f147bc",
-          "name": "Racing Santander vs Elche | 00:00 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-10f7f147bc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-10f7f147bc",
-                  "name": "Racing Santander vs Elche",
-                  "streams": [
-                    {
-                      "id": "st-10f7f147bc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5311426098",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787878442_hd/1787878442_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Racing Santander",
-            "team_b": "Elche",
-            "logo_a": "https://images.keovip88.net/images/teams/racing-santander.png",
-            "logo_b": "https://images.keovip88.net/images/teams/elche.png",
-            "time": "00:00:00",
-            "date": "29/08",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a87954e24d46db870ab49c3_671bffbf_20260829.png?v=671bffbf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-4efc9c1df8",
-          "name": "Bayern Munich vs VfB Stuttgart | 01:30 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4efc9c1df8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4efc9c1df8",
-                  "name": "Bayern Munich vs VfB Stuttgart",
-                  "streams": [
-                    {
-                      "id": "st-4efc9c1df8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-925b872868",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787878485_hd/1787878485_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Bayern Munich",
-            "team_b": "VfB Stuttgart",
-            "logo_a": "https://images.keovip88.net/images/teams/bayern-munchen.png",
-            "logo_b": "https://images.keovip88.net/images/teams/vfb-stuttgart.png",
-            "time": "01:30:00",
-            "date": "29/08",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a87954f24d46db870ab4b67_fc1dfbe4_20260829.png?v=fc1dfbe4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e0ff8fffb4",
           "name": "AC Milan vs Venezia F.C. | 01:45 29/08",
@@ -1037,65 +893,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-94827c2ea1",
-          "name": "Turkey vs Poland | 23:00 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-94827c2ea1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-94827c2ea1",
-                  "name": "Turkey vs Poland",
-                  "streams": [
-                    {
-                      "id": "st-94827c2ea1",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Women's Volleyball Championship",
-            "team_a": "Turkey",
-            "team_b": "Poland",
-            "logo_a": "https://static.flashscore.com/res/image/data/lAFdyowS-6ys9CWQj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WnW15DfM-6ys9CWQj.png",
-            "time": "23:00:00",
-            "date": "28/08",
-            "blv": "",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/uzun0mh0n4a1_a5df3814_20260829.png?v=a5df3814",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-10d13bff5f",
           "name": "Thái Lan vs Nhật Bản | 16:15 29/08",
@@ -1208,119 +1010,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-23be784079",
-          "name": "European Poker Tour vs EPT Barcelona 2026 | 20:30 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-23be784079",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-23be784079",
-                  "name": "European Poker Tour vs EPT Barcelona 2026",
-                  "streams": [
-                    {
-                      "id": "st-23be784079",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "EPT",
-            "team_a": "European Poker Tour",
-            "team_b": "EPT Barcelona 2026",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM8O_UWj4Jx0C8WF3lBqwvONdSKR976PQghvZqX1o6tQ&s=10",
-            "logo_b": "https://i.ytimg.com/vi/-p1XsQ2wu-o/hq720.jpg?v=6a8438c8&sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBXkx85Q-6fYo4F6KDv4rchPkfPbg",
-            "time": "20:30:00",
-            "date": "28/08",
-            "blv": "",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/jlv5u4l299ja_cc0e9f15_20260829.png?v=cc0e9f15",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0d5f6ecfda",
-          "name": "dương quốc hoàng vs wojciech szewczyk | 23:00 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0d5f6ecfda",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0d5f6ecfda",
-                  "name": "dương quốc hoàng vs wojciech szewczyk",
-                  "streams": [
-                    {
-                      "id": "st-0d5f6ecfda",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Us Open 2026",
-            "team_a": "dương quốc hoàng",
-            "team_b": "wojciech szewczyk",
-            "logo_a": "https://kenh14cdn.com/203336854389633024/2024/5/6/photo-2-17149927922171695801684.jpg",
-            "logo_b": "https://worldnineballtour.com/wp-content/uploads/Wojciech-Szewczyk-1.png",
-            "time": "23:00:00",
-            "date": "28/08",
-            "blv": "",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/41qm0369jxcn_9283ece8_20260829.png?v=9283ece8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b658a76ae8",
           "name": "T1 vs FearX | 15:00 29/08",
