@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-39689dde22",
-          "name": "Dubai United vs Ittihad Kalba | 20:55 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-39689dde22",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-39689dde22",
-                  "name": "Dubai United vs Ittihad Kalba",
-                  "streams": [
-                    {
-                      "id": "st-39689dde22",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-65d2155a77",
-                          "name": "Tỵ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787882503_hd/1787882503_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG UAE",
-            "team_a": "Dubai United",
-            "team_b": "Ittihad Kalba",
-            "logo_a": "https://images.keovip88.net/images/teams/dubai-united.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ittihad-kalba.png",
-            "time": "20:55:00",
-            "date": "28/08",
-            "blv": "Tỵ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a87954b24d46db870ab45d1_7f0c7687_20260828.png?v=7f0c7687",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-80d3a04905",
           "name": "Al-Riyadh vs Al-Suqoor | 22:50 28/08",
@@ -722,83 +650,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1abef27e22",
-          "name": "Jordan vs Philippines | 19:30 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1abef27e22",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1abef27e22",
-                  "name": "Jordan vs Philippines",
-                  "streams": [
-                    {
-                      "id": "st-1abef27e22",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0afb118a7",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787903032_hd/1787903032_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA WC",
-            "team_a": "Jordan",
-            "team_b": "Philippines",
-            "logo_a": "https://static.flashscore.com/res/image/data/WOTMeDe5-dtzqTXTK.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QkqH8NfM-C61WJZ3f.png",
-            "time": "19:30:00",
-            "date": "28/08",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/3yaa6bdfuwcf_e483912b_20260828.png?v=e483912b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ec16174e9e",
           "name": "Georgia vs Montenegro | 22:30 28/08",
@@ -1335,87 +1191,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/41qm0369jxcn_9283ece8_20260828.png?v=9283ece8",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-3c3486d980",
-          "name": "ONE Friday Fights 168 & The Inner Circle 28 vs ONE Friday Fights 168 & The Inner Circle 28 | 18:30 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3c3486d980",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3c3486d980",
-                  "name": "ONE Friday Fights 168 & The Inner Circle 28 vs ONE Friday Fights 168 & The Inner Circle 28",
-                  "streams": [
-                    {
-                      "id": "st-3c3486d980",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-be70446904",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787882264_hd/1787882264_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ONE Friday Fights 168 & The Inner Circle 28",
-            "team_a": "ONE Friday Fights 168 & The Inner Circle 28",
-            "team_b": "ONE Friday Fights 168 & The Inner Circle 28",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSXdPBng79_BLmL1Wd3_Tnf8EwWMqXxF2epPm82-Ftdw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSXdPBng79_BLmL1Wd3_Tnf8EwWMqXxF2epPm82-Ftdw&s",
-            "time": "18:30:00",
-            "date": "28/08",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/tucki0xgjk2b_eedc6c27_20260828.png?v=eedc6c27",
             "width": 1600,
             "height": 1200
           }
