@@ -186,7 +186,25 @@
                     {
                       "id": "st-f687f46868",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0c352ddc75",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787735231_hd/1787735231_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -201,7 +219,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/shanghai-port.png",
             "time": "19:00:00",
             "date": "28/08",
-            "blv": "",
+            "blv": "Mason",
             "is_live": false,
             "cate_type": "football"
           },
