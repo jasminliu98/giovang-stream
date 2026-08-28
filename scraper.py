@@ -348,7 +348,8 @@ def cleanup_old_thumbs(days: int = 3):
             except Exception: pass
 
 # ─────────────────────────────────────────────────────────────────────────────
-# FETCH & GROUP LOGIC (ĐÃ FIX LỖI BỎ LỠ LINK UFC/ESPORT)
+# ─────────────────────────────────────────────────────────────────────────────
+# FETCH & GROUP LOGIC (ĐÃ BỔ SUNG RETRY KHI API BỊ RỚT)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def extract_any_stream_url(obj: dict) -> str:
@@ -465,47 +466,58 @@ def get_grouped_matches() -> dict:
                 grouped[match_id]["is_live"] = True
             grouped[match_id]["_blv_keys"] = list(set(grouped[match_id]["_blv_keys"] + blv_keys))
 
-    # ─── LẤY LINK TỪ API CHI TIẾT ───
+    # ─── LẤY LINK TỪ API CHI TIẾT (CÓ CƠ CHẾ THỬ LẠI KHI BỊ RỚT) ───
     for match_id, match_data in grouped.items():
-        try:
-            url = f"{API_FIXTURES}/{match_id}"
-            res = requests.get(url, headers=HEADERS, timeout=10)
-            data = res.json()
-            fixture_data = data.get("response", {}) if isinstance(data, dict) else {}
-            
-            if isinstance(fixture_data, dict):
-                api_blv_list = fixture_data.get("blv", [])
+        fixture_data = None
+        api_url = f"{API_FIXTURES}/{match_id}"
+        
+        # ★ Thử tối đa 3 lần nếu API bị lag/timeout
+        for attempt in range(3):
+            try:
+                res = requests.get(api_url, headers=HEADERS, timeout=12)
+                res.raise_for_status() # Bắt lỗi 404, 500...
+                data = res.json()
+                fixture_data = data.get("response", {}) if isinstance(data, dict) else {}
+                break # Lấy thành công thì thoát vòng lặp retry
+            except requests.exceptions.Timeout:
+                if attempt < 2:
+                    time.sleep(1) # Nghỉ 1 giây rồi thử lại
+            except requests.exceptions.HTTPError as e:
+                # Lỗi 404 hoặc 500 không cần thử lại
+                # print(f"  ⚠️ Lỗi API {e.response.status_code} cho: {match_data['name']}")
+                break
+            except Exception as e:
+                # print(f"  ⚠️ Lỗi parse JSON cho: {match_data['name']} -> {e}")
+                break
+        
+        # Nếu sau 3 lần vẫn không lấy được data, bỏ qua
+        if not isinstance(fixture_data, dict):
+            continue
+
+        api_blv_list = fixture_data.get("blv", [])
+        
+        for blv in api_blv_list:
+            if isinstance(blv, dict):
+                blv_key = blv.get("blv_key") or blv.get("key") or blv.get("id") or "unknown"
+                blv_name = blv.get("blv_name") or get_blv_display_name(blv_key)
                 
-                for blv in api_blv_list:
-                    if isinstance(blv, dict):
-                        blv_key = blv.get("blv_key") or blv.get("key") or blv.get("id") or "unknown"
-                        blv_name = blv.get("blv_name") or get_blv_display_name(blv_key)
-                        
-                        # FIX CHÍNH Ở ĐÂY: 
-                        # Bỏ logic so khớp cứng (_blv_keys) vì API thường bị lệch dữ liệu (đặc biệt là Esport/UFC)
-                        # Chỉ skip nếu nó là kênh "nha-dai" (kênh nhà đài thường không có link hoặc lỗi)
-                        if "nha-dai" in str(blv_key).lower():
-                            continue
-                            
-                        # Dùng hàm thông minh để tìm link
-                        stream_url = extract_any_stream_url(blv)
-                        
-                        if stream_url:
-                            if blv_name not in match_data["blvs_dict"]:
-                                match_data["blvs_dict"][blv_name] = []
-                            if stream_url not in match_data["blvs_dict"][blv_name]:
-                                match_data["blvs_dict"][blv_name].append(stream_url)
+                if "nha-dai" in str(blv_key).lower():
+                    continue
+                    
+                stream_url = extract_any_stream_url(blv)
                 
-                # FIX THÊM: Nếu lặp qua mảng blv mà không tìm được link, 
-                # có thể link nằm trực tiếp ở root của fixture_data (thường xảy ra với UFC/MMA)
-                if not match_data["blvs_dict"]:
-                    root_stream = extract_any_stream_url(fixture_data)
-                    if root_stream:
-                        match_data["blvs_dict"]["Trực Tiếp"] = [root_stream]
-                        
-        except Exception:
-            pass
-            
+                if stream_url:
+                    if blv_name not in match_data["blvs_dict"]:
+                        match_data["blvs_dict"][blv_name] = []
+                    if stream_url not in match_data["blvs_dict"][blv_name]:
+                        match_data["blvs_dict"][blv_name].append(stream_url)
+        
+        # Fallback: Tìm link nằm lỏng ở root
+        if not match_data["blvs_dict"]:
+            root_stream = extract_any_stream_url(fixture_data)
+            if root_stream:
+                match_data["blvs_dict"]["Trực Tiếp"] = [root_stream]
+                
         match_data.pop("_blv_keys", None)
 
     return grouped
