@@ -348,19 +348,6 @@ def cleanup_old_thumbs(days: int = 3):
             except Exception: pass
 
 # ─────────────────────────────────────────────────────────────────────────────
-# FETCH & GROUP LOGIC
-# ─────────────────────────────────────────────────────────────────────────────
-
-def fetch_json(url: str) -> list:
-    try:
-        res = requests.get(f"{url}?t={int(time.time() * 1000)}", headers=HEADERS, timeout=15)
-        data = res.json()
-        return data.get("response", []) if isinstance(data, dict) else []
-    except Exception as e:
-        print(f"  Loi fetch {url}: {e}")
-        return []
-
-# ─────────────────────────────────────────────────────────────────────────────
 # FETCH & GROUP LOGIC (ĐÃ FIX LỖI BỎ LỠ LINK UFC/ESPORT)
 # ─────────────────────────────────────────────────────────────────────────────
 
