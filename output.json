@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "18:35:00",
             "date": "28/08",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -854,8 +854,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-05c0e43004",
-          "name": "Syria vs Australia | 16:00 28/08",
+          "id": "gv-e9f713a902",
+          "name": "Mongolia vs Việt Nam | 18:00 28/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -865,78 +865,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-05c0e43004",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-05c0e43004",
-                  "name": "Syria vs Australia",
-                  "streams": [
-                    {
-                      "id": "st-05c0e43004",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f79d4fec1a",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787882427_hd/1787882427_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA WC",
-            "team_a": "Syria",
-            "team_b": "Australia",
-            "logo_a": "https://static.flashscore.com/res/image/data/4SMElrXg-pMAPH8AH.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Ygu7zgHG-YNb3oHYR.png",
-            "time": "16:00:00",
-            "date": "28/08",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/kyrslte6r74t_5e7b2f3a_20260828.png?v=5e7b2f3a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e9f713a902",
-          "name": "Mongolia vs Việt Nam | 18:00 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -985,7 +913,7 @@
             "time": "18:00:00",
             "date": "28/08",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1235,11 +1163,65 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-8b5f8576cd",
+          "name": "Trung Quốc vs Việt Nam | 18:30 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b5f8576cd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8b5f8576cd",
+                  "name": "Trung Quốc vs Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-8b5f8576cd",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Women's Volleyball Championship",
+            "team_a": "Trung Quốc",
+            "team_b": "Việt Nam",
+            "logo_a": "https://static.flashscore.com/res/image/data/IJDZmhjl-lSxdJQh4.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/StTKbSzS-A9PcSp30.png",
+            "time": "18:30:00",
+            "date": "28/08",
+            "blv": "",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/26q8tqshuiw1_d1ac5cb7_20260828.png?v=d1ac5cb7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-6ff71eb707",
           "name": "Spain vs Romania | 18:30 28/08",
@@ -1308,60 +1290,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/jp2jc6xptd40_6a866d8f_20260828.png?v=6a866d8f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8b5f8576cd",
-          "name": "Trung Quốc vs Việt Nam | 18:30 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8b5f8576cd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8b5f8576cd",
-                  "name": "Trung Quốc vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-8b5f8576cd",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Women's Volleyball Championship",
-            "team_a": "Trung Quốc",
-            "team_b": "Việt Nam",
-            "logo_a": "https://static.flashscore.com/res/image/data/IJDZmhjl-lSxdJQh4.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/StTKbSzS-A9PcSp30.png",
-            "time": "18:30:00",
-            "date": "28/08",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/26q8tqshuiw1_d1ac5cb7_20260828.png?v=d1ac5cb7",
             "width": 1600,
             "height": 1200
           }
