@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,6 +89,78 @@
           }
         },
         {
+          "id": "gv-e0eee5f026",
+          "name": "Coventry vs Hull City | 21:00 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e0eee5f026",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e0eee5f026",
+                  "name": "Coventry vs Hull City",
+                  "streams": [
+                    {
+                      "id": "st-e0eee5f026",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a2dfc09944",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787943646_hd/1787943646_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Coventry",
+            "team_b": "Hull City",
+            "logo_a": "https://images.keovip88.net/images/teams/coventry-city.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hull-city.png",
+            "time": "21:00:00",
+            "date": "29/08",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a87955724d46db870ab58f9_f9d99af5_20260829.png?v=f9d99af5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-bde3fd07c9",
           "name": "AFC Bournemouth vs Everton | 21:00 29/08",
           "type": "single",
@@ -161,78 +233,6 @@
           }
         },
         {
-          "id": "gv-e0eee5f026",
-          "name": "Coventry vs Hull City | 21:00 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e0eee5f026",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e0eee5f026",
-                  "name": "Coventry vs Hull City",
-                  "streams": [
-                    {
-                      "id": "st-e0eee5f026",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a2dfc09944",
-                          "name": "Trĩ vs Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787943646_hd/1787943646_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Coventry",
-            "team_b": "Hull City",
-            "logo_a": "https://images.keovip88.net/images/teams/coventry-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hull-city.png",
-            "time": "21:00:00",
-            "date": "29/08",
-            "blv": "Trĩ vs Bón",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a87955724d46db870ab58f9_f9d99af5_20260829.png?v=f9d99af5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-551fc89459",
           "name": "Levante vs Real Betis | 22:00 29/08",
           "type": "single",
@@ -258,25 +258,7 @@
                     {
                       "id": "st-551fc89459",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c95fe4a52e",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787943769_hd/1787943769_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -291,7 +273,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/real-betis.png",
             "time": "22:00:00",
             "date": "29/08",
-            "blv": "Dory",
+            "blv": "",
             "is_live": false,
             "cate_type": "football"
           },
@@ -330,25 +312,7 @@
                     {
                       "id": "st-97f5f59d34",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3008b8a59",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787988707_hd/1787988707_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -363,7 +327,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/frosinone.png",
             "time": "23:30:00",
             "date": "29/08",
-            "blv": "Mù",
+            "blv": "",
             "is_live": false,
             "cate_type": "football"
           },
@@ -402,25 +366,7 @@
                     {
                       "id": "st-00d67bcde5",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-017f0bd170",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787988822_hd/1787988822_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -435,7 +381,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/newcastle-united.png",
             "time": "23:30:00",
             "date": "29/08",
-            "blv": "Mason",
+            "blv": "",
             "is_live": false,
             "cate_type": "football"
           },
@@ -474,25 +420,7 @@
                     {
                       "id": "st-a9b4ec9e66",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cea3eedb5f",
-                          "name": "Trĩ vs Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787988972_hd/1787988972_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -507,7 +435,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
             "time": "00:00:00",
             "date": "30/08",
-            "blv": "Trĩ vs Bón",
+            "blv": "",
             "is_live": false,
             "cate_type": "football"
           },
@@ -546,25 +474,7 @@
                     {
                       "id": "st-1003971000",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-56fc5e1f55",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787943704_hd/1787943704_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -579,7 +489,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/le-havre.png",
             "time": "01:45:00",
             "date": "30/08",
-            "blv": "Sún",
+            "blv": "",
             "is_live": false,
             "cate_type": "football"
           },
@@ -618,25 +528,7 @@
                     {
                       "id": "st-0ebdcf3fc0",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-279d3bf3e2",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787989070_hd/1787989070_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -651,7 +543,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/atletico-madrid.png",
             "time": "02:30:00",
             "date": "30/08",
-            "blv": "Mason",
+            "blv": "",
             "is_live": false,
             "cate_type": "football"
           },
@@ -699,25 +591,7 @@
                     {
                       "id": "st-1eb3032981",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eecd96442b",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787943866_hd/1787943866_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -732,7 +606,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/4Cu1L1il-tSK2wunr.png",
             "time": "19:00:00",
             "date": "29/08",
-            "blv": "Sún",
+            "blv": "",
             "is_live": true,
             "cate_type": "bongchuyen"
           },
@@ -780,25 +654,7 @@
                     {
                       "id": "st-f95fef4e2f",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-892aef0e4f",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1786951799_hd/1786951799_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -813,7 +669,7 @@
             "logo_b": "https://s.pnimg.net/h9BtAQkgwrUbWe5aT7YHsoSZNxphDeb5ED1rMohacYs/pr:article-leading-desktop/aHR0cHM6Ly9wbmlt/Zy5uZXQvdy9hcnRp/Y2xlcy8wLzZhNy9i/NDhiMjc4NGNkLnBu/Zw.webp",
             "time": "20:30:00",
             "date": "29/08",
-            "blv": "Ngu",
+            "blv": "",
             "is_live": true,
             "cate_type": "esport"
           },
