@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-551fc89459",
-          "name": "Levante vs Real Betis | 22:00 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-551fc89459",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-551fc89459",
-                  "name": "Levante vs Real Betis",
-                  "streams": [
-                    {
-                      "id": "st-551fc89459",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c95fe4a52e",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787943769_hd/1787943769_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Levante",
-            "team_b": "Real Betis",
-            "logo_a": "https://images.keovip88.net/images/teams/levante.png",
-            "logo_b": "https://images.keovip88.net/images/teams/real-betis.png",
-            "time": "22:00:00",
-            "date": "29/08",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a87955d24d46db870ab62f1_0dc743ea_20260830.png?v=0dc743ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-00d67bcde5",
           "name": "Tottenham Hotspur vs Newcastle United | 23:30 29/08",
