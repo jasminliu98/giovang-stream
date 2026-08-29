@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0ebdcf3fc0",
-          "name": "Sevilla vs Atletico Madrid | 02:30 30/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0ebdcf3fc0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0ebdcf3fc0",
-                  "name": "Sevilla vs Atletico Madrid",
-                  "streams": [
-                    {
-                      "id": "st-0ebdcf3fc0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-279d3bf3e2",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787989070_hd/1787989070_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Sevilla",
-            "team_b": "Atletico Madrid",
-            "logo_a": "https://images.keovip88.net/images/teams/sevilla.png",
-            "logo_b": "https://images.keovip88.net/images/teams/atletico-madrid.png",
-            "time": "02:30:00",
-            "date": "30/08",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cb224d46db870e1a00f_62fe5182_20260830.png?v=62fe5182",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-df61107583",
           "name": "Marconi Stallions vs Spirit FC | 12:00 30/08",
