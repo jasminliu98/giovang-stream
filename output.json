@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "gv-97f5f59d34",
-          "name": "Fiorentina vs Frosinone | 23:30 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-97f5f59d34",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-97f5f59d34",
-                  "name": "Fiorentina vs Frosinone",
-                  "streams": [
-                    {
-                      "id": "st-97f5f59d34",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3008b8a59",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787988707_hd/1787988707_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Fiorentina",
-            "team_b": "Frosinone",
-            "logo_a": "https://images.keovip88.net/images/teams/fiorentina.png",
-            "logo_b": "https://images.keovip88.net/images/teams/frosinone.png",
-            "time": "23:30:00",
-            "date": "29/08",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a87956324d46db870ab6c92_ccd72dac_20260829.png?v=ccd72dac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-00d67bcde5",
           "name": "Tottenham Hotspur vs Newcastle United | 23:30 29/08",
           "type": "single",
@@ -228,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a87956324d46db870ab6c83_8f9f56c5_20260829.png?v=8f9f56c5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-97f5f59d34",
+          "name": "Fiorentina vs Frosinone | 23:30 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-97f5f59d34",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-97f5f59d34",
+                  "name": "Fiorentina vs Frosinone",
+                  "streams": [
+                    {
+                      "id": "st-97f5f59d34",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3008b8a59",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787988707_hd/1787988707_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Fiorentina",
+            "team_b": "Frosinone",
+            "logo_a": "https://images.keovip88.net/images/teams/fiorentina.png",
+            "logo_b": "https://images.keovip88.net/images/teams/frosinone.png",
+            "time": "23:30:00",
+            "date": "29/08",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a87956324d46db870ab6c92_ccd72dac_20260829.png?v=ccd72dac",
             "width": 1600,
             "height": 1200
           }
