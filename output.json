@@ -821,83 +821,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b658a76ae8",
-          "name": "T1 vs FearX | 15:00 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b658a76ae8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b658a76ae8",
-                  "name": "T1 vs FearX",
-                  "streams": [
-                    {
-                      "id": "st-b658a76ae8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-89fbb4de9d",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1787943924_hd/1787943924_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "T1",
-            "team_b": "FearX",
-            "logo_a": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/t0Ieuvf5-h2pEHB7M.png",
-            "time": "15:00:00",
-            "date": "29/08",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/xytkh5v8feg2_4527aecf_20260829.png?v=4527aecf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f95fef4e2f",
           "name": "MAIN EVENT — FINAL TABLE | EPT Barcelona vs MAIN EVENT — FINAL TABLE | EPT Barcelona | 20:30 29/08",
