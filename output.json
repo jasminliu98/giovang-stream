@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-aa628bb442",
-          "name": "Công An Hà Nội vs Hồ Chí Minh | 18:00 30/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aa628bb442",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-aa628bb442",
-                  "name": "Công An Hà Nội vs Hồ Chí Minh",
-                  "streams": [
-                    {
-                      "id": "st-aa628bb442",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4c4ed42542",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788057507_hd/1788057507_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Quốc gia Việt Nam",
-            "team_a": "Công An Hà Nội",
-            "team_b": "Hồ Chí Minh",
-            "logo_a": "https://static.flashscore.com/res/image/data/CU93T5Fa-KnmSRxvE.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Cf2X2OAr-0nzZbYGl.png",
-            "time": "18:00:00",
-            "date": "30/08",
-            "blv": "Bón",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/wr4cqolyoobx_02769fef_20260830.png?v=02769fef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-af71fe43d1",
           "name": "Leeds United vs Brentford | 20:00 30/08",
@@ -1216,83 +1144,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-553745e167",
-          "name": "Trung Quốc vs Thái Lan | 17:45 30/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-553745e167",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-553745e167",
-                  "name": "Trung Quốc vs Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-553745e167",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f5686a13a6",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788057239_hd/1788057239_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Women's Volleyball Championship",
-            "team_a": "Trung Quốc",
-            "team_b": "Thái Lan",
-            "logo_a": "https://static.flashscore.com/res/image/data/jLvlBTeM-QNrz0V5B.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/jH8flBZA-UknO2XLh.png",
-            "time": "17:45:00",
-            "date": "30/08",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/7bjmk43j3kr0_3d5512d2_20260830.png?v=3d5512d2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-0356134039",
           "name": "Pháp vs Hy Lạp | 21:00 30/08",
