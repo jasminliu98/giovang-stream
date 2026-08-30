@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "gv-d16a1623a6",
-          "name": "Sunderland vs Fulham | 20:00 30/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d16a1623a6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d16a1623a6",
-                  "name": "Sunderland vs Fulham",
-                  "streams": [
-                    {
-                      "id": "st-d16a1623a6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1747d68e4",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788057604_hd/1788057604_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Sunderland",
-            "team_b": "Fulham",
-            "logo_a": "https://images.keovip88.net/images/teams/sunderland-afc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fulham.png",
-            "time": "20:00:00",
-            "date": "30/08",
-            "blv": "Dory",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cba24d46db870e1ab98_4bdd10a5_20260830.png?v=4bdd10a5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-af71fe43d1",
           "name": "Leeds United vs Brentford | 20:00 30/08",
           "type": "single",
@@ -168,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -220,7 +148,7 @@
             "time": "20:00:00",
             "date": "30/08",
             "blv": "Ngọng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -240,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +220,7 @@
             "time": "20:00:00",
             "date": "30/08",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -300,6 +228,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cba24d46db870e1ab8a_3c586699_20260830.png?v=3c586699",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d16a1623a6",
+          "name": "Sunderland vs Fulham | 20:00 30/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d16a1623a6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d16a1623a6",
+                  "name": "Sunderland vs Fulham",
+                  "streams": [
+                    {
+                      "id": "st-d16a1623a6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a1747d68e4",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788057604_hd/1788057604_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Sunderland",
+            "team_b": "Fulham",
+            "logo_a": "https://images.keovip88.net/images/teams/sunderland-afc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fulham.png",
+            "time": "20:00:00",
+            "date": "30/08",
+            "blv": "Dory",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cba24d46db870e1ab98_4bdd10a5_20260830.png?v=4bdd10a5",
             "width": 1600,
             "height": 1200
           }
