@@ -1252,83 +1252,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0356134039",
-          "name": "Pháp vs Hy Lạp | 21:00 30/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0356134039",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0356134039",
-                  "name": "Pháp vs Hy Lạp",
-                  "streams": [
-                    {
-                      "id": "st-0356134039",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-27d53fc016",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788057298_hd/1788057298_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Women's Volleyball Championship",
-            "team_a": "Pháp",
-            "team_b": "Hy Lạp",
-            "logo_a": "https://static.flashscore.com/res/image/data/b5COzlBr-ppTTUyXP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/SABlqUyS-EcK7yLm6.png",
-            "time": "21:00:00",
-            "date": "30/08",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/z9kdwvhpd5dp_85884ab2_20260830.png?v=85884ab2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6ce872386a",
           "name": "Serbia vs Croatia | 00:00 31/08",
