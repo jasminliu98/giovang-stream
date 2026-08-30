@@ -11,227 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-af71fe43d1",
-          "name": "Leeds United vs Brentford | 20:00 30/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af71fe43d1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-af71fe43d1",
-                  "name": "Leeds United vs Brentford",
-                  "streams": [
-                    {
-                      "id": "st-af71fe43d1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30929fb9d4",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788057628_hd/1788057628_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Leeds United",
-            "team_b": "Brentford",
-            "logo_a": "https://images.keovip88.net/images/teams/leeds-united.png",
-            "logo_b": "https://images.keovip88.net/images/teams/brentford.png",
-            "time": "20:00:00",
-            "date": "30/08",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cba24d46db870e1ab8e_f82856d3_20260830.png?v=f82856d3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b12f89ecda",
-          "name": "Chelsea FC vs Brighton   Hove Albion | 20:00 30/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b12f89ecda",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b12f89ecda",
-                  "name": "Chelsea FC vs Brighton   Hove Albion",
-                  "streams": [
-                    {
-                      "id": "st-b12f89ecda",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8256e36153",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788057653_hd/1788057653_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Chelsea FC",
-            "team_b": "Brighton   Hove Albion",
-            "logo_a": "https://images.keovip88.net/images/teams/chelsea.png",
-            "logo_b": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
-            "time": "20:00:00",
-            "date": "30/08",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cba24d46db870e1ab8a_3c586699_20260830.png?v=3c586699",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d16a1623a6",
-          "name": "Sunderland vs Fulham | 20:00 30/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d16a1623a6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d16a1623a6",
-                  "name": "Sunderland vs Fulham",
-                  "streams": [
-                    {
-                      "id": "st-d16a1623a6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a1747d68e4",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788057604_hd/1788057604_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Sunderland",
-            "team_b": "Fulham",
-            "logo_a": "https://images.keovip88.net/images/teams/sunderland-afc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fulham.png",
-            "time": "20:00:00",
-            "date": "30/08",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cba24d46db870e1ab98_4bdd10a5_20260830.png?v=4bdd10a5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8aded00042",
           "name": "SC Freiburg vs Werder Bremen | 20:30 30/08",
@@ -377,78 +161,6 @@
           }
         },
         {
-          "id": "gv-b3c178be3c",
-          "name": "Augsburg vs Schalke 04 | 22:30 30/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b3c178be3c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b3c178be3c",
-                  "name": "Augsburg vs Schalke 04",
-                  "streams": [
-                    {
-                      "id": "st-b3c178be3c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e639f2c5da",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788057829_hd/1788057829_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Augsburg",
-            "team_b": "Schalke 04",
-            "logo_a": "https://images.keovip88.net/images/teams/augsburg.png",
-            "logo_b": "https://images.keovip88.net/images/teams/schalke-04.png",
-            "time": "22:30:00",
-            "date": "30/08",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cbf24d46db870e1b39d_d2c06898_20260830.png?v=d2c06898",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-8d41d12ebd",
           "name": "Manchester United vs Ipswich | 22:30 30/08",
           "type": "single",
@@ -456,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -525,7 +237,7 @@
             "time": "22:30:00",
             "date": "30/08",
             "blv": "Dory, Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -533,6 +245,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cbf24d46db870e1b394_d861fe42_20260830.png?v=d861fe42",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b3c178be3c",
+          "name": "Augsburg vs Schalke 04 | 22:30 30/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b3c178be3c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b3c178be3c",
+                  "name": "Augsburg vs Schalke 04",
+                  "streams": [
+                    {
+                      "id": "st-b3c178be3c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e639f2c5da",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788057829_hd/1788057829_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Augsburg",
+            "team_b": "Schalke 04",
+            "logo_a": "https://images.keovip88.net/images/teams/augsburg.png",
+            "logo_b": "https://images.keovip88.net/images/teams/schalke-04.png",
+            "time": "22:30:00",
+            "date": "30/08",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cbf24d46db870e1b39d_d2c06898_20260830.png?v=d2c06898",
             "width": 1600,
             "height": 1200
           }
@@ -757,7 +541,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -842,10 +626,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -894,7 +678,7 @@
             "time": "22:30:00",
             "date": "30/08",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
