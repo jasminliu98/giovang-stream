@@ -703,7 +703,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -716,10 +716,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -768,7 +768,7 @@
             "time": "13:00:00",
             "date": "30/08",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -979,11 +979,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-d358c15be6",
-                          "name": "Sún",
+                          "id": "lnk-94bbd57f09",
+                          "name": "Trĩ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788030186_hd/1788030186_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788069206_hd/1788069206_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1010,7 +1010,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/xt3pVREa-tWhhL1yr.png",
             "time": "14:15:00",
             "date": "30/08",
-            "blv": "Sún",
+            "blv": "Trĩ",
             "is_live": false,
             "cate_type": "bongchuyen"
           },
