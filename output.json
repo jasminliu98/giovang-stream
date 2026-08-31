@@ -308,83 +308,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-96fb0c3215",
-          "name": "South Korea vs Saudi Arabia | 17:00 31/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-96fb0c3215",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-96fb0c3215",
-                  "name": "South Korea vs Saudi Arabia",
-                  "streams": [
-                    {
-                      "id": "st-96fb0c3215",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0e5866538",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788166135_hd/1788166135_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA World Cup",
-            "team_a": "South Korea",
-            "team_b": "Saudi Arabia",
-            "logo_a": "https://static.flashscore.com/res/image/data/4lSeqKFG-AVYyKxPJ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8pDKFwgl-2FUMH7Dh.png",
-            "time": "17:00:00",
-            "date": "31/08",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/vl9b1q9wkk4d_1ce1686f_20260831.png?v=1ce1686f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-daa4309677",
           "name": "Japan vs Qatar | 17:10 31/08",
@@ -732,6 +660,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/zr0uv1a5qolz_abc37d61_20260831.png?v=abc37d61",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2aa72c1e43",
+          "name": "Turkey vs Azerbaijan | 23:00 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2aa72c1e43",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2aa72c1e43",
+                  "name": "Turkey vs Azerbaijan",
+                  "streams": [
+                    {
+                      "id": "st-2aa72c1e43",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Women's Volleyball Championship",
+            "team_a": "Turkey",
+            "team_b": "Azerbaijan",
+            "logo_a": "https://static.flashscore.com/res/image/data/Q7zzy7HG-Cfuwb3yH.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QXDfRbZg-dtrVaP64.png",
+            "time": "23:00:00",
+            "date": "01/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/n5pbus3uteb1_b4605425_20260831.png?v=b4605425",
             "width": 1600,
             "height": 1200
           }
