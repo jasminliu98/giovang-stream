@@ -308,7 +308,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -393,10 +393,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -445,7 +445,7 @@
             "time": "17:00:00",
             "date": "31/08",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -669,6 +669,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/rdkuicy50z31_7b6ceed5_20260831.png?v=7b6ceed5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e76c065318",
+          "name": "Greece vs Spain | 23:00 31/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e76c065318",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e76c065318",
+                  "name": "Greece vs Spain",
+                  "streams": [
+                    {
+                      "id": "st-e76c065318",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Greece",
+            "team_b": "Spain",
+            "logo_a": "https://static.flashscore.com/res/image/data/UknZz5hl-EcK7yLm6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/b5W8NzWg-Ykwr8Dur.png",
+            "time": "23:00:00",
+            "date": "31/08",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bcy41bp6f6w9_4ae111a9_20260831.png?v=4ae111a9",
             "width": 1600,
             "height": 1200
           }
