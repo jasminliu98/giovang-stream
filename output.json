@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d966197939",
-          "name": "U20 Việt Nam vs U20 CHDCND Triều Tiên | 19:00 31/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d966197939",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d966197939",
-                  "name": "U20 Việt Nam vs U20 CHDCND Triều Tiên",
-                  "streams": [
-                    {
-                      "id": "st-d966197939",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-53782edf3a",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788171394_hd/1788171394_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "U20 châu Á ",
-            "team_a": "U20 Việt Nam",
-            "team_b": "U20 CHDCND Triều Tiên",
-            "logo_a": "https://static.flashscore.com/res/image/data/rZCKbaFa-QHeKqeWC.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/CEKU1UwS-049Lq8a5.png",
-            "time": "19:00:00",
-            "date": "31/08",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/fycw6i17b0am_b27169de_20260831.png?v=b27169de",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5699877476",
           "name": "Lecce vs AS Roma | 23:30 31/08",
