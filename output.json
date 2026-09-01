@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-08edf73ebe",
-          "name": "Parma vs Cremonese | 23:00 01/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-08edf73ebe",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-08edf73ebe",
-                  "name": "Parma vs Cremonese",
-                  "streams": [
-                    {
-                      "id": "st-08edf73ebe",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afe37f3c24",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788234460_hd/1788234460_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Coppa Italia - 1/16-finals",
-            "team_a": "Parma",
-            "team_b": "Cremonese",
-            "logo_a": "https://static.flashscore.com/res/image/data/YcrE7ae5-fydXzLY6.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/EDUhUrDr-8b0QRXR3.png",
-            "time": "23:00:00",
-            "date": "01/09",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/a0w6bk5473hq_86aab7f9_20260902.png?v=86aab7f9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-20433e591e",
           "name": "Al Hilal vs Al Ahli Jeddah | 01:00 02/09",
@@ -750,87 +678,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/4a9rhz3di2k8_9f966bc3_20260902.png?v=9f966bc3",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-2aa72c1e43",
-          "name": "Turkey vs Azerbaijan | 23:00 01/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2aa72c1e43",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2aa72c1e43",
-                  "name": "Turkey vs Azerbaijan",
-                  "streams": [
-                    {
-                      "id": "st-2aa72c1e43",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e931f06743",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788177567_hd/1788177567_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Women's Volleyball Championship",
-            "team_a": "Turkey",
-            "team_b": "Azerbaijan",
-            "logo_a": "https://static.flashscore.com/res/image/data/Q7zzy7HG-Cfuwb3yH.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QXDfRbZg-dtrVaP64.png",
-            "time": "23:00:00",
-            "date": "01/09",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/n5pbus3uteb1_b4605425_20260902.png?v=b4605425",
             "width": 1600,
             "height": 1200
           }
