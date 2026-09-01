@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,6 +89,78 @@
           }
         },
         {
+          "id": "gv-20433e591e",
+          "name": "Al Hilal vs Al Ahli Jeddah | 01:00 02/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-20433e591e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-20433e591e",
+                  "name": "Al Hilal vs Al Ahli Jeddah",
+                  "streams": [
+                    {
+                      "id": "st-20433e591e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-58d033cffd",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788146517_hd/1788146517_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al Hilal",
+            "team_b": "Al Ahli Jeddah",
+            "logo_a": "https://images.keovip88.net/images/teams/al-hilal.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-ahli-sfc.png",
+            "time": "01:00:00",
+            "date": "02/09",
+            "blv": "Ngọng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2ccf24d46db870e1d5f4_4a355941_20260902.png?v=4a355941",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-826ba93a5c",
           "name": "Bayern vs Mainz | 23:00 01/09",
           "type": "single",
@@ -156,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/guodnfl1nirb_f793381e_20260902.png?v=f793381e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-20433e591e",
-          "name": "Al Hilal vs Al Ahli Jeddah | 01:00 02/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-20433e591e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-20433e591e",
-                  "name": "Al Hilal vs Al Ahli Jeddah",
-                  "streams": [
-                    {
-                      "id": "st-20433e591e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-58d033cffd",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788146517_hd/1788146517_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Al Hilal",
-            "team_b": "Al Ahli Jeddah",
-            "logo_a": "https://images.keovip88.net/images/teams/al-hilal.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-ahli-sfc.png",
-            "time": "01:00:00",
-            "date": "02/09",
-            "blv": "Ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2ccf24d46db870e1d5f4_4a355941_20260902.png?v=4a355941",
             "width": 1600,
             "height": 1200
           }
@@ -474,7 +474,25 @@
                     {
                       "id": "st-09750acda3",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-46035f8ff5",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788280888_hd/1788280888_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -489,7 +507,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/lCWrxmg5-SjJmyx86.png",
             "time": "07:00:00",
             "date": "02/09",
-            "blv": "",
+            "blv": "Ngọng",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1014,7 +1032,25 @@
                     {
                       "id": "st-845503a65a",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3daecbc562",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788281731_hd/1788281731_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1029,7 +1065,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/jmLVKEcM-6aera8NK.png",
             "time": "08:38:00",
             "date": "02/09",
-            "blv": "",
+            "blv": "Cầy",
             "is_live": false,
             "cate_type": "bongchay"
           },
@@ -1068,7 +1104,25 @@
                     {
                       "id": "st-3138a96827",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd877b048c",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788281847_hd/1788281847_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1083,7 +1137,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/6cQJ9nAr-pOg0ZmTB.png",
             "time": "09:10:00",
             "date": "02/09",
-            "blv": "",
+            "blv": "Ngu",
             "is_live": false,
             "cate_type": "bongchay"
           },
