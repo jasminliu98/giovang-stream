@@ -604,6 +604,69 @@
       ]
     },
     {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-c4d59c08d7",
+          "name": "US vs Open | 22:00 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c4d59c08d7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c4d59c08d7",
+                  "name": "US vs Open",
+                  "streams": [
+                    {
+                      "id": "st-c4d59c08d7",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "US Open",
+            "team_a": "US",
+            "team_b": "Open",
+            "logo_a": "https://yt3.googleusercontent.com/RA-1cQf66Q8tb1Yp5hbXeJvbGL1MrPrK_45ptJrulgj6lYH5NLylYk9m2A9bAwP-KhxohNaZ=s900-c-k-c0x00ffffff-no-rj",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtIj6qCCLU-5wjbh0CaMDY5GGye3BYQUFyl7fZoWqDjEnjVpaIuJF4b6I&s=10",
+            "time": "22:00:00",
+            "date": "01/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/4a9rhz3di2k8_9f966bc3_20260901.png?v=9f966bc3",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền",
       "display": "vertical",
