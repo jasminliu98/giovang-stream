@@ -798,7 +798,25 @@
                     {
                       "id": "st-16943a863d",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f9fc5aacfb",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788265431_hd/1788265431_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -813,7 +831,7 @@
             "logo_b": "https://r2.thesportsdb.com/images/media/event/poster/2u5cla1786011836.jpg",
             "time": "06:00:00",
             "date": "02/09",
-            "blv": "",
+            "blv": "Dory",
             "is_live": false,
             "cate_type": "vothuat"
           },
