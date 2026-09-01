@@ -433,6 +433,69 @@
       ]
     },
     {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-5e1378fd84",
+          "name": "GENG vs KT | 15:00 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e1378fd84",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5e1378fd84",
+                  "name": "GENG vs KT",
+                  "streams": [
+                    {
+                      "id": "st-5e1378fd84",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "GENG",
+            "team_b": "KT",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/7/77/Gen.G_Logo.svg?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=original",
+            "logo_b": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
+            "time": "15:00:00",
+            "date": "01/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/4i4pen96agtp_caefa250_20260901.png?v=caefa250",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchay",
       "name": "⚾ Bóng Chày (2 LIVE)",
       "display": "vertical",
