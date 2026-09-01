@@ -686,83 +686,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5e1378fd84",
-          "name": "GENG vs KT | 15:00 01/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5e1378fd84",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5e1378fd84",
-                  "name": "GENG vs KT",
-                  "streams": [
-                    {
-                      "id": "st-5e1378fd84",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ab71f4fb89",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788231284_hd/1788231284_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "GENG",
-            "team_b": "KT",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/7/77/Gen.G_Logo.svg?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=original",
-            "logo_b": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
-            "time": "15:00:00",
-            "date": "01/09",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/4i4pen96agtp_caefa250_20260901.png?v=caefa250",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f2d97e9ade",
           "name": "BFX vs DK | 15:00 03/09",
