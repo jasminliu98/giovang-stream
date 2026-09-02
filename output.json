@@ -638,6 +638,60 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-dd83340f7f",
+          "name": "Bacolod Tubo Slashers vs Meycauayan | 16:00 02/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dd83340f7f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dd83340f7f",
+                  "name": "Bacolod Tubo Slashers vs Meycauayan",
+                  "streams": [
+                    {
+                      "id": "st-dd83340f7f",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Philippines MPBL",
+            "team_a": "Bacolod Tubo Slashers",
+            "team_b": "Meycauayan",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c049b15e745f73b8589457b8d64b7975.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/779c533165ff6737a253e453f0e09e5c.png",
+            "time": "16:00:00",
+            "date": "02/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/24681278_c99ae1d6_20260902.png?v=c99ae1d6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-20d0a073fb",
           "name": "Abra Weavers vs Ilagan Isabela Cowboys | 16:00 03/09",
           "type": "single",
@@ -784,12 +838,129 @@
       ]
     },
     {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-2cf7c9bd2e",
+          "name": "Serbia vs Hy Lạp | 21:00 02/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2cf7c9bd2e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2cf7c9bd2e",
+                  "name": "Serbia vs Hy Lạp",
+                  "streams": [
+                    {
+                      "id": "st-2cf7c9bd2e",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Women's Volleyball Championship",
+            "team_a": "Serbia",
+            "team_b": "Hy Lạp",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/xyh1vmZ-xJH2iJCKjqS1Ow_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/4iCrrqHfq9zLlhOt34o7Pg_96x96.png",
+            "time": "21:00:00",
+            "date": "02/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/o2kbebnvt84h_5bbf5b59_20260902.png?v=5bbf5b59",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_esport",
       "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-98e74b6e30",
+          "name": "HLE vs T1 | 15:00 02/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-98e74b6e30",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-98e74b6e30",
+                  "name": "HLE vs T1",
+                  "streams": [
+                    {
+                      "id": "st-98e74b6e30",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LCK",
+            "team_a": "HLE",
+            "team_b": "T1",
+            "logo_a": "https://static.flashscore.com/res/image/data/pKkqJ4Wg-bB59SVBr.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/hxbcCXEa-rgb1I9qH.png",
+            "time": "15:00:00",
+            "date": "02/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/q3vecr4jxinc_0e41c744_20260902.png?v=0e41c744",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-f2d97e9ade",
           "name": "BFX vs DK | 15:00 03/09",
