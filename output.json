@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-a7e2a78e6a",
-          "name": "Udinese vs Venezia F.C. | 23:00 02/09",
+          "id": "gv-57b5c2e33a",
+          "name": "VfL Osnabruck vs Bayern Munich | 01:45 03/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,78 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7e2a78e6a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a7e2a78e6a",
-                  "name": "Udinese vs Venezia F.C.",
-                  "streams": [
-                    {
-                      "id": "st-a7e2a78e6a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b5fe4303fb",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788361207_hd/1788361207_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Ý",
-            "team_a": "Udinese",
-            "team_b": "Venezia F.C.",
-            "logo_a": "https://images.keovip88.net/images/teams/udinese.png",
-            "logo_b": "https://images.keovip88.net/images/teams/venezia.png",
-            "time": "23:00:00",
-            "date": "02/09",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8f7e5324d46db87045ed06_5d1475be_20260903.png?v=5d1475be",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-57b5c2e33a",
-          "name": "VfL Osnabruck vs Bayern Munich | 01:45 03/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -148,7 +76,7 @@
             "time": "01:45:00",
             "date": "03/09",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1704,6 +1632,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bp9k4gy6yxxt_e26b3035_20260903.png?v=e26b3035",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2f745b5951",
+          "name": "US Open WTA vs US Open WTA | 06:00 03/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2f745b5951",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2f745b5951",
+                  "name": "US Open WTA vs US Open WTA",
+                  "streams": [
+                    {
+                      "id": "st-2f745b5951",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "US Open WTA",
+            "team_a": "US Open WTA",
+            "team_b": "US Open WTA",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSid8hQv3qe8eN2yrnvzVq1QmXBW_oGlXIE1MLfSILg1A&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSid8hQv3qe8eN2yrnvzVq1QmXBW_oGlXIE1MLfSILg1A&s=10",
+            "time": "06:00:00",
+            "date": "03/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/2iwvsp350ppn_e26b3035_20260903.png?v=e26b3035",
             "width": 1600,
             "height": 1200
           }
