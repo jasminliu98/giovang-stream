@@ -1340,6 +1340,69 @@
           }
         }
       ]
+    },
+    {
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-a5cb9f7850",
+          "name": "Hooker vs Parnasse | 23:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a5cb9f7850",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a5cb9f7850",
+                  "name": "Hooker vs Parnasse",
+                  "streams": [
+                    {
+                      "id": "st-a5cb9f7850",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UFC Fight Night",
+            "team_a": "Hooker",
+            "team_b": "Parnasse",
+            "logo_a": "https://static.flashscore.com/res/image/data/xKi8F5jl-fsg9cE16.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/rDr7U2GG-bi14KuxD.png",
+            "time": "23:00:00",
+            "date": "05/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/43925pssgyen_a8d742ca_20260902.png?v=a8d742ca",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
