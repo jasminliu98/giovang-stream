@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -228,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cd024d46db870e1d847_abf4ec1d_20260902.png?v=abf4ec1d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-7df2cd16d2",
-          "name": "Yokohama F Marinos vs Kyoto Sanga | 17:00 02/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7df2cd16d2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7df2cd16d2",
-                  "name": "Yokohama F Marinos vs Kyoto Sanga",
-                  "streams": [
-                    {
-                      "id": "st-7df2cd16d2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-af8c1a8118",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788310905_hd/1788310905_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Yokohama F Marinos",
-            "team_b": "Kyoto Sanga",
-            "logo_a": "https://images.keovip88.net/images/teams/yokohama-marinos.png",
-            "logo_b": "https://images.keovip88.net/images/teams/kyoto-sanga.png",
-            "time": "17:00:00",
-            "date": "02/09",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cd024d46db870e1d851_66e9e3c0_20260902.png?v=66e9e3c0",
             "width": 1600,
             "height": 1200
           }
