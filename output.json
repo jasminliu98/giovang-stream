@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-3de3bb6d3f",
-          "name": "Sutherland Sharks vs Manly United | 16:30 02/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3de3bb6d3f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3de3bb6d3f",
-                  "name": "Sutherland Sharks vs Manly United",
-                  "streams": [
-                    {
-                      "id": "st-3de3bb6d3f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0cac31d6b",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788310381_hd/1788310381_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NPL NSW Úc",
-            "team_a": "Sutherland Sharks",
-            "team_b": "Manly United",
-            "logo_a": "https://images.keovip88.net/images/teams/sutherland-sharks.png",
-            "logo_b": "https://images.keovip88.net/images/teams/manly-united.png",
-            "time": "16:30:00",
-            "date": "02/09",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a96158b24d46db8700c2e81_ed70fc2b_20260902.png?v=ed70fc2b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-165199c3da",
           "name": "Cerezo Osaka vs Kashiwa Reysol | 17:00 02/09",
           "type": "single",
@@ -384,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +364,7 @@
             "time": "18:30:00",
             "date": "02/09",
             "blv": "Dory",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
