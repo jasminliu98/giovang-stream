@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,6 +161,78 @@
           }
         },
         {
+          "id": "gv-f977361c4a",
+          "name": "Toulouse vs Lille OSC | 01:45 04/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f977361c4a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f977361c4a",
+                  "name": "Toulouse vs Lille OSC",
+                  "streams": [
+                    {
+                      "id": "st-f977361c4a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4b84ffd535",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788402705_hd/1788402705_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Toulouse",
+            "team_b": "Lille OSC",
+            "logo_a": "https://images.keovip88.net/images/teams/toulouse.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lille.png",
+            "time": "01:45:00",
+            "date": "04/09",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8f7e5a24d46db87045f628_85523759_20260904.png?v=85523759",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-54f951f8b7",
           "name": "Afghanistan U20 vs Tajikistan U20 | 21:00 03/09",
           "type": "single",
@@ -228,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/r0ckzkum06ud_fce409a3_20260904.png?v=fce409a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f977361c4a",
-          "name": "Toulouse vs Lille OSC | 01:45 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f977361c4a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f977361c4a",
-                  "name": "Toulouse vs Lille OSC",
-                  "streams": [
-                    {
-                      "id": "st-f977361c4a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4b84ffd535",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788402705_hd/1788402705_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Toulouse",
-            "team_b": "Lille OSC",
-            "logo_a": "https://images.keovip88.net/images/teams/toulouse.png",
-            "logo_b": "https://images.keovip88.net/images/teams/lille.png",
-            "time": "01:45:00",
-            "date": "04/09",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8f7e5a24d46db87045f628_85523759_20260904.png?v=85523759",
             "width": 1600,
             "height": 1200
           }
