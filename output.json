@@ -1187,6 +1187,60 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-b8dae19501",
+          "name": "Felix Auger Aliassime vs Karen Khachanov | 22:00 03/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b8dae19501",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b8dae19501",
+                  "name": "Felix Auger Aliassime vs Karen Khachanov",
+                  "streams": [
+                    {
+                      "id": "st-b8dae19501",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "US Open ATP",
+            "team_a": "Felix Auger Aliassime",
+            "team_b": "Karen Khachanov",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUTqvFrv1pqmJ_DKk_2M04ZxtRPzvRPRmVYf69kbMwGQ&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK0FSTpP7xhGWgdvrCB41fDiGqaFvquxwyAQB2zMZhYA&s",
+            "time": "22:00:00",
+            "date": "03/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/utvx61hov20h_923f690b_20260903.png?v=923f690b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-7c43d71d17",
           "name": "Iga Swiatek vs Nadia Podoroska | 22:00 03/09",
           "type": "single",
