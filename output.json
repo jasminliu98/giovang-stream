@@ -1997,78 +1997,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-1493cc5c0f",
-          "name": "Pickleball world cup 2026 - Tiên Sơn Center vs Pickleball world cup 2026 - Tiên Sơn Center | 08:00 03/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1493cc5c0f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1493cc5c0f",
-                  "name": "Pickleball world cup 2026 - Tiên Sơn Center vs Pickleball world cup 2026 - Tiên Sơn Center",
-                  "streams": [
-                    {
-                      "id": "st-1493cc5c0f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6d342f4b98",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788359059_hd/1788359059_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Pickleball world cup 2026 - Đồng đội",
-            "team_a": "Pickleball world cup 2026 - Tiên Sơn Center",
-            "team_b": "Pickleball world cup 2026 - Tiên Sơn Center",
-            "logo_a": "https://bqn.1cdn.vn/thumbs/540x360/2026/08/28/_biangoai.png",
-            "logo_b": "https://bqn.1cdn.vn/thumbs/540x360/2026/08/28/_biangoai.png",
-            "time": "08:00:00",
-            "date": "03/09",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/emhofmtabwfj_ae72b950_20260903.png?v=ae72b950",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-f2d97e9ade",
           "name": "BFX vs DK | 15:00 03/09",
           "type": "single",
@@ -2148,10 +2076,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2200,7 +2128,7 @@
             "time": "15:00:00",
             "date": "03/09",
             "blv": "Dory",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
@@ -2275,6 +2203,60 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-89ab559f85",
+          "name": "Kun Khmer vs Day 1 | 17:00 03/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-89ab559f85",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-89ab559f85",
+                  "name": "Kun Khmer vs Day 1",
+                  "streams": [
+                    {
+                      "id": "st-89ab559f85",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Kun Khmer ",
+            "team_a": "Kun Khmer",
+            "team_b": "Day 1",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9ik9a4uPbyLVBR2iA436lSL6zLyETNUZlAax2rRuhbw&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz4_AHHWsCn7x3kMK3HihgNNOp4Shc761BjI7-KXdQ_h2XMd8d3DAlgwWu&s=10",
+            "time": "17:00:00",
+            "date": "03/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/rpjmb3ksumxg_0a7417c8_20260903.png?v=0a7417c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-a5cb9f7850",
           "name": "Hooker vs Parnasse | 23:00 05/09",
