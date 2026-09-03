@@ -827,6 +827,60 @@
           }
         },
         {
+          "id": "gv-05333973d9",
+          "name": "Al-Ahli Doha vs Qatar SC | 21:00 03/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05333973d9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-05333973d9",
+                  "name": "Al-Ahli Doha vs Qatar SC",
+                  "streams": [
+                    {
+                      "id": "st-05333973d9",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Qatar",
+            "team_a": "Al-Ahli Doha",
+            "team_b": "Qatar SC",
+            "logo_a": "https://images.keovip88.net/images/teams/al-ahli-doha.png",
+            "logo_b": "https://images.keovip88.net/images/teams/qatar-sc.png",
+            "time": "21:00:00",
+            "date": "03/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cd624d46db870e1e02b_42c6f8dc_20260903.png?v=42c6f8dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-d88d3ecc95",
           "name": "Kyrgyzstan U20 vs Lebanon U20 | 21:30 03/09",
           "type": "single",
@@ -876,6 +930,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/3aut9bk7eu2w_85e4765b_20260903.png?v=85e4765b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6705f58fc3",
+          "name": "Al-Feiha vs Al Kholood | 22:55 03/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6705f58fc3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6705f58fc3",
+                  "name": "Al-Feiha vs Al Kholood",
+                  "streams": [
+                    {
+                      "id": "st-6705f58fc3",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Feiha",
+            "team_b": "Al Kholood",
+            "logo_a": "https://images.keovip88.net/images/teams/al-feiha.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-kholood.png",
+            "time": "22:55:00",
+            "date": "03/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cd624d46db870e1e0c8_7745eafd_20260903.png?v=7745eafd",
             "width": 1600,
             "height": 1200
           }
@@ -1050,7 +1158,25 @@
                     {
                       "id": "st-f977361c4a",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-4b84ffd535",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788402705_hd/1788402705_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1065,7 +1191,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/lille.png",
             "time": "01:45:00",
             "date": "04/09",
-            "blv": "",
+            "blv": "Mason",
             "is_live": false,
             "cate_type": "football"
           },
