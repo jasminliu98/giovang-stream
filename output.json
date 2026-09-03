@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-f83193de5d",
-          "name": "India U20 vs Uzbekistan U20 | 21:00 03/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f83193de5d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f83193de5d",
-                  "name": "India U20 vs Uzbekistan U20",
-                  "streams": [
-                    {
-                      "id": "st-f83193de5d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dc0ea843f8",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788232271_hd/1788232271_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U20 Qualification",
-            "team_a": "India U20",
-            "team_b": "Uzbekistan U20",
-            "logo_a": "https://images.keovip88.net/images/teams/india.png",
-            "logo_b": "https://images.keovip88.net/images/teams/uzbekistan-u23.png",
-            "time": "21:00:00",
-            "date": "03/09",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/0zg8gsxc7p7o_8672390a_20260903.png?v=8672390a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-05333973d9",
           "name": "Al-Ahli Doha vs Qatar SC | 21:00 03/09",
           "type": "single",
@@ -233,6 +161,78 @@
           }
         },
         {
+          "id": "gv-977ecfd5e8",
+          "name": "Al-Suqoor vs Al Khaleej Club | 23:30 03/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-977ecfd5e8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-977ecfd5e8",
+                  "name": "Al-Suqoor vs Al Khaleej Club",
+                  "streams": [
+                    {
+                      "id": "st-977ecfd5e8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9cffe90265",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788399187_hd/1788399187_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Suqoor",
+            "team_b": "Al Khaleej Club",
+            "logo_a": "https://images.keovip88.net/images/teams/neom.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-khaleej.png",
+            "time": "23:30:00",
+            "date": "03/09",
+            "blv": "Bee",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cd724d46db870e1e0f1_ecda3eb4_20260903.png?v=ecda3eb4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-54f951f8b7",
           "name": "Afghanistan U20 vs Tajikistan U20 | 21:00 03/09",
           "type": "single",
@@ -300,78 +300,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/r0ckzkum06ud_fce409a3_20260903.png?v=fce409a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-977ecfd5e8",
-          "name": "Al-Suqoor vs Al Khaleej Club | 23:30 03/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-977ecfd5e8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-977ecfd5e8",
-                  "name": "Al-Suqoor vs Al Khaleej Club",
-                  "streams": [
-                    {
-                      "id": "st-977ecfd5e8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9cffe90265",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788399187_hd/1788399187_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Al-Suqoor",
-            "team_b": "Al Khaleej Club",
-            "logo_a": "https://images.keovip88.net/images/teams/neom.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-khaleej.png",
-            "time": "23:30:00",
-            "date": "03/09",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cd724d46db870e1e0f1_ecda3eb4_20260903.png?v=ecda3eb4",
             "width": 1600,
             "height": 1200
           }
@@ -875,7 +803,7 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1032,10 +960,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1084,7 +1012,7 @@
             "time": "23:30:00",
             "date": "03/09",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -1428,6 +1356,60 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-2bd0ee627d",
+          "name": "Hàn Quốc vs Đài Loan | 14:00 04/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2bd0ee627d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2bd0ee627d",
+                  "name": "Hàn Quốc vs Đài Loan",
+                  "streams": [
+                    {
+                      "id": "st-2bd0ee627d",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Championship",
+            "team_a": "Hàn Quốc",
+            "team_b": "Đài Loan",
+            "logo_a": "https://static.flashscore.com/res/image/data/E9rftfEa-G2bHWF8P.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/rgc87gZA-C8K3ehVO.png",
+            "time": "14:00:00",
+            "date": "04/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/7hmb1lp9ah83_872d55d5_20260903.png?v=872d55d5",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1569,6 +1551,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/zlge7vmp3jfm_7f9402ff_20260903.png?v=7f9402ff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b9edc6d1df",
+          "name": "Los Angeles Dodgers vs St.Louis Cardinals | 09:10 04/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9edc6d1df",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b9edc6d1df",
+                  "name": "Los Angeles Dodgers vs St.Louis Cardinals",
+                  "streams": [
+                    {
+                      "id": "st-b9edc6d1df",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Los Angeles Dodgers",
+            "team_b": "St.Louis Cardinals",
+            "logo_a": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/6cQJ9nAr-pOg0ZmTB.png",
+            "time": "09:10:00",
+            "date": "04/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/5r2gia8q81ut_dada2085_20260903.png?v=dada2085",
             "width": 1600,
             "height": 1200
           }
