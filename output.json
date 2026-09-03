@@ -1824,7 +1824,25 @@
                     {
                       "id": "st-1247398cf6",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-538976cae5",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788427542_hd/1788427542_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1839,7 +1857,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/UDnGEpDr-j3eqe4HM.png",
             "time": "06:00:00",
             "date": "04/09",
-            "blv": "",
+            "blv": "Sún",
             "is_live": false,
             "cate_type": "tennis"
           },
