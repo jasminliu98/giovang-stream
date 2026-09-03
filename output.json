@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -305,6 +305,150 @@
           }
         },
         {
+          "id": "gv-f83193de5d",
+          "name": "India U20 vs Uzbekistan U20 | 21:00 03/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f83193de5d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f83193de5d",
+                  "name": "India U20 vs Uzbekistan U20",
+                  "streams": [
+                    {
+                      "id": "st-f83193de5d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dc0ea843f8",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788232271_hd/1788232271_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U20 Qualification",
+            "team_a": "India U20",
+            "team_b": "Uzbekistan U20",
+            "logo_a": "https://images.keovip88.net/images/teams/india.png",
+            "logo_b": "https://images.keovip88.net/images/teams/uzbekistan-u23.png",
+            "time": "21:00:00",
+            "date": "03/09",
+            "blv": "Ngu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/0zg8gsxc7p7o_8672390a_20260903.png?v=8672390a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-05333973d9",
+          "name": "Al-Ahli Doha vs Qatar SC | 21:00 03/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-05333973d9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-05333973d9",
+                  "name": "Al-Ahli Doha vs Qatar SC",
+                  "streams": [
+                    {
+                      "id": "st-05333973d9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2273249618",
+                          "name": "Tỵ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788420155_hd/1788420155_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Qatar",
+            "team_a": "Al-Ahli Doha",
+            "team_b": "Qatar SC",
+            "logo_a": "https://images.keovip88.net/images/teams/al-ahli-doha.png",
+            "logo_b": "https://images.keovip88.net/images/teams/qatar-sc.png",
+            "time": "21:00:00",
+            "date": "03/09",
+            "blv": "Tỵ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cd624d46db870e1e02b_42c6f8dc_20260903.png?v=42c6f8dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-69bfb95105",
           "name": "Macau U20 vs Singapore U20 | 16:00 03/09",
           "type": "single",
@@ -372,150 +516,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/3oxei7r8m8u1_eef0e6fd_20260903.png?v=eef0e6fd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f83193de5d",
-          "name": "India U20 vs Uzbekistan U20 | 21:00 03/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f83193de5d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f83193de5d",
-                  "name": "India U20 vs Uzbekistan U20",
-                  "streams": [
-                    {
-                      "id": "st-f83193de5d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dc0ea843f8",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788232271_hd/1788232271_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U20 Qualification",
-            "team_a": "India U20",
-            "team_b": "Uzbekistan U20",
-            "logo_a": "https://images.keovip88.net/images/teams/india.png",
-            "logo_b": "https://images.keovip88.net/images/teams/uzbekistan-u23.png",
-            "time": "21:00:00",
-            "date": "03/09",
-            "blv": "Ngu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/0zg8gsxc7p7o_8672390a_20260903.png?v=8672390a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-05333973d9",
-          "name": "Al-Ahli Doha vs Qatar SC | 21:00 03/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-05333973d9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-05333973d9",
-                  "name": "Al-Ahli Doha vs Qatar SC",
-                  "streams": [
-                    {
-                      "id": "st-05333973d9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2273249618",
-                          "name": "Tỵ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788420155_hd/1788420155_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Qatar",
-            "team_a": "Al-Ahli Doha",
-            "team_b": "Qatar SC",
-            "logo_a": "https://images.keovip88.net/images/teams/al-ahli-doha.png",
-            "logo_b": "https://images.keovip88.net/images/teams/qatar-sc.png",
-            "time": "21:00:00",
-            "date": "03/09",
-            "blv": "Tỵ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8e2cd624d46db870e1e02b_42c6f8dc_20260903.png?v=42c6f8dc",
             "width": 1600,
             "height": 1200
           }
