@@ -1532,83 +1532,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-7fbd0981e5",
-          "name": "Seattle Mariners vs Athletics | 08:40 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7fbd0981e5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7fbd0981e5",
-                  "name": "Seattle Mariners vs Athletics",
-                  "streams": [
-                    {
-                      "id": "st-7fbd0981e5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b7d09fa354",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788450816_hd/1788450816_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Seattle Mariners",
-            "team_b": "Athletics",
-            "logo_a": "https://static.flashscore.com/res/image/data/YPyyksFG-CrchK1NQ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OnC9Vnjl-2NA0SpQN.png",
-            "time": "08:40:00",
-            "date": "04/09",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/zlge7vmp3jfm_7f9402ff_20260904.png?v=7f9402ff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b9edc6d1df",
           "name": "Los Angeles Dodgers vs St.Louis Cardinals | 09:10 04/09",
