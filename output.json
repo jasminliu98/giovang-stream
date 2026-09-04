@@ -1460,83 +1460,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9e011c82c8",
-          "name": "LI-NING China Masters 2026 - Tứ Kết - Sân 2 vs LI-NING China Masters 2026 - Tứ Kết - Sân 2 | 16:00 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9e011c82c8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9e011c82c8",
-                  "name": "LI-NING China Masters 2026 - Tứ Kết - Sân 2 vs LI-NING China Masters 2026 - Tứ Kết - Sân 2",
-                  "streams": [
-                    {
-                      "id": "st-9e011c82c8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0bdcb709ee",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788509971_hd/1788509971_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LI-NING China Masters 2026 - Tứ Kết - Sân 2",
-            "team_a": "LI-NING China Masters 2026 - Tứ Kết - Sân 2",
-            "team_b": "LI-NING China Masters 2026 - Tứ Kết - Sân 2",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrtpqtMKrb2XBT1OiDSFtwrBERFzyGg12Y84X4BCLdnw&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrtpqtMKrb2XBT1OiDSFtwrBERFzyGg12Y84X4BCLdnw&s",
-            "time": "16:00:00",
-            "date": "04/09",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/q3a0rmakp2xe_2c0b68cc_20260904.png?v=2c0b68cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ec29a73d0d",
           "name": "Team Falcons vs G2 Esport | 21:00 04/09",
@@ -1820,7 +1748,7 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1833,10 +1761,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1885,7 +1813,7 @@
             "time": "21:00:00",
             "date": "04/09",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "duaxe"
           },
           "image": {
