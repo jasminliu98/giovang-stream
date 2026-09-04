@@ -632,65 +632,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-68915a1f2b",
-          "name": "Australia (W) vs Puerto Rico (W) | 16:30 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-68915a1f2b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-68915a1f2b",
-                  "name": "Australia (W) vs Puerto Rico (W)",
-                  "streams": [
-                    {
-                      "id": "st-68915a1f2b",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Women Basketball World Cup",
-            "team_a": "Australia (W)",
-            "team_b": "Puerto Rico (W)",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/75ba6ed155a553beb447189dab150653.jpg",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/0282cfe2713c2109f487b62ef6b76fc4.png",
-            "time": "16:30:00",
-            "date": "04/09",
-            "blv": "",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/22830373_7d709049_20260904.png?v=7d709049",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-bbf077c096",
           "name": "USA (W) vs China (w) | 19:15 04/09",
