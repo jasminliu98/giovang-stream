@@ -1574,6 +1574,60 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-aa347c3ffb",
+          "name": "Kun Khmer vs Day 2 | 17:00 04/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aa347c3ffb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-aa347c3ffb",
+                  "name": "Kun Khmer vs Day 2",
+                  "streams": [
+                    {
+                      "id": "st-aa347c3ffb",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Kun Khmer ",
+            "team_a": "Kun Khmer",
+            "team_b": "Day 2",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9ik9a4uPbyLVBR2iA436lSL6zLyETNUZlAax2rRuhbw&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz4_AHHWsCn7x3kMK3HihgNNOp4Shc761BjI7-KXdQ_h2XMd8d3DAlgwWu&s=10",
+            "time": "17:00:00",
+            "date": "04/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bxdxgdt5577x_0a7417c8_20260904.png?v=0a7417c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-8c27ae9cf0",
           "name": "ONE Friday Fights 169 & The Inner Circle 29 vs ONE Friday Fights 169 & The Inner Circle 29 | 18:30 04/09",
           "type": "single",
