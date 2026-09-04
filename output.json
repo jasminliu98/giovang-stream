@@ -1397,83 +1397,11 @@
     },
     {
       "id": "cate_tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-30acebf2e6",
-          "name": "Aryna Sabalenka vs Kamilla Rakhimova | 22:00 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-30acebf2e6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-30acebf2e6",
-                  "name": "Aryna Sabalenka vs Kamilla Rakhimova",
-                  "streams": [
-                    {
-                      "id": "st-30acebf2e6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d7f210ff38",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788495714_hd/1788495714_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "US Open WTA",
-            "team_a": "Aryna Sabalenka",
-            "team_b": "Kamilla Rakhimova",
-            "logo_a": "https://static.flashscore.com/res/image/data/xhwEtyEa-I9HZAz1R.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/U5jC02xS-EgnkERlR.png",
-            "time": "22:00:00",
-            "date": "04/09",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/yd697gjbhu3a_e8a7e522_20260904.png?v=e8a7e522",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-869d611dc2",
           "name": "Jessica Pegula vs Leylah Fernandez | 22:30 04/09",
@@ -1944,7 +1872,7 @@
       "channels": [
         {
           "id": "gv-ec29a73d0d",
-          "name": "Team Falcons vs G2 Esport | 21:00 04/09",
+          "name": "Furia vs Vitality | 23:30 04/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1963,7 +1891,7 @@
               "contents": [
                 {
                   "id": "ct-ec29a73d0d",
-                  "name": "Team Falcons vs G2 Esport",
+                  "name": "Furia vs Vitality",
                   "streams": [
                     {
                       "id": "st-ec29a73d0d",
@@ -1995,11 +1923,11 @@
           ],
           "org_metadata": {
             "league": "BLAST",
-            "team_a": "Team Falcons",
-            "team_b": "G2 Esport",
-            "logo_a": "https://static.flashscore.com/res/image/data/GfCFGXDa-Ox5OEEWq.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/EgYNlNDa-YoDO6SX0.png",
-            "time": "21:00:00",
+            "team_a": "Furia",
+            "team_b": "Vitality",
+            "logo_a": "https://static.flashscore.com/res/image/data/G2z2rzf5-EgrECzdn.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/C8zF3GEG-lG2kTCDf.png",
+            "time": "23:30:00",
             "date": "04/09",
             "blv": "Tôm",
             "is_live": true,
@@ -2009,7 +1937,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/etphn6fa0sqo_aea0f248_20260904.png?v=aea0f248",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/etphn6fa0sqo_c2ce3896_20260904.png?v=c2ce3896",
             "width": 1600,
             "height": 1200
           }
