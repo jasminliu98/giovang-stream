@@ -764,78 +764,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-ffd7d93f77",
-          "name": "Czech Republic W vs Italy W | 01:15 05/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ffd7d93f77",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ffd7d93f77",
-                  "name": "Czech Republic W vs Italy W",
-                  "streams": [
-                    {
-                      "id": "st-ffd7d93f77",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-34cbe46d02",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788521474_hd/1788521474_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Basketball World Cup",
-            "team_a": "Czech Republic W",
-            "team_b": "Italy W",
-            "logo_a": "https://static.flashscore.com/res/image/data/YmKoSeWg-b1xaMyVe.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8GPRc1yB-xCsenx2O.png",
-            "time": "01:15:00",
-            "date": "05/09",
-            "blv": "Điếc",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1m02xs8qxnsz_a9f729ae_20260905.png?v=a9f729ae",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-6d47994652",
           "name": "Hungary W vs France W | 02:00 05/09",
           "type": "single",
@@ -933,7 +861,25 @@
                     {
                       "id": "st-f9943a6930",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1980834d5b",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788535628_hd/1788535628_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -948,7 +894,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/hjKNXXh5-dINMEfSG.png",
             "time": "07:00:00",
             "date": "05/09",
-            "blv": "",
+            "blv": "Chồn",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -1473,7 +1419,25 @@
                     {
                       "id": "st-a0bfbad8c8",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-23dcd7e4f7",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788535376_hd/1788535376_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1488,7 +1452,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/t48bJawS-pYWEJTrt.png",
             "time": "08:00:00",
             "date": "05/09",
-            "blv": "",
+            "blv": "Sún",
             "is_live": false,
             "cate_type": "bongchuyen"
           },
