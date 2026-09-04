@@ -1172,83 +1172,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2bd0ee627d",
-          "name": "Hàn Quốc vs Đài Loan | 14:00 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2bd0ee627d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2bd0ee627d",
-                  "name": "Hàn Quốc vs Đài Loan",
-                  "streams": [
-                    {
-                      "id": "st-2bd0ee627d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bd015ba762",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788451216_hd/1788451216_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Championship",
-            "team_a": "Hàn Quốc",
-            "team_b": "Đài Loan",
-            "logo_a": "https://static.flashscore.com/res/image/data/E9rftfEa-G2bHWF8P.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/rgc87gZA-C8K3ehVO.png",
-            "time": "14:00:00",
-            "date": "04/09",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/7hmb1lp9ah83_872d55d5_20260904.png?v=872d55d5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8723a764a8",
           "name": "Nhật Bản vs Oman | 17:30 04/09",
