@@ -1547,6 +1547,60 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-5420465e6c",
+          "name": "ONE Fight Night 47 vs ONE Fight Night 47 | 08:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5420465e6c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5420465e6c",
+                  "name": "ONE Fight Night 47 vs ONE Fight Night 47",
+                  "streams": [
+                    {
+                      "id": "st-5420465e6c",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ONE Fight Night 47",
+            "team_a": "ONE Fight Night 47",
+            "team_b": "ONE Fight Night 47",
+            "logo_a": "https://i.ytimg.com/vi/e9lHfCTDsps/hqdefault.jpg?v=6a970a5f",
+            "logo_b": "https://i.ytimg.com/vi/e9lHfCTDsps/hqdefault.jpg?v=6a970a5f",
+            "time": "08:00:00",
+            "date": "05/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/sfgz4qkdw05o_f3dfb04b_20260904.png?v=f3dfb04b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-a5cb9f7850",
           "name": "Hooker vs Parnasse | 23:00 05/09",
           "type": "single",
@@ -1614,6 +1668,69 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/43925pssgyen_a8d742ca_20260904.png?v=a8d742ca",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-0a521dc958",
+          "name": "New York Yankees vs San Diego Padres | 08:40 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a521dc958",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0a521dc958",
+                  "name": "New York Yankees vs San Diego Padres",
+                  "streams": [
+                    {
+                      "id": "st-0a521dc958",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "New York Yankees",
+            "team_b": "San Diego Padres",
+            "logo_a": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YsFz7vWg-plL3Lm41.png",
+            "time": "08:40:00",
+            "date": "05/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/a1hiap43fdrp_291d78f0_20260904.png?v=291d78f0",
             "width": 1600,
             "height": 1200
           }
