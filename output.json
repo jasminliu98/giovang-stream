@@ -638,8 +638,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-579c3b7ce8",
-          "name": "Australia W vs Puerto Rico W | 16:30 04/09",
+          "id": "gv-68915a1f2b",
+          "name": "Australia (W) vs Puerto Rico (W) | 16:30 04/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -653,231 +653,15 @@
           ],
           "sources": [
             {
-              "id": "src-579c3b7ce8",
+              "id": "src-68915a1f2b",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-579c3b7ce8",
-                  "name": "Australia W vs Puerto Rico W",
+                  "id": "ct-68915a1f2b",
+                  "name": "Australia (W) vs Puerto Rico (W)",
                   "streams": [
                     {
-                      "id": "st-579c3b7ce8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e712fa32ad",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788495214_hd/1788495214_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA World Cup",
-            "team_a": "Australia W",
-            "team_b": "Puerto Rico W",
-            "logo_a": "https://static.flashscore.com/res/image/data/z18K4qZA-8STS1xJ8.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/ANrPEEfM-vNOONQMa.png",
-            "time": "16:30:00",
-            "date": "04/09",
-            "blv": "Chồn",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/xqk10q0wdbcw_54203bb8_20260904.png?v=54203bb8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e3d40e21cf",
-          "name": "USA W vs China W | 19:15 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e3d40e21cf",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e3d40e21cf",
-                  "name": "USA W vs China W",
-                  "streams": [
-                    {
-                      "id": "st-e3d40e21cf",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6cc41189c6",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788495342_hd/1788495342_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA World Cup",
-            "team_a": "USA W",
-            "team_b": "China W",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/wj9uZvn_vZrelLFGH8fnPA_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/8Cr5Gw-79PpIX2rIEZ7Pvg_96x96.png",
-            "time": "19:15:00",
-            "date": "04/09",
-            "blv": "Vịt",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/c3gxvbf285so_5ab806a8_20260904.png?v=5ab806a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-abc07ab8e4",
-          "name": "South Korea W vs Nigeria W | 19:30 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-abc07ab8e4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-abc07ab8e4",
-                  "name": "South Korea W vs Nigeria W",
-                  "streams": [
-                    {
-                      "id": "st-abc07ab8e4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4df1bab6c",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788495394_hd/1788495394_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA World Cup",
-            "team_a": "South Korea W",
-            "team_b": "Nigeria W",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/Uu5pwNmMHGd5bCooKrS3Lw_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/2vpR8clrEZdpNjaiHKpg7A_96x96.png",
-            "time": "19:30:00",
-            "date": "04/09",
-            "blv": "Cầy",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/3dqxbnyujdkq_319bdca3_20260904.png?v=319bdca3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d3e31db2ce",
-          "name": "Belgium W vs Turkey W | 22:30 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d3e31db2ce",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d3e31db2ce",
-                  "name": "Belgium W vs Turkey W",
-                  "streams": [
-                    {
-                      "id": "st-d3e31db2ce",
+                      "id": "st-68915a1f2b",
                       "name": "GV",
                       "stream_links": []
                     }
@@ -887,11 +671,173 @@
             }
           ],
           "org_metadata": {
-            "league": "FIBA World Cup",
-            "team_a": "Belgium W",
-            "team_b": "Turkey W",
-            "logo_a": "https://static.flashscore.com/res/image/data/6cWqJ0Wg-YwmRHSUk.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/xj2CEkf5-4W8hcela.png",
+            "league": "FIBA Women Basketball World Cup",
+            "team_a": "Australia (W)",
+            "team_b": "Puerto Rico (W)",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/75ba6ed155a553beb447189dab150653.jpg",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/0282cfe2713c2109f487b62ef6b76fc4.png",
+            "time": "16:30:00",
+            "date": "04/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/22830373_7d709049_20260904.png?v=7d709049",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-bbf077c096",
+          "name": "USA (W) vs China (w) | 19:15 04/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bbf077c096",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bbf077c096",
+                  "name": "USA (W) vs China (w)",
+                  "streams": [
+                    {
+                      "id": "st-bbf077c096",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Women Basketball World Cup",
+            "team_a": "USA (W)",
+            "team_b": "China (w)",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/896974b6679d1a4e10ab3e4241b67209.jpg",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b2f29c1f131d0390b8d6c1e596843514.jpg",
+            "time": "19:15:00",
+            "date": "04/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/36844170_2185f4a9_20260904.png?v=2185f4a9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4509356a8d",
+          "name": "South Korea (W) vs Nigeria (W) | 19:30 04/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4509356a8d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4509356a8d",
+                  "name": "South Korea (W) vs Nigeria (W)",
+                  "streams": [
+                    {
+                      "id": "st-4509356a8d",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Women Basketball World Cup",
+            "team_a": "South Korea (W)",
+            "team_b": "Nigeria (W)",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/80f4ac7926dcf255ec6d32d271755d1a.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/425dc0cc013025d9cdcedafbedb0e8a8.jpg",
+            "time": "19:30:00",
+            "date": "04/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/39744172_dcf9b715_20260904.png?v=dcf9b715",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6a403d3827",
+          "name": "Belgium (W) vs Turkey (W) | 22:30 04/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6a403d3827",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6a403d3827",
+                  "name": "Belgium (W) vs Turkey (W)",
+                  "streams": [
+                    {
+                      "id": "st-6a403d3827",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Women Basketball World Cup",
+            "team_a": "Belgium (W)",
+            "team_b": "Turkey (W)",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/fbd335f7eb2dc0653f2db839e104e3d6.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/664877b039e9e3ca7cc3138bc31f8d48.jpg",
             "time": "22:30:00",
             "date": "04/09",
             "blv": "",
@@ -902,7 +848,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/qkx8l49euo4a_2cefdbbb_20260904.png?v=2cefdbbb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/24844178_3fe8f7aa_20260904.png?v=3fe8f7aa",
             "width": 1600,
             "height": 1200
           }
