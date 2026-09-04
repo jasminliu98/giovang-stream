@@ -843,6 +843,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-ae13331525",
+          "name": "Villarreal vs Deportivo La Coruna | 02:00 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae13331525",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ae13331525",
+                  "name": "Villarreal vs Deportivo La Coruna",
+                  "streams": [
+                    {
+                      "id": "st-ae13331525",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6e161cf02f",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788533399_hd/1788533399_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Villarreal",
+            "team_b": "Deportivo La Coruna",
+            "logo_a": "https://images.keovip88.net/images/teams/villarreal.png",
+            "logo_b": "https://images.keovip88.net/images/teams/deportivo-la-coruna.png",
+            "time": "02:00:00",
+            "date": "06/09",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a92215024d46db870e386d3_c871e8a9_20260905.png?v=c871e8a9",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1446,7 +1518,25 @@
                     {
                       "id": "st-864ab1422d",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-98ff4202e9",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788535126_hd/1788535126_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1461,7 +1551,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/hzfpUTWg-8tZx1kbA.png",
             "time": "07:10:00",
             "date": "05/09",
-            "blv": "",
+            "blv": "Ben",
             "is_live": false,
             "cate_type": "tennis"
           },
@@ -1779,7 +1869,25 @@
                     {
                       "id": "st-42a70ad73c",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-fc19886432",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788535062_hd/1788535062_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1794,7 +1902,7 @@
             "logo_b": "https://img.bwfbadminton.com/image/upload/v1767680913/assets/tournaments/logo/593CF690-836C-47A7-A710-4FF599A473F3.png",
             "time": "09:00:00",
             "date": "05/09",
-            "blv": "",
+            "blv": "Trĩ",
             "is_live": false,
             "cate_type": "caulong"
           },
