@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -312,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +364,7 @@
             "time": "19:15:00",
             "date": "04/09",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1631,83 +1631,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-39f3e6adac",
-          "name": "KT vs DK | 15:00 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-39f3e6adac",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-39f3e6adac",
-                  "name": "KT vs DK",
-                  "streams": [
-                    {
-                      "id": "st-39f3e6adac",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-db87b3a659",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788495899_hd/1788495899_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LCK",
-            "team_a": "KT",
-            "team_b": "DK",
-            "logo_a": "https://static.flashscore.com/res/image/data/vRS62UcM-WbSxsmeb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/IcRWRrAr-lAg5zKZ6.png",
-            "time": "15:00:00",
-            "date": "04/09",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/xdii1fmhlne2_f19ab5a3_20260904.png?v=f19ab5a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9e011c82c8",
           "name": "LI-NING China Masters 2026 - Tứ Kết - Sân 2 vs LI-NING China Masters 2026 - Tứ Kết - Sân 2 | 16:00 04/09",
