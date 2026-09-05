@@ -330,7 +330,25 @@
                     {
                       "id": "st-a765317892",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-17eb823a0a",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788533234_hd/1788533234_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -345,7 +363,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/racing-santander.png",
             "time": "23:30:00",
             "date": "05/09",
-            "blv": "",
+            "blv": "Mù",
             "is_live": false,
             "cate_type": "football"
           },
