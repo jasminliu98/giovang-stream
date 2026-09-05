@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0a0eeb4753",
-          "name": "Newcastle United vs AFC Bournemouth | 18:30 05/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0a0eeb4753",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0a0eeb4753",
-                  "name": "Newcastle United vs AFC Bournemouth",
-                  "streams": [
-                    {
-                      "id": "st-0a0eeb4753",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5e85523fc8",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788580570_hd/1788580570_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Newcastle United",
-            "team_b": "AFC Bournemouth",
-            "logo_a": "https://images.keovip88.net/images/teams/newcastle-united.png",
-            "logo_b": "https://images.keovip88.net/images/teams/afc-bournemouth.png",
-            "time": "18:30:00",
-            "date": "05/09",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a90cfdd24d46db8708d919b_0e53d239_20260905.png?v=0e53d239",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1944bfa72b",
           "name": "Rasi Salai United vs Port FC | 19:00 05/09",
@@ -384,10 +312,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +364,7 @@
             "time": "21:00:00",
             "date": "05/09",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -456,10 +384,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -508,7 +436,7 @@
             "time": "21:00:00",
             "date": "05/09",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -528,10 +456,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -580,7 +508,7 @@
             "time": "21:00:00",
             "date": "05/09",
             "blv": "Hấu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -600,10 +528,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -652,7 +580,7 @@
             "time": "21:00:00",
             "date": "05/09",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -672,10 +600,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -724,7 +652,7 @@
             "time": "21:00:00",
             "date": "05/09",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -744,10 +672,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -796,7 +724,7 @@
             "time": "21:15:00",
             "date": "05/09",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1937,7 +1865,7 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1950,10 +1878,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2002,7 +1930,7 @@
             "time": "21:00:00",
             "date": "05/09",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "duaxe"
           },
           "image": {
