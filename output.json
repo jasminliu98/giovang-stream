@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-bf6413c9a4",
-          "name": "DC Power vs Sporting JAX | 08:00 05/09",
+          "id": "gv-05d1c53a54",
+          "name": "Bulleen Lions W vs South Melbourne W | 13:00 05/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-bf6413c9a4",
+              "id": "src-05d1c53a54",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-bf6413c9a4",
-                  "name": "DC Power vs Sporting JAX",
+                  "id": "ct-05d1c53a54",
+                  "name": "Bulleen Lions W vs South Melbourne W",
                   "streams": [
                     {
-                      "id": "st-bf6413c9a4",
+                      "id": "st-05d1c53a54",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-0a1bea9091",
-                          "name": "Mát",
+                          "id": "lnk-fce7e721d6",
+                          "name": "Bón",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788535806_hd/1788535806_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788536268_hd/1788536268_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -68,22 +68,22 @@
             }
           ],
           "org_metadata": {
-            "league": "United States - USL Super League",
-            "team_a": "DC Power",
-            "team_b": "Sporting JAX",
-            "logo_a": "https://static.flashscore.com/res/image/data/MXMGC7h5-OW9X31zs.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/bNmlgtDa-EyudWJ9B.png",
-            "time": "08:00:00",
+            "league": "NPL Victoria Úc",
+            "team_a": "Bulleen Lions W",
+            "team_b": "South Melbourne W",
+            "logo_a": "https://static.flashscore.com/res/image/data/f53rUPAr-hGDLYx9M.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Wzp5SuXg-nwwa8kE0.png",
+            "time": "13:00:00",
             "date": "05/09",
-            "blv": "Mát",
-            "is_live": false,
+            "blv": "Bón",
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/v516q1txma6q_743e84bc_20260905.png?v=743e84bc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/e3nm9678z9o5_19d5a75a_20260905.png?v=19d5a75a",
             "width": 1600,
             "height": 1200
           }
@@ -1209,6 +1209,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/3gfppdho403u_737f49f4_20260905.png?v=737f49f4",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-ad4ef0eb54",
+          "name": "IG vs TES | 13:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad4ef0eb54",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ad4ef0eb54",
+                  "name": "IG vs TES",
+                  "streams": [
+                    {
+                      "id": "st-ad4ef0eb54",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-03f21555c4",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788534994_hd/1788534994_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LPL",
+            "team_a": "IG",
+            "team_b": "TES",
+            "logo_a": "https://static.flashscore.com/res/image/data/I3B2NChl-Cxferg9G.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QPgfuJHG-AccDjeY5.png",
+            "time": "13:00:00",
+            "date": "05/09",
+            "blv": "Tôm",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/pe1budi92315_4e619fc8_20260905.png?v=4e619fc8",
             "width": 1600,
             "height": 1200
           }
