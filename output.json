@@ -1216,6 +1216,69 @@
       ]
     },
     {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-8abb858ad4",
+          "name": "Qatar vs Thái Lan | 15:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8abb858ad4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8abb858ad4",
+                  "name": "Qatar vs Thái Lan",
+                  "streams": [
+                    {
+                      "id": "st-8abb858ad4",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Championship",
+            "team_a": "Qatar",
+            "team_b": "Thái Lan",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/h0FNA5YxLzWChHS5K0o4gw_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png",
+            "time": "15:00:00",
+            "date": "05/09",
+            "blv": "",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/dmczj899l9ne_c0f1e0e0_20260905.png?v=c0f1e0e0",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_esport",
       "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
