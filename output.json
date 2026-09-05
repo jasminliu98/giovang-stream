@@ -1250,6 +1250,69 @@
           }
         }
       ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-97bfcec300",
+          "name": "Los Angeles Dodgers vs Washington Nationals | 08:10 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-97bfcec300",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-97bfcec300",
+                  "name": "Los Angeles Dodgers vs Washington Nationals",
+                  "streams": [
+                    {
+                      "id": "st-97bfcec300",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Los Angeles Dodgers",
+            "team_b": "Washington Nationals",
+            "logo_a": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/niIgU2Ca-x4HIlj1S.png",
+            "time": "08:10:00",
+            "date": "06/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/4mn0flppw0cx_40dd9bc7_20260906.png?v=40dd9bc7",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     }
   ]
 }
