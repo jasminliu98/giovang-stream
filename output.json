@@ -870,7 +870,25 @@
                     {
                       "id": "st-afc28bd1d6",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-18eadee97b",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788632312_hd/1788632312_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -885,7 +903,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/I3B2NChl-Cxferg9G.png",
             "time": "13:00:00",
             "date": "06/09",
-            "blv": "",
+            "blv": "Tôm",
             "is_live": false,
             "cate_type": "esport"
           },
