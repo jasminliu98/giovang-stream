@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-9735c9a68f",
-          "name": "Hải Phòng vs Ninh Bình FC | 18:00 05/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9735c9a68f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9735c9a68f",
-                  "name": "Hải Phòng vs Ninh Bình FC",
-                  "streams": [
-                    {
-                      "id": "st-9735c9a68f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fb5908a1f9",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788594727_hd/1788594727_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Hải Phòng",
-            "team_b": "Ninh Bình FC",
-            "logo_a": "https://images.keovip88.net/images/teams/hai-phong.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ninh-binh-fc.png",
-            "time": "18:00:00",
-            "date": "05/09",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8f7e5a24d46db87045f6c4_3010f01e_20260905.png?v=3010f01e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-8cc595fe4a",
           "name": "TP Hồ Chí Minh vs Hà Nội | 18:00 05/09",
           "type": "single",
@@ -456,10 +384,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -508,7 +436,7 @@
             "time": "20:30:00",
             "date": "05/09",
             "blv": "Ngọng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
