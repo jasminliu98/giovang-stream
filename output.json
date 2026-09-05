@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1944bfa72b",
-          "name": "Rasi Salai United vs Port FC | 19:00 05/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1944bfa72b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1944bfa72b",
-                  "name": "Rasi Salai United vs Port FC",
-                  "streams": [
-                    {
-                      "id": "st-1944bfa72b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2b2160caa1",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788595644_hd/1788595644_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Thái Lan",
-            "team_a": "Rasi Salai United",
-            "team_b": "Port FC",
-            "logo_a": "https://images.keovip88.net/images/teams/rasi-salai-united.png",
-            "logo_b": "https://images.keovip88.net/images/teams/port-fc.png",
-            "time": "19:00:00",
-            "date": "05/09",
-            "blv": "Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a90cfdf24d46db8708d9478_a2e58da3_20260905.png?v=a2e58da3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-dfe56f42f0",
           "name": "Công An Hà Nội vs Hồng Lĩnh Hà Tĩnh | 19:15 05/09",
