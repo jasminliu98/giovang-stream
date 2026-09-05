@@ -1298,83 +1298,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-585376957b",
-          "name": "Nigeria (W) vs Hungary (W) | 19:15 05/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-585376957b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-585376957b",
-                  "name": "Nigeria (W) vs Hungary (W)",
-                  "streams": [
-                    {
-                      "id": "st-585376957b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-06a95f546a",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788594688_hd/1788594688_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Women Basketball World Cup",
-            "team_a": "Nigeria (W)",
-            "team_b": "Hungary (W)",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/425dc0cc013025d9cdcedafbedb0e8a8.jpg",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/68e2484f1f61f9911085e529b2d94449.bmp",
-            "time": "19:15:00",
-            "date": "05/09",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/20844174_3a323152_20260905.png?v=3a323152",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7936e25bcd",
           "name": "Germany W vs Japan W | 23:00 05/09",
