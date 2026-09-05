@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -114,7 +114,25 @@
                     {
                       "id": "st-80d2318611",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-3c90e60553",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788594466_hd/1788594466_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -129,6 +147,60 @@
             "logo_b": "https://images.keovip88.net/images/teams/dewa-united-fc.png",
             "time": "15:30:00",
             "date": "05/09",
+            "blv": "Bón",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a90cfdb24d46db8708d8df1_8c4b54ec_20260905.png?v=8c4b54ec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9735c9a68f",
+          "name": "Hải Phòng vs Ninh Bình FC | 18:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9735c9a68f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9735c9a68f",
+                  "name": "Hải Phòng vs Ninh Bình FC",
+                  "streams": [
+                    {
+                      "id": "st-9735c9a68f",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Hải Phòng",
+            "team_b": "Ninh Bình FC",
+            "logo_a": "https://images.keovip88.net/images/teams/hai-phong.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ninh-binh-fc.png",
+            "time": "18:00:00",
+            "date": "05/09",
             "blv": "",
             "is_live": false,
             "cate_type": "football"
@@ -137,7 +209,61 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a90cfdb24d46db8708d8df1_8c4b54ec_20260905.png?v=8c4b54ec",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8f7e5a24d46db87045f6c4_3010f01e_20260905.png?v=3010f01e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8cc595fe4a",
+          "name": "TP Hồ Chí Minh vs Hà Nội | 18:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8cc595fe4a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8cc595fe4a",
+                  "name": "TP Hồ Chí Minh vs Hà Nội",
+                  "streams": [
+                    {
+                      "id": "st-8cc595fe4a",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "TP Hồ Chí Minh",
+            "team_b": "Hà Nội",
+            "logo_a": "https://images.keovip88.net/images/teams/ho-chi-minh-city.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hanoi-fc.png",
+            "time": "18:00:00",
+            "date": "05/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8f7e5a24d46db87045f6c8_10225d03_20260905.png?v=10225d03",
             "width": 1600,
             "height": 1200
           }
@@ -1069,6 +1195,114 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-a933767d6c",
+          "name": "Mali (W) vs Spain (W) | 16:30 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a933767d6c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a933767d6c",
+                  "name": "Mali (W) vs Spain (W)",
+                  "streams": [
+                    {
+                      "id": "st-a933767d6c",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Women Basketball World Cup",
+            "team_a": "Mali (W)",
+            "team_b": "Spain (W)",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c45b9997397cf49913cd8e632e3d880b.gif",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7276612d7c5a2bdb53ae2e5e1dcc34a1.png",
+            "time": "16:30:00",
+            "date": "05/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/21830372_5ab249b4_20260905.png?v=5ab249b4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-585376957b",
+          "name": "Nigeria (W) vs Hungary (W) | 19:15 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-585376957b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-585376957b",
+                  "name": "Nigeria (W) vs Hungary (W)",
+                  "streams": [
+                    {
+                      "id": "st-585376957b",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Women Basketball World Cup",
+            "team_a": "Nigeria (W)",
+            "team_b": "Hungary (W)",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/425dc0cc013025d9cdcedafbedb0e8a8.jpg",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/68e2484f1f61f9911085e529b2d94449.bmp",
+            "time": "19:15:00",
+            "date": "05/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/20844174_3a323152_20260905.png?v=3a323152",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-7936e25bcd",
           "name": "Germany W vs Japan W | 23:00 05/09",
