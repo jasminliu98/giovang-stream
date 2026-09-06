@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -165,6 +165,23 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-fdf102706d",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788701509_hd/1788701509_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -181,7 +198,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
             "time": "20:00:00",
             "date": "06/09",
-            "blv": "Quỷ đỏ: Vịt + Hấu, Trung lập: Chồn, Đầu cầu Vui vẻ: Dory + Cầy",
+            "blv": "Quỷ đỏ: Vịt + Hấu, Trung lập: Chồn, Đầu cầu Vui vẻ: Dory + Cầy, Hấu",
             "is_live": true,
             "cate_type": "football"
           },
@@ -267,6 +284,78 @@
           }
         },
         {
+          "id": "gv-c65a07307a",
+          "name": "Valencia vs Barcelona | 21:15 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c65a07307a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c65a07307a",
+                  "name": "Valencia vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-c65a07307a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ce302d1da5",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788671667_hd/1788671667_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Valencia",
+            "team_b": "Barcelona",
+            "logo_a": "https://images.keovip88.net/images/teams/valencia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-barcelona.png",
+            "time": "21:15:00",
+            "date": "06/09",
+            "blv": "Ben",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a9615cd24d46db8700c9888_04e6222e_20260906.png?v=04e6222e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-10b69f7754",
           "name": "Frosinone vs Venezia F.C. | 20:00 06/09",
           "type": "single",
@@ -316,60 +405,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a9615c924d46db8700c9207_c4606e15_20260906.png?v=c4606e15",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c65a07307a",
-          "name": "Valencia vs Barcelona | 21:15 06/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c65a07307a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c65a07307a",
-                  "name": "Valencia vs Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-c65a07307a",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Valencia",
-            "team_b": "Barcelona",
-            "logo_a": "https://images.keovip88.net/images/teams/valencia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fc-barcelona.png",
-            "time": "21:15:00",
-            "date": "06/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a9615cd24d46db8700c9888_04e6222e_20260906.png?v=04e6222e",
             "width": 1600,
             "height": 1200
           }
