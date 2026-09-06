@@ -1186,7 +1186,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1199,10 +1199,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1233,7 +1233,7 @@
             "time": "19:30:00",
             "date": "06/09",
             "blv": "",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -1457,6 +1457,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/kgy5cpcs5m71_d0d6ef96_20260906.png?v=d0d6ef96",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f823513358",
+          "name": "Hungary W vs South Korean W | 19:30 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f823513358",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f823513358",
+                  "name": "Hungary W vs South Korean W",
+                  "streams": [
+                    {
+                      "id": "st-f823513358",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Hungary W",
+            "team_b": "South Korean W",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/YEm-U_1zHCmIknmK5sNcIg_96x96.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/SzPCLFBr-nHXIBTlj.png",
+            "time": "19:30:00",
+            "date": "07/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/k0srn8ksg34o_d19cfbd5_20260906.png?v=d19cfbd5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c860b5f180",
+          "name": "Nigeria W vs France W | 19:30 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c860b5f180",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c860b5f180",
+                  "name": "Nigeria W vs France W",
+                  "streams": [
+                    {
+                      "id": "st-c860b5f180",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Nigeria W",
+            "team_b": "France W",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/2vpR8clrEZdpNjaiHKpg7A_96x96.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/n9L75XEa-rFgTisIH.png",
+            "time": "19:30:00",
+            "date": "07/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/0c26x1hj1b49_b005a61a_20260906.png?v=b005a61a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7211100206",
+          "name": "Germany W vs Mali W | 22:50 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7211100206",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7211100206",
+                  "name": "Germany W vs Mali W",
+                  "streams": [
+                    {
+                      "id": "st-7211100206",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Germany W",
+            "team_b": "Mali W",
+            "logo_a": "https://static.flashscore.com/res/image/data/zP226aXg-fB4vYUZp.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/ILZCLygl-MBizNLYC.png",
+            "time": "22:50:00",
+            "date": "07/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/dg8mmr70c8lk_f425d1f4_20260906.png?v=f425d1f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7e63ebe11b",
+          "name": "Japan W vs Spain W | 22:50 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7e63ebe11b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7e63ebe11b",
+                  "name": "Japan W vs Spain W",
+                  "streams": [
+                    {
+                      "id": "st-7e63ebe11b",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Japan W",
+            "team_b": "Spain W",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/by4OltvtZz7taxuQtkiP3A_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/5hLkf7KFHhmpaiOJQv8LmA_96x96.png",
+            "time": "22:50:00",
+            "date": "07/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/d11z837rsziy_5f0d2831_20260906.png?v=5f0d2831",
             "width": 1600,
             "height": 1200
           }
