@@ -72,7 +72,6 @@ CATE_ORDER = ["football", "basketball", "tennis", "bongchuyen", "esport", "caulo
 MOTORSPORT_KW = ["formula", "f1", "grand prix", "motogp", "nascar", "indycar", "đua xe"]
 BONGBAN_KW = ["wtt", "europe smash"]
 
-# ─── THÊM TỪ KHÓA ÉP CỨNG & TỪ KHÓA BILLIARDS ───
 OVERRIDE_CATE = {
     "vice city classic": "Billiards",
     "joshua filler": "Billiards",
@@ -84,7 +83,6 @@ OVERRIDE_CATE = {
     "us open pool": "Billiards",
     "WTT": "bongban",
     "europe smash": "bongban",
-    
 }
 
 BILLIARDS_KW = [
@@ -101,7 +99,6 @@ EXCLUDE_LEAGUES_AMERICA = [
     "copa america", "copa sudamericana", "copa libertadores",
 ]
 
-# FIX: Dùng Regex Word Boundary (\b) để bắt từ khóa độc lập, tránh match "pool" trong "liverpool"
 def match_keywords(text: str, keywords: list) -> bool:
     if not text: return False
     text_lower = text.lower()
@@ -131,22 +128,19 @@ def parse_time_sort(time_str: str, date_str: str) -> int:
     return 999_999_999
 
 # ─────────────────────────────────────────────────────────────────────────────
-# BỘ LỌC THỜI GIAN (ÁP DỤNG CHO MỌI MÔN)
+# BỘ LỌC THỜI GIAN
 # ─────────────────────────────────────────────────────────────────────────────
 
 def is_valid_time(time_str: str, date_str: str, cate_type: str = "football") -> bool:
     kickoff = parse_kickoff(time_str, date_str)
     if kickoff is None:
-        return True # Không parse được thì cứ cho qua
+        return True 
         
     now = now_vn()
-    
-    # FIX: Dù là môn gì, nếu trận đã kết thúc quá 3 tiếng thì loại bỏ để tránh hiển thị trận cũ
     lower = now - timedelta(hours=6)
     if kickoff < lower:
         return False
 
-    # Chỉ áp dụng giới hạn trên (24h tới) cho bóng đá để tránh spam lịch thi đấu quá dài
     if cate_type == "football":
         upper = now + timedelta(hours=24)
         return kickoff <= upper
@@ -197,7 +191,7 @@ def get_blv_display_name(blv_key: str) -> str:
     return BLV_NAME_MAP.get(blv_key, blv_key.replace("blv-", "BLV ").title())
 
 # ─────────────────────────────────────────────────────────────────────────────
-# THUMBNAIL (BỐ CỤC GỐC + FIX LỖI PASTE)
+# THUMBNAIL
 # ─────────────────────────────────────────────────────────────────────────────
 
 def make_thumbnail(match, match_id_safe):
@@ -348,22 +342,33 @@ def cleanup_old_thumbs(days: int = 3):
             except Exception: pass
 
 # ─────────────────────────────────────────────────────────────────────────────
-# ─────────────────────────────────────────────────────────────────────────────
-# FETCH & GROUP LOGIC (ĐÃ BỔ SUNG RETRY KHI API BỊ RỚT)
+# FETCH & GROUP LOGIC
 # ─────────────────────────────────────────────────────────────────────────────
 
-def extract_any_stream_url(obj: dict) -> str:
-    """Hàm phụ: Tìm bất kỳ link stream nào hợp lệ trong 1 dict"""
-    if not isinstance(obj, dict): return None
-    # 1. Thử các key phổ biến trước
-    for k in ["link_stream_hd", "pc_stream_url", "mobile_stream_url", "link_stream_sd", "stream_url", "url", "hd_url"]:
-        v = obj.get(k)
-        if v and isinstance(v, str) and v.startswith("http"): return v
-    # 2. Nếu không thấy, duyệt toàn bộ value để tìm chuỗi có đuôi stream
-    for v in obj.values():
-        if isinstance(v, str) and v.startswith("http") and re.search(r'\.(m3u8|flv|mpd|mp4)', v, re.IGNORECASE):
-            return v
-    return None
+def extract_stream_urls(obj):
+    """
+    Đệ quy quét toàn bộ JSON (dict/list) để tìm TẤT CẢ link stream.
+    Khắc phục triệt để việc link bị ẩn sâu trong các object lồng nhau.
+    """
+    urls = set()
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if isinstance(v, str) and v.startswith("http"):
+                v_lower = v.lower()
+                # Bỏ qua link ảnh để tránh lấy nhầm thumbnail
+                if any(ext in v_lower for ext in [".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", "avatar"]):
+                    urls.update(extract_stream_urls(v))
+                    continue
+                
+                # Ưu tiên link có đuôi stream chuẩn hoặc key chứa từ khóa liên quan
+                if any(ext in v_lower for ext in [".m3u8", ".flv", ".mpd", ".mp4", "m3u8", "flv", "rtmp", "rtsp", ".ts"]) or \
+                   any(kw in k.lower() for kw in ["stream", "link", "url", "play", "video", "hls", "src", "source", "file"]):
+                    urls.add(v)
+            urls.update(extract_stream_urls(v))
+    elif isinstance(obj, list):
+        for item in obj:
+            urls.update(extract_stream_urls(item))
+    return urls
 
 def fetch_json(url: str) -> list:
     try:
@@ -407,8 +412,9 @@ def get_grouped_matches() -> dict:
         team_a = teams.get("home", {}).get("name", "").strip()
         team_b = teams.get("away", {}).get("name", "").strip()
         
-        if not team_a or not team_b:
-            continue
+        # FIX: Fallback nếu thiếu tên đội để tránh bỏ sót trận
+        if not team_a: team_a = league_name or "Đội A"
+        if not team_b: team_b = "Đội B"
 
         combined_text = f"{league_name} {team_a} {team_b}".lower()
         
@@ -466,7 +472,7 @@ def get_grouped_matches() -> dict:
                 grouped[match_id]["is_live"] = True
             grouped[match_id]["_blv_keys"] = list(set(grouped[match_id]["_blv_keys"] + blv_keys))
 
-    # ─── LẤY LINK TỪ API CHI TIẾT (CÓ CƠ CHẾ THỬ LẠI KHI BỊ RỚT) ───
+    # ─── LẤY LINK TỪ API CHI TIẾT (ĐÃ FIX LỖI HARD-CODE & QUÉT ĐỆ QUY) ───
     for match_id, match_data in grouped.items():
         fixture_data = None
         api_url = f"{API_FIXTURES}/{match_id}"
@@ -475,48 +481,73 @@ def get_grouped_matches() -> dict:
         for attempt in range(3):
             try:
                 res = requests.get(api_url, headers=HEADERS, timeout=12)
-                res.raise_for_status() # Bắt lỗi 404, 500...
+                res.raise_for_status()
                 data = res.json()
                 fixture_data = data.get("response", {}) if isinstance(data, dict) else {}
-                break # Lấy thành công thì thoát vòng lặp retry
+                break
             except requests.exceptions.Timeout:
                 if attempt < 2:
-                    time.sleep(1) # Nghỉ 1 giây rồi thử lại
-            except requests.exceptions.HTTPError as e:
-                # Lỗi 404 hoặc 500 không cần thử lại
-                # print(f"  ⚠️ Lỗi API {e.response.status_code} cho: {match_data['name']}")
+                    time.sleep(1)
+            except requests.exceptions.HTTPError:
                 break
-            except Exception as e:
-                # print(f"  ⚠️ Lỗi parse JSON cho: {match_data['name']} -> {e}")
+            except Exception:
                 break
         
-        # Nếu sau 3 lần vẫn không lấy được data, bỏ qua
         if not isinstance(fixture_data, dict):
             continue
 
+        # --- XỬ LÝ BLV VÀ LINK STREAM ---
         api_blv_list = fixture_data.get("blv", [])
         
+        # Chuẩn hóa api_blv_list về dạng List (phòng hờ API trả về Dict)
+        if isinstance(api_blv_list, dict):
+            api_blv_list = list(api_blv_list.values())
+        elif not isinstance(api_blv_list, list):
+            api_blv_list = []
+
+        processed_urls = set()
+
         for blv in api_blv_list:
             if isinstance(blv, dict):
-                blv_key = blv.get("blv_key") or blv.get("key") or blv.get("id") or "unknown"
-                blv_name = blv.get("blv_name") or get_blv_display_name(blv_key)
+                blv_key = str(blv.get("blv_key") or blv.get("key") or blv.get("id") or "unknown")
+                blv_name = str(blv.get("blv_name") or blv.get("name") or get_blv_display_name(blv_key))
                 
-                if "nha-dai" in str(blv_key).lower():
-                    continue
-                    
-                stream_url = extract_any_stream_url(blv)
+                # ❌ FIX: BỎ QUA LOGIC LOẠI BỎ "nha-dai". 
+                # Các trận "Nhà Đài" vẫn có link stream và cần được giữ lại thay vì bỏ qua.
+                if "nha-dai" in blv_key.lower() or "nha-dai" in blv_name.lower():
+                    blv_name = "Trực Tiếp Nhà Đài"
                 
-                if stream_url:
+                # Tìm đệ quy tất cả URL trong object blv này
+                urls = extract_stream_urls(blv)
+                
+                if urls:
                     if blv_name not in match_data["blvs_dict"]:
                         match_data["blvs_dict"][blv_name] = []
-                    if stream_url not in match_data["blvs_dict"][blv_name]:
-                        match_data["blvs_dict"][blv_name].append(stream_url)
+                    for u in urls:
+                        if u not in match_data["blvs_dict"][blv_name]:
+                            match_data["blvs_dict"][blv_name].append(u)
+                            processed_urls.add(u)
+                            
+            elif isinstance(blv, str) and blv.startswith("http"):
+                # Trường hợp list BLV trả về thẳng link string
+                if blv not in processed_urls:
+                    if "Trực Tiếp" not in match_data["blvs_dict"]:
+                        match_data["blvs_dict"]["Trực Tiếp"] = []
+                    match_data["blvs_dict"]["Trực Tiếp"].append(blv)
+                    processed_urls.add(blv)
+
+        # Fallback: Quét TOÀN BỘ fixture_data (bao gồm root, streams, links...) 
+        # để vớt những link không nằm trong list BLV
+        all_urls_in_fixture = extract_stream_urls(fixture_data)
+        new_root_urls = all_urls_in_fixture - processed_urls
         
-        # Fallback: Tìm link nằm lỏng ở root
-        if not match_data["blvs_dict"]:
-            root_stream = extract_any_stream_url(fixture_data)
-            if root_stream:
-                match_data["blvs_dict"]["Trực Tiếp"] = [root_stream]
+        if new_root_urls:
+            if "Trực Tiếp" not in match_data["blvs_dict"]:
+                match_data["blvs_dict"]["Trực Tiếp"] = []
+            for u in new_root_urls:
+                if u not in match_data["blvs_dict"]["Trực Tiếp"]:
+                    match_data["blvs_dict"]["Trực Tiếp"].append(u)
+                    processed_urls.add(u)
                 
         match_data.pop("_blv_keys", None)
 
