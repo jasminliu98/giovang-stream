@@ -1062,65 +1062,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9c06ca722e",
-          "name": "Turkey (W) vs Australia (W) | 16:30 06/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9c06ca722e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9c06ca722e",
-                  "name": "Turkey (W) vs Australia (W)",
-                  "streams": [
-                    {
-                      "id": "st-9c06ca722e",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Women Basketball World Cup",
-            "team_a": "Turkey (W)",
-            "team_b": "Australia (W)",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/664877b039e9e3ca7cc3138bc31f8d48.jpg",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/75ba6ed155a553beb447189dab150653.jpg",
-            "time": "16:30:00",
-            "date": "06/09",
-            "blv": "",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/23830374_31956f95_20260906.png?v=31956f95",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e7361934f0",
           "name": "China (w) vs Czech Republic (W) | 19:30 06/09",
