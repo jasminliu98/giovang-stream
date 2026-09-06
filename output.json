@@ -1127,6 +1127,60 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-1004542772",
+          "name": "Cruzeiro (MG) vs Atletico Paranaense | 02:00 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1004542772",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1004542772",
+                  "name": "Cruzeiro (MG) vs Atletico Paranaense",
+                  "streams": [
+                    {
+                      "id": "st-1004542772",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Brazil",
+            "team_a": "Cruzeiro (MG)",
+            "team_b": "Atletico Paranaense",
+            "logo_a": "https://images.keovip88.net/images/teams/cruzeiro.png",
+            "logo_b": "https://images.keovip88.net/images/teams/atletico-paranaense.png",
+            "time": "02:00:00",
+            "date": "07/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a94c40a24d46db870c1e885_d39ec4e6_20260906.png?v=d39ec4e6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1244,41 +1298,32 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-a8e94f36a1",
-          "name": "TBD vs TBD | 15:00 06/09",
+          "id": "gv-7ef9e3b290",
+          "name": "Italy W vs USA W | 01:45 07/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-a8e94f36a1",
+              "id": "src-7ef9e3b290",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-a8e94f36a1",
-                  "name": "TBD vs TBD",
+                  "id": "ct-7ef9e3b290",
+                  "name": "Italy W vs USA W",
                   "streams": [
                     {
-                      "id": "st-a8e94f36a1",
+                      "id": "st-7ef9e3b290",
                       "name": "GV",
                       "stream_links": []
                     }
@@ -1288,26 +1333,161 @@
             }
           ],
           "org_metadata": {
-            "league": "LCK",
-            "team_a": "TBD",
-            "team_b": "TBD",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "15:00:00",
-            "date": "06/09",
+            "league": "FIBA Basketball World Cup",
+            "team_a": "Italy W",
+            "team_b": "USA W",
+            "logo_a": "https://static.flashscore.com/res/image/data/8GPRc1yB-xCsenx2O.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/wj9uZvn_vZrelLFGH8fnPA_96x96.png",
+            "time": "01:45:00",
+            "date": "07/09",
             "blv": "",
-            "is_live": true,
-            "cate_type": "esport"
+            "is_live": false,
+            "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6amkh0y0b190_6654c734_20260906.png?v=6654c734",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/b5i4ikv83xpv_1286757b_20260906.png?v=1286757b",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_tennis",
+      "name": "🎾 Tennis",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-cf086a910a",
+          "name": "US Open ATP vs US Open ATP | 01:00 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf086a910a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cf086a910a",
+                  "name": "US Open ATP vs US Open ATP",
+                  "streams": [
+                    {
+                      "id": "st-cf086a910a",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "US Open ATP",
+            "team_a": "US Open ATP",
+            "team_b": "US Open ATP",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSid8hQv3qe8eN2yrnvzVq1QmXBW_oGlXIE1MLfSILg1A&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSid8hQv3qe8eN2yrnvzVq1QmXBW_oGlXIE1MLfSILg1A&s=10",
+            "time": "01:00:00",
+            "date": "07/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bp9k4gy6yxxt_e26b3035_20260906.png?v=e26b3035",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-250cc319f7",
+          "name": "Ý vs Thổ Nhĩ Kỳ | 23:00 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-250cc319f7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-250cc319f7",
+                  "name": "Ý vs Thổ Nhĩ Kỳ",
+                  "streams": [
+                    {
+                      "id": "st-250cc319f7",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Women's Volleyball Championship",
+            "team_a": "Ý",
+            "team_b": "Thổ Nhĩ Kỳ",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/joYpsiaYi4GDCqhSRAq5Zg_96x96.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xj2CEkf5-4W8hcela.png",
+            "time": "23:00:00",
+            "date": "07/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/h084oe3mumyi_830bfa97_20260906.png?v=830bfa97",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-a0df6314c5",
           "name": "NIP vs LGD | 16:00 06/09",
