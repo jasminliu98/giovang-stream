@@ -2076,65 +2076,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a0df6314c5",
-          "name": "NIP vs LGD | 16:00 06/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a0df6314c5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a0df6314c5",
-                  "name": "NIP vs LGD",
-                  "streams": [
-                    {
-                      "id": "st-a0df6314c5",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LPL",
-            "team_a": "NIP",
-            "team_b": "LGD",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbZ5BkTX_t-dlTeSG_YHjbVENmFdYmQgL_d2cy4jZ_EA&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyLq31v6Nnb1IqFfL2aCW2lJhvQSbZyKUWdpRE-kWxqw&s",
-            "time": "16:00:00",
-            "date": "06/09",
-            "blv": "",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/sx2m97tqqtfw_05fa30b1_20260906.png?v=05fa30b1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4f097f1329",
           "name": "Thái Lan vs Hàn Quốc | 15:00 07/09",
