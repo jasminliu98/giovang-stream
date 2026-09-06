@@ -1415,6 +1415,60 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-2ec3181936",
+          "name": "US Open ATP vs US Open ATP | 06:00 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ec3181936",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2ec3181936",
+                  "name": "US Open ATP vs US Open ATP",
+                  "streams": [
+                    {
+                      "id": "st-2ec3181936",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "US Open ATP",
+            "team_a": "US Open ATP",
+            "team_b": "US Open ATP",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSid8hQv3qe8eN2yrnvzVq1QmXBW_oGlXIE1MLfSILg1A&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSid8hQv3qe8eN2yrnvzVq1QmXBW_oGlXIE1MLfSILg1A&s=10",
+            "time": "06:00:00",
+            "date": "07/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/hbuctzl3nzw4_e26b3035_20260906.png?v=e26b3035",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1538,6 +1592,69 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/sx2m97tqqtfw_05fa30b1_20260906.png?v=05fa30b1",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-0a521dc958",
+          "name": "New York Yankees vs San Diego Padres | 03:10 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a521dc958",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0a521dc958",
+                  "name": "New York Yankees vs San Diego Padres",
+                  "streams": [
+                    {
+                      "id": "st-0a521dc958",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "New York Yankees",
+            "team_b": "San Diego Padres",
+            "logo_a": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YsFz7vWg-plL3Lm41.png",
+            "time": "03:10:00",
+            "date": "07/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/a1hiap43fdrp_291d78f0_20260906.png?v=291d78f0",
             "width": 1600,
             "height": 1200
           }
