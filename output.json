@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -233,6 +233,78 @@
           }
         },
         {
+          "id": "gv-dbf60dae95",
+          "name": "Thanh Hóa vs SHB Đà Nẵng | 17:00 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dbf60dae95",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dbf60dae95",
+                  "name": "Thanh Hóa vs SHB Đà Nẵng",
+                  "streams": [
+                    {
+                      "id": "st-dbf60dae95",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b80b7b17ac",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788670895_hd/1788670895_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Thanh Hóa",
+            "team_b": "SHB Đà Nẵng",
+            "logo_a": "https://images.keovip88.net/images/teams/thanh-hoa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/da-nang.png",
+            "time": "17:00:00",
+            "date": "06/09",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8f7e5a24d46db87045f6e1_e4c55f6e_20260906.png?v=e4c55f6e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-d5bf71269a",
           "name": "Cerezo Osaka vs Tokyo Verdy | 17:00 06/09",
           "type": "single",
@@ -377,8 +449,8 @@
           }
         },
         {
-          "id": "gv-dbf60dae95",
-          "name": "Thanh Hóa vs SHB Đà Nẵng | 17:00 06/09",
+          "id": "gv-928909567c",
+          "name": "Thép Xanh Nam Định vs Hoàng Anh Gia Lai | 18:00 06/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -392,23 +464,23 @@
           ],
           "sources": [
             {
-              "id": "src-dbf60dae95",
+              "id": "src-928909567c",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-dbf60dae95",
-                  "name": "Thanh Hóa vs SHB Đà Nẵng",
+                  "id": "ct-928909567c",
+                  "name": "Thép Xanh Nam Định vs Hoàng Anh Gia Lai",
                   "streams": [
                     {
-                      "id": "st-dbf60dae95",
+                      "id": "st-928909567c",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-b80b7b17ac",
-                          "name": "Mù",
+                          "id": "lnk-c4b5184957",
+                          "name": "Bón",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788670895_hd/1788670895_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788670970_hd/1788670970_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -429,68 +501,14 @@
           ],
           "org_metadata": {
             "league": "V-League",
-            "team_a": "Thanh Hóa",
-            "team_b": "SHB Đà Nẵng",
-            "logo_a": "https://images.keovip88.net/images/teams/thanh-hoa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/da-nang.png",
-            "time": "17:00:00",
-            "date": "06/09",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8f7e5a24d46db87045f6e1_e4c55f6e_20260906.png?v=e4c55f6e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-928909567c",
-          "name": "Thép Xanh Nam Định vs Hoàng Anh Gia Lai | 18:00 06/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-928909567c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-928909567c",
-                  "name": "Thép Xanh Nam Định vs Hoàng Anh Gia Lai",
-                  "streams": [
-                    {
-                      "id": "st-928909567c",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
             "team_a": "Thép Xanh Nam Định",
             "team_b": "Hoàng Anh Gia Lai",
             "logo_a": "https://images.keovip88.net/images/teams/nam-dinh-fc.png",
             "logo_b": "https://images.keovip88.net/images/teams/hoang-anh-gia-lai.png",
             "time": "18:00:00",
             "date": "06/09",
-            "blv": "",
-            "is_live": false,
+            "blv": "Bón",
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -510,10 +528,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -528,7 +546,25 @@
                     {
                       "id": "st-251483f1d3",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-763758deef",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788670933_hd/1788670933_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -543,8 +579,8 @@
             "logo_b": "https://images.keovip88.net/images/teams/tdtt-bac-ninh.PNG",
             "time": "18:00:00",
             "date": "06/09",
-            "blv": "",
-            "is_live": false,
+            "blv": "Mason",
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -564,10 +600,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -582,7 +618,25 @@
                     {
                       "id": "st-076f3e3c14",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11d2a7421",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788671006_hd/1788671006_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -597,8 +651,8 @@
             "logo_b": "https://images.keovip88.net/images/teams/ratchaburi-fc.png",
             "time": "18:00:00",
             "date": "06/09",
-            "blv": "",
-            "is_live": false,
+            "blv": "Trĩ",
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1271,65 +1325,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (3 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-afc28bd1d6",
-          "name": "Team WE vs Invictus Gaming | 13:00 06/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-afc28bd1d6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-afc28bd1d6",
-                  "name": "Team WE vs Invictus Gaming",
-                  "streams": [
-                    {
-                      "id": "st-afc28bd1d6",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LPL",
-            "team_a": "Team WE",
-            "team_b": "Invictus Gaming",
-            "logo_a": "https://static.flashscore.com/res/image/data/rFWqQsgl-Mqc5HTbN.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/I3B2NChl-Cxferg9G.png",
-            "time": "13:00:00",
-            "date": "06/09",
-            "blv": "",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ubl9r13i16vk_d5682bd0_20260906.png?v=d5682bd0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a8e94f36a1",
           "name": "TBD vs TBD | 15:00 06/09",
