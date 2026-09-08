@@ -184,8 +184,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-77e03c019c",
+                          "id": "lnk-7825a01f8c",
                           "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/865",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-87ded44c53",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/12663",
@@ -201,28 +218,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-555b4f0662",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/1980",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-07a2e1ff18",
+                          "id": "lnk-3aaeb0a1fb",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/865",
+                          "url": "https://keovip88.net/team/1980",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -570,11 +570,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-19221c9e5a",
+                          "id": "lnk-81ca7ace4a",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/25135",
+                          "url": "https://keovip88.net/team/907",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -587,11 +587,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-c27a0c55f3",
+                          "id": "lnk-cec0f9407d",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/907",
+                          "url": "https://keovip88.net/team/25135",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -922,11 +922,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-5acfb5520d",
+                          "id": "lnk-90f7d72cc1",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/117",
+                          "url": "https://keovip88.net/team/23228",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -939,11 +939,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-e9bf0c0a24",
+                          "id": "lnk-238c08f728",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/23228",
+                          "url": "https://keovip88.net/giai-dau/117",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1062,11 +1062,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-67d717753c",
+                          "id": "lnk-3bea841879",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/286",
+                          "url": "https://keovip88.net/team/14502",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1079,11 +1079,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-7bd7c84a03",
+                          "id": "lnk-a0af53ecb5",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/14502",
+                          "url": "https://keovip88.net/giai-dau/286",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1569,6 +1569,222 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-ef4e8a852c",
+          "name": "Pohang Steelers vs Gimcheon Sangmu | 17:30 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ef4e8a852c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ef4e8a852c",
+                  "name": "Pohang Steelers vs Gimcheon Sangmu",
+                  "streams": [
+                    {
+                      "id": "st-ef4e8a852c",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K-League Hàn Quốc",
+            "team_a": "Pohang Steelers",
+            "team_b": "Gimcheon Sangmu",
+            "logo_a": "https://images.keovip88.net/images/teams/pohang-steelers.png",
+            "logo_b": "https://images.keovip88.net/images/teams/gimcheon-sangmu-fc.png",
+            "time": "17:30:00",
+            "date": "09/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a97675e24d46db8705bc1c9_9d17276a_20260909.png?v=9d17276a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4e397f8ea1",
+          "name": "Italy U20 vs New Zealand U20 | 20:00 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4e397f8ea1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4e397f8ea1",
+                  "name": "Italy U20 vs New Zealand U20",
+                  "streams": [
+                    {
+                      "id": "st-4e397f8ea1",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup U20",
+            "team_a": "Italy U20",
+            "team_b": "New Zealand U20",
+            "logo_a": "https://images.keovip88.net/images/teams/italy-w.png",
+            "logo_b": "https://images.keovip88.net/images/teams/new-zealand.png",
+            "time": "20:00:00",
+            "date": "09/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/tne6bshleuwt_a08326f4_20260909.png?v=a08326f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-96e151498e",
+          "name": "Ghana U20 vs Korea Republic U20 | 20:00 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-96e151498e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-96e151498e",
+                  "name": "Ghana U20 vs Korea Republic U20",
+                  "streams": [
+                    {
+                      "id": "st-96e151498e",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup U20",
+            "team_a": "Ghana U20",
+            "team_b": "Korea Republic U20",
+            "logo_a": "https://images.keovip88.net/images/teams/ghana.png",
+            "logo_b": "https://images.keovip88.net/images/teams/south-korea.png",
+            "time": "20:00:00",
+            "date": "09/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/j7gp2uersb8l_f3cb6216_20260909.png?v=f3cb6216",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7dfd0037cc",
+          "name": "Shinnik Yaroslavl vs FC Torpedo Moscow | 22:00 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7dfd0037cc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7dfd0037cc",
+                  "name": "Shinnik Yaroslavl vs FC Torpedo Moscow",
+                  "streams": [
+                    {
+                      "id": "st-7dfd0037cc",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Nga",
+            "team_a": "Shinnik Yaroslavl",
+            "team_b": "FC Torpedo Moscow",
+            "logo_a": "https://images.keovip88.net/images/teams/shinnik-yaroslavl.png",
+            "logo_b": "https://images.keovip88.net/images/teams/torpedo-moscow.png",
+            "time": "22:00:00",
+            "date": "09/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a445b1c16bc0c527505aec8_3379c535_20260909.png?v=3379c535",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1884,7 +2100,25 @@
                     {
                       "id": "st-1de20310aa",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1819d859e1",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788833122_hd/1788833122_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1899,7 +2133,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/OfjQEPjl-EZcCkAic.png",
             "time": "07:30:00",
             "date": "09/09",
-            "blv": "",
+            "blv": "Ben",
             "is_live": false,
             "cate_type": "tennis"
           },
@@ -1947,7 +2181,25 @@
                     {
                       "id": "st-56e5e6ba12",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f8abc4a431",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788833188_hd/1788833188_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1962,7 +2214,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/4hQlsMWg-t6TQGRSb.png",
             "time": "08:00:00",
             "date": "09/09",
-            "blv": "",
+            "blv": "Sún",
             "is_live": false,
             "cate_type": "bongchuyen"
           },
@@ -2280,7 +2532,25 @@
                     {
                       "id": "st-a8fcd33611",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-20f6530839",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788833004_hd/1788833004_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2295,7 +2565,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/niIgU2Ca-x4HIlj1S.png",
             "time": "08:40:00",
             "date": "09/09",
-            "blv": "",
+            "blv": "Ngu",
             "is_live": false,
             "cate_type": "bongchay"
           },
@@ -2334,7 +2604,25 @@
                     {
                       "id": "st-6f23b46403",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-cf2c3bcb4b",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788833055_hd/1788833055_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2349,7 +2637,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/tUgxR1zB-hxmcgnNf.png",
             "time": "09:10:00",
             "date": "09/09",
-            "blv": "",
+            "blv": "Cận",
             "is_live": false,
             "cate_type": "bongchay"
           },
