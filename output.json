@@ -17,6 +17,252 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-bcafb30361",
+          "name": "Crystal Palace vs Middlesbrough | 01:45 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bcafb30361",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bcafb30361",
+                  "name": "Crystal Palace vs Middlesbrough",
+                  "streams": [
+                    {
+                      "id": "st-bcafb30361",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-073665b009",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788846940_hd/1788846940_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-5acfb5520d",
+                          "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/117",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-96cda8e675",
+                          "name": "Trực Tiếp 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/40162",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-260e689b81",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/16378",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Liên Đoàn Anh",
+            "team_a": "Crystal Palace",
+            "team_b": "Middlesbrough",
+            "logo_a": "https://images.keovip88.net/images/teams/crystal-palace.png",
+            "logo_b": "https://images.keovip88.net/images/teams/middlesbrough.png",
+            "time": "01:45:00",
+            "date": "09/09",
+            "blv": "Súp, Trực Tiếp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a90d09f924b00d29504677f_89a5b24e_20260908.png?v=89a5b24e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6810d79751",
+          "name": "Cardiff City vs Stoke City | 01:45 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6810d79751",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6810d79751",
+                  "name": "Cardiff City vs Stoke City",
+                  "streams": [
+                    {
+                      "id": "st-6810d79751",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8d896ea766",
+                          "name": "Mát",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788846961_hd/1788846961_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-275d2cb8e9",
+                          "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/9457",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e1dbb66b0f",
+                          "name": "Trực Tiếp 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/98",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fe0b51030b",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/75",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Anh",
+            "team_a": "Cardiff City",
+            "team_b": "Stoke City",
+            "logo_a": "https://images.keovip88.net/images/teams/cardiff-city.png",
+            "logo_b": "https://images.keovip88.net/images/teams/stoke-city.png",
+            "time": "01:45:00",
+            "date": "09/09",
+            "blv": "Mát, Trực Tiếp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a9615da24d46db8700caa9f_dbd1ddeb_20260908.png?v=dbd1ddeb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-9bef243cc2",
           "name": "Criciuma vs Juventude | 07:00 09/09",
           "type": "single",
@@ -42,7 +288,76 @@
                     {
                       "id": "st-9bef243cc2",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f621c58861",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788834939_hd/1788834939_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8fa8cd72a5",
+                          "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/286",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ed4a21c538",
+                          "name": "Trực Tiếp 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/14514",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-7bd7c84a03",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/14502",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -57,7 +372,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/juventude.png",
             "time": "07:00:00",
             "date": "09/09",
-            "blv": "",
+            "blv": "Hấu, Trực Tiếp",
             "is_live": false,
             "cate_type": "football"
           },
@@ -177,7 +492,25 @@
                     {
                       "id": "st-e1b6eb020e",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f9672b0b9a",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788834889_hd/1788834889_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -192,7 +525,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c510ba73d42457170c2b44cba1ac39f1.png",
             "time": "14:00:00",
             "date": "09/09",
-            "blv": "",
+            "blv": "Chồn",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -240,7 +573,25 @@
                     {
                       "id": "st-1de20310aa",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-1819d859e1",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788833122_hd/1788833122_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -255,7 +606,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/OfjQEPjl-EZcCkAic.png",
             "time": "07:30:00",
             "date": "09/09",
-            "blv": "",
+            "blv": "Ben",
             "is_live": false,
             "cate_type": "tennis"
           },
@@ -303,7 +654,25 @@
                     {
                       "id": "st-56e5e6ba12",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f8abc4a431",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788833188_hd/1788833188_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -318,7 +687,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/4hQlsMWg-t6TQGRSb.png",
             "time": "08:00:00",
             "date": "09/09",
-            "blv": "",
+            "blv": "Sún",
             "is_live": false,
             "cate_type": "bongchuyen"
           },
@@ -357,7 +726,25 @@
                     {
                       "id": "st-10b8ac8d5e",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-cb04fb018d",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788834494_hd/1788834494_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -372,7 +759,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/jH8flBZA-UknO2XLh.png",
             "time": "11:30:00",
             "date": "09/09",
-            "blv": "",
+            "blv": "Sún",
             "is_live": false,
             "cate_type": "bongchuyen"
           },
@@ -420,7 +807,25 @@
                     {
                       "id": "st-9a59515b8e",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ecf074ce6",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788832351_hd/1788832351_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -435,7 +840,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Tn74bSLN1ynHd8-ZMiBnA5IzBPfvqXgysrd7S0R6mPO2yGwbP4nU131o&s=10",
             "time": "12:00:00",
             "date": "09/09",
-            "blv": "",
+            "blv": "Ngu",
             "is_live": false,
             "cate_type": "esport"
           },
@@ -483,7 +888,25 @@
                     {
                       "id": "st-a8fcd33611",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-20f6530839",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788833004_hd/1788833004_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -498,7 +921,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/niIgU2Ca-x4HIlj1S.png",
             "time": "08:40:00",
             "date": "09/09",
-            "blv": "",
+            "blv": "Ngu",
             "is_live": false,
             "cate_type": "bongchay"
           },
@@ -537,7 +960,25 @@
                     {
                       "id": "st-6f23b46403",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-cf2c3bcb4b",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788833055_hd/1788833055_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -552,7 +993,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/tUgxR1zB-hxmcgnNf.png",
             "time": "09:10:00",
             "date": "09/09",
-            "blv": "",
+            "blv": "Cận",
             "is_live": false,
             "cate_type": "bongchay"
           },
