@@ -61,8 +61,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-26de63c071",
+                          "id": "lnk-dcc7a3ae6c",
                           "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/405",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3afb63e15f",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/giai-dau/484",
@@ -78,28 +95,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-53fb282abc",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/42523",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-6545213211",
+                          "id": "lnk-646720a8e7",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/405",
+                          "url": "https://keovip88.net/team/42523",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -297,6 +297,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/obbvhcmt0uwy_fcd59d2d_20260908.png?v=fcd59d2d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6ea70423fa",
+          "name": "Alexander Zverev vs Luciano Darderi | 08:15 08/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6ea70423fa",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6ea70423fa",
+                  "name": "Alexander Zverev vs Luciano Darderi",
+                  "streams": [
+                    {
+                      "id": "st-6ea70423fa",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "US Open ATP",
+            "team_a": "Alexander Zverev",
+            "team_b": "Luciano Darderi",
+            "logo_a": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/dQXp4veM-WztgPI73.png",
+            "time": "08:15:00",
+            "date": "08/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/yt45ciuhzjtr_eba035e5_20260908.png?v=eba035e5",
             "width": 1600,
             "height": 1200
           }
