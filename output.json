@@ -325,6 +325,69 @@
       ]
     },
     {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-9a59515b8e",
+          "name": "USOP Vietnam HaLong Bay II 2026 Final Day vs USOP Vietnam HaLong Bay II 2026 Final Day | 12:00 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a59515b8e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9a59515b8e",
+                  "name": "USOP Vietnam HaLong Bay II 2026 Final Day vs USOP Vietnam HaLong Bay II 2026 Final Day",
+                  "streams": [
+                    {
+                      "id": "st-9a59515b8e",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "USOP",
+            "team_a": "USOP Vietnam HaLong Bay II 2026 Final Day",
+            "team_b": "USOP Vietnam HaLong Bay II 2026 Final Day",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Tn74bSLN1ynHd8-ZMiBnA5IzBPfvqXgysrd7S0R6mPO2yGwbP4nU131o&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Tn74bSLN1ynHd8-ZMiBnA5IzBPfvqXgysrd7S0R6mPO2yGwbP4nU131o&s=10",
+            "time": "12:00:00",
+            "date": "09/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/zrpmjs8433ac_2450d1dc_20260908.png?v=2450d1dc",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_bongchay",
       "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
@@ -399,6 +462,114 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/jyj4lyezho4b_c2725eb1_20260908.png?v=c2725eb1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a8fcd33611",
+          "name": "San Diego Padres vs Washington Nationals | 08:40 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8fcd33611",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a8fcd33611",
+                  "name": "San Diego Padres vs Washington Nationals",
+                  "streams": [
+                    {
+                      "id": "st-a8fcd33611",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "San Diego Padres",
+            "team_b": "Washington Nationals",
+            "logo_a": "https://static.flashscore.com/res/image/data/YsFz7vWg-plL3Lm41.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/niIgU2Ca-x4HIlj1S.png",
+            "time": "08:40:00",
+            "date": "09/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/3ikqeojuf117_7cbb8c95_20260908.png?v=7cbb8c95",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6f23b46403",
+          "name": "Los Angeles Dodgers vs Cincinnati Reds | 09:10 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f23b46403",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6f23b46403",
+                  "name": "Los Angeles Dodgers vs Cincinnati Reds",
+                  "streams": [
+                    {
+                      "id": "st-6f23b46403",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Los Angeles Dodgers",
+            "team_b": "Cincinnati Reds",
+            "logo_a": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tUgxR1zB-hxmcgnNf.png",
+            "time": "09:10:00",
+            "date": "09/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bau86orlmtc7_c2725eb1_20260908.png?v=c2725eb1",
             "width": 1600,
             "height": 1200
           }
