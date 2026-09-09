@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -205,11 +205,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-9dc3829b1b",
+                          "id": "lnk-df06781dd1",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/28515",
+                          "url": "https://keovip88.net/team/36556",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -239,11 +239,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-1b8113c6a7",
+                          "id": "lnk-d364ec6ee7",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/36556",
+                          "url": "https://keovip88.net/team/28515",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -284,8 +284,8 @@
           }
         },
         {
-          "id": "gv-8a355da0f8",
-          "name": "Gangwon FC vs Jeonbuk Hyundai Motors | 17:30 09/09",
+          "id": "gv-2528c2f030",
+          "name": "Daejeon Citizen vs FC Anyang | 17:30 09/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -295,129 +295,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a355da0f8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8a355da0f8",
-                  "name": "Gangwon FC vs Jeonbuk Hyundai Motors",
-                  "streams": [
-                    {
-                      "id": "st-8a355da0f8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f3c22b37d",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788892785_hd/1788892785_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-869c90238a",
-                          "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/7038",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-1d0122424b",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/giai-dau/685",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e0fd37e596",
-                          "name": "Trực Tiếp 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/17611",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K-League Hàn Quốc",
-            "team_a": "Gangwon FC",
-            "team_b": "Jeonbuk Hyundai Motors",
-            "logo_a": "https://images.keovip88.net/images/teams/gangwon-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/jeonbuk-hyundai-motors.png",
-            "time": "17:30:00",
-            "date": "09/09",
-            "blv": "Bón, Trực Tiếp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a97675e24d46db8705bc1b9_73de8cca_20260909.png?v=73de8cca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-2528c2f030",
-          "name": "Daejeon Citizen vs FC Anyang | 17:30 09/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -517,7 +394,7 @@
             "time": "17:30:00",
             "date": "09/09",
             "blv": "Chồn, Trực Tiếp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -525,6 +402,129 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a97675e24d46db8705bc1b2_51a51dc4_20260909.png?v=51a51dc4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8a355da0f8",
+          "name": "Gangwon FC vs Jeonbuk Hyundai Motors | 17:30 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8a355da0f8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8a355da0f8",
+                  "name": "Gangwon FC vs Jeonbuk Hyundai Motors",
+                  "streams": [
+                    {
+                      "id": "st-8a355da0f8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8f3c22b37d",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788892785_hd/1788892785_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-319fa1a282",
+                          "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/685",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-401dc01335",
+                          "name": "Trực Tiếp 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/7038",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e0fd37e596",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/17611",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K-League Hàn Quốc",
+            "team_a": "Gangwon FC",
+            "team_b": "Jeonbuk Hyundai Motors",
+            "logo_a": "https://images.keovip88.net/images/teams/gangwon-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/jeonbuk-hyundai-motors.png",
+            "time": "17:30:00",
+            "date": "09/09",
+            "blv": "Bón, Trực Tiếp",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a97675e24d46db8705bc1b9_73de8cca_20260909.png?v=73de8cca",
             "width": 1600,
             "height": 1200
           }
@@ -574,25 +574,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-05d6273f6a",
+                          "id": "lnk-319fa1a282",
                           "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/10940",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-1d0122424b",
-                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/giai-dau/685",
@@ -608,11 +591,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-5f68651e67",
-                          "name": "Trực Tiếp 3",
+                          "id": "lnk-8ed4e86f52",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/43072",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a5aa3c055a",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/10940",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -697,11 +697,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-aa4a30ce93",
+                          "id": "lnk-319fa1a282",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/14278",
+                          "url": "https://keovip88.net/giai-dau/685",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -714,11 +714,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-1d0122424b",
+                          "id": "lnk-7e9b2d32e9",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/685",
+                          "url": "https://keovip88.net/team/14278",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -964,25 +964,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-e66e630833",
+                          "id": "lnk-b7adf409cf",
                           "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/6618",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f1c315302a",
-                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/giai-dau/239",
@@ -998,11 +981,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-5a1a9652d2",
-                          "name": "Trực Tiếp 3",
+                          "id": "lnk-5877209226",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/34534",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-95a97492ca",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/6618",
                           "request_headers": [
                             {
                               "key": "Referer",
