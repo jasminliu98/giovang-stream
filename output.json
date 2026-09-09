@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4e397f8ea1",
-          "name": "Italy U20 vs New Zealand U20 | 20:00 09/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4e397f8ea1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4e397f8ea1",
-                  "name": "Italy U20 vs New Zealand U20",
-                  "streams": [
-                    {
-                      "id": "st-4e397f8ea1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-86f26cc588",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788892867_hd/1788892867_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup U20",
-            "team_a": "Italy U20",
-            "team_b": "New Zealand U20",
-            "logo_a": "https://images.keovip88.net/images/teams/italy-w.png",
-            "logo_b": "https://images.keovip88.net/images/teams/new-zealand.png",
-            "time": "20:00:00",
-            "date": "09/09",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/tne6bshleuwt_a08326f4_20260909.png?v=a08326f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-96e151498e",
-          "name": "Ghana U20 vs Korea Republic U20 | 20:00 09/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-96e151498e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-96e151498e",
-                  "name": "Ghana U20 vs Korea Republic U20",
-                  "streams": [
-                    {
-                      "id": "st-96e151498e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5730c7fecd",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788892949_hd/1788892949_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup U20",
-            "team_a": "Ghana U20",
-            "team_b": "Korea Republic U20",
-            "logo_a": "https://images.keovip88.net/images/teams/ghana.png",
-            "logo_b": "https://images.keovip88.net/images/teams/south-korea.png",
-            "time": "20:00:00",
-            "date": "09/09",
-            "blv": "Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/j7gp2uersb8l_f3cb6216_20260909.png?v=f3cb6216",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-bac00a700d",
           "name": "Volgar-Gazprom Astrachan vs Volga Ulyanovsk | 22:00 09/09",
@@ -205,25 +61,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-11eecbbb15",
+                          "id": "lnk-b7adf409cf",
                           "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/17968",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f1c315302a",
-                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/giai-dau/239",
@@ -239,11 +78,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-c6ea0b2252",
-                          "name": "Trực Tiếp 3",
+                          "id": "lnk-92b65458f8",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/38243",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-93960f3c6c",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/17968",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -309,76 +165,7 @@
                     {
                       "id": "st-7dfd0037cc",
                       "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b54508227a",
-                          "name": "Mát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788893023_hd/1788893023_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b7adf409cf",
-                          "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/giai-dau/239",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-5877209226",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/34534",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-95a97492ca",
-                          "name": "Trực Tiếp 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/6618",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
+                      "stream_links": []
                     }
                   ]
                 }
@@ -393,7 +180,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/torpedo-moscow.png",
             "time": "22:00:00",
             "date": "09/09",
-            "blv": "Mát, Trực Tiếp",
+            "blv": "",
             "is_live": false,
             "cate_type": "football"
           },
@@ -451,11 +238,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-c796f3ec70",
+                          "id": "lnk-04f7ed417c",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/55",
+                          "url": "https://keovip88.net/team/1355",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -485,11 +272,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-91e9101cc3",
+                          "id": "lnk-b336f1989d",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/1355",
+                          "url": "https://keovip88.net/giai-dau/55",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -574,25 +361,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-c796f3ec70",
+                          "id": "lnk-2a67e69693",
                           "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/giai-dau/55",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-89c4d3485e",
-                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/11715",
@@ -608,11 +378,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-4488cd5c1b",
-                          "name": "Trực Tiếp 3",
+                          "id": "lnk-71bd3cf174",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/32369",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b336f1989d",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/55",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -779,6 +566,60 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-2ec3181936",
+          "name": "US Open ATP vs US Open ATP | 22:30 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ec3181936",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2ec3181936",
+                  "name": "US Open ATP vs US Open ATP",
+                  "streams": [
+                    {
+                      "id": "st-2ec3181936",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "US Open ATP",
+            "team_a": "US Open ATP",
+            "team_b": "US Open ATP",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSid8hQv3qe8eN2yrnvzVq1QmXBW_oGlXIE1MLfSILg1A&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSid8hQv3qe8eN2yrnvzVq1QmXBW_oGlXIE1MLfSILg1A&s=10",
+            "time": "22:30:00",
+            "date": "09/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/hbuctzl3nzw4_e26b3035_20260909.png?v=e26b3035",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-c822e458a6",
           "name": "Mirra Andreeva vs Coco Gauff | 23:30 09/09",
           "type": "single",
@@ -828,6 +669,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ql4nxv78mj7j_2c94eb26_20260909.png?v=2c94eb26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cf086a910a",
+          "name": "US Open ATP vs US Open ATP | 00:00 10/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf086a910a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cf086a910a",
+                  "name": "US Open ATP vs US Open ATP",
+                  "streams": [
+                    {
+                      "id": "st-cf086a910a",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "US Open ATP",
+            "team_a": "US Open ATP",
+            "team_b": "US Open ATP",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSid8hQv3qe8eN2yrnvzVq1QmXBW_oGlXIE1MLfSILg1A&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSid8hQv3qe8eN2yrnvzVq1QmXBW_oGlXIE1MLfSILg1A&s=10",
+            "time": "00:00:00",
+            "date": "10/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bp9k4gy6yxxt_e26b3035_20260909.png?v=e26b3035",
             "width": 1600,
             "height": 1200
           }
