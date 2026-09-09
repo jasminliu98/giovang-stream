@@ -78,11 +78,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f1c315302a",
+                          "id": "lnk-fd65da454b",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/239",
+                          "url": "https://keovip88.net/team/17968",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -95,11 +95,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-93960f3c6c",
+                          "id": "lnk-a0d7167dd7",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/17968",
+                          "url": "https://keovip88.net/giai-dau/239",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -394,6 +394,60 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-3ee7cc5b43",
+          "name": "Puerto Rito  (W) vs China (w) | 22:45 09/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3ee7cc5b43",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3ee7cc5b43",
+                  "name": "Puerto Rito  (W) vs China (w)",
+                  "streams": [
+                    {
+                      "id": "st-3ee7cc5b43",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIBA Women Basketball World Cup",
+            "team_a": "Puerto Rito  (W)",
+            "team_b": "China (w)",
+            "logo_a": "https://static.flashscore.com/res/image/data/ANrPEEfM-vNOONQMa.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b2f29c1f131d0390b8d6c1e596843514.jpg",
+            "time": "22:45:00",
+            "date": "09/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/20944175_930394d3_20260909.png?v=930394d3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-6ceb2d8321",
           "name": "Jordan vs Chinese Taipei | 11:00 10/09",
