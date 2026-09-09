@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -61,11 +61,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-319fa1a282",
+                          "id": "lnk-3f675cc933",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/685",
+                          "url": "https://keovip88.net/team/28662",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -95,11 +95,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-2e4a0c6908",
+                          "id": "lnk-35ddfd28b8",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/28662",
+                          "url": "https://keovip88.net/giai-dau/685",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -184,11 +184,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-319fa1a282",
+                          "id": "lnk-869c90238a",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/685",
+                          "url": "https://keovip88.net/team/7038",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -218,11 +218,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-d8a24668a3",
+                          "id": "lnk-35ddfd28b8",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/7038",
+                          "url": "https://keovip88.net/giai-dau/685",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -307,11 +307,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-319fa1a282",
+                          "id": "lnk-05d6273f6a",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/685",
+                          "url": "https://keovip88.net/team/10940",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -341,11 +341,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-a5aa3c055a",
+                          "id": "lnk-35ddfd28b8",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/10940",
+                          "url": "https://keovip88.net/giai-dau/685",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -430,25 +430,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-319fa1a282",
+                          "id": "lnk-7a3f59d78f",
                           "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/giai-dau/685",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7f45163c9f",
-                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/18483",
@@ -464,11 +447,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-7d8c8fadf3",
-                          "name": "Trực Tiếp 3",
+                          "id": "lnk-7e9b2d32e9",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/14278",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-35ddfd28b8",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/685",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -516,10 +516,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -568,7 +568,7 @@
             "time": "20:00:00",
             "date": "09/09",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -714,11 +714,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-9fe0485969",
+                          "id": "lnk-5877209226",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/6618",
+                          "url": "https://keovip88.net/team/34534",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -731,11 +731,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-5a1a9652d2",
+                          "id": "lnk-95a97492ca",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/34534",
+                          "url": "https://keovip88.net/team/6618",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -837,11 +837,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-fd65da454b",
+                          "id": "lnk-92b65458f8",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/17968",
+                          "url": "https://keovip88.net/team/38243",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -854,11 +854,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-c6ea0b2252",
+                          "id": "lnk-93960f3c6c",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/38243",
+                          "url": "https://keovip88.net/team/17968",
                           "request_headers": [
                             {
                               "key": "Referer",
