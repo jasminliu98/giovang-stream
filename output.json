@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-c9d4237841",
-          "name": "Spain U20 vs New Caledonia U20 | 20:00 10/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c9d4237841",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c9d4237841",
-                  "name": "Spain U20 vs New Caledonia U20",
-                  "streams": [
-                    {
-                      "id": "st-c9d4237841",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-37ec959782",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788976143_hd/1788976143_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup U20",
-            "team_a": "Spain U20",
-            "team_b": "New Caledonia U20",
-            "logo_a": "https://static.flashscore.com/res/image/data/zeIEX0Fa-MayHMmvd.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Gzac4mDa-W201HP40.png",
-            "time": "20:00:00",
-            "date": "10/09",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/tcedafcl3b84_83fcfbbf_20260910.png?v=83fcfbbf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-40d523bc82",
           "name": "Korea DPR U20 vs Costa Rica U20 | 20:00 10/09",
           "type": "single",
@@ -156,6 +84,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/9m5kcw3jonu0_0ff0afd0_20260910.png?v=0ff0afd0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c9d4237841",
+          "name": "Spain U20 vs New Caledonia U20 | 20:00 10/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c9d4237841",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c9d4237841",
+                  "name": "Spain U20 vs New Caledonia U20",
+                  "streams": [
+                    {
+                      "id": "st-c9d4237841",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-37ec959782",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788976143_hd/1788976143_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup U20",
+            "team_a": "Spain U20",
+            "team_b": "New Caledonia U20",
+            "logo_a": "https://static.flashscore.com/res/image/data/zeIEX0Fa-MayHMmvd.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Gzac4mDa-W201HP40.png",
+            "time": "20:00:00",
+            "date": "10/09",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/tcedafcl3b84_83fcfbbf_20260910.png?v=83fcfbbf",
             "width": 1600,
             "height": 1200
           }
@@ -328,11 +328,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-2075b0bcf4",
+                          "id": "lnk-fcc7ddd396",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/789",
+                          "url": "https://keovip88.net/team/27304",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -345,11 +345,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-84fa03515b",
+                          "id": "lnk-75f488c9ac",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/27304",
+                          "url": "https://keovip88.net/giai-dau/789",
                           "request_headers": [
                             {
                               "key": "Referer",
