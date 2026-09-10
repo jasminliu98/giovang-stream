@@ -150,11 +150,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-ec5d4e7d14",
+                          "id": "lnk-0328d8d244",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/55",
+                          "url": "https://keovip88.net/team/41085",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -167,11 +167,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-ebd5ff2ee7",
+                          "id": "lnk-b336f1989d",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/41085",
+                          "url": "https://keovip88.net/giai-dau/55",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -256,11 +256,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-c796f3ec70",
+                          "id": "lnk-dbc8db3782",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/55",
+                          "url": "https://keovip88.net/team/27800",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -290,11 +290,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f210755622",
+                          "id": "lnk-b336f1989d",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/27800",
+                          "url": "https://keovip88.net/giai-dau/55",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -396,8 +396,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-5b40aef2fd",
+                          "id": "lnk-2fc805679a",
                           "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/14916",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-98538ff0e5",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/9766",
@@ -413,28 +430,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-ec5d4e7d14",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/giai-dau/55",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f4c25800c4",
+                          "id": "lnk-b336f1989d",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/14916",
+                          "url": "https://keovip88.net/giai-dau/55",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -694,65 +694,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-cce64feaad",
-          "name": "Belgium W vs Germany W | 22:45 10/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cce64feaad",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cce64feaad",
-                  "name": "Belgium W vs Germany W",
-                  "streams": [
-                    {
-                      "id": "st-cce64feaad",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Basketball World Cup",
-            "team_a": "Belgium W",
-            "team_b": "Germany W",
-            "logo_a": "https://static.flashscore.com/res/image/data/6cWqJ0Wg-YwmRHSUk.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/b73CZxvS-EFNlqax9.png",
-            "time": "22:45:00",
-            "date": "10/09",
-            "blv": "",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ucuznhmfy6px_be2dc6e3_20260911.png?v=be2dc6e3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e992d7b630",
           "name": "Australia (W) vs Spain (W) | 01:45 11/09",
