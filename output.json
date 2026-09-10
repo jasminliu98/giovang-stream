@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -42,7 +42,25 @@
                     {
                       "id": "st-c9d4237841",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-37ec959782",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788976143_hd/1788976143_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -57,7 +75,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/Gzac4mDa-W201HP40.png",
             "time": "20:00:00",
             "date": "10/09",
-            "blv": "",
+            "blv": "Trĩ",
             "is_live": true,
             "cate_type": "football"
           },
@@ -96,7 +114,25 @@
                     {
                       "id": "st-40d523bc82",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-38ec4568cf",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1788976272_hd/1788976272_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -111,7 +147,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/SWpAhyEa-lhYGvjx3.png",
             "time": "20:00:00",
             "date": "10/09",
-            "blv": "",
+            "blv": "Hấu",
             "is_live": true,
             "cate_type": "football"
           },
@@ -132,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -166,7 +202,7 @@
             "time": "21:00:00",
             "date": "10/09",
             "blv": "",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
