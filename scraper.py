@@ -56,7 +56,7 @@ HEADERS = {
 
 API_LIVE      = "https://live-api.keonhacaitp.one/storage/livestream/live.json"
 API_ALL       = "https://live-api.keonhacaitp.one/storage/livestream/all.json"
-API_FIXTURES  = "https://live-api.keonhacaitp.one/api/fixtures/"
+API_FIXTURES  = "https://live-api.keonhacaitp.one/api/fixtures"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
