@@ -307,11 +307,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b07eba64e7",
+                          "id": "lnk-f66735391f",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/804",
+                          "url": "https://keovip88.net/team/21726",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -324,11 +324,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-44b9367479",
+                          "id": "lnk-b2c38b7a40",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/21726",
+                          "url": "https://keovip88.net/giai-dau/804",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -997,69 +997,6 @@
       ]
     },
     {
-      "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-674ff7d9b5",
-          "name": "Saudi Arabia vs Japan | 17:00 11/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-674ff7d9b5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-674ff7d9b5",
-                  "name": "Saudi Arabia vs Japan",
-                  "streams": [
-                    {
-                      "id": "st-674ff7d9b5",
-                      "name": "GV",
-                      "stream_links": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Men''s basketball match of the Asian Games",
-            "team_a": "Saudi Arabia",
-            "team_b": "Japan",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/079847bad6b01cbc4b326fbbac8c9df8.jpg",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/738922cbe202a3663e363afbb5283fd0.jpg",
-            "time": "17:00:00",
-            "date": "11/09",
-            "blv": "",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/39156371_8b0c38bc_20260911.png?v=8b0c38bc",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_bongchuyen",
       "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
@@ -1326,7 +1263,25 @@
                     {
                       "id": "st-a2302e1be1",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-255eb114ad",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789097610_hd/1789097610_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1341,7 +1296,7 @@
             "logo_b": "https://cdn.onefc.com/wp-content/uploads/2026/05/260828-BKK-OFF168_TIC28-1800x1200px-2.jpg",
             "time": "18:30:00",
             "date": "11/09",
-            "blv": "",
+            "blv": "Điếc",
             "is_live": true,
             "cate_type": "vothuat"
           },
