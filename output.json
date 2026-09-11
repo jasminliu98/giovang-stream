@@ -709,8 +709,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-6d87fca69f",
+                          "id": "lnk-0fbd8df2a1",
                           "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/477",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-acd056a33c",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/14433",
@@ -726,28 +743,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-0d75525aa2",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/1559",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4eb70019e7",
+                          "id": "lnk-dd17bd21a5",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/477",
+                          "url": "https://keovip88.net/team/1559",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -832,11 +832,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-47d9e9e9b6",
+                          "id": "lnk-0fbd8df2a1",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/27825",
+                          "url": "https://keovip88.net/giai-dau/477",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -866,11 +866,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-4eb70019e7",
+                          "id": "lnk-810a69846d",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/477",
+                          "url": "https://keovip88.net/team/27825",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1194,6 +1194,60 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/wws8r1yp2yza_e624e360_20260911.png?v=e624e360",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-897152f68a",
+          "name": "Nhật Bản vs Ấn Độ | 17:30 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-897152f68a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-897152f68a",
+                  "name": "Nhật Bản vs Ấn Độ",
+                  "streams": [
+                    {
+                      "id": "st-897152f68a",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Championship",
+            "team_a": "Nhật Bản",
+            "team_b": "Ấn Độ",
+            "logo_a": "https://static.flashscore.com/res/image/data/jgOunSg5-dtzqTXTK.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/bBruoNwS-ruTy2xns.png",
+            "time": "17:30:00",
+            "date": "11/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/grjfj7bzz0xv_0c43dd5e_20260911.png?v=0c43dd5e",
             "width": 1600,
             "height": 1200
           }
