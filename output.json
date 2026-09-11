@@ -709,25 +709,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-6d87fca69f",
+                          "id": "lnk-23375a5144",
                           "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/14433",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0d75525aa2",
-                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/1559",
@@ -743,11 +726,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-4eb70019e7",
-                          "name": "Trực Tiếp 3",
+                          "id": "lnk-845a1eda43",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/giai-dau/477",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4119a45e10",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/14433",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -849,11 +849,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-7e10d244a1",
+                          "id": "lnk-845a1eda43",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/39500",
+                          "url": "https://keovip88.net/giai-dau/477",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -866,11 +866,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-4eb70019e7",
+                          "id": "lnk-3f5c5940cf",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/477",
+                          "url": "https://keovip88.net/team/39500",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1500,6 +1500,69 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/yyp6237ug1jq_e9d50883_20260911.png?v=e9d50883",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_duaxe",
+      "name": "🏎️ Đua Xe",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-d1d0ec78b9",
+          "name": "F1 vs F1 | 18:30 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d1d0ec78b9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d1d0ec78b9",
+                  "name": "F1 vs F1",
+                  "streams": [
+                    {
+                      "id": "st-d1d0ec78b9",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Spanish Grand Prix",
+            "team_a": "F1",
+            "team_b": "F1",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKZjoQ1iDyqVvjfmjYTdbGK1ZwWK8xky25kios9lTajA&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKZjoQ1iDyqVvjfmjYTdbGK1ZwWK8xky25kios9lTajA&s=10",
+            "time": "18:30:00",
+            "date": "11/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "duaxe"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/kgvff1ic8h47_04b06623_20260911.png?v=04b06623",
             "width": 1600,
             "height": 1200
           }
