@@ -709,25 +709,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-0fbd8df2a1",
+                          "id": "lnk-6d87fca69f",
                           "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/giai-dau/477",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-acd056a33c",
-                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/14433",
@@ -743,11 +726,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-dd17bd21a5",
-                          "name": "Trực Tiếp 3",
+                          "id": "lnk-0d75525aa2",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/1559",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4eb70019e7",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/477",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -832,11 +832,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-0fbd8df2a1",
+                          "id": "lnk-47d9e9e9b6",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/477",
+                          "url": "https://keovip88.net/team/27825",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -866,11 +866,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-810a69846d",
+                          "id": "lnk-4eb70019e7",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/27825",
+                          "url": "https://keovip88.net/giai-dau/477",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1248,6 +1248,177 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/grjfj7bzz0xv_0c43dd5e_20260911.png?v=0c43dd5e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8e92053876",
+          "name": "Ukraine vs North Macedonia | 20:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8e92053876",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8e92053876",
+                  "name": "Ukraine vs North Macedonia",
+                  "streams": [
+                    {
+                      "id": "st-8e92053876",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Championship",
+            "team_a": "Ukraine",
+            "team_b": "North Macedonia",
+            "logo_a": "https://static.flashscore.com/res/image/data/6sYNPFZA-K6NdtgS4.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/t2mk2DeM-EBy7yz6d.png",
+            "time": "20:00:00",
+            "date": "11/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1x086xtwg5hf_3c413720_20260911.png?v=3c413720",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4f62c6bb3f",
+          "name": "Nedtherlands vs Belgium | 21:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4f62c6bb3f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4f62c6bb3f",
+                  "name": "Nedtherlands vs Belgium",
+                  "streams": [
+                    {
+                      "id": "st-4f62c6bb3f",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Championship",
+            "team_a": "Nedtherlands",
+            "team_b": "Belgium",
+            "logo_a": "https://static.flashscore.com/res/image/data/SGirXqcM-WIQgTQmf.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/4xSiQ9FG-xMCIWvyk.png",
+            "time": "21:00:00",
+            "date": "11/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/xbd3o8wgyvam_66bc0ef3_20260911.png?v=66bc0ef3",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_vothuat",
+      "name": "🥊 Võ Thuật",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-a2302e1be1",
+          "name": "ONE Friday Fights 170 & The Inner Circle 30 vs ONE Friday Fights 170 & The Inner Circle 30 | 18:30 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a2302e1be1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a2302e1be1",
+                  "name": "ONE Friday Fights 170 & The Inner Circle 30 vs ONE Friday Fights 170 & The Inner Circle 30",
+                  "streams": [
+                    {
+                      "id": "st-a2302e1be1",
+                      "name": "GV",
+                      "stream_links": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ONE Friday Fights 170 & The Inner Circle 30",
+            "team_a": "ONE Friday Fights 170 & The Inner Circle 30",
+            "team_b": "ONE Friday Fights 170 & The Inner Circle 30",
+            "logo_a": "https://cdn.onefc.com/wp-content/uploads/2026/05/260828-BKK-OFF168_TIC28-1800x1200px-2.jpg",
+            "logo_b": "https://cdn.onefc.com/wp-content/uploads/2026/05/260828-BKK-OFF168_TIC28-1800x1200px-2.jpg",
+            "time": "18:30:00",
+            "date": "11/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/603pk16e3vc1_8fdca95d_20260911.png?v=8fdca95d",
             "width": 1600,
             "height": 1200
           }
