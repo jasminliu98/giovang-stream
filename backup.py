@@ -54,9 +54,9 @@ HEADERS = {
     "Referer":    "https://giovang.store/",
 }
 
-API_LIVE      = "https://live-api.keovip88.net/storage/livestream/live.json"
-API_ALL       = "https://live-api.keovip88.net/storage/livestream/all.json"
-API_FIXTURES  = "https://live-api.keovip88.net/api/fixtures/"
+API_LIVE      = "https://live-api.keonhacaitp.one/storage/livestream/live.json"
+API_ALL       = "https://live-api.keonhacaitp.one/storage/livestream/all.json"
+API_FIXTURES  = "https://live-api.keonhacaitp.one/api/fixtures"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
