@@ -61,11 +61,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b07eba64e7",
+                          "id": "lnk-d2a768b24f",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/804",
+                          "url": "https://keovip88.net/team/41888",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -78,11 +78,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b2c82e89d5",
+                          "id": "lnk-b2c38b7a40",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/41888",
+                          "url": "https://keovip88.net/giai-dau/804",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -307,8 +307,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-b07eba64e7",
+                          "id": "lnk-f66735391f",
                           "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/21726",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b2c38b7a40",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/giai-dau/804",
@@ -324,28 +341,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-1d5f7818d8",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/24011",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9497983268",
+                          "id": "lnk-efc243b05d",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/21726",
+                          "url": "https://keovip88.net/team/24011",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1289,7 +1289,7 @@
     },
     {
       "id": "cate_duaxe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1302,10 +1302,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1336,7 +1336,7 @@
             "time": "18:30:00",
             "date": "11/09",
             "blv": "",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "duaxe"
           },
           "image": {
