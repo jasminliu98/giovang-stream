@@ -8,6 +8,14 @@ from datetime import datetime, timezone, timedelta
 from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 
+# ★ Optional: curl_cffi giúp giả lập TLS fingerprint trình duyệt thật để qua WAF/Cloudflare.
+#   Chưa cài cũng KHÔNG sao, code tự fallback về python-requests như cũ.
+try:
+    from curl_cffi import requests as cffi_requests
+    _HAVE_CURL_CFFI = True
+except ImportError:
+    _HAVE_CURL_CFFI = False
+
 # ─────────────────────────────────────────────────────────────────────────────
 # TIMEZONE & HELPERS
 # ─────────────────────────────────────────────────────────────────────────────
@@ -50,13 +58,18 @@ def parse_kickoff(time_str: str, date_str: str = ""):
 # ─────────────────────────────────────────────────────────────────────────────
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    # ★ FIX: UA đầy đủ kiểu Chrome thật — bản cũ cụt đuôi "AppleWebKit/537.36",
+    #   nhiều rule WAF coi UA dạng này là bot và trả 403/503.
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
     "Referer":    "https://giovang.store/",
+    # ★ Thêm header chuẩn browser cho giống request thật
+    "Accept":          "application/json, text/plain, */*",
+    "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
 }
 
-API_LIVE      = "https://live-api.keonhacaitp.one/storage/livestream/live.json"
-API_ALL       = "https://live-api.keonhacaitp.one/storage/livestream/all.json"
-API_FIXTURES  = "https://live-api.keonhacaitp.one/api/fixtures"
+API_LIVE      = "https://live-api.keovip88.net/storage/livestream/live.json"
+API_ALL       = "https://live-api.keovip88.net/storage/livestream/all.json"
+API_FIXTURES  = "https://live-api.keovip88.net/api/fixtures"
 
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
@@ -99,6 +112,23 @@ EXCLUDE_LEAGUES_AMERICA = [
     "copa america", "copa sudamericana", "copa libertadores",
 ]
 
+# ─────────────────────────────────────────────────────────────────────────────
+# ★ HTTP CLIENT THỐNG NHẤT (MỚI)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def http_get(url: str, timeout: int = 12):
+    """
+    GET request thống nhất cho toàn script:
+    - Ưu tiên curl_cffi impersonate='chrome' để giả lập TLS fingerprint trình duyệt thật.
+      (python-requests có TLS fingerprint JA3 đặc trưng -> dễ bị Cloudflare/WAF chặn 403/503
+       dù headers đã giả browser hoàn hảo — đây là lý do domain 1 chặn, domain 2 không.)
+    - Chưa cài curl_cffi thì fallback về requests thường.
+    Response của curl_cffi tương thích .status_code / .text / .json() / .raise_for_status().
+    """
+    if _HAVE_CURL_CFFI:
+        return cffi_requests.get(url, headers=HEADERS, timeout=timeout, impersonate="chrome")
+    return requests.get(url, headers=HEADERS, timeout=timeout)
+
 def match_keywords(text: str, keywords: list) -> bool:
     if not text: return False
     text_lower = text.lower()
@@ -115,7 +145,7 @@ def make_id(text, prefix):
 
 def fetch_image(url):
     try:
-        res = requests.get(url, headers=HEADERS, timeout=8)
+        res = http_get(url, timeout=8)   # ★ đổi requests.get -> http_get
         res.raise_for_status()
         return Image.open(BytesIO(res.content)).convert("RGBA")
     except Exception:
@@ -372,7 +402,7 @@ def extract_stream_urls(obj):
 
 def fetch_json(url: str) -> list:
     try:
-        res = requests.get(f"{url}?t={int(time.time() * 1000)}", headers=HEADERS, timeout=15)
+        res = http_get(f"{url}?t={int(time.time() * 1000)}", timeout=15)   # ★ đổi requests.get -> http_get
         data = res.json()
         return data.get("response", []) if isinstance(data, dict) else []
     except Exception as e:
@@ -473,27 +503,45 @@ def get_grouped_matches() -> dict:
             grouped[match_id]["_blv_keys"] = list(set(grouped[match_id]["_blv_keys"] + blv_keys))
 
     # ─── LẤY LINK TỪ API CHI TIẾT (ĐÃ FIX LỖI HARD-CODE & QUÉT ĐỆ QUY) ───
+    fixture_fail_count = 0  # ★ đếm số fixture bị từ chối/bị chặn để cảnh báo cuối
+
     for match_id, match_data in grouped.items():
         fixture_data = None
         api_url = f"{API_FIXTURES}/{match_id}"
         
-        # ★ Thử tối đa 3 lần nếu API bị lag/timeout
+        # ★ Thử tối đa 3 lần nếu API bị lag/timeout/bị chặn tạm thời
         for attempt in range(3):
             try:
-                res = requests.get(api_url, headers=HEADERS, timeout=12)
+                res = http_get(api_url, timeout=12)   # ★ đổi requests.get -> http_get
                 res.raise_for_status()
                 data = res.json()
                 fixture_data = data.get("response", {}) if isinstance(data, dict) else {}
                 break
             except requests.exceptions.Timeout:
+                # ★ Timeout giờ cũng in log để biết đang có vấn đề
                 if attempt < 2:
+                    print(f"  [RETRY {attempt + 1}/3] Timeout | {api_url}")
                     time.sleep(1)
             except requests.exceptions.HTTPError:
+                # ★ FIX: TRƯỚC ĐÂY break im lặng không biết vì sao mất link.
+                #   Giờ log rõ status code + 1 đoạn body để nhận biết bị WAF chặn (403/503/challenge HTML)
+                try:
+                    body = (res.text or "")[:200].replace("\n", " ")
+                except Exception:
+                    body = ""
+                print(f"  [BLOCK?] HTTP {res.status_code} | {api_url} | body: {body}")
                 break
-            except Exception:
-                break
+            except Exception as e:
+                # ★ FIX: TRƯỚC ĐÂY break ngay KHÔNG retry -> mất trận chỉ vì 1 lỗi connection tạm thời.
+                #   Giờ retry như Timeout và luôn log ra lỗi cụ thể.
+                if attempt < 2:
+                    print(f"  [RETRY {attempt + 1}/3] {type(e).__name__}: {e} | {api_url}")
+                    time.sleep(1)
+                else:
+                    print(f"  [FAIL 3/3] {type(e).__name__}: {e} | {api_url}")
         
         if not isinstance(fixture_data, dict):
+            fixture_fail_count += 1
             continue
 
         # --- XỬ LÝ BLV VÀ LINK STREAM ---
@@ -551,6 +599,15 @@ def get_grouped_matches() -> dict:
                 
         match_data.pop("_blv_keys", None)
 
+    # ★ CẢNH BÁO CHẨN ĐOÁN: nếu bị từ chối nhiều -> khả năng cao domain đang chặn bot
+    if fixture_fail_count > 0:
+        total_fixture = len(grouped)
+        print(f"\n⚠️  {fixture_fail_count}/{total_fixture} fixture KHONG lay duoc du lieu tu {API_FIXTURES}")
+        if total_fixture > 0 and fixture_fail_count >= total_fixture * 0.5:
+            print("⚠️  Phan lon bi tu choi (403/503/challenge) -> KHA NANG CAO DOMAIN NAY DANG CHAN BOT (WAF/Cloudflare).")
+            print("    Giai phap 1: pip install curl_cffi (code da tu dong dung neu co cai).")
+            print("    Giai phap 2: Doi API_LIVE / API_ALL / API_FIXTURES sang domain khong bi chan, vi du: live-api.keonhacaitp.one")
+
     return grouped
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -576,7 +633,7 @@ def build_channel(match: dict, match_id_safe: str, thumb_url: str = "") -> dict:
                 "url": s_url,
                 "request_headers": [
                     {"key": "Referer", "value": "https://giovang.store/"},
-                    {"key": "User-Agent", "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"},
+                    {"key": "User-Agent", "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"},  # ★ đồng bộ UA đầy đủ với HEADERS
                 ],
             })
 
@@ -633,6 +690,8 @@ def main():
     os.makedirs(THUMBS_DIR, exist_ok=True)
     cleanup_old_thumbs(days=3)
     print(f"Gio VN hien tai : {now_vn().strftime('%H:%M %d/%m/%Y')}")
+    # ★ in ra đang dùng HTTP client nào để biết có qua được WAF hay không
+    print(f"HTTP client     : {'curl_cffi (impersonate=chrome)' if _HAVE_CURL_CFFI else 'python-requests (khuyen nghi: pip install curl_cffi de qua WAF)'}")
     print("Lay & gom nhom tran dau tu GiovangTV API...")
 
     grouped_matches = get_grouped_matches()
