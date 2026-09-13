@@ -11,596 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-d7304b71a7",
-          "name": "Houston Texans vs Buffalo Bills | 23:59 13/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d7304b71a7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d7304b71a7",
-                  "name": "Houston Texans vs Buffalo Bills",
-                  "streams": [
-                    {
-                      "id": "st-d7304b71a7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7b919884b7",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789314046_hd/1789314046_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Houston Texans",
-            "team_b": "Buffalo Bills",
-            "logo_a": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/28/Houston_Texans_logo.svg/1280px-Houston_Texans_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-            "logo_b": "https://yt3.googleusercontent.com/IGQZA2iM_bvkFZK-IkrW8cO7565909BBNdVhlBn4Aqoz6kTlnk0f8ZuxhJ75mJl7LLhVdsQLpg=s900-c-k-c0x00ffffff-no-rj",
-            "time": "23:59:00",
-            "date": "13/09",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/1w3fyu0vlqvz_fb11e787_20260914.png?v=fb11e787",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-99a37fab05",
-          "name": "Indianapolis Colts vs Baltimore Ravens | 23:59 13/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-99a37fab05",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-99a37fab05",
-                  "name": "Indianapolis Colts vs Baltimore Ravens",
-                  "streams": [
-                    {
-                      "id": "st-99a37fab05",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-26e4b3b3dd",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789314356_hd/1789314356_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NFL",
-            "team_a": "Indianapolis Colts",
-            "team_b": "Baltimore Ravens",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKmDzUkZnQztA68u0a4k1n8nVuXPaMH_waklp-tmWVnw&s=10",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/1/16/Baltimore_Ravens_logo.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
-            "time": "23:59:00",
-            "date": "13/09",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/qa1fglbzcnb3_a24f208f_20260914.png?v=a24f208f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bafcb1fe03",
-          "name": "Al-Riyadh vs Al Kholood | 01:00 14/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bafcb1fe03",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bafcb1fe03",
-                  "name": "Al-Riyadh vs Al Kholood",
-                  "streams": [
-                    {
-                      "id": "st-bafcb1fe03",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6763bd5d31",
-                          "name": "Mát",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789294199_hd/1789294199_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Al-Riyadh",
-            "team_b": "Al Kholood",
-            "logo_a": "https://images.keovip88.net/images/teams/al-riyadh.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-kholood.png",
-            "time": "01:00:00",
-            "date": "14/09",
-            "blv": "Mát",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a98b8e024d46db870bd986a2_646b825e_20260914.png?v=646b825e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a3b244b3ea",
-          "name": "US Sassuolo Calcio vs Juventus | 01:45 14/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a3b244b3ea",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a3b244b3ea",
-                  "name": "US Sassuolo Calcio vs Juventus",
-                  "streams": [
-                    {
-                      "id": "st-a3b244b3ea",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-69f55896b2",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789313712_hd/1789313712_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b656972619",
-                          "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/giai-dau/128",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-81da518444",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/23453",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-6ed0fb10ab",
-                          "name": "Trực Tiếp 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/10456",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "US Sassuolo Calcio",
-            "team_b": "Juventus",
-            "logo_a": "https://images.keovip88.net/images/teams/sassuolo.png",
-            "logo_b": "https://images.keovip88.net/images/teams/juventus.png",
-            "time": "01:45:00",
-            "date": "14/09",
-            "blv": "Súp, Trực Tiếp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a9f501224d46db8702d2b45_af0cad21_20260914.png?v=af0cad21",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-46e3ea6fa9",
-          "name": "Real Sociedad vs Atletico Madrid | 02:00 14/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-46e3ea6fa9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-46e3ea6fa9",
-                  "name": "Real Sociedad vs Atletico Madrid",
-                  "streams": [
-                    {
-                      "id": "st-46e3ea6fa9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d4a381a6a7",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789294341_hd/1789294341_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-15e5eeab8b",
-                          "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/1784",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e7f57ee29e",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/23355",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2231fcb53f",
-                          "name": "Trực Tiếp 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/giai-dau/140",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Sociedad",
-            "team_b": "Atletico Madrid",
-            "logo_a": "https://images.keovip88.net/images/teams/real-sociedad.png",
-            "logo_b": "https://images.keovip88.net/images/teams/atletico-madrid.png",
-            "time": "02:00:00",
-            "date": "14/09",
-            "blv": "Dory, Trực Tiếp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a9f501224d46db8702d2b5c_93a74232_20260914.png?v=93a74232",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c17ff53d9e",
-          "name": "FC Famalicao vs Sporting CP | 02:30 14/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c17ff53d9e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c17ff53d9e",
-                  "name": "FC Famalicao vs Sporting CP",
-                  "streams": [
-                    {
-                      "id": "st-c17ff53d9e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-233200d631",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789294525_hd/1789294525_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0ce5deae2a",
-                          "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/33836",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-42cec65298",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/9700",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-655983ab8f",
-                          "name": "Trực Tiếp 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/giai-dau/173",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Bồ Đào Nha",
-            "team_a": "FC Famalicao",
-            "team_b": "Sporting CP",
-            "logo_a": "https://images.keovip88.net/images/teams/fc-famalicao.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sporting-cp.png",
-            "time": "02:30:00",
-            "date": "14/09",
-            "blv": "Ngọng, Trực Tiếp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a9f501224d46db8702d2d61_c9f56b81_20260914.png?v=c9f56b81",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a7307eead3",
           "name": "Philadelphia Eagles vs Washington Commanders | 03:25 14/09",
@@ -790,11 +205,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-2493131ddb",
+                          "id": "lnk-e212ea57cb",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/583",
+                          "url": "https://keovip88.net/team/11489",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -824,11 +239,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-20e8e7aa14",
+                          "id": "lnk-a49f9a7f5f",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/11489",
+                          "url": "https://keovip88.net/giai-dau/583",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -913,11 +328,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-2493131ddb",
+                          "id": "lnk-0352ac23a2",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/583",
+                          "url": "https://keovip88.net/team/15682",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -930,11 +345,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-88c14682d1",
+                          "id": "lnk-49712c9a6c",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/15682",
+                          "url": "https://keovip88.net/giai-dau/583",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1036,8 +451,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-7b66380079",
+                          "id": "lnk-7b59573858",
                           "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/4771",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-387022cef5",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/29736",
@@ -1053,28 +485,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-49712c9a6c",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/giai-dau/583",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fc0d45f641",
+                          "id": "lnk-a49f9a7f5f",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/4771",
+                          "url": "https://keovip88.net/giai-dau/583",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1591,11 +1006,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-8967533a8d",
+                          "id": "lnk-579c17b733",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/29906",
+                          "url": "https://keovip88.net/giai-dau/7226",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1608,11 +1023,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-3ae52f20ec",
+                          "id": "lnk-2fdf107820",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/7226",
+                          "url": "https://keovip88.net/team/29906",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1714,8 +1129,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-33d8a88a22",
+                          "id": "lnk-4148544370",
                           "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/728",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8cd2addda8",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/26518",
@@ -1731,28 +1163,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-c19297fab4",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/5778",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c6c3b67ad8",
+                          "id": "lnk-f27d942f77",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/728",
+                          "url": "https://keovip88.net/team/5778",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1837,25 +1252,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-0125bda968",
+                          "id": "lnk-91f84e5213",
                           "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/23874",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-18e087d921",
-                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/giai-dau/567",
@@ -1871,11 +1269,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-6f89a65939",
-                          "name": "Trực Tiếp 3",
+                          "id": "lnk-df339d1e30",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/16741",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c6f0098a53",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/23874",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1960,25 +1375,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-47a5305459",
+                          "id": "lnk-91f84e5213",
                           "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/42021",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-18e087d921",
-                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/giai-dau/567",
@@ -1994,11 +1392,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-b55e3bbe65",
-                          "name": "Trực Tiếp 3",
+                          "id": "lnk-9be01818dd",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/15567",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3c95a1beba",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/42021",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2295,11 +1710,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f6444c7ffb",
+                          "id": "lnk-95e15a98c7",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/13970",
+                          "url": "https://keovip88.net/team/13515",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2312,11 +1727,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-2b1f0504b1",
+                          "id": "lnk-b587dbdfd1",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/13515",
+                          "url": "https://keovip88.net/team/13970",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2720,83 +2135,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0a46155349",
-          "name": "USA (W) vs France (W) | 01:00 14/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0a46155349",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0a46155349",
-                  "name": "USA (W) vs France (W)",
-                  "streams": [
-                    {
-                      "id": "st-0a46155349",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b7ee8ca0b4",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789294922_hd/1789294922_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIBA Women Basketball World Cup",
-            "team_a": "USA (W)",
-            "team_b": "France (W)",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/896974b6679d1a4e10ab3e4241b67209.jpg",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/cdbb76cb9938ea1d21f45ca4dbf2ed49.jpg",
-            "time": "01:00:00",
-            "date": "14/09",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/36597377_b64a71a7_20260914.png?v=b64a71a7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5d36d19812",
           "name": "Bahrain vs Kazakhstan | 08:00 14/09",
@@ -3304,165 +2647,12 @@
       ]
     },
     {
-      "id": "cate_tennis",
-      "name": "🎾 Tennis (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-7468e3b8ff",
-          "name": "Alexander Zverev vs Ben Shelton | 01:00 14/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7468e3b8ff",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7468e3b8ff",
-                  "name": "Alexander Zverev vs Ben Shelton",
-                  "streams": [
-                    {
-                      "id": "st-7468e3b8ff",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-69c5ddb027",
-                          "name": "Ben vs Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789305853_hd/1789305853_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "US Open ATP",
-            "team_a": "Alexander Zverev",
-            "team_b": "Ben Shelton",
-            "logo_a": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShyQpfNjyoyexlsL7fWN50fUZ21GyodIC4yC5sbhmqxQ&s",
-            "time": "01:00:00",
-            "date": "14/09",
-            "blv": "Ben vs Mù",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/4ixvkbxt0ypp_cf8ae000_20260914.png?v=cf8ae000",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8c45c372e9",
-          "name": "Ý vs Slovakia | 02:00 14/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c45c372e9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8c45c372e9",
-                  "name": "Ý vs Slovakia",
-                  "streams": [
-                    {
-                      "id": "st-8c45c372e9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-79ad5ffcce",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789295156_hd/1789295156_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Championship",
-            "team_a": "Ý",
-            "team_b": "Slovakia",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/joYpsiaYi4GDCqhSRAq5Zg_96x96.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Slovakia.svg?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=original",
-            "time": "02:00:00",
-            "date": "14/09",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/7pbs1gtuq1qh_27899a65_20260914.png?v=27899a65",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f9f419d246",
           "name": "Latvia vs Pháp | 23:59 13/09",
