@@ -11,299 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c5c1335cc9",
-          "name": "Inter Milan vs Udinese | 01:45 15/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c5c1335cc9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c5c1335cc9",
-                  "name": "Inter Milan vs Udinese",
-                  "streams": [
-                    {
-                      "id": "st-c5c1335cc9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ae72760150",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789322494_hd/1789322494_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Inter Milan",
-            "team_b": "Udinese",
-            "logo_a": "https://static.flashscore.com/res/image/data/lxz64qDa-O8c8nWOb.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/AZBQMaYA-SYw7EcY6.png",
-            "time": "01:45:00",
-            "date": "15/09",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/s2ea5354y2qs_2ac8d8ed_20260915.png?v=2ac8d8ed",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d3a96257fb",
-          "name": "Red Star vs Metz | 01:45 15/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d3a96257fb",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d3a96257fb",
-                  "name": "Red Star vs Metz",
-                  "streams": [
-                    {
-                      "id": "st-d3a96257fb",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ae14195f84",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789324631_hd/1789324631_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng hai Pháp",
-            "team_a": "Red Star",
-            "team_b": "Metz",
-            "logo_a": "https://static.flashscore.com/res/image/data/CO33NAcM-pEpm230o.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/4MoVp0h5-Chl7XNKI.png",
-            "time": "01:45:00",
-            "date": "15/09",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/19mf1odb87bn_0ad976e7_20260915.png?v=0ad976e7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d6e1b87dab",
-          "name": "Villarreal vs Betis | 02:00 15/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d6e1b87dab",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d6e1b87dab",
-                  "name": "Villarreal vs Betis",
-                  "streams": [
-                    {
-                      "id": "st-d6e1b87dab",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-da57733e10",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789322980_hd/1789322980_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Villarreal",
-            "team_b": "Betis",
-            "logo_a": "https://static.flashscore.com/res/image/data/65Z85Uh5-GSuwY3p9.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hvyaw5HG-zkU5wiAr.png",
-            "time": "02:00:00",
-            "date": "15/09",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/p2tqjuxg19bu_ddbd53ab_20260915.png?v=ddbd53ab",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b10aaa0c44",
-          "name": "Leeds United vs Newcastle United | 02:00 15/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b10aaa0c44",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b10aaa0c44",
-                  "name": "Leeds United vs Newcastle United",
-                  "streams": [
-                    {
-                      "id": "st-b10aaa0c44",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-efc0de583d",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789323210_hd/1789323210_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Leeds United",
-            "team_b": "Newcastle United",
-            "logo_a": "https://static.flashscore.com/res/image/data/rsvCPOh5-MTp25XgE.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/fojwJwZA-2Vnc5VQf.png",
-            "time": "02:00:00",
-            "date": "15/09",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/5aftkomko4e0_3d6c56ca_20260915.png?v=3d6c56ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5c623ca9f2",
           "name": "Union La Calera vs Deportes Limache | 06:30 15/09",
@@ -366,11 +78,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-1f16123c02",
+                          "id": "lnk-d308a5cdaf",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/524",
+                          "url": "https://keovip88.net/team/9496",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -383,11 +95,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-6e87489050",
+                          "id": "lnk-9399cae1f0",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/9496",
+                          "url": "https://keovip88.net/giai-dau/524",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -495,87 +207,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/fig3yvqcuu1a_c56968d9_20260915.png?v=c56968d9",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-94f8e7fe44",
-          "name": "Slovenia vs Hy Lạp | 02:00 15/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-94f8e7fe44",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-94f8e7fe44",
-                  "name": "Slovenia vs Hy Lạp",
-                  "streams": [
-                    {
-                      "id": "st-94f8e7fe44",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-69160eb8ea",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789324535_hd/1789324535_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Championship",
-            "team_a": "Slovenia",
-            "team_b": "Hy Lạp",
-            "logo_a": "https://static.flashscore.com/res/image/data/CAHIGeh5-dWxvhZJm.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/C2em5eAr-82GJYIXO.png",
-            "time": "02:00:00",
-            "date": "15/09",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/f04ahxps0mjl_0069fc10_20260915.png?v=0069fc10",
             "width": 1600,
             "height": 1200
           }
@@ -1178,7 +809,7 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1191,10 +822,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1243,7 +874,7 @@
             "time": "05:40:00",
             "date": "15/09",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
