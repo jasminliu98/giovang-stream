@@ -307,25 +307,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-e9491468e9",
+                          "id": "lnk-b656972619",
                           "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/41085",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-caba572301",
-                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/giai-dau/128",
@@ -341,11 +324,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-008a1f8216",
-                          "name": "Trực Tiếp 3",
+                          "id": "lnk-4165dc407a",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/40514",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ebd5ff2ee7",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/41085",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -447,11 +447,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-caba572301",
+                          "id": "lnk-95e15a98c7",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/128",
+                          "url": "https://keovip88.net/team/13515",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -464,11 +464,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-2b1f0504b1",
+                          "id": "lnk-a0d0962a10",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/13515",
+                          "url": "https://keovip88.net/giai-dau/128",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -913,11 +913,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-72ae9dbfb1",
+                          "id": "lnk-a4466b0c8c",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/524",
+                          "url": "https://keovip88.net/team/20180",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -947,11 +947,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-57ef8ea4fc",
+                          "id": "lnk-9399cae1f0",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/20180",
+                          "url": "https://keovip88.net/giai-dau/524",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1284,6 +1284,87 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/f04ahxps0mjl_0069fc10_20260915.png?v=0069fc10",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_esport",
+      "name": "🎮 Esport",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-b863850c07",
+          "name": "Kansas City Chiefs vs Denver Broncos | 07:15 15/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b863850c07",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b863850c07",
+                  "name": "Kansas City Chiefs vs Denver Broncos",
+                  "streams": [
+                    {
+                      "id": "st-b863850c07",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2a34f628a0",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789405256_hd/1789405256_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NFL",
+            "team_a": "Kansas City Chiefs",
+            "team_b": "Denver Broncos",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/UVLlczXJQ1wxxKMT9ShJQw_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/-Y7S1VpDZQ6t9f-OZdlugw_96x96.png",
+            "time": "07:15:00",
+            "date": "15/09",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/08ld8pil7rwk_19f00652_20260915.png?v=19f00652",
             "width": 1600,
             "height": 1200
           }
