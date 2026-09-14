@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -78,11 +78,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-4165dc407a",
+                          "id": "lnk-0328d8d244",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/40514",
+                          "url": "https://keovip88.net/team/41085",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -95,11 +95,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-ebd5ff2ee7",
+                          "id": "lnk-008a1f8216",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/41085",
+                          "url": "https://keovip88.net/team/40514",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -135,129 +135,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a9f501524d46db8702d35d2_587cea50_20260915.png?v=587cea50",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ebd4682f25",
-          "name": "Como vs Parma | 23:30 14/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ebd4682f25",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ebd4682f25",
-                  "name": "Como vs Parma",
-                  "streams": [
-                    {
-                      "id": "st-ebd4682f25",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2ba7570ed5",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789322311_hd/1789322311_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-7afe86a315",
-                          "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/13970",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-caba572301",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/giai-dau/128",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2b1f0504b1",
-                          "name": "Trực Tiếp 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/13515",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Como",
-            "team_b": "Parma",
-            "logo_a": "https://images.keovip88.net/images/teams/como.png",
-            "logo_b": "https://images.keovip88.net/images/teams/parma.png",
-            "time": "23:30:00",
-            "date": "14/09",
-            "blv": "Bee, Trực Tiếp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a9f501524d46db8702d35c9_5c7e7479_20260915.png?v=5c7e7479",
             "width": 1600,
             "height": 1200
           }
@@ -684,11 +561,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-1a29362422",
+                          "id": "lnk-d308a5cdaf",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/20180",
+                          "url": "https://keovip88.net/team/9496",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -701,11 +578,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-6e87489050",
+                          "id": "lnk-57ef8ea4fc",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/9496",
+                          "url": "https://keovip88.net/team/20180",
                           "request_headers": [
                             {
                               "key": "Referer",
