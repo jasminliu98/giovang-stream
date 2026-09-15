@@ -87,6 +87,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-b4135fc6c8",
+          "name": "U23 Việt Nam vs U23 Kuwait | 17:00 15/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4135fc6c8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b4135fc6c8",
+                  "name": "U23 Việt Nam vs U23 Kuwait",
+                  "streams": [
+                    {
+                      "id": "st-b4135fc6c8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-20ad303cd4",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789436358_hd/1789436358_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD 2026",
+            "team_a": "U23 Việt Nam",
+            "team_b": "U23 Kuwait",
+            "logo_a": "https://static.flashscore.com/res/image/data/StTKbSzS-A9PcSp30.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8EISN0FG-pYWEJTrt.png",
+            "time": "17:00:00",
+            "date": "15/09",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/7cp6nlij325d_e7931f82_20260915.png?v=e7931f82",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
