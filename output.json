@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b193d3e101",
-          "name": "Terengganu vs DPMM | 20:00 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b193d3e101",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b193d3e101",
-                  "name": "Terengganu vs DPMM",
-                  "streams": [
-                    {
-                      "id": "st-b193d3e101",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-94da0184e9",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789539607_hd/1789539607_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Malaysia FA Cup",
-            "team_a": "Terengganu",
-            "team_b": "DPMM",
-            "logo_a": "https://images.keovip88.net/images/teams/terengganu.png",
-            "logo_b": "https://images.keovip88.net/images/teams/dpmm-fc.png",
-            "time": "20:00:00",
-            "date": "16/09",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/efaxqb8yncp4_5b375e6f_20260916.png?v=5b375e6f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-43e49f4da6",
           "name": "Al Hussein vs East Bengal | 23:00 16/09",
@@ -205,11 +133,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-333d7e9b75",
+                          "id": "lnk-b2ce3c3124",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/23530",
+                          "url": "https://keovip88.net/giai-dau/56",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -222,11 +150,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b460311faa",
+                          "id": "lnk-87dec6e403",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/56",
+                          "url": "https://keovip88.net/team/23530",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -451,8 +379,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-9fd3ca4d2c",
+                          "id": "lnk-17b6d6e1c0",
                           "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/140",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-505e659ed4",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/16274",
@@ -468,28 +413,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-6bfb48106c",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/42308",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2231fcb53f",
+                          "id": "lnk-478dc9c8f4",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/140",
+                          "url": "https://keovip88.net/team/42308",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -714,11 +642,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-238c08f728",
+                          "id": "lnk-a3213bc8a0",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/117",
+                          "url": "https://keovip88.net/team/2697",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -731,11 +659,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-e64a94fcc9",
+                          "id": "lnk-80d495fa39",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/2697",
+                          "url": "https://keovip88.net/giai-dau/117",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -837,11 +765,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-5b40aef2fd",
+                          "id": "lnk-2f2d43417a",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/9766",
+                          "url": "https://keovip88.net/team/13622",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -871,11 +799,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-cd62c4109e",
+                          "id": "lnk-dabfc8f671",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/13622",
+                          "url": "https://keovip88.net/team/9766",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -960,25 +888,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-a01be7c2ea",
+                          "id": "lnk-b2ce3c3124",
                           "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/13236",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-b460311faa",
-                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/giai-dau/56",
@@ -994,11 +905,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-9fcffaf8d7",
-                          "name": "Trực Tiếp 3",
+                          "id": "lnk-0367b4b45b",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/8715",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fde6d373d7",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/13236",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1083,11 +1011,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b2ce3c3124",
+                          "id": "lnk-bf638259b2",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/56",
+                          "url": "https://keovip88.net/team/37905",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1100,11 +1028,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-00ae658102",
+                          "id": "lnk-b460311faa",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/37905",
+                          "url": "https://keovip88.net/giai-dau/56",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1206,11 +1134,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b2ce3c3124",
+                          "id": "lnk-18af4d2c65",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/56",
+                          "url": "https://keovip88.net/team/20586",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1223,11 +1151,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-c13ed63c6c",
+                          "id": "lnk-b460311faa",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/20586",
+                          "url": "https://keovip88.net/giai-dau/56",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1346,11 +1274,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-8574065333",
+                          "id": "lnk-0485c58461",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/23388",
+                          "url": "https://keovip88.net/team/34733",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1363,11 +1291,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-7f1100b0ac",
+                          "id": "lnk-90c6b9b43a",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/34733",
+                          "url": "https://keovip88.net/team/23388",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1647,25 +1575,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-dd91d11164",
+                          "id": "lnk-ba680bd108",
                           "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/team/37388",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-85808a56aa",
-                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/9048",
@@ -1681,11 +1592,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-a49f9a7f5f",
-                          "name": "Trực Tiếp 3",
+                          "id": "lnk-49712c9a6c",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/giai-dau/583",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-33e432e1e1",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/37388",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1721,6 +1649,129 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa0a19a24d46db870536adc_c31ec564_20260916.png?v=c31ec564",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b6a385769d",
+          "name": "Adelaide United FC vs Wofoo Tai Po | 17:00 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b6a385769d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b6a385769d",
+                  "name": "Adelaide United FC vs Wofoo Tai Po",
+                  "streams": [
+                    {
+                      "id": "st-b6a385769d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75b38d2f44",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789571112_hd/1789571112_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-15ebf2d532",
+                          "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/568",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a5590cddda",
+                          "name": "Trực Tiếp 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/44008",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4c7ee2436f",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/10298",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Cup",
+            "team_a": "Adelaide United FC",
+            "team_b": "Wofoo Tai Po",
+            "logo_a": "https://images.keovip88.net/images/teams/adelaide-united.png",
+            "logo_b": "https://images.keovip88.net/images/teams/wofoo-tai-po.png",
+            "time": "17:00:00",
+            "date": "17/09",
+            "blv": "Súp, Trực Tiếp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8a38e5eb269e70040bbd93_33e97670_20260916.png?v=33e97670",
             "width": 1600,
             "height": 1200
           }
@@ -1770,11 +1821,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-c4d6e15d4b",
+                          "id": "lnk-9576174094",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/9973",
+                          "url": "https://keovip88.net/team/38440",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1787,11 +1838,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-7f5fbd7929",
+                          "id": "lnk-a28e4e7d03",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/38440",
+                          "url": "https://keovip88.net/team/9973",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1847,12 +1898,381 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-79fe75a3ef",
+          "name": "Kitchee vs Gangwon FC | 19:15 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79fe75a3ef",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-79fe75a3ef",
+                  "name": "Kitchee vs Gangwon FC",
+                  "streams": [
+                    {
+                      "id": "st-79fe75a3ef",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1589a53d5a",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789571227_hd/1789571227_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-df3e2a39eb",
+                          "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/39206",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-84ce994b6f",
+                          "name": "Trực Tiếp 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/568",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e0fd37e596",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/17611",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Cup",
+            "team_a": "Kitchee",
+            "team_b": "Gangwon FC",
+            "logo_a": "https://images.keovip88.net/images/teams/kitchee.png",
+            "logo_b": "https://images.keovip88.net/images/teams/gangwon-fc.png",
+            "time": "19:15:00",
+            "date": "17/09",
+            "blv": "Trĩ, Trực Tiếp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a88e7955d02aeccba0052a2_ae52da68_20260916.png?v=ae52da68",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-47a0470df2",
+          "name": "Phnom Penh FC vs Kuching FA | 19:15 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-47a0470df2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-47a0470df2",
+                  "name": "Phnom Penh FC vs Kuching FA",
+                  "streams": [
+                    {
+                      "id": "st-47a0470df2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6b317f6e91",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789571253_hd/1789571253_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-15ebf2d532",
+                          "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/568",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ff8c5b37ee",
+                          "name": "Trực Tiếp 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/10001",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2bb4987cd8",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/10926",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Cup",
+            "team_a": "Phnom Penh FC",
+            "team_b": "Kuching FA",
+            "logo_a": "https://images.keovip88.net/images/teams/phnom-penh-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kuching-fa.png",
+            "time": "19:15:00",
+            "date": "17/09",
+            "blv": "Hấu, Trực Tiếp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8b8a724d3de1ad3e0d9574_e9cff7e0_20260916.png?v=e9cff7e0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6607305436",
+          "name": "Navbahor Namangan vs Dinamo Samarkand | 20:00 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6607305436",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6607305436",
+                  "name": "Navbahor Namangan vs Dinamo Samarkand",
+                  "streams": [
+                    {
+                      "id": "st-6607305436",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5ed55cf115",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789571278_hd/1789571278_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-754d695715",
+                          "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/28810",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-75f488c9ac",
+                          "name": "Trực Tiếp 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/789",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-b4c9194930",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/42323",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uzbekistan Super League",
+            "team_a": "Navbahor Namangan",
+            "team_b": "Dinamo Samarkand",
+            "logo_a": "https://images.keovip88.net/images/teams/navbahor-namangan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/dinamo-samarqand.png",
+            "time": "20:00:00",
+            "date": "17/09",
+            "blv": "Bee, Trực Tiếp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88a9524d46db870488857_a8e47b9e_20260916.png?v=a8e47b9e",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1937,10 +2357,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1989,7 +2409,7 @@
             "time": "22:45:00",
             "date": "16/09",
             "blv": "Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
