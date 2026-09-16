@@ -1909,83 +1909,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2306865f90",
-          "name": "Benetton Fribourg Olympic vs Batumi | 22:45 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2306865f90",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2306865f90",
-                  "name": "Benetton Fribourg Olympic vs Batumi",
-                  "streams": [
-                    {
-                      "id": "st-2306865f90",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-877e51f31a",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789540316_hd/1789540316_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Basketball Champions League",
-            "team_a": "Benetton Fribourg Olympic",
-            "team_b": "Batumi",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/9bf8407a0706e17080fe52b77c18b3d7.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f71cbbcf19d9b0d9464d50c4a26e5fdc.png",
-            "time": "22:45:00",
-            "date": "16/09",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/35376371_d0058a1a_20260917.png?v=d0058a1a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-250774c810",
           "name": "CSM Oradea vs AEK Larnaca | 01:00 17/09",
