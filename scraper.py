@@ -374,30 +374,80 @@ def cleanup_old_thumbs(days: int = 3):
 # ─────────────────────────────────────────────────────────────────────────────
 # FETCH & GROUP LOGIC
 # ─────────────────────────────────────────────────────────────────────────────
+# ─────────────────────────────────────────────────────────────────────────────
+# ★ NHẬN DIỆN LINK STREAM THẬT (FIX: loại link trang web lẫn vào output)
+# ─────────────────────────────────────────────────────────────────────────────
 
+# Domain trang web nguồn -> URL thuộc domain này là TRANG WEB, không phải stream
+WEB_SITE_DOMAINS = (
+    "keovip88.net",
+    "keovip88.com",
+    "giovang.store",
+    "giovang.fun",
+)
+
+# URL có đuôi file stream (kể cả khi theo sau là ?query=#hash)
+_STREAM_EXT_RE = re.compile(r"\.(m3u8|flv|mpd|mp4|ts)(?:[?#]|$)", re.IGNORECASE)
+
+# Từ khóa stream trong PATH (dự phòng cho stream không có đuôi file)
+_STREAM_PATH_KW = ("m3u8", "hls", "manifest", "playlist", "chunklist")
+
+def is_stream_url(url) -> bool:
+    """
+    Kiểm tra URL có THẬT SỰ là link stream không.
+    Chỉ nhận khi thỏa 1 trong các điều kiện:
+      1. Giao thức stream: rtmp:// rtsp:// udp:// rtp://
+      2. Có đuôi file: .m3u8 .flv .mpd .mp4 .ts
+      3. Path chứa từ khóa stream rõ ràng (m3u8/hls/manifest/playlist/chunklist)
+    URL thuộc domain trang web nguồn (keovip88.net, giovang.store...) chỉ được
+    nhận nếu có đuôi stream rõ ràng -> loại các link như /giai-dau/56, /team/40233.
+    """
+    if not isinstance(url, str) or len(url) < 12:
+        return False
+    u_low = url.strip().lower()
+
+    if u_low.startswith(("rtmp://", "rtsp://", "udp://", "rtp://")):
+        return True
+
+    if not u_low.startswith(("http://", "https://")):
+        return False
+
+    # (1) Có đuôi file stream -> nhận, bất kể domain
+    if _STREAM_EXT_RE.search(u_low):
+        return True
+
+    # (2) Link trang web nguồn (trang giải đấu / đội bóng) -> LOẠI
+    if any(d in u_low for d in WEB_SITE_DOMAINS):
+        return False
+
+    # (3) Dự phòng: path (bỏ query) chứa từ khóa stream rõ ràng
+    path = u_low.split("?", 1)[0]
+    if any(kw in path for kw in _STREAM_PATH_KW):
+        return True
+
+    return False
+    
 def extract_stream_urls(obj):
     """
     Đệ quy quét toàn bộ JSON (dict/list) để tìm TẤT CẢ link stream.
-    Khắc phục triệt để việc link bị ẩn sâu trong các object lồng nhau.
+    ★ FIX: mỗi URL tìm được đều phải qua is_stream_url() -> không còn
+    nhặt nhầm link trang web (keovip88.net/giai-dau/56, /team/40233...) vào output.
     """
     urls = set()
     if isinstance(obj, dict):
-        for k, v in obj.items():
-            if isinstance(v, str) and v.startswith("http"):
-                v_lower = v.lower()
-                # Bỏ qua link ảnh để tránh lấy nhầm thumbnail
-                if any(ext in v_lower for ext in [".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", "avatar"]):
-                    urls.update(extract_stream_urls(v))
-                    continue
-                
-                # Ưu tiên link có đuôi stream chuẩn hoặc key chứa từ khóa liên quan
-                if any(ext in v_lower for ext in [".m3u8", ".flv", ".mpd", ".mp4", "m3u8", "flv", "rtmp", "rtsp", ".ts"]) or \
-                   any(kw in k.lower() for kw in ["stream", "link", "url", "play", "video", "hls", "src", "source", "file"]):
+        for v in obj.values():
+            if isinstance(v, str):
+                if is_stream_url(v):
                     urls.add(v)
-            urls.update(extract_stream_urls(v))
+            else:
+                urls.update(extract_stream_urls(v))
     elif isinstance(obj, list):
         for item in obj:
-            urls.update(extract_stream_urls(item))
+            if isinstance(item, str):
+                if is_stream_url(item):
+                    urls.add(item)
+            else:
+                urls.update(extract_stream_urls(item))
     return urls
 
 def fetch_json(url: str) -> list:
@@ -576,7 +626,7 @@ def get_grouped_matches() -> dict:
                             match_data["blvs_dict"][blv_name].append(u)
                             processed_urls.add(u)
                             
-            elif isinstance(blv, str) and blv.startswith("http"):
+            elif isinstance(blv, str) and is_stream_url(blv):
                 # Trường hợp list BLV trả về thẳng link string
                 if blv not in processed_urls:
                     if "Trực Tiếp" not in match_data["blvs_dict"]:
