@@ -393,6 +393,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-ade7229fdd",
+          "name": "Hàn Quốc vs Hồng Kông | 14:00 16/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ade7229fdd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ade7229fdd",
+                  "name": "Hàn Quốc vs Hồng Kông",
+                  "streams": [
+                    {
+                      "id": "st-ade7229fdd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-51f02c1fb0",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789538717_hd/1789538717_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Hàn Quốc",
+            "team_b": "Hồng Kông",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/Uu5pwNmMHGd5bCooKrS3Lw_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/clVmlDCDO7GWBc-a97NfZQ_96x96.png",
+            "time": "14:00:00",
+            "date": "16/09",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/3ne9tyay88mn_927de649_20260916.png?v=927de649",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
