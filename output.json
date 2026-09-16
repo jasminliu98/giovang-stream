@@ -389,83 +389,11 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c7db68871c",
-          "name": "Dana White's Contender Series: Season 10, Week 6 vs Dana White's Contender Series: Season 10, Week 6 | 06:00 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c7db68871c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c7db68871c",
-                  "name": "Dana White's Contender Series: Season 10, Week 6 vs Dana White's Contender Series: Season 10, Week 6",
-                  "streams": [
-                    {
-                      "id": "st-c7db68871c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0bf8c8e7c",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789368400_hd/1789368400_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Dana White's Contender Series: Season 10, Week 6",
-            "team_a": "Dana White's Contender Series: Season 10, Week 6",
-            "team_b": "Dana White's Contender Series: Season 10, Week 6",
-            "logo_a": "https://schedule.fightmag.com/wp-content/uploads/2024/04/dana-whites-contender-series-696x392.png.webp",
-            "logo_b": "https://schedule.fightmag.com/wp-content/uploads/2024/04/dana-whites-contender-series-696x392.png.webp",
-            "time": "06:00:00",
-            "date": "16/09",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/d6sg7zij72d1_d44c562f_20260916.png?v=d44c562f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-976a0087c3",
           "name": "ONE Friday Fights 171 vs The Inner Circle 31 | 18:30 18/09",
