@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b95722dabe",
-          "name": "U23 UAE vs U23 Iran | 12:00 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b95722dabe",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b95722dabe",
-                  "name": "U23 UAE vs U23 Iran",
-                  "streams": [
-                    {
-                      "id": "st-b95722dabe",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c30d9bad09",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789479274_hd/1789479274_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD 2026",
-            "team_a": "U23 UAE",
-            "team_b": "U23 Iran",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/v_vORXEGt13cTEb-zw7yWA_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/1oq8Fy7ETpBpZNaCA22ArQ_96x96.png",
-            "time": "12:00:00",
-            "date": "16/09",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/0dkjnrpfp055_51efbf1d_20260916.png?v=51efbf1d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f7ca1cca45",
           "name": "U23 Thái Lan vs U23 Kyrgyzstan | 14:00 16/09",
@@ -349,8 +277,25 @@
                           ]
                         },
                         {
-                          "id": "lnk-869c90238a",
+                          "id": "lnk-df06781dd1",
                           "name": "Trực Tiếp 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/team/36556",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-401dc01335",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/7038",
@@ -366,28 +311,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-18e087d921",
-                          "name": "Trực Tiếp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/giai-dau/567",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-1b8113c6a7",
+                          "id": "lnk-15207850ce",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/36556",
+                          "url": "https://keovip88.net/giai-dau/567",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -561,11 +489,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-4aaf17cece",
+                          "id": "lnk-18e087d921",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/42564",
+                          "url": "https://keovip88.net/giai-dau/567",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -578,11 +506,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-15207850ce",
+                          "id": "lnk-ce468b290c",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/567",
+                          "url": "https://keovip88.net/team/42564",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -821,83 +749,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9dcdf500e0",
-          "name": "Iran vs Bahrain | 11:00 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9dcdf500e0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9dcdf500e0",
-                  "name": "Iran vs Bahrain",
-                  "streams": [
-                    {
-                      "id": "st-9dcdf500e0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2fd2548365",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789479610_hd/1789479610_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games",
-            "team_a": "Iran",
-            "team_b": "Bahrain",
-            "logo_a": "https://static.flashscore.com/res/image/data/WCEKKPXg-049Lq8a5.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pOhLW5Ea-ddddz9FK.png",
-            "time": "11:00:00",
-            "date": "16/09",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/iv599h95ijs8_dc472fe4_20260916.png?v=dc472fe4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b238633b50",
           "name": "China vs Saudi Arabia | 14:00 16/09",
