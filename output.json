@@ -1990,83 +1990,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-549fd25356",
-          "name": "Pháp vs Romania | 00:00 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-549fd25356",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-549fd25356",
-                  "name": "Pháp vs Romania",
-                  "streams": [
-                    {
-                      "id": "st-549fd25356",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cf3aaf8248",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789547415_hd/1789547415_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Championship",
-            "team_a": "Pháp",
-            "team_b": "Romania",
-            "logo_a": "https://static.flashscore.com/res/image/data/I5PqTkcM-0bvH5S2D.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WMABMEDa-tKviOc0q.png",
-            "time": "00:00:00",
-            "date": "17/09",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/p2kikdmwummk_b652e1af_20260917.png?v=b652e1af",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8f6cef21b3",
           "name": "CH Séc vs Slovenia | 02:00 17/09",
