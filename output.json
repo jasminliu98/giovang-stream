@@ -164,83 +164,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-3790a1d3c0",
-          "name": "Jordan vs South Korea | 08:00 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3790a1d3c0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3790a1d3c0",
-                  "name": "Jordan vs South Korea",
-                  "streams": [
-                    {
-                      "id": "st-3790a1d3c0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-129da17e07",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789479592_hd/1789479592_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games",
-            "team_a": "Jordan",
-            "team_b": "South Korea",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/9swSmw5NICcCYIQ8FERjhw_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/Uu5pwNmMHGd5bCooKrS3Lw_96x96.png",
-            "time": "08:00:00",
-            "date": "16/09",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/8ivgd4c34g7z_c2194b02_20260916.png?v=c2194b02",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9dcdf500e0",
           "name": "Iran vs Bahrain | 11:00 16/09",
