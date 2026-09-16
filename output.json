@@ -269,11 +269,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-4a895a2fcd",
-                          "name": "Ben",
+                          "id": "lnk-b5e9e9cbb5",
+                          "name": "Điếc",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789479714_hd/1789479714_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789536410_hd/1789536410_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -300,7 +300,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/8pDKFwgl-2FUMH7Dh.png",
             "time": "14:00:00",
             "date": "16/09",
-            "blv": "Ben",
+            "blv": "Điếc",
             "is_live": false,
             "cate_type": "basketball"
           },
@@ -317,83 +317,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5a6af13c5b",
-          "name": "China vs Philippines | 11:00 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5a6af13c5b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5a6af13c5b",
-                  "name": "China vs Philippines",
-                  "streams": [
-                    {
-                      "id": "st-5a6af13c5b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7abc4379ca",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789525320_hd/1789525320_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "China",
-            "team_b": "Philippines",
-            "logo_a": "https://static.flashscore.com/res/image/data/jLvlBTeM-QNrz0V5B.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/rcNmMCh5-raFBSApK.png",
-            "time": "11:00:00",
-            "date": "16/09",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/a6d11pfztqop_389decb3_20260916.png?v=389decb3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cff829cb69",
           "name": "Thái Lan vs Mông Cổ | 14:00 16/09",
@@ -462,78 +390,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/5serpltynhr7_849da5cc_20260916.png?v=849da5cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-eac4c2443b",
-          "name": "Hàn Quốc vs Hồng Kông | 14:00 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eac4c2443b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-eac4c2443b",
-                  "name": "Hàn Quốc vs Hồng Kông",
-                  "streams": [
-                    {
-                      "id": "st-eac4c2443b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b6bb9985c1",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789525386_hd/1789525386_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Hàn Quốc",
-            "team_b": "Hồng Kông",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/Uu5pwNmMHGd5bCooKrS3Lw_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/clVmlDCDO7GWBc-a97NfZQ_96x96.png",
-            "time": "14:00:00",
-            "date": "16/09",
-            "blv": "Điếc",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/d41dag7ovgry_927de649_20260916.png?v=927de649",
             "width": 1600,
             "height": 1200
           }
@@ -975,87 +831,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/n6a9m7k6zd4z_a0d829ba_20260916.png?v=a0d829ba",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-8ccab9fa58",
-          "name": "Arizona Diamondbacks vs Miami Marlins | 08:40 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8ccab9fa58",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8ccab9fa58",
-                  "name": "Arizona Diamondbacks vs Miami Marlins",
-                  "streams": [
-                    {
-                      "id": "st-8ccab9fa58",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-91f2e99bfc",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789488826_hd/1789488826_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Arizona Diamondbacks",
-            "team_b": "Miami Marlins",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/bIi8cJW5Av0W-CHNBzkcCQ_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/3ZzeHGeahHzcx1nnzkf_4w_96x96.png",
-            "time": "08:40:00",
-            "date": "16/09",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/8d8fbbigmrwx_8b74397f_20260916.png?v=8b74397f",
             "width": 1600,
             "height": 1200
           }
