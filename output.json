@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -148,7 +148,7 @@
             "time": "14:00:00",
             "date": "16/09",
             "blv": "Hấu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -349,11 +349,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-869c90238a",
+                          "id": "lnk-df06781dd1",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/7038",
+                          "url": "https://keovip88.net/team/36556",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -383,11 +383,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-1b8113c6a7",
+                          "id": "lnk-d8a24668a3",
                           "name": "Trực Tiếp 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/36556",
+                          "url": "https://keovip88.net/team/7038",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -667,11 +667,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-73209afd57",
+                          "id": "lnk-15ebf2d532",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/11598",
+                          "url": "https://keovip88.net/giai-dau/568",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -684,11 +684,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-84ce994b6f",
+                          "id": "lnk-c342968310",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/568",
+                          "url": "https://keovip88.net/team/11598",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -821,7 +821,7 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -899,38 +899,38 @@
           }
         },
         {
-          "id": "gv-024952bb1f",
-          "name": "Chinese vs Saudi Arabia | 14:00 16/09",
+          "id": "gv-b238633b50",
+          "name": "China vs Saudi Arabia | 14:00 16/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-024952bb1f",
+              "id": "src-b238633b50",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-024952bb1f",
-                  "name": "Chinese vs Saudi Arabia",
+                  "id": "ct-b238633b50",
+                  "name": "China vs Saudi Arabia",
                   "streams": [
                     {
-                      "id": "st-024952bb1f",
+                      "id": "st-b238633b50",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-057fee2259",
+                          "id": "lnk-996b05ace1",
                           "name": "Tôm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789537881_hd/1789537881_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789540254_hd/1789540254_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -950,22 +950,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Asian Games",
-            "team_a": "Chinese",
+            "league": "Men''s basketball match of the Asian Games",
+            "team_a": "China",
             "team_b": "Saudi Arabia",
-            "logo_a": "https://static.flashscore.com/res/image/data/IkaPuewS-IkyuUDEE.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8pDKFwgl-2FUMH7Dh.png",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/87af165754df68d909d1c51bdfac1450.jpg",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/079847bad6b01cbc4b326fbbac8c9df8.jpg",
             "time": "14:00:00",
             "date": "16/09",
             "blv": "Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/rvgkx7chytvv_4c2ebfb9_20260916.png?v=4c2ebfb9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/26058379_5bbb6286_20260916.png?v=5bbb6286",
             "width": 1600,
             "height": 1200
           }
@@ -1113,12 +1113,156 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-26b5ec486d",
+          "name": "Bakken Bears vs Landstede Basketbal Zwoll | 20:30 16/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-26b5ec486d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-26b5ec486d",
+                  "name": "Bakken Bears vs Landstede Basketbal Zwoll",
+                  "streams": [
+                    {
+                      "id": "st-26b5ec486d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-18928632f6",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789540245_hd/1789540245_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Basketball Champions League",
+            "team_a": "Bakken Bears",
+            "team_b": "Landstede Basketbal Zwoll",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b2f2cc7c60afb79a46f6093cbe3af8f7.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/8f41b945ff8643723b9b6fad69aac77b.png",
+            "time": "20:30:00",
+            "date": "16/09",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/34376370_3488c747_20260916.png?v=3488c747",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2306865f90",
+          "name": "Benetton Fribourg Olympic vs Batumi | 22:45 16/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2306865f90",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2306865f90",
+                  "name": "Benetton Fribourg Olympic vs Batumi",
+                  "streams": [
+                    {
+                      "id": "st-2306865f90",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-877e51f31a",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789540316_hd/1789540316_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Basketball Champions League",
+            "team_a": "Benetton Fribourg Olympic",
+            "team_b": "Batumi",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/9bf8407a0706e17080fe52b77c18b3d7.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f71cbbcf19d9b0d9464d50c4a26e5fdc.png",
+            "time": "22:45:00",
+            "date": "16/09",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/35376371_d0058a1a_20260916.png?v=d0058a1a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1131,10 +1275,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1183,7 +1327,7 @@
             "time": "14:00:00",
             "date": "16/09",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -1263,6 +1407,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/3ne9tyay88mn_927de649_20260916.png?v=927de649",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2915896949",
+          "name": "Đài Bắc Trung Hoa vs Kyrgyzstan | 17:00 16/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2915896949",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2915896949",
+                  "name": "Đài Bắc Trung Hoa vs Kyrgyzstan",
+                  "streams": [
+                    {
+                      "id": "st-2915896949",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4d3f0cc1bb",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789540370_hd/1789540370_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Đài Bắc Trung Hoa",
+            "team_b": "Kyrgyzstan",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Chinese_Taipei_for_Olympic_Games.svg",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQChL7WhfqaEhAN7e3AC2XjiXLse12KH2ZPZ9ZjWDv4l2ytc8pTLR7uSU&s=10",
+            "time": "17:00:00",
+            "date": "16/09",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/snjfwfvzphm5_3b034249_20260916.png?v=3b034249",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f3c14c305e",
+          "name": "Đan Mạch vs Serbia | 21:00 16/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f3c14c305e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f3c14c305e",
+                  "name": "Đan Mạch vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-f3c14c305e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fe6a08c90f",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789540463_hd/1789540463_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Championship",
+            "team_a": "Đan Mạch",
+            "team_b": "Serbia",
+            "logo_a": "https://static.flashscore.com/res/image/data/d8MRvRBr-2kmuAQ93.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/2NUY9fYA-h6SRz2xL.png",
+            "time": "21:00:00",
+            "date": "16/09",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/9fmqs5jkdvye_1bb97011_20260916.png?v=1bb97011",
             "width": 1600,
             "height": 1200
           }
