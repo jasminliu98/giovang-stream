@@ -349,25 +349,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-91f84e5213",
+                          "id": "lnk-df06781dd1",
                           "name": "Trực Tiếp 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://keovip88.net/giai-dau/567",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0d159c5079",
-                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/36556",
@@ -383,11 +366,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-d8a24668a3",
-                          "name": "Trực Tiếp 3",
+                          "id": "lnk-401dc01335",
+                          "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://keovip88.net/team/7038",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-15207850ce",
+                          "name": "Trực Tiếp 3",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://keovip88.net/giai-dau/567",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -667,11 +667,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-3674a73eab",
+                          "id": "lnk-15ebf2d532",
                           "name": "Trực Tiếp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/team/13400",
+                          "url": "https://keovip88.net/giai-dau/568",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -684,11 +684,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-84ce994b6f",
+                          "id": "lnk-6424f18417",
                           "name": "Trực Tiếp 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://keovip88.net/giai-dau/568",
+                          "url": "https://keovip88.net/team/13400",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -741,6 +741,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8b8a724d3de1ad3e0d9563_1302ac54_20260916.png?v=1302ac54",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b193d3e101",
+          "name": "Terengganu vs DPMM | 20:00 16/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b193d3e101",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b193d3e101",
+                  "name": "Terengganu vs DPMM",
+                  "streams": [
+                    {
+                      "id": "st-b193d3e101",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-94da0184e9",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789539607_hd/1789539607_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Malaysia FA Cup",
+            "team_a": "Terengganu",
+            "team_b": "DPMM",
+            "logo_a": "https://images.keovip88.net/images/teams/terengganu.png",
+            "logo_b": "https://images.keovip88.net/images/teams/dpmm-fc.png",
+            "time": "20:00:00",
+            "date": "16/09",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/efaxqb8yncp4_5b375e6f_20260916.png?v=5b375e6f",
             "width": 1600,
             "height": 1200
           }
@@ -894,6 +966,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/rvgkx7chytvv_4c2ebfb9_20260916.png?v=4c2ebfb9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6c053edad8",
+          "name": "China taibei vs Japan | 17:20 16/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c053edad8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6c053edad8",
+                  "name": "China taibei vs Japan",
+                  "streams": [
+                    {
+                      "id": "st-6c053edad8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed1393d4cd",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789539718_hd/1789539718_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Men''s basketball match of the Asian Games",
+            "team_a": "China taibei",
+            "team_b": "Japan",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/9120dda4bcfc0c5717c21ea801bad3e2.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/738922cbe202a3663e363afbb5283fd0.jpg",
+            "time": "17:20:00",
+            "date": "16/09",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/37058370_85897b6b_20260916.png?v=85897b6b",
             "width": 1600,
             "height": 1200
           }
