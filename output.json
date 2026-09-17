@@ -11,227 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-7a36712efc",
-          "name": "Poland U20 W vs Colombia U20 W | 23:30 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7a36712efc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7a36712efc",
-                  "name": "Poland U20 W vs Colombia U20 W",
-                  "streams": [
-                    {
-                      "id": "st-7a36712efc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9ec64090d8",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789617016_hd/1789617016_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup U20 W",
-            "team_a": "Poland U20 W",
-            "team_b": "Colombia U20 W",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg",
-            "logo_b": "https://static.flashscore.com/res/image/data/GOTqkLFG-C6kVdO5F.png",
-            "time": "23:30:00",
-            "date": "17/09",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/14z3dj2ic3h2_83e01749_20260918.png?v=83e01749",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-643938aa07",
-          "name": "Levski Sofia vs Red Bull Salzburg | 23:45 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-643938aa07",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-643938aa07",
-                  "name": "Levski Sofia vs Red Bull Salzburg",
-                  "streams": [
-                    {
-                      "id": "st-643938aa07",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e22f60e546",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789664452_hd/1789664452_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "Levski Sofia",
-            "team_b": "Red Bull Salzburg",
-            "logo_a": "https://images.keovip88.net/images/teams/levski-sofia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/red-bull-salzburg.png",
-            "time": "23:45:00",
-            "date": "17/09",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a9767c031f9dda47108011f_44886efe_20260918.png?v=44886efe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0590e3d04a",
-          "name": "OFI Crete vs Hoffenheim | 23:45 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0590e3d04a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0590e3d04a",
-                  "name": "OFI Crete vs Hoffenheim",
-                  "streams": [
-                    {
-                      "id": "st-0590e3d04a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3149ca304b",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789617110_hd/1789617110_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "OFI Crete",
-            "team_b": "Hoffenheim",
-            "logo_a": "https://images.keovip88.net/images/teams/ofi-crete.png",
-            "logo_b": "https://images.keovip88.net/images/teams/tsg-hoffenheim.png",
-            "time": "23:45:00",
-            "date": "17/09",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a93738cfccd5ecc44060e85_c0123857_20260918.png?v=c0123857",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6520fdef9e",
           "name": "Real Betis vs Getafe | 00:00 18/09",
@@ -449,6 +233,78 @@
           }
         },
         {
+          "id": "gv-07d1bd3b9b",
+          "name": "Crystal Palace vs Lech Poznan | 02:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-07d1bd3b9b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-07d1bd3b9b",
+                  "name": "Crystal Palace vs Lech Poznan",
+                  "streams": [
+                    {
+                      "id": "st-07d1bd3b9b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21a9a4756f",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789617204_hd/1789617204_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Crystal Palace",
+            "team_b": "Lech Poznan",
+            "logo_a": "https://images.keovip88.net/images/teams/crystal-palace.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lech-poznan.png",
+            "time": "02:00:00",
+            "date": "18/09",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a94c4d6164566b7f70b437a_424b5341_20260918.png?v=424b5341",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-f0a84b2ce6",
           "name": "Real Sociedad vs AFC Bournemouth | 02:00 18/09",
           "type": "single",
@@ -516,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a94c4d6164566b7f70b437c_7180b618_20260918.png?v=7180b618",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-07d1bd3b9b",
-          "name": "Crystal Palace vs Lech Poznan | 02:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-07d1bd3b9b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-07d1bd3b9b",
-                  "name": "Crystal Palace vs Lech Poznan",
-                  "streams": [
-                    {
-                      "id": "st-07d1bd3b9b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-21a9a4756f",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789617204_hd/1789617204_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "Crystal Palace",
-            "team_b": "Lech Poznan",
-            "logo_a": "https://images.keovip88.net/images/teams/crystal-palace.png",
-            "logo_b": "https://images.keovip88.net/images/teams/lech-poznan.png",
-            "time": "02:00:00",
-            "date": "18/09",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a94c4d6164566b7f70b437a_424b5341_20260918.png?v=424b5341",
             "width": 1600,
             "height": 1200
           }
