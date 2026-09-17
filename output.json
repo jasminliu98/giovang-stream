@@ -1037,83 +1037,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-95eb130f3f",
-          "name": "Phần Lan vs Estonia | 00:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-95eb130f3f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-95eb130f3f",
-                  "name": "Phần Lan vs Estonia",
-                  "streams": [
-                    {
-                      "id": "st-95eb130f3f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-33633c9a81",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789658504_hd/1789658504_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Championship",
-            "team_a": "Phần Lan",
-            "team_b": "Estonia",
-            "logo_a": "https://static.flashscore.com/res/image/data/jNogt2Cr-prStpyTu.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WjOKVZzB-YkZoQLK9.png",
-            "time": "00:00:00",
-            "date": "18/09",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/tnsomvhaln4s_7d811873_20260918.png?v=7d811873",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cb4e7cd51f",
           "name": "Italia vs Slovenia | 02:05 18/09",
