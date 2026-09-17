@@ -1406,83 +1406,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-bcb33a9288",
-          "name": "FURIA vs MiBR | 00:30 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bcb33a9288",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bcb33a9288",
-                  "name": "FURIA vs MiBR",
-                  "streams": [
-                    {
-                      "id": "st-bcb33a9288",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2032ed86b1",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789617446_hd/1789617446_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "",
-            "team_a": "FURIA",
-            "team_b": "MiBR",
-            "logo_a": "https://static.flashscore.com/res/image/data/G2z2rzf5-EgrECzdn.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/YZpD0GWg-zy5VjKZP.png",
-            "time": "00:30:00",
-            "date": "18/09",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ynkpk26d9rce_3ef08174_20260918.png?v=3ef08174",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-2af0a5b14d",
           "name": "Buffalo Bills vs Detroit Lions | 07:15 18/09",
@@ -1992,87 +1920,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/n6a9m7k6zd4z_a0d829ba_20260918.png?v=a0d829ba",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-e45a8b9d9f",
-          "name": "Los Angeles Dodgers vs Cincinnati Reds | 23:45 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e45a8b9d9f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e45a8b9d9f",
-                  "name": "Los Angeles Dodgers vs Cincinnati Reds",
-                  "streams": [
-                    {
-                      "id": "st-e45a8b9d9f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e2fdb3da26",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789663675_hd/1789663675_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Los Angeles Dodgers",
-            "team_b": "Cincinnati Reds",
-            "logo_a": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tUgxR1zB-hxmcgnNf.png",
-            "time": "23:45:00",
-            "date": "17/09",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/7bk6ymi71m4g_c2725eb1_20260918.png?v=c2725eb1",
             "width": 1600,
             "height": 1200
           }
