@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b7fad3613c",
-          "name": "Manchester City vs Norwich City | 01:30 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b7fad3613c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b7fad3613c",
-                  "name": "Manchester City vs Norwich City",
-                  "streams": [
-                    {
-                      "id": "st-b7fad3613c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5e1404f673",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789617159_hd/1789617159_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Liên Đoàn Anh",
-            "team_a": "Manchester City",
-            "team_b": "Norwich City",
-            "logo_a": "https://images.keovip88.net/images/teams/manchester-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/norwich-city.png",
-            "time": "01:30:00",
-            "date": "18/09",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a90d09f924b00d295046783_8d8e373d_20260918.png?v=8d8e373d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6707629a7e",
           "name": "Besiktas JK vs Marseille | 02:00 18/09",
