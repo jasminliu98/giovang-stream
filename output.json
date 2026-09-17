@@ -1973,83 +1973,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b055939e5f",
-          "name": "Kazakhstan vs Philippines | 11:00 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b055939e5f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b055939e5f",
-                  "name": "Kazakhstan vs Philippines",
-                  "streams": [
-                    {
-                      "id": "st-b055939e5f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2f37184fa0",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789577453_hd/1789577453_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Kazakhstan",
-            "team_b": "Philippines",
-            "logo_a": "https://static.flashscore.com/res/image/data/CEsAVUEa-6kKuCfBJ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QkqH8NfM-C61WJZ3f.png",
-            "time": "11:00:00",
-            "date": "17/09",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/p40dmslo7ybb_00329922_20260917.png?v=00329922",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-afb94a4393",
           "name": "Đài Bắc Trung Hoa vs Mông Cổ | 14:00 17/09",
