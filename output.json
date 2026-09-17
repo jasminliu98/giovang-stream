@@ -2274,6 +2274,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-2af0a5b14d",
+          "name": "Buffalo Bills vs Detroit Lions | 07:15 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2af0a5b14d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2af0a5b14d",
+                  "name": "Buffalo Bills vs Detroit Lions",
+                  "streams": [
+                    {
+                      "id": "st-2af0a5b14d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-94a39a9011",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789662984_hd/1789662984_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NFL",
+            "team_a": "Buffalo Bills",
+            "team_b": "Detroit Lions",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/t-WvhVQI8fKZliuPz7RLKQ_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/0vpUGyYGKQ3ILA3rTI-sEA_96x96.png",
+            "time": "07:15:00",
+            "date": "18/09",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/rtp26tvjct3n_8cb7b254_20260917.png?v=8cb7b254",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
