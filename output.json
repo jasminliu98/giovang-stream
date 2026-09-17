@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -233,6 +233,78 @@
           }
         },
         {
+          "id": "gv-0590e3d04a",
+          "name": "OFI Crete vs Hoffenheim | 23:45 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0590e3d04a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0590e3d04a",
+                  "name": "OFI Crete vs Hoffenheim",
+                  "streams": [
+                    {
+                      "id": "st-0590e3d04a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3149ca304b",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789617110_hd/1789617110_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "OFI Crete",
+            "team_b": "Hoffenheim",
+            "logo_a": "https://images.keovip88.net/images/teams/ofi-crete.png",
+            "logo_b": "https://images.keovip88.net/images/teams/tsg-hoffenheim.png",
+            "time": "23:45:00",
+            "date": "17/09",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a93738cfccd5ecc44060e85_c0123857_20260917.png?v=c0123857",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-643938aa07",
           "name": "Levski Sofia vs Red Bull Salzburg | 23:45 17/09",
           "type": "single",
@@ -300,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a9767c031f9dda47108011f_44886efe_20260917.png?v=44886efe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0590e3d04a",
-          "name": "OFI Crete vs Hoffenheim | 23:45 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0590e3d04a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0590e3d04a",
-                  "name": "OFI Crete vs Hoffenheim",
-                  "streams": [
-                    {
-                      "id": "st-0590e3d04a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3149ca304b",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789617110_hd/1789617110_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "OFI Crete",
-            "team_b": "Hoffenheim",
-            "logo_a": "https://images.keovip88.net/images/teams/ofi-crete.png",
-            "logo_b": "https://images.keovip88.net/images/teams/tsg-hoffenheim.png",
-            "time": "23:45:00",
-            "date": "17/09",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a93738cfccd5ecc44060e85_c0123857_20260917.png?v=c0123857",
             "width": 1600,
             "height": 1200
           }
@@ -1830,6 +1830,294 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/x3qoe9wx5a8h_b23c234f_20260917.png?v=b23c234f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-093b17eb05",
+          "name": "Kazakhstan vs China | 11:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-093b17eb05",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-093b17eb05",
+                  "name": "Kazakhstan vs China",
+                  "streams": [
+                    {
+                      "id": "st-093b17eb05",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dc7e091ec2",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789662648_hd/1789662648_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Kazakhstan",
+            "team_b": "China",
+            "logo_a": "https://static.flashscore.com/res/image/data/vqsq5vCa-tSGrtxe3.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/4Cu1L1il-tSK2wunr.png",
+            "time": "11:00:00",
+            "date": "18/09",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/uphn7qe1cn8a_95017e32_20260917.png?v=95017e32",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-32077fd191",
+          "name": "Quatar vs Hồng Kông | 11:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-32077fd191",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-32077fd191",
+                  "name": "Quatar vs Hồng Kông",
+                  "streams": [
+                    {
+                      "id": "st-32077fd191",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1c7d85bb38",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789662860_hd/1789662860_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Quatar",
+            "team_b": "Hồng Kông",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/h0FNA5YxLzWChHS5K0o4gw_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/clVmlDCDO7GWBc-a97NfZQ_96x96.png",
+            "time": "11:00:00",
+            "date": "18/09",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/2vofudkoa26a_14684986_20260917.png?v=14684986",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c5a8782c02",
+          "name": "Việt Nam vs Hàn Quốc | 14:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c5a8782c02",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c5a8782c02",
+                  "name": "Việt Nam vs Hàn Quốc",
+                  "streams": [
+                    {
+                      "id": "st-c5a8782c02",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-753a5bd91e",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789662698_hd/1789662698_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Việt Nam",
+            "team_b": "Hàn Quốc",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/Uu5pwNmMHGd5bCooKrS3Lw_96x96.png",
+            "time": "14:00:00",
+            "date": "18/09",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/njm3g744wc90_b2e10c6a_20260917.png?v=b2e10c6a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ec47a01d6f",
+          "name": "Mông Cổ vs Kyrgyzstan | 14:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ec47a01d6f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ec47a01d6f",
+                  "name": "Mông Cổ vs Kyrgyzstan",
+                  "streams": [
+                    {
+                      "id": "st-ec47a01d6f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-52cfb19a5c",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789662744_hd/1789662744_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Mông Cổ",
+            "team_b": "Kyrgyzstan",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/J1GVv__Jofi9-GD11pYhhg_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/KN-7WnOfDfIicywii8dtzw_96x96.png",
+            "time": "14:00:00",
+            "date": "18/09",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/vse5kzh57gfn_d8476913_20260917.png?v=d8476913",
             "width": 1600,
             "height": 1200
           }
