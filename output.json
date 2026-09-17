@@ -161,78 +161,6 @@
           }
         },
         {
-          "id": "gv-0a47399690",
-          "name": "Thailand W vs Chinese Taipei W | 14:00 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0a47399690",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0a47399690",
-                  "name": "Thailand W vs Chinese Taipei W",
-                  "streams": [
-                    {
-                      "id": "st-0a47399690",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b01e42034",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789577221_hd/1789577221_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games Nữ",
-            "team_a": "Thailand W",
-            "team_b": "Chinese Taipei W",
-            "logo_a": "https://images.keovip88.net/images/teams/thailand-w.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ62Ss5AllP6wiixu-3AAcjXD2dEGon_UoOwRMwkaPF7A&s=10",
-            "time": "14:00:00",
-            "date": "17/09",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa0a19a24d46db870536ab5_644af9be_20260917.png?v=644af9be",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-b6a385769d",
           "name": "Adelaide United FC vs Wofoo Tai Po | 17:00 17/09",
           "type": "single",
@@ -1532,83 +1460,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ae311d39f0",
-          "name": "Indonesia (W) vs Thailand (W) | 11:00 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae311d39f0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ae311d39f0",
-                  "name": "Indonesia (W) vs Thailand (W)",
-                  "streams": [
-                    {
-                      "id": "st-ae311d39f0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3773663068",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789577329_hd/1789577329_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women's basketball match of the Asian Games",
-            "team_a": "Indonesia (W)",
-            "team_b": "Thailand (W)",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d6a5000b0af6a88bbdb7fabbcd271259.jpg",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/9c55c280e3d0f86c77ef89d11d3727fe.gif",
-            "time": "11:00:00",
-            "date": "17/09",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/24356378_999aee87_20260917.png?v=999aee87",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-16db356e03",
           "name": "Philippines (W) vs Kazakhstan (W) | 14:00 17/09",
