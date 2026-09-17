@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0a47399690",
-          "name": "Thailand W vs Chinese Taipei W | 14:00 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0a47399690",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0a47399690",
-                  "name": "Thailand W vs Chinese Taipei W",
-                  "streams": [
-                    {
-                      "id": "st-0a47399690",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3b01e42034",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789577221_hd/1789577221_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games Nữ",
-            "team_a": "Thailand W",
-            "team_b": "Chinese Taipei W",
-            "logo_a": "https://images.keovip88.net/images/teams/thailand-w.png",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ62Ss5AllP6wiixu-3AAcjXD2dEGon_UoOwRMwkaPF7A&s=10",
-            "time": "14:00:00",
-            "date": "17/09",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa0a19a24d46db870536ab5_644af9be_20260917.png?v=644af9be",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-2f1f76b2bf",
           "name": "Hồng Kông Nữ vs Nữ Philippines | 17:00 17/09",
