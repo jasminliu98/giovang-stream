@@ -1622,83 +1622,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-80eb86b1cd",
-          "name": "TES vs IG | 16:00 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80eb86b1cd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-80eb86b1cd",
-                  "name": "TES vs IG",
-                  "streams": [
-                    {
-                      "id": "st-80eb86b1cd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a29784b2e6",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789618788_hd/1789618788_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LPL Regional Finals",
-            "team_a": "TES",
-            "team_b": "IG",
-            "logo_a": "https://static.flashscore.com/res/image/data/QPgfuJHG-AccDjeY5.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/I3B2NChl-Cxferg9G.png",
-            "time": "16:00:00",
-            "date": "17/09",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/p2yc64dgvtjv_4cd07e97_20260917.png?v=4cd07e97",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-699d1dd38b",
           "name": "VIT vs magic | 19:30 17/09",
