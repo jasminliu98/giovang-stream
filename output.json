@@ -11,155 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-0ba6b20c37",
-          "name": "Colorado Rapids vs St. Louis City | 08:30 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0ba6b20c37",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0ba6b20c37",
-                  "name": "Colorado Rapids vs St. Louis City",
-                  "streams": [
-                    {
-                      "id": "st-0ba6b20c37",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1f84a3b608",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789576921_hd/1789576921_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United States - US Open Cup",
-            "team_a": "Colorado Rapids",
-            "team_b": "St. Louis City",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/4iMPTFgyc09Py5ZthD_uOA_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/43siA1JCgiPGGt5aFyZ8uw_96x96.png",
-            "time": "08:30:00",
-            "date": "17/09",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/rn3fj7zki7sp_de423f78_20260917.png?v=de423f78",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6fc67df8fd",
-          "name": "Angel City vs Seattle Reign | 09:00 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6fc67df8fd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6fc67df8fd",
-                  "name": "Angel City vs Seattle Reign",
-                  "streams": [
-                    {
-                      "id": "st-6fc67df8fd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0f1835c5a6",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789577069_hd/1789577069_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "United States - NWSL",
-            "team_a": "Angel City",
-            "team_b": "Seattle Reign",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/sojOoSrQq3ZJ3a-0cXVwKA_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/OBcW6yRcVUDfINtmwWLnpQ_96x96.png",
-            "time": "09:00:00",
-            "date": "17/09",
-            "blv": "Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/4j0dw6a7fecv_c1345c52_20260917.png?v=c1345c52",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-51c9409378",
           "name": "Uzbekistan Nữ vs China Nữ | 12:00 17/09",
@@ -516,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a8a38e5eb269e70040bbd93_33e97670_20260917.png?v=33e97670",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7233bc7c3a",
+          "name": "Kyrgyzstan vs Thái Lan | 17:00 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7233bc7c3a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7233bc7c3a",
+                  "name": "Kyrgyzstan vs Thái Lan",
+                  "streams": [
+                    {
+                      "id": "st-7233bc7c3a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-517c7a2030",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789618610_hd/1789618610_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Kyrgyzstan",
+            "team_b": "Thái Lan",
+            "logo_a": "https://static.flashscore.com/res/image/data/0pjjqjhl-vZOmLBBe.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/jH8flBZA-UknO2XLh.png",
+            "time": "17:00:00",
+            "date": "17/09",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/g385m6cf2l7s_743215f5_20260917.png?v=743215f5",
             "width": 1600,
             "height": 1200
           }
@@ -2195,6 +2123,150 @@
           }
         },
         {
+          "id": "gv-5c08af7a91",
+          "name": "Slovakia vs Hy Lạp | 21:00 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5c08af7a91",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5c08af7a91",
+                  "name": "Slovakia vs Hy Lạp",
+                  "streams": [
+                    {
+                      "id": "st-5c08af7a91",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f59f725493",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789618719_hd/1789618719_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Championship",
+            "team_a": "Slovakia",
+            "team_b": "Hy Lạp",
+            "logo_a": "https://static.flashscore.com/res/image/data/EeqEbVCa-za9lGuKc.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/xWPW4X9r-EcK7yLm6.png",
+            "time": "21:00:00",
+            "date": "17/09",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/m0fj2fzjwxwm_d631e5d8_20260917.png?v=d631e5d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7381835230",
+          "name": "Serbia vs Bỉ | 21:00 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7381835230",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7381835230",
+                  "name": "Serbia vs Bỉ",
+                  "streams": [
+                    {
+                      "id": "st-7381835230",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1caf45c7d2",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789618669_hd/1789618669_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Championship",
+            "team_a": "Serbia",
+            "team_b": "Bỉ",
+            "logo_a": "https://static.flashscore.com/res/image/data/rHIRgwGG-fazrR153.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Qur1J5jl-dtrVaP64.png",
+            "time": "21:00:00",
+            "date": "17/09",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/orb3ooy077wl_ee7bc5b0_20260917.png?v=ee7bc5b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-95eb130f3f",
           "name": "Phần Lan vs Estonia | 00:56 18/09",
           "type": "single",
@@ -2347,6 +2419,78 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-80eb86b1cd",
+          "name": "TES vs IG | 16:00 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-80eb86b1cd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-80eb86b1cd",
+                  "name": "TES vs IG",
+                  "streams": [
+                    {
+                      "id": "st-80eb86b1cd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a29784b2e6",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789618788_hd/1789618788_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LPL Regional Finals",
+            "team_a": "TES",
+            "team_b": "IG",
+            "logo_a": "https://static.flashscore.com/res/image/data/QPgfuJHG-AccDjeY5.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/I3B2NChl-Cxferg9G.png",
+            "time": "16:00:00",
+            "date": "17/09",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/p2yc64dgvtjv_4cd07e97_20260917.png?v=4cd07e97",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-bcb33a9288",
           "name": "FURIA vs MiBR | 00:30 18/09",
