@@ -2492,6 +2492,78 @@
           }
         },
         {
+          "id": "gv-4261f56f57",
+          "name": "MOUZ vs NRG | 17:00 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4261f56f57",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4261f56f57",
+                  "name": "MOUZ vs NRG",
+                  "streams": [
+                    {
+                      "id": "st-4261f56f57",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-44c26024a1",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789618846_hd/1789618846_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-StarLadder StarSeries Fall",
+            "team_a": "MOUZ",
+            "team_b": "NRG",
+            "logo_a": "https://static.flashscore.com/res/image/data/ObrRkAe5-xrMguOa9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8MKjJkzB-EZqRKpYM.png",
+            "time": "17:00:00",
+            "date": "17/09",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/cysm7qhvrfqz_80ae62eb_20260917.png?v=80ae62eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-bcb33a9288",
           "name": "FURIA vs MiBR | 00:30 18/09",
           "type": "single",
