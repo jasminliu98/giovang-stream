@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6607305436",
-          "name": "Navbahor Namangan vs Dinamo Samarkand | 20:00 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6607305436",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6607305436",
-                  "name": "Navbahor Namangan vs Dinamo Samarkand",
-                  "streams": [
-                    {
-                      "id": "st-6607305436",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5ed55cf115",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789571278_hd/1789571278_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uzbekistan Super League",
-            "team_a": "Navbahor Namangan",
-            "team_b": "Dinamo Samarkand",
-            "logo_a": "https://images.keovip88.net/images/teams/navbahor-namangan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/dinamo-samarqand.png",
-            "time": "20:00:00",
-            "date": "17/09",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88a9524d46db870488857_a8e47b9e_20260917.png?v=a8e47b9e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-70e678a9e9",
           "name": "Akron Togliatti vs FC Terek Groznyi | 22:30 17/09",
@@ -1334,83 +1262,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-699d1dd38b",
-          "name": "VIT vs magic | 19:30 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-699d1dd38b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-699d1dd38b",
-                  "name": "VIT vs magic",
-                  "streams": [
-                    {
-                      "id": "st-699d1dd38b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e803a7a169",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789619401_hd/1789619401_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-StarLadder StarSeries Fall",
-            "team_a": "VIT",
-            "team_b": "magic",
-            "logo_a": "https://static.flashscore.com/res/image/data/C8zF3GEG-lG2kTCDf.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/IqG4njFa-CvFEsMDF.png",
-            "time": "19:30:00",
-            "date": "17/09",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/l8qbhhnpnc6r_6d7e9de1_20260917.png?v=6d7e9de1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cfcb893153",
           "name": "NAVI vs Aurora | 22:00 17/09",
