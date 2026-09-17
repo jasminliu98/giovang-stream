@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -233,6 +233,78 @@
           }
         },
         {
+          "id": "gv-643938aa07",
+          "name": "Levski Sofia vs Red Bull Salzburg | 23:45 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-643938aa07",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-643938aa07",
+                  "name": "Levski Sofia vs Red Bull Salzburg",
+                  "streams": [
+                    {
+                      "id": "st-643938aa07",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e22f60e546",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789664452_hd/1789664452_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Levski Sofia",
+            "team_b": "Red Bull Salzburg",
+            "logo_a": "https://images.keovip88.net/images/teams/levski-sofia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/red-bull-salzburg.png",
+            "time": "23:45:00",
+            "date": "17/09",
+            "blv": "Tôm",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a9767c031f9dda47108011f_44886efe_20260918.png?v=44886efe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-0590e3d04a",
           "name": "OFI Crete vs Hoffenheim | 23:45 17/09",
           "type": "single",
@@ -305,78 +377,6 @@
           }
         },
         {
-          "id": "gv-643938aa07",
-          "name": "Levski Sofia vs Red Bull Salzburg | 23:45 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-643938aa07",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-643938aa07",
-                  "name": "Levski Sofia vs Red Bull Salzburg",
-                  "streams": [
-                    {
-                      "id": "st-643938aa07",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e22f60e546",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789664452_hd/1789664452_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "Levski Sofia",
-            "team_b": "Red Bull Salzburg",
-            "logo_a": "https://images.keovip88.net/images/teams/levski-sofia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/red-bull-salzburg.png",
-            "time": "23:45:00",
-            "date": "17/09",
-            "blv": "Tôm",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a9767c031f9dda47108011f_44886efe_20260918.png?v=44886efe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-6520fdef9e",
           "name": "Real Betis vs Getafe | 00:00 18/09",
           "type": "single",
@@ -384,10 +384,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +436,7 @@
             "time": "00:00:00",
             "date": "18/09",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1613,7 +1613,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1698,10 +1698,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1750,7 +1750,7 @@
             "time": "00:00:00",
             "date": "18/09",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -2132,8 +2132,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-cfcb893153",
-          "name": "NAVI vs Aurora | 22:00 17/09",
+          "id": "gv-bcb33a9288",
+          "name": "FURIA vs MiBR | 00:30 18/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2143,78 +2143,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cfcb893153",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cfcb893153",
-                  "name": "NAVI vs Aurora",
-                  "streams": [
-                    {
-                      "id": "st-cfcb893153",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afaba70a49",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789619461_hd/1789619461_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-StarLadder StarSeries Fall",
-            "team_a": "NAVI",
-            "team_b": "Aurora",
-            "logo_a": "https://static.flashscore.com/res/image/data/nyckaNwS-dMZzuAHL.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8dZOBwvS-hvzueWgo.png",
-            "time": "22:00:00",
-            "date": "17/09",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ey2cqaxcww5h_acd9bd97_20260918.png?v=acd9bd97",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bcb33a9288",
-          "name": "FURIA vs MiBR | 00:30 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2263,7 +2191,7 @@
             "time": "00:30:00",
             "date": "18/09",
             "blv": "Mickey",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
