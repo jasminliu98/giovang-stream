@@ -1991,83 +1991,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-e45a8b9d9f",
-          "name": "Los Angeles Dodgers vs Cincinnati Reds | 05:40 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e45a8b9d9f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e45a8b9d9f",
-                  "name": "Los Angeles Dodgers vs Cincinnati Reds",
-                  "streams": [
-                    {
-                      "id": "st-e45a8b9d9f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8e511f428",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789547780_hd/1789547780_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Los Angeles Dodgers",
-            "team_b": "Cincinnati Reds",
-            "logo_a": "https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/tUgxR1zB-hxmcgnNf.png",
-            "time": "05:40:00",
-            "date": "17/09",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/7bk6ymi71m4g_c2725eb1_20260917.png?v=c2725eb1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-684a7dd1ef",
           "name": "Arizona Diamondbacks vs Miami Marlins | 08:40 17/09",
