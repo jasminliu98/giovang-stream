@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -76,7 +76,7 @@
             "time": "12:00:00",
             "date": "17/09",
             "blv": "Bón",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2118,6 +2118,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/lanox2f75lfr_1cb3dbd1_20260917.png?v=1cb3dbd1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-afb94a4393",
+          "name": "Đài Bắc Trung Hoa vs Mông Cổ | 14:00 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-afb94a4393",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-afb94a4393",
+                  "name": "Đài Bắc Trung Hoa vs Mông Cổ",
+                  "streams": [
+                    {
+                      "id": "st-afb94a4393",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1150f3a7b7",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789620065_hd/1789620065_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Đài Bắc Trung Hoa",
+            "team_b": "Mông Cổ",
+            "logo_a": "https://static.flashscore.com/res/image/data/xjrSUIEG-251yRjVj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fcKgsGh5-OEMVS5jc.png",
+            "time": "14:00:00",
+            "date": "17/09",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/5x2cihljx9et_89d9975b_20260917.png?v=89d9975b",
             "width": 1600,
             "height": 1200
           }
