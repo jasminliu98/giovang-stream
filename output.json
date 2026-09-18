@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-456dac5c64",
-          "name": "FC Chelyabinsk vs Bashinformsvyaz-Dynamo Ufa | 21:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-456dac5c64",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-456dac5c64",
-                  "name": "FC Chelyabinsk vs Bashinformsvyaz-Dynamo Ufa",
-                  "streams": [
-                    {
-                      "id": "st-456dac5c64",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6304c24d3c",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789713455_hd/1789713455_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giải Hạng 2 Nga",
-            "team_a": "FC Chelyabinsk",
-            "team_b": "Bashinformsvyaz-Dynamo Ufa",
-            "logo_a": "https://images.keovip88.net/images/teams/chelyabinsk.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fc-ufa.png",
-            "time": "21:00:00",
-            "date": "18/09",
-            "blv": "Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa0a19a24d46db870536bca_ae782983_20260918.png?v=ae782983",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7939c23d18",
           "name": "Neftekhimik Nizhnekamsk vs Ural S.r. | 22:00 18/09",
@@ -1855,83 +1783,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-a1659fda49",
-          "name": "MIBR vs Magic | 17:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a1659fda49",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a1659fda49",
-                  "name": "MIBR vs Magic",
-                  "streams": [
-                    {
-                      "id": "st-a1659fda49",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fc1692f136",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789723457_hd/1789723457_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Lol",
-            "team_a": "MIBR",
-            "team_b": "Magic",
-            "logo_a": "https://static.flashscore.com/res/image/data/YZpD0GWg-zy5VjKZP.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/IqG4njFa-CvFEsMDF.png",
-            "time": "17:00:00",
-            "date": "18/09",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/i2syadujaqdi_9aa2b7b6_20260918.png?v=9aa2b7b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-07b3ba46e2",
           "name": "NRG vs Aurora | 22:00 18/09",
