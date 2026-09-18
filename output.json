@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-7939c23d18",
-          "name": "Neftekhimik Nizhnekamsk vs Ural S.r. | 22:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7939c23d18",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7939c23d18",
-                  "name": "Neftekhimik Nizhnekamsk vs Ural S.r.",
-                  "streams": [
-                    {
-                      "id": "st-7939c23d18",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a2830d8f0d",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789713594_hd/1789713594_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giải Hạng 2 Nga",
-            "team_a": "Neftekhimik Nizhnekamsk",
-            "team_b": "Ural S.r.",
-            "logo_a": "https://images.keovip88.net/images/teams/neftekhimik-nizhnekamsk.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ural-sverdlovsk-oblast.png",
-            "time": "22:00:00",
-            "date": "18/09",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa0a19a24d46db870536bd2_707e0d53_20260919.png?v=707e0d53",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-80eec3639e",
           "name": "Shinnik Yaroslavl vs KamAZ | 22:30 18/09",
@@ -1999,7 +1927,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2084,10 +2012,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2136,7 +2064,7 @@
             "time": "00:30:00",
             "date": "19/09",
             "blv": "Mickey",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "esport"
           },
           "image": {
