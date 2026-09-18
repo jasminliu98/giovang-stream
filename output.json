@@ -11,11 +11,83 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-08de8e0a2d",
+          "name": "Vanraure Hachinohe FC vs Miyazaki | 11:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-08de8e0a2d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-08de8e0a2d",
+                  "name": "Vanraure Hachinohe FC vs Miyazaki",
+                  "streams": [
+                    {
+                      "id": "st-08de8e0a2d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b290ad404e",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789662037_hd/1789662037_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng 2 Nhật Bản",
+            "team_a": "Vanraure Hachinohe FC",
+            "team_b": "Miyazaki",
+            "logo_a": "https://images.keovip88.net/images/teams/vanraure-hachinohe-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/miyazaki.png",
+            "time": "11:00:00",
+            "date": "18/09",
+            "blv": "Hấu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88a9824d46db8704892ad_0bae54f4_20260918.png?v=0bae54f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-fe5f856d56",
           "name": "U23 Philippies vs U23 Việt Nam | 13:30 18/09",
@@ -42,7 +114,25 @@
                     {
                       "id": "st-fe5f856d56",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-f32640e4f4",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789662370_hd/1789662370_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -57,7 +147,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
             "time": "13:30:00",
             "date": "18/09",
-            "blv": "",
+            "blv": "Bee",
             "is_live": false,
             "cate_type": "football"
           },
@@ -74,11 +164,83 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-5e64ba1709",
+          "name": "Chinese Taipei (W) vs Mongolia (W) | 11:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e64ba1709",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5e64ba1709",
+                  "name": "Chinese Taipei (W) vs Mongolia (W)",
+                  "streams": [
+                    {
+                      "id": "st-5e64ba1709",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c16045c275",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789662585_hd/1789662585_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women's basketball match of the Asian Games",
+            "team_a": "Chinese Taipei (W)",
+            "team_b": "Mongolia (W)",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ62Ss5AllP6wiixu-3AAcjXD2dEGon_UoOwRMwkaPF7A&s=10",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/66a4c6ed1029c0338a50ad413bfaf118.jpg",
+            "time": "11:00:00",
+            "date": "18/09",
+            "blv": "Cầy",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/24456379_fab3eb1f_20260918.png?v=fab3eb1f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-953d61c09f",
           "name": "Atlanta Dream vs Connecticut Sun | 06:30 18/09",
@@ -155,11 +317,155 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-093b17eb05",
+          "name": "Kazakhstan vs China | 11:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-093b17eb05",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-093b17eb05",
+                  "name": "Kazakhstan vs China",
+                  "streams": [
+                    {
+                      "id": "st-093b17eb05",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dc7e091ec2",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789662648_hd/1789662648_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Kazakhstan",
+            "team_b": "China",
+            "logo_a": "https://static.flashscore.com/res/image/data/vqsq5vCa-tSGrtxe3.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/4Cu1L1il-tSK2wunr.png",
+            "time": "11:00:00",
+            "date": "18/09",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/uphn7qe1cn8a_95017e32_20260918.png?v=95017e32",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-32077fd191",
+          "name": "Quatar vs Hồng Kông | 11:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-32077fd191",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-32077fd191",
+                  "name": "Quatar vs Hồng Kông",
+                  "streams": [
+                    {
+                      "id": "st-32077fd191",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1c7d85bb38",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789662860_hd/1789662860_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Quatar",
+            "team_b": "Hồng Kông",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/h0FNA5YxLzWChHS5K0o4gw_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/clVmlDCDO7GWBc-a97NfZQ_96x96.png",
+            "time": "11:00:00",
+            "date": "18/09",
+            "blv": "Điếc",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/2vofudkoa26a_14684986_20260918.png?v=14684986",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-c5a8782c02",
           "name": "Việt Nam vs Hàn Quốc | 14:00 18/09",
