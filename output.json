@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-08de8e0a2d",
-          "name": "Vanraure Hachinohe FC vs Miyazaki | 11:00 18/09",
+          "id": "gv-fe5f856d56",
+          "name": "U23 Philippies vs U23 Việt Nam | 13:30 18/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,78 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-08de8e0a2d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-08de8e0a2d",
-                  "name": "Vanraure Hachinohe FC vs Miyazaki",
-                  "streams": [
-                    {
-                      "id": "st-08de8e0a2d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b290ad404e",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789662037_hd/1789662037_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng 2 Nhật Bản",
-            "team_a": "Vanraure Hachinohe FC",
-            "team_b": "Miyazaki",
-            "logo_a": "https://images.keovip88.net/images/teams/vanraure-hachinohe-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/miyazaki.png",
-            "time": "11:00:00",
-            "date": "18/09",
-            "blv": "Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88a9824d46db8704892ad_0bae54f4_20260918.png?v=0bae54f4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-fe5f856d56",
-          "name": "U23 Philippies vs U23 Việt Nam | 13:30 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -148,7 +76,7 @@
             "time": "13:30:00",
             "date": "18/09",
             "blv": "Bee",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
