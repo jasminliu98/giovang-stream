@@ -1555,6 +1555,150 @@
           }
         },
         {
+          "id": "gv-6387e701a1",
+          "name": "Thailand (W) vs China (w) | 08:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6387e701a1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6387e701a1",
+                  "name": "Thailand (W) vs China (w)",
+                  "streams": [
+                    {
+                      "id": "st-6387e701a1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4477991a40",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789749373_hd/1789749373_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women's basketball match of the Asian Games",
+            "team_a": "Thailand (W)",
+            "team_b": "China (w)",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/9c55c280e3d0f86c77ef89d11d3727fe.gif",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b2f29c1f131d0390b8d6c1e596843514.jpg",
+            "time": "08:00:00",
+            "date": "19/09",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/25356379_8de2e7c8_20260918.png?v=8de2e7c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f148549b14",
+          "name": "Golden State Valkyries vs Portland Fire | 09:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f148549b14",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f148549b14",
+                  "name": "Golden State Valkyries vs Portland Fire",
+                  "streams": [
+                    {
+                      "id": "st-f148549b14",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f777fee2d9",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789749451_hd/1789749451_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Golden State Valkyries",
+            "team_b": "Portland Fire",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/687f4fda7efc61afefa80ee3591a56f2.png",
+            "time": "09:00:00",
+            "date": "19/09",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/28325075_6f0b1939_20260918.png?v=6f0b1939",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-66cf156a4a",
           "name": "Melbourne United vs Adelaide 36ers | 16:30 19/09",
           "type": "single",
@@ -2080,83 +2224,11 @@
     },
     {
       "id": "cate_vothuat",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-976a0087c3",
-          "name": "ONE Friday Fights 171 vs The Inner Circle 31 | 18:30 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-976a0087c3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-976a0087c3",
-                  "name": "ONE Friday Fights 171 vs The Inner Circle 31",
-                  "streams": [
-                    {
-                      "id": "st-976a0087c3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-abaa7469ef",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789368501_hd/1789368501_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ONE Friday Fights 171 & The Inner Circle 31",
-            "team_a": "ONE Friday Fights 171",
-            "team_b": "The Inner Circle 31",
-            "logo_a": "https://i.ytimg.com/vi/x1bMzsvdhas/sardefault.jpg?sqp=-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLC0APxKNqRgmiSxfyZiANMBnNHHVw",
-            "logo_b": "https://i.ytimg.com/vi/x1bMzsvdhas/sardefault.jpg?sqp=-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLC0APxKNqRgmiSxfyZiANMBnNHHVw",
-            "time": "18:30:00",
-            "date": "18/09",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "vothuat"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/larx8mie0sk2_87a9d6fb_20260918.png?v=87a9d6fb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a9a3f4d7c8",
           "name": "Van vs Pantoja 2 | 04:00 20/09",
