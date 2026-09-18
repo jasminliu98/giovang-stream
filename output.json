@@ -1023,6 +1023,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-e89dd8d4ed",
+          "name": "Greuther Furth vs FC Magdeburg | 23:30 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e89dd8d4ed",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e89dd8d4ed",
+                  "name": "Greuther Furth vs FC Magdeburg",
+                  "streams": [
+                    {
+                      "id": "st-e89dd8d4ed",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bd8c00a0e6",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789719265_hd/1789719265_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng hai Đức",
+            "team_a": "Greuther Furth",
+            "team_b": "FC Magdeburg",
+            "logo_a": "https://images.keovip88.net/images/teams/greuther-furth.png",
+            "logo_b": "https://images.keovip88.net/images/teams/magdeburg.png",
+            "time": "23:30:00",
+            "date": "18/09",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88a9c24d46db870489db4_c2e50421_20260918.png?v=c2e50421",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
