@@ -1985,6 +1985,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-66cf156a4a",
+          "name": "Melbourne United vs Adelaide 36ers | 16:30 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-66cf156a4a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-66cf156a4a",
+                  "name": "Melbourne United vs Adelaide 36ers",
+                  "streams": [
+                    {
+                      "id": "st-66cf156a4a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1d05e8f9b4",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741804_hd/1789741804_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball League(Australia)",
+            "team_a": "Melbourne United",
+            "team_b": "Adelaide 36ers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/21d2a46a9599ab792dc3a7884839072f.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a6d3d4063e675d1ce3e701153e3f367.png",
+            "time": "16:30:00",
+            "date": "19/09",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/12122276_f7ddfc37_20260918.png?v=f7ddfc37",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-741802528d",
+          "name": "Perth Wildcats vs South East Melbourne Phoenix | 18:30 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-741802528d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-741802528d",
+                  "name": "Perth Wildcats vs South East Melbourne Phoenix",
+                  "streams": [
+                    {
+                      "id": "st-741802528d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-32a21e9b98",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789742230_hd/1789742230_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball League(Australia)",
+            "team_a": "Perth Wildcats",
+            "team_b": "South East Melbourne Phoenix",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d6e217ac051f3258b82d74a932d11ada.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e5c63f30ad74c5c5159f1e7695173ae5.png",
+            "time": "18:30:00",
+            "date": "19/09",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/13122277_e6b66550_20260918.png?v=e6b66550",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
