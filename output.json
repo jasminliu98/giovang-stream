@@ -2054,11 +2054,83 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-642f293687",
+          "name": "JDG vs We | 15:58 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-642f293687",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-642f293687",
+                  "name": "JDG vs We",
+                  "streams": [
+                    {
+                      "id": "st-642f293687",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c44cca4162",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789721636_hd/1789721636_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liên minh huyền thoại",
+            "team_a": "JDG",
+            "team_b": "We",
+            "logo_a": "https://static.flashscore.com/res/image/data/4Aoo4weM-MLEBzXUg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/rFWqQsgl-Mqc5HTbN.png",
+            "time": "15:58:00",
+            "date": "18/09",
+            "blv": "Riko",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/yviywswkqem8_96c5b4a7_20260918.png?v=96c5b4a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-ad44f0312b",
           "name": "VIT vs FURIA | 00:30 19/09",
