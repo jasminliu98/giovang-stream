@@ -11,299 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ac745c22d9",
-          "name": "Bình Định vs TP Hồ Chí Minh | 18:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ac745c22d9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ac745c22d9",
-                  "name": "Bình Định vs TP Hồ Chí Minh",
-                  "streams": [
-                    {
-                      "id": "st-ac745c22d9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-814e54a9b0",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789713222_hd/1789713222_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Quốc gia Việt Nam",
-            "team_a": "Bình Định",
-            "team_b": "TP Hồ Chí Minh",
-            "logo_a": "https://images.keovip88.net/images/teams/binh-dinh.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ho-chi-minh-city.png",
-            "time": "18:00:00",
-            "date": "18/09",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a93733afccd5ecc44060dac_06368351_20260918.png?v=06368351",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8fcec85785",
-          "name": "Nantong Zhiyun vs Guangxi Hengchen | 18:30 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8fcec85785",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8fcec85785",
-                  "name": "Nantong Zhiyun vs Guangxi Hengchen",
-                  "streams": [
-                    {
-                      "id": "st-8fcec85785",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7b6a07ce83",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789713334_hd/1789713334_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng Nhất Trung Quốc",
-            "team_a": "Nantong Zhiyun",
-            "team_b": "Guangxi Hengchen",
-            "logo_a": "https://images.keovip88.net/images/teams/nantong-zhiyun.png",
-            "logo_b": "https://images.keovip88.net/images/teams/guangxi-hengchen.png",
-            "time": "18:30:00",
-            "date": "18/09",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88a9924d46db87048949e_8ed4e06a_20260918.png?v=8ed4e06a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-294047225b",
-          "name": "Madura United vs PSIM Yogyakarta | 19:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-294047225b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-294047225b",
-                  "name": "Madura United vs PSIM Yogyakarta",
-                  "streams": [
-                    {
-                      "id": "st-294047225b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-04edf7e389",
-                          "name": "Tỵ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789715052_hd/1789715052_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Indonesia",
-            "team_a": "Madura United",
-            "team_b": "PSIM Yogyakarta",
-            "logo_a": "https://images.keovip88.net/images/teams/madura-united.png",
-            "logo_b": "https://images.keovip88.net/images/teams/psim-yogyakarta.png",
-            "time": "19:00:00",
-            "date": "18/09",
-            "blv": "Tỵ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88a9924d46db87048951c_19c522fe_20260918.png?v=19c522fe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-50c89b61ea",
-          "name": "Ayutthaya United vs Uthai Thani FC | 19:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-50c89b61ea",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-50c89b61ea",
-                  "name": "Ayutthaya United vs Uthai Thani FC",
-                  "streams": [
-                    {
-                      "id": "st-50c89b61ea",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a69e89dac0",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789713417_hd/1789713417_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Thái Lan",
-            "team_a": "Ayutthaya United",
-            "team_b": "Uthai Thani FC",
-            "logo_a": "https://images.keovip88.net/images/teams/ayutthaya-united.png",
-            "logo_b": "https://images.keovip88.net/images/teams/uthai-thani-fc.png",
-            "time": "19:00:00",
-            "date": "18/09",
-            "blv": "Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88a9924d46db870489505_45521d15_20260918.png?v=45521d15",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-456dac5c64",
           "name": "FC Chelyabinsk vs Bashinformsvyaz-Dynamo Ufa | 21:00 18/09",
@@ -384,10 +96,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +148,7 @@
             "time": "22:00:00",
             "date": "18/09",
             "blv": "Súp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -456,10 +168,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -508,7 +220,7 @@
             "time": "22:30:00",
             "date": "18/09",
             "blv": "Bee",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
