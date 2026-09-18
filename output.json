@@ -593,6 +593,78 @@
           }
         },
         {
+          "id": "gv-cb003443f8",
+          "name": "Bucheon FC 1995 vs Gimcheon Sangmu | 14:30 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb003443f8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cb003443f8",
+                  "name": "Bucheon FC 1995 vs Gimcheon Sangmu",
+                  "streams": [
+                    {
+                      "id": "st-cb003443f8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-94a63e35b6",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789749697_hd/1789749697_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K-League Hàn Quốc",
+            "team_a": "Bucheon FC 1995",
+            "team_b": "Gimcheon Sangmu",
+            "logo_a": "https://images.keovip88.net/images/teams/bucheon-fc-1995.png",
+            "logo_b": "https://images.keovip88.net/images/teams/gimcheon-sangmu-fc.png",
+            "time": "14:30:00",
+            "date": "19/09",
+            "blv": "Bón",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa524d46db87048b85f_58ec05a0_20260918.png?v=58ec05a0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-f1d195df13",
           "name": "Thanh Hóa vs Becamex Bình Dương | 17:00 19/09",
           "type": "single",
@@ -1338,78 +1410,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c58b26fc61",
-          "name": "Dubai vs Real Madrid Teka | 00:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c58b26fc61",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c58b26fc61",
-                  "name": "Dubai vs Real Madrid Teka",
-                  "streams": [
-                    {
-                      "id": "st-c58b26fc61",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-402a5acccd",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789719583_hd/1789719583_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Euroleague SuperCup",
-            "team_a": "Dubai",
-            "team_b": "Real Madrid Teka",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/38e7f6ed6a1053e25c1f5d60fbf563b2.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/baacc764f89f2ce4c22b48768946ca5a.png",
-            "time": "00:00:00",
-            "date": "19/09",
-            "blv": "Tôm",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/33748372_2f42a337_20260918.png?v=2f42a337",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-9028b5b03d",
           "name": "Minnesota Lynx vs New York Liberty | 06:30 19/09",
@@ -2585,6 +2585,159 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/n6a9m7k6zd4z_a0d829ba_20260918.png?v=a0d829ba",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bongchay",
+      "name": "⚾ Bóng Chày",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-6ae27ba67c",
+          "name": "Arizona Diamondbacks vs New York Yankees | 08:40 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6ae27ba67c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6ae27ba67c",
+                  "name": "Arizona Diamondbacks vs New York Yankees",
+                  "streams": [
+                    {
+                      "id": "st-6ae27ba67c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-44a205254b",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789749791_hd/1789749791_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Arizona Diamondbacks",
+            "team_b": "New York Yankees",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/bIi8cJW5Av0W-CHNBzkcCQ_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/kNiURsT2QKUI_jwkbgwPaw_96x96.png",
+            "time": "08:40:00",
+            "date": "19/09",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ku67mw6r0sqk_2fc543e2_20260918.png?v=2fc543e2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c205c3d09e",
+          "name": "San Diego Padres vs Miami Marlins | 08:40 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c205c3d09e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c205c3d09e",
+                  "name": "San Diego Padres vs Miami Marlins",
+                  "streams": [
+                    {
+                      "id": "st-c205c3d09e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-64b148a290",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789749833_hd/1789749833_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "San Diego Padres",
+            "team_b": "Miami Marlins",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/iM_hcWzccgEfD4bo-sp6Wg_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/3ZzeHGeahHzcx1nnzkf_4w_96x96.png",
+            "time": "08:40:00",
+            "date": "19/09",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bl6sufl2u044_6cac71cd_20260918.png?v=6cac71cd",
             "width": 1600,
             "height": 1200
           }
