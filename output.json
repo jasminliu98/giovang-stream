@@ -1239,6 +1239,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-dc5af90b9d",
+          "name": "Brentford vs Chelsea FC | 02:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc5af90b9d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dc5af90b9d",
+                  "name": "Brentford vs Chelsea FC",
+                  "streams": [
+                    {
+                      "id": "st-dc5af90b9d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8343a164ec",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789719936_hd/1789719936_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Brentford",
+            "team_b": "Chelsea FC",
+            "logo_a": "https://images.keovip88.net/images/teams/brentford.png",
+            "logo_b": "https://images.keovip88.net/images/teams/chelsea.png",
+            "time": "02:00:00",
+            "date": "19/09",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa324d46db87048b47a_bb340d3c_20260918.png?v=bb340d3c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8bf80bdbc9",
+          "name": "Espanyol vs Elche | 02:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8bf80bdbc9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8bf80bdbc9",
+                  "name": "Espanyol vs Elche",
+                  "streams": [
+                    {
+                      "id": "st-8bf80bdbc9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-78766605e4",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789720022_hd/1789720022_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Espanyol",
+            "team_b": "Elche",
+            "logo_a": "https://images.keovip88.net/images/teams/rcd-espanyol.png",
+            "logo_b": "https://images.keovip88.net/images/teams/elche.png",
+            "time": "02:00:00",
+            "date": "19/09",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa324d46db87048b48b_5ae00598_20260918.png?v=5ae00598",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
