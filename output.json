@@ -1783,83 +1783,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-07b3ba46e2",
-          "name": "NRG vs Aurora | 22:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-07b3ba46e2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-07b3ba46e2",
-                  "name": "NRG vs Aurora",
-                  "streams": [
-                    {
-                      "id": "st-07b3ba46e2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9a0320c7ad",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789742666_hd/1789742666_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-StarLadder StarSeries Fall",
-            "team_a": "NRG",
-            "team_b": "Aurora",
-            "logo_a": "https://static.flashscore.com/res/image/data/8MKjJkzB-EZqRKpYM.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8dZOBwvS-hvzueWgo.png",
-            "time": "22:00:00",
-            "date": "18/09",
-            "blv": "Mickey",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/4l60ox9edjzk_06da1b82_20260919.png?v=06da1b82",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ad44f0312b",
           "name": "VIT vs FURIA | 00:30 19/09",
