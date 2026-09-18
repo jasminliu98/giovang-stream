@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-dc5af90b9d",
-          "name": "Brentford vs Chelsea FC | 02:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc5af90b9d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-dc5af90b9d",
-                  "name": "Brentford vs Chelsea FC",
-                  "streams": [
-                    {
-                      "id": "st-dc5af90b9d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8343a164ec",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789719936_hd/1789719936_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Brentford",
-            "team_b": "Chelsea FC",
-            "logo_a": "https://images.keovip88.net/images/teams/brentford.png",
-            "logo_b": "https://images.keovip88.net/images/teams/chelsea.png",
-            "time": "02:00:00",
-            "date": "19/09",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa324d46db87048b47a_bb340d3c_20260919.png?v=bb340d3c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8bf80bdbc9",
           "name": "Espanyol vs Elche | 02:00 19/09",
@@ -377,78 +305,6 @@
           }
         },
         {
-          "id": "gv-b430821287",
-          "name": "Meizhou Hakka vs Hebei Gongfu | 18:30 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b430821287",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b430821287",
-                  "name": "Meizhou Hakka vs Hebei Gongfu",
-                  "streams": [
-                    {
-                      "id": "st-b430821287",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9dc4c6c53a",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741124_hd/1789741124_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng Nhất Trung Quốc",
-            "team_a": "Meizhou Hakka",
-            "team_b": "Hebei Gongfu",
-            "logo_a": "https://images.keovip88.net/images/teams/meizhou-hakka.png",
-            "logo_b": "https://images.keovip88.net/images/teams/shijiazhuang-kungfu.png",
-            "time": "18:30:00",
-            "date": "19/09",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa924d46db87048c696_f1d2c062_20260919.png?v=f1d2c062",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-c45fc342ad",
           "name": "Tottenham Hotspur vs Aston Villa | 18:30 19/09",
           "type": "single",
@@ -516,6 +372,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa924d46db87048c5b6_11a13e57_20260919.png?v=11a13e57",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b430821287",
+          "name": "Meizhou Hakka vs Hebei Gongfu | 18:30 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b430821287",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b430821287",
+                  "name": "Meizhou Hakka vs Hebei Gongfu",
+                  "streams": [
+                    {
+                      "id": "st-b430821287",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9dc4c6c53a",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741124_hd/1789741124_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Trung Quốc",
+            "team_a": "Meizhou Hakka",
+            "team_b": "Hebei Gongfu",
+            "logo_a": "https://images.keovip88.net/images/teams/meizhou-hakka.png",
+            "logo_b": "https://images.keovip88.net/images/teams/shijiazhuang-kungfu.png",
+            "time": "18:30:00",
+            "date": "19/09",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa924d46db87048c696_f1d2c062_20260919.png?v=f1d2c062",
             "width": 1600,
             "height": 1200
           }
@@ -1472,6 +1400,222 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-596bcc7209",
+          "name": "Venezia F.C. vs Lazio | 01:45 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-596bcc7209",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-596bcc7209",
+                  "name": "Venezia F.C. vs Lazio",
+                  "streams": [
+                    {
+                      "id": "st-596bcc7209",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-31e8c06cb1",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789764926_hd/1789764926_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Venezia F.C.",
+            "team_b": "Lazio",
+            "logo_a": "https://images.keovip88.net/images/teams/venezia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lazio.png",
+            "time": "01:45:00",
+            "date": "20/09",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ac324d46db8704918bc_26f1e5e7_20260919.png?v=26f1e5e7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-de71c35c24",
+          "name": "Atletico Mineiro vs Chapecoense SC | 02:00 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-de71c35c24",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-de71c35c24",
+                  "name": "Atletico Mineiro vs Chapecoense SC",
+                  "streams": [
+                    {
+                      "id": "st-de71c35c24",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bab7069011",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789764960_hd/1789764960_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Brazil",
+            "team_a": "Atletico Mineiro",
+            "team_b": "Chapecoense SC",
+            "logo_a": "https://images.keovip88.net/images/teams/atletico-mineiro.png",
+            "logo_b": "https://images.keovip88.net/images/teams/chapecoense-sc.png",
+            "time": "02:00:00",
+            "date": "20/09",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ac424d46db870491971_f89100a4_20260919.png?v=f89100a4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e2f3cb187e",
+          "name": "Sevilla vs Barcelona | 02:00 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2f3cb187e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e2f3cb187e",
+                  "name": "Sevilla vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-e2f3cb187e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5965f58feb",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789764987_hd/1789764987_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Sevilla",
+            "team_b": "Barcelona",
+            "logo_a": "https://images.keovip88.net/images/teams/sevilla.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-barcelona.png",
+            "time": "02:00:00",
+            "date": "20/09",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ac424d46db870491942_efc91fa9_20260919.png?v=efc91fa9",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1913,6 +2057,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-8330229058",
+          "name": "Dallas Wings vs Phoenix Mercury | 00:00 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8330229058",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8330229058",
+                  "name": "Dallas Wings vs Phoenix Mercury",
+                  "streams": [
+                    {
+                      "id": "st-8330229058",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-28538c0b3d",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789765048_hd/1789765048_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Dallas Wings",
+            "team_b": "Phoenix Mercury",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/17dcd412f5ecfaa1bc4b85e6e39bc0c4.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f35ccb51f91cd187f149d4d55fc6be24.png",
+            "time": "00:00:00",
+            "date": "20/09",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/29325076_0071b2bf_20260919.png?v=0071b2bf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fcbfd39c04",
+          "name": "Atlanta Dream vs Chicago Sky | 06:00 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fcbfd39c04",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fcbfd39c04",
+                  "name": "Atlanta Dream vs Chicago Sky",
+                  "streams": [
+                    {
+                      "id": "st-fcbfd39c04",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-39f4bbf6aa",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789765069_hd/1789765069_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Atlanta Dream",
+            "team_b": "Chicago Sky",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/0a570e6f3972fccc8370091d6ffdef5e.png",
+            "time": "06:00:00",
+            "date": "20/09",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/10425078_ae61326a_20260919.png?v=ae61326a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1991,6 +2279,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/lfnsc5z6w02x_b19d00be_20260919.png?v=b19d00be",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f99e6480cd",
+          "name": "Germany vs Bulgaria | 23:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f99e6480cd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f99e6480cd",
+                  "name": "Germany vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-f99e6480cd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-92d4bb0b85",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789765092_hd/1789765092_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Championship",
+            "team_a": "Germany",
+            "team_b": "Bulgaria",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/h1FhPLmDg9AHXzhygqvVPg_96x96.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/6VTk1W9r-Iyld3bDd.png",
+            "time": "23:00:00",
+            "date": "19/09",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/iy1ej2j9ya5m_2ba04b61_20260919.png?v=2ba04b61",
             "width": 1600,
             "height": 1200
           }
