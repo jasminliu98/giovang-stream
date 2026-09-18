@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -188,11 +188,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-b07fe08c49",
-                          "name": "Mason",
+                          "id": "lnk-63da259e40",
+                          "name": "Ngọng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789713044_hd/1789713044_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789725670_hd/1789725670_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -219,7 +219,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/9-A8iDJhj09K55En7WPQBg_96x96.png",
             "time": "17:00:00",
             "date": "18/09",
-            "blv": "Mason",
+            "blv": "Ngọng",
             "is_live": true,
             "cate_type": "football"
           },
@@ -240,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -292,7 +292,7 @@
             "time": "17:30:00",
             "date": "18/09",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1685,7 +1685,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1842,10 +1842,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1894,7 +1894,7 @@
             "time": "17:20:00",
             "date": "18/09",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
