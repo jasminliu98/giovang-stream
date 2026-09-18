@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1ac314958a",
-          "name": "Arema Malang vs Persik Kediri | 15:30 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1ac314958a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1ac314958a",
-                  "name": "Arema Malang vs Persik Kediri",
-                  "streams": [
-                    {
-                      "id": "st-1ac314958a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d9bed1f82e",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789712955_hd/1789712955_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Indonesia",
-            "team_a": "Arema Malang",
-            "team_b": "Persik Kediri",
-            "logo_a": "https://images.keovip88.net/images/teams/arema-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/persik-kediri.png",
-            "time": "15:30:00",
-            "date": "18/09",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88a9824d46db8704892fb_ab72b536_20260918.png?v=ab72b536",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b95d0ffce5",
           "name": "Yanbian Longding vs Guangdong GZ-Power | 17:00 18/09",
@@ -305,78 +233,6 @@
           }
         },
         {
-          "id": "gv-ac745c22d9",
-          "name": "Bình Định vs TP Hồ Chí Minh | 18:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ac745c22d9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ac745c22d9",
-                  "name": "Bình Định vs TP Hồ Chí Minh",
-                  "streams": [
-                    {
-                      "id": "st-ac745c22d9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-814e54a9b0",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789713222_hd/1789713222_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Quốc gia Việt Nam",
-            "team_a": "Bình Định",
-            "team_b": "TP Hồ Chí Minh",
-            "logo_a": "https://images.keovip88.net/images/teams/binh-dinh.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ho-chi-minh-city.png",
-            "time": "18:00:00",
-            "date": "18/09",
-            "blv": "Súp",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a93733afccd5ecc44060dac_06368351_20260918.png?v=06368351",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-3080a990b4",
           "name": "Dalian Kun City vs Shanghai Jiading City Fight Fat | 18:00 18/09",
           "type": "single",
@@ -384,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -436,7 +292,7 @@
             "time": "18:00:00",
             "date": "18/09",
             "blv": "Bee",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -444,6 +300,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88a9924d46db870489443_fddea515_20260918.png?v=fddea515",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ac745c22d9",
+          "name": "Bình Định vs TP Hồ Chí Minh | 18:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ac745c22d9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ac745c22d9",
+                  "name": "Bình Định vs TP Hồ Chí Minh",
+                  "streams": [
+                    {
+                      "id": "st-ac745c22d9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-814e54a9b0",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789713222_hd/1789713222_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Quốc gia Việt Nam",
+            "team_a": "Bình Định",
+            "team_b": "TP Hồ Chí Minh",
+            "logo_a": "https://images.keovip88.net/images/teams/binh-dinh.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ho-chi-minh-city.png",
+            "time": "18:00:00",
+            "date": "18/09",
+            "blv": "Súp",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a93733afccd5ecc44060dac_06368351_20260918.png?v=06368351",
             "width": 1600,
             "height": 1200
           }
@@ -1685,83 +1613,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c5a8782c02",
-          "name": "Việt Nam vs Hàn Quốc | 14:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c5a8782c02",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c5a8782c02",
-                  "name": "Việt Nam vs Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "st-c5a8782c02",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-753a5bd91e",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789662698_hd/1789662698_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Việt Nam",
-            "team_b": "Hàn Quốc",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/Uu5pwNmMHGd5bCooKrS3Lw_96x96.png",
-            "time": "14:00:00",
-            "date": "18/09",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/njm3g744wc90_b2e10c6a_20260918.png?v=b2e10c6a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ddd86534e6",
           "name": "Thái Lan vs Đài Bắc Trung Hoa | 17:00 18/09",
