@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -89,6 +89,78 @@
           }
         },
         {
+          "id": "gv-b95d0ffce5",
+          "name": "Yanbian Longding vs Guangdong GZ-Power | 17:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b95d0ffce5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b95d0ffce5",
+                  "name": "Yanbian Longding vs Guangdong GZ-Power",
+                  "streams": [
+                    {
+                      "id": "st-b95d0ffce5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2f383ab15d",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789712999_hd/1789712999_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Trung Quốc",
+            "team_a": "Yanbian Longding",
+            "team_b": "Guangdong GZ-Power",
+            "logo_a": "https://images.keovip88.net/images/teams/yanbian-longding.png",
+            "logo_b": "https://images.keovip88.net/images/teams/guangdong-gz-power.png",
+            "time": "17:00:00",
+            "date": "18/09",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88a9924d46db870489366_cfdf6fad_20260918.png?v=cfdf6fad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-0a962c487a",
           "name": "U23 Kuwait vs U23 Uzbekistan | 17:00 18/09",
           "type": "single",
@@ -156,78 +228,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/uz3jeoptmv0l_b29a78aa_20260918.png?v=b29a78aa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b95d0ffce5",
-          "name": "Yanbian Longding vs Guangdong GZ-Power | 17:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b95d0ffce5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b95d0ffce5",
-                  "name": "Yanbian Longding vs Guangdong GZ-Power",
-                  "streams": [
-                    {
-                      "id": "st-b95d0ffce5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2f383ab15d",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789712999_hd/1789712999_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng Nhất Trung Quốc",
-            "team_a": "Yanbian Longding",
-            "team_b": "Guangdong GZ-Power",
-            "logo_a": "https://images.keovip88.net/images/teams/yanbian-longding.png",
-            "logo_b": "https://images.keovip88.net/images/teams/guangdong-gz-power.png",
-            "time": "17:00:00",
-            "date": "18/09",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88a9924d46db870489366_cfdf6fad_20260918.png?v=cfdf6fad",
             "width": 1600,
             "height": 1200
           }
@@ -1983,6 +1983,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/yviywswkqem8_96c5b4a7_20260918.png?v=96c5b4a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a1659fda49",
+          "name": "MOUZ vs NAVI | 17:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a1659fda49",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a1659fda49",
+                  "name": "MOUZ vs NAVI",
+                  "streams": [
+                    {
+                      "id": "st-a1659fda49",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fc1692f136",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789723457_hd/1789723457_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Lol",
+            "team_a": "MOUZ",
+            "team_b": "NAVI",
+            "logo_a": "https://static.flashscore.com/res/image/data/ObrRkAe5-xrMguOa9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nyckaNwS-dMZzuAHL.png",
+            "time": "17:00:00",
+            "date": "18/09",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/i2syadujaqdi_d7549429_20260918.png?v=d7549429",
             "width": 1600,
             "height": 1200
           }
