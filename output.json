@@ -164,83 +164,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6c679312a6",
-          "name": "Portland Fire vs Phoenix Mercury | 09:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c679312a6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6c679312a6",
-                  "name": "Portland Fire vs Phoenix Mercury",
-                  "streams": [
-                    {
-                      "id": "st-6c679312a6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e866c75b2c",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789662510_hd/1789662510_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Portland Fire",
-            "team_b": "Phoenix Mercury",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/687f4fda7efc61afefa80ee3591a56f2.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f35ccb51f91cd187f149d4d55fc6be24.png",
-            "time": "09:00:00",
-            "date": "18/09",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/24325071_032049e5_20260918.png?v=032049e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5e64ba1709",
           "name": "Chinese Taipei (W) vs Mongolia (W) | 11:00 18/09",
