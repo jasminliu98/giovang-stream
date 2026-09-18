@@ -1845,6 +1845,87 @@
       ]
     },
     {
+      "id": "cate_bongchuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "gv-abf54ef6f4",
+          "name": "Ba Lan vs Latvia | 20:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-abf54ef6f4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-abf54ef6f4",
+                  "name": "Ba Lan vs Latvia",
+                  "streams": [
+                    {
+                      "id": "st-abf54ef6f4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e855e752a0",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789742991_hd/1789742991_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "European Championship",
+            "team_a": "Ba Lan",
+            "team_b": "Latvia",
+            "logo_a": "https://static.flashscore.com/res/image/data/zB15YqDr-vZG58BBc.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/WOJnjGg5-6DGuWIk0.png",
+            "time": "20:00:00",
+            "date": "19/09",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/lfnsc5z6w02x_b19d00be_20260918.png?v=b19d00be",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
       "id": "cate_esport",
       "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
@@ -2063,6 +2144,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/62guyqgkw6jh_322871c8_20260918.png?v=322871c8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-24949bac88",
+          "name": "JDG vs IG | 16:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-24949bac88",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-24949bac88",
+                  "name": "JDG vs IG",
+                  "streams": [
+                    {
+                      "id": "st-24949bac88",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-13202c99e2",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789743111_hd/1789743111_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "LPL Regional Finals",
+            "team_a": "JDG",
+            "team_b": "IG",
+            "logo_a": "https://static.flashscore.com/res/image/data/4Aoo4weM-MLEBzXUg.png",
+            "logo_b": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1634762917340_300px-Invictus_Gaming_logo.png",
+            "time": "16:00:00",
+            "date": "19/09",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/h0x1kjcflqz0_5e228a05_20260918.png?v=5e228a05",
             "width": 1600,
             "height": 1200
           }
