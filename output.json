@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-b5b0606b23",
-          "name": "Nottingham Forest vs Coventry | 23:30 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b5b0606b23",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b5b0606b23",
-                  "name": "Nottingham Forest vs Coventry",
-                  "streams": [
-                    {
-                      "id": "st-b5b0606b23",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2d5c8796b6",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789764786_hd/1789764786_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Nottingham Forest",
-            "team_b": "Coventry",
-            "logo_a": "https://images.keovip88.net/images/teams/nottingham-forest.png",
-            "logo_b": "https://images.keovip88.net/images/teams/coventry-city.png",
-            "time": "23:30:00",
-            "date": "19/09",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88abd24d46db8704905a8_fdc7cdd1_20260920.png?v=fdc7cdd1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-9ab821a113",
           "name": "Celta Vigo vs Racing Santander | 23:30 19/09",
           "type": "single",
@@ -377,6 +305,78 @@
           }
         },
         {
+          "id": "gv-e2f3cb187e",
+          "name": "Sevilla vs Barcelona | 02:00 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2f3cb187e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e2f3cb187e",
+                  "name": "Sevilla vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-e2f3cb187e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5965f58feb",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789764987_hd/1789764987_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Sevilla",
+            "team_b": "Barcelona",
+            "logo_a": "https://images.keovip88.net/images/teams/sevilla.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-barcelona.png",
+            "time": "02:00:00",
+            "date": "20/09",
+            "blv": "Chồn",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ac424d46db870491942_efc91fa9_20260920.png?v=efc91fa9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-de71c35c24",
           "name": "Atletico Mineiro vs Chapecoense SC | 02:00 20/09",
           "type": "single",
@@ -444,78 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ac424d46db870491971_f89100a4_20260920.png?v=f89100a4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e2f3cb187e",
-          "name": "Sevilla vs Barcelona | 02:00 20/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e2f3cb187e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e2f3cb187e",
-                  "name": "Sevilla vs Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-e2f3cb187e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5965f58feb",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789764987_hd/1789764987_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Sevilla",
-            "team_b": "Barcelona",
-            "logo_a": "https://images.keovip88.net/images/teams/sevilla.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fc-barcelona.png",
-            "time": "02:00:00",
-            "date": "20/09",
-            "blv": "Chồn",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ac424d46db870491942_efc91fa9_20260920.png?v=efc91fa9",
             "width": 1600,
             "height": 1200
           }
