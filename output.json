@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c45fc342ad",
-          "name": "Tottenham Hotspur vs Aston Villa | 18:30 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c45fc342ad",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c45fc342ad",
-                  "name": "Tottenham Hotspur vs Aston Villa",
-                  "streams": [
-                    {
-                      "id": "st-c45fc342ad",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-398a9f0593",
-                          "name": "Ben vs Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741328_hd/1789741328_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Tottenham Hotspur",
-            "team_b": "Aston Villa",
-            "logo_a": "https://images.keovip88.net/images/teams/tottenham-hotspur.png",
-            "logo_b": "https://images.keovip88.net/images/teams/aston-villa.png",
-            "time": "18:30:00",
-            "date": "19/09",
-            "blv": "Ben vs Chồn",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa924d46db87048c5b6_11a13e57_20260919.png?v=11a13e57",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b07e222b9d",
           "name": "Osasuna vs Rayo Vallecano | 19:00 19/09",
