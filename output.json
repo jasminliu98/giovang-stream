@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -305,6 +305,78 @@
           }
         },
         {
+          "id": "gv-dc39f50be1",
+          "name": "Monchengladbach vs Mainz | 20:30 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dc39f50be1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dc39f50be1",
+                  "name": "Monchengladbach vs Mainz",
+                  "streams": [
+                    {
+                      "id": "st-dc39f50be1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8a8cb2e7d2",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741420_hd/1789741420_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Monchengladbach",
+            "team_b": "Mainz",
+            "logo_a": "https://images.keovip88.net/images/teams/borussia-monchengladbach.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fsv-mainz-05.png",
+            "time": "20:30:00",
+            "date": "19/09",
+            "blv": "Ngu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ab024d46db87048dc05_ccad5a5e_20260919.png?v=ccad5a5e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-c38403d735",
           "name": "Khai Mạc Asiad 2026 vs Các Môn thể thao | 16:00 19/09",
           "type": "single",
@@ -372,78 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/c2o507qgca6v_915ce5e2_20260919.png?v=915ce5e2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-dc39f50be1",
-          "name": "Monchengladbach vs Mainz | 20:30 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc39f50be1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-dc39f50be1",
-                  "name": "Monchengladbach vs Mainz",
-                  "streams": [
-                    {
-                      "id": "st-dc39f50be1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8a8cb2e7d2",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741420_hd/1789741420_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Monchengladbach",
-            "team_b": "Mainz",
-            "logo_a": "https://images.keovip88.net/images/teams/borussia-monchengladbach.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fsv-mainz-05.png",
-            "time": "20:30:00",
-            "date": "19/09",
-            "blv": "Ngu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ab024d46db87048dc05_ccad5a5e_20260919.png?v=ccad5a5e",
             "width": 1600,
             "height": 1200
           }
@@ -3007,83 +3007,11 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (2 LIVE)",
+      "name": "🎮 Esport (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-24949bac88",
-          "name": "JDG vs IG | 16:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-24949bac88",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-24949bac88",
-                  "name": "JDG vs IG",
-                  "streams": [
-                    {
-                      "id": "st-24949bac88",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-13202c99e2",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789743111_hd/1789743111_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "LPL Regional Finals",
-            "team_a": "JDG",
-            "team_b": "IG",
-            "logo_a": "https://static.flashscore.com/res/image/data/4Aoo4weM-MLEBzXUg.png",
-            "logo_b": "https://am-a.akamaihd.net/image?resize=400:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1634762917340_300px-Invictus_Gaming_logo.png",
-            "time": "16:00:00",
-            "date": "19/09",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/h0x1kjcflqz0_5e228a05_20260919.png?v=5e228a05",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b96b918865",
           "name": "FURIA vs MOUZ | 17:00 19/09",
@@ -3224,6 +3152,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/63dnkraa7s64_8684dc18_20260919.png?v=8684dc18",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-558a0964f6",
+          "name": "AURORA vs VIT | 22:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-558a0964f6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-558a0964f6",
+                  "name": "AURORA vs VIT",
+                  "streams": [
+                    {
+                      "id": "st-558a0964f6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b6c731b45e",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789823344_hd/1789823344_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-StarLadder StarSeries Fall",
+            "team_a": "AURORA",
+            "team_b": "VIT",
+            "logo_a": "https://static.flashscore.com/res/image/data/8dZOBwvS-hvzueWgo.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/C8zF3GEG-lG2kTCDf.png",
+            "time": "22:00:00",
+            "date": "19/09",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/is20ymzr9r9e_02b2bd44_20260919.png?v=02b2bd44",
             "width": 1600,
             "height": 1200
           }
