@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-cb003443f8",
-          "name": "Bucheon FC 1995 vs Gimcheon Sangmu | 14:30 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cb003443f8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cb003443f8",
-                  "name": "Bucheon FC 1995 vs Gimcheon Sangmu",
-                  "streams": [
-                    {
-                      "id": "st-cb003443f8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-94a63e35b6",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789749697_hd/1789749697_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K-League Hàn Quốc",
-            "team_a": "Bucheon FC 1995",
-            "team_b": "Gimcheon Sangmu",
-            "logo_a": "https://images.keovip88.net/images/teams/bucheon-fc-1995.png",
-            "logo_b": "https://images.keovip88.net/images/teams/gimcheon-sangmu-fc.png",
-            "time": "14:30:00",
-            "date": "19/09",
-            "blv": "Bón",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa524d46db87048b85f_58ec05a0_20260919.png?v=58ec05a0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-c38403d735",
           "name": "Khai Mạc Asiad 2026 vs Các Môn thể thao | 16:00 19/09",
           "type": "single",
@@ -312,10 +240,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -364,7 +292,7 @@
             "time": "17:00:00",
             "date": "19/09",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2719,7 +2647,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2797,6 +2725,78 @@
           }
         },
         {
+          "id": "gv-b96b918865",
+          "name": "FURIA vs MOUZ | 17:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b96b918865",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b96b918865",
+                  "name": "FURIA vs MOUZ",
+                  "streams": [
+                    {
+                      "id": "st-b96b918865",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d26792bafd",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789801953_hd/1789801953_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-StarLadder StarSeries Fall",
+            "team_a": "FURIA",
+            "team_b": "MOUZ",
+            "logo_a": "https://static.flashscore.com/res/image/data/G2z2rzf5-EgrECzdn.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/ObrRkAe5-xrMguOa9.png",
+            "time": "17:00:00",
+            "date": "19/09",
+            "blv": "Mickey",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bk3ih9dh1j3o_ed38d46a_20260919.png?v=ed38d46a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-697ee884b4",
           "name": "Hàn Quốc vs Mỹ | 16:00 19/09",
           "type": "single",
@@ -2864,78 +2864,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/63dnkraa7s64_8684dc18_20260919.png?v=8684dc18",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b96b918865",
-          "name": "FURIA vs MOUZ | 17:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b96b918865",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b96b918865",
-                  "name": "FURIA vs MOUZ",
-                  "streams": [
-                    {
-                      "id": "st-b96b918865",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d26792bafd",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789801953_hd/1789801953_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-StarLadder StarSeries Fall",
-            "team_a": "FURIA",
-            "team_b": "MOUZ",
-            "logo_a": "https://static.flashscore.com/res/image/data/G2z2rzf5-EgrECzdn.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/ObrRkAe5-xrMguOa9.png",
-            "time": "17:00:00",
-            "date": "19/09",
-            "blv": "Mickey",
-            "is_live": false,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bk3ih9dh1j3o_ed38d46a_20260919.png?v=ed38d46a",
             "width": 1600,
             "height": 1200
           }
