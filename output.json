@@ -3356,6 +3356,78 @@
           }
         },
         {
+          "id": "gv-e5b990671a",
+          "name": "Malaysia vs Hong Kong China | 13:00 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e5b990671a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e5b990671a",
+                  "name": "Malaysia vs Hong Kong China",
+                  "streams": [
+                    {
+                      "id": "st-e5b990671a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bb6582be49",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789841355_hd/1789841355_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "20th Asian-Cầu lông Woman's Team-R16",
+            "team_a": "Malaysia",
+            "team_b": "Hong Kong China",
+            "logo_a": "https://static.flashscore.com/res/image/data/W6ZspTcM-QHeKqeWC.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/tOHPSkXg-48fOrFoJ.png",
+            "time": "13:00:00",
+            "date": "20/09",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/xxittmzr2tnc_8d596bd6_20260920.png?v=8d596bd6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-5ba8620e1e",
           "name": "Hàn Quốc vs Việt Nam | 16:00 20/09",
           "type": "single",
