@@ -953,6 +953,150 @@
           }
         },
         {
+          "id": "gv-260c8d9f90",
+          "name": "Gangwon FC vs Jeju United FC | 14:30 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-260c8d9f90",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-260c8d9f90",
+                  "name": "Gangwon FC vs Jeju United FC",
+                  "streams": [
+                    {
+                      "id": "st-260c8d9f90",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-da2d88f2e6",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789840035_hd/1789840035_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K-League Hàn Quốc",
+            "team_a": "Gangwon FC",
+            "team_b": "Jeju United FC",
+            "logo_a": "https://images.keovip88.net/images/teams/gangwon-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/jeju-sk-fc.png",
+            "time": "14:30:00",
+            "date": "20/09",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ac624d46db8704922ec_7c34d292_20260920.png?v=7c34d292",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3222d44512",
+          "name": "Jeonbuk Hyundai Motors vs Gwangju FC | 14:30 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3222d44512",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3222d44512",
+                  "name": "Jeonbuk Hyundai Motors vs Gwangju FC",
+                  "streams": [
+                    {
+                      "id": "st-3222d44512",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4501dbfa1f",
+                          "name": "Trung Lập: Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789840057_hd/1789840057_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K-League Hàn Quốc",
+            "team_a": "Jeonbuk Hyundai Motors",
+            "team_b": "Gwangju FC",
+            "logo_a": "https://images.keovip88.net/images/teams/jeonbuk-hyundai-motors.png",
+            "logo_b": "https://images.keovip88.net/images/teams/gwangju-football-club.png",
+            "time": "14:30:00",
+            "date": "20/09",
+            "blv": "Trung Lập: Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ac624d46db870492301_10e648c3_20260920.png?v=10e648c3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-9eb47048fd",
           "name": "Gamba Osaka vs Vissel Kobe | 15:00 20/09",
           "type": "single",
@@ -2037,6 +2181,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/10425078_ae61326a_20260920.png?v=ae61326a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0d0179d4e4",
+          "name": "Hong Kong China (W) vs Philippines (W) | 08:00 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0d0179d4e4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0d0179d4e4",
+                  "name": "Hong Kong China (W) vs Philippines (W)",
+                  "streams": [
+                    {
+                      "id": "st-0d0179d4e4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d9dfaf8bd",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789840177_hd/1789840177_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women's basketball match of the Asian Games",
+            "team_a": "Hong Kong China (W)",
+            "team_b": "Philippines (W)",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/clVmlDCDO7GWBc-a97NfZQ_96x96.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ad2d691bbb1ca57f3fa28f1ef6212c70.png",
+            "time": "08:00:00",
+            "date": "20/09",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/39356373_d6400682_20260920.png?v=d6400682",
             "width": 1600,
             "height": 1200
           }
