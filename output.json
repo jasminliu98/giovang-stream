@@ -17,78 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-f1d195df13",
-          "name": "Thanh Hóa vs Becamex Bình Dương | 17:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f1d195df13",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f1d195df13",
-                  "name": "Thanh Hóa vs Becamex Bình Dương",
-                  "streams": [
-                    {
-                      "id": "st-f1d195df13",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-835fde8e55",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789740601_hd/1789740601_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Quốc gia Việt Nam",
-            "team_a": "Thanh Hóa",
-            "team_b": "Becamex Bình Dương",
-            "logo_a": "https://images.keovip88.net/images/teams/thanh-hoa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/becamex-binh-duong.png",
-            "time": "17:00:00",
-            "date": "19/09",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a93733afccd5ecc44060daf_47321892_20260919.png?v=47321892",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-c45fc342ad",
           "name": "Tottenham Hotspur vs Aston Villa | 18:30 19/09",
           "type": "single",
@@ -305,6 +233,78 @@
           }
         },
         {
+          "id": "gv-874fd944f2",
+          "name": "Bologna vs Torino | 20:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-874fd944f2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-874fd944f2",
+                  "name": "Bologna vs Torino",
+                  "streams": [
+                    {
+                      "id": "st-874fd944f2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4264a26eff",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741389_hd/1789741389_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Bologna",
+            "team_b": "Torino",
+            "logo_a": "https://images.keovip88.net/images/teams/bologna.png",
+            "logo_b": "https://images.keovip88.net/images/teams/torino.png",
+            "time": "20:00:00",
+            "date": "19/09",
+            "blv": "Bee",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aad24d46db87048d2a5_ee5bba29_20260919.png?v=ee5bba29",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-c38403d735",
           "name": "Khai Mạc Asiad 2026 vs Các Môn thể thao | 16:00 19/09",
           "type": "single",
@@ -372,78 +372,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/c2o507qgca6v_915ce5e2_20260919.png?v=915ce5e2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-874fd944f2",
-          "name": "Bologna vs Torino | 20:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-874fd944f2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-874fd944f2",
-                  "name": "Bologna vs Torino",
-                  "streams": [
-                    {
-                      "id": "st-874fd944f2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4264a26eff",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741389_hd/1789741389_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "Bologna",
-            "team_b": "Torino",
-            "logo_a": "https://images.keovip88.net/images/teams/bologna.png",
-            "logo_b": "https://images.keovip88.net/images/teams/torino.png",
-            "time": "20:00:00",
-            "date": "19/09",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aad24d46db87048d2a5_ee5bba29_20260919.png?v=ee5bba29",
             "width": 1600,
             "height": 1200
           }
@@ -1981,83 +1909,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-66cf156a4a",
-          "name": "Melbourne United vs Adelaide 36ers | 16:30 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-66cf156a4a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-66cf156a4a",
-                  "name": "Melbourne United vs Adelaide 36ers",
-                  "streams": [
-                    {
-                      "id": "st-66cf156a4a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-87be161aac",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789805948_hd/1789805948_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "Melbourne United",
-            "team_b": "Adelaide 36ers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/21d2a46a9599ab792dc3a7884839072f.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a6d3d4063e675d1ce3e701153e3f367.png",
-            "time": "16:30:00",
-            "date": "19/09",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/12122276_f7ddfc37_20260919.png?v=f7ddfc37",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-741802528d",
           "name": "Perth Wildcats vs South East Melbourne Phoenix | 18:30 19/09",
@@ -2350,7 +2206,7 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2363,10 +2219,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2415,7 +2271,7 @@
             "time": "20:00:00",
             "date": "19/09",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
