@@ -2291,6 +2291,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-5ba8620e1e",
+          "name": "Hàn Quốc vs Việt Nam | 16:00 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5ba8620e1e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5ba8620e1e",
+                  "name": "Hàn Quốc vs Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-5ba8620e1e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6e3130a87c",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789804495_hd/1789804495_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu LMHT",
+            "team_a": "Hàn Quốc",
+            "team_b": "Việt Nam",
+            "logo_a": "https://static.flashscore.com/res/image/data/6ZpGvVEa-C0A1Du90.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/StTKbSzS-A9PcSp30.png",
+            "time": "16:00:00",
+            "date": "20/09",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ojgh1ezu01rc_6a3dcc04_20260919.png?v=6a3dcc04",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
