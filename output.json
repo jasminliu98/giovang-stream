@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b07e222b9d",
-          "name": "Osasuna vs Rayo Vallecano | 19:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b07e222b9d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b07e222b9d",
-                  "name": "Osasuna vs Rayo Vallecano",
-                  "streams": [
-                    {
-                      "id": "st-b07e222b9d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-50daf1ebe2",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741350_hd/1789741350_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Osasuna",
-            "team_b": "Rayo Vallecano",
-            "logo_a": "https://images.keovip88.net/images/teams/osasuna.png",
-            "logo_b": "https://images.keovip88.net/images/teams/rayo-vallecano.png",
-            "time": "19:00:00",
-            "date": "19/09",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aaa24d46db87048c8a3_5089c7ad_20260919.png?v=5089c7ad",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-874fd944f2",
           "name": "Bologna vs Torino | 20:00 19/09",
@@ -233,95 +161,6 @@
           }
         },
         {
-          "id": "gv-47d9df6e66",
-          "name": "Brighton   Hove Albion vs Arsenal | 21:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-47d9df6e66",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-47d9df6e66",
-                  "name": "Brighton   Hove Albion vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-47d9df6e66",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75e131b841",
-                          "name": "Fan Arsenal: Ngọng + Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741633_hd/1789741633_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-174b164171",
-                          "name": "Trung Lập: Hấu",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741647_hd/1789741647_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Brighton   Hove Albion",
-            "team_b": "Arsenal",
-            "logo_a": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
-            "logo_b": "https://images.keovip88.net/images/teams/arsenal.png",
-            "time": "21:00:00",
-            "date": "19/09",
-            "blv": "Fan Arsenal: Ngọng + Mù, Trung Lập: Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ab124d46db87048e039_4fd824bc_20260919.png?v=4fd824bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-c921b0a47c",
           "name": "Newcastle United vs Hull City | 21:00 19/09",
           "type": "single",
@@ -461,6 +300,95 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ab124d46db87048e046_bbdea928_20260919.png?v=bbdea928",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-47d9df6e66",
+          "name": "Brighton   Hove Albion vs Arsenal | 21:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-47d9df6e66",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-47d9df6e66",
+                  "name": "Brighton   Hove Albion vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-47d9df6e66",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75e131b841",
+                          "name": "Fan Arsenal: Ngọng + Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741633_hd/1789741633_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-174b164171",
+                          "name": "Trung Lập: Hấu",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741647_hd/1789741647_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Brighton   Hove Albion",
+            "team_b": "Arsenal",
+            "logo_a": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
+            "logo_b": "https://images.keovip88.net/images/teams/arsenal.png",
+            "time": "21:00:00",
+            "date": "19/09",
+            "blv": "Fan Arsenal: Ngọng + Mù, Trung Lập: Hấu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ab124d46db87048e039_4fd824bc_20260919.png?v=4fd824bc",
             "width": 1600,
             "height": 1200
           }
@@ -2566,83 +2494,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-abf54ef6f4",
-          "name": "Ba Lan vs Latvia | 20:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-abf54ef6f4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-abf54ef6f4",
-                  "name": "Ba Lan vs Latvia",
-                  "streams": [
-                    {
-                      "id": "st-abf54ef6f4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e855e752a0",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789742991_hd/1789742991_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Championship",
-            "team_a": "Ba Lan",
-            "team_b": "Latvia",
-            "logo_a": "https://static.flashscore.com/res/image/data/zB15YqDr-vZG58BBc.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/WOJnjGg5-6DGuWIk0.png",
-            "time": "20:00:00",
-            "date": "19/09",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/lfnsc5z6w02x_b19d00be_20260919.png?v=b19d00be",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f99e6480cd",
           "name": "Germany vs Bulgaria | 23:00 19/09",
@@ -3007,7 +2863,7 @@
     },
     {
       "id": "cate_esport",
-      "name": "🎮 Esport (1 LIVE)",
+      "name": "🎮 Esport (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3085,6 +2941,78 @@
           }
         },
         {
+          "id": "gv-558a0964f6",
+          "name": "AURORA vs VIT | 22:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-558a0964f6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-558a0964f6",
+                  "name": "AURORA vs VIT",
+                  "streams": [
+                    {
+                      "id": "st-558a0964f6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b6c731b45e",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789823344_hd/1789823344_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-StarLadder StarSeries Fall",
+            "team_a": "AURORA",
+            "team_b": "VIT",
+            "logo_a": "https://static.flashscore.com/res/image/data/8dZOBwvS-hvzueWgo.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/C8zF3GEG-lG2kTCDf.png",
+            "time": "22:00:00",
+            "date": "19/09",
+            "blv": "Mickey",
+            "is_live": true,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/is20ymzr9r9e_02b2bd44_20260919.png?v=02b2bd44",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-697ee884b4",
           "name": "Hàn Quốc vs Mỹ | 16:00 19/09",
           "type": "single",
@@ -3152,78 +3080,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/63dnkraa7s64_8684dc18_20260919.png?v=8684dc18",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-558a0964f6",
-          "name": "AURORA vs VIT | 22:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-558a0964f6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-558a0964f6",
-                  "name": "AURORA vs VIT",
-                  "streams": [
-                    {
-                      "id": "st-558a0964f6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b6c731b45e",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789823344_hd/1789823344_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CS2-StarLadder StarSeries Fall",
-            "team_a": "AURORA",
-            "team_b": "VIT",
-            "logo_a": "https://static.flashscore.com/res/image/data/8dZOBwvS-hvzueWgo.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/C8zF3GEG-lG2kTCDf.png",
-            "time": "22:00:00",
-            "date": "19/09",
-            "blv": "Mickey",
-            "is_live": false,
-            "cate_type": "esport"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/is20ymzr9r9e_02b2bd44_20260919.png?v=02b2bd44",
             "width": 1600,
             "height": 1200
           }
