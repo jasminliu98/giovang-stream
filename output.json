@@ -2665,83 +2665,11 @@
     },
     {
       "id": "cate_bongchay",
-      "name": "⚾ Bóng Chày (2 LIVE)",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6ae27ba67c",
-          "name": "Arizona Diamondbacks vs New York Yankees | 08:40 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ae27ba67c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6ae27ba67c",
-                  "name": "Arizona Diamondbacks vs New York Yankees",
-                  "streams": [
-                    {
-                      "id": "st-6ae27ba67c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-44a205254b",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789749791_hd/1789749791_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB",
-            "team_a": "Arizona Diamondbacks",
-            "team_b": "New York Yankees",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/bIi8cJW5Av0W-CHNBzkcCQ_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/kNiURsT2QKUI_jwkbgwPaw_96x96.png",
-            "time": "08:40:00",
-            "date": "19/09",
-            "blv": "Riko",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ku67mw6r0sqk_2fc543e2_20260919.png?v=2fc543e2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7cc5bdb537",
           "name": "Los Angeles Dodgers vs San Francisco Giants | 09:15 19/09",
