@@ -1604,83 +1604,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8330229058",
-          "name": "Dallas Wings vs Phoenix Mercury | 00:00 20/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8330229058",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8330229058",
-                  "name": "Dallas Wings vs Phoenix Mercury",
-                  "streams": [
-                    {
-                      "id": "st-8330229058",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-28538c0b3d",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789765048_hd/1789765048_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Dallas Wings",
-            "team_b": "Phoenix Mercury",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/17dcd412f5ecfaa1bc4b85e6e39bc0c4.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f35ccb51f91cd187f149d4d55fc6be24.png",
-            "time": "00:00:00",
-            "date": "20/09",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/29325076_0071b2bf_20260920.png?v=0071b2bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-fcbfd39c04",
           "name": "Atlanta Dream vs Chicago Sky | 06:00 20/09",
@@ -2189,83 +2117,11 @@
     },
     {
       "id": "cate_bongchuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f99e6480cd",
-          "name": "Germany vs Bulgaria | 23:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f99e6480cd",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f99e6480cd",
-                  "name": "Germany vs Bulgaria",
-                  "streams": [
-                    {
-                      "id": "st-f99e6480cd",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-92d4bb0b85",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789765092_hd/1789765092_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Championship",
-            "team_a": "Germany",
-            "team_b": "Bulgaria",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/h1FhPLmDg9AHXzhygqvVPg_96x96.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/6VTk1W9r-Iyld3bDd.png",
-            "time": "23:00:00",
-            "date": "19/09",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/iy1ej2j9ya5m_2ba04b61_20260920.png?v=2ba04b61",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-52f2924c26",
           "name": "Thái Lan vs Indonesia | 08:00 20/09",
