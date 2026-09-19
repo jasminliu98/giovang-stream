@@ -1904,6 +1904,150 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-ead4e1e152",
+          "name": "Fiorentina vs Napoli | 17:30 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ead4e1e152",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ead4e1e152",
+                  "name": "Fiorentina vs Napoli",
+                  "streams": [
+                    {
+                      "id": "st-ead4e1e152",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0ca490f73e",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789806188_hd/1789806188_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "Fiorentina",
+            "team_b": "Napoli",
+            "logo_a": "https://images.keovip88.net/images/teams/fiorentina.png",
+            "logo_b": "https://images.keovip88.net/images/teams/napoli.png",
+            "time": "17:30:00",
+            "date": "20/09",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ac924d46db870492c1e_79e2acdd_20260919.png?v=79e2acdd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-30bc6f700e",
+          "name": "U23 Kyrgyzstan vs U23 Nhật bản | 17:30 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-30bc6f700e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-30bc6f700e",
+                  "name": "U23 Kyrgyzstan vs U23 Nhật bản",
+                  "streams": [
+                    {
+                      "id": "st-30bc6f700e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-13be2012da",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789806095_hd/1789806095_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD 2026",
+            "team_a": "U23 Kyrgyzstan",
+            "team_b": "U23 Nhật bản",
+            "logo_a": "https://static.flashscore.com/res/image/data/tlRg5VFG-COd4S2x5.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/S49ci8h5-YqrtLoTa.png",
+            "time": "17:30:00",
+            "date": "20/09",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/esr8ertr7k6u_505b5315_20260919.png?v=505b5315",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
