@@ -1832,6 +1832,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-0432544922",
+          "name": "Hoàng Anh Gia Lai vs Hung Yen | 17:00 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0432544922",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0432544922",
+                  "name": "Hoàng Anh Gia Lai vs Hung Yen",
+                  "streams": [
+                    {
+                      "id": "st-0432544922",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-125c6ad406",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789806056_hd/1789806056_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Quốc gia Việt Nam",
+            "team_a": "Hoàng Anh Gia Lai",
+            "team_b": "Hung Yen",
+            "logo_a": "https://images.keovip88.net/images/teams/hoang-anh-gia-lai.png",
+            "logo_b": "https://images.keovip88.net/images/teams/default.png",
+            "time": "17:00:00",
+            "date": "20/09",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6a93733afccd5ecc44060db0_7e6cd7eb_20260919.png?v=7e6cd7eb",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
