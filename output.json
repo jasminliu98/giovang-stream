@@ -1549,83 +1549,11 @@
     },
     {
       "id": "cate_basketball",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c2df89a70e",
-          "name": "Toronto Tempo vs Indiana Fever | 06:30 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c2df89a70e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c2df89a70e",
-                  "name": "Toronto Tempo vs Indiana Fever",
-                  "streams": [
-                    {
-                      "id": "st-c2df89a70e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1f555771d",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789720433_hd/1789720433_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Toronto Tempo",
-            "team_b": "Indiana Fever",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2144aaf701fac7e3c3caf3853aeb9929.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/2672748dfcca12a59823b97a08ffb22d.png",
-            "time": "06:30:00",
-            "date": "19/09",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/27325074_f50643d8_20260919.png?v=f50643d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6387e701a1",
           "name": "Thailand (W) vs China (w) | 08:00 19/09",
