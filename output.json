@@ -17,6 +17,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-ceb02c7d91",
+          "name": "Oakleigh Cannons vs Avondale FC | 12:30 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ceb02c7d91",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ceb02c7d91",
+                  "name": "Oakleigh Cannons vs Avondale FC",
+                  "streams": [
+                    {
+                      "id": "st-ceb02c7d91",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-943e5720e3",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789784774_hd/1789784774_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NPL Victoria Úc",
+            "team_a": "Oakleigh Cannons",
+            "team_b": "Avondale FC",
+            "logo_a": "https://images.keovip88.net/images/teams/oakleigh-cannons.png",
+            "logo_b": "https://images.keovip88.net/images/teams/avondale-fc.png",
+            "time": "12:30:00",
+            "date": "19/09",
+            "blv": "Bón",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa424d46db87048b7e8_8155fba5_20260919.png?v=8155fba5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-cb003443f8",
           "name": "Bucheon FC 1995 vs Gimcheon Sangmu | 14:30 19/09",
           "type": "single",
