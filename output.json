@@ -89,78 +89,6 @@
           }
         },
         {
-          "id": "gv-0a23283780",
-          "name": "Avispa Fukuoka vs Sanfrecce Hiroshima | 16:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0a23283780",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0a23283780",
-                  "name": "Avispa Fukuoka vs Sanfrecce Hiroshima",
-                  "streams": [
-                    {
-                      "id": "st-0a23283780",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-66aa9c56b3",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789806000_hd/1789806000_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Avispa Fukuoka",
-            "team_b": "Sanfrecce Hiroshima",
-            "logo_a": "https://images.keovip88.net/images/teams/avispa-fukuoka.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hiroshima-sanfrecce.png",
-            "time": "16:00:00",
-            "date": "19/09",
-            "blv": "Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa624d46db87048ba76_4e0620fa_20260919.png?v=4e0620fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-c38403d735",
           "name": "Khai Mạc Asiad 2026 vs Các Môn thể thao | 16:00 19/09",
           "type": "single",
@@ -228,6 +156,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/c2o507qgca6v_915ce5e2_20260919.png?v=915ce5e2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0a23283780",
+          "name": "Avispa Fukuoka vs Sanfrecce Hiroshima | 16:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0a23283780",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0a23283780",
+                  "name": "Avispa Fukuoka vs Sanfrecce Hiroshima",
+                  "streams": [
+                    {
+                      "id": "st-0a23283780",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-66aa9c56b3",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789806000_hd/1789806000_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Avispa Fukuoka",
+            "team_b": "Sanfrecce Hiroshima",
+            "logo_a": "https://images.keovip88.net/images/teams/avispa-fukuoka.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hiroshima-sanfrecce.png",
+            "time": "16:00:00",
+            "date": "19/09",
+            "blv": "Hấu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa624d46db87048ba76_4e0620fa_20260919.png?v=4e0620fa",
             "width": 1600,
             "height": 1200
           }
