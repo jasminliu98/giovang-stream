@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -233,167 +233,6 @@
           }
         },
         {
-          "id": "gv-89bb7f1a56",
-          "name": "Everton vs Ipswich | 21:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89bb7f1a56",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-89bb7f1a56",
-                  "name": "Everton vs Ipswich",
-                  "streams": [
-                    {
-                      "id": "st-89bb7f1a56",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8a1f117335",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741581_hd/1789741581_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Everton",
-            "team_b": "Ipswich",
-            "logo_a": "https://images.keovip88.net/images/teams/everton.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ipswich-town.png",
-            "time": "21:00:00",
-            "date": "19/09",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ab124d46db87048e046_bbdea928_20260919.png?v=bbdea928",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-47d9df6e66",
-          "name": "Brighton   Hove Albion vs Arsenal | 21:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-47d9df6e66",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-47d9df6e66",
-                  "name": "Brighton   Hove Albion vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-47d9df6e66",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75e131b841",
-                          "name": "Fan Arsenal: Ngọng + Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741633_hd/1789741633_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-174b164171",
-                          "name": "Trung Lập: Hấu",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741647_hd/1789741647_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Brighton   Hove Albion",
-            "team_b": "Arsenal",
-            "logo_a": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
-            "logo_b": "https://images.keovip88.net/images/teams/arsenal.png",
-            "time": "21:00:00",
-            "date": "19/09",
-            "blv": "Fan Arsenal: Ngọng + Mù, Trung Lập: Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ab124d46db87048e039_4fd824bc_20260919.png?v=4fd824bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-ff976e0fb1",
           "name": "Athletic Bilbao vs Alaves | 21:15 19/09",
           "type": "single",
@@ -466,6 +305,78 @@
           }
         },
         {
+          "id": "gv-8abcb7f23f",
+          "name": "AS Roma vs Inter Milan | 23:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8abcb7f23f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8abcb7f23f",
+                  "name": "AS Roma vs Inter Milan",
+                  "streams": [
+                    {
+                      "id": "st-8abcb7f23f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cc5ccb1592",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789764765_hd/1789764765_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Seria A",
+            "team_a": "AS Roma",
+            "team_b": "Inter Milan",
+            "logo_a": "https://images.keovip88.net/images/teams/as-roma.png",
+            "logo_b": "https://images.keovip88.net/images/teams/inter-milan.png",
+            "time": "23:00:00",
+            "date": "19/09",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ab924d46db87048fbcd_8c309764_20260919.png?v=8c309764",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-6728f71b5a",
           "name": "VfB Stuttgart vs Borussia Dortmund | 23:30 19/09",
           "type": "single",
@@ -533,78 +444,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88abd24d46db8704905d8_d1108bb2_20260919.png?v=d1108bb2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8abcb7f23f",
-          "name": "AS Roma vs Inter Milan | 23:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8abcb7f23f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8abcb7f23f",
-                  "name": "AS Roma vs Inter Milan",
-                  "streams": [
-                    {
-                      "id": "st-8abcb7f23f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cc5ccb1592",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789764765_hd/1789764765_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "AS Roma",
-            "team_b": "Inter Milan",
-            "logo_a": "https://images.keovip88.net/images/teams/as-roma.png",
-            "logo_b": "https://images.keovip88.net/images/teams/inter-milan.png",
-            "time": "23:00:00",
-            "date": "19/09",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ab924d46db87048fbcd_8c309764_20260919.png?v=8c309764",
             "width": 1600,
             "height": 1200
           }
