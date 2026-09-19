@@ -2221,6 +2221,78 @@
           }
         },
         {
+          "id": "gv-b96b918865",
+          "name": "FURIA vs MOUZ | 17:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b96b918865",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b96b918865",
+                  "name": "FURIA vs MOUZ",
+                  "streams": [
+                    {
+                      "id": "st-b96b918865",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d26792bafd",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789801953_hd/1789801953_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CS2-StarLadder StarSeries Fall",
+            "team_a": "FURIA",
+            "team_b": "MOUZ",
+            "logo_a": "https://static.flashscore.com/res/image/data/G2z2rzf5-EgrECzdn.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/ObrRkAe5-xrMguOa9.png",
+            "time": "17:00:00",
+            "date": "19/09",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "esport"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/bk3ih9dh1j3o_ed38d46a_20260919.png?v=ed38d46a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-e9e18c14a2",
           "name": "LSU vs Ole Miss | 06:30 20/09",
           "type": "single",
