@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8abcb7f23f",
-          "name": "AS Roma vs Inter Milan | 23:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8abcb7f23f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8abcb7f23f",
-                  "name": "AS Roma vs Inter Milan",
-                  "streams": [
-                    {
-                      "id": "st-8abcb7f23f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cc5ccb1592",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789764765_hd/1789764765_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "AS Roma",
-            "team_b": "Inter Milan",
-            "logo_a": "https://images.keovip88.net/images/teams/as-roma.png",
-            "logo_b": "https://images.keovip88.net/images/teams/inter-milan.png",
-            "time": "23:00:00",
-            "date": "19/09",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88ab924d46db87048fbcd_8c309764_20260920.png?v=8c309764",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b5b0606b23",
           "name": "Nottingham Forest vs Coventry | 23:30 19/09",
@@ -2474,6 +2402,78 @@
           }
         },
         {
+          "id": "gv-b27639339d",
+          "name": "China vs Iran | 14:40 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b27639339d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b27639339d",
+                  "name": "China vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-b27639339d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a14c0bd0b9",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789840675_hd/1789840675_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games - Play Offs - 3rd place",
+            "team_a": "China",
+            "team_b": "Iran",
+            "logo_a": "https://static.flashscore.com/res/image/data/IkaPuewS-IkyuUDEE.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/vTTYNOEa-dtzqTXTK.png",
+            "time": "14:40:00",
+            "date": "20/09",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/wyxlwaxfhurh_f9256f76_20260920.png?v=f9256f76",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-73292f7f8d",
           "name": "Japan vs South Korea | 17:40 20/09",
           "type": "single",
@@ -2622,6 +2622,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/iy1ej2j9ya5m_2ba04b61_20260920.png?v=2ba04b61",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-52f2924c26",
+          "name": "Thái Lan vs Indonesia | 08:00 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52f2924c26",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-52f2924c26",
+                  "name": "Thái Lan vs Indonesia",
+                  "streams": [
+                    {
+                      "id": "st-52f2924c26",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-91a8243784",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789841032_hd/1789841032_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Thái Lan",
+            "team_b": "Indonesia",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/kErkaIWGPh_VGrd4T6NwUA_96x96.png",
+            "time": "08:00:00",
+            "date": "20/09",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/oy52qd89bpl0_a5eadb6e_20260920.png?v=a5eadb6e",
             "width": 1600,
             "height": 1200
           }
