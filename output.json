@@ -11,83 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-2ea8254e15",
-          "name": "Urawa Red Diamonds vs Tokyo Verdy | 16:30 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2ea8254e15",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2ea8254e15",
-                  "name": "Urawa Red Diamonds vs Tokyo Verdy",
-                  "streams": [
-                    {
-                      "id": "st-2ea8254e15",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-813166488b",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789806036_hd/1789806036_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Urawa Red Diamonds",
-            "team_b": "Tokyo Verdy",
-            "logo_a": "https://images.keovip88.net/images/teams/urawa-red-diamonds.png",
-            "logo_b": "https://images.keovip88.net/images/teams/tokyo-verdy.png",
-            "time": "16:30:00",
-            "date": "19/09",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa624d46db87048bbd6_17954bfb_20260919.png?v=17954bfb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f1d195df13",
           "name": "Thanh Hóa vs Becamex Bình Dương | 17:00 19/09",
@@ -782,7 +710,7 @@
                         },
                         {
                           "id": "lnk-174b164171",
-                          "name": "Hấu",
+                          "name": "Trung Lập: Hấu",
                           "type": "hls",
                           "default": false,
                           "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741647_hd/1789741647_hd@720p.m3u8",
@@ -812,7 +740,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/arsenal.png",
             "time": "21:00:00",
             "date": "19/09",
-            "blv": "Fan Arsenal: Ngọng + Mù, Hấu",
+            "blv": "Fan Arsenal: Ngọng + Mù, Trung Lập: Hấu",
             "is_live": false,
             "cate_type": "football"
           },
