@@ -2048,6 +2048,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-13344a6dc6",
+          "name": "Hải Phòng vs Thep Can Tho | 18:00 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-13344a6dc6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-13344a6dc6",
+                  "name": "Hải Phòng vs Thep Can Tho",
+                  "streams": [
+                    {
+                      "id": "st-13344a6dc6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9589e82772",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789806210_hd/1789806210_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Quốc gia Việt Nam",
+            "team_a": "Hải Phòng",
+            "team_b": "Thep Can Tho",
+            "logo_a": "https://static.flashscore.com/res/image/data/p0GH54Xg-K8WM297g.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/jJVCdzXg-dYkNb39n.png",
+            "time": "18:00:00",
+            "date": "20/09",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/zlnlspc8btld_c09802ef_20260919.png?v=c09802ef",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
